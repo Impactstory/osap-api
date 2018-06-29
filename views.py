@@ -106,7 +106,6 @@ def get_persons():
     persons = []
     for name in names:
         full_name_dict = HumanName(name).as_dict()
-        print full_name_dict
         simple_name_dict = {
             "family": full_name_dict["last"],
             "given": full_name_dict["first"],
@@ -121,6 +120,7 @@ def get_persons():
         persons.append({
             "id": id,
             "name": simple_name_dict,
+            "num_papers": 3 * len(clean_name),
             "scores": {
                 "oa": oa_score,
                 "code": code_score,
@@ -128,7 +128,10 @@ def get_persons():
                 "total": round((oa_score + code_score + data_score) / 3, 3)
             }
         })
-    return jsonify(persons)
+
+    sorted_persons = sorted(persons, key=lambda k: k["scores"]["total"], reverse=True)
+
+    return jsonify(sorted_persons)
 
 #
 #
