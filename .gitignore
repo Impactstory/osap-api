@@ -1,16 +1,20 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*$py.class
 
 # C extensions
 *.so
 
 # Distribution / packaging
 .Python
+env/
 build/
 develop-eggs/
-dist/
+
+# jason commented this one out because breaks static/dist
+# dist/
+
+local_data/
 downloads/
 eggs/
 .eggs/
@@ -19,11 +23,10 @@ lib64/
 parts/
 sdist/
 var/
-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
+*.temp*
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -43,9 +46,7 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
+*,cover
 
 # Translations
 *.mo
@@ -53,15 +54,6 @@ coverage.xml
 
 # Django stuff:
 *.log
-local_settings.py
-db.sqlite3
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
 
 # Sphinx documentation
 docs/_build/
@@ -69,36 +61,30 @@ docs/_build/
 # PyBuilder
 target/
 
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# pyenv
-.python-version
-
-# celery beat schedule file
-celerybeat-schedule
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.venv
-env/
+# venv
 venv/
-ENV/
-env.bak/
-venv.bak/
 
-# Spyder project settings
-.spyderproject
-.spyproject
+# IDE (added by jason)
+.idea/
 
-# Rope project settings
-.ropeproject
+# sqlite (added by heather)
+*.sqlite
 
-# mkdocs documentation
-/site
+# env setup (added by heather)
+tng-env.sh
 
-# mypy
-.mypy_cache/
+# node modules used in Grunt
+static/node_modules
+
+# CodeKit. Cannot seem to make this work :(
+*codekit*
+codekit*
+codekit-config.json
+static/codekit-config.json
+
+# for markdown previews
+README_cache
+
+# local environment files (added by heather)
+*.env
+
