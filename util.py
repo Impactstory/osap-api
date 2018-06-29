@@ -14,8 +14,6 @@ import heroku3
 import json
 import copy
 from unidecode import unidecode
-from lxml import etree
-from lxml import html
 from sqlalchemy import sql
 from sqlalchemy import exc
 from subprocess import call
@@ -460,17 +458,6 @@ def get_random_dois(n, from_date=None, only_journal_articles=True):
 #             return json.dumps(data, default=self.default, ensure_ascii=True)
 #         except (ValueError, TypeError) as e:
 #             raise elasticsearch.exceptions.SerializationError(data, e)
-
-
-
-def get_tree(page):
-    page = page.replace("&nbsp;", " ")  # otherwise starts-with for lxml doesn't work
-    try:
-        tree = html.fromstring(page)
-    except (etree.XMLSyntaxError, etree.ParserError) as e:
-        print u"not parsing, beause etree error in get_tree: {}".format(e)
-        tree = None
-    return tree
 
 
 def is_the_same_url(url1, url2):
