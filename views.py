@@ -131,7 +131,7 @@ def get_persons():
 
     sorted_persons = sorted(persons, key=lambda k: k["scores"]["total"], reverse=True)
 
-    return jsonify(sorted_persons)
+    return jsonify({"response": sorted_persons})
 
 #
 #
