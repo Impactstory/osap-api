@@ -117,6 +117,7 @@ def get_persons():
 @app.route('/papers', methods=["GET"])
 def get_papers():
     responses = [p.to_dict_sparkline() for p in Pmid.query.all()]
+    return jsonify({"results": responses})
 
 
 if __name__ == "__main__":
