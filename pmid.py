@@ -87,7 +87,7 @@ class Pmid(db.Model):
 
     def to_dict(self):
         response = {
-            "papers": self.id,
+            "pmid": self.id,
             "metadata": {
                 "pubmed_url": u"https://www.ncbi.nlm.nih.gov/pubmed/{}".format(self.id),
                 "pmcid": self.derived_pmcid,

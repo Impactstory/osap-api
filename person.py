@@ -103,7 +103,7 @@ class Person(db.Model):
 
     def to_dict_detailed(self):
         response = self.to_dict_summary()
-        response["pmids"] = [p.to_dict() for p in self.pmids]
+        response["papers"] = [p.to_dict() for p in self.pmids]
         return response
 
 
