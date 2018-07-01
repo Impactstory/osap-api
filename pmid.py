@@ -94,7 +94,8 @@ class Pmid(db.Model):
                 "doi": self.doi,
                 "title": self.title,
                 "year": self.year,
-                "authors": self.authors
+                "authors": self.authors,
+                "journal": "Nature"
             },
             "scores": {
                 "oa": self.score_oa,
