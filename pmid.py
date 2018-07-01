@@ -58,7 +58,7 @@ class Pmid(db.Model):
             self.score_code = 1
 
     def update_score_data(self):
-        self.score_data = 0
+        # self.score_data = 0
         filter = "+and+dryad"
         response = self.call_europepmc(filter)
         if response:
@@ -98,7 +98,7 @@ class Pmid(db.Model):
                 "journal": "Nature"
             },
             "is_open": {
-                "oa": True if self.score_oa  else False,
+                "paper": True if self.score_oa  else False,
                 "code": True if self.score_code  else False,
                 "data": True if self.score_data  else False
             }

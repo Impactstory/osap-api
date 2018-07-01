@@ -114,7 +114,7 @@ class Person(db.Model):
             "nih_webpage": self.nih_webpage,
             "num_papers": self.num_pubs,
             "scores": {
-                "oa": self.score_oa,
+                "paper": self.score_oa,
                 "code": self.score_code,
                 "data": self.score_data,
                 "total": self.score_total
