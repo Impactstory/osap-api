@@ -51,6 +51,12 @@ class Person(db.Model):
     def display_name(self):
         return u"{} {}".format(self.parsed_name.first, self.parsed_name.last)
 
+    @property
+    def nih_webpage(self):
+        if not self.nih_id:
+            return None
+        return "https://irp.nih.gov/pi/{}".format(self.nih_id)
+
     def set_normalized_name(self):
         self.normalized_name = normalize(self.raw_name)
 
@@ -63,6 +69,7 @@ class Person(db.Model):
         response["pmids"] = [p.to_dict() for p in self.pmids]
         return response
 
+
     def to_dict_summary(self):
         oa_score = round(.8 + .2*((ord(self.display_name[2]) - 96.0) / 26), 3)
         code_score = round(0.2 * (ord(self.display_name[3]) - 96.0) / 26, 3)
@@ -70,7 +77,7 @@ class Person(db.Model):
         response = {
             "id": self.id,
             "name": self.parsed_name_simple_dict,
-            "nih_id": self.nih_id,
+            "nih_webpage": self.nih_webpage,
             "num_papers": len(self.pmids),
             "scores": {
                 "oa": oa_score,
