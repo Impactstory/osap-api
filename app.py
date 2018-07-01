@@ -1,13 +1,13 @@
 from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
+from flask_compress import Compress
+from sqlalchemy.pool import NullPool
 
 import logging
 import sys
 import os
 import requests
-import requests_cache
 
-requests_cache.install_cache('my_requests_cache', expire_after=60*60*24*1)  # expire_after is in seconds
-requests_cache.clear()
 
 # set up logging
 # see http://wiki.pylonshq.com/display/pylonscookbook/Alternative+logging+configuration
@@ -29,6 +29,10 @@ libraries_to_mum = [
     "citeproc",
     "newrelic",
     "RateLimiter",
+    "requests",
+    "urllib3",
+    "paramiko",
+    "chardet"
 ]
 
 for a_library in libraries_to_mum:
@@ -40,5 +44,23 @@ requests.packages.urllib3.disable_warnings()
 
 app = Flask(__name__)
 
+# database stuff
+app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = True  # as instructed, to suppress warning
+app.config["SQLALCHEMY_DATABASE_URI"] = os.getenv("DATABASE_URL")
+app.config['SQLALCHEMY_ECHO'] = (os.getenv("SQLALCHEMY_ECHO", False) == "True")
 
+# from http://stackoverflow.com/a/12417346/596939
+class NullPoolSQLAlchemy(SQLAlchemy):
+    def apply_driver_hacks(self, app, info, options):
+        options['poolclass'] = NullPool
+        return super(NullPoolSQLAlchemy, self).apply_driver_hacks(app, info, options)
+
+db = NullPoolSQLAlchemy(app, session_options={"autoflush": False})
+
+# do compression.  has to be above flask debug toolbar so it can override this.
+compress_json = os.getenv("COMPRESS_DEBUG", "False")=="True"
+
+# gzip responses
+Compress(app)
+app.config["COMPRESS_DEBUG"] = compress_json
 

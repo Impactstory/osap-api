@@ -4,15 +4,15 @@ from flask import abort
 from flask import render_template
 from flask import jsonify
 from nameparser import HumanName
-
 import json
 import os
 import sys
-import requests
-import re
-from util import normalize
+import shortuuid
+
+from person import Person
 
 from app import app
+from app import db
 
 def json_dumper(obj):
     """
@@ -100,38 +100,18 @@ def index_endpoint():
         "msg": "Don't panic"
     })
 
+
+@app.route('/person/<id>', methods=["GET"])
+def get_person(id):
+    my_person = Person.query.get(id)
+    return jsonify({"results": my_person.to_dict_detailed()})
+
+
 @app.route('/persons', methods=["GET"])
 def get_persons():
-    names = list(set(['Mortimer  Mishkin, PhD ', 'Carolyn E Beebe, PhD ', 'Miles  Herkenham, PhD ', 'Mortimer  Mishkin, PhD ', 'Barry J Richmond, MD ', 'Leslie G Ungerleider, PhD ', 'Mortimer  Mishkin, PhD ', 'Lee E Eiden, PhD ', 'Charles R Gerfen, PhD ', 'Walter Scott Young, MD, PhD ', 'Peter J Schmidt, MD ', 'Judith L Rapoport, MD ', 'Alex  Martin, PhD ', 'Barry J Richmond, MD ', 'Karen F Berman, MD ', 'Susan Elizabeth Swedo, MD ', 'Karen F Berman, MD ', 'Elisabeth Adams Murray, PhD ', 'Barry Bernard Kaplan, PhD ', 'Ellen  Leibenluft, MD ', 'Daniel  Pine, MD ', 'Daniel  Pine, MD ', 'Peter A Bandettini, BS, PhD ', 'Heather A Cameron, PhD ', 'Ellen  Leibenluft, MD ', 'Victor W Pike, PhD ', 'Robert  Innis, MD ', 'Dietmar  Plenz, PhD ', 'Christian  Grillon, PhD ', 'Benjamin H White, PhD ', 'Jun  Shen, PhD ', 'Kathleen R Merikangas, PhD ', 'Francis Joseph McMahon, MD ', 'David A Leopold, PhD ', 'Francis Joseph McMahon, MD ', 'Francis Joseph McMahon, MD ', 'Robert  Innis, MD ', 'Carlos Alberto Zarate, MD ', 'Karen F Berman, MD ', 'Peter J Schmidt, MD ', 'Susan Elizabeth Swedo, MD ', 'Peter J Schmidt, MD ', 'Zheng  Li, PhD ', 'Zheng  Li, PhD ', 'Elisabeth Adams Murray, PhD ', 'Elisabeth Adams Murray, PhD ', 'Richard  Coppola, SB, DSc ', 'Christopher Ian Baker, PhD ', 'David A Leopold, PhD ', 'Kuan Hong Wang, PhD ', 'David A Leopold, PhD ', 'Christopher Ian Baker, PhD ', 'Susan G Amara, PhD ', 'Leslie G Ungerleider, PhD ', 'Alex  Martin, PhD ', 'Maryland  Pao, MD ', 'Carlos Alberto Zarate, MD ', 'Bruno B Averbeck ', 'Peter J Schmidt, MD ', 'Carolyn E Beebe, PhD ', 'Carolyn E Beebe, PhD ', 'Karen F Berman, MD ', 'Susan G Amara, PhD ', 'Carolyn E Beebe, PhD ', 'Armin  Raznahan ', 'Mario Alexander Penzo ', 'Yogita  Chudasama, PhD ', 'Kathleen R Merikangas, PhD ', 'Kathleen R Merikangas, PhD ', 'Sarah Hollingsworth Lisanby ', 'Mark H Histed, PhD ', 'Argyrios  Stringaris ', 'Arash  Afraz, MD, PhD ', 'Soohyun  Lee ', 'Samer Saleh Hattar ', 'Yin Y Yao, PhD ', 'Elisha Prem Merriam ', 'Mark H Histed, PhD ', 'Peter A Bandettini, BS, PhD ', 'Robert  Cox, PhD ', 'Richard  Coppola, SB, DSc ', 'Jun  Shen, PhD ', 'David A Leopold, PhD ', 'James M Pickel, AB, PhD ', 'Barbara K Lipska, PhD ', 'George Raphael Dold, MME, BSEE ', 'Yogita  Chudasama, PhD ', 'Adam G Thomas, PhD ', 'Audrey E Thurm, PhD ', 'Ashura  Buckley ', 'Theodore B Usdin, MD, PhD ', 'Maryland  Pao, MD ', 'Maryland  Pao, MD ', 'James  Raber, DVM, PhD ', 'Susan G Amara, PhD ', 'Janet Elizabeth Clark ', 'Jennifer S Wong ']))
-    persons = []
-    for name in names:
-        full_name_dict = HumanName(name).as_dict()
-        simple_name_dict = {
-            "family": full_name_dict["last"],
-            "given": full_name_dict["first"],
-            "middle": full_name_dict["middle"],
-            "suffix": full_name_dict["suffix"]
-        }
-        clean_name = name.strip()
-        id = normalize(u"{} {}".format(full_name_dict["first"], full_name_dict["last"]))
-        oa_score = round(.8 + .2*((ord(id[0]) - 96.0) / 26), 3)
-        code_score = round(0.2 * (ord(id[1]) - 96.0) / 26, 3)
-        data_score = round(0.2 * (ord(id[2]) - 96.0) / 26, 3)
-        persons.append({
-            "id": id,
-            "name": simple_name_dict,
-            "num_papers": 3 * len(clean_name),
-            "scores": {
-                "oa": oa_score,
-                "code": code_score,
-                "data": data_score,
-                "total": round((oa_score + code_score + data_score) / 3, 3)
-            }
-        })
-
-    sorted_persons = sorted(persons, key=lambda k: k["scores"]["total"], reverse=True)
-
-    return jsonify({"response": sorted_persons})
+    responses = [p.to_dict_summary() for p in Person.query.all()]
+    sorted_responses = sorted(responses, key=lambda k: k["scores"]["total"], reverse=True)
+    return jsonify({"results": sorted_responses})
 
 #
 #
