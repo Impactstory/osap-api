@@ -115,7 +115,7 @@ def get_persons():
     return jsonify({"results": sorted_responses})
 
 @app.route('/papers', methods=["GET"])
-def get_persons():
+def get_papers():
     responses = [p.to_dict_sparkline() for p in Pmid.query.all()]
 
 
