@@ -59,7 +59,7 @@ class Pmid(db.Model):
 
     def update_score_data(self):
         # self.score_data = 0
-        filter = "+and+dryad"
+        filter = "+and+(dryad+or+figshare)"
         response = self.call_europepmc(filter)
         if response:
             print "found open data!"
