@@ -7,7 +7,8 @@ loop = 0
 pmid_pubs = Pmid.query.all()
 for pmid_pub in pmid_pubs:
     # pmid_pub.update_from_europepmc()
-    pmid_pub.update_score_oa()
+    # pmid_pub.update_score_oa()
+    pmid_pub.update_score_code()
     print u"updated {}!".format(pmid_pub.id)
     loop += 1
     if loop > 25:

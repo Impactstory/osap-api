@@ -69,19 +69,33 @@ class Person(db.Model):
         if self.num_pubs == 0:
             return 0
 
-        num_oa = 0.0
+        num = 0.0
         for pmid_pub in self.pmids:
             if pmid_pub.score_oa:
-                num_oa += 1.0
-        return num_oa/self.num_pubs
+                num += 1.0
+        return num/self.num_pubs
 
     @property
     def score_code(self):
-        return 0
+        if self.num_pubs == 0:
+            return 0
+
+        num = 0.0
+        for pmid_pub in self.pmids:
+            if pmid_pub.score_code:
+                num += 1.0
+        return num/self.num_pubs
 
     @property
     def score_data(self):
-        return 0
+        if self.num_pubs == 0:
+            return 0
+
+        num = 0.0
+        for pmid_pub in self.pmids:
+            if pmid_pub.score_data:
+                num += 1.0
+        return num/self.num_pubs
 
     @property
     def score_total(self):
