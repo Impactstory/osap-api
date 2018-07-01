@@ -10,6 +10,7 @@ import sys
 import shortuuid
 
 from person import Person
+from pmid import Pmid
 
 from app import app
 from app import db
@@ -113,21 +114,9 @@ def get_persons():
     sorted_responses = sorted(responses, key=lambda k: k["scores"]["total"], reverse=True)
     return jsonify({"results": sorted_responses})
 
-#
-#
-# @app.route("/product/<path:id>", methods=["GET"])
-# def citeas_product_get(id):
-#     my_software = Software(id)
-#     my_software.find_metadata()
-#     return jsonify(my_software.to_dict())
-#
-# @app.route("/steps", methods=["GET"])
-# @app.route("/steps/", methods=["GET"])
-# def citeas_step_configs():
-#     return jsonify(step_configs())
-
-
-
+@app.route('/papers', methods=["GET"])
+def get_persons():
+    responses = [p.to_dict_sparkline() for p in Pmid.query.all()]
 
 
 if __name__ == "__main__":

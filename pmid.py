@@ -85,6 +85,20 @@ class Pmid(db.Model):
     def authors(self):
         return self.get_from_europepmc_api_raw("authorString")
 
+    def to_dict_sparkline(self):
+        response = {
+            "pmid": self.id,
+            "metadata": {
+                "year": self.year,
+            },
+            "is_open": {
+                "paper": True if self.score_oa  else False,
+                "code": True if self.score_code  else False,
+                "data": True if self.score_data  else False
+            }
+        }
+        return response
+
     def to_dict(self):
         response = {
             "pmid": self.id,
