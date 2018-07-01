@@ -70,6 +70,7 @@ class Person(db.Model):
         response = {
             "id": self.id,
             "name": self.parsed_name_simple_dict,
+            "nih_id": self.nih_id,
             "num_papers": len(self.pmids),
             "scores": {
                 "oa": oa_score,
