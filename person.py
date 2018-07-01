@@ -64,6 +64,29 @@ class Person(db.Model):
     def num_pubs(self):
         return len(self.pmids)
 
+    @property
+    def score_oa(self):
+        if self.num_pubs == 0:
+            return 0
+
+        num_oa = 0.0
+        for pmid_pub in self.pmids:
+            if pmid_pub.score_oa:
+                num_oa += 1.0
+        return num_oa/self.num_pubs
+
+    @property
+    def score_code(self):
+        return round(0.2 * (ord(self.display_name[3]) - 96.0) / 26, 3)
+
+    @property
+    def score_data(self):
+        return round(0.2 * (ord(self.display_name[4]) - 96.0) / 26, 3)
+
+    @property
+    def score_total(self):
+        return round((self.score_oa + self.score_code + self.score_data) / 3, 3)
+
     def to_dict_detailed(self):
         response = self.to_dict_summary()
         response["pmids"] = [p.to_dict() for p in self.pmids]
@@ -71,19 +94,16 @@ class Person(db.Model):
 
 
     def to_dict_summary(self):
-        oa_score = round(.8 + .2*((ord(self.display_name[2]) - 96.0) / 26), 3)
-        code_score = round(0.2 * (ord(self.display_name[3]) - 96.0) / 26, 3)
-        data_score = round(0.2 * (ord(self.display_name[4]) - 96.0) / 26, 3)
         response = {
             "id": self.id,
             "name": self.parsed_name_simple_dict,
             "nih_webpage": self.nih_webpage,
-            "num_papers": len(self.pmids),
+            "num_papers": self.num_pubs,
             "scores": {
-                "oa": oa_score,
-                "code": code_score,
-                "data": data_score,
-                "total": round((oa_score + code_score + data_score) / 3, 3)
+                "oa": self.score_oa,
+                "code": self.score_code,
+                "data": self.score_data,
+                "total": self.score_total
             }
         }
         return response
