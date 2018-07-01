@@ -87,9 +87,9 @@ class Pmid(db.Model):
 
     def to_dict(self):
         response = {
-            "pmid": self.id,
-            "pubmed_url": u"https://www.ncbi.nlm.nih.gov/pubmed/{}".format(self.id),
+            "papers": self.id,
             "metadata": {
+                "pubmed_url": u"https://www.ncbi.nlm.nih.gov/pubmed/{}".format(self.id),
                 "pmcid": self.derived_pmcid,
                 "doi": self.doi,
                 "title": self.title,
@@ -97,10 +97,10 @@ class Pmid(db.Model):
                 "authors": self.authors,
                 "journal": "Nature"
             },
-            "scores": {
-                "oa": self.score_oa,
-                "code": self.score_code,
-                "data": self.score_data
+            "is_open": {
+                "oa": True if self.score_oa  else False,
+                "code": True if self.score_code  else False,
+                "data": True if self.score_data  else False
             }
         }
         return response

@@ -104,7 +104,7 @@ def index_endpoint():
 @app.route('/person/<id>', methods=["GET"])
 def get_person(id):
     my_person = Person.query.get(id)
-    return jsonify({"results": my_person.to_dict_detailed()})
+    return jsonify(my_person.to_dict_detailed())
 
 
 @app.route('/persons', methods=["GET"])
