@@ -77,15 +77,15 @@ class Person(db.Model):
 
     @property
     def score_code(self):
-        return round(0.2 * (ord(self.display_name[3]) - 96.0) / 26, 3)
+        return 0
 
     @property
     def score_data(self):
-        return round(0.2 * (ord(self.display_name[4]) - 96.0) / 26, 3)
+        return 0
 
     @property
     def score_total(self):
-        return round((self.score_oa + self.score_code + self.score_data) / 3, 3)
+        return round((0.0+ self.score_oa + self.score_code + self.score_data) / 3, 3)
 
     def to_dict_detailed(self):
         response = self.to_dict_summary()
