@@ -1,0 +1,610 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002898</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002898-07</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Social processing and neural plasticity
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+David A Leopold; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/david-leopold" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Cognitive Neurophysiology and Imaging, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Cognitive Neurophysiology and Imaging</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Heba Dia-Eldin Elnaiem<br />
+
+
+
+
+Adam Patrick Jones<br />
+
+
+
+
+David Brian Thomas McMahon<br />
+
+
+
+
+Brian E Russ<br />
+
+
+
+
+Kathryn A Smith<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Sebastian  Guderian  (Section on Cognitive Neuroscience)<br />
+
+
+
+Peter Matthew Kaskan; PhD  (Section on Neurobiology of Learning and Memory)<br />
+
+
+
+Mortimer  Mishkin; PhD  (Section on Cognitive Neuroscience)<br />
+
+
+
+Elisabeth Adams Murray; PhD  (Section on Neurobiology of Learning and Memory)<br />
+
+
+
+Barry J Richmond; MD  (Section on Neural Coding and Computation)<br />
+
+
+
+Leslie G Ungerleider; PhD  (Laboratory of Brain and Cognition)<br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Pascal  Belin
+<i>(University of Glasgow)</i>
+<br />
+
+
+
+Igor  Bondar; PhD
+<i>(Institute for Higher Nervous Activity)</i>
+<br />
+
+
+
+Pier  Ferrari; PhD
+<i>(Biology, Univesity of Parma)</i>
+<br />
+
+
+
+Daniel  Javitt
+<i>(Nathan Kline)</i>
+<br />
+
+
+
+Gillian  Rhodes; PhD
+<i>(Psychology, University of Western Australia)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+social perception, face recognition, visual adaptation, dynamic visual stimuli, event-related fMRI, inferotemporal cortex
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The quick and accurate interpretation of social stimuli is critical for primate survival, as it mediates interaction between offspring and parent, sexual partners, and territorial rivals.  Human social perception, like that of monkeys, focuses on the visual appearance of the face and body. Because faces have moveable internal features, and are thus inherently dynamic, they represent a special type of visual stimulus that an elaborated cortical decoding apparatus.  Since faces and bodies convey emotion, intention, and a variety of other messages, the decoding apparatus must be strongly linked to high-level cognitive centers, and must also be able to learn.   In the Section on Cognitive Neurophysiology and Imaging, we are using fMRI and electrophysiological to study both the coding principles for social stimuli, as well as the manner in which complex patterns are learned, retained, and recognized.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Three studies investigate neural activity in the ventral pathway, including the inferotemporal cortex (IT), each using a novel experimental approach.  The overall focus is on how the brain processes dynamic, social stimuli, such as faces and bodies.  How the brain registers and interprets these stimuli, extracting both coarse and precise information about conspecifics and heterospecifics, is of great interest for understanding the visual brain, as well as for understanding how such processes are affected in certain psychiatric diseases.<br /><br />In the first study, we ask how neurons in IT acquire, maintain, and change their stimulus response selectivity over time. To this end, we developed a chronic recording array of inertialess microwires that were capable of following the activity of single neurons across multiple days. We first used this technique to demonstrate that, in the absence of explicit learning pressure, the pattern of visual responses evoked by large sets of stimuli is remarkably stable over periods of as long as one month. We then asked how the acquisition of new perceptual expertise affects the visual responses of IT neurons. Monkeys were trained to sort large stimulus sets into two different categories based on reward outcome. Learning altered the visual responses in 68% (21/31) of longitudinally recorded spiking responses. These changes included both activity increases and decreases, and in some cases lead to the genesis of new spiking responses to stimuli that were previously ineffective at driving the cell. Learning-related changes were also evident in the local field potential. Although the monkeys' behavior indicated that perceptual learning was essentially complete after a one hour training session, the learning-induced changes in IT visual responses did not emerge until 24 hours later. This delayed expression of neural plasticity indicates that changes in IT visual responses are a consequence of learning, rather than the causal driver of learning, and may reflect a process of memory consolidation.<br /><br />The second study investigates the functional layout of the ventral visual pathway of the common marmoset, testing responses to stimulus categories commonly tested in humans and macaques. In collaboration with Dr. Afonso Silva from NINDS, we have for the first time measured fMRI and electrocorticography responses in trained, behaving marmosets, and we describe a network of discrete face- and body-selective patches in the marmoset object pathway. Understanding the relationship of these patches to those commonly observed in in macaques and humans may shed new light on the principles of high-level category representation in the primate brain. <br /><br />The third study involves the measurement and decipherment of electrophysiological and fMRI signals in the macaque brain during the free viewing of natural videos. While natural viewing paradigms are, almost by definition, less controlled than conventional testing designs, they provide alternate and important perspectives on processing in brain areas such as IT.  For example, we have shown that motion signals are, quite unexpectedly, the primary determinant of fMRI activity in the ventral object pathway. We have also found that while nearby neurons in a face patch all respond reliably to a natural movie, their reliable responses are nearly uncorrelated with one another. Neurons in the IT cortex respond to diverse types of complex stimuli, including natural categories such as faces or biological movement. Monkey electrophysiology experiments typically assess neural response selectivity by presenting multiple, short duration stimuli while the animal fixates a small point. The responses of a given neuron are typically evaluated over the course of an hour or two. Here we consider how IT neurons respond under more naturalistic viewing conditions, in which the animal freely views dynamic videos of conspecifics and heterospecifics in a range of social contexts. Using chronically implanted microwire arrays (Bondar et al, 2009), we further evaluate the extent to which neurons respond similarly to a video over much longer periods. Three rhesus macaques repeatedly viewed up to 12 different five-minute movies varying in social content. We collected spiking and broadband field potential responses from 32 and 64 channel microwire bundles chronically implanted in the lower bank and fundus of the superior temporal sulcus (STS). Analysis of gaze position revealed a high degree of overlap in fixation targets between viewings, and particularly those surrounding salient social events. Moreover, epochs of high and low spiking were strikingly consistent between multiple viewings of the same movie, even when they were not obviously linked to specific stimulus variables such as faces, bodies, or movement. Analysis of single units maintained over multiple sessions (up to four months) revealed that such consistency was also observed across different days and even over several weeks. Neural responses to individual events were robust to shuffling of the individual scenes at approximately 40 second long time scales. These results demonstrate that the repeated viewing approach provides a window into the role of individual neurons in the encoding of complex stimulus sequences, even under conditions in which the primary determinants of neural responsiveness cannot be summarized in terms identifiable high- or low-level stimulus features.  These and other observations raise new questions about how our current experimental understanding of face and object representation in the ventral stream should be understood in the context of the brain's normal modes of operation.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81243&allpubs=Y&isajaxlink=Y&_UserReference=651B0E3D2BBB842E5B38CFE6','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">McMahon DB, Leopold DA (2012) Stimulus timing-dependent plasticity in high-level vision. Curr Biol 22:332-7.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22305750?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4342232/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22305750
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4342232 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

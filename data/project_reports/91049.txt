@@ -1,0 +1,841 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002778</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002778-16</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">The Phenomenology and Neurophysiology of Juvenile Bipolar Disorder
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Ellen  Leibenluft; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/ellen-leibenluft" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Mood Dysregulation and Neuroscience, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Mood Dysregulation and Neuroscience</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 18 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Katherine  Ardeleanu<br />
+
+
+
+
+Melissa A Brotman<br />
+
+
+
+
+Alexa Lauren Curhan<br />
+
+
+
+
+Mollie  Davis<br />
+
+
+
+
+Chana Rose Engel<br />
+
+
+
+
+Heather  Frank<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=91049&onameset=Section on Mood Dysregulation and Neuroscience&isajaxlink=Y&_UserReference=653D17464151C95A5B38D592','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 18</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Francis Joseph McMahon; MD  (Division of Intramural Research Programs)<br />
+
+
+
+Daniel  Pine; MD  (Emotion and Development Branch)<br />
+
+
+
+Carlos Alberto Zarate; MD  (Laboratory of Molecular Pathophysiology and Experimental Therapeutics)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Nancy  Adleman
+
+<br />
+
+
+
+Daniel  Dickstein; MD
+<i>(Department of Psychiatry, Brown University  School of Medicine)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+adolescents, bipolar disorder, functional MRI, risk, children, course, familial, genetics, symptoms
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Bipolar disorder (BD) is a highly impairing illness; when it occurs in children and adolescents, it tends to run a particularly severe course. Pediatric BD takes a very significant toll on children afflicted with the disease and their families. Thus, there is an urgent public health need for research. <br /><br />The goal of our research is to elucidate brain mechanisms mediating BD in youth, and to identify brain-based and clinical markers of risk for the disorder. Such research will identify targets for future treatment development, as well as lay the groundwork for research aimed at eventually preventing the development of illness in children at risk. <br /><br />Specifically, we use standardized behavioral paradigms to assess processing of emotional stimuli (e.g. responses to reward and punishment, processing of emotional faces) in youth with bipolar disorder and in youth at risk for bipolar disorder by virtue of having a parent or sibling with the illness. In addition, we compare adults and children with bipolar disorder, using both behavioral testing and fMRI, to determine how the neural circuitry mediating bipolar disorder varies developmentally. <br /><br />Our work has focused on deficits in youth with BD on face emotion processing paradigms, as well as on mechanisms mediating attentional lapses. We have chosen to focus on these psychological processes because deficits are present, not only in youth and adults with BD, but also in youth who are at increased risk for BD because they have a parent or sibling with BD. We are also following the symptoms of Amish youth who have a first-degree relative with bipolar disorder and mutations of interest for the illness. This year, we developed a neurocognitive battery that could be used in Amish youth to test for the same deficits that we have found in non-Amish youth at risk for BD. Also, since little is known about the longitudinal course of pediatric BD, we follow our patients longitudinally to ascertain their response to treatment and prognosis, and we follow the youth at risk for BD to ascertain which children develop the illness. <br /><br />For several years, the project has included work in children at familial risk for bipolar disorder (i.e., those with a parent or sibling with the illness). This work is designed to identify biomarkers that index risk for illness, so that the illness can be detected earlier and, eventually, prevented. This year, we have begun to expand this aspect of the project to include work in genetically informative isolates, such as the Amish community. Our goal is to obtain genetic material from children with a parent with bipolar disorder and a putatively informative genetic mutation, assess the children clinically, and follow them longitudinally to determine who ultimately develops bipolar disorder. <br /><br />This work is conducted under protocol 00-M-0198, NCT00006177.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Since the beginning of this project we have screened over 3000 subjects for this study. We have enrolled approximately 202 youth with bipolar disorder (BD), 295 subjects at risk for BD because they have a parent or sibling with the illness, and 109 adults with BD. This year, approximately 35 new subjects were enrolled.<br /><br />This year we continued our work designed to identify the brain mechanisms underlying BD in children; compare brain function in youth and adults with BD in order to begin to understand how the illness develops over time; and compare brain function in youth at familial risk for BD to those with BD and those at low risk, in order to facilitate the eventual development of preventive interventions.<br /><br />Regarding our work on the brain mechanisms mediating BD, much of that work consists of, not only comparing youth with BD to healthy youth, but also comparing youth with BD to those with severe, chronic irritability (the so-called Disruptive Mood Dysregulation, or DMDD, population, see Annual Intramural Research Report ZIAMH002786). It is important to compare youth with BD and those with DMDD because the latter frequently receive the diagnosis of BD in the community, despite not having a history of manic episodes. This potential misdiagnosis is important from a therapeutic and public health perspective. That is, compared to severe, chronic irritability, BD in youth is treated with medications with high side-effect burden. Therefore, it is important to identify accurately youth with BD and not extend the boundaries of the diagnosis inappropriately. <br /><br />This year we completed a study in which we compared brain activity in youth with BD vs. those with DMDD during a task that involved subjects labeling face emotions. The results of that study are described under ZIAMH002786. In addition to using task-based paradigms to compare the groups, we also compared BD, DMDD, and healthy youth using resting state imaging techniques. Such techniques are designed to study brain function while subjects are resting and thus to identify intrinsic functional connectivity amongst brain regions.  This year we published work specifically focused on connectivity between subnuclei of the amygdala, an important brain region for emotional processing, and the rest of the brain in BD, DMDD, and healthy youth.  We found hyperconnectivity in BD between the left basolateral amygdala, a region specifically involved in fear conditioning, and both the medial aspect of the frontal pole and the posterior cingulate/precuneus.  The latter two regions are important in social-emotional processing and cognitive flexibility, two processes that are deficient in youth with BD. Currently, we are analyzing data from a resting state study that includes both youth and adults with BD and that uses an analytic approach that examines connectivity amongst all regions in the brain.  While we did not find developmental differences in connectivity between adults and youth with BD, both patient groups differed from healthy subjects in intrinsic connectivity within and between cortico-striatal and temporal-parietal networks. These networks mediate attention, cognitive control, and response processing, processes that are known to be impaired in BD. <br /><br />Another major focus of our work on this project this year involves children who are at risk for BD because they have a parent or sibling with the illness. A unique aspect of this work has been that our work with at risk children extends down to the preschool years. In one study, we demonstrated that high-risk preschoolers demonstrated significantly more intense, pervasive, and clinically concerning problems in anger modulation and behavior dysregulation on a standardized assessment task, compared to youth at low-risk for BD. This suggests the importance of studying and monitoring at-risk children from an early age. We also studied intra-subject variability in response time (ISVRT) in healthy preschoolers at familial risk for bipolar disorder. Increased ISVRT is thought to represent attentional lapses, and increased ISVRT has been identified in school-aged youth at risk for BD.  Using a developmentally appropriate computerized task, we found that preschoolers at risk for BD, like older at-risk children, have evidence of attentional lapses, again highlighting the importance of early assessment and follow-up. We are currently analyzing data from a sample of school-aged at risk, BD, and healthy  youth that uses a neuroimaging task specifically designed to identify the brain regions mediating increased ISVRT in youth with, or at risk for, BD. Of note, we also completed the development of a neuropsychological testing battery that will allow us to determine whether Amish children at risk for BD have cognitive deficits similar to those seen in non-Amish children.  If so, work in this extended pedigree, genetically isolated population could help to elucidate some of the genetic mechanisms mediating these cognitive deficits. <br /><br />In addition to the work described above, we are currently gathering functional neuroimaging data on school-aged children at risk for BD on several face emotion processing tasks.  Of note, youth and adults with BD, as well as youth at risk for the illness, have deficits identifying face emotions. Specifically, we are using an implicit face emotion processing (i.e., gender identification) task and a task in which subjects are asked to label face emotions.  In the implicit face emotion processing task, we assessed neural response to face-emotion stimuli with different intensities of happy, angry, and fearful expressions during fMRI in a sample of adolescents with BD, their first degree relatives, and healthy youth. Neural activity to faces differed among the three groups by emotion and intensity in a number of regions, including the ventrolateral prefrontal cortex (VLPFC). Preliminary post hoc analyses of neural activity in the VLPFC revealed age-related abnormalities in the at risk sample. There are two important aspects to these findings.  First, dysfunction in VLPFC, an important region in mediating between emotional and attentional circuits, has been implicated in other studies of youth at risk for BD. Second, the age-related finding, if confirmed in more detailed analyses, might indicate that the at-risk population can be differentiated between older, resilient youth, who have passed through much of the age of risk for BD without developing illness, and younger youth who are still at more significant risk. The second paradigm, which involved face emotion labeling, also showed dysfunction in youth at risk in the VLPFC, as well as in other areas of the prefrontal cortex.  This finding was due to the fact that youth at risk for BD have hyperactivity in these prefrontal regions when viewing intensely happy faces. Prior research has suggested an association between reactivity to happy faces and BD, which investigators have speculated is related to the abnormal degree of positive affect (i.e., euphoria) characteristic of manic episodes.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91049&allpubs=Y&isajaxlink=Y&_UserReference=653D17464151C95A5B38D592','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Adleman NE, Yi JY, Deveney CM, Guyer AE, Leibenluft E, Brotman MA (2014) Increased intrasubject variability in response time in unaffected preschoolers at familial risk for bipolar disorder. Psychiatry Res 219:687-9
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25041984?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4219606/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25041984
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4219606 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Brotman MA, Deveney CM, Thomas LA, Hinton KE, Yi JY, Pine DS, Leibenluft E (2014) Parametric modulation of neural activity during face emotion processing in unaffected youth at familial risk for bipolar disorder. Bipolar Disord 16:756-63
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24617738?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4162856/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24617738
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4162856 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Deveney CM, Brotman MA, Thomas LA, Hinton KE, Muhrer EM, Reynolds RC, Adleman NE, Zarate CA, Pine DS, Leibenluft E (2014) Neural response during explicit and implicit face processing varies developmentally in bipolar disorder. Soc Cogn Affect Neurosci 9:1984-92
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24493839?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4249483/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24493839
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4249483 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">James A, Hoang U, Seagroatt V, Clacey J, Goldacre M, Leibenluft E (2014) A comparison of American and English hospital discharge rates for pediatric bipolar disorder, 2000 to 2010. J Am Acad Child Adolesc Psychiatry 53:614-24
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24839880?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4473258/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24839880
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4473258 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Pan PM, Salum GA, Gadelha A, Moriyama T, Cogo-Moreira H, Graeff-Martins AS, Rosario MC, Polanczyk GV, Brietzke E, Rohde LA, Stringaris A, Goodman R, Leibenluft E, Bressan RA (2014) Manic symptoms in youth: dimensions, latent classes, and associations with parental psychopathology. J Am Acad Child Adolesc Psychiatry 53:625-634.e2
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24839881?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4477846/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24839881
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4477846 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Tseng WL, Leibenluft E, Brotman MA (2014) A systems neuroscience approach to the pathophysiology of pediatric mood and anxiety disorders. Curr Top Behav Neurosci 16:297-317
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24281907?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4482127/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24281907
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4482127 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

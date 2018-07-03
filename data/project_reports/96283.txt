@@ -1,0 +1,740 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002896</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002896-10</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">The Neural Basis of Functional MRI Responses
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2015 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+David A Leopold; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/david-leopold" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Cognitive Neurophysiology and Imaging, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Cognitive Neurophysiology and Imaging</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Kathryn A Smith<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+David Christian Godlove<br />
+
+
+
+
+Kenji  Koyano<br />
+
+
+
+
+Chinenyenwa Stephanie Mpamaugo<br />
+
+
+
+
+Brian E Russ<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Makoto  Fukushima  (Section on Cognitive Neuroscience)<br />
+
+
+
+Andrew Rattin Mitz; PhD  (Section on Neurophysiology)<br />
+
+
+
+Kadharbatcha Syed Saleem  (Laboratory of Neuropsychology)<br />
+
+
+
+Richard C Saunders; PhD  (Section on Cognitive Neuroscience)<br />
+
+
+
+Janita N Turchi; PhD  (Section on Cognitive Neuroscience)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Jozef H Duyn; PhD (NINDS) <br />
+
+
+
+Afonso C Silva; PhD (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Avniel  Ghuman
+<i>(University of Pittsburgh)</i>
+<br />
+
+
+
+Cory T Miller; PhD
+<i>(Psychology, University of California, San Diego)</i>
+<br />
+
+
+
+Anil  Seth
+<i>(University of Sussex)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+electrophysiology, functional magnetic resonance imaging, event-related fMRI, neurovascular coupling, resting state functional connectivity
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Noninvasively peering into the details the human brain, once thought impossible, is now routine.  Magnetic resonance imaging (MRI) has changed how humans view the brain, its activity, and even our own thought processes.  Of particular interest is functional MRI (fMRI), which allows researchers to assess activity across the entire brain.  The fMRI method is now used widely, not only in research laboratories but also in the clinic.  In this project, we are investigating the link between neural activity and the fMRI signal, as well as the capacity to map activity and connections across the brain.  There is great promise in the use of fMRI as a diagnostic tool for neuropsychiatric disorders, though the road toward clinical application continues to be difficult.  Each year, there are new technical and conceptual advances that make it more likely that one day an fMRI scan may be routinely incorporated into psychiatric and neurological testing.  For basic research, fMRI offers an inherent trade-off compared to other methods. Its noninvasive nature and capacity to study awake humans, along with the ability to measure signals simultaneously throughout the entire brain, are clear positives. However, these advantages are tempered by the fact that fMRI measures blood flow, rather than neural activity directly. Thus it is well agreed that while fMRI is an excellent tool for brain-wide activity mapping, it must be complemented by other tools better suited to investigate neuroscientific questions related to detailed neural circuitry. We employ two steps in thinking about fMRI maps in terms of neural activity. The first step relates to how neural activity couples with blood flow. To a first approximation, this coupling is local in nature: thus a change in blood flow within a cubic millimeter of the brain reflects a change in neural activity in that same volume, which is a good thing for accurate mapping. However, it is a much more difficult problem to understand what aspect of neural activity leads to hemodynamic changes, or, said another way, what kind of neural activity the fMRI signal really reflects. The second step relates to the creation of activity maps, putting aside for a moment the nature of the coupling.  In this research project, we are interested in each of these steps.  In our research program, we combine neural recordings with fMRI signals measured in paradigms ranging from resting wakefulness to complex cognitive tasks. The ultimate goal is to gain a deeper understanding of how functional mapping in humans can be understood as a reflection of neural activity patterns.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Functional MRI (fMRI) has had perhaps the strongest influence of any neuroscience method on the public conception of how the brain operates.  For the past decade or longer, colorful maps have adorned science articles in the popular press, raising the public awareness of neuroscientific progress. The fact that it is possible to look inside the head of an awake, behaving person to discover not only the detailed structure of their brain but also, to some extent, what they are thinking, is truly in the sphere of science fiction. At the same time, there is a limit to how much useful information conveyed with an activity map, and the trajectory of the fMRI field is presently unclear. One of the major limiting factors of this method is the fact that its substrate for estimating brain activity is in a hemodynamic blood flow-based signal, which is quite a bit removed from the electrical activity of neurons that are at the core of our cognition. While the measured fMRI signal at a given point in the brain is known to reflect local neural activity, and is in this sense better than other human methods such as EEG and MEG, it does so in a manner that is very coarse, both in its timing and in its spatial precision. There is a general need to understand how measured fMRI signals might relate to underlying neural activity.<br /><br />Understanding this fMRI/neural relationship can take multiple forms. In some laboratories, experiments are aimed at carefully determining what types of neurons and molecules serve as the actual mediators for regulating blood flow. Such experiments ask, what are the biological principles, and specific mechanisms, that determine neurovascular coupling? Our approach is somewhat different and focuses on more targeted and practical questions. One such question asks how does the firing of a single neuron, or a population of neurons, contribute to the measured fMRI response within a small volume of the brain, or voxel? Consider the following: When measuring brain activity with fMRI, the smallest unit of brain activity--the electron so to speak--is a voxel that is at least a millimeter in each dimension, often much more. As neurons are much smaller and packed in high density, each voxel in the brain contain hundreds of thousands of individual neurons. We know from direct recordings of such neurons that neural responses in such a volume are diverse. One can see this local diversity when observing spontaneous brain activity, or even under conditions of visual stimulation. For example, neighboring neurons within a single voxel respond very differently when a subject is viewing a video sequence. Yet, if all of the neurons respond differently at a given moment in time, then how can the hemodynamic signal from the point in the brain be interpreted in terms of neural firing? Would the fMRI signal reflect the mean neural activity in the population? Are there particular, special neurons that determine the fMRI signal? And would the relationship remain fixed, both during periods of stimulation and rest in which visual input is minimized? Over the past year, we have published four papers related to the investigation of fMRI signals, their relationship to neural activity, and tools to map activity effectively onto specific brain areas. <br /><br />In one paper (Chang et al (2016) PNAS), we investigated the manner in which brain arousal was simultaneously reflected in behavioral, electrophysiological, and fMRI measures.  Specifically, we found that behavioral changes in arousal, matched by corresponding changes in the cortical field potentials, were yoked to hemodynamic fluctuations in an identified multicomponent network, or template, that could be used to read out the arousal state of an animal at each point in time.  This study has important implications for the enormous number of human fMRI studies of functional connectivity, which attempt to quantify the functional relationship between areas based on the correlation of their signals.  Specifically, our findings will allow researchers to specifically and quantitatively weigh the effects of arousal on the measured changes in functional connectivity, which has not been done in the past.  This method may be of particular importance for investigating patient populations, where arousal changes may be conflated with other changes in the brain.  In a two papers, we developed (Papoti et al (2016) Magnetic Resonance in Medicine) and utilized (Hung et al (2015), NeuroImage) radiofrequency coils to measure fMRI signals in the awake marmoset.  These are steps in a much larger project that involves a comparison of fMRI signals with local neural activity measured using optical methods.   Finally, in a recently published paper, we collaborated with Anil Seth and K. S. Saleem to construct three-dimensional atlas of the monkey brain (Reveley et al (2016), Cerebral Cortex in press).   This project will be of great use to the community of nonhuman primate researchers, as it allows for any anatomical scan to be registered and aligned to an atlas depicting the boundaries of cytoarchitectonically defined areas. <br /><br />We are further pursuing two additional projects in this theme.  In an ongoing, large project, which is continued from last year, our laboratory is studying the role of the basal forebrain in spontaneous activity. The basal forebrain is a small region that is the origin of many long-range anatomical projections that reach virtually the entire cerebral cortex. Our initial experiments, inactivating portions of this structure in animals undergoing fMRI testing, suggest that the basal forebrain is centrally involved in regulating spontaneous signals throughout the telencephalon. Its effect is particularly pronounced during transitions of arousal, gauged by eye opening and closure.  The results from this project are presently in early manuscript form (Turchi, Chang et al, in preparation). In second ongoing project, we are attempting to understand the diversity of neural activity within a fMRI voxel, bridging single-unit data with whole-brain fMRI measurements.  In this project, the strategy is to compare the time courses of individual neurons with fMRI voxels throughout the brain during the viewing of movies, which reliably impose activity time courses across the brain.  In comparing the time course of each neuron to that of all voxels, it is possible to create functional maps that are specific for individual cells.  We reported this method and initial results in last year's Society for Neuroscience meeting (Park et al., SFN Abstr (2015). This project is attempting to link activity the microscopic (single unit) level, directly to the activity in large brain networks, as measured using fMRI.  The results from this project are now nearing submission for a manuscript. 
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2016 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=96283&allpubs=Y&isajaxlink=Y&_UserReference=45278CC2231A37D75B38D579','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Hung CC, Yen CC, Ciuchta JL, Papoti D, Bock NA, Leopold DA, Silva AC (2015) Functional MRI of visual responses in the awake, behaving marmoset. Neuroimage 120:1-11
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26149609?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4589494/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26149609
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4589494 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Liu X, Yanagawa T, Leopold DA, Chang C, Ishida H, Fujii N, Duyn JH (2015) Arousal transitions in sleep, wakefulness, and anesthesia are characterized by an orderly sequence of cortical events. Neuroimage 116:222-31
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25865143?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4468021/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25865143
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4468021 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Reveley C, Seth AK, Pierpaoli C, Silva AC, Yu D, Saunders RC, Leopold DA, Ye FQ (2015) Superficial white matter fiber systems impede detection of long-range cortical connections in diffusion MR tractography. Proc Natl Acad Sci U S A 112:E2820-8
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25964365?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4450402/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25964365
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4450402 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,798 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002889</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002889-10</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">NIMH MEG Core Facility
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2015 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lead Investigator</div></div>
+
+<div class="rowdiv">
+<div class="data">
+Richard  Coppola; SB, DSc
+<br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any LIs -->
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<!-- display SoRs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Supervisor of Record</div></div>
+<div class="rowdiv">
+<div class="data">
+ <!-- faculty test -->
+Susan G Amara; PhD 
+ <!-- faculty test -->
+<br />
+
+</div>
+</div>
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Magnetoencephalography Core, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Magnetoencephalography Core</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 8 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Frederick  Carver<br />
+
+
+
+
+Samantha Ilana Fradkin<br />
+
+
+
+
+Alan Herschel Gerlich<br />
+
+
+
+
+Thomas O Holroyd<br />
+
+
+
+
+Judy  Mitchell-Francis<br />
+
+
+
+
+Elaine M Raab<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=96279&onameset=Magnetoencephalography Core&isajaxlink=Y&_UserReference=CAC4A87F32F7125F5B38CF71','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 8</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+<div id="moresamestaff">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffu">6 of a total of 17 other  members are shown. </div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Christopher Ian Baker; PhD  (Section on Functional Brain Imaging)<br />
+
+
+
+Karen F Berman; MD  (Clinical and Translational Neuroscience Branch)<br />
+
+
+
+Wallace C Duncan; PhD  (Laboratory of Molecular Pathophysiology and Experimental Therapeutics)<br />
+
+
+
+Nitin  Gogtay; MD  (Section on Childhood Neuropsychiatric Disorders)<br />
+
+
+
+Christian  Grillon; PhD  (Section on Neurobiology of Fear and Anxiety)<br />
+
+
+
+Sebastian  Guderian  (Section on Cognitive Neuroscience)<br />
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaff','searchview.taf?_function=showmore&ios=S&ipid=96279&thisic=&isajaxlink=Y&_UserReference=CAC4A87F32F7125F5B38CF71','moresamestaffu');  return false;">
+
+
+<span class="morelist">Show all 17</span></a>.</form></div>
+
+
+
+</div>
+</div>
+
+
+</div>
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+<div id="moresamestaffo">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffou">6 of a total of 10 other NIH members are shown.</div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Peter Joel Basser; PhD (NICHD) <br />
+
+
+
+Leonardo G Cohen; MD (NINDS) <br />
+
+
+
+Jozef H Duyn; PhD (NINDS) <br />
+
+
+
+Mark  Hallett; MD (NINDS) <br />
+
+
+
+Biyu Jade He (NINDS) <br />
+
+
+
+Barry  Horwitz; PhD (NIDCD) <br />
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaffo','searchview.taf?_function=showmore&ios=O&ipid=96279&isajaxlink=Y&_UserReference=CAC4A87F32F7125F5B38CF71','moresamestaffou');  return false;">
+
+
+<span class="morelist">Show all 10</span></a></form></div>
+
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Arnold J Mandell; MD
+<i>(Cielo Institute)</i>
+<br />
+
+
+
+P  Mitra; PhD
+<i>(Cold Spring Harbor Lab)</i>
+<br />
+
+
+
+J  Sanes; MD
+<i>(Department of Neuroscience, Brown Medical School)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+EEG, MEG, functional imaging, neuroimaging
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+ Magnetoencephalography (MEG) is a non-invasive procedure similar to electroencephalography (EEG) in terms of basic principles and analysis. However, in place of requiring scalp electrode attachment, MEG has the subject sit with their head inside a helmet containing superconducting quantum interference devices (SQUIDs). These sensors measure the magnetic field pattern outside the head produced by brain neural activity. Three fiducial coils are used to detect the head position in the MEG sensor coordinate system and to register this with the anatomical MRI scan of the subject. With this technology signal detection is unaffected by the conductivity and structure of skull and scalp tissue allowing for much better source modeling compared to EEG. Beamforming, source modeling and dipole techniques can be used to three dimensionally estimate and localize brain activity. Under favorable conditions, spatial localization of neural sources with whole head MEG is on the order of 2-3 mm at a temporal resolution better than 1 msec. MEG forms a complementary modality to fMRI that allows a more refined study of the temporal dynamics and network interaction.<br /><br />The MEG Core operates a state of the art 275 channel MEG system (CTF 275 from VSM MedTech). A complete assortment of stimulus presentation and subject response equipment is interfaced to the MEG system. Complex cognitive tasks involving visual, auditory and somatosensory systems can be easily set up as well as simple sensory evoked field recording.  A variety of software for data analysis is maintained and supported by the Core, including CTF, BESA, FieldTrip, BrainStorm, NutMEG, ICA (EEGLab), and interface to AFNI.<br /><br />The mission of the Core is to provide all necessary support for a PI to successfully design and implement an MEG based project. This will usually include detailed experimental design discussion, software and hardware design and testing, training in data collection and system instruction, and in signal processing and data analysis. The level of interaction of course varies depending on the background of the user. In general the Core staff involvement with the PI has usually been very high, primarily for two reasons. First, the general EEG/MEG experience, particularly of the NIMH IRP, has been modest. Secondly, MEG signal processing and source modeling is far from having universally accepted methods and most experiment designs require a tailored, often idiosyncratic approach.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The MEG Core staff works interactively with a large group of PI's in NIMH, NINDS and NIDCD for study design, task development, acquisition protocols, signal processing and data analysis. Procedures for data security, transfer and storage have been improved by moving the main data archive to the Helix maintained NIMH data store. Work with the Scientific and Statistical Computing Core to enable transfer of CTF MEG files to AFNI and developed tools for group statistical analysis was previously extended to include an extra-dimensional format to facilitate time-based connectivity across subject groups. This has been expanded to allow time-dimension comparison across subjects and groups. The comparisons can now be analyzed using anatomic atlas based alignment across subject.<br /><br />Signal analysis development has continued on event-related SAM (synthetic aperture magnetometry) and 275-channel ICA (independent component analysis). Development of time-frequency analysis methods has included Stockwell and wavelet transforms as well as multi-taper techniques. The analysis packages extended to include symbolic entropy measures and transfer entropy mutual information techniques to explore brain networks are in use by a number of user groups. The ability to use SAM beamformer methods to analyze MEG signals during and after tACS (transcranial alternating current stimulation) as well as tDCS (transcranial  direct current stimulation) has allowed exploration of effects on brain rhythms and memory.<br /><br />An early test version of the upgraded package that will replace the external electronics has been tested and performed properly across all channels. Full installation is planned for fall 2016. The new eye-movement monitoring system previously installed and tested continues to contribute to cognitive activation paradigms. System reliability has been substantially improved after power system repairs.<br /><br />Early work by Cornwell and colleagues demonstrated that MEG can reliably discriminate amygdala and hippocampal signals using MEG beamforming techniques. Continuing studies have shown that hippocampal function is impaired in patients with major depression as well as other brain changes when treated with ketamine. Further studies have shown that fast gamma activity in the hippocampus correlates with spatial learning. These studies are of particular interest to possibly elucidate the mechanism of the anti-depressant action of ketamine infusion. Previous results have shown that both increased anterior cingulate activity and functional connectivity during a working memory task can predict the antidepressant response of ketamine. Zarate and colleagues have utilized MEG to show that synaptic potentiation is critical for the antidepressant action in treatment resistant major depression. Previously Nugent et al. have shown group differences in MEG resting data that highlight dysfunction in major depressive disorder. This has now been extended to explore the network changes with ketamine administration. Studies continue to explore high gamma band activity across task and patient groups. Interaction with specific sodium channel genes finds that the cognitive differences may be related to gamma band activity.<br /><br />Studying how the brain organizes itself into functional networks is key to understanding normal human cognition as well as when it becomes disordered in mental illness. Previously, Bassett and co-workers using the spatial and temporal ability of MEG found that functional networks were characterized by small-world properties indicating a mix of both local connections and long range connections. We have also found differences in resting network patterns in patient groups, and have now used graph theoretical methods to examine functional networks. Functional connectivity metrics have been studied in an audio-visual task demonstrating that the communication across brain regions takes on several forms and that no one measure will suffice to capture the richness of information flow. <br /><br />A project proposal to relate MEG dynamics to new Diffusion Tensor Imaging (DTI) measures for determining latency across brain regions was favorably received and the MEG groups will begin collaboration with Peter Basser's DTI group. <br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2016 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=96279&allpubs=Y&isajaxlink=Y&_UserReference=CAC4A87F32F7125F5B38CF71','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Chander BS, Witkowski M, Braun C, Robinson SE, Born J, Cohen LG, Birbaumer N, Soekadar SR (2016) tACS Phase Locking of Frontal Midline Theta Oscillations Disrupts Working Memory Performance. Front Cell Neurosci 10:120
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27199669?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4858529/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27199669
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4858529 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Garcia-Cossio E, Witkowski M, Robinson SE, Cohen LG, Birbaumer N, Soekadar SR (2016) Simultaneous transcranial direct current stimulation (tDCS) and whole-head magnetoencephalography (MEG): assessing the impact of tDCS on slow cortical magnetic fields. Neuroimage 140:33-40
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26455796?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5108059/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26455796
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5108059 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Nugent AC, Robinson SE, Coppola R, Furey ML, Zarate CA (2015) Group differences in MEG-ICA derived resting state networks: Application to major depressive disorder. Neuroimage 118:1-12
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26032890?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4555091/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26032890
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4555091 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

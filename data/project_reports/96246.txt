@@ -1,0 +1,768 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002685</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002685-23</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Peptide Receptor Systems
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2015 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Theodore B Usdin; MD, PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/ted-usdin" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Fundamental Neuroscience, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Fundamental Neuroscience</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Xiaotang  Jing<br />
+
+
+
+
+Jonathan C Kuo; MS<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Heather A Cameron; PhD  (Section on Neuroplasticity)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Yarimar  Carrasquillo (NCCIH) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Eugene  Dimitrov; MD, PhD
+<i>(Department of Physiology and Biophysics, Rosalind Franklin University of Medicine and Science)</i>
+<br />
+
+
+
+Arpad  Dobolyi; PhD
+<i>(Laboratory of Neuromorphology, Semmelweis University and Hungarian Academy of Sciences)</i>
+<br />
+
+
+
+Richard  Gallo; MD
+<i>(UCSD)</i>
+<br />
+
+
+
+Danny G Winder
+<i>(Department of Molecular Physiology and Biophysics, Vanderbilt University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+neuromodulator, neuroendocrine, memory performance, neuroanatomy, neuropeptides, neurotransmitters, G-protein coupled receptors, descending pain inhibition, anxiety, stress, PTSD, chronic pain
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Humans and animals are subject to continually changing environmental and internal influences (stressors) that affect their emotional state and behavior. Appropriate responses are likely to involve shifts in the activity of multiple modulatory systems. Drugs, or other interventions that ameliorate the symptoms of psychiatric disease, may act through endogenous modulatory systems. While initial molecular targets are established for most drugs, it is not clear in many cases which of their sites of action are related to therapeutic efficacy. Because of the multiplicity of these sites, their many anatomical locations, and the large number of biochemical changes that take place following drug treatments, major questions remain about how psychoactive drugs bring about their effects. The delay before many treatments become effective suggests that compensatory changes, such as in the activity of endogenous modulatory systems, may be critical. Knowledge of the function(s) of endogenous modulators and modulatory pathways is quite limited. This limited understanding of modulatory processes that are related to particular stressors, that are part of the pathways that drugs act on, or that affect mood, anxiety and cognitive related processes, is a major block in our ability to design new types of drugs. The overall goal of this project is to increase the understanding of the function of neuromodulatory systems in the brain. This will increase our understanding of how the brain normally responds to stressful perturbations, and potentially how this can be therapeutically exploited.<br /><br />This project has the intertwined goals of elucidating the physiological function of neuromodulatory circuits and evaluating their potential as therapeutic targets. Neuropeptides are the signaling agents in many neuromodulatory systems and are likely to modulate emotional state. Neuropeptides have relatively long lasting effects and frequently modulate the effects of fast acting neurotransmitters. They may influence emotions and mood and contribute to symptoms such as anxiety. We are mapping the distribution within the brain of neuropeptides and their receptors, and their relationship to other neurochemical systems, and then implementing strategies to evaluate their contribution to the functions of the brain regions in which they are present. We have developed mouse lines in which the functions of particular genes can be modified in order to gain insight into the normal function of these genes. We are investigating how particular neuronal populations contribute to the brains regulation of hormone release, and evaluating the contributions that these neurons and the circuits that they are part of make to the regulation of behavioral responses that are relevant to mental illness, or to the effects of drugs used to treat psychiatric disorders. <br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Following discovery of the neuropeptide Tuberoinfundibular Peptide of 39 residues (TIP39) and its receptor, the Parathyroid Hormone Receptor 2 (PTH2R) the section focused on investigation of their biological roles. Neuroanatomical mapping showed synthesis of TIP39 in discrete neuronal groups in the thalamus and brainstem that project to brain areas involved in emotional function. Following its anatomical mapping, laboratory projects turned to investigation of hypotheses derived from the distribution of the PTH2R/TIP39 system. Findings include that TIP39 modulates activation of hypothalamic neuroendocrine neurons including that it is important for an appropriate homeostatic response to cold. These studies lead to a general model for TIP39 action, that activation of PTH2Rs may be necessary for robust and sufficient excitatory transmitter release under high demand conditions. <br /><br />TIP39 was also found to modulate both acute pain sensitivity, and the return to normal sensitivity in chronic pain models. The latter effect appears to involve the locus coeruleus, a brainstem nucleus that contains noradrenergic neurons with modulatory influence throughout the CNS. In combination with other observations this suggests that TIP39 may be one of the modulators involved in the relationship between sensory stimuli and mood.<br /><br />Difficulty distinguishing between effects of ongoing aversive sensory input and its long-term consequences is a significant roadblock to investigating relationships between sensory stimuli and mood. To overcome this limitation we developed a paradigm to compare cellular and behavioral changes during and after reversing neuropathic pain in mice. Tactile allodynia and neuronal activation in the spinal cord dorsal horn produced by a cuff placed around the sciatic nerve resolved within several days following cuff removal. In contrast, changes in elevated O-maze, forced-swim, Y-maze spontaneous alternation and novel-object recognition test performance that developed after nerve cuff placement persisted at least 3 weeks after nerve cuffs were removed. Thus anxiety- and depression-like behaviors persisted following apparent resolution of pain in this paradigm. <br /><br />One contemporary idea regarding the cellular changes underlying depression is that inhibition of normal adult neurogenesis plays a role. Adult hippocampal neurogenesis is inhibited in chronic pain models, suggesting that neurogenesis inhibition may be involved in chronic pain associated depression. Using the reversible neuropathic model we found that adult hippocampal neurogenesis was decreased for at least 3 weeks following pain resolution. Also, FosB, a neuronal activity marker with a long half-life, remained elevated in the basolateral amygdala of mice with resolved nociception and persisting behavioral effects. Thus the reversible neuropathic paradigm points to specific cellular phenotypes that can be used to elucidate links between nociceptive sensory signaling and mood disorders.<br /><br />Previously, we found that mice with inactivating mutations of the genes encoding TIP39 (TIP39-KO) or the PTH2R (PTH2R-KO) have increased anxiety-like behavior under stressful conditions, relative to wild-type. Mice without TIP39 signaling have increased stress-dependent impairment in tests of memory function. Dysfunctional responses to stress are widely thought to contribute to depression, implying that this neuropeptide system plays a role in normal resilience. <br /><br />We investigated TIP39/PTH2R contributions to long-term fear memory using a model of post-traumatic stress disorder (PTSD) in which mice are exposed to a single aversive stimulus (foot-shock), after which fear memory is evaluated by measuring the time spent motionless (freezing, a rodent fear-like response) when the animals are re-exposed to the specific environment (fear context) in which the stimulus was delivered. While absence of TIP39 signaling did not cause a detectable change in fear memory 1 week after shock, both TIP39-KO and PTH2R-KO mice had increased fear-like behavior in the fear context after 2 and 4 weeks. Increasing in fear memory over time following a fear-inducing event is called fear incubation. Based on similarity to delayed symptom onset that frequently occurs in PTSD, fear incubation is used to investigate mechanisms that may contribute to PTSD. Thus, we investigated the neuroanatomical basis for enhanced fear incubation in mice that lack TIP39 signaling. Comparing neuronal activation patterns between mice with and without TIP39 signaling, either immediately after foot-shock or 4 weeks later when animals were returned to the fear context, revealed that TIP39 signaling absense prevented the normal activation of c-Fos in the medial nucleus of the amygdala (MeA). We used a PTH2R antagonist and mice that express Cre-recombinase in neurons that normally contain PTH2Rs, which we previously developed, to investigate whether the TIP39/PTH2R system in the MeA is responsible for the enhanced fear incubation. MeA targeted delivery of a virus encoded PTH2R antagonist reproduced the enhanced fear incubation of the KO mice. Selective ablation of MeA neurons that normally synthesize PTH2Rs following stereotaxic delivery of a virus Cre-dependently encoding a diphtheria toxin receptor also led to enhanced fear incubation. Transient inhibition of MeA PTH2R expressing neurons using a virally delivered Cre-recombinase dependent Designer Receptor Exclusively Activated by  Designer Drugs (DREADD), starting just before or just after foot-shock, or at the time of recall testing 1 month later showed that inhibiting PTH2R neurons near the time of the event but not at the time of recall testing caused enhanced fear incubation. Putting these observations together, these experiments showed for the first time that the state of the medial nucleus of the amygdala just after a traumatic event has a major effect on fear-like behavior a month later. It further shows that signaling by a neuropeptide can have a major effect on that state. <br /><br />Ongoing work examines contributions of TIP39 signaling in the medial nucleus of the amygdala to other behaviors. Based on decreased inter-male aggressive behavior and increased social investigative behavior by PTH2R-KO mice, and similar effects following pharmacogenetic inhibition of medial amygdalar PTH2R expressing neurons the system appears to play a significant role in selection of social responses.<br /><br />Several previous studies provide evidence that that TIP39 signaling influences maternal behavior. Work with Arpad Dobolyi (Etvs Lornd University) during this reporting period provided anatomical evidence that TIP39 neurons in the thalamic subparafascicular area relay suckling related information to the hypothalamus to affect maternal behaviors.<br /><br />New work with Richard Gallo (University of California San Diego) showed that both TIP39 and the PTH2R are expressed at high levels in populations of cells within the skin, and implied that the system regulates keratinocyte function. Danny Winder (Vanderbilt University) used a virus we made that Cre-dependently expresses the human diphtheria toxin receptor to selectively ablate corticotrophin-releasing factor (CRF) expressing neurons in the central amygdala and show that CRF dependent effects of ethanol on glutamatergic transmission do not depend on the presence of local CRF neurons.<br /><br />Overall, our data suggest that TIP39 signaling may normally limit detrimental effects of environmental stress on emotional state. Dysfunctional responses to stress are widely thought to contribute to depression, implying that this neuropeptide system plays a role in normal resilience.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2016 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=96246&allpubs=Y&isajaxlink=Y&_UserReference=D7EF671DFAB8DA5A5B38D630','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Cservenák M, Kis V, Keller D, Dimén D, Menyhárt L, Oláh S, Szabó ÉR, Barna J, Renner É, Usdin TB, Dobolyi A (2017). Maternally involved galanin neurons in the preoptic area of the rat. Brain Struct Funct  222, 781-798.   https://doi.org/10.1007/s00429-016-1246-5
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27300187?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5156581/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27300187
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5156581 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Sato E, Muto J, Zhang LJ, Adase CA, Sanford JA, Takahashi T, Nakatsuji T, Usdin TB, Gallo RL (2016) The Parathyroid Hormone Second Receptor PTH2R and its Ligand Tuberoinfundibular Peptide of 39 Residues TIP39 Regulate Intracellular Calcium and Influence Keratinocyte Differentiation. J Invest Dermatol 136:1449-59
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27000502?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5125298/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27000502
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5125298 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Silberman Y, Fetterly TL, Awad EK, Milano EJ, Usdin TB, Winder DG (2015) Ethanol produces corticotropin-releasing factor receptor-dependent enhancement of spontaneous glutamatergic transmission in the mouse central amygdala. Alcohol Clin Exp Res 39:2154-62
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26503065?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4624256/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26503065
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4624256 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Tsuda MC, Yeung HM, Kuo J, Usdin TB (2015) Incubation of Fear Is Regulated by TIP39 Peptide Signaling in the Medial Nucleus of the Amygdala. J Neurosci 35:12152-61
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26338326?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4556785/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26338326
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4556785 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Usdin T, Dimitrov E (2015) The effects of extended pain on behavior: Recent progress. The Neuroscientist, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

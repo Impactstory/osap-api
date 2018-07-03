@@ -1,0 +1,658 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002844</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002844-12</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Genetic Determinants of Antidepressant Response
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Francis Joseph McMahon; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/francis-mcmahon" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on the Genetic Basis of Mood and Anxiety Disorders, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on the Genetic Basis of Mood and Anxiety Disorders</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 10 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Carol J Markey<br />
+
+
+
+Winston R Corona<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Nirmala  Akula<br />
+
+
+
+
+Timothy Glenn Barton<br />
+
+
+
+
+Kenan Patrick Courtney<br />
+
+
+
+
+Theresa B DeGuzman<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=91063&onameset=Section on the Genetic Basis of Mood and Anxiety Disorders&isajaxlink=Y&_UserReference=0C41F4142AB4E7205B38D113','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 10</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Maura L Furey; PhD  (Section on Neurobiology and Treatment of Mood Disorders)<br />
+
+
+
+Libby A Jolkovsky  (Section on Neurobiology and Treatment of Mood Disorders)<br />
+
+
+
+Rodrigo  Machado-Vieira  (Experimental Therapeutics and Pathophysiology Branch)<br />
+
+
+
+Yin Y Yao; PhD  (Statistical Genomics and Data Analysis Core)<br />
+
+
+
+Carlos Alberto Zarate; MD  (Section on Neurobiology and Treatment of Mood Disorders)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Margit  Burmeister
+<i>(University of Michigan)</i>
+<br />
+
+
+
+Brian  Mickey
+<i>(University of Utah)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+treatment resistance, depression, pharmacogenetic, allele, antidepressant, genetic, pharmacogenomic, treatment response, exome, ketamine
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+ Major depression is a common psychiatric condition that accounts for a large burden of morbidity and mortality in the US and around the world. While effective treatments exist, many patients fail to respond to the first treatment, requiring additional trials, and even fewer remit fully. We need better methods for matching patients with the treatments that will work best for them. <br /><br /> The goal of this study is to identify genes that contribute to treatment outcome in major depressive disorder. Outcomes studied include treatment response (improvement in symptoms over time), remission (complete recovery), and treatment-emergent adverse events. The latter includes medication side-effects, anxiety, and treatment-emergent suicidal ideation. We also seek to better understand why some depression is resistant to treatment and how factors such as ethnicity, ancestry, anxiety, treatment withdrawal, and medication tolerability contribute to treatment resistance.<br /><br /> The results may provide new insights into the genetic determinants of treatment response in major depressive disorder, and may also shed light on genes contributing to risk for this common condition, with the promise of novel treatment approaches and improved targeting of existing therapies. What we learn from this study may enable a more personalized approach to antidepressant treatment, enhancing recovery while reducing costs and side effects.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Strong evidence from family and twin studies demonstrates that major depressive disorder (MDD) is heritable, yet there has been limited progress in identifying the actual genes involved. A separate, perhaps overlapping set of genes is expected to play a role in individual variation in treatment response in MDD. By use of a large set of markers in many genes, we seek to characterize patients who differ in their response to standard antidepressant treatments.<br /> <br />In the first years of this project, candidate genes studies implicated a few genes in treatment outcome and other genes in adverse effects. Future studies are needed to determine whether individuals who carry such genetic markers may benefit from closer monitoring or alternative treatments. We also participated in a meta-analysis of three genome-wide association studies of antidepressant outcome. Despite greater power of this combined sample to uncover association with common genetic markers, no genome-wide significant associations were found. We concluded that no common alleles of large effect on antidepressant outcome exist in these samples. Past work led by an extramurally-funded fellow investigated why minority participants in clinical trials drop out of treatment and experience poorer treatment response than non-minorities. The research showed that race, ethnicity, genetic ancestry, and other factors affected Selective Serotonin Reuptake Inhibitor (SSRI) treatment response, but African ancestry remained a significant risk factor for poor response, even after other factors were taken into account. <br /><br />We are now using new, high-throughput sequencing methods to test for rarer genetic variants that may exert larger effects, at least on treatment resistance. Such variants may show larger effects, especially among patients with unusual treatment outcomes. Patients who respond to antidepressant treatment constitute a mixture of true responders, placebo responders, and spontaneous remitters. Patients who fail to respond to multiple treatments may be less heterogeneous, since placebo responders and spontaneous remitters are removed. From over 4,000 patients enrolled in Sequenced Treatment Alternatives to Relieve Depression (STAR*D) study, we found that only 10% show treatment resistance that is not explained by non-adherence, comorbid substance use disorder, or other factors, and only 3% are highly treatment-resistant. Sequencing of the coding regions of the genome (exome) has now been completed on 75 treatment-resistant and 25 &quot;typically responsive&quot; patients. Initial analyses have uncovered some promising leads, but additional studies in larger samples are needed.<br /><br />In the coming year, we will further investigate the genetic basis of treatment-resistant depression in additional samples. These will include patients who respond to novel antidepressants such as ketamine and those referred for electroconvulsive or other neurostimulation therapies. Additional sequencing will be carried out at the NIH Intramural Sequencing Center with funds provided by the NIH Clinical Center Genomics Opportunity (CCGO) program. Our current analytical strategy is based on association tests that increase power by collapsing rare variants within genes or gene sets. Gene-set and pathway enrichment analyses will be used to test whether particular biochemical or molecular pathways are overrepresented among the implicated genes. Any such pathways could point to novel mechanisms of treatment resistance and would be good targets for further investigation.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91063&allpubs=Y&isajaxlink=Y&_UserReference=0C41F4142AB4E7205B38D113','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Lekman M, Hössjer O, Andrews P, Källberg H, Uvehag D, Charney D, Manji H, Rush JA, McMahon FJ, Moore JH, Kockum I (2014). The genetic interacting landscape of 63 candidate genes in Major Depressive Disorder: an explorative study. BioData Min  7, 19.   https://doi.org/10.1186/1756-0381-7-19
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25279001?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4181757/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25279001
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4181757 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">McMahon FJ (2014) Prediction of treatment outcomes in psychiatry--where do we stand ? Dialogues Clin Neurosci 16:455-64
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25733951?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4336916/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25733951
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4336916 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

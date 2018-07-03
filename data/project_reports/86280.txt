@@ -1,0 +1,701 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002592</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002592-23</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Viral And Cellular Factors Governing Efficient Gene Delivery
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Maribeth V Eiden; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/maribeth-eiden" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Directed Gene Transfer, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Directed Gene Transfer</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 9 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Tiffany Hazel Blankenship<br />
+
+
+
+
+Kyle Adam Delaney<br />
+
+
+
+
+Kristen  Kluska<br />
+
+
+
+
+Deanna Michelle Myer<br />
+
+
+
+
+Jill R Russ<br />
+
+
+
+
+Jan Clement Ang Santiago<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=86280&onameset=Section on Directed Gene Transfer&isajaxlink=Y&_UserReference=1C1268FBC31E2BF25B38D3F5','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 9</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Lee E Eiden; PhD  (Section on Molecular Neuroscience)<br />
+
+
+
+Andrew C Emery  (Section on Molecular Neuroscience)<br />
+
+
+
+Tomris  Mustafa  (Section on Molecular Neuroscience)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Geoffrey w Pye; DVM
+
+<i>(San Diego Zoo)</i>
+<br />
+
+
+
+J  Siegal-Willott; DVM
+<i>(Smithsonian National Zoological Park)</i>
+<br />
+
+
+
+William  Switzer
+<i>(-, Centers for Disease Control and Prevention)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+therapeutic gene delivery, retroviral vector, gene therapy, G protein coupled receptor
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The goal of the Section on Directed Gene Transfer is to develop and optimize viral vectors in the areas of fundamental, translational, and applied gene transfer to cells of the central nervous system. Discovery of the genetic bases of CNS disorders, development of corresponding animal models, and continued advances in vector-mediated gene delivery have all increased the potential for gene therapies to ameliorate human CNS disease. Viral vector mediated gene therapy is a reiterative process requiring continual feedback from clinical trial results to ensure the proper direction of translational studies. Modifications to the design of retroviral vectors and delivery modalities based on this feedback are a path towards arresting the progression or relieving the symptoms in human diseases of the CNS.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The Section on Directed Gene Delivery creates viral vectors to efficiently deliver genes to appropriate targets in cellula, at physiological expression stoichiometries, with the end goal of transferring therapeutic genes to cells of the central nervous system for expression at physiological levels to complement impaired physiological function in vivo. Recent advances in human CNS gene therapy to treat deficiencies in AADC and other enzymes have occurred through mobilization of AAV vectors, an effective short-term therapy with however potential limitations for lifetime therapeutic application. Accordingly, we have developed a workflow for the construction of targeted retroviral vectors for delivery to specific cell types in rodent brain, with direct translatability to primate species. The identification of additional retroviral receptors (Xu W, et al. (2013) PNAS 110:11547-11552) has also allowed us to begin construction of transgenic mouse lines expressing humanized retroviral vectors with envelopes replacing the currently used, but somewhat cytotoxic, VSV envelope, also for the purpose of enhancing translation of rodent gene delivery experiments to human CNS gene therapy application. Our most successful application of retroviral packaging for physiological expression this year has come with the development for high-throughput screening and receptor ligand characterization of several cell lines in which G-protein coupled receptors (GPCRs) are co-expressed with a recently-discovered CNS-specific cAMP sensor, NCS/Rapgef2, allowing novel signaling pathways for activation of the MAP kinase ERK, involved in cellular plasticity underlying memory, learning and adaptation to stress, to be elucidated and drugs to activation and inhibiting them to be developed (Emery AC, Eiden MV, Eiden LE (2013). Mol Pharmacol 83:95-105, Emery AC, Eiden MV, Mustafa T, Eiden LE (2013) Sci Signal 6:ra51, Emery AC, Eiden MV, Eiden LE (2014) J Biol Chem 289:10126-39)<br />The availability of optimized preclinical vectors for in vivo testing, and cell lines constructed from human GPCRs and other signaling components expressed at appropriate cellular stoichiometry, should continue to be a valuable resource for the national neuroscience community, to serve seamlessly as tools for hypothesis-driven basic research, and again for clinical research, without a need for translational scientists to re-set the gene therapeutic platform for the clinic.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86280&allpubs=Y&isajaxlink=Y&_UserReference=1C1268FBC31E2BF25B38D3F5','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Emery AC, Eiden MV, Eiden LE (2013) A new site and mechanism of action for the widely used adenylate cyclase inhibitor SQ22,536. Mol Pharmacol 83:95-105
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23053667?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3533470/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23053667
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3533470 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Emery AC, Eiden MV, Mustafa T, Eiden LE (2013) Rapgef2 Connects GPCR-Mediated cAMP Signals to ERK Activation in Neuronal and Endocrine Cells. Sci Signal 6:ra51
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23800469?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3932028/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23800469
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3932028 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Xu W, Stadler CK, Gorman K, Jensen N, Kim D, Zheng H, Tang S, Switzer WM, Pye GW, Eiden MV (2013) An exogenous retrovirus isolated from koalas with malignant neoplasias in a US zoo. Proc Natl Acad Sci U S A 110:11547-52
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23798387?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3710800/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23798387
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3710800 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

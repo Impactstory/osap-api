@@ -1,0 +1,748 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002930</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002930-03</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Developing Stats Methods to Detect Rare Genetics Variants in Human Pedigrees
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+ <!-- faculty test -->
+
+Yin Y Yao; PhD
+
+ <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Statistical Genomics and Data Analysis Core, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Statistical Genomics and Data Analysis Core</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Wei  Guo<br />
+
+
+
+
+Hai-De  Qin<br />
+
+
+
+
+Harold  Wang<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Francis Joseph McMahon; MD  (Division of Intramural Research Programs)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborator
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Momiao  Xiong; PhD
+<i>(Human Genetics Center, University of Texas)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+psychiatric disorders, common variants, rare variants, pedigree analysis
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Next-generation sequencing technologies coupled with the efficient DNA capture methods provide exome sequencing approach to investigate the genetic basis of complex phenotypes. Unlike whole genome association studies (GWAS) which can only discover variation in DNA that is frequent in the population (great than 1%), exome sequencing is a great choice for scientists today who might be interested in looking for rare mutations. Furthermore, exome sequencing and whole-genome sequencing has the advantage of testing comprehensively the role of coding variation, both common and rare. It is anticipated that every gene may harbor functionally relevant variants. <br /><br />Recently, a number of statistical methods become available for analyzing the contribution of rare variants to the development of complex traits. These methods include Combined Multivariate and Collapsing (CMC) Method, Multivariate test of collapsed sub-groups Hotelling T2 test, MANOVA, Fishers product method, Weighted Sum Method and Kernel-based adaptive test. While the merits of these methods have been evaluated extensively for population-based association studies, none of these methods in their current form can be used to analyze the exome sequencing data in pedigrees. <br /><br />It has been documented in the literature that many common diseases including mental health disorders are clustered in families. One can expect that human pedigrees will be enriched with causal rare variants. The traditional linkage analysis that is mainly designed for testing linkage or association of common variants, therefore, does not work well testing association of rare variants. Therefore, there is an urgent need to develop efficient statistical methods for sequence-based pedigree analysis. We aim to extend collapsing principle for population-based association analysis of rare variants which collectively evaluate contribution of multiple rare variants within a genomic region to the diseases, to the pedigree analysis of rare variants. In this study, we will use pairs of affected and unaffected individuals from the same pedigree as a study design. We aim to integrate all rare variants within a gene or a genomic region into an overall variable. We will develop family-based rare variants analysis approach by treating each affected relatives as dependent pairs and the dependency will be accounted for using correlation matrix. Specifically, similar to weighted sum statistics for testing the association of rare variants in unrelated individuals, we aim to develop a novel weighted statistic that compares difference in the value of the integrated overall variables between affected and unaffected individuals weighted by their IBD coefficients. Further, we will perform large-scale simulations to evaluate its type 1 error rate and power under several disease models (including dominant, recessive, additive and multiplicative models). <br /><br />In the next fiscal year, we will move forward to develop a haplotype-based sequence analysis with or without family structure. We have already identified potential collaborators who are willing to test our algorithm on their real data sets on schizophrenia, bipolar, obsessive compulsive disorder (OCD) and nasopharyngeal carcinoma (NPC).
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+We have developed pedigree-based rare variants analysis approach by treating each affected relatives as dependent pairs and the dependency will be accounted for using correlation matrix. This work led to two publications. We are now working on using a haplotype-based approach to identify causal variants for human diseases such as schizophrenia, bipolar and obsessive compulsive disorder. We have obtained the relevant data sets from dbGap which will allow us to compare the statistical properties (in an empirical sense) given by various types of analytical methods.<br /><br />In the future, we will also make contribution to a bipolar study in the Plain People in the Amish community, led by Dr. Francis McMahon (Chief, Human Genetics Branch, Intramural Research Program). <br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81268&allpubs=Y&isajaxlink=Y&_UserReference=B9331673A95D18A95B38D3BA','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Fan Q, He JF, Wang QR, Cai HB, Sun XG, Zhou XX, Qin HD, Shugart YY, Jia WH (2013) Functional polymorphism in the 5-UTR of CR2 is associated with susceptibility to nasopharyngeal carcinoma. Oncol Rep 30:11-6
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23612877?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3729234/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23612877
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3729234 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kiezun A, Garimella K, Do R, Stitziel NO, Neale BM, McLaren PJ, Gupta N, Sklar P, Sullivan PF, Moran JL, Hultman CM, Lichtenstein P, Magnusson P, Lehner T, Shugart YY, Price AL, de Bakker PI, Purcell SM, Sunyaev SR (2012) Exome sequencing and the genetic basis of complex traits. Nat Genet 44:623-30.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22641211?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3727622/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22641211
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3727622 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Nestadt G, Wang Y, Grados MA, Riddle MA, Greenberg BD, Knowles JA, Fyer AJ, McCracken JT, Rauch SL, Murphy DL, Rasmussen SA, Cullen B, Piacentini J, Geller D, Pauls D, Bienvenu OJ, Chen Y, Liang KY, Goes FS, Maher B, Pulver AE, Shugart YY, Valle D, Samuels JF, Chang YC (2012) Homeobox genes in obsessive-compulsive disorder. Am J Med Genet B Neuropsychiatr Genet 159B:53-60.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22095678?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3250212/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22095678
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3250212 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Ruan HL, Qin HD, Shugart YY, Bei JX, Luo FT, Zeng YX, Jia WH (2013) Developing genetic epidemiological models to predict risk for nasopharyngeal carcinoma in high-risk population of China. PLoS One 8:e56128
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23457511?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3574061/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23457511
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3574061 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Yuan J, Jin C, Qin HD, Wang J, Sha W, Wang M, Zhang Y, Zhang F, Li J, Li J, Yu S, Qi S, Shugart YY (2013) Replication study confirms link between TSPAN18 mutation and schizophrenia in Han Chinese. PLoS One 8:e58785
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23505562?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591373/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23505562
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3591373 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

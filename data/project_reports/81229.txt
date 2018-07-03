@@ -1,0 +1,476 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002881</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002881-07</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Molecular mechanisms of synapse development and plasticity
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Zheng  Li; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/zheng-li" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Synapse Development and Plasticity, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Synapse Development and Plasticity</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Song  Jiao; PhD<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Jiemin  Jia; PhD<br />
+
+
+
+
+Daniel Robert Lindberg<br />
+
+
+
+
+Jun  Zhao<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Sanford P. Markey; PhD  (Section on Analytical Biochemistry)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+long-term synaptic depression, synapse, NMDA receptor, spine pathology, schizophrenia, dopamine D2 receptor
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Cognition, emotion and behavior of animals and humans are all critically dependent on neuronal communication at synapses. Synapses are functional units of the brain. They are assembled between presynaptic and postsynaptic partners during early brain development, rearranged to optimize the connectivity of neural circuits during brain maturation, and are modulated in strength, size and number by experience during cognitive, emotional and behavioral processes. Synapses are also intimately related to human mental health as synaptic pathology (the pathological changes in the structure and function of synapses) is manifested in numerous mental disorders. The goal of this project is to delineate the molecular and cellular mechanisms underlying synaptic plasticity and synapse development in normal brains, to gain insights into the pathogenesis of synaptic pathology associated with mental disorders, and by converging the knowledge on normal and pathological synapses to facilitate the advancement of prevention and treatment of mental illness. The objective of this project during the current reporting period is to understand the molecular mechanisms underlying the induction of NMDA receptor-dependent synaptic depression, and spine pathology associated with schizophrenia.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+1. The molecular mechanism of NMDA receptor-dependent LTD (NMDAR-LTD). NMDAR-LTD is a long-lasting form of synaptic plasticity that leads to decreases in synaptic strength. It is known that NMDAR-LTD is required for the development and modification of synapses. It is unclear, however, how it contributes to synapse development and synaptic pathology associated with mental illness, in part due to the fact that our understanding of the molecular mechanisms underlying NMDAR-LTD is still inadequate. Lack of such knowledge hampers the design of modalities to prevent synaptic dysfunction and to develop effective preventive and therapeutic tools for mental illness. The induction of NMDAR-LTD is predominantly mediated by removal of AMPA receptors from postsynaptic membranes through endocytosis (Carroll, Lissin et al. 1999, Lee, Liu et al. 2002). Although the protocol to induce LTD was published two decades ago (Dudek and Bear 1992), we have yet to completely understand how activation of NMDA receptors provoke AMPA-receptor endocytosis. Before 2010, it was known that when NMDA receptors open, calcium influx and subsequent activation of the serine/threonine phosphatases calcineurin/PP2B and PP1 are required for AMPA receptor endocytosis (Malenka and Bear 2004). Precisely how PP2B and PP1 induce AMPA-receptor endocytosis, however, remains unclear. <br /> Our earlier studies show that activation of caspase-3, an effector caspase that can execute cell death apoptosis (a form of programmed cell death), is required for NMDAR-LTD (Li, Jo et al. 2010, Jiao and Li 2011). In contrast to apoptosis, however, caspase-3 activation in LTD is moderate and transient and does not induce cell death. The mechanism by which active caspase-3 promotes LTD, however, remains to be elucidated. The cellular functions of caspases are primarily mediated by proteolysis of their substrates. Although &gt;1000 caspase substrates in apoptotic cells have been reported to date (http://bioinf.gen.tcd.ie/casbah/)(Luthi and Martin 2007), substrates responsible for caspases non-apoptotic functions remain largely unknown. We addressed this question by collaborating with Dr. Sandy Markey (NMIH). We employed the recently developed subtiligase-capture-mass-spectrometry method to identify caspase-3 substrates in neurons undergoing LTD. Subtiligase is an engineered peptide ligase that conjugates esterified peptides onto the N termini of proteins or peptides (Abrahmsen, Tom et al. 1991). Because the majority of eukaryotic proteins are N-terminal acetylated and therefore blocked for subtiligase labelling (Brown and Roberts 1976), synthetic tag peptides can be coupled selectively to the free N-terminal &amp;#945;-amines of proteins derived from proteolysis. The peptide-conjugated proteolytic products can then be affinity-purified and sequenced by mass spectrometry to determine putative caspase cleavage sites within the substrates. <br />Using subtiligase mass spectrometry to interrogate the LTD degradome, we identified 85 putative aspartate cleavage sites in 56 proteins (including 13 proteins that are newly identified caspase substrates) in neurons undergoing LTD. To our knowledge, this is the first proteomic study of caspase substrates in neurons. By examining the cleavage of exogenously expressed substrates in apoptotic cells, and using an in vitro assay that tests the cleavage of recombinant substrates by recombinant caspase-3, we confirmed that three identified substratesGap43, Drebrin (Dbn1) and brain acid soluble protein 1 (BASP1)are true caspase-3 substrates. Perhaps most surprisingly, we found that cleavage of Gap43 (a protein primarily known for its function in axon growth and regeneration) by caspase-3 in postsynaptic neurons is required for AMPA receptor endocytosis and LTD induction. Our manuscript on this study is currently being revised for Molecular and Cellular Proteomics.<br />	<br />2. The molecular mechanism of synaptic pathology associated with schizophrenia. Synaptic pathology has been well recognized in mental disorders. For example, neuroimaging studies show that functional connectivity between neurons in the brains of schizophrenic patients are impaired (Stephan, Baldeweg et al. 2006). Also, interneuronal connections between neurons derived from iPS (induced pluripotent stem) cells of schizophrenic patients are severely impaired (Brennand, Simone et al. 2011). However, little is known about the molecular mechanism underlying synaptic pathology. To address this question, we investigated the mechanism underlying synaptic pathology of schizophrenia. In particular, we investigated the role of D2R in the development of dendritic spines and neuronal circuitry in the hippocampus, a key region for episodic memory which is one of the predominantly impaired cognitive functions in persons with schizophrenia. <br />	All antipsychotics antagonize D2R, and their antipsychotic potencies correlate with their D2R-binding affinities, indicating that D2R plays an important role in the psychopathology of schizophrenia (Miyamoto, Duncan et al. 2005). Indeed, an increase in the density of D2R is consistently found in schizophrenic brains (Howes and Kapur 2009). Genetic studies also show that some genes strongly associated with increased risks of schizophrenia encode proteins that regulate D2R, such as dysbindin, which controls trafficking of D2R to the cell surface (Iizuka, Sei et al. 2007, Ji, Yang et al. 2009). Although effective for psychosis, however, antipsychotic medications in adults have little effect on cognitive impairment, which is a core symptom of schizophrenia and a major determinant of disability (Miyamoto, Duncan et al. 2005, Green 2007). <br />	In this study, we show that D2R modulates the density and morphogenesis of dendritic spines in hippocampal CA1 neurons of mice via GluN2B- and cAMP-dependent mechanisms. Intriguingly, we found that D2R regulates spines only during postnatal week 3-6, but not in adulthood; and that in mice with deficient expression of the schizophrenia-risk-gene dysbindin, D2R hyperactivity during this period leads to a reduction in the number of spines. More importantly, we demonstrated that even transient suppression of spine development during adolescence by hyperactive D2R has remarkable adverse effects on the connection between the hippocampus and entorhinal cortex and working memory in adulthood, and that these effects can be alleviated by blocking D2R during adolescence. These findings identify a novel function of D2R in the structural development of neurons, show that anomalous D2R activity contributes to neuronal dysconnectivity, and suggest a critical temporal window for interventions of the spine pathology and cognitive impairment associated with D2R hyperactivity.  <br />	 <br /> <br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81229&allpubs=Y&isajaxlink=Y&_UserReference=4160BB9A81DCEBF15B38D27E','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Li Z, Sheng M (2012) Caspases in synaptic plasticity. Molecular Brain 5:15-20.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

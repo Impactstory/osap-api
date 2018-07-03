@@ -1,0 +1,720 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002386</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002386-30</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Chemical Coding of Neurotransmission
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2015 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Lee E Eiden; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/lee-eiden" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Molecular Neuroscience, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Molecular Neuroscience</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 7 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Ryan A Alvarez<br />
+
+
+
+
+Andrew C Emery<br />
+
+
+
+
+David K Huddleston<br />
+
+
+
+
+Zhihong  Jiang; PhD<br />
+
+
+
+
+Babru  Samal<br />
+
+
+
+
+Craig D Westover<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=96235&onameset=Section on Molecular Neuroscience&isajaxlink=Y&_UserReference=56D331717CE109C65B38D0A4','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 7</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Maribeth V Eiden; PhD  (Section on Directed Gene Transfer)<br />
+
+
+
+Charles R Gerfen; PhD  (Laboratory of Systems Neuroscience)<br />
+
+
+
+Zheng  Li; PhD  (Section on Synapse Development and Plasticity)<br />
+
+
+
+Mario Alexander Penzo  (Unit on the Neurobiology of Affective Memory)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Abdel G Elkahloun; PhD (NHGRI) <br />
+
+
+
+Marc  Ferrer-Alegre (NHGRI) <br />
+
+
+
+David Stanley Goldstein; BA, MD,  PhD (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Ralf  Kinsherf; PhD
+<i>(Dept. of Anatomy, Philipps University)</i>
+<br />
+
+
+
+Sushil  Mahata; PhD
+<i>(University of California, San Diego)</i>
+<br />
+
+
+
+Eberhard  Weihe; MD, PhD
+<i>(Institute of Anatomy and Cell Biology, Philipps-Universitat Marburg)</i>
+<br />
+
+
+
+L  Zhang-deBarrio; MD, PhD
+<i>(Department of Physiology, UNAM)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+stress, PACAP, cyclic AMP, NCS/Rapgef2, dopamine, neuropeptide, psychomotor stimulants
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Neuropeptides, acting as slow transmitters at neuronal synapses, are highly specific regulators of stress responses in humans and other mammals. The Section on Molecular Neuroscience seeks to identify the unique and specific cellular signaling components that allow neuropeptides to control these responses, and to develop specific pharmacological reagents to appropriately block or stimulate those components for therapeutic effect in vivo. The pituitary adenylate cyclase-activating polypeptide (PACAP) is a neuropeptide slow transmitter that elevates post-synaptic cyclic AMP (through Gs) and calcium (through Gq and other mechanisms) after secretion from pre-synaptic neurons. PACAP-deficient mice show impaired adrenomedullary responses to hypoglycemia, and neuroprotective responses to brain ischemia (Hamelink et al. PNAS 99:461,2002; Chen et al., Regul. Peptides 137:4, 2006), as well as specific impairment of stress activation of the HPA axis (Stroth and Eiden Neuroscience 165: 1025, 2010; Stroth et al., J. Neuroendocrinol. 23:944, 2011). PACAP enhances transcription of specific target genes in neuroendocrine cells through a cyclic AMP-dependent mechanism that does not require the participation of protein kinase A (PKA)(Ravni et al., Mol. Pharmacol. 73:1688, 2008; Holighaus, Mustafa and Eiden, Peptides 32:1647, 2011; Emery and Eiden, FASEB J 26:3199, 2012). This observation allows expansion of the current view that all cAMP signaling to the nucleus is PKA-dependent, and suggests the need for a new pharmacology for cAMP signaling in the nervous system. The signaling component that uniquely connects cAMP elevation via GPCR ligand occupancy, to activation of the MAP kinase ERK, in neuronal and endocrine cells, has been identified in our laboratory. It is the neuritogenic cAMP sensor (NCS), which is the protein product of the Rapgef2 gene, termed by us NCS-Rapgef2 (Emery, Eiden, V., Mustafa and Eiden, L., SCIENCE SIGNALING 6 (281), ra51, 2013). The existence of this pathway inaugurates the sunsetting of the paradigm that only PKA-mediated signaling affects gene expression in the CNS, and impels our laboratory to investigate in detail the relative involvement of PKA, Rapgefs 3 and 4 (so-called Epacs), and NCS/Rapgef2 (see Emery and Eiden, FASEB J 26:3199,2012, and Emery et al., J.Biol. Chem. 289: 10126, 2014) in neuronal signaling leading to the cellular plasticity underlying learning, memory, and adaptation to stress. Full delineation of the molecular pathways involved in cAMP-mediated neuronal responses to psychological and systemic stress and tissue injury will enhance development of innovative pharmacological therapeutic strategies to treat stress-associated and neurogenerative disorders that require signaling through cAMP. Our aims are two-fold. We have determined in cellular models and will now attempt to determine in vivo, the relative contributions of PKA, Rapgef3/4, and NCS/Rapgef2 to cAMP-dependent signaling driving neuronal activities such as progenitor-cell growth arrest and differentiation, morphological changes including neuritogenesis and dendritic homeostasis, and cytoprotection in response to trauma or stress. Next, we have determined the role of NCS/Rapgef2 in ERK activation in response to psychomotor stimulant administration, and psychogenic stress in vivo, and will now attempt to assess the physiological relevance of the cAMP-&gt; NCS-Rapgef2-&gt;ERK signaling system to CNS adaptive and maladaptive responses to stress, and psychomotor stimulant imbibition, including stress-accelerated depressive, anxious, and drug-seeking behaviors.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The neuropeptide slow transmitter PACAP (pituitary adenylate cyclase activating polypeptide) is released at synapses that transduce stress responses to the brain, and mediate homeostatic and allostatic adjustments to stress by the organism. The catecholamine transmitter DA (dopamine) is released at synapses that transduce reward and mediate response to psychomotor stimulant drugs of abuse. Allostatic responses to systemic and psychogenic stressors, shown to be PACAP-dependent, are implicated as causative factors in depression and post-traumatic stress disorder (PTSD). Stress is implicated as a driver of both decreased reward drive (anhedonia), and of anxious behavior, both contributory to depression, PTSD, and generalized anxiety disorder (GAD) occurring in humans. DA neurotransmission is thought to underlie organismic drive for reward, as well as to mediate both the rewarding properties of psychomotor stimulants, and the likelihood of relapse to drug-seeking behavior that can be triggered by stress. Thus, these two systems (DAergic and PACAPergic) are likely to strongly interact. Understanding the cellular mechanisms of stress transduction, and stress interaction with reward circuitry, is crucial to developing effective therapeutic interventions for these disorders.<br /><br />Both PACAP and DA act through Gs-coupled G-protein receptors (GPCR), that is, they exert their actions as first messengers on neuronal cells through a precisely time-dependent elevation of intracellular cyclic AMP (cAMP). We have identified the specific contributions of the three major cAMP sensors PKA, Epac (Rapgef2 3 and 4), and NCS/Rapgef2 to major cAMP-dependent processes carried out by NS-1 neuroendocrine cells and primary neurons in cellula (A.C. Emery, M.V. Eiden and L.E. Eiden, J.Biol. Chem. 289: 10126, 2014). Either of the two first messengers, PACAP and DA, alluded to above as important in stress transduction and in reward, activate these three 'parcellated' cAMP-dependent pathways. We now need to know the relative contributions of the three cAMP-dependent pathways to the actions of PACAP and DA at the specific post-synaptic sites that characterize the stress response and reward micro-circuitry of the mammalian CNS, and how these intracellular mechanisms determine the interaction between PACAPergic and DAergic neurotransmission that ultimately leads to the depressogenic and anxiogenic effects of stress, the rewarding characteristics of psychomotor stimulants, and the stress x reward interactions that blunt hedonia and increase anxiety in stress-associated affective disorders, and in stress-associated relapse to drug-seeking behavior. We are focusing on the relative contributions of the three sensors to cAMP-dependent effects mediated by the Gs-coupled PACAP receptor PAC1, and the dopamine D1 receptor, in the extended amygdala and in the ventral striatum, respectively, during the processes of development of chronic stress-induced anxious/depressive behavior, and psychomotor stimulant-induced plasticity of medium spiny neurons, respectively. This will require more extensive knowledge of the micro-circuitry of PACAPergic innervation in both extended amygdala and in the ventral striatum than we now possess: although PACAPergic cell bodies, and PACAPergic nerve terminals have been extensively characterized in the rodent brain, the connections between them (i.e. the circuits in which they function, including those modulating reward and anxiety) remain largely uncharacterized, in sharp contrast to the very well-mapped dopaminergic projections, from mid-brain to ventral striatum, mediating apprehension of reward and reward-seeking behavior. As a recent example of progress, albeit of an exclusionary nature, in this area, we have recently determined that PACAP-dependent effects on corticosterone secretion in response to a single episode of restraint stress (at the level of PACAPergic innervation of CRH neurons of the paraventricular nucleus of the hypothalamus, i.e. hypothalamo-pituitary-adrenal, or HPA axis activation) can be dissociated from PACAP-dependent effects on behavior (hypophagia) associated with this stressor. This means two important things: that PACAPergic circuitry underlying HPA axis activation is separate from PACAPergic circuitry underlying suppression of feeding (stress-associated anorexia), and that post-synaptic PACAP effects on CRH neurons (affecting long-term CRH synthesis without affecting immediate CRH secretion) must be fundamentally different from post-synaptic PACAP effects on the neurons mediating acute restraint stress-dependent effects on feeding behavior (which effects must be transduced at least immediately, if not also potentially long-lastingly). This work was recently reported (Jiang and Eiden, STRESS 19: 374, 2016), and forms the basis for our continuing efforts to define PACAPergic functional circuits involved in stress responding and in modulation of DAergic neurotransmission relevant to reward, and the cAMP-dependent and -independent post-synaptic intracellular signaling pathways that are finally responsible for the physiological regulation of stress responding by these two neurotransmitters in the brain. 
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2016 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=96235&allpubs=Y&isajaxlink=Y&_UserReference=56D331717CE109C65B38D0A4','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Emery AC, Liu XH, Xu W, Eiden MV, Eiden LE (2015) Cyclic Adenosine 3,5-Monophosphate Elevation and Biological Signaling through a Secretin Family Gs-Coupled G Protein-Coupled Receptor Are Restricted to a Single Adenylate Cyclase Isoform. Mol Pharmacol 87:928-35
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25769305?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4429715/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25769305
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4429715 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Fliedner SM, Yang C, Thompson E, Abu-Asab M, Hsu CM, Lampert G, Eiden L, Tischler AS, Wesley R, Zhuang Z, Lehnert H, Pacak K (2015) Potential therapeutic target for malignant paragangliomas: ATP synthase on the surface of paraganglioma cells. Am J Cancer Res 5:1558-70
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26101719?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4473332/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26101719
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4473332 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Samal B, Waites CK, Almeida-Suhett C, Li Z, Marini AM, Samal NR, Elkahloun AG, Braga M, Eiden LE (2015) Acute Response of the Hippocampal Transcriptome Following Mild Traumatic Brain Injury After Controlled Cortical Impact in the Rat J Mol Neurosci. 57(2):282-303
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

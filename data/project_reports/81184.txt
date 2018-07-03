@@ -1,0 +1,933 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002581</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002581-23</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Childhood Onset Schizophrenia
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Judith L Rapoport; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/judith-rapoport" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Childhood Neuropsychiatric Disorders, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Childhood Neuropsychiatric Disorders</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 14 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Nitin  Gogtay; MD<br />
+
+
+
+Kwangmi  Ahn; PhD<br />
+
+
+
+Deanna K Greenstein; PhD<br />
+
+
+
+David  Driver; MD<br />
+
+
+
+Peter A Gochman<br />
+
+
+
+Jay  Giedd; MD<br />
+
+
+
+ <!-- step through any ordered staff -->
+
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=81184&onameset=Section on Childhood Neuropsychiatric Disorders&isajaxlink=Y&_UserReference=60F1493EF3EDAA905B38D26E','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 14</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Eric D Green; MD, PhD (NHGRI) <br />
+
+
+
+Andrew B Singleton; PhD (NIA) <br />
+
+
+
+
+
+
+
+
+
+
+
+
+Eric M Wassermann; MD (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 18 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Paul  Thompson; PhD
+<i>(Department of Neurology, UCLA)</i>
+<br />
+
+
+
+
+Alan C Evans; PhD
+<i>(ACE NeuroImaging Laboratory, McConnell Brain Imaging Centre)</i>
+<br />
+
+
+
+
+R F Asarnow; PhD
+<i>(Department of Pyschiatry, UCLA)</i>
+<br />
+
+
+
+
+Edward  Bullmore; MD
+<i>(Biostatistics & Computing, Institute of Psychiatry)</i>
+<br />
+
+
+
+
+Michel  Cuenod; MD
+<i>(Centre for Psychiatric Neurosciences, Lausanne University)</i>
+<br />
+
+
+
+
+Vaibhav A Diwadkar; PhD
+<i>(Dept. of Psychiatry and Behavioral Neurosciences, Wayne State University School of Medicine)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=81184&isajaxlink=Y&_UserReference=60F1493EF3EDAA905B38D26E','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 18</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Child and Adolescents, Cytogenetic Abnormalities, Schizophrenia, Clozapine, Copy Number Polymorphisms, Genetics, MRI, Whole Genome Sequencing, Oxytocin, Transcranial Direct Stimulation (TDCS)
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Schizophrenia is one of the most severe mental illnesses. Early diagnosis and treatment reduce the cost to society by at least 30%. Clinical studies across all of medicine show that early onset illness is often more severe, and with stronger biological and genetic factors. Since 1990, the NIMH has been recruiting patients with onset of schizophrenia before age 13. An overarching hypothesis is that clinical, neurobiological markers will be more pronounced than for adult onset disorder. Major goals are to study development of brain circuitry during childhood and adolescence for early onset schizophrenia patients and their full siblings, and device novel treatment strategies for this treatment refractory population. Prospective studies show subtle abnormalities in growth for younger healthy siblings of childhood onset schizophrenia (COS) patients. Rare and/or disease related chromosomal Copy Number Variants (CNVs) are significantly more frequent for COS probands than for their healthy siblings. Exome sequencing and ultimately whole genome sequencing are expected to identify additional salient genetic risks.<br /><br />This report involves work collected under NCT00049738 Protocol 03-M-0035: Screening, Evaluation, Diagnosis, Treatment Optimization and Follow-up for Childhood Onset Psychotic Disorders; NCT01712646 Protocol 13-M-0004: The use of daily, intranasal oxytocin for the treatment of childhood-onset schizophrenia (COS), a randomized double-blind trial; NCT00001198 Protocol 84-M-0050: Biochemical, Physiological, and Psychological Measures in Normal Controls and Relatives of Psychiatric Patients;  NCT00001656 Protocol 97-M-0126: Childhood Onset Psychotic Disorders: Characterization and Treatment with Atypical Neuroleptics; NCT00757497 Protocol 08-M-0211: Safety of transcranial direct current brain stimulation (TDCS) for improvement of psychotic symptoms and cognitive functioning in childhood onset schizophrenia (COS).
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+In comparison with adult patients, childhood onset patients have a greater number of prepsychotic developmental disorders. One third have earlier forms of autism spectrum disorder, and one third have motor, speech, language, attentional or impulse related developmental disorders (Rapoport et al. 2009) (Driver et al. 2013). Cognitive studies have begun within this protocol to obtain prospective measures of working memory, attention and learning for young full siblings of the childhood onset schizophrenia patients. It is hypothesized that some attention related earlier cognitive relative deficits will be ameliorated in parallel with temporal and frontal cortical brain/development (Gogtay et al. 2007; Mattai et al. 2011).<br /><br />Studies of anatomic hippocampal development in the healthy siblings showed no deviance from that seen for the healthy controls however a study in collaboration with colleagues at the University of Chicago show anterior hippocampal shape deviation in COS, similar to that seen for adult onset subjects, which are also shared, more subtly, by healthy COS siblings (Johnson et al. 2013). Similarly, recent analyses also show that COS probands and their sibling show overlapping developmental deficits in insula compared to matched controls (Moran et al. 2013a); and that sibling brain developmental defects tend to be age limited, (Moran et al 2013b). <br /><br />We have increased our focus on studying the neurocircuitry development and abnormal connectivity in COS patients and their healthy siblings. Such analyses, particularly in healthy siblings may highlight resilience factors or circuits in the brain that are relevant to early psychosis. A new functional MRI study in collaboration with Dr Karen Berman, NIMH, is studying functional response during two working memory tasks for probands, healthy siblings and controls. Very preliminary data suggest that probands and to a lesser extend healthy siblings demonstrate increased recruitment in several brain regions including the right DLPFC and parietal circuits suggesting a subtle but perhaps more sensitive functional endophenotype. A recent study explored the small world networks properties using resting state fMRI data in COS patients which suggested loss of shorter connections while the longer connections were relatively preserved (Alexander-Bloch et al. 2013). These findings are now being extended to healthy COS siblings. We are actively recruiting younger siblings for these fMRI studies to see whether deficits in activation or (dys) connectivity relate to regions under greatest developmental change with respect to synaptic development.<br /><br />Several genetic studies are ongoing. There is a higher rate of rare copy number variants (CNVs), with 126 probands, involving 75 proband/sib pairs, and access to the current Database of Genomic Variation of over 26,000 individuals.  A total of 12% of COS probands carry a rare, disease related CNV including 5 cases with the 22q11 deletion. This represents a significantly higher incidence compared to that seen for healthy controls and to that for adult onset schizophrenia patients (p&lt;.05) (Ahn et al. 2013). To better understand the heritability of COS, exomic sequesting of 73 trios is being completed in collaboration with Matthew State, MD, (Yale).  We are also finding an increased rate of rare CNVs for a group of our patients with severe early onset non-schizophrenic disorders indicating the non-specifity of CNV risk.<br /><br />An ongoing collaborative study with Dr. Ricardo Dolmetsch, Stanford University and the Allen Brain Institute, is studying neuronal activation and neurite development from iPS derived neurons from our childhood onset schizophrenia patients. Patients with and without rare disease associated copy number variants (CNVs) are included. Contrast groups will include unrelated healthy controls, and healthy and affected family members (some healthy carriers of risk CNVs).  Evidence from 4 iPSC derived neurons 22q11 subjects indicated reduced L-type voltage gated calcium responses in pyramidal neurons (Dolmetsch in preparation).<br /><br />Finally, we continue to explore novel treatment strategies for this severely psychotic and treatment refractory population. Two inpatient treatment trials are currently ongoing; both with two week, double blind, placebo-controlled, parallel designs. The first trial explores the efficacy of trans-cranial direct current stimulation (TDCS) to (a) improve cognitive deficits by application of anodal current to bilateral DLPFC and (b) improve hallucinations by applying cathodal current to temporal cortex bilaterally (David et al. 2013). The second trial, which was just approved by the IRB, explores the efficacy of twice-daily intranasal oxytocin for enhancement of emotional cognition in COS and its effects on amygdalar-frontal emotional circuitry. We continue to advise on use of clozapine for COS and to establish guidelines for monitoring its use (Maher et al 2013) (Merikangas et al 2013).  These studies are of particular importance given the dearth of new treatments in child psychiatry (Merikangas et al 2013) (Rapoport et al 2013).
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81184&allpubs=Y&isajaxlink=Y&_UserReference=60F1493EF3EDAA905B38D26E','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">David C, Rapoport J (2013) Treatments in Context:  Transcranial direct current brain stimulation (TDCS) in childhood onset schizophrenia. Expert Review of Neurotherapeutics. Expert Review of Neurotherapeutics, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">David C, Rapoport J, Gogtay N (2013) Treatments in Context:  Transcranial direct current brain stimulation (TDCS) in childhood onset schizophrenia. Expert Review of Neurotherapeutics, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">David CN, Rapoport JL, Gogtay N (2013) Treatments in context: transcranial direct current brain stimulation as a potential treatment in pediatric psychosis. Expert Rev Neurother 13:447-58
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23545058?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4063712/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23545058
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4063712 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Driver DI, Gogtay N, Rapoport J (2013) Childhood Onset Schizophrenia and Early Onset Schizophrenia Spectrum Disorders. Child and Adolescent Psychiatric Clinics of North America, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Johnson SL, Greenstein D, Clasen L, Miller R, Lalonde F, Rapoport J, Gogtay N (2013) Absence of anatomic corpus callosal abnormalities in childhood-onset schizophrenia patients and healthy siblings. Psychiatry Res 211:11-6
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23154096?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3557544/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23154096
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3557544 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Johnson SL, Wang L, Alpert KI, Greenstein D, Clasen L, Lalonde F, Miller R, Rapoport J, Gogtay N (2013) Hippocampal shape abnormalities of patients with childhood-onset schizophrenia and their unaffected siblings. J Am Acad Child Adolesc Psychiatry 52:527-536.e2.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23622854?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3812431/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23622854
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3812431 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Johnson SL, Wang L, Alpert KI, Greensteinb D, Clasen L, Lalonde F, Miller R, Rapoport J, Gogtay N (2013) Hippocampal shape abnormalities of patients with childhood-onset schizophrenia and their unaffected siblings. Journal of American Academy Child Adolescent Psychiatry 52:527-536
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">8.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Maher KN, Tan M, Tossell JW, Weisinger B, Gochman P, Miller R, Greenstein D, Overman GP, Rapoport JL, Gogtay N (2013) Risk factors for neutropenia in clozapine-treated children and adolescents with childhood-onset schizophrenia. J Child Adolesc Psychopharmacol 23:110-6
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23510445?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3608018/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23510445
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3608018 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">9.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Moran M, Weisinger B, Greenstein D, Clasen L, Miller R, Rapoport J, Gogtay N (2013) Abnormal development of Insula in patients with childhood onset schizophrenia and their non psychotic siblings. JCPP, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">10.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Rapoport JL (2013) Pediatric psychopharmacology: too much or too little? World Psychiatry 12:118-23
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23737413?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3683256/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23737413
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3683256 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">11.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Rapoport JL (2013) Prevention of schizophrenia: an impossible dream? Am J Psychiatry 170:245-7
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23450283?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4071868/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23450283
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4071868 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,833 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002808</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002808-13</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">National Comorbidity Survey - Adolescent (NCS-A)
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Kathleen R Merikangas; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/kathleen-merikangas" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Developmental Genetic Epidemiology, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Developmental Genetic Epidemiology</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 7 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Lihong  Cui; MS<br />
+
+
+
+
+John David Eun; BA<br />
+
+
+
+
+Jian-Ping  He; MS<br />
+
+
+
+
+Diane M Lameira; BA<br />
+
+
+
+
+Tarannum  Lateef; MD<br />
+
+
+
+
+Erin  Nakamura; MPH<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=91060&onameset=Section on Developmental Genetic Epidemiology&isajaxlink=Y&_UserReference=9C322F4022716F785B38D10F','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 7</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Shelli  Avenevoli; PhD  (Developmental Trajectories of Mental Disorders Branch)<br />
+
+
+
+Marcy Ellen Burstein; PhD  (Genetic Epidemiology Branch)<br />
+
+
+
+Ellen  Leibenluft; MD  (Section on Mood Dysregulation and Neuroscience)<br />
+
+
+
+Judith L Rapoport; MD  (Section on Childhood Neuropsychiatric Disorders)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Karin B. Nelson; MD (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 14 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Robert  Althoff; MD, PhD
+<i>(University of Vermont, Vermont)</i>
+<br />
+
+
+
+Katja  Bessdo-Baum
+<i>(Technische Universitaet Dresden, Germany)</i>
+<br />
+
+
+
+Carlos  Blanco; MD, PhD
+<i>(Psychiatry, Columbia University)</i>
+<br />
+
+
+
+Elizabeth J Costello; PhD
+
+<i>(Duke University)</i>
+<br />
+
+
+
+Scott  Crow; MD
+<i>(University of Minnesota)</i>
+<br />
+
+
+
+Kathy  Georgiades; PhD
+<i>(Psychiatry and Behavioral Neuroscience, McMaster Universty, Ontario)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=91060&isajaxlink=Y&_UserReference=9C322F4022716F785B38D10F','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 14</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+NCS-A, epidemiology, adolescents, substance abuse, service use, mood, anxiety, sleep, fatigue
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The Adolescent Supplement of the National Comorbidity Study (NCS-A) is the first study of a nationally-representative sample of 10,148 U.S. adolescents assessing a broad range of emotional, behavioral, and substance use disorders using a modified version of the fully structured World Health Organization Composite International Diagnostic Interview, version 3.0. The goals of the NCS-A are, in the U.S. adolescents: (1) to obtain the prevalence estimates of the major DSM-IV psychiatric disorders; (2) to identify risk or protective factors of emotional and behavioral disorders; (3) to examine the range of expression of the core phenomenology underlying mood, anxiety and behavior disorders; (4) to identify patterns and correlates of service utilization for mental disorders; and (5) to identify early forms of expression of adult mental disorders and links with adult mental disorders.<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Although the NCS-A survey was conducted 10 years ago, no population-based adolescent studies in the U.S. could compete with its data richness yet.  Data collected from the NCS-A covered diagnostic information for 16 psychiatric disorders, demographic characteristics, developmental background, and individual, family and environmental factors.  The prevalence, comorbidity, and correlates of mental disorders in adolescents generated from the NCS-A survey have been widely cited and its data have been analyzed in-depth, especially since its release to the public in 2011.   <br /><br />During the past year, we have actively worked on projects of relevance to the goals of our research branch including: (1) prevalence, correlates and service patterns for major depression in adolescents; (2) patterns of comorbidity (mental and physical comorbidity patterns in autism and pervasive developmental disorders); (3) physical disorders and attention deficit hyperactivity disorder (ADHD); (4) obesity and bipolar disorder; (5) substance use disorder and other prior mental disorders; and (6) sleep patterns and mental health problems. We have also explored the implications of newly conceptualized DSM-5 disorders (e.g. disruptive mood dysregulation disorder (DMDD) and ADHD when extended the age of onset from 7 to 12 years old).  The research yielded several peer-reviewed publications.  The chief findings include: <br /><br />-Major depressive disorder (MDD) was common in adolescence (lifetime and 12-month prevalence were 11.0% and 7.5%, respectively). The prevalence of MDD increased significantly across adolescence, with markedly greater increases among females than males. Most cases of MDD were associated with psychiatric comorbidity and severe role impairment, and a substantial minority reported suicidality. The prevalence of severe MDD was about a quarter of that of all MDD cases; estimates of impairment and clinical correlates were of 2- to 5-fold greater magnitude for severe versus mild/moderate depression, with markedly higher rates for suicidal thoughts and behaviors. Treatment in any form was received by the majority of adolescents with 12-month DSM-IV MDD (60.4%), but only a minority received treatment that was disorder-specific or from the mental health sector (Avenevoli et al, 2015).<br />-The results of a sophisticated analysis of the association between school start time and reduced sleep time show that delaying school start time to 8 am may have an important benefit in increasing adolescent sleep duration. Our work on the adverse effects of insomnia in adolescents also demonstrated the health consequences of inadequate sleep (Blank et al, 2015). Because obtaining adequate sleep is protective against a number of adverse health conditions, interventions that help adolescents achieve optimal sleep patterns will hopefully benefit both short- and long-term health (Paksarian et al, 2015).<br />-Using a novel approach to examine the clustering of disorders, we found that the interrelationships among 12-month psychiatric disorders were well described by three or four correlated dimensions, representing different facets of underlying internalizing and externalizing dimensions. These dimensions are hierarchically organized, allowing for clinical and research analyses at different levels of organization.  Findings suggest that individuals with psychiatric disorders present with a broad of range of liabilities, reflecting the diversity of their clinical presentations. These findings have nosological, etiological and clinical implications for adolescent psychiatric disorders (Blanco et al, 2015).<br />-While accessing the utility of the new DSM-5 label for DMDD, we concluded that the DSM-5 DMDD diagnosis captures a small group of adolescents with multiple other psychiatric and neurologic conditions. The specificity of this diagnostic label, therefore, at least in adolescents, remains an open question (Althoff  et al, in press, Journal of Child and Adolescent Psychopharmarcology).<br /> <br />Public Health Impact:<br />As the first study of comprehensive domains of emotional and behavior disorders in a nationally representative sample of U.S. youth, the results have had significant public health impact. The striking rates of serious depression in adolescents, coupled with the relatively low proportion who receive mental health services, underscores the urgent need for greater effort to address adolescent depression in the mental health system.  This is of particular concern because of the risk of suicide and other impacts on adolescent life functioning. The finding of the widespread lack of adequate sleep in adolescents, that could be partially ameliorated by a change in school start time, is also a major public health challenge to adolescent health.<br /><br />Future Plans:<br />We will continue to analyze these rich data, both within our research group and the National Institute of Mental Health, as well as to provide support to investigators outside the National Institutes of Health. Several important manuscripts are now in progress that will continue to provide knowledge about adolescent mental health in the general population. We are currently focusing on the following areas:<br /><br />-Examine the overall prevalence of prior mental disorders among adolescents having attained each stage of substance use (from first use to dependence) and estimate the influence of prior mental disorders in the probability of transition from earlier to later stage of use:  We found the burden of substance use disorders in adolescence is disproportionately concentrated among youth with prior mental disorders, and that this burden is not limited to treated samples (Conway et al, 2015).<br />-Examine the association of overweight/obesity and bipolar disorder:  In contrast to adults, overweight or obesity is not excessively prevalent among adolescents with bipolar disorder. Similar to adults, overweight or obesity among adolescents with bipolar disorder is associated with multiple indicators of risk and of bipolar severity. Prevention and treatment of overweight or obesity in adolescents with bipolar disorder may serve the dual purpose of optimizing physical and mental health (Goldstein et al, 2015).<br /> - Investigate the overall prevalence and overlap between autism spectrum disorder (ASD) and learning disability (LD) in the NCS-A:  ASD is a neurodevelopmental disorder that is highly comorbid with LD. Several conditions, including allergy, are specifically associated with ASD. However, gastrointestinal problems, epilepsy/seizures, and ADHD are associated with both ASD and LD in our population-based sample, indicating an association with general neurodevelopment (Sheppard et al, 2015).<br />-Examine physical comorbidity among adolescents with a diagnosis of ADHD: We found that among various physical conditions examined, enuresis and serious stomach or bowel problems were the strongest comorbid conditions of ADHD.  These findings confirm the pervasive physical comorbidity of ADHD reported in previous clinical and community-based studies.  The evidence for specific associations between ADHD with enuresis and serious stomach or bowel conditions may also provide an important clue to multisystem involvement in ADHD (Jameson et al, 2015).<br />-Review the distribution of sleep patterns and their associations with mental disorders: We found that inadequate sleep may increase the risk of mental disorder onset. Sleep pattern variability was also associated with tobacco smoking and perceived mental and physical health.  (Zhang et al, 2015).<br />-Access the generalizability of adolescent clinical trials of major depressive disorder; given that current practice of the clinical trials likely exclude a great majority of adolescents with major depressive disorder (Blanco et al, 2015).
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91060&allpubs=Y&isajaxlink=Y&_UserReference=9C322F4022716F785B38D10F','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Althoff R, Crehan E, He J, Burstein ME, Hudziak J, Merikangas K (2015) Disruptive mood disregulation disorder at ages 13-18: results from the National Comorbidity Survey- Adolescent Supplement (NCS-A). Journal of Child and Adolescent Psychopharmarcology, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Avenevoli S, Swendsen J, He JP, Burstein M, Merikangas KR (2015) Major depression in the National Comorbidity Survey-Adolescent Supplement: prevalence, correlates, and treatment. J Am Acad Child Adolesc Psychiatry 54:37-44.e2
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25524788?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4408277/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25524788
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4408277 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Blanco C, Wall MM, He JP, Krueger RF, Olfson M, Jin CJ, Burstein M, Merikangas KR (2015) The space of common psychiatric disorders in adolescents: comorbidity structure and individual latent liabilities. J Am Acad Child Adolesc Psychiatry 54:45-52
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25524789?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4299666/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25524789
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4299666 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Blank M, Zhang J, Lamers F, Taylor AD, Hickie IB, Merikangas KR (2015) Health correlates of insomnia symptoms and comorbid mental disorders in a nationally representative sample of U.S. adolescents. Sleep 38:197-204
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25325502?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4288600/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25325502
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4288600 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Paksarian D, Rudolph KE, He JP, Merikangas KR (2015) School start time and adolescent sleep patterns: results from the U.S. National Comorbidity Survey-Adolescent Supplement. Am J Public Health 105:1351-7
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25973803?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4463387/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25973803
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4463387 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

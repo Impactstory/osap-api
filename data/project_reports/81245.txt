@@ -1,0 +1,877 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002901</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002901-07</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Transgenic resources for neuroscience research
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lead Investigator</div></div>
+
+<div class="rowdiv">
+<div class="data">
+James M Pickel; AB, PhD
+<br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any LIs -->
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<!-- display SoRs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Supervisor of Record</div></div>
+<div class="rowdiv">
+<div class="data">
+ <!-- faculty test -->
+Susan G Amara; PhD 
+ <!-- faculty test -->
+<br />
+
+</div>
+</div>
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Transgenic Core, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Transgenic Core</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Lenegereshe  Baweke<br />
+
+
+
+
+Alice Catherine Dallstream<br />
+
+
+
+
+Yetemwork H Eshete<br />
+
+
+
+
+John A Okolonta<br />
+
+
+
+
+David  Slaughter<br />
+
+
+
+
+Lu  Teng<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+<div id="moresamestaff">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffu">6 of a total of 13 other  members are shown. </div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Heather A Cameron; PhD  (Unit on Neuroplasticity)<br />
+
+
+
+Jingshan  Chen  (Psychosis and Cognitive Studies Section)<br />
+
+
+
+Lee E Eiden; PhD  (Section on Molecular Neuroscience)<br />
+
+
+
+Charles R Gerfen; PhD  (Section on Neuroanatomy)<br />
+
+
+
+Barry Bernard Kaplan; PhD  (Laboratory of Molecular Biology)<br />
+
+
+
+David A Leopold; PhD  (Laboratory of Neuropsychology)<br />
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaff','searchview.taf?_function=showmore&ios=S&ipid=81245&thisic=&isajaxlink=Y&_UserReference=3FF36E4FFD559B4E5B38CFED','moresamestaffu');  return false;">
+
+
+<span class="morelist">Show all 13</span></a>.</form></div>
+
+
+
+</div>
+</div>
+
+
+</div>
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+<div id="moresamestaffo">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffou">6 of a total of 15 other NIH members are shown.</div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Heinz  Arnheiter; MD (NINDS) <br />
+
+
+
+Kapil  Bharti; PhD (NINDS) <br />
+
+
+
+Maria L Dufau Catt; MD, PhD (NICHD) <br />
+
+
+
+Brandon K Harvey; PhD (NIDA) <br />
+
+
+
+Mark A Hoon; PhD (NIDCR) <br />
+
+
+
+Bruce  Hope; PhD (NIDA) <br />
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaffo','searchview.taf?_function=showmore&ios=O&ipid=81245&isajaxlink=Y&_UserReference=3FF36E4FFD559B4E5B38CFED','moresamestaffou');  return false;">
+
+
+<span class="morelist">Show all 15</span></a></form></div>
+
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Patricio  Ray
+<i>(Children's National Medical Center)</i>
+<br />
+
+
+
+Neil  Shneider; MD, PhD
+<i>(Center for Motor Neuron BIology and Disease, Columbia University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+GOALS AND OBJECTIVES<br />Neuropsychiatric disorders have fascinated people through the course of history. Some of these diseases were suspected to be  inherited, but only in the last few decades have genetic traits that lead to or contribute to neuropsychiatric disorders begun to be identified. Even so, challenges remain in studying and understanding the role of genetics in neuropsychiatric patients.<br /><br />Transgenic animals have been developed to determine the link between disease and these putative risk genes. And while complete and complex human behaviors cannot be observed in animals, there are biochemical, electrophysiological, and simple behaviors that can reveal the role of these genes.<br /><br />The goal of this project is to produce transgenic animals of several species, develop transgenic techniques, and support neuroscience research that exploits genetic approaches.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+SUMMARY<br />The NIMH transgenic core facility has several major functions: 1) to produce transgenics for neuroscience research, 2) support research with associated techniques in genetic research in neuroscience, 3) develop new transgenic techniques and model system and 4) engage in collaborative projects that promote genetic approaches to neuroscience research.<br /><br />1) Production <br />Meterics of production over the past year included: <br />a) 15  transgenic mouse projects produced by oocyte injection, with multiple lines produced for each project.<br />b) 7    transgenic rat  projects produced by oocyte injection, with multiple lines produced for each project.<br />c)  6   mouse projects have first altering the genes of ES cell and then using those to produce mice. <br /><br />2) Technical Support <br />a) 127  transgenic rodent lines have been archived by cryopreserving germ cells or embryos. <br />b) 61 lines have been rederived, by transferring lines from pathogen bearing animals into those with defined health status. <br />c) transgenic project design and assistance have continued to be significant to NIH neuroscience labs without experience in producing transgenic animals.<br /><br />3) Development <br />a) transgenic marmosets: Over the last year the effort to make transgenic marmosets has increased with addition of personnel and the establishing of a collaborative agreement with Erika Sasaki at the Central Institute for Experimental Animals in Kawasaki, Japan. Because of this collaboration the methods to harvest ooctyes and blastocysts, which had been successful were further improved. Methods for in vitro methods have been completely changed to reflec them methods that are used in Dr Sasaki's laboratory. The media, the culture conditions and the analysis of ooctyes and embryos is now modelled on the successful methods that their laboratory demonstrated. The collaboration with NINDS continues, with a new postdoctoral fellow in that institute and a postBAC fellow in the core facility.<br /> <br />b) rat ES lines: Rat ES (embryonic stem) lines, some of which ubiquitously express the orange fluorescent protein have been created in the lab. These lines from Long Evans rats have been cultured for several passages, still express OFP and maintain a morphology that is representative of ES cells. Especially with rat ES lines this is not enough to insure that these lines will contribute to a chimeric animal. At this point the karyotype of the lines will be checked before any are injected or fused to embryos in order to determine the potential to produce chimeras and transmit the OFP gene to offspring through the germline. <br /><br />c) Transgenic rat production: in collaboration with NIDA, the core produces transgenic rat lines that are designed in conjunction with acutely delivered transgenes to express genes in discrete populations of central nervous system neurons. These lines are produced in the core facility and then screened for useful expression patterns in NIDA laboratories.  <br /><br />d) support techniques: several techniques are under development to increase the capacity of the core's support functions. Freezing mouse sperm and improving IVF by using newer methods is a major effort. Freezing rat sperm and completing IVF at an acceptable level is a challenging task in all laboratories, but having consulted with investigators in Japan, these methods will be improved. <br /><br />e) enhanced recombination methods: While the core has used TALENS in ES cells, we have had no success using this method in embryos. We are now collaboration with NIDA and NIDCR laboratories to develop new methods of enhanced recombination using the CRISPR/cas system.<br /> <br />4) Collaborative projects: below is a list of projects that have been initiated in 2011, or have continued from last year.<br /><br />Stress and neurogenesis: Mice produced in the transgenic core were described in a paper that showed the necessity of neurogenesis for the normal response to stress. Since it has been shown that stress reduces neurogenesis this newer result indicates that a cycle of increasing stress.<br /><br />Learning and memory:  The effect of specific and tightly controlled protein synthesis on learning and memory was studied. In addition, transgenic mouse models have been used to show the rrole of specific peptide-expressing cells to influence the link between fear and behavior and learning.<br /><br />Manipulating circuitry: Mice have been produced for two separate laboratories which have specific neurons that could be rendered transiently inactive by light activated ion channels.  Those laboratories are investigating different neural circuits that are active in learning and addiction.<br /><br />Addictive and reward behavior: Lines of transgenic rats that express GFP in response to afferent input activation of the fos gene were generated in the core facility. These rats are being used by Bruce Hopes laboratory in NIDA to study patterns of neural activity in response to addictive drugs and most recently in the role of stress in reducing the re-establishment of rewarded behavior.<br /><br />mRNA trafficking in neurons: An RNA stem loop structure is necessary for the translocation of message to specific cell compartments of the neuron. Mice that over express mRNA with this structure have been produced in an effort to disrupt this translocation machinery. By expressing this transgenic mRNA in different neuronal subtypes, the role for this mechanism for normal function is being studied. In addition this mechanism could be useful to target specific messages specifically to the synapse.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81245&allpubs=Y&isajaxlink=Y&_UserReference=3FF36E4FFD559B4E5B38CFED','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Bharti K, Gasper M, Ou J, Brucato M, Clore-Gronenborn K, Pickel J, Arnheiter H (2012) A Regulatory Loop Involving PAX6, MITF, and WNT Signaling Controls Retinal Pigment Epithelium Development. PLoS Genet 8:e1002757.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22792072?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3390378/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22792072
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3390378 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Cifani C, Koya E, Navarre BM, Calu DJ, Baumann MH, Marchant NJ, Liu QR, Khuc T, Pickel J, Lupica CR, Shaham Y, Hope BT (2012) Medial Prefrontal Cortex Neuronal Activation and Synaptic Alterations after Stress-Induced Reinstatement of Palatable Food Seeking: A Study Using c-fos-GFP Transgenic Female Rats. J Neurosci 32:8480-90.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22723688?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3389493/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22723688
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3389493 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Debbache J, Raza Zaidi M, Davis S, Guo T, Bismuth K, Wang X, Skuntz S, Maric D, Pickel J, Meltzer P, Merlino G, Arnheiter H (2012) In vivo role of alternative splicing and serine phosphorylation of the microphthalmia-associated transcription factor. Genetics 191:133-44.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22367038?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3338255/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22367038
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3338255 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Jinde S, Zsiros V, Jiang Z, Nakao K, Pickel J, Kohno K, Belforte JE, Nakazawa K (2012) Hilar mossy cell degeneration causes transient dentate granule cell hyperexcitability and impaired pattern separation. Neuron 76:1189-200.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23259953?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3530172/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23259953
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3530172 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Liu J, Zhou L, Xiong K, Godlewski G, Mukhopadhyay B, Tam J, Yin S, Gao P, Shan X, Pickel J, Bataller R, O'Hare J, Scherer T, Buettner C, Kunos G (2012) Hepatic cannabinoid receptor-1 mediates diet-induced insulin resistance via inhibition of insulin signaling and clearance in mice. Gastroenterology 142:1218-1228.e1.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22307032?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3482511/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22307032
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3482511 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

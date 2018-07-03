@@ -1,0 +1,1221 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002852</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002852-09</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Clinical Evaluation of PET Radiotracers
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Robert  Innis; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/robert-innis" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on PET Neuroimaging Sciences, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on PET Neuroimaging Sciences</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 15 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Elizabeth C Alzona<br />
+
+
+
+
+Ritwik  Bhatia<br />
+
+
+
+
+Maria D Ferraris Araneta; RN<br />
+
+
+
+
+Masahiro  Fujita<br />
+
+
+
+
+Robert  Gladding<br />
+
+
+
+
+Ioline D Henter; MA<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=81219&onameset=Section on PET Neuroimaging Sciences&isajaxlink=Y&_UserReference=EEF5DA1C5D07816D5B38D729','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 15</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Markus Alexander Heilig; MD, PhD (NIAAA) <br />
+
+
+
+Peter  Herscovitch; MD (CC) <br />
+
+
+
+Theodore  Nash; MD (NIAID) <br />
+
+
+
+William Harold Theodore; MD (NINDS) <br />
+
+
+
+Nora D Volkow; MD (NIDA) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Roger N Gunn; PhD
+<i>(Imanova)</i>
+<br />
+
+
+
+Justin  McArthur; MD
+<i>(Neurology, Johns Hopkins)</i>
+<br />
+
+
+
+Tetsuya  Suhara; MD, PhD
+<i>(Natl Institute Radiological Sciences)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+positron emission tomography, neuropsychiatry, neuroreceptor, major depressive disorder, autism
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The goal of this laboratory is to develop, evaluate, and implement new probes to examine the chemistry of the living brain with PET. With this technique, miniscule doses of a radioactively labeled drug are administered to a subject. The drug travels to the brain and binds to specific target sites, called receptors. The distribution and density of these targets in the brain can be measured with a PET camera. Although some of the PET radiolabeled drugs might be used for diagnostic purposes, the major use of these agents is to study the pathophysiology of disease.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Examples of progress made during the prior year are summarized below.<br /><br />1) We investigated a genetic polymorphism for translocator protein (TSPO) (18 kDa)a putative biomarker of neuroinflammationand found that it affects both in vitro and in vivo radioligand binding in human brain (Kreisl, et al. J Cereb Blood Flow Metab. 33: 53-58, 2013a). NCT00696371<br /><br />We continued our investigation into TSPO, a marker of inflammation. Notably, second-generation radioligands for TSPO have been confounded by the co-dominant rs6971 polymorphism that affects binding affinity. The resulting three groups are homozygous for high affinity state (HH), homozygous for low affinity state (LL), or heterozygous (HL). This study investigated whether in vitro binding to lymphocytes distinguished TSPO genotypes, and whether genotype could affect clinical studies using the TSPO radioligand 11C-PBR28. In vitro binding to lymphocytes and 11C-PBR28 brain imaging was performed in 27 human subjects with known TSPO genotype. Specific 3H-PBR28 was measured in the prefrontal cortex of 45 patients with schizophrenia and 47 healthy controls. Lymphocyte binding to PBR28 predicted genotype in all subjects. Brain uptake was 40% higher in HH than HL subjects. Specific 3H-PBR28 binding in LL controls was negligible, while HH controls had 80% higher binding than HL controls. Notably, specific binding was 16% greater in schizophrenics than controls after LL subjects were excluded. This difference was insignificant by itself (p = 0.085), but was significant after correcting for TSPO genotype (p = 0.011). Thus, the results show that TSPO genotype influences PBR28 binding in vitro and in vivo. Correcting for this genotype increased statistical power in our postmortem study and is recommended for in vivo PET studies.<br /><br /><br />2) We further measured translocator protein (TSPO), a putative marker of inflammation, in patients with Alzheimers disease (AD), patients with mild cognitive impairment (MCI), and older controls (Kreisl, et al. Brain, 2013b. Doi: 10.1093/brainawt145). PET scans with 11C-PBR28 were used to measure TSPO levels; patients were also scanned with 11C-Pittsburgh Compound B to measure amyloid burden. NCT00613119<br /><br />Amyloid-positive patients (19 with AD, 10 with MCI) and 13 amyloid-negative control subjects were studied. The primary goal was to determine whether TSPO binding is elevated in patients with AD, and the secondary goal was to determine whether TSPO binding correlates with neuropsychological measures, grey matter volume, 11C-Pittsburgh Compound B binding, or age of onset. AD patients, but not those with MCI, had greater 11C-PBR28 binding in cortical brain regions than controls. The largest differences were seen in the parietal and temporal cortices; no difference was observed in subcortical regions or cerebellum. 11C-PBR28 binding inversely correlated with performance on a number of neurocognitive tasks. The largest correlations were observed in the inferior parietal lobule. 11C-PBR28 binding also inversely correlated with grey matter volume. Early-onset (&lt;65 years) patients had greater 11C-PBR28 binding than late-onset patients; in parietal cortex and striatum, 11C-PBR28 binding correlated with lower age of onset. Partial volume corrected and uncorrected results were generally in agreement; however, the correlation between 11C-PBR28 and 11C-Pittsburgh Compound B binding was seen only after partial volume correction. The results suggest that neuroinflammation, indicated by increased 11C-PBR28 binding to TSPO, occurs after conversion of MCI to AD and worsens with disease progression. Greater inflammation may contribute to the precipitous disease course typically seen in early-onset patients. Furthermore, 11C-PBR28 may be useful in longitudinal studies to mark the conversion from MCI or to assess response to experimental treatments of AD.<br /><br /><br />3) We sought to quantify the binding of 11C-(R)-rolipram, a phosphodiesterase type IV (PDE4) inhibitor, as an indirect measure of this enzymes activity in the brain of individuals with major depressive disorder (MDD) compared with healthy controls (Fujita, et al. Biol Psychiatry 72: 548-554, 2012). NCT00369798<br /><br />PDE4, an important component of the cyclic adenosine monophosphate (cAMP) cascade, selectively metabolizes cAMP in the brain to the inactive monophosphate. Studies suggest that PDE4 mediates the effects of several antidepressants. To quantify the binding of 11C-(R)-rolipram as an indirect measure of this enzymes activity in the brain of individuals with MDD, we performed 11C-(R)-rolipram brain PET scans in 28 moderately depressed MDD subjects and 25 age- and gender-matched healthy controls; roughly half of patients were treatment-naive. 11C-(R)-rolipram binding in brain was measured using arterial 11C-(R)-rolipram levels to correct for the influence of cerebral blood flow. MDD subjects showed a widespread, 20% reduction in 11C-(R)-rolipram binding (p=.002), which was not caused by different volumes of gray matter. Decreased rolipram binding of similar magnitude was observed in most brain areas. Rolipram binding did not correlate with the severity of depressive or anxiety symptoms. The results demonstrate that brain levels of PDE4 are decreased in unmedicated individuals with MDD in vivo. These results are in line with human postmortem and rodent studies demonstrating downregulation of the cAMP cascade in MDD, and supported the hypothesis that PDE4 inhibitors, which increase cAMP cascade activity, may have antidepressant effects. 
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81219&allpubs=Y&isajaxlink=Y&_UserReference=EEF5DA1C5D07816D5B38D729','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Bosker WM, Karschner EL, Lee D, Goodwin RS, Hirvonen J, Innis RB, Theunissen EL, Kuypers KP, Huestis MA, Ramaekers JG (2013) Psychomotor function in chronic daily Cannabis smokers during sustained abstinence. PLoS One 8:e53127
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23301031?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3534640/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23301031
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3534640 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Fujita M, Hines CS, Zoghbi SS, Mallinger AG, Dickstein LP, Liow JS, Zhang Y, Pike VW, Drevets WC, Innis RB, Zarate CA (2012) Downregulation of brain phosphodiesterase type IV measured with 11C-(R)-rolipram positron emission tomography in major depressive disorder. Biol Psychiatry 72:548-54
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22677471?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3438357/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22677471
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3438357 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Hines CS, Fujita M, Zoghbi SS, Kim JS, Quezado Z, Herscovitch P, Miao N, Ferraris A, Morse C, Pike VW, Labovsky J, Innis RB (2012) Propofol decreases in vivo binding of 11C-PBR28 to translocator protein (18kDa) in human brain. J Nucl Med 54:64-69
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Hines CS, Fujita M, Zoghbi SS, Kim JS, Quezado Z, Herscovitch P, Miao N, Ferraris Araneta MD, Morse C, Pike VW, Labovsky J, Innis RB (2013) Propofol decreases in vivo binding of 11C-PBR28 to translocator protein (18 kDa) in the human brain. J Nucl Med 54:64-9
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23148296?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3777621/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23148296
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3777621 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Hirvonen J, Goodwin RS, Li CT, Terry GE, Zoghbi SS, Morse C, Pike VW, Volkow ND, Huestis MA, Innis RB (2012) Reversible and regionally selective downregulation of brain cannabinoid CB1 receptors in chronic daily cannabis smokers. Mol Psychiatry 17:642-9.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/21747398?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3223558/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 21747398
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3223558 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Hirvonen J, Kreisl WC, Fujita M, Dustin I, Khan O, Appel S, Zhang Y, Morse C, Pike VW, Innis RB, Theodore WH (2012) Increased in vivo expression of an inflammatory marker in temporal lobe epilepsy. J Nucl Med 53:234-40.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22238156?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3832892/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22238156
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3832892 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Jenko KJ, Hirvonen J, Henter ID, Anderson KB, Zoghbi SS, Hyde TM, Deep-Soboslay A, Innis RB, Kleinman JE (2012) Binding of a tritiated inverse agonist to cannabinoid CB1 receptors is increased in patients with schizophrenia. Schizophr Res 141:185-8
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22910406?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3463751/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22910406
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3463751 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">8.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kannan P, Pike VW, Halldin C, Langer O, Gottesman MM, Innis RB, Hall MD (2013) Factors that limit positron emission tomography imaging of p-glycoprotein density at the blood-brain barrier. Mol Pharm 10:2222-9
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23597242?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3675842/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23597242
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3675842 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">9.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kimura Y, Siméon FG, Zoghbi SS, Zhang Y, Hatazawa J, Pike VW, Innis RB, Fujita M (2012). Quantification of metabotropic glutamate subtype 5 receptors in the brain by an equilibrium method using 18F-SP203. Neuroimage  59, 2124-30.   https://doi.org/10.1016/j.neuroimage.2011.10.028
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22032949?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3254783/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22032949
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3254783 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">10.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kreisl WC, Jenko KJ, Hines CS, Lyoo CH, Corona W, Morse CL, Zoghbi SS, Hyde T, Kleinman JE, Pike VW, McMahon FJ, Innis RB, Biomarkers Consortium PET Radioligand Project Team (2012) A genetic polymorphism for translocator protein 18 kDa affects both in vitro and in vivo radioligand binding in human brain to this putative biomarker of neuroinflammation. J Cerebr Blood Flow Metab, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">11.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Lohith TG, Zoghbi SS, Morse CL, Araneta MF, Barth VN, Goebl NA, Tauscher JT, Pike VW, Innis RB, Fujita M (2012) Brain and whole-body imaging of nociceptin/orphanin FQ peptide receptor in humans using the PET ligand 11C-NOP-1A. J Nucl Med 53:385-92.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22312136?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3835399/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22312136
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3835399 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">12.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Zanotti-Fregonara P, Barth VN, Liow JS, Zoghbi SS, Clark DT, Rhoads E, Siuda E, Heinz BA, Nisenbaum E, Dressman B, Joshi E, Luffer-Atlas D, Fisher MJ, Masters JJ, Goebl N, Kuklish SL, Morse C, Tauscher J, Pike VW, Innis RB (2013) Evaluation in vitro and in animals of a new 11C-labeled PET radioligand for metabotropic glutamate receptors 1 in brain. Eur J Nucl Med Mol Imaging 40:245-53
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23135321?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3537910/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23135321
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3537910 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">13.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Zanotti-Fregonara P, Hines CS, Zoghbi SS, Liow J, Zhang Y, Pike VW, Drevets WC, Mallinger AG, Zarate Jr CA, Fujita M, Innis RB (2012) Population-based input function and image-derived input function for 11C(R)-rolipram PET imaging: methodology, validation and application to the study of major depressive disorder. NeuroImage 63:1532-1541
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22906792?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3472081/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22906792
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3472081 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">14.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Zanotti-Fregonara P, Innis RB (2012) Suggested pathway to assess radiation safety of 11C-labeled PET tracers for first-in-human studies. Eur J Nucl Med Mol Imaging 39:544-7.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22160195?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3791506/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22160195
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3791506 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">15.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Zanotti-Fregonara P, Liow JS, Comtat C, Zoghbi SS, Zhang Y, Pike VW, Fujita M, Innis RB (2012) Image-derived input function in PET brain studies: blood-based methods are resistant to motion artifacts. Nucl Med Commun 33:982-9.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22760300?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3788705/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22760300
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3788705 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

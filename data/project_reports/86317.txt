@@ -1,0 +1,805 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002874</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002874-08</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">The Neuroregulatory Effects of Gonadal Steroids in Humans
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Peter J Schmidt; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/peter-schmidt" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Behavioral Endocrinology, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Behavioral Endocrinology</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 13 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Rivka Rivi Ben Dor<br />
+
+
+
+
+Dara Maria Cannon; MD<br />
+
+
+
+
+Merry A Danaceau<br />
+
+
+
+
+Neelima  Dubey<br />
+
+
+
+
+Gioia Mia Guerrieri; DO<br />
+
+
+
+
+Nazli  Haq<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=86317&onameset=Section on Behavioral Endocrinology&isajaxlink=Y&_UserReference=C81B8AC869C2E2E55B38D0FB','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 13</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Karen F Berman; MD  (Section on Integrative Neuroimaging)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+David  Goldman; MD (NIAAA) <br />
+
+
+
+Lynnette K Nieman; MD (NICHD) <br />
+
+
+
+Steven John Soldin; PhD (CC) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Jean-Claude  Dreher; MD
+<i>(Institute of Cognitive Science, Centre National de la Recherche Scientifique)</i>
+<br />
+
+
+
+Rima  Kaddurah-Daouk
+<i>(Duke University)</i>
+<br />
+
+
+
+Christine  Marx; MD
+<i>(Psychiatry, Duke University)</i>
+<br />
+
+
+
+Bruce  McEwen; PhD
+<i>(Laboratory of Neuroendocrinology, Rockefeller University)</i>
+<br />
+
+
+
+David R Rubinow; MD
+<i>(Department of Psychiatry, University of North Carolina at Chapel Hill)</i>
+<br />
+
+
+
+Elizabeth  Waters; PhD
+<i>(Laboratory of Neuroendocrinology, Rockefeller University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+depression, ovarian hormones, estradiol, menstrual cycle, progesterone
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+This report includes work arising from the following protocols: NCT00026832, NCT00100360, NCT00001177, and NCT00001322.  Alterations of sex steroids are implicated in the sex differences observed in the prevalence, course, and treatment response characteristics of affective disorders.  Sex steroids influence the response to stress as well as several cognitive processes relevant to affective adaptation.  We investigate the physiologic effects of sex steroids on systems relevant to affective modulation as well as the pathophysiology of reproductive endocrine-related mood disorders (i.e., premenstrual-, perinatal-, and perimenopausal-related depressions (see projects MH002865-06 and MH002537-22).<br />Inferences about the impact of the presence or relative absence of gonadal steroids or adrenal androgens on central nervous system (CNS) function in humans are generally compromised by two contextual confounds: age (which may alter the relationship between gonadal state and CNS activity) and, in premenopausal women, the simultaneous presence of varying levels of multiple neuroactive steroids.  Thus, a more controlled hormonal condition is desirable during which the effects of stable gonadal steroid levels can be examined independent of the effects of fluctuations in the secretion of other gonadal steroids.  We have recruited healthy, young premenopausal women to participate in protocols involving the suppression of gonadal function with gonadotropin releasing hormone (GnRH) agonists and the adding-back of physiologic levels of gonadal steroids under conditions of GnRH agonist-induced hypogonadism.  We employ the results of these studies as comparisons with data from identical studies performed in women with reproductive endocrine-related mood disorders.  Specifically, we investigate stress responsivity in women with reproductive endocrine-related mood disorders compared with controls, under specific pharmacologically-induced hormone conditions.  Additionally, in collaboration with the Section on Integrative Neuroimaging, we employ multimodal neuroimaging methodologies - functional magnetic resonance imaging (fMRI), structural magnetic resonance imaging (MRI), and positron emission tomography (PET) to investigate brain regional activations and brain circuitry changes that may accompany alterations in sex steroids and may be relevant to the processes of affective adaptation and illness susceptibility.  Individual differences in the response to sex steroids identified in our neuroimaging studies have directed us to also explore the possible genetic contributions to the susceptibility for a change in hormone to induce changes in brain circuitry in women. Finally, we employ the Lupron paradigm to investigate the contributions of the presence and absence of ovarian steroids on sex differences in cognitive performance. <br />The specific goals for this project include the following: 1) Examine the effects of ovarian steroids on measures of hypothalamic-pituitary-adrenal (HPA) axis function and regional cerebral blood flow.  2) Determine the effects of sex steroids on the prefrontal reward systems, serotonin transporter function, and on those brain regions implicated in the pathophysiology of mood disorders (i.e., prefrontal cortex, cingulate cortex, amygdala, and hippocampus). 3) investigate the role of sex steroids in sex differences in cognitive test performance.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The protocols involved in this project are as follows:  05-M-0059, 81-M-0126, and 92-M-0174.This report includes work arising from the following protocols: NCT00026832, NCT00100360, NCT00001177, and NCT00001322.<br />Behavioral observations show that clinically significant depressive symptoms are rare accompaniments of induced hypogonadism in these healthy premenopausal women.  Additionally, neither night-time hot flushes nor disturbed sleep are sufficient to cause depressive symptoms in hypogonadal young women (reported in MH002537-23 DIRP: Psychobiology and Treatment of Perimenopausal Mood Disorders).  Thus this paradigm serves as an excellent comparison group for the women with reproductive endocrine-related mood disorders who undergo identical hormone manipulations.<br />We are pursuing our original findings that ovarian steroids modulate prefrontal cortical activity in women by augmenting older gold-standard imaging techniques (i.e., O15 PET), in which the technology is relatively stable over time and the activation task paradigms are kept relatively constant over the long-term course of these studies, with newer hypothesis-driven, cutting edge task paradigms and analytic approaches (i.e., fMRI).  During N-back activation, ovarian steroids (or their absence) modulate functional connectivity between the DLPFC and hippocampus.  Specifically, hormone condition had significant effects on the direction of hippocampal functional connectivity with both left and right DLPFC: the expected working memory-related negative correlation was observed during estradiol; however, during progesterone there was a positive hippocampal-right DLPFC correlation but there was no significant correlation during ovarian suppression with Lupron alone (i.e., hypogonadism).  These data demonstrate that ovarian steroids modulate hippocampal-PFC functional connectivity, consistent with a role for these hormones in modulating the hippocampus at the cellular level.  Interestingly, our findings indicate that progesterone and estradiol have opposite effects on this in vivo measure of hippocampal-DLPFC cooperativity, substantiating the complex influence of gonadal steroids in brain circuitry and calling for further clinical and preclinical investigation.<br />In collaboration with Karen Berman, we examine the effects of the presence of common allelic variations in the BDNF gene and in the COMT gene in women undergoing multimodal neuroimaging procedures during each of the hormonal conditions established within the GnRH agonist-induced hypogonadism and ovarian steroid add-back protocol.  We examined the impact of the interaction of BDNF Val66Met polymorphism and ovarian hormones on PET measurements of rCBF while women performed the 2-back working memory task and a 0-back sensorimotor control.  We observed that BDNF genotype interacts with estradiol to impact hippocampal function during working memory.  We found a significant interaction between BDNF genotype and hormone condition in right hippocampal activation (2-back vs. 0-back), and a similar trend in the left hippocampus.  Post-hoc analyses revealed Met carriers showed robust estradiol-specific changes, whereas Val homozygous women showed no change in activation across hormone conditions. In Met carriers the hippocampus was abnormally activated (not deactivated) during estradiol but not during the hypogonadal state or progesterone replacement.  Analyses of the 0-back and 2-back conditions done separately (an approach made possible by using PET), clearly indicate that these changes were due to neural activity during the working memory (2-back) condition and not the sensorimotor (0-back) control task.  This study is the first in humans to demonstrate a BDNF genotype by hormone interaction on a cognitively-related neurophysiological response.  These data suggest that the Met allele of the BDNF gene conveys an abnormal sensitivity to the presence of estradiol on hippocampal function, similar to that reported in the Met knock-in mice compared with wild type mice.  Results of similar studies in women with PMDD are close to completion pending the recruitment of a sufficient number of Met carriers to repeat this analysis in these women whose affective symptoms are menstrual cycle dependent. Finally, a recent collaboration with Dr. McEwen at the Rockefeller University will explore hippocampal function on both behavioral and molecular levels in humanized met knock-in female mice. <br />In a second analysis, we employed similar methods (i.e., the N-back task) to examine the impact of the COMT Val158Met genotype on PET measured rCBF in the PFC. COMT plays an important role in the regulation of intrasynaptic dopamine levels in the PFC and also has a high affinity for the hydroxylated metabolites of estradiol/estrone (i.e., catecholestrogens).  Moreover, the activity of COMT is reported to be both sexually dimorphic and modulated by estradiol (by an estrogen response element ERE in some human tissues).  In contrast to the predominance of hippocampal findings with BDNF genotype, results of the COMT by hormone interaction analysis were focused on the DLPFC, a finding that reflected estradiol-related changes in both Val and Met homozygotes.  Specifically, the Met homozygotes showed a significant increase in DLPFC activation during estradiol compared with hypogonadism, whereas Val homozygotes showed the opposite pattern with significantly lower activation during estradiol but not hypogonadism or progesterone-replaced conditions).  DLPFC activation in heterozygotes was intermediate between the two homozygous groups.  These data are consistent with observations that both COMT genotype and stage of the menstrual cycle influence working memory-related activations in the PFC and clearly define a COMT genotype by hormone interaction.  Thus, the effects of genotype on PFC function in women cannot be inferred in the absence of knowledge about reproductive state.  The mechanisms underlying this observation remain to be defined but are consistent with estradiol impacting PFC dopamine tuning through effects on DA synthesis or metabolism with attendant alterations in DLPFC efficiency.  Investigations of the relevance of this genotype by hormone interaction on PFC function to women with PMDD are currently underway.<br />Finally, despite well-established sex differences in several cognitive domains (e.g., visuospatial ability), few studies in humans have distinguished between those sex differences evident in the presence of circulating sex hormones and those sex differences present in the relative absence of circulating levels of estradiol and testosterone, respectively (i.e., true sex differences reflecting organizational differences in brain function occurring independent of differences in current exposure to estradiol or testosterone). We evaluated cognitive performance in healthy men and women before (eugonadal) and during GnRH agonist-induced hypogonadism. The well-documented male advantage in visuospatial performance, which we observed during eugonadal conditions, was maintained despite the short-term suppression of gonadal function in both men and women. Significant main effects of sex (but not of either hormone condition or sex by hormone condition) were observed: men performed better than women on visuospatial tasks (mental rotation, line orientation, Money Road Map, complex figure drawing, embedded figures, and maze completion) during both eugonadism and hypogonadism.  No significant main or interactive effects of sex or hormone condition were observed in any other cognitive test domain. These findings suggest that, in humans, sex differences in visuospatial performance do not require the presence of circulating sex steroids and, therefore, are not simply reflections of sex differences in the relative exposures to estradiol and testosterone.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86317&allpubs=Y&isajaxlink=Y&_UserReference=C81B8AC869C2E2E55B38D0FB','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Baller EB, Wei SM, Kohn PD, Rubinow DR, Alarcón G, Schmidt PJ, Berman KF (2013). Abnormalities of dorsolateral prefrontal function in women with premenstrual dysphoric disorder: a multimodal neuroimaging study. Am J Psychiatry  170, 305-14.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23361612?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3968942/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23361612
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3968942 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Ben Dor R, Harsh VL, Fortinsky P, Koziol DE, Rubinow DR, Schmidt PJ (2013) Effects of pharmacologically induced hypogonadism on mood and behavior in healthy young women. Am J Psychiatry 170:426-33
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23545794?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3952563/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23545794
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3952563 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Schiller CE, Schmidt PJ, Rubinow DR (2014) Allopregnanolone as a mediator of affective switching in reproductive mood disorders. Psychopharmacology (Berl) 231:3557-67
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24846476?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4135022/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24846476
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4135022 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Schmidt PJ, Keenan PA, Schenkel LA, Berlin K, Gibson C, Rubinow DR (2013) Cognitive performance in healthy women during induced hypogonadism and ovarian steroid addback. Arch Womens Ment Health 16:47-58
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23188540?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3547128/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23188540
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3547128 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

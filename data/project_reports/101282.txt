@@ -1,0 +1,810 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002949</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002949-02</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Developmental Neurogenomics Unit
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Armin  Raznahan
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Developmental Neurogenomics Unit, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Developmental Neurogenomics Unit</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Ari Moshe Fish<br />
+
+
+
+
+Catherine Melita Mankiw<br />
+
+
+
+
+Paul Kirkpatrick Reardon<br />
+
+
+
+
+Jakob Maxwell Seidlitz<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Soohyun  Lee  (Unit on Functional Neural Circuits)<br />
+
+
+
+David A Leopold; PhD  (Section on Cognitive Neurophysiology and Imaging)<br />
+
+
+
+Adam G Thomas; PhD  (Office of the Director)<br />
+
+
+
+Audrey E Thurm; PhD  (Pediatric and Developmental Neuropsychiatry Branch)<br />
+
+
+
+Kuan Hong Wang; PhD  (Unit on Neural Circuits and Adaptive Behaviors)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Janice Sin-Ee Lee; DDS, MD, MS (NIDCR) <br />
+
+
+
+Thomas A Misteli; PhD (NCI) <br />
+
+
+
+Karl Thomas Ried; MD (NCI) <br />
+
+
+
+Phillip  Shaw (NHGRI) <br />
+
+
+
+Afonso C Silva; PhD (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 11 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Edward  Bullmore; MD
+<i>(University of Cambridge)</i>
+<br />
+
+
+
+Arnaud  Cachia; PhD
+<i>(Neuroscience Section, Institut Universitaire de France)</i>
+<br />
+
+
+
+Zameel  Cader
+<i>(Oxford University)</i>
+<br />
+
+
+
+Mallar  Chakravarty
+<i>(The Douglas)</i>
+<br />
+
+
+
+Daniel H Geschwind; MD, PhD
+<i>(Neurology, Human Genetics, Psychiatry, UCLA)</i>
+<br />
+
+
+
+Nancy  Lee
+<i>(Drexel University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=101282&isajaxlink=Y&_UserReference=B81F1C4A7453C2065B38D701','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 11</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Sex Chromosome Variation, Magnetic Resonance Imaging, Adolescent, Twins, ADHD, Child, Childhood Onset Schizophrenia, XXXY, XXY, XXYY, XYY, XXX, XXXXY
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The Developmental Neurogenomics Unit (DNU) is dedicated to better understanding the biology of childhood-onset neuropsychiatric disorders in ways that might ultimately help to improve disease prediction, detection and treatment. Together with our collaborators, we work towards this goal in two mutually-informative ways.<br /><br />First, we use large-scale longitudinal neuroimaging datasets to study the architecture of brain development in healthy volunteers. By modeling how neuroimaging measures of the human brain vary with age, sex and behavior in health, we hope to advance basic developmental neuroscience while also providing a data-driven way of selecting neuroimaging measures that should be prioritized for study in atypically developing groups.<br /><br />Second, we use a genetics-first strategy to study the relationship between atypical brain development and neuropsychiatric symptoms. This effort involves gathering deep-phenotypic data (spanning measures of gene expression, brain structure/function, psychophysiology, cognition and behavior) in diverse genetic disorders which all increase risk for neuropsychiatric impairment. Guided by knowledge of typical development, we harness these clinical data to empirically dissect the diverse biological pathways that can contribute to the emergence of neuropsychiatric syndromes.<br /><br />Cross-cutting themes of special interest within our Unit include sex-differences, allometry, and structure-function relationships within the central nervous system.<br /><br /><br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+This work is conducted under protocol 89-M-0006 (NCT00001246), and falls into two broad research themes:<br /><br />Theme 1: Studies of behavior and brain organization in typically-developing groups<br />Recruitment<br />During the last year, we completed phase 1 of a Bring Back Project which recruited individuals who had previously been studied during childhood by the Child Psychiatry Branch an average of 20 years ago. This project represents the longest known neuroimaging follow-up study of human brain development, and provides a unique opportunity to study how childhood brain organization relates to later outcomes in adulthood. We have seen a total of 170 individuals in phase 1, and are currently preparing to invite participants back for a second visit.<br /><br />Published Research Findings<br />We have published two collaborative studies which harness the precious longitudinal neuroimaging data gathered by the Child Psychiatry Branch over the past 20 years. These studies were made possible by data sharing and pooling between our laboratory and three others engaged in similar longitudinal neuroimaging studies of brain development in health. By resolving patterns of global and regional brain development between childhood and adulthood that are replicable across four independent groups, our findings set a new bar of consistency and replicability in developmental neuroimaging research.<br />To  present state-of-the art approaches to studying neuroanatomy using Magnetic Resonance Imaging (MRI), we also combined seminal results from the Child Psychiatry Branch longitudinal neuroimaging project in a cross-laboratory review paper in Nature Neuroscience.<br /><br />Theme 2: Deep phenotypic studies of participants with sex chromosome aneuploidy syndromes (SCAs)<br />Recruitment<br />During the last year, we completed a deep phenotyping study of individuals with XYY syndrome along with matched typically-developing controls. We have seen 65 individuals with XYY along with their family members, making this globally unique cohort the largest known group of XYY individuals with such comprehensive deep phenotypic data. A second clinical recruitment focus has involved collection of skin biopsies across individuals from nine different sex chromosome dosage groups, which are currently being profiled at several different genomic levels.<br /><br />These two projects represent the opening phase of an ongoing SCA study which will eventually include multiple other X and Y chromosome variations (e.g., XXY, XXX, etc.). Collectively, these studies are designed to expand on past work in SCA by gathering more comprehensive measures of brain structure and function, as well as providing more fine-grained information regarding the cognitive and behavioral variations that can be seen in SCA. These data will ultimately help to better define the developmental risks and resiliencies associated with X- and Y-chromosome dosage variation in humans, and identify neurobiological systems that might underpin these associations. We hope these insights will (i) improve accurate public and professional awareness of SCAs, (ii) help clinicians provide more targeted assessment and counseling to patient and families with SCA, and (iii) begin to identify biological markers with the potential to ultimately improve assessment, prediction and treatment of neurodevelopmental issues in SCA. More broadly, this work in the specific case of SCA will shed light on (i) the principles that organize genetic influences on brain and behavior in the context of neuropsychiatric impairment, and (ii) sex chromosome contributions to sex-differences in the brain, which are relevant for understanding the well-documented male-bias in risk for neurodevelopmental disorders more generally.<br /><br />Published Research Findings<br />We have published two studies using existing neuroimaging data from an earlier phase of SCA research within the Child Psychiatry Branch. These data provide measures of brain anatomy across multiple different SCA groups and individuals without a SCA. Our studies have identified a set of brain regions that appear to be especially sensitive to SCA in terms of their anatomical development and represent promising new candidates in the search for neural systems that underpin some of the cognitive and behavioral changes that can be associated with SCA. In particular, we have focused this last year on clarifying SCA effects on folding of the cerebral cortex and regional anatomy of the cerebellum. Because SCAs exert a powerful effect on total brain volume, these focused studies have also required us to develop new statistical methods for proper control of total brain size effects when studying regional brain anatomy. These methods will be broadly useful to all researchers comparing groups that differ in total brain size and therefore have a large impact beyond the field of SCA.<br /><br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101282&allpubs=Y&isajaxlink=Y&_UserReference=B81F1C4A7453C2065B38D701','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Lerch JP, van der Kouwe AJ, Raznahan A, Paus T, Johansen-Berg H, Miller KL, Smith SM, Fischl B, Sotiropoulos SN (2017) Studying neuroanatomy using MRI. Nat Neurosci 20:314-326
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28230838?dopt=Abstract" target="_blank">PubMed</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28230838
+    
+     <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Mankiw C, Park MTM, Reardon PK, Fish AM, Clasen LS, Greenstein D, Giedd JN, Blumenthal JD, Lerch JP, Chakravarty MM, Raznahan A (2017) Allometric Analysis Detects Brain Size-Independent Effects of Sex and Sex Chromosome Complement on Human Cerebellar Organization. J Neurosci 37:5221-5231
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28314818?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5456105/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28314818
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5456105 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Mills KL, Goddings AL, Herting MM, Meuwese R, Blakemore SJ, Crone EA, Dahl RE, Güroğlu B, Raznahan A, Sowell ER, Tamnes CK (2016). Structural brain development between childhood and adulthood: Convergence across four longitudinal samples. Neuroimage  141, 273-81.   https://doi.org/10.1016/j.neuroimage.2016.07.044
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27453157?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5035135/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27453157
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5035135 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Tamnes CK, Herting MM, Goddings AL, Meuwese R, Blakemore SJ, Dahl RE, Güroğlu B, Raznahan A, Sowell ER, Crone EA, Mills KL (2017). Development of the Cerebral Cortex across Adolescence: A Multisample Study of Inter-Related Longitudinal Changes in Cortical Volume, Surface Area, and Thickness. J Neurosci  37, 3402-3412.   https://doi.org/10.1523/JNEUROSCI.3302-16.2017
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28242797?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5373125/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28242797
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5373125 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

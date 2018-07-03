@@ -1,0 +1,669 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002899</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002899-10</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neurophysiology Imaging Facility Core:  Functional and Structural MRI
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2015 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+David A Leopold; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/david-leopold" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Neurophysiology Imaging Core, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Neurophysiology Imaging Core</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Jeffrey Alexander Clark<br />
+
+
+
+
+Frank Qing Ye; PhD<br />
+
+
+
+
+David  Yu<br />
+
+
+
+
+Charles  Zhu<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Andrew Rattin Mitz; PhD  (Section on Neurophysiology)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Peter Joel Basser; PhD (NICHD) <br />
+
+
+
+Jozef H Duyn; PhD (NINDS) <br />
+
+
+
+Alan Paul Koretsky; PhD (NINDS) <br />
+
+
+
+Hellmut  Merkle; MS, PHD (NINDS) <br />
+
+
+
+Carlo  Pierpaoli; MD, PhD (NICHD) <br />
+
+
+
+Afonso C Silva; PhD (NINDS) <br />
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborator
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Kendall  Lee; MD, PhD
+<i>(Neurologic Surgery, Mayo Clinic)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+BOLD, fMRI, diffusion tractography, functional imaging, neurophysiology
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The Neurophysiology Imaging Facility (NIF) is a research core facility that provides magnetic resonance imaging (MRI) of nonhuman primates for the NIH research community. There are two main categories of services offered by the NIF facility.  First, many researchers obtain anatomical scans of their subjects for example, to efficiently guide electrophysiological targeting. Second, the facility makes functional MRI possible for a wide range of groups, effectively lowering the barriers for nonhuman primate imaging.  It is the latter of these two types of services that is the main focus of the NIF core. For the past 10 years, the core has centered around a vertical 4.7T scanner, though to meet the users' needs, an additional horizontal 3T scanner is to be delivered next year. In addition to its service role, the NIF core pursues a few MRI-related research projects.  These include those related to the origin of the blood-based functional MRI signal, the use of tractography based on diffusion MRI, and comparative fMRI across different mammalian brains. The NIF core was founded in 2004 under a joint initiative from NIMH, NINDS, and NEI to integrate neuroscience research broadly across the NIH.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Research in nonhuman primates (NHP) is technically demanding. While many NHP researchers would, in principle, like to incorporate magnetic resonance imaging into their testing, it is often challenging or impossible given constraints on scanner availability and methodological hurdles.   The NIF facility at the NIH attempts to lower the barriers for imaging, thus making it feasible for anybody in the local NHP research community to obtain high resolution anatomical scans, or perform functional MRI experiments using shared equipment, coils, and methods. <br /><br />One of our principal functions is to make users aware of the fundamentals of fMRI, particularly when it comes to designing functional experiments.  In designing research projects to understand the structure and function of the brain, researchers must understand the nature of their measurements, which in the case of MRI is best conceived as a set or series of images. A large number of steps lie between the acquisition of raw MR signals and the interpretation of neural data. This is particularly true for functional MRI (fMRI), where activity maps are generated based upon the evaluation of time varying intensity values throughout the brain from a series of MR volumes. Most neuroscience researchers are not experts in the physics or engineering aspects of MRI and thus rely heavily on experts in these domains to develop and maintain the best scanning environment possible. Thus MRI experiments are typically done in the context of a core imaging facility. In animal studies, the challenges of MRI are compounded, as technical issues such as the production of specialized radiofrequency (RF) coils and practical skills such as surgery and the animal's behavioral training become additional factors. Animal scanning is typically combined with other procedures such as pharmacological manipulation or simultaneous electrophysiological recording, often further complicating the imaging procedure. Overcoming these obstacles, however, can be of enormous value, since the capacity to map activity over the entire brain is especially powerful when combined with well-conceived manipulations or measurements. <br /><br />The Neurophysiology Imaging Facility (NIF) is presently organized primarily around the operation of a vertical 4.7T Bruker Biospec scanner, whose size and orientation is optimized for carrying out functional MRI experiments in seated, awake, behaving monkeys. We are presently undergoing a renovation to welcome a second scanner, in this case a 3T horizontal Siemens scanner, into the facility.  This addition will provide needed additional scanning time for our users, will centralize much of the anatomical scanning, and will accommodate the needs of two newly hired principal investigators. It will also provide for a longer-term transition to replace the 4.7T vertical scanner with a cutting edge system in the future. Five staff members including Dr. Leopold, each from a different background and with different skills, aim to provide the most efficient functional scanning possible for a broad range of investigators. The main duties of the NIF staff are listed below.<br /><br />Structural scans: Using the standard setup, the facility staff assists with scans that aid in MRI-targeting of electrophysiological sites, identification of microelectrode positions, evaluation of experimental precision, and, importantly, the direct comparison of electrical recording sites with foci of fMRI responses in the context of a cognitive task. We are further able to combine these techniques with (1) reversible inactivation of electrical neural activity using pharmacological agents, (2) the identification of anatomical pathways using transported, MRI-visible chemicals such as manganese chloride, and (3) electrical microstimulation, where small local currents activate neurons that project to regions that can be detected using the fMRI signal. Surgical targeting is another technique that relies upon particularly high-quality, distortion-free 3-D images of the brain. We have recently implemented algorithms that measure and compensate for small geometric distortions in the images that might hamper surgical precision. The facility also offers a frameless stereotaxy protocol to assist the surgeon with implantation. This method permits a visualization of the high-resolution scan during surgery, with a real-time depiction of the surgical instruments relative to the scanned brain structures. We have used this approach routinely to aid in the accurate implantation of electrode bundles and chronic cannulae, targeted ablations, and the placement of recording chambers. <br /><br />Functional MRI scans: The most unique aspect of the facility is the capacity to conduct fMRI simultaneous with other measurements and perturbations. The Intramural Research Program at the NIH is one of the very few sites around the world in which monkeys can routinely participate in both fMRI and electrophysiological studies. The fMRI studies go beyond mapping functional specialization in the brain. Experiments within the facility typically combine fMRI with other procedures, such as microelectrode recordings or pharmacological inactivation. In the last year, neuroscience in the facility has combined fMRI with cortical ablation, pharmacological inactivation, electrocorticogram recordings, electrical microstimulation, and recordings from chronic microwire arrays. The fMRI experiments produce large data files that must be processed to evaluate the functional activity patterns across the brain. The facility provides storage of these data, as well as help in the initial processing steps.<br /><br />MRI Research: The NIF staff spends a relatively small fraction of its time carrying out research related to MRI itself. In the past year, we have focused on completing studies related to diffusion tractography. Dr. Frank Ye scanned several ex-vivo brain and, in a highly collaborative effort with other groups inside and outside the NIH, we recently published two papers related to the strengths and weakness of MR diffusion tractography (Thomas et al., Proc Natl Acad Sci (2014); Reveley et al., Proc Natl Acad Sci (2015)). Other research lines in the facility involve the development of scanning with newly available contrast agents.  At present, the research is actively pursuing the testing of implanted radiofrequency coils,  with the hope that this method can become routine for users seeking to obtain higher signal-to-noise images.  Finally, in following in its ex vivo diffusion work in the macaque, the facility staff has begun to scan brains of other mammalian species to determine areas in which such scans might contribute to our understanding of brain organization through comparative studies. <br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2016 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=96286&allpubs=Y&isajaxlink=Y&_UserReference=262FF8AB10075B585B38D584','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Liu X, Yanagawa T, Leopold DA, Fujii N, Duyn JH (2015) Robust Long-Range Coordination of Spontaneous Neural Activity in Waking, Sleep and Anesthesia. Cereb Cortex 25:2929-38
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24812083?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4537437/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24812083
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4537437 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Monosov IE, Leopold DA, Hikosaka O (2015) Neurons in the Primate Medial Basal Forebrain Signal Combined Information about Reward Uncertainty, Value, and Punishment Anticipation. J Neurosci 35:7443-59
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25972172?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4429151/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25972172
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4429151 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

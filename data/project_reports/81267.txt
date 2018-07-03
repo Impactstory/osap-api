@@ -1,0 +1,880 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002929</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002929-03</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Developing new statisical methods to detect variants involved in complex disease
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+ <!-- faculty test -->
+
+Yin Y Yao; PhD
+
+ <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Statistical Genomics and Data Analysis Core, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Statistical Genomics and Data Analysis Core</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Wei  Guo<br />
+
+
+
+
+Hai-De  Qin<br />
+
+
+
+
+Harold  Wang<br />
+
+
+
+
+Mengyuan  Xu<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Kwangmi  Ahn; PhD  (Child Psychiatry Branch)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+W  Jia; PhD
+<i>(Department of Experimental Science, Sun Yat-Sen University)</i>
+<br />
+
+
+
+T  Jorgensen; PhD
+<i>(Department of Radiation Medicine, Georgetown University Medical Center)</i>
+<br />
+
+
+
+B  Neal; PhD
+<i>(Department of Medicine, Massachusetts General Hospital)</i>
+<br />
+
+
+
+H  Qin; PhD
+<i>(Department of Experimental Science, Sun Yat-Sen University)</i>
+<br />
+
+
+
+Y  Wang; MS
+<i>(Department of Psychiatry and Behavior Sciences, Johns Hokins Medical School)</i>
+<br />
+
+
+
+Y  Zeng; PhD
+<i>(Department of Experimental Science, Sun Yat-Sen University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Enrichment set, Genetic Pathways, Complex traits
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Nasopharyngeal carcinoma (NPC) has a unique global distribution pattern -- Southeast Asia and some other localized regions of the eastern hemisphere that suggests the disease risk is driven by a combination of environmental exposures and specific genetic factors. Earlier studies have implicated many loci in various regions of the genome. Nevertheless, the implications of these associations remain enigmatic. Based on our preliminary results, we hypothesized that genetic variants and mutations in various DNA repair genes are associated with NPC. Further, we developed better informatics tools for analyzing DNA repair genes as a cluster.<br /><br />Our short-term goal in devising analytic tools that can identify genetic variation more powerfully and accurately than earlier methods and testing them in NPC-related data is to increase the understanding of how genetic variation elevates risk for nasopharyngeal cancer and other infection-related diseases. Our long-term goal is to create tools capable of identifying pathways and other genetic and environmental contributions associated with complex behaviors and medical conditions including such psychiatric diseases.<br /><br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The results we obtained may provide new insights into the genetic determinants of NPC, and may possibly provide insights on genes contributing to risk for NPC and other diseases related to infections. What we learn from this study can also be applied to genetic research for other complex diseases including psychiatric disorders including schizophrenia, bipolar and autism.<br />DNA repair plays a critical role in protecting against environmental carcinogenesis, and genetic variants of DNA repair genes have been reported to be associated with several human malignancies. To assess whether or not DNA repair gene variants are associated with nasopharyngeal carcinoma (NPC) risk, we conducted a pathway based candidate gene association study among the Cantonese population within Guangdong Province, China. The study was conducted in two stages. In the discover stage, we investigated 676 SNPs (selected by an expert panel including Dr. Yao) which cover 88 DNA repair genes in a matched case-controls study in which 755 patients who were diagnosed of NPC and 755 community based health controls were included. We discovered that three genes, RAD51L1, BRCA2 and TP53BP1 were significantly involved in development of NPC. In the validation stage, we followed up the signals revealed in stage 1 and found that only two genetic variants in the RAD51L1 gene were significantly associated. The sample size of the validation was 1,558 cases and 1,297 controls. Furthermore, we conducted gene-environment interaction analysis. For the first time, we documented that the exposure of cigarette smoking and salted fish consumption had significant interactions with the DNA repair gene variations with confidence.<br /><br />In this study, we utilize state-of-the-art, high-throughput genotyping methods as well as sophisticated methods of genetic analysis that take into account gene-gene interaction and gene-environment interactions in addition to single-SNP analyses. For example, we conducted innovative pathway based analysis such as CART. The CART method identified a subgroup with higher risk of NPC among the risk factors and the genetic variants of Tp53BP1, RAD51, BRCA2 and MNAT1. This interaction was confirmed by our own method. This finding indicated that smoking and variants in four genes may contribute jointly to the increased risk of NPC development.<br /><br />We successfully identified genetic markers that help identify those at risk for NPC development. Our future work will focus on validating this finding in a separate population and identifying genetic markers that effectively predict NPC outcome by combing the clinical samples used in stage I and stage II analysis. The combination of genetic and clinical information may be more predictive than either alone, potentially benefiting the treatment of NPC using appropriate methods. <br /><br />Encouraged by the preliminary results from our NPC studies, we will now use the analytic techniques we have developed and validated to analyze data from three large, publicly available databases containing information on the demographic, environmental, and genetic makeup of people diagnosed with Autism Spectrum Disorders (ASDs) and their families. We expect to improve our statistical tools for data analysis during this study. Based on the success of our earlier studies, moreover, we expect this approach to shed new light on genetic variations role in ASDs and other psychiatric disorders.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81267&allpubs=Y&isajaxlink=Y&_UserReference=47422B4C2DA934CE5B38D3AC','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Fan Q, He JF, Wang QR, Cai HB, Sun XG, Zhou XX, Qin HD, Shugart YY, Jia WH (2013) Functional polymorphism in the 5-UTR of CR2 is associated with susceptibility to nasopharyngeal carcinoma. Oncol Rep 30:11-6
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23612877?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3729234/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23612877
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3729234 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kiezun A, Garimella K, Do R, Stitziel NO, Neale BM, McLaren PJ, Gupta N, Sklar P, Sullivan PF, Moran JL, Hultman CM, Lichtenstein P, Magnusson P, Lehner T, Shugart YY, Price AL, de Bakker PI, Purcell SM, Sunyaev SR (2012) Exome sequencing and the genetic basis of complex traits. Nat Genet 44:623-30.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22641211?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3727622/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22641211
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3727622 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Nestadt G, Wang Y, Grados MA, Riddle MA, Greenberg BD, Knowles JA, Fyer AJ, McCracken JT, Rauch SL, Murphy DL, Rasmussen SA, Cullen B, Piacentini J, Geller D, Pauls D, Bienvenu OJ, Chen Y, Liang KY, Goes FS, Maher B, Pulver AE, Shugart YY, Valle D, Samuels JF, Chang YC (2012) Homeobox genes in obsessive-compulsive disorder. Am J Med Genet B Neuropsychiatr Genet 159B:53-60.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22095678?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3250212/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22095678
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3250212 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Ruan HL, Qin HD, Shugart YY, Bei JX, Luo FT, Zeng YX, Jia WH (2013) Developing genetic epidemiological models to predict risk for nasopharyngeal carcinoma in high-risk population of China. PLoS One 8:e56128
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23457511?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3574061/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23457511
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3574061 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Ruczinski I, Jorgensen TJ, Shugart YY, Schaad YB, Kessing B, Hoffman-Bolton J, Helzlsouer KJ, Kao WH, Wheless L, Francis L, Alani RM, Strickland PT, Smith MW, Alberg AJ (2012) A Population-based Study of DNA Repair Gene Variants in Relation to Non-melanoma Skin Cancer as a Marker of a Cancer-prone Phenotype. Carcinogenesis 33:1692-8.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22581838?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3514896/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22581838
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3514896 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Wheless L, Kistner-Griffin E, Jorgensen TJ, Ruczinski I, Berthier-Schaad Y, Kessing B, Hoffman-Bolton J, Francis L, Shugart YY, Strickland PT, Kao WH, Alani RM, Smith MW, Alberg AJ (2012) A community-based study of nucleotide excision repair polymorphisms in relation to the risk of non-melanoma skin cancer. J Invest Dermatol 132:1354-62.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22336945?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3326207/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22336945
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3326207 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Xue WQ, Qin HD, Ruan HL, Shugart YY, Jia WH (2013) Quantitative association of tobacco smoking with the risk of nasopharyngeal carcinoma: a comprehensive meta-analysis of studies conducted between 1979 and 2011. Am J Epidemiol 178:325-38
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23785114?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3727336/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23785114
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3727336 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

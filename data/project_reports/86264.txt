@@ -1,0 +1,538 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH000478</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH000478-58</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neural Mechanisms of Learning and Memory in Vision
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Mortimer  Mishkin; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/mortimer-mishkin" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Cognitive Neuroscience, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Cognitive Neuroscience</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Richard C Saunders; PhD<br />
+
+
+
+Sebastian  Guderian<br />
+
+
+
+Danielle L Rickrode; BS<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Catherine  Blackwell<br />
+
+
+
+
+Emily Anne Riggall<br />
+
+
+
+
+Bernardus Martinus  Steemers; BSC<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+F.  Vargha-Khadem; PhD
+<i>(Institute of Child Health, University College London Medical School)</i>
+<br />
+
+
+
+
+D. G. Gadian; PhD
+<i>(Institute of Child Health, University College London Medical School)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+memory, recognition, Single case, developmental amnesia, hippocampus, monkeys, parahippocampal cortex, recall
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The research focuses on the neurobiology of Memory Systems in non-human primates, as well as in normal and brain-injured children.  The studies on children are being carried out in collaboration with a team headed by Professor F. Vargha-Khadem at the University College London (UCL), Institute of Child Health, (ICH) and Great Ormond Street Hospital for Children (GOSH).  Besides employing cross-species comparisons, our work is highly multidisciplinary, as it utilizes behavioral, neuroanatomical, electrophysiological, pharmacological, and metabolic methods, as well as structural and functional neuroimaging techniques. <br />	Many of the questions we have been addressing in the area of Visual Memory revolve around the issue of multiple cerebral memory systems or circuits.  During the past two decades we have identified two circuits, a visuo-limbic memory system important for cognitively mediated memories (e.g. episodic memory, stimulus recognition, associative recall) and a visuo-striatal circuit supporting habit learning.   More recent questions include: (i) Is the visuo-limbic memory system further divisible into a visuo-perirhinal object memory circuit and a visuo-posterior parahippocampal spatial memory circuit. (ii) Even more importantly, is the visuo-limbic memory system hierarchically organized into a lower-order visuo-parahippocampal system that encodes and stores context-poor factual knowledge that is retrieved through the process of familiarity-based 'knowing', and a higher-order visuo-parahippocampo-hippocampal system that encodes and stores context-rich events that are retrieved through the process of recollection-based 'remembering'. This last question is also being pursued in children with developmental amnesia (DA), a syndrome associated with early hippocampal pathology often due to perinatal hypoxic/ischemic episodes.  As memory impairments are a characteristic of many psychiatric and neurologic illnesses (e.g. schizophrenia, Alzheimers disease) and aging, understanding the role of the different neural systems and their pharmacology may lead to new and important treatments.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The essential circuit for both item and associative stimulus recognition in any given sensory modality consists of the relevant cortical sensory processing stream(s), the medial temporal periallocortex (i.e. posterior parahippocampal, perirhinal, and entorhinal cortices), the ventromedial prefrontal cortex, and the medial dorsal nucleus of the thalamus. Context-free recall, familiarity based recognition, or fact memory, seems to depend primarily on the above basic memory circuit. Associative recall, recollection-based recognition, or event memory, seems to depend in addition on a higher-order circuit superimposed on the basic one and consisting of the hippocampus, mammillary body, and anterior thalamic nuclei.  Several years ago we discovered that hypoxic ischemic events sustained within the first year of life may result in a form of amnesia.  This 'developmental amnesia' (DA) is characterized by markedly impaired episodic (or event) memory combined with relative preservation of both semantic (or fact) memory and familiarity-based recognition memory, and is associated with medial temporal pathology that seems to be restricted to the hippocampus.  <br />In experimental animals, performance on a variety of spatial memory tasks depends on the integrity of the hippocampus. We therefore examined the extent to which patients with DA are impaired in navigational spatial memory.  We investigated spatial recall using a virtual environment in a group of patients with DA, a group of patients with 'moderate' hippocampal damage, and a normal control group. The virtual environment consisted of a circular arena, with distal cues being present throughout the experiment to provide orientation. During learning, a circular boundary, as well as an intra-arena landmark provided spatial reference frames. During a subsequent test phase, recall for all stimulus objects was tested with only the circular boundary or the landmark being present.  The 'moderate' and control groups showed no difference in performance during either the learning phase or the test phase of the experiment. By contrast, patients with DA were markedly impaired in both phases of this task, exhibiting slower learning and significant impairment in both boundary-based and landmark-based spatial recall. Across groups, performance on both types of spatial recall was highly correlated with the overall memory quotient (MQ), but not with Full Scale IQ, age, or gender.  Analysis of the relationship between task performance and intracerebral volume measures across groups revealed that boundary-based and landmark-based spatial recall were both most strongly related to bilateral hippocampal volumes. Volumes of the thalamus, caudate nucleus, and nucleus accumbens covaried with hippocampal volumes, but none of these explained spatial memory performance beyond that accounted for by the hippocampal volumes. These most recent results suggest that spatial recall in a virtual environment is impaired in patients with DA for both boundary-based and landmark-based navigation, and that both types of recall deficit are best explained by a reduction in bilateral hippocampal volumes.<br /><br />While a large body of evidence in humans supports the idea that recognition memory can be supported by both recollection and familiarity, it is so far unknown whether monkeys rely on similar mnemonic processes to perform recognition memory tasks. We trained monkeys on a visual running-recognition task with trial unique stimuli but in addition to the standard training we manipulated the monkeys bias to respond to old or new stimuli by manipulating the relative amount of reward that was obtainable for correct old and new responses. The resulting receiver operating characteristics (ROCs) were curvilinear, suggesting that a threshold process alone is not able to account for the data. Furthermore, these curves were significantly U-shaped, suggesting that a signal detection process alone cannot account for the data thus it is likely that recognition memory in monkeys, as in humans, is supported by two processes.  <br />Mnemonic associations are most often formed between events that are separated in time. Using magnetoencephalography in humans, we found that theta amplitude predicted whether the association between two temporally separated events, but not whether individual events, would later be remembered. Theta correlated with associative encoding either shortly before or after the second event, depending on whether the onset of the second event was temporally predictable or not. Furthermore, theta before the onset of the second event not only predicted associative memory formation, but also whether information about the first event could be simultaneously decoded from the neuromagnetic data. The results demonstrate how events separated in time can be mnemonically linked by a theta-mediated, temporally flexible retrieval process.<br />Recognition consists of the relevant cortical sensory processing stream and the medial temporal cortex. Visual recognition memory is dependent upon the interaction of the visual association cortex of area TE and the adjacent perirhinal cortex. We recorded neural activity across all six layers simultaneously in the perirhinal and area TE while a subject was performing a running recognition memory task. Successful memory formation was accompanied by enhanced multi-unit activity in the upper-middle layers and deep layers of perirhinal cortex, but not in area TE. Current source densities revealed that successful memory formation was associated with enhanced high-gamma amplitude in superficial and deep layers of perirhinal cortex, but not in area TE. The laminar profile of recognition memory processes and their interaction within the perirhinal cortex may provide clues to better understand the network mechanisms that underlie perirhinal-dependent memory functions.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86264&allpubs=Y&isajaxlink=Y&_UserReference=5C621A33FCF59A695B38D30F','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kravitz DJ, Saleem KS, Baker CI, Ungerleider LG, Mishkin M (2013) The ventral visual pathway: an expanded neural framework for the processing of object quality. Trends Cogn Sci 17:26-49.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23265839?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3532569/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23265839
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3532569 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

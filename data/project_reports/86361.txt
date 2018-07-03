@@ -1,0 +1,743 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002942</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002942-02</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Multimodal imaging: genetic and environmental effects in neuropsychiatry
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Karen F Berman; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/karen-berman" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Clinical and Translational Neuroscience Branch, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Clinical and Translational Neuroscience Branch</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 24 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Brenda A Agunyego<br />
+
+
+
+
+Jose A Apud; MD, PhD<br />
+
+
+
+
+Karen  Bartholomew<br />
+
+
+
+
+Morgan Elaine Bartholomew<br />
+
+
+
+
+Graham Leigh Baum<br />
+
+
+
+
+Joann  Berkson; RN<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=86361&onameset=Clinical and Translational Neuroscience Branch&isajaxlink=Y&_UserReference=B6830C5079BBC9085B38CF69','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 24</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Jun  Shen; PhD (Magnetic Resonance Core)<br />
+
+
+
+Johan W Van Der Veen; PhD (Division of Intramural Research Programs)<br />
+
+
+
+Yan  Zhang (Magnetic Resonance Core)<br />
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Carlo  Pierpaoli; MD, PhD (NICHD) <br />
+
+
+
+Joelle  Sarlls; PhD (NINDS) <br />
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Venkata  Mattay
+<i>(Lieber Institute for Brain Development)</i>
+<br />
+
+
+
+David  Van Essen
+<i>(Washinton University)</i>
+<br />
+
+
+
+Daniel R Weinberger; MD
+<i>(Lieber Institute for Brain Development)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Schizophrenia, DTI, MRS, relaxometry, Williams Syndrome, fMRI
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Using a multimodal neuroimaging approach primarily involving functional MRI (fMRI), diffusion tensor imaging (DTI), magnetic resonance spectroscopy (MRS), and quantitative measures of magnetic relaxation parameters of brain tissue, we pursue research aimed at understanding the genomic mechanisms related to risk for psychiatric disorders such as schizophrenia (Study00-M-0085 NCT00004571). The rationale for this work is founded on the premise that the discovery of susceptibility genes for psychiatric disorders will facilitate the identification of pathophysiological mechanisms and new therapies. Our primary objectives in this field are 1) to identify, through in vivo imaging, molecular and anatomical abnormalities in psychosis that can be linked to genetic predisposition; this is done by identifying brain phenotypes, that are not only present in patients with psychosis, but also in their unaffected siblings, who share half of their genetic material but do not have psychosis and are not treated with psychotropics; 2) to identify which genetic variants increase risk for schizophrenia and are at the same time associated with the imaging phenotypes mentioned above, thus, providing support for the effects of specific genes on brain biology; 3) to use these heritable traits in association analyses of brain phenotypes in healthy individuals;  4) to predict treatment response in patients based on the above mentioned genotypes and phenotypes (95-M-0150 NCT00001486); and 5) to identify environmental variables that interact with genetic risk in causing psychosis and to address their biological mechanisms. Over more than a decade of work, we have established one of the largest databases of healthy subjects, patients with schizophrenia, and their non-psychotic siblings who have been phenotyped across an array of BOLD fMRI measures and other related domains including cognitive measures and MEG, in addition to the MRI techniques mentioned above. <br /><br />These imaging modalities allow integration of data from diverse domains of brain structure and function. Brain function is studied with several fMRI tasks, gauging brain activation during working memory, emotional and mnemonic processing. This is complemented by measures of brain metabolites with MRS. We are currently investigating gamma-Aminobutyric acid (GABA) and glutamate in addition to the commonly detected metabolites (N-acetyl-aspartate, choline and creatine containing compounds). The detection of these metabolites requires specialized acquisition and data analysis techniques. Brain anatomy is studied through advanced methods for structural imaging that allow determination of relaxometry properties of tissue (T1 and T2). These relaxation maps are not only more adequate for large studies because they are less sensitive to changes in imaging software and equipment over time, but also allow, in conjunction with other techniques, a more biologically-based interpretation of results. The microstructural organization of white matter is studied with DTI, a quantitative technique that allows identification of the main tracts connecting distant brain regions. DTI-derived metrics allow limited inference about the preservation of connectivity between different brain areas. For example, we have shown that measures derived from tractography from the thalamus to the prefrontal cortex correlate with fMRI measures of efficiency and discriminate patients with schizophrenia from controls (Marenco et al. 2011, NPP). Resting state fMRI can also provide indexes of functional connectivity that have been shown to overlap to some extent with anatomical connections.  <br /><br />The researchers in this group contribute to methodological developments in fMRI, MRS and DTI and continue to provide technical expertise towards improvements in the quality of data acquisitions and data processing.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The group has continued to make strides in imaging genetics in healthy volunteers, patients with schizophrenia and their unaffected siblings. Using fMRI, Callicott et al. (J Clin Invest., 2013) extended findings from a previous and novel translational experiment regarding genetic factors that regulate and alter hippocampal developmental trajectory, DISC1 and NKCC1.  These data highlight the importance of epistatic models in understanding genetic association with complex brain phenotypes and also the power of replication. Replication was also key to the work of Tost and colleagues (J Neurosci,2014) showed that BOLD fMRI and working memory effect of NRG3, previously associated with novel splice form expression, was associated with prefrontal. In another translational study, Papaleo and colleagues (Mol Psychiatry, 2014) used BOLD fMRI during working memory to explore the gene-gene interaction between two classic schizophrenia candidate genes -- DISC1 and DTNBP1-- in healthy subjects during working memory studied with fMRI. From genome-wide association to general intelligence, Dickinson and colleagues (JAMA Psychiatry, 2014) also showed a relationship of SCN2A to prefrontal cortex activity using BOLD fMRI in patients with schizophrenia and healthy subjects. Again moving from post-mortem expression to in vivo function, Morita, Callicott and colleagues (J Neurosci, 2014) showed that variation within NKCC1 related to transcript expression was also associated with working memory, general cognition and fMRI activation. Magalona and colleagues (CNS Drugs, 2013) demonstrated that tolcapone (a COMT inhibitor) modulated activity in the anterior cingulate during an event-related mental flexibility task (the VAC task) in healthy young people. Interesting findings have emerged  in the field of cognitive aging. Muse and colleagues investigated episodic memory (EM) decline in aging and found the rate of decline associated with the single nucleotide polymorphism (rs17070145) in the WWC1 gene encoding the KIBRA protein critical for long-term potentiation and memory consolidation using functional magnetic resonance imaging (fMRI). Finally, Rasetti and colleagues (JAMA Psychiatry, 2014) identified a potential novel intermediate or endophenotype relevant to schizophrenia using an encoding task. <br /><br />In the last year, abstracts have been presented at several international meetings and the related manuscripts are in the late stages of preparation. We have data indicating that GABA levels in the anterior cingulate cortex are subtly decreased in patients with schizophrenia as compared to controls, while unaffected siblings have more marked reductions. Glutamate levels appear to be unchanged in treated and untreated patients with schizophrenia as compared to controls, as well as in unaffected siblings. We also studied the effects of suspension of neuroleptic medication on GABA levels in patients with schizophrenia, finding no apparent effect. A preliminary finding conducted on 15 patients who had been scanned during psychotropic suspension and during active single neuroleptic treatment indicates that the levels of glutamate while off medications may be predictive of neuroleptic response, while GABA levels are not. <br /><br />With DTI, we found an effect of a polymorphism in the serotonin transporter promoter region (5HTT-LPR) on the white matter microstructure of the uncinate fasciculus. This polymorphism has been implicated in the causation of mood disorders and has been previously associated with changes in white matter microstructure, though some results have been conflicting. We implemented a novel method to define the uncinate fasciculus that allows for automatic delineation of multiple white matter tracts and extraction of tract metrics. delineation of multiple white matter tracts and extraction of tract metrics.  <br /><br />The work on obstetrical complications as an environmental risk factor for schizophrenia generated a publication (Jaffe et al. 2014, Mol. Psych.) showing that it is unlikely that de novo mutations are the main cause for the known association of paternal age and schizophrenia. Obstetrical complications were associated with increased risk for schizophrenia especially for lower birth order, consistent with the fact that initial pregnancies are more likely to be problematic than later ones. Further data on obstetrical complications and their interaction with genetic risk are currently being analyzed in collaboration with Dr. Weinberger at the Lieber Institute for Brain Development. <br /><br />Effects of urban upbringing (a risk factor for schizophrenia) on brain activation during a working memory task and interactions with genetic variation in catechol-O-methyltransferase (COMT Val158Met polymorphism) were also studied. Urban upbringing resulted in reduced efficiency of activation, and there was a significant interaction with the COMT Val158Met polymorphism, where the individuals reared in rural environments with a Val/Val COMT genotype were least efficient, while Met Carriers were least efficient among the participants raised in a large city.<br /><br />A recent finding in collaboration was based on relaxometry techniques and showed an increase in myelin water fraction in the medial temporal lobe and in the cerebellar white matter. Additionally, through our collaboration on Williams syndrome, we have laid the groundwork for determination of white matter tract volume in large datasets of individuals for genetic studies. We focused on the inferior fronto-occipital fasciculus because preliminary work indicated that this might be the white matter tract particularly reduced in volume in participants with short deletions of the Williams syndrome chromosome region.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86361&allpubs=Y&isajaxlink=Y&_UserReference=B6830C5079BBC9085B38CF69','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Callicott JHC, Feighery EL, Mattay VS, White MG, Chen Q, Baranger D, Berman KF, Lu B, Song H, Ming G, Weinberger DR (2013) DISC1 and SLC12A2 interaction affects human hippocampal function and connectivity. J Clin Invest 123:2961-4
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23921125?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3999052/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23921125
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3999052 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Jaffe AE, Eaton WW, Straub RE, Marenco S, Weinberger DR (2014) Paternal age, de novo mutations and schizophrenia. Mol Psychiatry 19:274-5
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23752248?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3929531/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23752248
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3929531 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Magalona SC, Rasetti R, Chen J, Chen Q, Gold I, Decot H, Callicott JH, Berman KF, Apud JA, Weinberger DR, Mattay VS (2013) Effect of tolcapone on brain activity during a variable attentional control task: a double-blind, placebo-controlled, counter-balanced trial in healthy volunteers. CNS Drugs 27:663-73
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23794107?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4135358/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23794107
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4135358 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

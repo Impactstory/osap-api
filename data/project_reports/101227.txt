@@ -1,0 +1,800 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002783</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002783-16</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Functional MRI Method Development
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Peter A Bandettini; BS, PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/peter-bandettini" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Functional Imaging Methods, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Functional Imaging Methods</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 19 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Yuhui  Chai; PhD<br />
+
+
+
+
+Emily Suzanne Finn<br />
+
+
+
+
+Javier  Gonzalez-Castillo; PhD<br />
+
+
+
+
+Andrew Robert Hall; BS<br />
+
+
+
+
+Daniel  Handwerker; PhD<br />
+
+
+
+
+Colin Weir Hoy; BS<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=101227&onameset=Section on Functional Imaging Methods&isajaxlink=Y&_UserReference=06D98426273CEB8B5B38D512','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 19</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+<div id="moresamestaff">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffu">6 of a total of 12 other  members are shown. </div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Christopher Ian Baker; PhD  (Section on Learning and Plasticity)<br />
+
+
+
+Robert  Cox; PhD  (Division of Intramural Research Programs)<br />
+
+
+
+John Andrew Derbyshire; PhD  (Functional MRI Core)<br />
+
+
+
+Ellen  Leibenluft; MD  (Section on Mood Dysregulation and Neuroscience)<br />
+
+
+
+Sean  Marrett; PhD  (National Institute of Mental Health)<br />
+
+
+
+Alex  Martin; PhD  (Section on Cognitive Neuropsychology)<br />
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaff','searchview.taf?_function=showmore&ios=S&ipid=101227&thisic=&isajaxlink=Y&_UserReference=06D98426273CEB8B5B38D512','moresamestaffu');  return false;">
+
+
+<span class="morelist">Show all 12</span></a>.</form></div>
+
+
+
+</div>
+</div>
+
+
+</div>
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Jozef H Duyn; PhD (NINDS) <br />
+
+
+
+Silvina  Horovitz (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+C  Caballero Gaudes; Ph.D.
+<i>(Basque Center for Brain, Cognition, and Language)</i>
+<br />
+
+
+
+T  Constable
+<i>(Medical Imaging, Yale University)</i>
+<br />
+
+
+
+Russel A Poldrack; PhD
+<i>(Dept. of Psychology, Stanford University)</i>
+<br />
+
+
+
+E  Wong; PhD, MD
+<i>(Radiology, University of California San Diego)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+brain mapping, fMRI, connectivity, MEG, BOLD contrast, hemoglobin, cerebral perfusion, brain activation, blood, brain, attention, 7 Tesla, cognition, parcellation, time series analysis, machine learning, motor function, visual processing, high resolution, TMS, neuromodulation
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The goal of the Section on Functional Imaging Methods (SFIM) is to better understand and more efficiently extract and use the signal from MR images and fMRI time series for neuroscience research and clinical use. We are trying to increase the clinical utility of fMRI by developing methods for robust and relevant single subject assessment. <br /><br />During this time period, as signal interpretation research and processing method development have constituted the bulk of the papers and abstracts produced by SFIM during this time period. <br /><br />In recent years SFIM intensified its focus on fMRI information extraction methodology and interpretation. We have been working towards obtaining a deeper understanding of the resting state and activation-based signal change characteristics and designing better methods to robustly separate neuronal information from noise and irrelevant signal. <br /><br />We are excited that in past years, with increased scanning and processing methodology, it has become ever more evident that fMRI can be used for the assessment, classification, and diagnosis of individual subjects rather than being limited to group-wide analyses - . If fMRI could be used clinically for neurological and psychiatric assessment, treatment planning, and classification, it would be a breakthrough in medical imaging. All our  studies are being conducted with this goal of individual assessment firmly in mind.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Protocol number 93-M-0170, NCT00001360<br /><br />The Section on Functional Imaging Methods (SFIM) has advanced functional MRI (fMRI) methodology through development of processing and acquisition methods as well as research on the underlying mechanisms behind the fMRI signal. Our work over the past year has focused on methods to extract more information related to tasks, mental state, and individual traits from the fMRI time series. At high resolution we have more accurately mapped cortical layer connectivity and activity. Due to limited space, we decided to highlight here a few projects that are representative of our ongoing work. <br /><br />Multi-Echo Applications<br /> <br />Our group has been pioneering the development and use of Multi-echo fMRI (ME fMRI). Because blood oxygen level dependent (BOLD) and non-BOLD signal fluctuations behave differently as a function of echo time, the unique ME fMRI acquisition of at least one echo allows for efficient and robust detection and removal of non-BOLD fluctuations from the time series. <br /><br />Our work developing and utilizing ME fMRI continues. In collaboration with Dr. Caballero-Gaudes, we are working on the detection of individual BOLD events with no information about the task timing or location. Preliminary tests show that the algorithm can reliably detect BOLD events associated with each individual trial in a manner similar to traditional GLM methods, yet without any information on paradigm timing. This new method has important applications including: uncovering hemodynamic events driving dynamic resting functional connectivity, and detecting inter-ictal events in epilepsy patients without the need for concurrent EEG recordings. <br /> <br />Dynamic Functional Connectivity<br /> <br />Dynamic functional connectivity (FC), understood as patterns of functional brain connectivity that change at the scale of seconds to minutes, has gained great attention in recent years. FC configurations can differ significantly from those obtained from entire time series, and recent studies suggest there is a link between these dynamics and individual behavior and behavioral traits. We previously demonstrated how whole-brain short-term FC patterns could be used to identify cognitive tasks. We are currently investigating how these patterns may provide useful behaviorally-relevant information about individual subjects  to be used as a biomarker for specific traits. We are also investigating elements that drive these dynamics and differences in dynamics  ranging from changes in arousal and engagement to changes in attention.  Lastly, we are exploring the degree to which dynamics of specific networks can predict behavior. <br /><br />Towards the goal of deriving specific individual traits from FC network strengths, we had subjects perform a 2-back task, look for a visual target in a movie, and solve math problems. Performance was recorded on each task. Surprisingly, the sustained attention network (previously found) provided better prediction of performance than the 2-back-specific network.<br /> <br />fMRI Connectivity vs. fMRI Magnitude Changes<br /> <br />Our work on task-based connectivity change assessment has opened up an entirely new vista in fMRI processing. We have revealed that, for cognitive tasks, task based connectivity changes are more spatially extensive than magnitude changes and more specific or sensitive for a given task. This observation potentially opens a new subfield of brain mapping  where connectivity changes are mapped rather than magnitude changes. We are actively exploring the robustness, repeatability, and task specificity of these observations. <br /><br />Naturalistic Tasks<br /><br />Traditional task-based fMRI experiments use tightly controlled paradigms that often lack ecological validity. Resting-state scans, on the other hand, are unconstrained, making it difficult to separate signal from noise. Naturalistic tasks, in which subjects view a movie or listen to a story in the scanner, may provide a happy medium for studying both group-level functional brain organization and individual differences. By imposing a standardized, time-stamped, and engaging stimulus on all subjects, naturalistic tasks evoke rich patterns of brain activity. These patterns lend themselves to flexible, data-driven analyses such as inter-subject correlation (ISC) and inter-subject functional connectivity (ISFC), which are model-free ways to isolate stimulus-dependent brain activity from spontaneous activity and noise. These techniques have several advantages over traditional approaches: 1) they do not requirea priorimodeling of specific task events and/or assumptions about the functional specificity of individual brain regions; 2) there is no need to assume a fixed hemodynamic response function; and 3) they allow for the characterization of the full spatiotemporal richness of both evoked and intrinsic brain activity. <br /><br />In our work, we hypothesize that individual differences in psychological traits - namely suspicion and paranoia - are able to be differentiated by observation of brain activity elicited by a naturalistic task involving a narrative describing a complex social scenario that was deliberately ambiguous regarding characters trustworthiness and intentions. The intent was that some subjects would interpret the story as more suspicious, and others as less so. The narrative did evoke a range of interpretations. We collected data from 23 healthy subjects as they listened to the pre-recorded narrative during fMRI scanning, and characterized their feelings and beliefs about the narrative. We found that pairs of subjects with more similar activity fluctuations in primary visual and visual association cortices--suggesting that they were engaging in more similar mental imagery during listening--were more likely to speak about the story in similar ways afterward. One ultimate goal of this line of work is to develop a neuroimaging-based stress test for use in both clinical and subclinical populations. Such a test would draw out individual differences beyond what can be observed at rest or using more traditional tasks, potentially leading to earlier identification of subjects at risk for mental illness or helping to guide interventions.<br /><br />Continuation of mapping layer-specific brain activity at 7T<br /><br />In the last year, we continued to develop acquisition fMRI methods that can measure brain activity with ultra-high resolution, aiming to distinguish activity across cortical layers. The novel parameter space explored since October 2016 includes: a. The necessity of physiological noise correction with sub-millimeter voxels where thermal noise dominates. b. The capabilities of layer-fMRI at ultra-high field strengths of 9.4T compared to 7T. c. The layer-dependent signal features across different cortical columns in M1 in a participant-specific surface-based signal evaluation scheme. d. The capabilities to image whole slices of the brain beyond the sensory motor system e. The capabilities of alternative contrast mechanisms, including spin-echo BOLD compared to blood-volume sensitive contrast and gradient-echo BOLD fMRI. f. Resting state connectivity from layers to the rest of the brain, in an attempt to arrive at directional input and causality across cortical networks.<br /><br /><br /><br /><br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101227&allpubs=Y&isajaxlink=Y&_UserReference=06D98426273CEB8B5B38D512','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Gonzalez-Castillo J, Bandettini PA (2017) Task-based dynamic functional connectivity: Recent findings and open questions. Neuroimage, in press (e-pub ahead of print)
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28780401?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5797523/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28780401
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5797523 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Gonzalez-Castillo J, Chen G, Nichols TE, Bandettini PA (2017) Variance decomposition for single-subject task-based fMRI activity estimates across many sessions. Neuroimage 154:206-218
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27773827?dopt=Abstract" target="_blank">PubMed</a>
+
+
+           &nbsp;&nbsp;&nbsp;&nbsp;<i>Available in future as a Free Article</i> <!-- looks for PMC translations for in progress or embargoed -->
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27773827
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5398961 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Huber L, Ivanov D, Handwerker DA, Marrett S, Guidi M, Uludağ K, Bandettini PA, Poser BA (2016). Techniques for blood volume fMRI with VASO: From low-resolution mapping towards sub-millimeter layer-dependent applications. Neuroimage  .  https://doi.org/10.1016/j.neuroimage.2016.11.039
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27867088?dopt=Abstract" target="_blank">PubMed</a>
+
+
+           &nbsp;&nbsp;&nbsp;&nbsp;<i>Available in future as a Free Article</i> <!-- looks for PMC translations for in progress or embargoed -->
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27867088
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5436958 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Xie H, Calhoun VD, Gonzalez-Castillo J, Damaraju E, Miller R, Bandettini PA, Mitra S (2017) Whole-brain connectivity dynamics reflect both task-specific and individual-specific modulation: A multitask study. Neuroimage, in press (e-pub ahead of print)
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28549798?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5700856/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28549798
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5700856 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

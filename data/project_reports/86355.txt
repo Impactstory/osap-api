@@ -1,0 +1,442 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002932</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002932-04</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Cohort study of Lausanne (COLAUS) on cardiovascular diseases and depression
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Kathleen R Merikangas; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/kathleen-merikangas" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Developmental Genetic Epidemiology, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Developmental Genetic Epidemiology</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Lihong  Cui; MS<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Ciprian  Crainiceanu; PhD
+<i>(Johns Hopkins Bloomberg School of Public Health)</i>
+<br />
+
+
+
+Martin  Preisig; MD, MPH
+<i>(University of Lausanne, Switzerland)</i>
+<br />
+
+
+
+Peter  Vollenweider; MD
+<i>(University of Lausanne, Switzerland)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+cardiovascular disease, depression, biomarkers
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+This study directed by Principal Investigators Peter Vollenreider, M.D. and Martin Preisig, M.D., from Lausanne, Switzerland, examines the comorbid association between specific mental disorders and both cardiovascular risk factors and cardiovascular diseases in a large cohort study of the population of Lausanne, Switzerland (COLAUS). The primary aim of the cohort study is to follow-up all subjects of a large population-based sample, who underwent a comprehensive somatic, mental, biochemical and genetic investigation in order to prospectively study the association between cardiovascular disease (CVD)/cardiovascular risk factors (CVRF) and mental disorders. The collection of follow-up information includes: (1) the course of the conditions related to CVD or mental disorders observed at baseline; (2) the incidence of conditions related to CVD or mental disorders during the follow-up; (3) data on environmental factors (social support) and relevant phenotypes that were not part of the baseline investigation (personality, cognitive functioning in subjects between 65 and 80 years); and (4) biological (pro-inflammatory cytokines, HPA axis dysregulation), clinical (persistent pain of more than 3 months duration, migraine, sleep disorders), and behavioral factors (nutrition, physical activity, smoking, alcohol and drug consumption, coping style) which could be either mediators of a causal relationship or shared factors underlying the association between mental disorders and CVD/CVRF.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The collection of data from this cohort has now been completed and analyses of the data are now underway. The National Institute of Mental Health (NIMH) Family Study of Affective Spectrum Disorders has included numerous comparable measures of psychiatric and cardiovascular phenotypes that can be analyzed to develop hypotheses for COLAUS and conversely. The major papers on familial aggregation of mood disorder subtypes have both been published during the past year. We showed that mania and depression are strongly familial, but are transmitted independently in families (Merikangas et al, 2014). This finding was replicated by the parallel Lausanne Family Study, which also demonstrated that psychosis was independently transmitted in families (Vandeleur et al, 2013).  In terms of cardiovascular disease comorbidity, we recently found an association between atypical depression, alcohol misuse and cardiovascular disease (Glaus et al, 2012).  Furthermore, inflammatory processes were associated with mood disorder subtypes (Glaus et al, 2014).<br /><br />Public Health Impact: <br />Cardiovascular diseases, their well-established risk factors and mental disorders have the greatest public health impact of all chronic non-infectious human diseases (Vandeleur et al, 2012). Moreover, a recent World Health Organization (WHO) projection of future population health concluded that by 2030, unipolar depressive disorders and ischemic heart disease (IHD) will be among the three leading causes of disease burden worldwide. Given the major public health impact of both CVD/CVRF and mental disorders, the study of the mechanisms underlying their associations is of high clinical and scientific relevance.<br /><br />Future Plans:<br />The next phase of this project continues joint analysis of the family study data on mood disorder subtypes, hyperthymia, comorbid anxiety, sleep disorders and migraine, and analysis of the biomarker and clinical data in the Lausanne site. We will integrate the family study data and common biomarkers from the NIMH Family Study with those of the COLAUS Study to enhance analytic power and to cross-replicate the findings. We have begun to add the electronic diary and activity measures to the COLAUS study and are currently collaborating with Johns Hopkins to coordinate the new activity measures and analytic methods. Two chief goals continue to be: 1) implementing mobile technologies developed for our studies in the NIMH Intramural Research Program and 2) conducting joint analyzes of NIMH Family Study adults and children.  The results will then be used to guide plans for future follow-up and extension of the study samples.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86355&allpubs=Y&isajaxlink=Y&_UserReference=0FC47ABF7D79C6895B38D18B','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+No publications during this reporting period
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

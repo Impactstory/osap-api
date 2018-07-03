@@ -1,0 +1,859 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002794</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002794-13</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Pediatric Brain Imaging
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+ <!-- faculty test -->
+
+Jay  Giedd; MD
+
+ <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Developmental Brain Imaging, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Developmental Brain Imaging</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 16 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Judith L Rapoport; MD<br />
+
+
+
+Armin  Raznahan<br />
+
+
+
+Jonathan  Blumenthal<br />
+
+
+
+Liv S Clasen<br />
+
+
+
+Nancy R Lee; PhD<br />
+
+
+
+Francois  Lalonde; PhD<br />
+
+
+
+ <!-- step through any ordered staff -->
+
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=86299&onameset=Section on Developmental Brain Imaging&isajaxlink=Y&_UserReference=A8B2C7A10CA9B9475B38D614','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 16</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Robert  Cox; PhD (Scientific and Statistical Computing Core)<br />
+
+
+
+Wen-Ming  Luh; PhD (Functional MRI Core)<br />
+
+
+
+
+
+
+
+
+
+
+
+
+Melissa A Brotman  (Section on Mood Dysregulation and Neuroscience)<br />
+
+
+
+Alex  Martin; PhD  (Section on Cognitive Neuropsychology)<br />
+
+
+
+Greg  Wallace; PhD  (Section on Cognitive Neuropsychology)<br />
+
+
+
+Zhi  Yang; PhD  (Section on Functional Imaging Methods)<br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Carlo  Pierpaoli; MD, PhD (NICHD) <br />
+
+
+
+
+
+
+
+
+
+
+
+
+Phillip  Shaw (NHGRI) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 19 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Daniel J Bauer; PhD
+<i>(Department of Psychology, The University of North Carolina at Chapel Hill)</i>
+<br />
+
+
+
+Edward  Bullmore; MD
+<i>(Biostatistics & Computing, Institute of Psychiatry)</i>
+<br />
+
+
+
+Arnaud  Cachia; PhD
+<i>(Neuroscience Section, Institut Universitaire de France)</i>
+<br />
+
+
+
+William F Crowley; MD
+<i>(Massachusetts General Hospital)</i>
+<br />
+
+
+
+John G Csernansky; MD
+<i>(Department Psychiatry & Behavioral Sciences, Northwestern University)</i>
+<br />
+
+
+
+Anders M Dale; PhD
+<i>(UC San Diego)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=86299&isajaxlink=Y&_UserReference=A8B2C7A10CA9B9475B38D614','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 19</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Adolescent, Sex Chromosome Variation, Magnetic Resonance Imaging, Twins, XXXY, XXY, XXYY, XYY, ADHD, Child, Childhood Onset Schizophrenia, XXX, XXXXY
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The goal of our team is to integrate longitudinal brain imaging, neuropsychological, and genetic data to explore the path, mechanisms, and influences on brain development in health and illness. Since its inception in 1989 the project has grown to encompass over 9000 brain MRI scans from over 3500 subjects - about one fourth from typically developing singletons, one fourth from typically developing twins, and one half from clinical populations (e.g. Childhood Onset Schizophrenia, Attention-Deficit/Hyperactivity Disorder, Autism). <br /><br />Our efforts are divided into three interrelated projects: (1) Mapping Developmental Trajectories of Brain and Behavior, (2) Male/Female Differences in Brain Development, and (3) Genetic and Environmental Influences on Brain Development.<br /><br />Project 1. Mapping Developmental Trajectories of Brain and Behavior in Health and Illness<br /><br />Objectives: (1) Characterize the maturational changes and variation in the size, shape, location, and connectivity of increasingly finer subdivisions of brain anatomy. (2) Evaluate brain/behavior relationships throughout the course of child and adolescent development. (3) Explore the relationship between changes seen in typical adolescent brain development and the emergence of psychopathology. <br /><br />Project 2. Male/Female Effects on Brain Development<br /><br />Objectives: (1) Characterize sexually dimorphic developmental trajectories and understand how these differences relate to the observed male/female differences in age of onset, prevalence, and symptomatology in clinical disorders. (2) Delineate the relative contributions of X and Y chromosomes, gonadal hormones, and specific gene alleles (e.g. androgen receptor polymorphisms) to sex differences in brain and behavior. (3) Use dosage effects of a variety of sex chromosome aneuploidies (i.e. XO, XXX, XXY, XYY, XXYY, XXXXY, and XXXXX) as a heuristic approach to identifying genes on the X-chromosome that may be related to specific aspects of brain development. (4) Determine the effects of sex hormone deficiency at the time of puberty on neurodevelopmental outcomes in subjects with delayed onset of puberty as a result of isolated GnRH deficiency (Kallmann syndrome; IHH).<br /><br />Project 3. Genetic and Environmental Influences on Brain Development<br /><br />Objectives: (1) Characterize Age Gene Environment interactive influences on developmental trajectories of brain, behavior, and cognitive function. (2) Identify the effects of specific genes on brain development. (3) Uncover clues regarding mechanisms of genetic influences on human brain development that may guide searches for optimal interventions, prevention, and treatment.<br /><br />This report involves work collected under NCT00001246, Protocol 89-M-0006: Brain Imaging of Childhood Onset Psychiatric Disorders, Endocrine Disorders and Healthy Controls.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+A unifying theme emerging from our work is that in neuroimaging, as in life, the journey is often as important as the destination. Trajectories of brain morphometry, as opposed to snapshots in time, are more highly correlated with cognitive parameters, are better predictors of clinical outcome, and more robustly distinguish groups classified by genotype. To capture the path of development we follow people throughout their development by having them return for participation at approximately two-year intervals. During their visit to the NIH participants are assessed in three realms - Brain Imaging, Neuropsychology, and Genetics. (1) Brain imaging. Magnetic resonance imaging (MRI) combines a powerful magnet, radio waves, and sophisticated computer technology to create exquisitely accurate pictures of the anatomy and physiology of the brain. It does this without the use of ionizing radiation making it safe for people of all ages. The scans are processed through a series of ever improving image analysis tools developed by collaborators throughout the world. The output of the analytic tools allows us to compare the anatomy and physiology of brains between groups or within an individual over time. By morphing between images acquired at different ages we can create movies of brain development as can be seen at http://www.nimh.nih.gov/videos/press/prbrainmaturing.mpeg. (2) Neuropsychology. For our studies of typical development we begin with an initial phone screening followed by questionnaires mailed to parents and teachers and then the in-person visit to the NIH. Once accepted into the study participants undergo a collection of psychological tests, including a standard IQ test. The specifics of the testing vary by diagnostic group but in general cover domains of language, executive, and social functions. (3) Genetics. We request that participants provide a DNA sample via a blood draw (in which lymphoblasts can be immortalized to provide genetic testing for ongoing future analysis) or if they prefer not to have blood drawn via saliva. By combining data from these three realms we hope to gain insight into the dynamic interplay between brains, genes, and behavior in the developing brain.<br /><br />Key Findings and Recent Results Project 1 - Mapping Developmental Trajectories of Brain and Behavior in Health and Illness. Prior work from our group has shown that brain developmental is characterized by increases in white matter volumes and inverted U shaped trajectories for cortical and subcortical gray matter structures with relatively late maturation of higher association areas such as superior temporal lobe and the prefrontal cortex. Prior investigations have also elucidated deviations from typical developmental trajectories for several clinical populations. <br /><br />Publications Project 1 past year:<br /> Suggest that abnormal cortical development in schizophrenia may be modularized or constrained by the normal community structure of developmental modules of the human brain connectome (REF 1). <br /> Suggest a significant role for puberty in structural brain development (REF 3).<br /> Highlight the relevance of anatomical covariance within the cortex to vocabulary skills in typically developing youth, further elucidating the distributed nature of neural systems subserving word knowledge (REF 4).<br /> Highlight the importance of structural covariance in in the prediction of individual differences in executive function skills in youth. Identifies neuroanatomic coupling as a biological substrate that may contribute to executive function and dysfunction in childhood (REF 5).<br /> Suggest that developmental mismatch in structural brain maturation is present in neurotypically developing individuals. Highlighted the need for prospective studies combining anatomical and behavioral measures (REF 6).<br /><br />Key Findings and Recent Results Project 2 - Male/Female Differences in Brain Development. Sexual dimorphism of the developing brain is especially pertinent for child psychiatry because nearly all neuropsychiatric disorders of childhood demonstrate male/female differences with respect to age of onset, prevalence, and symptom patterns. Prior work from our lab characterizing male/female differences in typical pediatric brain development has been amongst the most cited in the field.<br /><br />Publications Project 2 past year:<br /> Provide direct evidence in humans about the critical spatiotemporal role played by appropriately timed pubertal sex steroids during normal brain development. (REF 2)<br /> Suggest an unexpected role for X-linked genes in shaping sexually dimorphic brain development, and an evolutionarily conserved influence of X-linked genes on both cortical and subcortical development in mammals. Integration of these data with existing genomic knowledge generates a set of novel, testable hypotheses regarding candidate mechanisms for each observed pattern of anatomical variation across XO, XX and XY groups (REF 7).<br /> Bring spatiotemporal understanding of subcortical development closer to that of the cortex--allowing evolutionary, basic, and clinical neuroscience to be conducted within a more comprehensive developmental framework by establishing the developmental dynamism, spatial heterochonicity, and sexual dimorphism of human subcortical maturation (REF 8).<br /><br />Key Findings and Recent Results Project 3 - Genetic and Environmental Influences on Brain Development. By comparing how alike identical twins (monozygotic) are to how alike fraternal twins (dizygotic) are we can begin to quantify the extent to which differences are due to genetic or environmental factors. Current sample size from the ongoing longitudinal study is approximately 300 twin pairs. Studies of specific genes and environmental factors allow exploration of the mechanisms and influences on brain development. Understanding influences on trajectories of brain development may shed light on the emergence of psychopathology during childhood and adolescence and ultimately may guide therapeutic interventions. Prior work from our group established that: (1) heritability is high and shared environmental effects low for most brain morphometric measures; (2) the cerebellum has a distinct heritability profile; (3) genetic and environmental factors contribute to the development of the cortex in a regional and age specific manner; and (4) shared genetic effects account for more of the variance than structure specific effects. Multivariate analyses indicate that 60 percent of cortical thickness variance is accounted for by a single genetic factor and that five distinct groups of brain measures are influenced by shared genetic and environmental factors.<br /><br />Publications Project 3 past year:<br /> Demonstrated that the heritability of cortical thickness increases gradually throughout late childhood and adolescence, with sequential emergence of three large regions of high heritability in the temporal poles, the inferior parietal lobes, and the superior and dorsolateral frontal cortices (REF 9).<br /><br />Impact: The project has generated over 250 papers and 30,000 citations since its inception in 1989. Results of the studies, particularly regarding adolescent brain development, have generated wide spread public interest and discussion affecting social, educational, and judicial realms. The findings have helped spawn other research initiatives, both nationally and internationally, to replicate and extend the findings. Data from the typically developing children and adolescents have been widely used as a comparison group for clinical populations. Collaborative studies have been published with over 400 different investigators representing over 50 universities. The long term nature of the study, the emphasis on typical development, and extensive data sharing/collaboration make the Brain Imaging projects well-suited for the Intramural program.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86299&allpubs=Y&isajaxlink=Y&_UserReference=A8B2C7A10CA9B9475B38D614','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by reference within the summary, then by publication type and author name.
+</p>
+
+
+
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div> <div style="margin: -1.6em 0px 5px 2em;">Alexander-Bloch AF, Reiss PT, Rapoport J, McAdams H, Giedd JN, Bullmore ET, Gogtay N (2014) Abnormal cortical growth in schizophrenia targets normative modules of synchronized development. Biol Psychiatry 76:438-46
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24690112?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4395469/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 24690112
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4395469 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div> <div style="margin: -1.6em 0px 5px 2em;">Goddings AL, Mills KL, Clasen LS, Giedd JN, Viner RM, Blakemore SJ (2014) The influence of puberty on subcortical brain development. Neuroimage 88:242-51
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24121203?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3991320/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 24121203
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3991320 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div> <div style="margin: -1.6em 0px 5px 2em;">Raznahan A, Shaw PW, Lerch JP, Clasen LS, Greenstein D, Berman R, Pipitone J, Chakravarty MM, Giedd JN (2014) Longitudinal four-dimensional mapping of subcortical anatomy in human development. Proc Natl Acad Sci U S A 111:1592-7
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24474784?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3910572/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 24474784
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3910572 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div> <div style="margin: -1.6em 0px 5px 2em;">Schmitt JE, Neale MC, Fassassi B, Perez J, Lenroot RK, Wells EM, Giedd JN (2014) The dynamic role of genetics on cortical patterning during childhood and adolescence. Proc Natl Acad Sci U S A 111:6774-9
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24753564?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4020057/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 24753564
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4020057 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div> <div style="margin: -1.6em 0px 5px 2em;">Raznahan A, Probst F, Palmert MR, Giedd JN, Lerch JP (2013) High resolution whole brain imaging of anatomical variation in XO, XX, and XY mice. Neuroimage 83:962-8
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23891883?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4838041/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 23891883
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4838041 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+ <!-- ends ordered rows -->
+
+
+
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

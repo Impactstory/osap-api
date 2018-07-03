@@ -1,0 +1,339 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002916</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002916-07</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Office Of Fellowship Training
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lead Investigator</div></div>
+
+<div class="rowdiv">
+<div class="data">
+Janet Elizabeth Clark
+<br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any LIs -->
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<!-- display SoRs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Supervisor of Record</div></div>
+<div class="rowdiv">
+<div class="data">
+ <!-- faculty test -->
+Susan G Amara; PhD 
+ <!-- faculty test -->
+<br />
+
+</div>
+</div>
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Office of Fellowship Training, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Office of Fellowship Training</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Sandy  Gomez<br />
+
+
+
+
+Aneka Phillipa Reid<br />
+
+
+
+
+Margarita  Valencia<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Ethics Training, GPP, Grantwriting Workshops, Memorial Fellowships, Outreach and Recruitment, Scientific Events, Seminars, Summer Intern Program, Training
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The NIMH Office of Fellowship Training, located in the Division of Intramural Research Programs, Office of the Scientific Director, provides oversight and development of the DIRP's integrated multi-disciplinary fellowship training program, and provides administrative support and resources for all training-related activities. The Office is responsible for fellowship training and personnel-related actions of NIMH IRTAs, Visiting Fellows, Research Fellows, Clinical Associates, Graduate Students, and Summer Interns. The Office also organizes training which includes Grantsmanship, Writing for Biomedical Publication, development of Individual Development Plans (IDPs), and Responsible Conduct of Research.  In addition, the Office supports the Outstanding Resident Award Program, manages and archives mentor/trainee evaluations, provides Career Counseling, supports a Postdoctoral Fellows Committee, coordinates the NIMH DIRP Scientific Training Day, and organizes a number of special awards, programs, and services for domestic and international fellows. The Office oversees the administrative and program support for three NIH/IC run Graduate Partnership Programs. Educational support services are also provided to DIRP Principal Investigators and their administrative staff.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+In fiscal year (FY) 2014 the Office of Fellowship Training (OFT) organized and managed several educational events and programs for the DIRP including  several new training opportunities recently added to the OFT portfolio. All of the OFT-sponsored events were done to service the needs of a multidisciplinary basic and clinical training program. In FY 2014, the OFT Office processed personnel cases for approximately 340 fellows, 250 Special Volunteers and Collaborators. The OFT drafted policies and standard operating procedures for request of graduate training funding, diversity and inclusion funding and the request for annual increases for Postdoc IRTAs and Visiting Fellows (VFs). In addition, the OFT is now requiring Postdoc and VFs transitioning from their 2nd and 3rd year and beyond to draft and submit Individual Development Plans (IDPs) to the OFT with their annual request for renewal in an effort to assure that all of these trainees have a career plan in place. Town Hall Meetings were held in August to share new policies and new OFT initiatives with Postdocs, VFs and Post-Bacs. Tasked with educating all new staff to the NIMH DIRP, the OFT provided monthly orientations. The orientation covers information relevant to the NIH and NIMH organization, function, mission statement, and provides fellows with reference materials on ethical conduct of research and mentorship. In an effort to &quot;go green&quot;, the OFT web content was significantly revised in FY 2014 to include all orientation materials in addition to a wide array of useful resources for required trainings, career and professional development and OFT sponsored events and awards. The OFT meets with trainees regularly to provide career and professional development guidance, discuss IDPs and solicit feedback and input from trainees during and upon completion of their training.<br /><br />In FY 2014 the OFT sponsored and organized the 16th Annual DIRP NIMH Scientific Training Day which was held in Emmitsburg, Maryland at FEMAs National Emergency Training Center. The day was attended by 227 faculty, administrators, scientific staff, and trainees and included keynote addresses by Maja Bucan (UPenn), Tom Insel and Alexxai Kravitz (NIDDK)as well as talks by trainees, a poster session and career development workshops. <br /><br />OFT organized and sponsored the DIRP Grantsmanship Workshop in conjunction with Grant Writers Seminars and Workshops, LLC in FY 2014. Training was provided in three phases, gradually transitioning from didactic introductory material (Phase I) to an intensive grant-writing experience in the form of an individualized tutorial (Phase III).<br />Phase I provided extensive training in Grantsmanship to 28 NIMH/DIRP fellows, 43 NINDS fellows, and 11 fellows from NEI, NIAA and NIDCD. Eleven fellows participated in Phase II, which focused on the development of an innovative research idea and formulation of a compelling set of Specific Aims. Phase III provided an intensive grant proposal writing experience to a subset of 10 senior fellows. Tutorials were conducted over a 10 week period, with individual tutorials done by the Granwriters staff by phone and email and covering all components of the grant application process. This year, 9 of the 10 fellows have submitted or will submit final drafts of grant proposals to a variety of mechanisms including the R-21, K-22, K23, K99 and a private foundation. There were no K-99/R00s awarded to NIMH DIRP Fellows in FY 2014. We anticipate the submission of two K-99/R00s in the near future, one to be submitted in October 2014 and one in February 2015. Five Fellows submitted applications to the Brain &amp; Behavior Research Foundations for the NARSAD Young Investigators Award in February 2014: 2 fellows received awards. In addition, 7 NIMH fellows received NIH Fellows Awards for Research Excellence (FARE). The OFT Office has expanded the grant proposal submission educational experience for its fellows by adding informative seminars on the Career Award Mechanisms (K-Awards) and to provide an Overview of the Grant Review Process, as well as a Mock Grant Review Workshop which will be held in Nov 2014.<br /><br />To satisfy the NIH mandate to provide all NIH DIRP scientific staff with training in Responsible Conduct of Research, the OFT Office coordinated and led Ethics for Lunch discussions on nepotism from July through October, 2014. All of the NIMH DIRP scientific staff was required to attend one of the 10 sessions offered.  <br /><br />In FY 2014, the IRTA Tax Seminar was offered in February and July. This seminar is an essential service provided to our NIMH IRTAs to aid in drafting and submitting both their annual and estimated taxes. The tax specialist invited to present the seminars covers the unique tax requirement specific to the NIH IRTA. As part of the service, NIMH IRTAs may consult with the tax specialist by email for up to 4 to 6 weeks following the seminar to answer their specific questions in preparing their tax statements. In total this year, there were 59 attendees to the Tax Seminars. <br /><br />As part of the new initiatives of the OFT Office, more emphasis was placed on the Post-Bac IRTA fellows. To enrich the career and professional development of these trainees, the OFT Office and Office of the Clinical Director worked together to establish a Brown Bag Lunch series that began in September, will be held bi-monthly, and will focus on informal discussion between fellows and faculty on pursuing academic and/or clinical career paths. Additionally, the OFT Office continued to coordinate and support the DIRP Investigator Seminar Series 2014/15, designed to familiarize DIRP fellows and faculty with their colleagues' research. It commenced in September 2014 and is scheduled through May 2015. This years series features individual DIRP Investigator presentations, PI and Senior Fellow Joint Presentations as well as two panels to provide a forum to discuss scientific themes considered pertinent to research conducted by the NIMH DIRP. <br /><br />The 2014 NIMH DIRP Summer Internship Program (SIP) hosted 52 young scientists. The group included 10 high school students, 40 college undergraduates, 1 medical and 1 graduate student. This year, 29 summer interns participated in the NIH Summer Research Program Poster Day. The OFT Office provided weekly orientations for 8 weeks in May and June in addition to administrative support for all interns coming to the NIMH SIP. <br /><br />In FY 2014 the OFT organized the recruitment program, interview process, and continued to provide administrative service support for the University College London-NIMH Joint Doctoral Training Program in Neuroscience. Seventeen complete applications were considered, 7 applicants were interviewed and 2 offers of acceptance were made. As a result, the UCL-NIMH Program added 1 new student this year. For the fifth year OFT provided administrative support for recruitment and website maintenance for the Karolinska-NIH Program for Graduate Training in the Neurosciences. The OFT also continued to assist in the management of the PhD program between the NIMH/DIRP and the Departments of Epidemiology and Biostatistics of the Johns Hopkins Bloomberg School of Public Health. <br /><br />In support of the Office of the Clinical Director, OFT contributed to the selection of FY 2014 recipients for recognition by the NIMH National Outstanding Resident Awards Program (ORAP), honoring the academic achievements of 14 PGY-III residents selected from some of the leading psychiatry departments from across the country. The award honors psychiatry residents who show outstanding scientific achievements and leadership potential and serves as a recruiting tool for the DIRP Clinical Research Training Program. In addition, the OFT Office provided support for the organization and travel of the ORAP recipients to attend a two-day award program.<br /><br />
+</div>
+</div>
+<div id="publications">
+
+
+
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

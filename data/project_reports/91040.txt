@@ -1,0 +1,679 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002619</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002619-24</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neural Mechanisms Of Motivation And Reward
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Barry J Richmond; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/barry-richmond" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neural Coding and Computation, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neural Coding and Computation</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 11 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Richard C Saunders; PhD<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Saakshi  Bhayana<br />
+
+
+
+
+Samarth  Chandra<br />
+
+
+
+
+Mark Alexander Grainger Eldridge<br />
+
+
+
+
+Rossella  Falcone<br />
+
+
+
+
+Henry  Lam<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=91040&onameset=Section on Neural Coding and Computation&isajaxlink=Y&_UserReference=355791E6F23195925B38D5A9','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 11</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Elisabeth Adams Murray; PhD (Section on Neurobiology of Learning and Memory)<br />
+
+
+
+Ziad S Saad; PhD (Scientific and Statistical Computing Core)<br />
+
+
+
+
+
+
+
+
+
+
+
+
+Gang  Chen; PhD  (Scientific and Statistical Computing Core)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Alan Paul Koretsky; PhD (NINDS) <br />
+
+
+
+Martin J Lizak; PhD (NINDS) <br />
+
+
+
+
+
+
+
+
+
+
+
+
+John H Wittig; PhD (NINDS) <br />
+
+
+
+Kareem Amir Zaghloul; MD, PhD (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+S  Bouret; Ph.D.
+<i>(Institut du Cerveau et de la Moelle epiniere)</i>
+<br />
+
+
+
+Narihisa  Matsumoto; PhD
+<i>(Neurotechnology Group, AIST)</i>
+<br />
+
+
+
+Takafumi  Minamimoto; PhD
+<i>(Molecular Neuroimaging, Natl Inst Radiological Science)</i>
+<br />
+
+
+
+Munetaka  Shidara; PhD
+<i>(Neuroscience Research Institute, AIST)</i>
+<br />
+
+
+
+Y  Sugase-Miyamoto; PhD
+<i>(Neuroscience Research Institute, AIST)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+DREADDs, orbitofrontal cortex, learning, rhinal cortex, reinforcement, motivation
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The desire to act, that is, motivation, arises from the interactions of external factors, e.g., size and timing of reward, and internal factors, e.g., hunger or thirst. Motivation is directly related to the subjective value of reward, and is moderated, or even completely dissipated, if the perceived effort or discomfort seems too great. The normal balance between reward and work is disturbed in many psychiatric disorders, such as depression where feelings of hopelessness make rewards seem not worth pursuing and the work to obtain them too burdensome, or drug abuse where the drug of abuse is so valuable it will be sought even at great danger or cost, both personal and social. We are studying how the value of behavior is modified by the balance between reward value and burden to obtain reward in monkeys. The monkeys naturally vary their performance while we manipulate the reward size and the amount of work needed to obtain reward. We carry out theoretical studies trying to describe the exact balance among these factors, behavioral studies with both normal monkeys and monkeys with selective ablations, single neuron recordings to learn what signals related to these factors are present in different brain regions of the reward system, and genetically-based receptor manipulations to determine what the underlying molecular mechanisms for this behavior are.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Two factors that influence how valuable a reward seems to be, that is, the subjective value of the reward, are the reward size and the amount of time that passes before the reward's delivery. Larger rewards are seen as more valuable than smaller ones, and rewards that are delivered immediately are more valuable that rewards delivered after a delay. After bilateral damage to the ventral striatum both rodents and primates appear to lose motivation, perhaps being unable to sense the value of a reward. We studied whether ventral striatal neurons encode information about the two factors, the reward size and the delay to receiving a reward, or whether the neurons might encode the subjective value itself.  Encoding the subjective value would be seen as a neuron firing the same way to different combinations of the size and delay that are of equivalent value. Thus, if the subjective value is encoded we expect to see similar neuronal activity when a large reward is delivered after long delay and when a small reward is delivered after a short delay. We recorded neuronal responses in the ventral striatum from two monkeys while they performed a task in which we offered 9 combinations of reward by mixing 3 sizes (2, 4 or 6 drops of water) and 3 delays (1, 5 or 10s). A cue indicating the combination being offered was presented throughout the trial. The probability of accepting the offered reward was highest for the largest reward with the shortest delay, and became progressively smaller as the reward became smaller and/or the delay became longer. The behavioral performance for large reward-long delay trials was similar to that for small reward-short delay trials showing that the monkey was sensitive to the subjective value as suggested above. The probability of accepting was modeled using a logistic regression model with two continuous explanatory variables, reward size and delay.<br />We analyzed the firing rate of the ventral striatum neurons in the initial period after the cue appeared on the screen, but before any action was required. In this task the firing of individual ventral striatal neurons was related to reward size, or delay, and in a few cases both. Overall, the individual neurons seemed to be coding for reward size and/or delay, but very few coded for the subjective value itself. Given these results, we asked whether the coding of the reward size and the delay has an aspect in common across all of the recorded ventral striatal neurons. To determine whether the coding across neurons was consistent we considered all of the neurons as a single group in a modern statistical model, a generalized linear mixed-effects model (GLMM), with neurons and the number of trials as random factors, and linear and quadratic terms of reward size and delay as fixed factors. The neural responses were well predicted by the GLMM when both linear and quadratic terms were included for the fixed effects for both monkeys. Thus, it appears that the population of neurons has strong encoding for the reward size and delay to reward.<br /><br />If the encoding of reward size and delay to reward in the ventral striatum is important for the monkeys behavior, inactivation of the ventral striatum should affect the manner in which the monkeys value the trials. We carried out two types of temporary inactivations. First we used a conventional neuronal silencing agent, muscimol, to inactivate the ventral striatum following unilateral injection, Second, we used a new chemogenetic technique, a Designer Receptor Exclusively Activated by a Designer Drug (DREADD), that we have developed for monkeys, to achieve neuronal silencing. The DREADD is a gene carried into neurons using specialized viral constructs. When the DREADD receptor is expressed about 6 weeks after being introduced, it can be activated by systemic injection of a drug, Clozapine N-oxide (CNO). For the amount of time the CNO is circulating the neurons expressing the gene are silenced. <br />With both types of silencing, muscimol and DREADD, the monkey performed a stimulus-reward association task in which stimuli representing both reward amounts and delay-to-reward times were varied. In each trial, the monkey either accepted or rejected the offer presented, choosing to receive the reward represented by the stimulus after the proposed wait time, or choosing to immediately move on to a new trial with the potential for a new stimulus and different outcome.. <br />On muscimol treatment days, the monkey exhibited significantly more early errors, releasing the lever after the presentation of the stimulus but prior to the presentation of the accept or reject cues.There was a main effect (ANOVA; p &lt; 0.05) of treatment and delay-to-reward, and an interaction between treatment and delay-to-reward. The distribution of early errors by stimulus type was affected by muscimol-induced striatal inactivation; a greater proportion of early errors occurred with longer delays-to-reward when the striatum was inactivated, compared with a more even distribution of early errors among the delays-to-reward during control sessions. These results reflect an increased sensitivity to delay-to-reward times following muscimol-induced unilateral ventral striatal inactivation, possibly produced by a decreased sensitivity to reward size. In the second phase of the study, hM4Di DREADDs were targeted to the ventral striatum, and systemic CNO injection (10 mg/kg) was used to unilaterally inactivate the ventral striatum. On CNO treatment days, the monkey exhibited significantly more early errors, consistent with the effects of muscimol inactivation. No interaction of CNO treatment and delay-to-reward was observed. Our current interpretation is that the DREADDs as used here yield a weaker inactivation of the ventral striatum than is seen with the muscimol-induced inactivation. Both results show that even a unilateral inactivation of the ventral striatum interferes with the monkeys ability to wait for a delayed imperative signal. We are working to try to connect the single neuron results with the behavioral findings.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91040&allpubs=Y&isajaxlink=Y&_UserReference=355791E6F23195925B38D5A9','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Dayan E, Averbeck BB, Richmond BJ, Cohen LG (2014) Stochastic reinforcement benefits skill acquisition. Learn Mem 21:140-2
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24532838?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3929848/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24532838
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3929848 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

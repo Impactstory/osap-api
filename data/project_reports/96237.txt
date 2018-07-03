@@ -1,0 +1,648 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002497</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002497-27</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Functional Organization of the Cerebral Cortex and Basal Ganglia
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2015 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Charles R Gerfen; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/charles-gerfen" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neuroanatomy, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neuroanatomy</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Ronald  Paletzki; PhD<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Lee E Eiden; PhD  (Section on Molecular Neuroscience)<br />
+
+
+
+Kuan Hong Wang; PhD  (Psychosis and Cognitive Studies Section)<br />
+
+
+
+Walter Scott Young; MD, PhD  (Section on Neural Gene Expression)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Richard J Krauzlis (NEI) <br />
+
+
+
+Da-Ting  Lin; PhD (NIDA) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Nathaniel  Heintz; PhD
+<i>(Laboratory of Molecular Biology, Rockefeller University)</i>
+<br />
+
+
+
+Josh  Huang; PhD
+<i>(Cold Spring Harbor Laboratories)</i>
+<br />
+
+
+
+Xin  Jin
+<i>(Salk Institute)</i>
+<br />
+
+
+
+Loren  Looger; PhD
+<i>(Howard Hughes Medical Institute Janelia Farm)</i>
+<br />
+
+
+
+K  Svoboda; PhD
+<i>(Neuroscience, Howard Hughes Medical Institute)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+basal ganglia, cerebral cortex, neurobiology, Parkinson's disease, dopamine receptors, transgenic animals, neuroanatomy
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Research in the Section on Neuroanatomy is concerned with the functional organization of neural brain systems, with a particular interest in the cerebral cortex and basal ganglia. This forebrain neural system receives inputs from all cortical areas and processes that input through the striatum. The striatum's output pathways provide feedback, through the thalamus, to cortical areas involved in the selection and control of behavior. Our work uses neuroanatomical methods to study the connectional organization of the basal ganglia to study the regulation of gene expression responsible for neuronal plasticity within the striatum.  Work in our laboratory established that D1 and D2 dopamine receptor subtypes are segregated in the &quot;direct&quot; and &quot;indirect&quot; striatal output neurons, which is the basis of how dopamine maintains the balanced function of striatal output pathways (Gerfen et al., 1990). Neuromodulators such as dopamine act to alter the long term response of neurons to synaptic input, such as the glutamatergic excitatory input from the cortex. Such neuroplasticity is mediated by the activation of neurotransmitter receptor-mediated activation of protein kinase signal transduction pathways. This results in the activation of transcription factors and induction of specific genes that are responsible for altering synaptic responses. We demonstrated that in the striatum, the &quot;direct&quot; and &quot;indirect&quot; striatal projection neurons support distinct forms of neuronal plasticity that affect responses to cortical input, through the differential activation of distinct protein kinase signaling pathways. Dopamine maintains these different forms of response. Dysfunction of the striatum following dopamine lesions in animal models of Parkinson's disease, appears to be due to a particularly aberrant form of neuronal plasticity. The aberrant form is due to a switch in the regulation of a particular protein kinase signal transduction pathway. The purpose of these studies is to better establish how disorders of the basal ganglia, such as Parkinson's disease, result in clinical movement disorders, and whether the basal ganglia might also be involved in such mental disorders, such as Attention Deficit Hyperactivity Disorder, or in the abuse of psychoactive drugs.<br /><br />A major limitation of our and other research to relate neuroanatomical circuits to both normal behavior associated clinical disorders is due to the complexity of their functional organization. While neuroanatomical studies in our laboratory have unraveled much of the underlying organization of the basal ganglia, research approaches to study the function of these circuits in animal models have been difficult.  One promising approach has been the development of genetically engineered transgenic mouse lines in which the enzyme Cre-recombinase is expressed in specific neuron types, neural circuits or brain regions. Combining such expression with floxed constructs enables the ability to experimentally manipulate very specific components of neuroanatomical circuits.  These mice are being developed and characterized to provide powerful new research tools to the neuroscience research community.  Our contribution to this effort is to characterize the specific pattern of expression of Cre-recombinase as part of the NINDS/NIMH funded GENSAT project.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+    Advances in molecular genetic techniques are revealing new details of the neuroanatomical organization of brain circuitry and the functional role of these circuits in behavior.  Engineered viral vector constructs have been developed to label axonal projections of targeted neurons with unprecedented clarity, while others allow for retrograde transynaptic labeling of neurons providing inputs or anterograde transynaptic labeling of post-synatpic targets of axonal projections. Development of optogenetic and DREADD techniques provide the ability to functionally manipulate neural circuits to study their role in behavior while calcium indicators provide the ability to analyze the physiologic activity in targeted neuron populations.  Together these approaches are providing new insights into the functional organization of neural circuits.  For example, optogenetic studies, using light activation of Channel Rhodopsin (ChR), have demonstrated the ability to functionally manipulate specific neural pathways to determine their role in behaviors including fear memory, anxiety, feeding, and movement.  The analytic potential of these approaches is enhanced by the ability to target specific neuron populations, which are defined components of neural circuits.  One approach involves the use of transgenic Cre-driver mouse lines in which Cre-recombinase is expressed under the control of gene-specific promoters. <br />  <br />   In recent years we characterized BAC-Cre driver lines from the GENSAT project that allow for targeting components of the neural circuits of the cerebral cortex and basal ganglia.  Of particular significance, lines were characterized with selective labeling in cortical layer 2/3, in layer 4, in layer 5 and in layer 6.  Each of these cortical layers contain neuron subtypes with distinct axonal projection patterns. Those in layer 2/3 providing the major pathways through which information is integrated between functionally distinct cortical areas, such as sensory and motor areas.  Neurons layer 5 are composed of two main subtypes, those that are similar to layer 2/3 neurons with cortical axonal projections, and those that project to subcortical circuits involved in the generation of movement, including the thalamus, superior colliculus and pontine nuclei.  Both of these layer 5 neuron subtypes provide the major input to the input structure of the basal ganglia, the striatum.  Neurons in layer 6 provide projections to the thalamus.  These BAC-Cre lines provide unprecedented ability to study the specific function of these cortical subtypes in behavior.<br /><br />In the past year we collaborated with investigators at NIDA,Howard Hughes Medical Institute Janelia Farms Resesarch, and the Salk Institute in studies that used the BAC-Cre lines to determine the relationship between the organization of information transfer between sensory, motor and association cortical areas and the planning and initiation of movements. During this year neuroanatomical techniques were developed to analyze the functional organization of the relationship between the cerebral cortex and basal ganglia. <br /><br />Our work focuses on the organization of neural circuits responsible for integrating different modes of sensory and experiential information that is utilized in the planning and execution of behavior.  To do this we use viral vectors that label the axons of specific cortical neuron subtypes in GENSAT BAC-Cre mouse lines. Viral vectors injected into different cortical areas in BAC-Cre lines expressing in cortical layers 2/3 and 5a map the connections between functional cortical areas, which are responsible for integration of information, while injections in BAC-Cre lines expressing in layers 5b and 6 label axonal projections to subcortical systems, which are involved in turning cortical activity into behavior.  The labeled axons are visualized using immunohistochemical techniques in 50m sections of the brain and imaged to reveal multiple injections in different cortical areas reveal specific patterns of connectivity between functionally distinct cortical areas and subcortical systems.  To analyze these complex patterns of connectivity we developed an efficient process for reconstructing the images through the whole mouse brain using the NIH ImageJ program (Paletzki and Gerfen, 2015).  These fully reconstructed whole mouse brain image sets displaying the axonal projections of specific neuron subtypes in multiple cortical cortical areas are registered to a common mouse brain atlas.  The ability to register patterns of axonal projections obtained from many brains provides the ability to analyze the complex organization of the neural circuits integrating information between functional cortical areas and how it is transmitted to subcortical circuits responsible for behavior.  <br /><br />Work with the Janelia MouseLight Project provides an exciting advance in analysis of the connectivity of cortical neural circuits (Economo et al., 2016).   The MouseLight Project has developed a platform for tracing the axonal projections of individual cortical neurons through the whole brain.  This platform utilizes an innovative approach in which sparse populations of neurons are injected with a viral vector to label their axonal projections with a fluorescent tag, the brains are cleared to allow for imaging through 300m sections with a two-photon laser to provide 1m resolution through the entire mouse brain, which is analyzed with an image processing program to allow for labeled axons to be traced through the entire brain.  The axonal projections of individual cortical neurons have been shown to project collaterals to as many as 15 cortical or subcortical areas.  In some cases the total axonal length of an individual neurons axon collaterals has been shown to be 10 to 15 cm, which is quite remarkable considering that the mouse brain is approximately 1.5 cm in length from the frontal cortical pole to the cerebellum.  While our other studies employ axonal tracing techniques that label projections of specific subtypes of populations of neurons, determining the projections of individual neurons is critical to identifying further subtypes of neurons that have distinct patterns of axonal projections.  The MouseLight Project goal is to provide the axonal projections of 1000 individual neurons over a 2 year period, which will provide a major resource for understanding the organization of brain circuits.<br /><br />A study this past year with a French research group demonstrates that activity in the direct and indirect pathway in a ventral part of the striatum affects fear conditioning (De Brundel et al., 2016). This suggests that the role of the striatal direct and indirect pathways may be generalized not only to motor behavior but to other types of behavior.<br /><br />During this past year we published two reviews in books to incorporate recent advances in understanding of the organization of the basal ganglia (Dudman and Gerfen, 2016; Gerfen and Bolam, 2016).  In addition, the journal Brain Research celebrated its 50th year with a special issue highlighting its most highly cited papers.  We were asked to contribute a paper reviewing our paper in 1983 that introduced the PHA-L technique for anterograde axonal tracing (Gerfen and Sawchenko, 2016).  The technique involved injection into the brain of the plant lectin Phaseolus vulgaris-leucoagglutinn (PHA-L), which results in the complete filling of small numbers of neurons, including their dendritic and axonal processes.  This technique provided unparalleled details of the morphology of axonal projections, even over very long distances and became the standard for tracing axonal projections being used in over 1000 publications.  Over 30 years since we invented the technique, the PHA-L technique was still used in major publications in 2016.    
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2016 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=96237&allpubs=Y&isajaxlink=Y&_UserReference=27873663740FE5EE5B38D0AB','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Book chapters<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Dudman JT, Gerfen CR (2015) The Basal Ganglia, in The Rat Nervous System. Paxinos G, ed. , pp. 391-440.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Gerfen CR, Bolam JP (2016) The Neuroanatomical Organization of the Basal Ganglia, in Handbook of Basal Ganglia Structure and Function. Steiner H, Tseng KY, eds. , pp. 3-28.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">De Bundel D, Zussy C, Espallergues J, Gerfen CR, Girault JA, Valjent E (2016) Dopamine D2 receptors gate generalization of conditioned threat responses through mTORC1 signaling in the extended amygdala. Mol Psychiatry 21:1545-1553
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26782052?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5101541/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26782052
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5101541 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

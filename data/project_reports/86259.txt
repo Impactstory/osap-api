@@ -1,0 +1,954 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH000336</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH000336-35</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">The Genetics of Obsessive Compulsive Disorder and Related OCD Spectrum Disorders
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Dennis L Murphy; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/dennis-murphy" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Laboratory of Clinical Science, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Laboratory of Clinical Science</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Pablo R Moya Vera; PhD<br />
+
+
+
+Meredith A Fox; PhD<br />
+
+
+
+Teresa J Tolliver; MS<br />
+
+
+
+Theresa B DeGuzman<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Francis Joseph McMahon; MD (Human Genetics Branch)<br />
+
+
+
+Diane M Kazuba; BS (Section on the Genetic Basis of Mood and Anxiety Disorders)<br />
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Brenda L Justement (CC) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 10 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Gerald  Nestadt; MD
+<i>(Johns Hopkins Medical Institute)</i>
+<br />
+
+
+
+
+Benjamin D Greenberg; MD
+<i>(Butler Hospital; Brown University School of Medicine)</i>
+<br />
+
+
+
+
+James  Knowles; MD
+<i>(University of Southern California)</i>
+<br />
+
+
+
+
+James  McCracken; MD
+<i>(University of California, Los Angeles)</i>
+<br />
+
+
+
+
+Steven  Rasmussen; MD
+<i>(Brown University)</i>
+<br />
+
+
+
+
+Scott  Rauch; MD
+<i>(Harvard University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=86259&isajaxlink=Y&_UserReference=42110D28AE136FD15B38D0D3','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 10</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+obsessive-compulsive disorder (OCD), genetics, glutamate, serotonin, serotonin transporter, GWAS, Slitrk1, Tourette's disorder, glutamate transporter (SLC1A1)
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Vulnerability to neuropsychiatric disorders may be conferred by genetic variants in transmitter pathways via their influences on brain circuitry and thus affect anxiety, compulsive behaviors and mood disorders as documented by our group and others in both non-patient populations, and, in conjunction with gene-gene or gene-environment interactions, confer vulnerability to OCD and related neuropsychiatric disorders, as recently shown in replicated studies. <br /><br />Our primary goal is based on the central hypothesis that some gene variants such as those affecting transporter genes (e.g., SLC6A4, SLC1A1) and their proteins comprise vulnerability loci for neuropsychiatric disorders and other medical disorders. These transporters play a major role in regulating the availability of extracellular serotonin, glutamate and glutathione at synaptic, peri-synaptic and somatodendritic sites. These transporters also have morphogenic and neurotropic functions in brain during early development. <br /><br />Thus, the objective of our recently completed and ongoing projects, as detailed in this report, remain focused on increasing understanding of the role of transporter gene variants and other gene variants in neuropsychiatric disorders. Some additional molecules and genes in pathways that are developmentally important are also being investigated, as are other genes identified thru genome-wide association studies (GWAS), accomplished collaboratively. <br /><br />The public health impacts of this project are gene-based knowledge gain that may (1) increase understanding of anxiety, compulsive and mood disorders directly and also in conjunction with animal model studies as discussed in our other annual reportMH000332-35 LCS) and (2) aid in the development of possible additional treatments beyond SSRIs, including glutamate antagonists such as riluzole and some beta-lactam antibiotics for OCD and related neuropsychiatric spectrum disorders.<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+OCD is a severe, heritable condition with a lifetime prevalence of about two percent in world populations. First-degree family members and OCD probands are at a ten-fold higher risk of developing OCD and related disorders. The mode of inheritance is incompletely understood but is likely complex, involving multiple genetic loci of small to moderate effect. Our Laboratory has played a leading role in studies of OCD and of its genetics for over 25 years, and was one of the founding sites of multi-center, genome-wide project for studies of OCD, partial results of which have recently been reported in the group's publications noted below as well as in our previous annual reports. In addition, a series of association studies that has identified and evaluated several genes in OCD and related disorders is continuing.<br /><br />In our Lab's collaborative investigations, we have also worked to clarify the fundamental phenotypical features of OCD and related disorders, sometimes designated 'OCD spectrum disorders', in reports published in the last several years. We currently have a multifaceted array of compulsive phenotypical features that cut across traditional diagnostic designations (DSM-IV and DSM-5). Examples of some sub-disorders that can contribute to OCD but can be found without classic OCD features include our recent and prior studies of Tourette's disorder, ADHD, head trauma and hoarding as well as of comorbid affective disorders, including bipolar disorder. Bipolar disorder is also the subject of direct and molecular genetic studies in continuing collaborative investigations with the Bipolar Genetics Consortium group. <br /><br />Studies are ongoing of the role of serotonin, the SLC6A4 gene and other major serotonin genes plus SLC1A1 in OCD and related disorders such as Tourette disorder (in which 50% of patients meet diagnostic criteria for OCD). A manuscript was published last year about the multiple common and rare SLC6A4 variants found to be associated with Tourette's Disorder including the 5HTTLPR, rs25531, rs25532 and SERT I425V variants (Moya et al., 2013). The relationship of SLC6A4 variants to different SRI treatment responses in humans represents an additional illustration of gene-based influences on serotonergic pharmacologic responses, i.e., a new SERT-based pharmacogenomics, directly relevant to the treatment of human neuropsychiatric disorders such as OCD and depression as well as to other serotonin-related human disorders, as we have recently reviewed. <br /><br />Recent evidence from treatment and genetic studies suggest that another neurotransmitter system may contribute to OCD. As with SERT in the serotonin system, the neuronal glutamate transporter is a major regulator of glutamate availability. This glutamate transporter, EAAT3, is encoded by the gene SLC1A1 located within the chromosomal region 9p24. Recent evidence from 9p24 gene linkage analyses and candidate gene studies has suggested probable involvement of SLC1A1 in the development of OCD. <br /><br />Our large case-control study of SLC1A1 included a total of over 500 OCD probands and controls collected by our Lab. In addition, SLC1A1 expression and data were recently evaluated to gain further insights into SLC1A1 function. We are currently continuing further lab-based studies of this gene using transgenic techniques in mice. Dr. Moya, formerly from our Lab, has created conditional Slc1a1 mice, one set of which has this gene deleted and another set which preferentially overexpresses this gene in the forebrain. The rational for creating these two opposite functional Slc1a1 mice was based on l findings from the human SLC1A1 studies regarding whether this gene might be hypofunctional or hyperfunctional in OCD. These investigations, taken together, indicate that SLC1A1, like SLC6A4, is a susceptibility gene for OCD. The expression and database-mining approach that we used provide new and useful complementary model approaches to strengthen future GWAS and candidate rare functional gene studies in neuropsychiatric and other disorders, which represent a large public health burden. In fact, seven neuropsychiatric disorders, including OCD, were listed in a World Health Organizations report as among the leading causes of years of extended disability among adults. Thus these studies are expected to have a considerable public health impact.<br /><br />Of note is that our group continues to share our 25+ year collection of DNA and phenotype data with collaborators in the Obsessive-Compulsive Disorder Collaborative Genetics Study (OCGAS) and the Obsessive-Compulsive Foundation (OCF) groups, as well as with other intramural and extramural individual collaborators, thus enhancing the global search for underlying contributions to OCD and related disorders that are of major public health concerns. Many papers that were published in the last year that are listed below resulted from these collaborative studies.<br /><br />The OCF collaborational GWAS was conceived to compliment the earlier OCGS family-based genome linkage study of 299 OCD-affected sibling pairs together with other family members and now constitutes more than 1100 individuals. The OCGS studies generated more than 20 publications to date, the most recent two last year. <br /><br />Citations numbers of other papers that have referenced our scientific reports now number over 35,000. <br /><br />The protocol number for this Annual Report is 96-M-0124 and the NCT number is NCT00001548.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86259&allpubs=Y&isajaxlink=Y&_UserReference=42110D28AE136FD15B38D0D3','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by reference within the summary, then by publication type and author name.
+</p>
+
+
+
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div> <div style="margin: -1.6em 0px 5px 2em;">Moya PR, Wendland JR, Rubenstein LM, Timpano KR, Heiman GA, Tischfield JA, King RA, Andrews AM, Ramamoorthy S, McMahon FJ, Murphy DL (2013) Common and rare alleles of the serotonin transporter gene, SLC6A4, associated with Tourettes disorder. Mov Disord 28:1263-70
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23630162?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3766488/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 23630162
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3766488 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div> <div style="margin: -1.6em 0px 5px 2em;">Stewart SE, Yu D, Scharf JM, Neale BM, Fagerness JA, Mathews CA, Arnold PD, Evans PD, Gamazon ER, Osiecki L, McGrath L, Haddad S, Crane J, Hezel D, Illman C, Mayerfeld C, Konkashbaev A, Liu C, Pluzhnikov A, Tikhomirov A, Edlund CK, Rauch SL, Moessner R, Falkai P, Maier W, et al. [108 more authors] (2013) Genome-wide association study of obsessive-compulsive disorder. Mol Psychiatry 18:788-98
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22889921?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4218751/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 22889921
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4218751 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div> <div style="margin: -1.6em 0px 5px 2em;">Murphy DL, Moya PR, Fox MA, Rubenstein LM, Wendland JR, Timpano KR (2013) Anxiety and affective disorder comorbidity related to serotonin and other neurotransmitter systems: obsessive-compulsive disorder as an example of overlapping clinical and genetic heterogeneity. Philos Trans R Soc Lond B Biol Sci 368:20120435
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23440468?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3638387/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 23440468
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3638387 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div> <div style="margin: -1.6em 0px 5px 2em;">Davis LK, Yu D, Keenan CL, Gamazon ER, Konkashbaev AI, Derks EM, Neale BM, Yang J, Lee SH, Evans P, Barr CL, Bellodi L, Benarroch F, Berrio GB, Bienvenu OJ, Bloch MH, Blom RM, Bruun RD, Budman CL, Camarena B, Campbell D, Cappi C, Cardona Silgado JC, Cath DC, Cavallini MC, et al. [106 more authors] (2013) Partitioning the heritability of Tourette syndrome and obsessive compulsive disorder reveals differences in genetic architecture. PLoS Genet 9:e1003864
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24204291?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3812053/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 24204291
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3812053 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div> <div style="margin: -1.6em 0px 5px 2em;">Ozomaro U, Cai G, Kajiwara Y, Yoon S, Makarov V, Delorme R, Betancur C, Ruhrmann S, Falkai P, Grabe HJ, Maier W, Wagner M, Lennertz L, Moessner R, Murphy DL, Buxbaum JD, Züchner S, Grice DE (2013). Characterization of SLITRK1 variation in obsessive-compulsive disorder. PLoS One  8, e70376.
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23990902?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3749144/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 23990902
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3749144 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div> <div style="margin: -1.6em 0px 5px 2em;">McGrath LM, Yu D, Marshall C, Davis LK, Thiruvahindrapuram B, Li B, Cappi C, Gerber G, Wolf A, Schroeder FA, Osiecki L, O'Dushlaine C, Kirby A, Illmann C, Haddad S, Gallagher P, Fagerness JA, Barr CL, Bellodi L, Benarroch F, Bienvenu OJ, Black DW, Bloch MH, Bruun RD, Budman CL, et al. [96 more authors] (2014) Copy number variation in obsessive-compulsive disorder and tourette syndrome: a cross-disorder study. J Am Acad Child Adolesc Psychiatry 53:910-9
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25062598?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4218748/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 25062598
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4218748 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div> <div style="margin: -1.6em 0px 5px 2em;">Mattheisen M, Samuels JF, Wang Y, Greenberg BD, Fyer AJ, McCracken JT, Geller DA, Murphy DL, Knowles JA, Grados MA, Riddle MA, Rasmussen SA, McLaughlin NC, Nurmi EL, Askland KD, Qin HD, Cullen BA, Piacentini J, Pauls DL, Bienvenu OJ, Stewart SE, Liang KY, Goes FS, Maher B, Pulver AE, et al. [4 more authors] (2015) Genome-wide association study in obsessive-compulsive disorder: results from the OCGAS. Mol Psychiatry 20:337-44
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24821223?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4231023/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 24821223
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4231023 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">8.</div> <div style="margin: -1.6em 0px 5px 2em;">Rudnick G, Krämer R, Blakely RD, Murphy DL, Verrey F (2014). The SLC6 transporters: perspectives on structure, functions, regulation, and models for transporter dysfunction. Pflugers Arch  466, 25-42.
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24337881?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3930102/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 24337881
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3930102 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+ <!-- ends ordered rows -->
+
+
+
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

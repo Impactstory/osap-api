@@ -1,0 +1,412 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002952</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002952-02</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Rodent Behavioral Core: The Analysis of Behavior
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Yogita  Chudasama; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Rodent Behavioral Core, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Rodent Behavioral Core</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Kevin  Cravedi; MS<br />
+
+
+
+
+Johann Faustus Du Hoffmann; PhD<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Heather A Cameron; PhD  (Section on Neuroplasticity)<br />
+
+
+
+Ellen  Leibenluft; MD  (Section on Mood Dysregulation and Neuroscience)<br />
+
+
+
+Theodore B Usdin; MD, PhD  (Section on Fundamental Neuroscience)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Stereotaxic surgery, Cognition, Video Tracking, Rat, Mouse, Motor Coordination, Sensory gating, Emotion, Learning and Memory, Operant behavior, Water Maze, Touchscreen Platform
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The Rodent Behavioral Core (RBC) is a new state-of-the-art research facility initiated in Nov 2015 to address the growing need across NIH to have an intramural resource for high throughput, efficient and targeted behavioral testing of rodents. The RBC offers NIH researchers validated and reliable testing of mice and rats over a broad range of physiological and behavioral domains including general health, cognitive, emotional, sensory, and motor function. The goal of the RBC is to provide all necessary support for a PI and its group to design and implement a behavioral study in rodents. This includes advice and discussion on experimental design, training and instruction in animal testing and surgery, data collection and data analysis, and the design of software and hardware. In addition to providing specialized equipment, the RBC provides two fully equipped surgical suites for stereotaxic surgery, as well as video tracking cameras and software, and programming tools for trial-by-trial analysis of behavior. The RBC became fully operational in February 2017.<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Behavioral neuroscience links systems-level circuitry to behavior, cognition and emotion and is thus critical for understanding the afflictions that affect neuropsychiatric patients. Linking cognitive changes in a behaving rat or mouse to targeted manipulations of neural circuitry requires the convergence of expertise from scientific fields inside and outside of neuroscience. In designing research projects to understand the anatomy, genetics, and pharmacology underlying the control of behavior, researchers must understand the nature of the task, its measurements, and how to interpret the data. Several steps lie between the design of the experiment and the behavioral output, including choice of task (e.g., operant vs mazes), how to train the animal (shaping vs conditioning), the type of surgical manipulation (ablation, cannulation, inactivation, stimulation, etc), and the format of data for analysis (summary vs trial-by-trial). Most neuroscience researchers who use standard off-the-shelf behavioral tasks (such as forced swim, rotarod and T-Maze) are not experts in the psychology of behavior and must therefore rely on experts in the domain of cognition. <br /><br />Complex cognitive behavior in rodents is often gauged by measuring the pattern of behavioral responses in tasks that involve, for example, decision-making, attention, memory, rule learning, flexibility, discrimination, and problem solving. In these tasks, rats and mice typically indicate their decisions by nose-poking visual patterns on a touchscreen like an iPad, making nose-poke entries into a series of lit holes, or depressing an extended lever triggered by time or cues. Some cognitive functions extrapolated from animal behavior have positively informed our investigation of cognitive functions in humans. Such animal-to-human approaches (e.g., delayed response) have directed the design and development of analogous tests for use in humans (e.g., self-ordered working memory). Behavioral neuroscience has also benefitted in the opposite direction by means of human-to-animal approaches as in the case of extradimensionsal/intradimensional set shifting, a test based upon the principles of the human Wisconsin Card Sorting Task. Together, these advances in behavioral testing have been particularly useful in establishing the neuroanatomical and neurochemical pathology for specific cognitive deficits in a range of brain and behavior disorders. <br /><br />In addition to providing equipment, training and consulting for researchers interested in using rodents as models to investigate disorders of brain and behavior, one important goal for the RBC is to continue to design and develop cutting edge behavioral methods and applications while maintaining facility resources at a high level of utility for users at all levels of expertise. This requires constant maintenance and calibration of equipment, user education and interaction, and commitment to setting the standard as the best Rodent Behavioral Core facility in the world in terms of research quality.<br /><br />Since the RBCs inception, several PIs from NIMH as well as NINDS, NHGRI and NICHD have inquired about using it to conduct specific behavioral studies in an efficient and targeted manner. To date, the labs of 18 PIs have used the RBC facility. In some cases, we have custom designed and developed new tasks such as olfactory cue discrimination combined with navigation, ultrasonic vocalizations recordings from groups of rodent families  to measure social communication, as well as high throughput analysis of videoed tracking behavior. We have almost completed the installation of optogenetic equipment in operant chambers, and mazes and open testing arenas combined with video tracking software, as requested by many PIs. Finally, because many researchers expressed an interest in combining electrophysiological methods with awake behavior, we have initiated this installation, which should soon be functional and available to researchers. A staff scientist and technician were hired to support the operations and maintenance of the core.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+<!-- do not show project link -->
+
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+There were no publications associated with this project
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

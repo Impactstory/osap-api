@@ -1,0 +1,751 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002942</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002942-05</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Multimodal Imaging: Genetic and Environmental Effects in Neuropsychiatry
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Karen F Berman; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/karen-berman" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Psychosis and Cognitive Studies Section, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Psychosis and Cognitive Studies Section</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 19 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Karen  Bartholomew<br />
+
+
+
+
+Joann  Berkson; RN<br />
+
+
+
+
+Joseph Handel Callicott; MD<br />
+
+
+
+
+Richard  Coppola; SB, DSc<br />
+
+
+
+
+Saumitra  Das; MS<br />
+
+
+
+
+Daniela Frank de Albuquerque<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=101278&onameset=Psychosis and Cognitive Studies Section&isajaxlink=Y&_UserReference=2D26C0AD5F6B5F3B5B38D5D3','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 19</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Jun  Shen; PhD (Magnetic Resonance Core)<br />
+
+
+
+Johan W Van Der Veen; PhD (Division of Intramural Research Programs)<br />
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Venkata  Mattay
+<i>(Lieber Institute for Brain Development)</i>
+<br />
+
+
+
+Daniel R Weinberger; MD
+<i>(Lieber Institute for Brain Development)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+genetic predisposition, schizophrenia, cognition, frontal cortex, neuroimaging
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Using a multimodal approach involving neuropsychological testing, functional MRI (fMRI), diffusion tensor imaging (DTI), magnetic resonance spectroscopy (MRS), positron emission tomography (PET), and quantitative measures of magnetic relaxation parameters of brain tissue, we pursue research aimed at understanding how genes, particularly those related to risk for psychiatric disorders such as schizophrenia, affect the brain. The rationale for this work is founded on the premise that the discovery and biological validation of susceptibility genes for psychiatric disorders will lead to the identification of pathophysiological mechanisms and new therapies. We have four primary objectives in this field.  First, we aim to identify the functional, molecular and anatomical abnormalities in psychosis that can be linked to genetic predisposition.   This objective is carried forward by employing cognitive and other behavioral and clinical measurements and in vivo neuroimaging to identify brain and behavior phenotypes that are not only present in people with psychosis, but also in their unaffected siblings, who share half of their genetic material (trait liability) but do not have psychosis and are not treated with psychotropic medication (state effects).  Second, we aim to identify facets of the molecular biology of schizophrenia risk (e.g., specific genotypes, classes of genes, RNA and protein expression) that are associated with the phenotypes mentioned above, even in healthy individuals, thus, providing support for genetic effects on pertinent brain biology.  Third, we aim to determine whether risk genotypes predict variability in important clinical characteristics, such as illness heterogeneity and severity, functional impairment, and treatment response.   Finally, we aim to identify environmental variables that interact with genetic risk in psychosis and associated biological mechanisms. Toward these ends, over more than a decade of work, we have established one of the largest databases of healthy volunteers, people with schizophrenia, and their unaffected siblings who have been characterized with a broad array of cognitive, behavioral, and neuroimaging measures. <br />This work involves the following studies: NCT00942981, NCT00001258, NCT00024622, NCT00004571,  NCT00001486.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+In order to better understand how schizophrenia risk genetics operate at the cognitive and neural systems level, our recent work under this project has focused on (1) identifying novel phenotypes that either (a) distinguish both people with schizophrenia and unaffected family members from unrelated healthy individuals or (b) identify meaningful subgroups of individuals with schizophrenia, and (2) discovering associations between specific risk genes and schizophrenia-linked brain phenotypes. Ongoing studies in these areas permit better understanding of heritable, trait-related abnormalities in schizophrenia, of the underlying molecular biology responsible for such abnormalities, and of strategies for resolving some of the illness heterogeneity that makes biological research so challenging.<br />With respect to identifying illness-related phenotypes, in the largest MRS study of its kind to date, we recently found that one measure of in vivo levels of GABA, a critical inhibitory neurotransmitter, in the dorsal anterior cingulate cortex (dACC) was reduced in patients with schizophrenia and their unaffected siblings as compared to healthy volunteers, was moderately heritable, and was nominally associated with positive symptom ratings. This work follows hypotheses of GABAergic disruption in schizophrenia primarily founded on post-mortem brain tissue investigations, and is in contrast to an important negative finding in which we confirmed an absence of MRS measured glutamate levels in the same brain region. Efforts to elaborate on these observations and, in the case of GABA, determine underlying genetic mechanisms are ongoing.<br />Another strategy for identifying-illness related phenotypes is to employ hypothesis- and data-driven parcellations of multidimensional data to generate meaningful subgroupings of clinical populations. For example, we completed analyses based on stable negative and distress symptom dimensions, identifying &quot;deficit&quot;, &quot;distress&quot;, and &quot;low symptom&quot; subgroups with starkly different demographic, diagnostic, clinical, cognitive, and personality characteristics, as well as distinct working-memory related brain activation patterns. Other current subgrouping analyses examine cluster analysis-derived patterns of current vs. pre-diagnosis cognitive performance.  These subgrouping schemes are now being tested as phenotypes for further studies of clinical, brain and genetic differences, which may ultimately prove relevant in assessing treatment needs.<br />In so doing, we have now expanded our portfolio of genetic discovery.  For example, by taking advantage of genome-wide typing, these cognitive trajectory subgroups in fact show quite distinct patterns of genetic association with two broad genetic indexes summarizing, respectively, the genetics of schizophrenia risk and of general cognitive performance. Thus, we found a convergence between stratification based on common cognitive measures and stratification based on schizophrenia and cognitive genetics. For most individuals in our schizophrenia cohort, summary scores indexing common genetic risk for the condition were predictive of cognitive impairment. Strikingly, for one subgroup, that risk was entirely decoupled from cognitive performance.  Future work is underway to further test the naturally following hypothesis that different patterns of genetic risk identify subgroups with distinct illness etiologies and accompanying different trajectories of cognitive development through adolescence.  <br />These results provide a fascinating complement to recent targeted investigations of cognitive genetics, in which we provided evidence that a single genetic variant related to sodium channel biology affects gene expression, contributes to measured cognitive abilities in individuals with schizophrenia, unaffected family members, and healthy cohorts, and is tied both to prefrontal inefficiency during working memory and interregional functional correspondence within the frontal cortex during rest.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101278&allpubs=Y&isajaxlink=Y&_UserReference=2D26C0AD5F6B5F3B5B38D5D3','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Dickinson D, Pratt DN, Giangrande EJ, Grunnagle M, Orel J, Weinberger DR, Callicott JH, Berman KF (2018). Attacking Heterogeneity in Schizophrenia by Deriving Clinical Subgroups From Widely Available Symptom Data. Schizophr Bull  44, 101-113.   https://doi.org/10.1093/schbul/sbx039
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28369611?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5768050/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28369611
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5768050 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Eisenberg DP, Kohn PD, Hegarty CE, Ianni AM, Kolachana B, Gregory MD, Masdeu JC, Berman KF (2016) Common Variation in the DOPA Decarboxylase (DDC) Gene and Human Striatal DDC Activity In Vivo. Neuropsychopharmacology 41:2303-8
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26924680?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4946061/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26924680
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4946061 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Masdeu JC, Dalmau J, Berman KF (2016). NMDA Receptor Internalization by Autoantibodies: A Reversible Mechanism Underlying Psychosis? Trends Neurosci  39, 300-310.   https://doi.org/10.1016/j.tins.2016.02.006
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27130657?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5913742/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27130657
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5913742 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Tong Y, Chen Q, Nichols TE, Rasetti R, Callicott JH, Berman KF, Weinberger DR, Mattay VS (2016) Seeking Optimal Region-Of-Interest (ROI) Single-Value Summary Measures for fMRI Studies in Imaging Genetics. PLoS One 11:e0151391
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26974435?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4790904/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26974435
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4790904 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Xiao EY, Chen Q, Goldman AL, Tan HY, Healy KE, Zoltick BJ, Das S, Kolachana BS, Callicott JH, Dickinson D, Berman K, Weinberger DR, Mattay V (2017) Late Onset Alzheimer’s Disease Polygenic Risk Profile Score Predicts Hippocampal Function. CCNI, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,542 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002803</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002803-13</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Magnetic Resonance Spectroscopy and Imaging Studies of Brain Functions
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Jun  Shen; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/jun-shen" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Magnetic Resonance Spectroscopy, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Magnetic Resonance Spectroscopy</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Li  An; PhD<br />
+
+
+
+
+Christopher  Johnson<br />
+
+
+
+
+Linqing Michael Li<br />
+
+
+
+
+Ningzhi  Li<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Carlos Alberto Zarate; MD  (Section on Neurobiology and Treatment of Mood Disorders)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Markus Alexander Heilig; MD, PhD (NIAAA) <br />
+
+
+
+Leorey Nagac Saligan (NINR) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Gregor  Hasler; MD, PhD
+<i>(University Hospital of Psychiatry and Psychotherapy Bern)</i>
+<br />
+
+
+
+Tom  Scheenen
+<i>(Radboud University Nijmegen Medical Center)</i>
+<br />
+
+
+
+Shumin  Wang
+<i>(Auburn University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+brain spectroscopy, MRS, MRI, brain function, brain imaging, neurotransmission, spectroscopy
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Many major psychiatric brain disorders such as depression and schizophrenia involve glutamate, N-acetylaspartyl glutamate, and gamma-aminobutyric acid (GABA) dysfunction. Glutamate is the primary excitatory neurotransmitters in the cerebral cortex. GABA is the primary inhibitory neurotransmitter. Together, they account for approximately 90% of total cortical synapses. Both glutamate and GABA can be detected using a unique technique called in vivo magnetic resonance spectroscopy (MRS). This technique can measure glutamate and GABA as well as many other chemicals such as N-acetylaspartyl glutamate, glutathione, phosphocreatine and lactate in the living brain noninvasively. Our overall goals are to develop novel MRS and MRI strategies to characterize brain neurochemical profile and dynamics with a focus on glutamate and GABA and to apply these techniques to study glutamatergic and GABAergic function (protocols NCT01266577 and NCT00109174). These efforts have enabled us to address fundamental questions of glutamatergic and GABAergic functions in brain, their interactions as well as mechanisms of glutamatergic and GABAergic drugs. In particular, by infusing carbon-13 labeled substrates, we can study the metabolism and neurotransmission of glutamate and GABA using dynamic MRS techniques. By developing a special technique we have succeeded in quantifying N-acetylaspartyl glutamate. Some interesting features in the carboxylic/amide carbon-13 spectral region have been discovered. We have found that this region is particularly useful for characterizing glutamate and GABA using methods which are directly applicable for studying the prefrontal cortex of human subjects.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The goals of this research are to develop advanced MRS and imaging techniques and to apply them and other complementary methods to studying brain metabolism, neurotransmission and enzyme activity. MRS allows measurement of neurotransmission of glutamate and GABA in vivo, which play important roles in many major psychiatric diseases including depression and schizophrenia. During 2014-2015, we have made significant progress in the development and applications of novel spectroscopic and imaging techniques for studying metabolism and neurotransmission in vivo in the brain. We have succeeded in routinely obtaining high quality MRS data using a 7 Tesla whole body scanner for measuring glutamate, glutamine and glutathione. This method has been recently validated for its high reproducibility (Reliability of 7T 1 H-MRS measured human prefrontal cortex glutamate, glutamine, and glutathione signals using an adapted echo time optimized PRESS sequence: A between- and within-sessions investigation. Lally N, An L, Banerjee D, Niciu MJ, Luckenbaugh DA, Richards EM, Roiser JP, Shen J, Zarate CA Jr, Nugent AC. J Magn Reson Imaging. 2015 Jun 7. doi: 10.1002/jmri.24970.). We have demonstrated that our 7 Tesla single-shot method can be used to measure the kinetics of 13C label incorporation into amino acid neurotransmitters (Detection of glutamate, glutamine, and glutathione by radiofrequency suppression and echo time optimization at 7 tesla. An L, Li S, Murdoch JB, Araneta MF, Johnson C, Shen J.Magn Reson Med. 2015 Feb;73(2):451-8 and L. An, S. Li, J.B. Murdoch, M.F. Araneta, C. Johnson, and J. Shen, In Vivo Detection of 13C Labeling of Glutamate and Glutamine Using Proton MRS at 7T, International Society for Magnetic Resonance in Medicine annual meeting, 2015.). We have also developed a technique that can reliably extract magnetic resonance spectroscopy signals according to irregularly shaped anatomical boundaries (L. An, and J. Shen, Regularized image-guided spatial localization of heterogeneous compartments for magnetic resonance, Med. Phys., in press.).
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91019&allpubs=Y&isajaxlink=Y&_UserReference=C9D484A0D131B44B5B38D6AE','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+No publications during this reporting period
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

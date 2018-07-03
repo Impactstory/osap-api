@@ -1,0 +1,1039 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002768</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002768-20</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Subcellular Compartmentalization of Neuronal Gene Expression
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Barry Bernard Kaplan; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/barry-kaplan" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neurobiology, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neurobiology</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Sepandarmaz  Aschrafi; PhD<br />
+
+
+
+Cai Y Chen; BS<br />
+
+
+
+Jenna Rose Gale; BA<br />
+
+
+
+Anthony  Gioio; MS<br />
+
+
+
+Ching-Yu  Sun; MA<br />
+
+
+
+Jose Norberto S Vargas; BA<br />
+
+
+
+ <!-- step through any ordered staff -->
+
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Jeffrey A Kowalak; PhD  (Section on Analytical Biochemistry)<br />
+
+
+
+James M Pickel; AB, PhD  (Division of Intramural Research Programs)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Lijin  Dong; PhD (NEI) <br />
+
+
+
+Abdel G Elkahloun; PhD (NHGRI) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+axonal RNA trafficking, zipcodes, RNA-protein complexes/granules, proteomics, Intra-axonal protein synthesis
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The goal of the Section on Neurobiology are to (1)define the function(s)and regulation of the local protein synthetic system present in the axon; and (2) delineate the mechanism(s) mediating the intracellular trafficking of an mRNA population that is present in the axon and presynaptic nerve terminal.  The central hypothesis of this Section's research program is that the local translation of these mRNAs plays a key role in the regulation of the growth and development of the axon and nerve terminal, as well as the viability of the axon, per se. <br /><br />It is believed that dysfunction of either the normal axonal trafficking of mRNA or the intra-axonal protein synthetic system will result in widespread anomalies in brain function and behavior. This hypothesis has direct clinical relevance as there is a growing consensus that dysregulation of local protein synthesis may play an important role in the pathophysiology of multiple neurodevelopmental and/or neurodegenerative disorders. Hence, the local protein synthetic system present in the axon and nerve terminal might serve as heretofore unrecognized foci for the pathobiology of psychiatric disorders. <br /><br />The specific aims of this year's research effort were four-fold: (1) To initiate investigation of the molecular mechanism(s) regulating the selective transport of mRNA to the axon.  In this regard, we will define the regulatory sequences (i.e., zipcodes) present in the 3'untranslated regions of select axonal mRNAs and evaluate the hypothesis that these sequences serve as a nucleation site for the formation of ribonucleoprotein complexes (RNPs); (2) To define the protein constituents of these RNP trafficking complexes;(3)  To explore the physiological and behavioral consequences of the dysregulation of the normal pattern of RNA trafficking, and the fidelity of local protein synthesis both in vitro and in the live animal; and (4)  To continue to evaluate the hypothesis that the mRNAs encoding the catecholamine neurotransmitter biosynthetic enzymes are present and are locally translated into protein in the axon and presynaptic nerve terminal. These studies will also address, in parallel, the postulate that the synthesis, release, and reuptake of the catecholamine neurotransmitters are locally regulated in the distal structural/functional domains of the neuron.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Although once highly controversial, it is now well-accepted that there exists a diverse population of mRNAs and non-coding microRNAs in the distal structural/functional domains of the neuron which include the dendrite, axon, and presynaptic nerve terminal.  It has also become well-established that proteins synthesized from these mRNA templates play a key role in the development and long-term viability of the axon.  The findings derived from this new area of research have recently been reviewed (Scott et al., 2015).<br /><br />In regard to this past years research activities, members of the Section were committed to the conduct of three independent  projects. The progress effected in each of these projects is summarized, briefly, below: <br /><br />Project #1. Nuclear-encoded Mitochondrial mRNAs Present in the Axon.<br /><br />This past year, the components of the axonal nuclear-encoded mitochondrial mRNAs were delineated using a microarray analysis. This experiment was conducted in collaboration with Dr. Abdel Elkahoun, Director of the Microarray Core Facility (NHGRI). Results of this experiment were surprising, indicating that there were approximately 130 different nuclear-encoded mitochondrial mRNAs present in the axon (Aschrafi et al., 2016).  Interestingly, the levels of several of these mRNAs far exceeded their corresponding levels in their parental cell bodies.  This observation raises the possibility that some of these mRNAs were being selectively transported to this distal structural/functional domain of the neuron. . The local translation of two of these nuclear-encoded mitochondrial mRNAs was found to play a key role in the regulation of local energy metabolism, modulating the synthesis of ATP and ultimately the production of harmful reactive oxygen species (ROS)(reviewed in Scott et al., 2015).  Dysregulation of the local translation of this mRNA resulted in reductions in the levels of ATP in the axon and an elevation in the production of ROS, two factors which negatively affected the growth and health of the axon (for review, see Gale et al., 2017).<br /><br />The protein constituents of the axonal trafficking granule associated with Cytochrome c-oxidase (Cox IV) mRNA, a messenger that codes for a key component of the oxidative phosphorylation chain, have been identified by a combination of RNA-affinity purification and mass spectroscopy.<br /><br />Surprisingly, there are approximately 50-60 different proteins that associate with the RNA sequences that regulate the transport of this mRNA to the axon (i.e., zipcode), a finding that suggests that the zipcode serves as a nucleation site for the formation of an RNA-protein trafficking complex (Kar et al., 2017).<br /><br />Project # 2. MicroRNAs present in the axon<br /><br />Previously, we had reported, that in addition to a highly diverse population of mRNAs, that the axon contained over 100 different small, noncoding RNAs (for review, see Kaplan et al., 2013).  One of these miRNAs, miRNA338, was found to coordinately regulate the local expression of several nuclear-encoded mitochondrial mRNAs that coded for key components of the oxidative phosphorylation chain and regulated local energy metabolism ( e,g., Cytochrome-c oxidase IV and ATP synthase mRNAs).  Members of our international collaborative research team have found that miRNA338 also regulates the expression of several axon guidance genes that markedly effect the migration and differentiation of cortical neurons during development.  Interestingly, the precursor of the mature, functional form of miRNA 338 was observed to be associated with the organelle, itself. This finding suggested that this precursor miRNA was bound to the mitochondria and served as a reservoir in the activity-dependent activation of the mature miRNA 338 (Vargas et al., 2016).  The results of affinity purification and mass spectroscopy experiments indicated that the precursor miRNA338 associated with a large number of proteins that regulated its transport to the axon, as well as its binding to the mitochondria (Vargas et al., 2016).  The results of gene ontology analysis indicated that these proteins  included mitochondrial, cytoskeletal, and axonal motor proteins, as well as a number of well-known RNA-binding proteins.<br /><br />Project #3. Local Regulation of Neurotransmitter Synthesis.<br /><br />This year members of the laboratory reported that mRNAs encoding the enzymes that comprise the catecholamine biosynthetic pathway were present in the axon and were being actively translated locally in sympathetic neurons (Gervasi et al., 2016; Aschrafi et al., 2017).  <br /><br />The introduction of the mRNA encoding tyrosine hydroxylase, the rate-limiting enzyme in catecholamine biosynthesis, directly into the axon, by transfection, markedly increased the synthesis of the catecholamine neurotransmitters, dopamine and norepinephrine.  Stimulation of these sympathetic neurons resulted in significant increases in the release of these two neurotransmitters into the cell culture media (Aschrafi et al., 2017).<br /><br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101223&allpubs=Y&isajaxlink=Y&_UserReference=1697935E85A957465B38D48E','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Aschrafi A, Gioio AE, Dong L, Kaplan BB (2017) Disruption of the Axonal Trafficking of Tyrosine Hydroxylase mRNA Impairs Catecholamine Biosynthesis in the Axons of Sympathetic Neurons. eNeuro 4DOI: 10.1523/ENEURO.0385-16.2017
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28630892?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5473686/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28630892
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5473686 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Gervasi NM, Scott SS, Aschrafi A, Gale J, Vohra SN, MacGibeny MA, Kar AN, Gioio AE, Kaplan BB (2016) The local expression and trafficking of tyrosine hydroxylase mRNA in the axons of sympathetic neurons. RNA 22:883-95
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27095027?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4878614/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27095027
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4878614 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kaplan B (2016) MicroRNA-326 acts as a molecular switch in the regulation of midbrain urocortin 1 expression. J Psychiatry Neurosci 41:342-53
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27045550?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5008923/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27045550
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5008923 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kar AN, Vargas JN, Chen CY, Kowalak JA, Gioio AE, Kaplan BB (2017) Molecular determinants of cytochrome C oxidase IV mRNA axonal trafficking. Mol Cell Neurosci 80:32-43
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28161363?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5393917/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28161363
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5393917 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kos A, de Mooij-Malsen AJ, van Bokhoven H, Kaplan BB, Martens GJ, Kolk SM, Aschrafi A (2017). MicroRNA-338 modulates cortical neuronal placement and polarity. RNA Biol  14, 905-913.   https://doi.org/10.1080/15476286.2017.1325067
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28494198?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5546544/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28494198
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5546544 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kos A, Klein-Gunnewiek T, Meinhardt J, Loohuis NF, van Bokhoven H, Kaplan BB, Martens GJ, Kolk SM, Aschrafi A (2017) MicroRNA-338 Attenuates Cortical Neuronal Outgrowth by Modulating the Expression of Axon Guidance Genes. Mol Neurobiol 54:3439-3452
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27180071?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5658782/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27180071
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5658782 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kos A, Olde Loohuis N, Meinhardt J, van Bokhoven H, Kaplan BB, Martens GJ, Aschrafi A (2016) MicroRNA-181 promotes synaptogenesis and attenuates axonal outgrowth in cortical neurons. Cell Mol Life Sci 73:3555-67
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27017280?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4982812/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27017280
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4982812 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">8.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kos A, Wanke KA, Gioio A, Martens GJ, Kaplan BB, Aschrafi A (2016) Monitoring mRNA Translation in Neuronal Processes Using Fluorescent Non-Canonical Amino Acid Tagging. J Histochem Cytochem 64:323-33
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27026294?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4851274/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27026294
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4851274 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">9.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Olde Loohuis NF, Nadif Kasri N, Glennon JC, van Bokhoven H, Hébert SS, Kaplan BB, Martens GJ, Aschrafi A (2017). The schizophrenia risk gene MIR137 acts as a hippocampal gene network node orchestrating the expression of genes relevant to nervous system development and function. Prog Neuropsychopharmacol Biol Psychiatry  73, 109-118.   https://doi.org/10.1016/j.pnpbp.2016.02.009
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26925706?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5002268/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26925706
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5002268 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">10.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Olde Loohuis NFM, Martens GJM, van Bokhoven H, Kaplan BB, Homberg JR, Aschrafi A (2017) Altered expression of circadian rhythm and extracellular matrix genes in the medial prefrontal cortex of a valproic acid rat model of autism. Prog Neuropsychopharmacol Biol Psychiatry 77:128-132
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28408291?dopt=Abstract" target="_blank">PubMed</a>
+
+
+           &nbsp;&nbsp;&nbsp;&nbsp;<i>Available in future as a Free Article</i> <!-- looks for PMC translations for in progress or embargoed -->
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28408291
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5502527 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">11.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Vargas JN, Kar AN, Kowalak JA, Gale JR, Aschrafi A, Chen CY, Gioio AE, Kaplan BB (2016) Axonal localization and mitochondrial association of precursor microRNA 338. Cell Mol Life Sci 73:4327-4340
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27229124?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5056120/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27229124
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5056120 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

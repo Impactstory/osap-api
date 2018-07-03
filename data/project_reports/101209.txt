@@ -1,0 +1,577 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002035</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002035-37</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Functional Anatomy of Perceptual and Attentional Systems in the Primate Brain
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Leslie G Ungerleider; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/leslie-ungerleider" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neurocircuitry, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neurocircuitry</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Shruti A Japee; BS, MS, PhD<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Sara  Ahmed<br />
+
+
+
+
+Savannah Brittany Lokey<br />
+
+
+
+
+Nicole Patricia Mlynaryk<br />
+
+
+
+
+Marine Catherine Vernet; PhD<br />
+
+
+
+
+Xilin  Zhang<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+attention, brain imaging, cerebral cortex, memory, motor learning, perception, visual cognition, prefrontal cortex
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The long-term goal of this project is to understand the neural mechanisms mediating selective visual attention. In particular, we aim to understand how behaviorally relevant visual information is processed in the brain and how distracting information is effectively filtered out. To do so, we will employ various experimental approaches in behaving subjects, including brain imaging in humans and monkeys as well as single-unit recordings in monkeys. The behavioral paradigms we develop in normal, healthy individuals are applied to human populations with attentional impairments, such as children suffering from attention deficit hyperactivity disorder (ADHD), a neurobehavioral disorder characterized by pervasive inattention and hyperactivity-impulsivity that often results in substantial functional impairment, both in and outside of the classroom. Prevalence estimates of ADHD in school-aged children are close to 10%, with more than half of those diagnosed reported to be taking medication for the disorder. Hence, a thorough understanding of the brain mechanisms underlying attention would have important public health implications. This work was conducted under protocol 10-M-0047 (NCT01087281) and 93-M-0170 (NCT00001360).
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+A typical scene contains many different objects that compete for neural representation due to the limited processing capacity of the visual system. At the neural level, competition among multiple objects is evidenced by the mutual suppression of their visually evoked responses. The competition among multiple objects can be biased by both bottom-up sensory-driven mechanisms (exogenous attention), such as stimulus salience, and top-down, goal-directed influences, such as selective, endogenous attention. Although the competition among multiple objects for representation is ultimately resolved within visual cortex, the source of top-down biasing signals likely derives from a distributed network of areas in frontal and parietal cortex. <br /><br />Previous research has suggested that the right middle frontal gyrus (rMFG) may serve as a node of interaction between neural networks for top-down goal-directed endogenous attention and bottom-up, stimulus-driven exogenous attention. We tested this hypothesis by comparing the performance on an orientation discrimination task of a patient with a rMFG resection (to remove a brain tumor) and healthy controls. On endogenous attention trials, a valid central cue predicted with 90% accuracy the location of a peri-threshold Gabor patch. On the 10% invalid trials, the Gabor patch appeared in the opposite location to the cue. On exogenous attention trials, a cue appeared briefly at one of two peripheral locations, followed, after a variable inter-stimulus interval (ISI; range 0 to 700 ms), by a Gabor patch in either the same (valid) or opposite location (invalid). Analysis of behavioral data showed that for both patient and controls, valid cues facilitated faster reaction times compared to invalid cues, on endogenous and short ISI exogenous trials. However, at longer ISI exogenous trials, the patient was unable to withhold his responses, resulting in reduced performance compared to controls. This may be related to the patients inability to reorient attention in a top-down fashion after the effect of the exogenous cue has dissipated, and suggests a putative role of the rMFG in switching between exogenous and endogenous modes of attention. Analysis of resting state functional magnetic resonance imaging (rsfMRI) showed that in the patient, relative to controls, two brain regions (right superior parietal lobule and right orbitofrontal cortex) that are normally connected to the resected area significantly increased their coupling with the areas homologue in the left hemisphere. Thus, in the absence of the right MFG, the left hemisphere homologue appears to have compensated (either during tumor growth or after resection) by increasing communication with other nodes of the visuospatial, decision-making and impulse control circuitry. <br /><br />We have also undertaken studies in healthy participants to explore the normalization model of attention, which proposes that attention can affect performance by contrast or response gain changes, depending on the stimulus size and the relative size of the attention field. Here, we manipulated the attention field by affective valence (positive versus negative faces), while the stimulus size was fixed in a spatial cueing task. Emotional faces served as a cue to attract spatial attention, followed by a pair of gratings. Subjects performed an orientation discrimination task on one of two gratings; for each of five contrasts (the contrasts of both gratings were identical on any given trial and co-varied across trials in random order). A response-cue at stimuli offset indicated the target location, yielding valid cues (the emotional face matched response-cue) and invalid cues (mismatched) conditions. Comparing performance accuracy (d') for valid and invalid trials revealed the spatial cueing effect for each contrast. The measured psychometric function for each affective valence (positive and negative) and each trial condition (valid and invalid) was fit with the standard Naka-Rushton equation. Two parameters d'max (asymptotic performance at high contrast levels) and c50 (the contrast yielding half maximum performance) determined response gain and contrast gain, respectively. We observed a change in the spatial cueing effect consonant with a change in contrast gain for positive faces and a change in response gain for negative faces. Significantly, individual differences in self-reported emotional strength of positive and negative faces correlated with contrast and response gain changes, respectively. A functional magnetic resonance imaging experiment confirmed that subjects attention fields were wider for positive faces than that for negative faces. Effective connectivity analysis showed that the emotional valence-dependent AF was closely associated with feedback from dorsolateral prefrontal cortex (DLPFC) to V1. Together, these findings suggest that emotional attention shapes perception by means of the normalization framework and that the DLPFC plays a crucial role in this process.<br /><br />Visuospatial attention often improves task performance by increasing signal gain at attended locations and decreasing noise at unattended locations. Attention is also believed to be the mechanism that allows information to enter awareness. In this experiment, we assessed whether orienting endogenous visuospatial attention with cues differentially affects visual discrimination sensitivity (an objective task performance) and visual awareness (the subjective feeling of perceiving) during the same discrimination task. Gabor patch targets were presented laterally, either at low contrast (contrast stimuli) or at high contrast embedded in noise (noise stimuli). Participants reported their orientation either in a 3-alternative choice task (clockwise, counterclockwise, unknown) that allowed for both objective and subjective reports, or in a 2-alternative choice task (clockwise, counterclockwise) that provided a control for objective reports. Signal detection theory models were fit to the experimental data: estimated perceptual sensitivity reflected objective performance; decision criteria, or subjective biases, were a proxy for visual awareness. Attention increased sensitivity (i.e., improved objective performance) for the contrast, but not for the noise stimuli. Indeed, with the latter, attention did not further enhance the already high target signal or reduce the already low uncertainty on its position. Interestingly, for both contrast and noise stimuli, attention resulted in more liberal criteria, i.e., awareness increased. The noise condition is thus an experimental configuration where people think they see the targets they attend to better, even if they do not. This could be explained by an internal representation of their attentional state, which influences awareness independent of objective visual signals. 
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101209&allpubs=Y&isajaxlink=Y&_UserReference=FCBC5E8700B9D2785B38D0E7','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by reference within the summary, then by publication type and author name.
+</p>
+
+
+
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div> <div style="margin: -1.6em 0px 5px 2em;">Zhang X, Japee S, Safiullah Z, Mlynaryk N, Ungerleider LG (2016) A normalization framework for emotional attention. PLoS Biol 14:e1002578
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27870851?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5117559/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 27870851
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5117559 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div> <div style="margin: -1.6em 0px 5px 2em;">Vernet M, Japee SA, Lokey SB, Ahmed S, Zacharious V, Ungerleider LG (2017) Endogenous visuospatial attention increases visual awareness independent of visual discrimination sensitivity. Neuropsychologia, in press.
+
+
+
+</div>
+</div>
+ <!-- ends ordered rows -->
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Pitcher D, Japee S, Rauth L, Ungerleider LG (2017) The superior temporal sulcus is causally connected to the amygdala: a combined TBS-fMRI study. J Neurosci 37:1156-1161
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28011742?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5296794/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28011742
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5296794 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Taubert J, Wardle SG, Flessert M, Leopold DA, Ungerleider LG (2017) Face Pareidolia in the Rhesus Monkey. Curr Biol 27:2505-2509.e2
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28803877?dopt=Abstract" target="_blank">PubMed</a>
+
+
+           &nbsp;&nbsp;&nbsp;&nbsp;<i>Available in future as a Free Article</i> <!-- looks for PMC translations for in progress or embargoed -->
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28803877
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5584612 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,446 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002935</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002935-03</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Mathematical and Statistical Analysis Techniques for in Vivo Imaging Studies
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Carolyn E Beebe; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/carolyn-smith" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neuro-adaptation and Protein Metabolism, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neuro-adaptation and Protein Metabolism</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Kathleen Colette Schmidt; MA<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Alessandra  Bertoldo; PhD
+<i>(Department of Electronics and Informatics, University of Padova)</i>
+<br />
+
+
+
+
+Giampaolo  Tomasi; PhD
+<i>(Comprehensive Cancer Imaging Center, Imperial College London)</i>
+<br />
+
+
+
+
+M  Veronese
+<i>(Kings College, University of London)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+PET, autism, brain imaging, leucine, protein synthesis, intellectual disability, fragile X syndrome, ADHD, amino acids, anxiety, memory consolidation, plasticity, propofol, sleep, stress
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Changes in images of brain functional activity that are produced by disease or by activation of various pathways in the normal brain can only be unambiguously interpreted if the rates of the physiological and biochemical processes that underlie the imaging method are quantified. In imaging modalities that use radioactive tracers, e.g. positron emission tomography (PET), quantification is carried out by means of a mathematical model that describes the rates of the biochemical reactions in the metabolic pathway of the tracer and traced molecules.  Selection of the best kinetic model is critical as the use of an inappropriate model can lead to substantial errors in quantification and possible misinterpretation of results. Once a model is selected, numerical procedures that are efficient, robust, and require minimal assumptions about errors in the measurements are required to estimate kinetic model parameters accurately.  Additionally, powerful statistical tests are needed so that the data can be examined for significant differences among experimental groups. The objective of this project is to develop better techniques for addressing these interrelated mathematical and statistical issues.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The protocols involved in this project are 06-M-0214 (NCT00362843) and 09-M-0123 (NCT00884702. <br />We have refined our analysis methods for estimation of rates of cerebral protein synthesis (rCPS) with L-1-11Cleucine and PET. Because changes in rCPS tend to be modest, it is essential that kinetic analyses achieve the highest possible accuracy. We also began examining the impact of simplifying patient scanning protocols on estimation of rCPS.<br /><br />(1) Refinement of analysis methods. Quantification with PET tracers utilizes compartmental models that generally assume homogeneity for each region-of-interest (ROI) with respect to relevant physiological variables. The kinetic model of the 11Cleucine PET method was originally applied to ROI data with the assumption that each ROI is homogeneous with respect to concentrations, transport and metabolism of amino acids, blood flow, and rCPS. Due to the limited spatial resolution of PET, however, most regions contain a kinetically heterogeneous mixture of tissue components; this may bias estimation results. We have been refining our analyses to minimize effects of tissue heterogeneity on estimates of kinetic parameters and rCPS. We reasoned that a substantial reduction in the volume of a tissue region should reduce the impact of heterogeneity. We developed a method to apply the homogeneous tissue model to analysis of PET data at the voxel level, the Basis Function Method (BFM). We found that voxel-level BFM estimates of rCPS averaged over a ROI were less biased than estimates based on direct fitting of the ROI time-activity curve (TAC) with a homogeneous tissue model. Model fits of the TACs showed that effects of tissue heterogeneity had been reduced, but not eliminated. We developed a second approach that explicitly takes heterogeneity within a ROI into account, spectral analysis with an iterative filter (SAIF). When applied to ROI-level data, SAIF-ROI produced low bias, low variance estimates of rCPS. It performed comparably to the voxelwise BFM method when countrates are normal, but at low countrates it performed better. Although SAIF allows for heterogeneity in a ROI, it does require an assumed constraint on the relationship among the kinetic parameters within the heterogeneous tissue in order to estimate rCPS. This has the most impact when kinetics of the various tissues within the ROI are most dissimilar. Under the premise that the dissimilarity among the tissues would be less at the voxel level, we extended the SAIF method for analysis of voxel-level data. In normal countrate studies, rCPS estimated with SAIF-voxel was approximately 5-15% higher than with SAIF-ROI analysis; intersubject variability was comparable. Based on simulation studies we conclude that the difference is predominantly due to underestimation of rCPS with SAIF-ROI, i.e., the performance SAIF-voxel is better. As a final step, we investigated which data analysis method is optimal under various PET scanning conditions. When scanning with the high resolution scanner, we found that voxelwise BFM and voxelwise SAIF analyses yielded comparable estimates of rCPS at both high and low countrates. However, when scanner resolution is degraded, SAIF-voxel performs better. We conclude that future 11Cleucine studies on the high resolution PET scanner can be analyzed with the computationally simpler voxelwise BFM. <br /><br />(2) Effect of simplified scanning protocols on estimates of rCPS. One of our goals is to be able to study intellectually disabled people without the need for sedation, so any changes in the procedure that make the study less onerous for subjects may help us to achieve that goal. We are trying to find a sufficiently accurate alternative to arterial blood sampling and a shorter scan duration. <br /><br />(2a) Alternatives to arterial blood sampling. The 11Cleucine method requires arterial blood sampling to determine the time courses of the concentrations of unlabeled and labeled leucine in plasma and total 11C and 11CO2 activities in whole blood. We are investigating whether venous blood sampling, together with population-derived arterial input functions, can be used for measurement of rCPS without sacrificing accuracy or precision. <br />We generated population time-activity curves for 11Cleucine in plasma and total 11C and 11CO2 activities in whole blood from measured arterial samples in 25 healthy male volunteers, aged 18-24, who had undergone 11Cleucine PET studies in the awake state. In a separate group of 19 subjects undergoing 11Cleucine PET studies we obtained arterial blood samples according to the standard schedule as well as venous blood samples at 15 min intervals. The 19 subjects included 6 fragile X subjects studied under propofol sedation, 3 control subjects studied under dexmedetomidine sedation, and 10 control subjects studied after 36 h sleep deprivation. Results showed a systematic time-varying difference between arterial and venous plasma 11Cleucine concentrations, but the magnitude of the difference was on average &lt;10%. Venous and arterial measurements of unlabeled leucine concentration were generally close. In these subjects we then determined rCPS with the measured arterial blood data and with input functions based on the population-average arterial input functions scaled by the individual subjects venous data. Each individual subjects venous sample concentrations of unlabeled leucine were used in place of arterial sample concentrations. Agreement between determinations of rCPS based on measured arterial input functions and venous-derived input functions was generally good. These preliminary findings suggest that it may be feasible to utilize venous in place of arterial blood sampling for the 11Cleucine PET method. We are currently expanding these studies to investigate the accuracy of the venous blood samples together with the population-derived input functions in awake healthy volunteers. Additionally, we are examining whether this method may be feasible for small animal PET scanning.<br /><br />(2b) Determine whether scan duration can be reduced. Subjects in our studies are scanned for a total of 90 min after injection of the tracer. This allows most of the label in brain to be in the form of 11Cprotein by the end of the study, thereby potentially allowing greater accuracy in estimating the rate constant for incorporation of 11Cleucine into 11Cprotein (k4) and rCPS. Because 11C has a half-life of 20 min, noise due to low count rates increases substantially at late times, and the increased noise may offset the advantage of scanning for 90 min. We are currently investigating whether it is possible to obtain good estimates of rCPS with a shorter scanning interval. <br /><br />To examine effects of scan duration on estimates of kinetic model parameters and rCPS, we reanalyzed data from 39 11Cleucine PET studies. Subjects consisted of 12 healthy volunteers studied twice, awake and under propofol sedation, and 15 fragile X subjects studied under propofol sedation. We used voxelwise BFM for estimation of kinetic model parameters and rCPS over the interval beginning at the time of tracer injection and ending 45, 60, 75 or 90 min later. For each study and scan interval, regional estimates were obtained by averaging voxelwise estimates over all voxels in ten regions and whole brain. In all three groups studied the mean of the regional estimates of the kinetic model rate constants decreased slightly as the length of the estimation interval increased, but calculated rCPS was not affected. The pattern of rCPS distribution within the region, however, appeared to change between 45 and 60 min.  Therefore, to obtain stable estimates of regional rates of protein synthesis, as well as a stable pattern of distribution of rCPS within the region we  conclude that scan duration can be shortened to 60 min without loss of precision.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86357&allpubs=Y&isajaxlink=Y&_UserReference=0FBDBD0CFFA07C8A5B38D185','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+No publications during this reporting period
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

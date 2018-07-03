@@ -1,0 +1,635 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002911</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002911-06</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">NIMH Instrumentation Core Facility
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lead Investigator</div></div>
+
+<div class="rowdiv">
+<div class="data">
+George Raphael Dold; MME, BSEE
+<br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any LIs -->
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<!-- display SoRs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Supervisor of Record</div></div>
+<div class="rowdiv">
+<div class="data">
+ <!-- faculty test -->
+Susan G Amara; PhD 
+ <!-- faculty test -->
+<br />
+
+</div>
+</div>
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Instrumentation, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Instrumentation</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 7 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Danny L Trang<br />
+
+
+
+Phuoc H Pham<br />
+
+
+
+Ruperto A Villadiego<br />
+
+
+
+Daryl  Bandy<br />
+
+
+
+David C Ide<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Newlin T Morgan; MSEE<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=81252&onameset=Section on Instrumentation&isajaxlink=Y&_UserReference=76051E4C4C645DC25B38D4C8','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 7</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+<div id="moresamestaff">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffu">6 of a total of 28 other  members are shown. </div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Bruno B Averbeck  (Laboratory of Neuropsychology)<br />
+
+
+
+Heather A Cameron; PhD  (Section on Neuroplasticity)<br />
+
+
+
+Chunshan  Deng  (Section on Cognitive Neurophysiology and Imaging)<br />
+
+
+
+Sebastian  Guderian  (Section on Cognitive Neuroscience)<br />
+
+
+
+Jinsoo  Hong; MS, PhD  (Section on PET Radiopharmaceutical Sciences)<br />
+
+
+
+Peter Matthew Kaskan; PhD  (Section on Neurobiology of Learning and Memory)<br />
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaff','searchview.taf?_function=showmore&ios=S&ipid=81252&thisic=&isajaxlink=Y&_UserReference=76051E4C4C645DC25B38D4C8','moresamestaffu');  return false;">
+
+
+<span class="morelist">Show all 28</span></a>.</form></div>
+
+
+
+</div>
+</div>
+
+
+</div>
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+<div id="moresamestaffo">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffou">6 of a total of 27 other NIH members are shown.</div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Benjamin B Benson-Xu (NINDS) <br />
+
+
+
+Dvir  Blivis (NINDS) <br />
+
+
+
+Kevin Lawrence Briggman; PhD (NINDS) <br />
+
+
+
+Michael Thomas Craig (NICHD) <br />
+
+
+
+Jeffrey S Diamond; PhD (NINDS) <br />
+
+
+
+Stephen John Dodd (NINDS) <br />
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaffo','searchview.taf?_function=showmore&ios=O&ipid=81252&isajaxlink=Y&_UserReference=76051E4C4C645DC25B38D4C8','moresamestaffou');  return false;">
+
+
+<span class="morelist">Show all 27</span></a></form></div>
+
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+3D Printing, Biomedical, CAD/CAM, Custom, Design, Electrical, Electrophysiology, Engineering, Fabrication, Instrumentation, LabView, MRI, Machining, Mechanical, Programming, Prototyping, Rapid Prototyping, Sensors
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The mission of the NIMH Instrumentation CORE facility is to provide comprehensive engineering support in a collaborative and synergistic environment for research as requested by NIMH, NINDS and NICHD scientists.  The projects requested from our investigators include the full spectrum of applications from the cellular level, such as custom microscope chambers and perfusion systems, to insect studies with fruit flies or locusts. In addition, we do various projects for research applications using rodents, primates and, of course, human, clinical-based research. To support this mission, our Section provides a staff of engineers and technicians to fabricate custom electronic, mechanical, and electromechanical devices and instruments. The unique arrangement of our group allows us to not only help the investigators that come to us directly, but to spend many hours each week helping in the individual labs to solve electrical noise and recording problems, consult on electrophysiological recording set-ups, and to make recommendations for custom or commercial equipment or software.<br /><br />To provide the support necessary for each of these areas requires a dedicated staff that, over time, becomes experienced in the specific research areas such as electrophysiology, radiochemistry, behavioral testing, fMRI etc. As part of our goal, we therefore strive to have staff expertise in each of these various research areas. This expertise allows us to better understand the investigator's requests and to recommend the right technical solution as appropriate.  Due to the multitude of requests we encounter and the limited time to devote to each request, our engineering approach is one of integration before development.  If a commercially available system or sensor can be used, we will integrate or modify it into our design first.<br /><br />An additional goal for our Section is to keep abreast of new technologies as they become available and to integrate these new technologies into the research as needed. Application of new technologies in the area of Rapid Prototyping and 3D printing has saved many hours of design and construction time and provided a rapid turn around for engineering and fabrication requests.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Summary:  This past year, our Section had the unique opportunity to support the research from more than 37 different Labs &amp; Sections within NIMH, NINDS, NICHD, and NCAAM.  During the past twelve months, investigators from these labs and branches requested 404 formal projects from our staff. Each of these requests was documented and the time recorded to complete the job. In addition to the formal requests we are available daily for numerous walk-in, phone call or e-mail requests for assistance.<br /><br />In general, our technical support this past year can be divided into the following research areas:<br /><br />Electrophysiology<br />The Section on Instrumentation staff continuously strives to improve the utility of various components that comprise electrophysiology. <br />Electrophoretic tissue clearance (ETC), often referred to as CLARITY, is a recently developed technology that is used to transform intact biological tissue into a hybrid form in which tissue components are removed and replaced with exogenous elements for increased accessibility and functionality.  The literature is awash with crude homemade devices that permit the scientist to implement this technique in their research studies. We have refined these devices and expanded their capabilities by incorporating modern computer aided design, computer aided machining, and 3D printing to produce devices that are both robust and reasonably inexpensive to fabricate. So far we have developed devices that will handle tissue as small as a hippocampal slices and as large as an intact non-human primate brain. Other institutes have copied our design and are building similar devices.  <br /><br />fMRI<br />The Section on Instrumentation provides a wide range of support for fMRI-related research. Fabrication of devices for use in MRI environments is a specialized area of expertise, with great attention given to design without ferrous metals and minimization of all metal components. <br /><br />MRI scans of patients with multiple sclerosis have been collected in a longitudinal study as a method to try to understand both the mechanisms that might have been causative in both the etiology and progression of the disease. In this study there are patients who have succumbed to the disease and have agreed to participate in the post mortem phase of this study. We have worked with the scientist involved with this study to develop a technique where the pathology of the brain can be accurately compared to the MRI scans. We reconstructed a 3D model of the brain from the MRI scans using a variety of software packages. This 3D model was used to construct a relief type model that would cradle the brain in a defined orientation for subsequent slicing by the pathologist. The cradle was designed with narrow grooves every 10 mm that served as guides for the scalpel. Areas of more pertinent interest were divided up into 5 mm slices. The fabrication of this cradle that exactly matched a particular patients brain was made possible by 3D printing. <br /><br />Non-Human Primate (NHP)<br />Our group is responsible for providing a wide range of engineering and fabrication services to support non-human primate research. Many of the mechanical assemblies that are necessary for this type of research are engineered and fabricated in-house. Our group provides a diverse array of custom systems and components to many different investigators, such as custom primate chairs, high-strength restraints, MRI positioning systems, custom head coils, reward systems, data acquisition, analysis and optical response systems, plus a wide range of small mechanical components. We have become experts in many different types of force and load cells and the integration of these into working research tools.<br />We recently designed a system that allows for 3D stereoscopic images to be used as stimulus presentations in the NIMH Neurophysiology Imaging Facilities MRI magnet.  <br /><br />Human <br />Human research requires the creation of many novel devices that are compatible with the high-magnetic field environment. When a new magnet is installed, we are consulted with and provide the necessary components for presenting visual stimuli in the bore of the magnet, including image periscopes, screens, head coils, and mirrors. These devices are designed and manufactured with specific space and material constraints. <br /><br />Behavioral <br />The use of rodents for behavioral testing is an important part of the DIRPs research effort. It has been noticed over the years that conditions housing the rodents are subject to un-predictable disturbances. Some of these are disturbances are long lasting but not detectable by humans such as ultrasonic sounds generated by a bad motor bearing. The disturbances can have a significant effect on the rodents performance on various research tasks. Using inexpensive parts, we constructed a compact monitoring box that detects changes in low frequency vibration, audio and ultrasonic noise, and room temperature and light level changes.  These boxes are in five locations and continuously monitor the various sensor inputs.  Development of this project is ongoing.<br /><br />Imaging<br />Surgeons needing to operate on the pituitary gland are tasked with identifying the precise diseased areas of the gland that need to be removed while leaving as much of the surrounding tissue intact. This is imperative so that as much of the glandular function as possible can be retained. By placing a small finely tuned coil up through a small incision of the patients palette the MRI image of the gland can be greatly enhanced. Because this is an iterative process involving surgical intervention and imaging, a device was required that could accurately hold the coil in the proper position, be removed for surgery, and be placed back in position for subsequent imaging. We were able to design and fabricate a device that permitted this protocol to go forward using a conventional machining and 3D printing techniques. We are in the process of collaboratively refining this device using cadaver heads.<br /><br /><br />Clinical<br />Our Section also supports a number of clinical based research requests under the broad areas of surgical, therapeutic and basic research. We developed several programs with our data acquisition software for testing a stop signal paradigm with a task-irrelevant emotional component that allows the researcher to compare brain responses to stop signals and emotion signals, and the interaction of these events.  This system was developed for use during fMRI scanning.<br /><br /><br />Technology<br />By using the latest technology in CAD/CAM programming, Rapid Prototyping techniques, and reverse engineering, SI is able to increase productivity and effectiveness while at the same time decreasing the amount of time needed to engineer and machine the components.  Rapid Prototyping, or 3D printing, is revolutionizing the worlds of engineering and product development by accelerating the design process and producing otherwise impossible parts.  3D printing allows engineers to produce parts quickly and without additional user manufacturing time, as the parts self-build once the CAD file is sent to the printer. This speed in production allows for quick revision changes and improvement to the parts, while simultaneously allowing for increased output.  In addition to accelerating the production of traditional parts, 3D printing allows for the creation of parts that would be otherwise impossible to produce.  Since the material is added layer by layer, complex structures can be produced that are not possible with any other technique.  This advantage is particularly suited to SI as the vast majority of our projects involve very small runs of very specialized designs.  3D printing has allowed us to quickly and effectively produce specialized parts necessary for experimentation, and are in the process of adding new technology (2 new printers) to our 3D capabilites.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81252&allpubs=Y&isajaxlink=Y&_UserReference=76051E4C4C645DC25B38D4C8','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Ide D (2013) Electrophysiology tool construction. Curr Protoc Neurosci Chapter 6:Unit 6.26
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23315946?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5123191/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23315946
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5123191 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

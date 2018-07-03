@@ -1,0 +1,1014 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002928</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002928-07</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Frontal Striatal Systems and Dopamine in Normal and Pathological Behavior
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2015 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Bruno B Averbeck
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/bruno-averbeck" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Learning and Decision Making, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Learning and Decision Making</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Ramon  Bartolo Orozco<br />
+
+
+
+
+Corrie Randolph Camalier; PhD<br />
+
+
+
+
+Vincent Daniel Costa<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Karen F Berman; MD  (Clinical and Translational Neuroscience Branch)<br />
+
+
+
+Robert James Richard Blair; PhD  (Section on Development and Affective Neuroscience)<br />
+
+
+
+Mortimer  Mishkin; PhD  (Laboratory of Neuropsychology)<br />
+
+
+
+Elisabeth Adams Murray; PhD  (Section on Neurobiology of Learning and Memory)<br />
+
+
+
+Daniel  Pine; MD  (Section on Development and Affective Neuroscience)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborator
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Sukhwinder  Shergill
+<i>(Institute of Psychiatry)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+frontal-striatal systems, dopamine, amygdala
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The goal of this research program is to understand how frontal cortex interacts with the striatum to produce goal-directed behavior under normal and pathological conditions. This neural system, often referred to as the frontal-striatal system, is also strongly modulated by dopamine, serotonin and other neuromodulators, and therefore we also examine the effects of these neuromodulators on behaviors mediated by this system. Extensive work has implicated frontal-striatal systems and the dopamine modulation of these systems in psychiatric disorders, particularly schizophrenia. Schizophrenia represents a major public health burden with approximately 2.4 million American adults, or about 1.1% of the population age 18 and older in a given year, suffering from this disease. One of the leading hypotheses of the pathology that underlies schizophrenia is known as the dopamine hypothesis. This hypothesis suggests that schizophrenia is caused by increased dopamine levels in the striatum, and decreased dopamine levels in prefrontal cortex. Although the hypothesis was originally motivated by data which showed that anti-psychotic medication used to treat schizophrenia blocks dopamine transmission, particularly at dopamine D2 receptors which are enriched in the striatum, it received further support recently by experiments that showed that patients exhibited excessive dopamine release under some experimental conditions. <br />Although there is good evidence supporting the dopamine hypothesis in schizophrenia, it remains a matter of debate. The loss of dopamine in the striatum in patients with Parkinsons disease (PD), is, however, well established. Therefore, examining the effects of medication in patients with PD can provide insight into how dopamine levels in the striatum affect cognition. Studies in patients with PD suggest that if dopamine levels are elevated in the striatum subjects learn more from positive feedback and less from negative feedback in tasks in which they must make decisions based upon feedback about past actions. This suggests that patients with schizophrenia may also learn more from positive feedback and less from negative feedback. Ongoing behavioral studies in patients have begun to examine this hypothesis. This work is conducted under protocol 13-M-0190, NCT01950377.<br /><br />In conjunction with the clinical work, we are also interested in what frontal-striatal systems contribute to normal behavior. Understanding their contribution to normal behavior can help elucidate why pathology in these systems gives rise to the symptoms of the disorders. We work on the hypothesis that some components of these systems are important in learning and decision making. This hypothesis is motivated by the fact that one of the side-effects of the medications used to treat PD is a change in the way patients make decisions. Some patients with PD develop behavioral addictions, and these addictions are more common in patients treated with dopamine agonists, which is one of the classes of drugs used to treat the motor symptoms. Therefore one of our goals is to understand which patients might develop these addictions, and what changes in the circuits when the patients develop the addictions. Behavioral addictions are related to impulsivity, and impulsivity is a measure of how much immediate reward is traded for longer-term rewards. Therefore, we study the role of frontal-striatal circuits, and dopamine modulation in these circuits, in the trade-off between immediate and long-term rewards.<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Our lab uses a combination of neurophysiology, pharmacology and functional imaging to examine the role of frontal striatal systems in behavior. Several of our experiments are motivated by studies in patient groups that show that patients have deficits on particular tasks. We then study those tasks in the lab to delineate the neural circuits that underlie the behaviors, as well as how brain areas within those neural circuits interact to drive the behavior. Recent work has focused on understanding the mechanisms that drive the choice of novel options in decision making tasks. We use tasks in which participants make choices and learn the reward properties of their chosen options. We then introduce novel choice options at varying intervals. We have found that increasing dopamine levels, by blocking dopamine reuptake, can increase preference for novel options. We have also found that the amygdala plays a role in preference for novel objects, in combination with orbital frontal cortex and the ventral striatum. In related experiments in the lab, we have been studying action selection, when actions must be selected under different rules. We have found that both lateral prefrontal cortex and the dorsal striatum play a role in this process.  Neural responses in lateral prefrontal cortex signal decisions about actions when they are based on immediate information.  Further, blocking dopamine signaling in the dorsal striatum specifically affects the selection of actions on the basis of the learned value of those actions.  Blocking dopamine signaling in this structure does not affect actions selected on the basis of immediately available information. Thus, these two interconnected brain structures appear to play complimentary roles in selecting actions. Our lab uses a combination of neurophysiology, pharmacology and functional imaging to examine the role of frontal striatal systems in behavior. Several of our experiments are motivated by studies in patient groups that show that patients have deficits on particular tasks. We then study those tasks in the lab to delineate the neural circuits that underlie the behaviors, as well as how brain areas within those neural circuits interact to drive the behavior. Recent work has focused on understanding the mechanisms that drive the choice of novel options in decision making tasks. We use tasks in which participants make choices and learn the reward properties of their chosen options. We then introduce novel choice options at varying intervals. We have found that increasing dopamine levels, by blocking dopamine reuptake, can increase preference for novel options. We have also found that the amygdala plays a role in preference for novel objects, in combination with orbital frontal cortex and the ventral striatum. In related experiments in the lab, we have been studying action selection, when actions must be selected under different rules. We have found that both lateral prefrontal cortex and the dorsal striatum play a role in this process.  Neural responses in lateral prefrontal cortex signal decisions about actions when they are based on immediate information.  Further, blocking dopamine signaling in the dorsal striatum specifically affects the selection of actions on the basis of the learned value of those actions.  Blocking dopamine signaling in this structure does not affect actions selected on the basis of immediately available information. Thus, these two interconnected brain structures appear to play complimentary roles in selecting actions. 
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2016 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=96301&allpubs=Y&isajaxlink=Y&_UserReference=8B27AFCF6307DD195B38D1A2','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Averbeck BB (2015) Theory of choice in bandit, information sampling and foraging tasks. PLoS Comput Biol 11:e1004164
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25815510?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4376795/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25815510
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4376795 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Costa VD, Tran VL, Turchi J, Averbeck BB (2015) Reversal learning and dopamine: a bayesian perspective. J Neurosci 35:2407-16
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25673835?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4323525/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25673835
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4323525 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Dal Monte O, Costa VD, Noble PL, Murray EA, Averbeck BB (2015) Amygdala lesions in rhesus macaques decrease attention to threat. Nat Commun 6:10161
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26658670?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4682115/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26658670
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4682115 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Evans SL, Averbeck BB, Furl N (2015) Jumping to conclusions in schizophrenia. Neuropsychiatr Dis Treat 11:1615-24
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26170674?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4494619/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26170674
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4494619 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Fukushima M, Doyle AM, Mullarkey MP, Mishkin M, Averbeck BB (2015) Distributed acoustic cues for caller identity in macaque vocalization. R Soc Open Sci 2:150432
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27019727?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4806230/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27019727
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4806230 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Jang AI, Costa VD, Rudebeck PH, Chudasama Y, Murray EA, Averbeck BB (2015) The Role of Frontal Cortical and Medial-Temporal Lobe Brain Areas in Learning a Bayesian Prior Belief on Reversals. J Neurosci 35:11751-60
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26290251?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4540808/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26290251
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4540808 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Lee E, Seo M, Dal Monte O, Averbeck BB (2015) Injection of a dopamine type 2 receptor antagonist into the dorsal striatum disrupts choices driven by previous outcomes, but not perceptual inference. J Neurosci 35:6298-306
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25904783?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4405551/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25904783
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4405551 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">8.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Liu N, Hadj-Bouziane F, Jones KB, Turchi JN, Averbeck BB, Ungerleider LG (2015) Oxytocin modulates fMRI responses to facial expression in macaques. Proc Natl Acad Sci U S A 112:E3123-30
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26015576?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4475931/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26015576
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4475931 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">9.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Michalopoulou PG, Averbeck BB, Kalpakidou AK, Evans S, Bobin T, Kapur S, Shergill SS (2015) The effects of a single dose of oxytocin on working memory in schizophrenia. Schizophr Res 162:62-3
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25579054?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5101540/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25579054
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5101540 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">10.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Wigton R, Radua J, Allen P, Averbeck B, Meyer-Lindenberg A, McGuire P, Shergill SS, Fusar-Poli P (2015) Neurophysiological effects of acute oxytocin administration: systematic review and meta-analysis of placebo-controlled imaging studies. J Psychiatry Neurosci 40:E1-22
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25520163?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4275335/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25520163
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4275335 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

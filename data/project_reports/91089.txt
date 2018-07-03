@@ -1,0 +1,726 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002909</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002909-08</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Object, face,  body and scene representations in the human brain
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Christopher Ian Baker; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/chris-baker" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Learning and Plasticity, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Learning and Plasticity</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 12 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Joseph M Arizpe<br />
+
+
+
+
+Wai Yiu  Chan<br />
+
+
+
+
+Iris Isabelle Anna Groen<br />
+
+
+
+
+Assaf  Harel<br />
+
+
+
+
+Jennifer Rose Henry<br />
+
+
+
+
+Daniel Paul Janini<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=91089&onameset=Section on Learning and Plasticity&isajaxlink=Y&_UserReference=CBA565CBAB2F45EB5B38D2C0','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 12</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Peter A Bandettini; BS, PhD  (Section on Functional Imaging Methods)<br />
+
+
+
+Ellen  Leibenluft; MD  (Section on Mood Dysregulation and Neuroscience)<br />
+
+
+
+Alex  Martin; PhD  (Laboratory of Brain and Cognition)<br />
+
+
+
+Mortimer  Mishkin; PhD  (Laboratory of Neuropsychology)<br />
+
+
+
+Leslie G Ungerleider; PhD  (Laboratory of Brain and Cognition)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Dwight Jacob Kravitz; PhD.
+<i>(Psychology, The George Washington University)</i>
+<br />
+
+
+
+Hans  Op de Beeck; PhD
+<i>(Laboratory of Experimental Psychology, University of Leuven)</i>
+<br />
+
+
+
+Vincent  Walsh
+<i>(Institute of Cognitive Neuroscience, University College London)</i>
+<br />
+
+
+
+Galit  Yovel
+<i>(Department of Psychology, Tel Aviv University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+visual cognition, face recognition, object recognition, scene recognition, functional brain imaging, human brain, learning
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The major goal of our research is to elucidate how our remarkable ability to recognize objects, scenes, faces and bodies (our own and others) is accomplished by the brain. In particular, we are interested in the role of learning and experience. To achieve this goal we measure behaviorally how well people can recognize or learn to recognize different objects, faces, body parts (e.g. hands, feet, legs) or scenes and then use functional magnetic resonance imaging (fMRI) to measure changes in brain activity as participants perform different visual tasks on these stimuli (Protocol 93-M-0170, NCT00001360). Determining how the brain learns to extract information about ourselves, others and objects from the complex input captured by the eyes provides important insights into our perception of the world we see. Such knowledge is critical for understanding the deficits in perception and social behaviors that accompany many mental health and neurological disorders.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The goal of this research is to understand how we see what we see: how does the brain analyze the light falling on the retina of the eye to encode a world full of objects, people and things? <br /><br />During the past year we have focused on 1) the relationship between bottom up (sensory driven) and top-down (internally driven) processing in the brain, focusing on the retrieval of information from memory, and 2) perception of complex visual stimuli, focusing most recently on visual scenes.<br /><br />1) Bottom up versus top down processing (Protocol 93-M-0170, NCT00001360)<br /><br />Our visual perception is the product of an interaction between bottom-up sensory information and top-down, internally generated signals guiding interpretation of the input and reflecting our prior knowledge and intent. <br /><br />We have previously demonstrated that during visual mental imagery, the patterns of response observed in visual cortex can be used to decode what object a person is imagining. Further, those patterns are similar to those observed during perception of the same objects. Over the past year we have been investigating whether such recapitulation of visual activity in cortex is dependent on whether the retrieval is from short- or long-term memory and the involvement of the hippocampus. <br /><br />We presented participants with images of every day objects (e.g. helmet, lamp, couch) and asked them to remember those items as vividly as possible. After a delay of either 30 minutes (short-term) or one day (long-term), we measured brain activity using MRI as participants were cued to imagine specific objects they had learned.<br /><br />First, replicating our prior work, we found that in visual cortex after short delays, we could decode the specific object participants were imagining.  The same was true after a delay of one day suggesting that the recapitulation of activity is not specific to retrieval from short-term memory. Second, in hippocampus, we found that the patterns of response could also be used to decode the object being retrieved, but only after one day and not after a short delay. This latter result suggests that the representation of specific information in hippocampus is dependent on a time-consuming process.<br /><br />2) Perception of real world scenes (Protocol 93-M-0170, NCT00001360)<br /><br />Real-world scenes are incredibly complex and heterogeneous, yet we are able to identify and categorize them effortlessly. While prior studies have identified several brain regions that appear to be specialized for scene processing, it remains unclear exactly what the precise roles of these different regions are. <br /><br />Building on a general framework for visual processing we proposed recently, we have been investigating the extent to which the two major scene-selective regions on lateral and ventral occipitotemporal cortex show different retinotopic properties reflecting a large-scale architecture of visual cortex (Silson et al., 2015). By presenting fragments of scenes to specific portions of the visual field we have demonstrated that the lateral scene-selective region is biased towards the lower visual field while the ventral scene-selective region is biased towards the upper visual field. These results highlight the importance of elevation as an organizing principle in high-level visual cortex and suggest that these two scene regions may reflect separate category-selective representations of distinct portions of the visual field rather then separate stages in a serial, hierarchical pathway.<br /><br />Elucidating how the brain enables us to recognize objects, scenes, faces and bodies provides important insights into the nature of our internal representations of the world around us. Understanding these representations is vital in trying to determine the underlying deficits in many mental health and neurological disorders.<br /><br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91089&allpubs=Y&isajaxlink=Y&_UserReference=CBA565CBAB2F45EB5B38D2C0','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Arizpe JM, Walsh V, Baker CI (2015) Characteristic visuomotor influences on eye-movement patterns to faces and other high level stimuli. Front Psychol 6:1027
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26283982?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4518262/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26283982
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4518262 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Baeck A, Kravitz D, Baker C, Op de Beeck HP (2015) Influence of lexical status and orthographic similarity on the multi-voxel response of the visual word form area. Neuroimage 111:321-328
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25665965?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4412851/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25665965
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4412851 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Chan AW, Baker CI (2015) Seeing is not feeling: posterior parietal but not somatosensory cortex engagement during touch observation. J Neurosci 35:1468-80
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25632124?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4308594/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25632124
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4308594 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Silson E, Chan W, Reynolds RC, Kravitz DJ, Baker CI (2015) A retinotopic basis for the division of high-level scene processing between lateral and ventral occipitotemporal cortex. The Journal of Neuroscience 35:11921-11935
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,721 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002795</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002795-16</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Translational Evaluation of PET Radiotracers
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Robert  Innis; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/robert-innis" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on PET Neuroimaging Sciences, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on PET Neuroimaging Sciences</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 19 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Elizabeth C Alzona<br />
+
+
+
+
+Chad Peter Brouwer; PhD<br />
+
+
+
+
+Emily Rose Fennell<br />
+
+
+
+
+Michael Paul Frankland<br />
+
+
+
+
+Masahiro  Fujita<br />
+
+
+
+
+Evan  Gallagher<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=101231&onameset=Section on PET Neuroimaging Sciences&isajaxlink=Y&_UserReference=12223638D0B1BB415B38D64C','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 19</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Carlos Alberto Zarate; MD  (Experimental Therapeutics and Pathophysiology Branch)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+William Harold Theodore; MD (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborator
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Jan  Mulder; PhD
+<i>(Karolinska Institutet)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+PET imaging, depression, radiochemistry, alzheimer's disease
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Major psychiatric disorders like schizophrenia and mood disorders are associated with and, in some cases, caused by chemical imbalances in the brain. The purpose of our research is to develop probes that can be used to assess these chemical imbalances  to better understand these disorders and, hopefully, improve their treatment.<br /><br />A major goal of the Molecular Imaging Branch is to develop new radiotracers and new imaging paradigms to study abnormal protein targets in patients with neuropsychiatric disorders. The purpose of this research is to evaluate in vivo the pharmacokinetics, sensitivity, and reproducibility of brain imaging measurements of radiolabeled probes for use in positron emission tomography (PET). Animals are used to evaluate new tracers and new methods (e.g., combined with a pharmacological challenge) prior to their extension to human subjects. Testing of these tracers in animals prior to their extension to humans is essential to ensure the validity of the measurement as well as the safety of the procedures. <br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Examples of progress made during the prior year are summarized below.<br /><br />1. 11C-(R)-rolipram PET detects Disc1 inhibition of phosphodiesterase type 4 (PDE4) in living Disc1 locus-impaired mice<br />Phosphodiesterase type 4 (PDE4), a key enzyme that metabolizes second messenger cyclic adenosine monophosphate (cAMP), is regulated by protein kinase A (PKA) and the protein Disrupted in Schizophrenia 1 (DISC1). In positron emission tomography (PET) studies, 11C-(R)-rolipram was used to visualize the activation of PDE4 by PKA. Because DISC1 is hypothesized to inhibit PDE4 activation, the absence of DISC1 would be expected to increase PDE4 activity. A recent study from our group used a Disc1 locus impairment (LI) mouse model to investigate whether 11C-(R)-rolipram PET imaging could quantify the interaction between PDE4 and DISC1. In vitro enzymatic assays in the brains of these animals were used to confirm changes in PDE4 activity observed via PET imaging. <br /> <br />We found that Disc1 LI mice showed a 41% significant increase in distribution volume (VT) compared to wild-type mice. VT/fP, which more accurately reflects 11C-(R)-rolipram binding than VT, showed a 73% significant increase in Disc1 LI compared to wild-type mice. We observed significant group differences in PDE4 enzyme activity; the activity levels of LI mice were greater than those of heterozygotes which, in turn, were greater than the activity levels of wild-type mice. Our findings demonstrate a clear increase in PDE4 activity in the absence of most critical Disc1 protein isoforms both in vivo and ex vivo. In addition, 11C-(R)-rolipram PET imaging was sensitive enough to assess differences in PDE4 activity caused by the interaction between PDE4 and DISC1. These data warrant further investigation into the potential biological activity of DISC1 isoforms.<br /><br /><br />2. 18FOGA1 is a promising PET radioligand for measuring O-GlcNAcase in brain <br />Strong evidence suggests that the accumulation and spread of misfolded, insoluble taua microtubule-associated protein that regulates axonal microtubule structure and function in neuronsplays an important role in the progression of Alzheimers disease. Inhibiting O-GlcNAcase  an enzyme that deglycosylates intracellular proteins including tau  is a key strategy for treating AD and related tauopathies. We developed a novel radioligand that binds to O-GlcNAcase: 18FOGA1. The ligand was synthesized and evaluated in rhesus monkey brain at baseline and after pretreatment with either thiamet-G, a potent O-GlcNAcase inhibitor, or the cold parent compound (self-blocking). Positron emission tomography (PET) imaging was performed and brain O-GlcNAcase knockout mice were also scanned to confirm specificity of the radioligand. <br /><br />We found that, in monkeys at baseline, brain uptake peaked around 5 SUV followed by slow washout. The highest uptake was observed in striatum followed by frontal cortex, hippocampus, thalamus, and cerebellum. After pretreatment with thiamet-G or cold parent, brain uptake was reduced to background levels in all regions; distribution volume (VT) decreases of &gt; 90% were observed. Brain uptake of 18FOGA1 in wild-type mice at baseline was significantly higher than in O-GlcNAcase knockout mice. Pretreatment with thiamet-G reduced brain uptake in wild-type mice to the levels observed in O-GlcNAcase knockout mice; no further decreases were seen in the O-GlcNAcase knockout mice following pretreatment with thiamet-G. The effective dose for humans was estimated to be 21.8 mSv/MBq, which is well within the acceptable safety limits for 18F-labeled radioligands. Taken together, our results show that 18FOGA1 is a promising PET radioligand for measuring O-GlcNAcase in brain, and provides a potentially important tool for monitoring the treatment of tauopathies in Alzheimers disease. <br /><br /><br />3. Novel PET radioligands show that COX-1 is constitutively expressed and that COX-2 is induced by inflammation in rhesus macaque. <br />The cyclooxygenase (COX) system is implicated in the pathophysiology of brain diseases, including Alzheimer's disease and depression, and is a potential biomarker for neuroinflammation. The COX system comprises two isoforms, COX-1 and COX-2, which are key enzymes in neuroinflammation. We recently developed two PET radioligands: 11C-PS13 for COX-1 and 11C-MC1 for COX-2. Building on this work, a recent study from our laboratory explored the in vivo expression of COX-1 and COX-2 with the new radioligands in rhesus monkeys. The study was divided into two parts: whole-body PET/CT in normal monkeys and brain PET in monkeys with neuroinflammation. To induce transient neuroinflammation, lipopolysaccharide (LPS) was injected into the right putamen of monkeys. After intravenous injection of either radioligand into rhesus monkeys, dynamic whole-body or brain PET scans were obtained. To measure the specific uptake, we performed both baseline and blockade scans. As blockers, we used non-radioactive PS13, non-radioactive MC1, and aspirin, a preferential inhibitor of COX-1. <br /><br />We found that, under normal conditions, 11C-PS13 showed specific uptake in spleen, gastrointestinal tract, and brain while 11C-MC1 showed uptake only in brown adipose tissue. After putaminal injection of LPS, 11C-PS13 uptake was not increased in brain but 11C-MC1 uptake was significantly increased. Our results suggest that COX-1 is constitutively expressed in major organs while COX-2 is only induced by inflammation. Different patterns of expression between two COX isoforms were successfully demonstrated by 11C-PS13 and 11C-MC1, suggesting that these two radioligands show promise as biomarkers for measuring inflammation in various disorders, as well as target engagement of therapeutic drugs. <br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101231&allpubs=Y&isajaxlink=Y&_UserReference=12223638D0B1BB415B38D64C','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Brouwer C, Jenko KJ, Zoghbi SS, Morse CL, Innis RB, Pike VW (2016) Translocator protein ligands based on N-methyl-(quinolin-4-yl)oxypropanamides with properties suitable for PET radioligand development. Eur J Med Chem 124:677-688
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27622910?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5097887/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27622910
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5097887 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Liow JS, Zoghbi SS, Hu S, Hall MD, Hines CS, Shetty HU, Araneta MD, Page EM, Pike VW, Kreisl WC, Herscovitch P, Gottesman MM, Theodore WH, Innis RB (2016) (18)F-FCWAY, a serotonin 1A receptor radioligand, is a substrate for efflux transport at the human blood-brain barrier. Neuroimage 138:134-40
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27211474?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4928098/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27211474
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4928098 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Weidner LD, Fung KL, Kannan P, Moen JK, Kumar JS, Mulder J, Innis RB, Gottesman MM, Hall MD (2016) Tariquidar Is an Inhibitor and Not a Substrate of Human and Mouse P-glycoprotein. Drug Metab Dispos 44:275-82
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26658428?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4746486/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26658428
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4746486 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

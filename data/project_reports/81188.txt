@@ -1,0 +1,820 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002619</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002619-22</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neural Mechanisms Of Motivation And Reward
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Barry J Richmond; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/barry-richmond" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neural Coding and Computation, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neural Coding and Computation</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 9 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Richard C Saunders; PhD<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Samarth  Chandra<br />
+
+
+
+
+Andrew M Clark<br />
+
+
+
+
+Mark Alexander Grainger Eldridge<br />
+
+
+
+
+Walter  Lerchner; PhD<br />
+
+
+
+
+Kaleb Alexander Lowe<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=81188&onameset=Section on Neural Coding and Computation&isajaxlink=Y&_UserReference=004FD218DBD088555B38D174','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 9</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Elisabeth Adams Murray; PhD (Section on Neurobiology of Learning and Memory)<br />
+
+
+
+Ziad S Saad; PhD (Scientific and Statistical Computing Core)<br />
+
+
+
+
+
+
+
+
+
+
+
+
+Gang  Chen; PhD  (Scientific and Statistical Computing Core)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Alan Paul Koretsky; PhD (NINDS) <br />
+
+
+
+Martin J Lizak; PhD (NINDS) <br />
+
+
+
+
+
+
+
+
+
+
+
+
+David Barrett Weintraub; MD (NINDS) <br />
+
+
+
+Kareem Amir Zaghloul; MD, PhD (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Narihisa  Matsumoto; PhD
+<i>(Neurotechnology Group, AIST)</i>
+<br />
+
+
+
+Takafumi  Minamimoto; PhD
+<i>(Molecular Neuroimaging, Natl Inst Radiological Science)</i>
+<br />
+
+
+
+Munetaka  Shidara; PhD
+<i>(Neuroscience Research Institute, AIST)</i>
+<br />
+
+
+
+Y  Sugase-Miyamoto; PhD
+<i>(Neuroscience Research Institute, AIST)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+dopamine, noradrenline, reinforcement, motivation, locus coeruleus, orbitofrontal cortex, learning, memory, rhinal cortex, ventral striatum
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The desire to act, that is, motivation, arises from the interactions of external factors, e.g., size and timing of reward, and internal factors, e.g., hunger or thirst. Motivation is directly related to the subjective value of reward, and is moderated, or even completely dissipated, if the perceived effort or discomfort seems too great. The normal balance between reward and work is disturbed in many psychiatric disorders, such as depression where feelings of hopelessness make rewards seem not worth pursuing and the work to obtain them too burdensome, or drug abuse where the drug of abuse is so valuable it will be sought even at great danger or cost, both personal and social. We are studying how the value of behavior is modified by the balance between reward value and burden to obtain reward in monkeys. The monkeys naturally vary their performance while we manipulate the reward size and the amount of work needed to obtain reward. We carry out theoretical studies trying to describe the exact balance among these factors, behavioral studies with both normal monkeys and monkeys with selective ablations, single neuron recordings to learn what signals related to these factors are present in different brain regions of the reward system, and genetically-based receptor manipulations to determine what the underlying molecular mechanisms for this behavior are.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The, ventral striatum (VS) is a dopamine rich deep brain structure involved in the processing of reward. After damage to this structure animals and humans have difficulties in reacting properly to reward; such individuals often become apathetic and are not motivated to carry out normal behavioral tasks. Many observations suggest that the ventral striatum is implicated in severe behavioral disorders such as depression and addiction. Neurons in the ventral striatum of monkeys are known to encode information related to reward. We are studying the role of the by recording single unit neuronal activity monkeys while they engage in simple choice task in which they are presented with different valued predicted outcomes. In this task, a visual cue presented at the beginning of a trial indicates both the reward size and delay if the trial is completed successfully. The value of the outcome is manipulated by changing the amount of juice and the delay to reward after a choice is made. Monkeys predictably accepted high value trials, that is, trials with large reward and short delays, and skipped low value trials, that is, trials with small rewards and long delays. In the past it has been suggested that these two variables are encoded by different neurons. <br /><br />In the ventral striatum there are two types of neurons, so-called phasically active neurons (PANs,putative medium spiny GABAergic projection neurons) that increase their firing when events such as cue appearance or reward delivery, and tonically active neurons (TANs putative aspiny cholinergic interneurons) that fire continually at a low rate, and the rate is briefly modulated when a significant event occurs. We identified 88 PANs and 43 TANs (see Figure 3 for examples). Overall 66/131 (50%) neurons demonstrated significant effects of reward size or delay on the firing rate following cue presentation. Significant main effects were seen for size alone in 32 neurons (24%), delay alone in 9 neurons (7%), and both size and delay in 25 neurons (19%). A significant interaction effect of size and delay was seen in 23 neurons (18%). Among PANs, the effects for size alone and both size and delay were seen more than for delay alone (24/88 (27%) size alone, 3/88 (3%) delay alone, 18/88 (20%) both size and delay). Most TANs showed the burst-pause-burst pattern elicited by reward predicting stimuli seen in TANs by others in the past. Following cue presentation, 18/43 (42%), 7/43 (16%), and 5/43 (12%) neurons showed significant main effects on firing rate of both reward size and delay, reward size alone, and reward delay alone, respectively. Following reward delivery, 4/43 (9%), 4/43 (9%), and 4/43 (9%) neurons showed a significant main effect on firing rate of both reward size and delay, reward size alone, and reward delay alone, respectively. Interaction effects of reward size and reward delay were seen following cue presentation and reward delivery in 16/43 (37%) and 6/43 (14%) neurons, respectively. Thus, both tonically active neurons and phasically active neurons in ventral striatum show responses. However, PANs seem primarily sensitive to reward size whereas PANs are sensitive to both. <br /><br /><br />Although the central noradrenergic system is more classically associated with arousal, attention or cognitive flexibility, several recent show that the noradrenergic system also has a central role in normal motivated activity.  We compared the responses of dopaminergic and noradrenergic neurons around the time of major task events, visual cues predicting trial outcome and operant action to complete a trial. The responses of the two type of neurons were similar in that they occurred at the same time. They were also similar in that they both responded most strongly to the first cues in schedules, which are the most informative cues. The neuronal responses around the time of the monkeys' actions were different, in that the response intensity profiles changed in opposite directions. Dopaminergic responses were stronger around predictably rewarded correct actions whereas noradrenergic responses were greater around predictably unrewarded correct actions. The complementary response profiles related to the monkeys operant actions suggest that DA neurons might relate to the value of the current action whereas the noradrenergic neurons relate to the psychological cost of that action.that the role of the noradrenergic system would be complementary to that of the dopaminergic system, in that it would promote behavioral responses associated with greater efforts, rather than greater value as it seems to be the case for dopaminergic neurons. To study the activity of LC neurons further, we are recording single unit activity to explore the influence of several parameters including the size of the expected reward, the behavioral state (thirst), and whether or not the monkey had to make a action to obtain the reward. We relate LC activity to two behavioral measures of the subjective reward value: lipping, an appetitive Pavlovian reflex and bar release, a goal directed action. As we saw previously, LC responses to the cue at the trial onset increased with the value of the expected reward. Later in the trial, when monkeys initiated a bar release, the magnitude of the associated LC activation decreased with as the value of the expected reward increased. We speculate that LC neurons encode the amount of subjective effort needed to trigger the action in the face of a relatively small reward. These results support our hypothesis. Overall, we propose that LC neuronal activity reflects the level of energy needed to induce an action when the current reward value is in itself not large enough, that is, the LC neurons supply the increment needed to reach the threshold for action when the incentive for reward is not currently enough. A corollary of this is only an immediately imminent reward provides enough impetis to activate an action and that the noradreline neurons must be activated for action to occur when the reward is discounted by either time, or intrinsic value such as size. Thus, the noradrenergic system would play a key role in motivation and complement the well-established contribution of the dopaminergic system.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81188&allpubs=Y&isajaxlink=Y&_UserReference=004FD218DBD088555B38D174','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Bouret S, Ravel S, Richmond BJ (2012) Complementary neural correlates of motivation in dopaminergic and noradrenergic neurons of monkeys. Front Behav Neurosci 6:40.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22822392?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3398259/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22822392
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3398259 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Clark AM, Bouret S, Young AM, Richmond BJ (2012) Intersection of reward and memory in monkey rhinal cortex. J Neurosci 32:6869-77.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22593056?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3367562/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22593056
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3367562 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Mizuhiki T, Richmond BJ, Shidara M (2012) Encoding of reward expectation by monkey anterior insular neurons. J Neurophysiol 107:2996-3007.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22402653?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3378365/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22402653
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3378365 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Toda K, Sugase-Miyamoto Y, Mizuhiki T, Inaba K, Richmond BJ, Shidara M (2012) Differential encoding of factors influencing predicted reward value in monkey rostral anterior cingulate cortex. PLoS One 7:e30190.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22279569?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3261177/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22279569
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3261177 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

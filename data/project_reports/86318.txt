@@ -1,0 +1,726 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002881</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002881-08</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Molecular mechanisms of synapse development and plasticity
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Zheng  Li; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/zheng-li" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Synapse Development and Plasticity, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Synapse Development and Plasticity</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Kaizheng  Duan<br />
+
+
+
+
+Zhonghua  Hu<br />
+
+
+
+
+Hongmei  Shen<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Lee E Eiden; PhD  (Section on Molecular Neuroscience)<br />
+
+
+
+Sanford P. Markey; PhD  (Section on Analytical Biochemistry)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+M  Braga; PhD
+<i>(Psychiatry,  Uniformed Services University of the Health Sciences)</i>
+<br />
+
+
+
+Ann M. Marini; PhD, MD
+<i>(Neurology, Uniformed Services University of the Health Sciences)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+long-term synaptic depression, synapse, NMDA receptor, spine pathology, schizophrenia, dopamine D2 receptor
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Synapses are functional units of the brain. They mediate neuronal communications that are critical for cognition, emotion and behavior of animals and humans. Synapses are assembled between presynaptic and postsynaptic neurons during early brain development, rearranged to optimize the connectivity of neural circuits during brain maturation, and are modulated in strength, size and number by experience during cognitive, emotional and behavioral processes. The changes in the structure and function of synapses are often observed in brains of people with mental disorders, and are thought to be an important cellular pathology of the diseases. The goal of this project is to delineate the molecular and cellular mechanisms underlying synaptic plasticity and synapse development in normal brains, to gain insights into the pathogenic mechanisms of synaptic pathology associated with mental disorders, and by converging the knowledge on normal and pathological synapses to facilitate the advancement of prevention and treatment of mental illness. The objective of this project during the current reporting period is to understand the molecular mechanisms underlying synapse development, the role of synaptic plasticity in behavior, and the mechanisms of spine pathology associated with schizophrenia.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+1. A non-apoptotic function of the mitochondria-caspase cascade in presynaptic site development <br />Caspase-3 is an effector caspase that can execute cell death in apoptosis (a form of programmed cell death). Our previous research shows that caspase-3 also has a non-apoptotic function in postsynaptic neurons, where it is required for NMDAR-LTD, a long-lasting form of synaptic plasticity that leads to decreases in synaptic strength (Li, Jo et al. 2010, Jiao and Li 2011). It is unclear, however, whether caspase-3 also has non-apoptotic functions in presynaptic neurons. <br />Analyzing miniature excitatory postsynaptic currents (mEPSC) in acute hippocampal slices prepared from wild-type and BAD, BAX, or caspase-3 knockout mice (P16-19), which are deficient in caspase-3 activation, we found that the frequency of mEPSCs recorded from CA1 neurons by whole-cell patch at a holding potential of -70 mV was greatly reduced. We conducted additional electrophysiology and electron microscopic experiments to investigate the cause of the mEPSC change. Our results show that the reduction of mEPSC frequency is due to fewer synaptic vesicles at presynaptic sites, resulting from overactive autophagy in BAD, BAX, or caspase-3 knockout mice. Autophagy is a process by which organelles and aggregated proteins are delivered to lysosomes for degradation. In neurons, the significance of autophagy for organelles unique to neurons, such as synaptic vesicles, remains unclear. We found that the activity of autophagy is essential for the homeostasis and activity-dependent cycling of synaptic vesicles in hippocampal neurons. In region specific Atg5 and Atg7 knockout mice where the Atg genes are deleted specifically in presynaptic neurons, synaptic vesicle pools are enlarged. Synaptic vesicles are recruited to autophagosomes via early and late endosomes, and that Rab5 and Rab9 are required for this process. Autophagy of synaptic vesicles is regulated by synaptic excitation, and interestingly the BAD-BAX-caspase pathway, a canonical apoptosis pathway, mediates activity-dependent regulation of synaptic vesicle autophagy. Finally, we show that the BAD-BAX-caspase-autophagy pathway controls the depletion and recovery kinetics of synaptic vesicle pools. Our findings elucidate a new type of autophagy for synaptic vesicles, reveal a new mechanism underlying the cycling of synaptic vesicles, and a presynaptic role for non-apoptotic caspase activation. 	<br />2. The role of NMDA-receptor dependent LTD in behavior<br />NMDA receptor-dependent long-term depression (NMDAR-LTD) of synaptic transmission (Bear and Malenka, 1994), characterized by a long-lasting decrease in synaptic strength, is a form of synaptic plasticity essential for the refinement of neuronal connections during development and information storage in the brain (Collingridge et al., 2010). NMDAR-LTD is widely expressed in excitatory synapses of the central nervous system (Malenka and Bear, 2004). Induction of NMDAR- LTD requires opening of NMDA receptors, which leads to Ca2+ influx and subsequent activation of the serine/threonine phosphatases calcineurin/PP2B and PP1. These protein phosphotases in turn cause dephosphorylation and translocation of Bad (Bcl-2-associated agonist of cell death) to mitochondria, where it activates Bax (Bcl-2-associated X protein) which triggers caspase 3 activation. This Bax-caspase-3 cascade is required specifically for NMDAR-LTD. In Bax knockout mice, NMDAR-LTD is abolished, while long-term potentiation (LTP) is preserved (Jiao and Li, 2011). <br />Bax has been implicated in the pathophysiology of psychiatric disorders such as depression (Manji et al., 2012). For instance, the Bax/Bcl-2 ratio in the brain is increased by chronic stress (such as social isolation), and reduced by chronic treatment with the antidepressant fluoxetine (Djordjevic et al., 2012; Zlatkovic and Filipovic, 2012). The role played by Bax in depression, however, is unclear.<br />In this study, we investigated the role of NMDAR-LTD in fear memory in conditional Bax knockout mice in which Bax expression is deleted in CA1 pyramidal neurons. Our electrophysiology results show that NMDAR-LTD (but not LTP) is abolished in young and fear-conditioned, adult knockout mice. Behavioral tests reveal that in conditional Bax knockout mice, while innate fear, short-term contextual fear memory and cued fear memory are intact, long-term contextual fear memory is impaired. Depressive behavior, moreover, is also attenuated in CA1-specific Bax knockout mice. These findings indicate that NMDAR-LTD and Bax are required specifically for consolidation, but not acquisition of fear memory. <br />3. The molecular mechanism of synaptic pathology associated with schizophrenia<br />Synaptic pathology has been well recognized in mental disorders. For example, neuroimaging studies show that functional connectivity between neurons in the brains of schizophrenic patients are impaired (Stephan, Baldeweg et al. 2006). Also, interneuronal connections between neurons derived from iPS (induced pluripotent stem) cells of schizophrenic patients are severely impaired (Brennand, Simone et al. 2011). However, little is known about the molecular mechanism underlying synaptic pathology. <br />Dysbindin is a coiled-coil domain containing protein, initially discovered as a dystrophin-binding protein and later found to be one of eight subunits of biogenesis of lysosome-related organelles complex 1 (BLOC-1). Single-nucleotide polymorphisms of the dysbindin gene (Dtnbp1) have been associated with higher risk for schizophrenia, and the postmortem brains of schizophrenia patients consistently exhibit low levels of dysbindin proteins and mRNAs.  Mice carrying a deletion mutation in Dtnbp1 (sdy mice, express no dysbindin proteins) have more of the cell-surface dopamine D2 receptors, which have long been targeted in the treatment of schizophrenia.<br />Our earlier work suggests that dysbindin contribute to the establishment of neuronal connectivity by regulating the development of dendritic protrusions, including dendritic spines (tiny dendritic protrusions where excitatory synapses are formed) and filopodia (long, thin protrusions that predominant in young neurons). Hippocampal neurons of sdy mice have fewer dendritic spines and more filopodia, and synaptic connectivity within the entorhinal cortex-hippocampus circuit is miswired.<br />The development of dendritic protrusions is a dynamic process involving addition of new protrusions and retraction of existing ones, and conversion between one type of protrusions (stubby spines, mushroom spines, thin spines, filopodia) to another. These dynamic events in the morphogenesis of dendritic protrusions facilitate not only formation and maturation, but also plasticity of synaptic connections, which are needed to establish and refine neural circuits. It remains to be determined, however, whether dysbindin regulates the dynamic changes of dendritic protrusions during development.<br />During the current reporting period, by using time-lapse imaging, we found that hippocampal neurons of sdy mice are hyperactive in addition, retraction and transformation of dendritic protrusions. Investigating mechanisms might account for this hyperactivity, we found that the calcium/calmodulin-dependent protein kinase CaMKII&amp;#61537; is required to stabilize dendritic protrusions, and that decreased CaMKII&amp;#61537;&amp;#61472;activity in sdy mice contributes to the hyperactivity of dendritic protrusions. This study reveals a key mechanism by which dysbindin regulates the development of dendritic spines and an essential role of CaMKII&amp;#61537;&amp;#61472;in the dynamics of dendritic protrusions. <br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86318&allpubs=Y&isajaxlink=Y&_UserReference=53B9E0DF842E7FE65B38D0DF','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;"> (2014) Reduced GABAergic inhibition in the basolateral amygdala and the development of anxiety-like behaviors after mild traumatic brain injury. PLoS One 9(7)
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Almeida-Suhett CP, Li Z, Marini AM, Braga MF, Eiden LE (2014) Temporal course of changes in gene expression suggests a cytokine-related mechanism for long-term hippocampal alteration after controlled cortical impact. J Neurotrauma 31:683-90
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24344922?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3961781/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24344922
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3961781 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Han MH, Jiao S, Jia JM, Chen Y, Chen CY, Gucek M, Markey SP, Li Z (2013) The Novel Caspase-3 Substrate Gap43 Is Involved in AMPA Receptor Endocytosis and LTD. Mol Cell Proteomics 12:3719-31
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24023391?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3861719/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24023391
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3861719 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Jia JM, Zhao J, Hu Z, Lindberg D, Li Z (2013) Age-dependent regulation of synaptic connections by dopamine D2 receptors. Nat Neurosci 16:1627-36.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24121738?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3832846/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24121738
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3832846 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Liu X, Gu QH, Duan K, Li Z (2014) NMDA receptor-dependent LTD is required for consolidation but not acquisition of fear memory. J Neurosci 34:8741-8
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24966374?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4069352/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24966374
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4069352 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

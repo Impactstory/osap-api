@@ -1,0 +1,682 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002896</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002896-07</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">The Neural Basis of Functional MRI Responses
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+David A Leopold; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/david-leopold" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Cognitive Neurophysiology and Imaging, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Cognitive Neurophysiology and Imaging</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Kathryn A Smith<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Chunshan  Deng<br />
+
+
+
+
+Aidan Peter Murphy<br />
+
+
+
+
+Brian E Russ<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Makoto  Fukushima  (Section on Cognitive Neuroscience)<br />
+
+
+
+Andrew Rattin Mitz; PhD  (Section on Neurophysiology)<br />
+
+
+
+Richard C Saunders; PhD  (Section on Cognitive Neuroscience)<br />
+
+
+
+Janita N Turchi; PhD  (Section on Cognitive Neuroscience)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Jozef H Duyn; PhD (NINDS) <br />
+
+
+
+Afonso C Silva; PhD (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Avniel  Ghuman
+<i>(University of Pittsburgh)</i>
+<br />
+
+
+
+Cory T Miller; PhD
+<i>(Psychology, University of California, San Diego)</i>
+<br />
+
+
+
+Anil  Seth
+<i>(University of Sussex)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+functional magnetic resonance imaging, diffusion tensor imaging, resting state functional connectivity, electrophysiology, event-related fMRI, neurovascular coupling
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+In the past decades, the study of the human brain has been transformed by the use of functional magnetic resonance imaging (fMRI).  This method, while serving as a proxy for regional neural activity, in fact measures blood-based hemodynamic signals.  These signals change predictably following the presentation of sensory stimuli, during the initiation of actions, and under a range of quantifiable cognitive states. In recent years, it has also been demonstrated that spontaneous hemodynamic changes during rest also exhibit structure, particularly in their correlations. Each of these measures has been used increasingly in the clinical domain to investigate the neural processes involved in neuropsychiatric disorders and even diagnose individuals. Despite its successes and popularity, fMRI does have a number of disadvantages, including its low temporal and spatial resolution.   Also it cannot be taken as a direct measure of neural activity direction, since it measures blood and not electrical signals. In the Section on Cognitive Neurophysiology and Imaging, one project involves studying the relationship between neural activity and hemodynamic responses, both during tasks and during rest.<br /><br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+In the last year, my laboratory has published three papers related to the neural basis of the spontaneous fMRI signal (Leopold and Maier, NeuroImage, 2012; Hutchison et al. NeuroImage, 2013; Scholvinck et al, NeuroImage, 2013). The gist of these papers is that the spontaneous fMRI correlations that are commonly used to evaluate the connectional structure of the human brain are well-behaved and link to electrophysiogical signals, but their origins remain mysterious.  We also have made experimental headway on this topic with two recent studies.  In Spaak et al, (Current Biology, 2012), we show that resting state electrophysiological processes exhibit a layer-specific coupling, including over time scales relevant for fMRI.  Likewise, in a collaborative study (Fukushima et al, Neuron, 2012), we demonstrate that the spatial patterns of spontaneous activity observed in the auditory cortex during rest closely resemble those found during normal acoustic stimulation.  These findings are present evidence of a link between spontaneous electrophysiological correlations and fMRI resting state correlations.<br /><br />In a new project, we have begun to investigate whether correlated spontaneous fMRI fluctuations may have their origins not only in the direct connections between two areas, but also in the shared innervation of areas based on input from the basal forebrain.  While it is clear that anatomical connections will constrain patterns of activity correlations, their existence does not explain why slow fluctuations in spontaneous activity emerges in the first place.  One possibility is that the far-reaching modulatory cholinergic and GABAergic inputs emanating from the several basal forebrain structures drives periods of high and low cortical excitability in concert, which would result in a pattern of functional correlations commonly measured in human fMRI.  Our planned first steps to test this hypothesis involves combining inactivation of several basal forebrain structures with fMRI measurements during rest, and later during natural viewing.  The null hypothesis of this experiment is clear: inactivation of these projection neurons should have no effect on the pattern of correlated fluctuations over the cortical surface.  <br /><br />In another project, we asked to what extent responses observed in high-level visual cortex using fMRI would resemble neural responses observed in the same piece of cortex using microelectrode recordings. We approached this project using natural viewing of social videos, recording both fMRI and electrophysiological responses while monkeys repeatedly watched a number of five-minute video clips.  Using this method, we measured a consistent time course evoked for each movie in the microelectrode spiking data and the hemodynamic fMRI data.  Given that each voxel in the fMRI signal contains hundreds of thousands of neurons, these results raise the question: to what extent does the activity time course of the fMRI signal in a voxel reflect the time course of spiking within that voxel?  As a first step, we have assessed the correlation between adjacent neurons within our microwire array.  Neurons were separated by no more than 400 microns, and were thus part of the same cortical column.  We found that, even though individual cells are very reliably driven by multiple repetitions of the same movie, nearby cells are remarkably uncorrelated in their responses.  Our planned extension of this work is to examine whether some aspect of collective neural activity, such as the mean activity of all neurons in a voxel, or the activity of special, identified neurons, most closely reflects the hemodynamic time course.  The hope is that this approach can not only allow us to understand about the coding principles in this part of the brain, but also about how this coding is reflected in the fMRI signal.<br /><br />Finally, we have begun another experiment in which we measure single unit activity from implanted, MR-compatible electrodes, in monkeys that are undergoing fMRI.  As described above, adjacent neurons show very different time courses during natural viewing.  The same is true during spontaneous activity.  Thus one planned experiment is to determine whether two neurons showing different time courses are functionally linked with different fMRI networks in the brain.  Thus using spiking fluctuations of two different neurons to reveal two different networks may elucidate the relative contributions of different brain networks to the local neural machinery in a confined cortical area.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81241&allpubs=Y&isajaxlink=Y&_UserReference=E3B612D6550BBC895B38CFDF','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Fukushima M, Saunders RC, Leopold DA, Mishkin M, Averbeck BB (2012) Spontaneous high-gamma band activity reflects functional organization of auditory cortex in the awake macaque. Neuron 74:899-910.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22681693?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3372858/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22681693
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3372858 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Liu JV, Hirano Y, Nascimento GC, Stefanovic B, Leopold DA, Silva AC (2013) fMRI in the awake marmoset: somatosensory-evoked responses, functional connectivity, and comparison with propofol anesthesia. Neuroimage 78:186-95
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23571417?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3778909/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23571417
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3778909 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,803 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH001101</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH001101-24</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neural Mechanisms of Learning and Memory in Audition
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Mortimer  Mishkin; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/mortimer-mishkin" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Cognitive Neuroscience, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Cognitive Neuroscience</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 7 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Richard C Saunders; PhD<br />
+
+
+
+Brian H Scott; PhD<br />
+
+
+
+Makoto  Fukushima<br />
+
+
+
+Megan M Malloy; BS<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Corrie Randolph Camalier; PhD<br />
+
+
+
+
+Alexandra Marie Doyle<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=91027&onameset=Section on Cognitive Neuroscience&isajaxlink=Y&_UserReference=5766E08D921998765B38D04F','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 7</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Bruno B Averbeck  (Laboratory of Neuropsychology)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Mark  Hallett; MD (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Yukiko  Kikuchi; PhD
+<i>(Institute of Neuroscience, Newcastle University)</i>
+<br />
+
+
+
+
+C  Petkov; PhD
+<i>(Institute of Neuroscience, Newcastle University)</i>
+<br />
+
+
+
+
+Katrin  Schulze; PhD
+<i>(Unit on Developmental Cognitivie NeuroscDepartment, University College London Institute of Child Health)</i>
+<br />
+
+
+
+
+F.  Vargha-Khadem; PhD
+<i>(Institute of Child Health, University College London Medical School)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+monkey vocalizations, auditory cortex, FOXP2, verbal learning, monkeys, neuronal responses, auditory recognition
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Our research focuses on the neurobiology of visual and auditory memory in monkeys, as well as in normal and brain-injured children.  Besides employing cross-species comparisons, our work is highly multidisciplinary, as it utilizes behavioral, neuroanatomical, electrophysiological, and metabolic methods, as well as structural and functional neuroimaging techniques. All work with human subjects is carried out in collaboration with Prof. Faraneh Vargha-Khadem, Professor of Developmental Cognitive Neuroscience and Head, Developmental Cognitive Neuroscience Unit, Institute of Child Health, University College London and Great Ormond Street Hospital for Children.<br /><br />A major impetus for extending our neurobiological research in monkeys to audition is the hope that, just as it has in vision, it will illuminate higher-order processes in audition in both normal and brain-injured children.  However, little is known yet about the neural basis of the monkey's acoustic functions beyond the early auditory areas.  Consequently, although the main goal of our auditory research is to identify the cerebral circuits mediating learning and memory in this modality, we are also investigating the auditory cortical sensory processing streams and their perceptual functions.	 Our progress in the area of auditory memory lags far behind that in visual memory, in part because we began studying it only relatively recently, but also because we seem to have hit a road-block near the very outset.  (i) Specifically, we have not yet been able to demonstrate in the laboratory that monkeys can store the central representations of acoustic stimuli in long-term memory, even though they have sensory traces that support short-term memory.  This unexpected finding has generated numerous follow-up experiments.  Resting on their outcome is the overarching issue of whether oral language is unique to humans because it depends not only on articulate speech (see below) but also on the long-term storage of auditory stimulus representations.  (ii) While those follow-up experiments proceed, and to provide insight as to how auditory information is processed in the brain, we have begun directing some of our efforts to the examination of the cortical processing of auditory stimuli.  (iii) We are also examining the neurobiology of perception and discrimination learning in relation to cortical processing in audition beyond the early auditory areas.  There is still a paucity of information about these higher-order auditory cortices, and such information is a prerequisite to understanding stimulus encoding, and, hence, storage for any form of memory. This work extends our work on memory and cognitive function to other modalities but also might provide us with some insight into the underlying neural problems related to  the speech, language, and verbal learning and memory problems often observed in brain-injured children.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Several diverse pieces of evidence suggest the possibility that auditory long-term memory may require the assistance of the oromotor system. The first set of findings comes from a series of neurobehavioral studies carried out on the 3-generational KE family, half of whose members suffer from an inherited speech and language disorder.  The core deficit associated with the widespread speech and language impairments is in executing orofacial, especially articulatory, movements. Identification of the neurobehavioral phenotype in the affected family members led to the work of a genetics team and a second line of evidence  identification of the genotype, a mutation in FOXP2, thereby implicating FOXP2 in the development of speech and language. The third line of evidence, less momentous than the first two, but just as unexpected: monkeys are easily able to store visual and other sensory stimuli in long term memory, yet they appear to be unable to do so with auditory stimuli. Although seemingly unrelated, these pieces of evidence from the human and animal studies, taken in combination, suggest the following proposal.  Because natural acoustic stimuli such as speech sounds fluctuate rapidly in time, it may be that their neural representations, unlike those of stationary sensory stimuli, cannot be packaged for long-term storage in the sensory system alone, because the sensory system may not contain an integration time-window that is long enough to represent the full duration of the fluctuating stimulus. Consequently, packaging of such stimuli may require the aid of the oromotor system, which is uniquely organized to chain-link rapid sequences. An alternative mechanism, particularly for a nonverbal stimulus that cannot be easily mimicked, would be to associate it with a previously stored verbal label or nonauditory stimulus, as in voice-name or voice-face association, and then recognize the stimulus later on the basis of its learned associate. The corollary of this hypothesis is that a sound that cannot be mimicked (nor be associated with an already stored stimulus) cannot be stored in long-term memory. While the core problem underlying this neurodevelopmental speech impairment has been identified as an orofacial and verbal dyspraxia, we also investigated whether an additional core deficit, viz., an auditory processing impairment, is associated with KE family speech difficulties. To compare auditory processing in affected KE, unaffected KE family members and controls, we tested subjects on a series of complex listening tasks that measured the ability to process the temporal and spectral aspects of auditory information. A tendency towards a significant effect of group for frequency discrimination was observed, which was due to a significantly lower, thus better, frequency discrimination threshold for affected KE family members compared to controls. All other psychoacoustic tests did not yield a significant group effect. These results suggest that auditory processing difficulties do not contribute to the orofacial dyspraxia of the affected KE family. However, the orofacial motor control deficits do not sufficiently explain the wide ranging language impairments. In humans, the FOXP2 gene is expressed in brainstem, thalamic and neostriatal structures. We aimed to determine whether there are functional deficits in the subcortical auditory pathway by assessing low brain stem, neural and cochlear auditory function in affected individuals. Affected members of the KE family were tested with pure tone audiometry, acoustic impedance tests, transient evoked otoacoustic emissions and auditory brainstem responses (ABR).  Affected members demonstrated normal audiometric thresholds for their age range. Otoacoustic emissions were present in all and were normal. Acoustic reflexes and ABRs were normal in all cases. These results suggest that subcortical auditory pathways are not involved at a clinically significant level in KE family members.   The auditory cortex underlies are effortless ability to discriminate and remember complex sounds, including speech. However, in monkeys we found auditory memory to be extremely impoverished, limited to a passive short-term trace and unaffected by lesions of the rhinal cortex; this is in sharp contrast to their memory performance in vision which extends to long-term memory and is severely disrupted by a rhinal lesion. We tested monkeys on a serial delayed match-to-sample task (DMS). There was a steep drop in performance with a single intervening stimulus between the sample and the match.  This drop in accuracy was not due to passive decay of the samples trace, but to retroactive interference from the intervening non-match stimulus. The neural underpinnings of this putative trace are unknown, but are likely to engage non-primary auditory cortex, e.g., the rostral superior temporal plane (STP) and gyrus. We recorded from the rostral STP as monkeys performed auditory DMS. A subset of neurons exhibited modulations of their firing rate during the delay between sounds, during the sensory response, or during both. This distributed subpopulation carried a predominantly sensory signal modulated by the mnemonic context of the stimulus. Excitatory and suppressive effects on match responses were dissociable in their timing and in their resistance to sounds intervening between the sample and match. Like the monkeys behavioral performance, these neuronal effects differ from those reported in the same species during visual DMS, suggesting different neural mechanisms for retaining dynamic sounds and static images in STM. The auditory cortex integrates spectral and temporal acoustic features to support the perception of complex sounds, including conspecific vocalizations. We investigated coding of vocal stimuli by simultaneously measuring auditory evoked potentials over a large region of primary and higher order auditory cortex along the STP chronically using high-density microelectrocorticographic (ECoG) arrays. The neural information about vocalizations in the caudal areas was similar to the information about synthetic stimuli that contained only the spectral or temporal features of the original vocalizations. In the rostral sectors, however, the classification for vocalizations was significantly better than that for the synthetic stimuli, suggesting that conjoined spectral and temporal features were necessary to explain differential coding of vocalizations in the rostral areas. We also found a robust increase of gamma-band power in primary motor cortex. This increase generally started 500-1000 ms before the onset of the call, and thus this activity could encode motor commands associated with vocal production. Vocal production is an example of controlled motor behavior with high temporal precision. Previous studies have decoded auditory evoked cortical activity while monkeys listened to vocalization sounds but there have been few attempts at decoding motor cortical activity during vocal production. We recorded cortical activity during vocal production in the monkey and detected robust activity in during vocal production. Using a nonlinear dynamical model of the vocal organ to reduce the dimensionality of Coo calls produced by the monkey we could account for approximately 65% of the variance in the reduced sound representations, supporting the feasibility of using the dynamical model for decoding motor cortical activity during vocal production.  Thus while the auditory ventral stream may be important for complex processing of auditory stimuli such as vocal processing it does not however, appear to be sufficient to support short-term auditory recognition memory in non-human primates.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91027&allpubs=Y&isajaxlink=Y&_UserReference=5766E08D921998765B38D04F','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Fukushima M, Saunders RC, Leopold DA, Mishkin M, Averbeck BB (2014) Differential coding of conspecific vocalizations in the ventral auditory cortical stream. J Neurosci 34:4665-76
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24672012?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3965789/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24672012
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3965789 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Fukushima M, Saunders RC, Mullarkey M, Doyle AM, Mishkin M, Fujii N (2014) An electrocorticographic electrode array for simultaneous recording from medial, lateral, and intrasulcal surface of the cortex in macaque monkeys. J Neurosci Methods 233:155-65
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24972186?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4123547/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24972186
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4123547 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kikuchi Y, Horwitz B, Mishkin M, Rauschecker JP (2014) Processing of harmonics in the lateral belt of macaque auditory cortex. Front Neurosci 8:204
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25100935?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4104551/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25100935
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4104551 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kikuchi Y, Horwitz B, Mishkin M, Rauschecker JP (2014) Processing of harmonics in the lateral belt of macque auditory cortex. Frontiers in Neuroscience 8:204
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Scott BH, Mishkin M, Yin P (2014) Neural correlates of auditory short-term memory in rostral superior temporal cortex. Curr Biol 24:2767-75
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25456448?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4255152/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25456448
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4255152 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

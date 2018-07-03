@@ -1,0 +1,955 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002762</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002762-17</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Mechanistic studies on stress, brain inflammation and neuroprotection
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+ <!-- faculty test -->
+
+Juan M. Saavedra; MD
+
+ <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Pharmacology, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Pharmacology</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Roman  Hafko<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+E  Lazartigues; PhD
+<i>(Department Pharmacology, Organization name LSU School of Medicine at New Orleans)</i>
+<br />
+
+
+
+Esther  Sabban
+<i>(New York Medical College)</i>
+<br />
+
+
+
+Aviva  Symes; PhD
+<i>(Pharmacology, USUHS)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+brain inflammation, neuroprotection, stress, PPARgamma, microglia, neuronal injury, anxiety, depression, angiotensin receptors, apoptosis, cell culture, human monocytes, innate immune response, lipopolysaccharide, neurons, rodents
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Goals and Objectives: <br />Our overall goal is to develop novel therapies for diseases of the brain: mood disorders such as depression, anxiety and post-traumatic stress disorder, neurodegenerative diseases including Alzheimers disease, and traumatic brain injury. <br />Poor adaptation to stress, excessive brain inflammation and alterations in cerebrovascular function play critical roles, in variable degrees, in the pathophysiology of many brain disorders. Uncontrolled inflammation may lead to cellular injury and death. Brain inflammation also occurs in response to alterations in the balance of protein oxidation and reduction, for example those occurring during the aging process and neurodegenerative disorders. The integrity of the brain circulation is essential in maintaining of proper allostasis. Brain ischemia, characteristic of cardiovascular disease, diabetes and aging, enhances the vulnerability to stress and brain inflammation. The principal factors involved in this allostatic load include loss of cerebrovascular compliance, leading to neuronal injury, and alterations in the permeability of the blood brain barrier, allowing uncontrolled infiltration of circulatory pathogens and toxins into the brain parenchyma. This sets the stage for a poor allostatic response to stress. <br />The consensus emerged of a major role of stress, brain inflammation and cerebrovascular alterations as associated factors which, in different degrees, participate in the origin and progression of many brain disorders. <br />The critical barrier to progress in the field is our incomplete understanding of the mechanisms of disease. Because of this, available treatments are only partially effective and many times they are not well-tolerated. We study regulatory and disease factors which, while not the focus of current biological psychiatry research, hold promise in the treatment of brain disorders, and in particular on the brain Angiotensin II system. Brain Angiotensin II is a major pro-inflammatory factor, and AT1 receptor activation is involved in multiple pathological processes such as pathological cerebrovascular remodeling and brain inflammation, and in the control of the stress response. We have chosen to study a group of compounds collectively named sartans. Sartans, also named Angiotensin II AT1 receptor blockers (ARBs) are biphenyl derivatives initially developed for the treatment of high blood pressure. It was later recognized that some ARBs possess effects beyond their AT1 receptor blockade, acting as partial agonists of the anti-inflammatory transcription factor peroxisome proliferator-activated receptor gamma (PPARgamma). We have found that in animal models, sartans exert anti-stress and anti-inflammatory effects, protect from brain ischemia, and reduce anxiety and sickness behavior produced by bacterial endotoxins. The beneficial effects of ARBs may be the consequence of dual AT1 receptor blockade and PPARgamma activation. Recent reports of beneficial effects of sartans in Alzheimers disease indicate that their therapeutic effects extend beyond cardiovascular and metabolic illnesses and carry the promise of beneficial effects on brain disorders.<br />Our approach is both mechanistic and translational. Using cell culture techniques we analyze the mechanisms of neuroprotection of sartans and related compounds. Using rodent models of disease we determine their therapeutic effectiveness. With this dual approach we attempt to provide evidence for the use of novel compounds in the treatment of brain disorders. Promising novel findings include neuroprotection in a preclinical model of traumatic brain disorder and anti-depressant effects on a rodent model of genetic vulnerability to anxiety and depression.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Our first specific aim is to clarify the mechanisms involved in the beneficial effects of compounds which have not, until very recently, been considered of interest to the therapy of brain disorders. The second specific aim is to further establish the extent of therapeutic benefits of such compounds in diseases of the brain. <br />We study a group of compounds collectively named sartans, or Angiotensin II AT1 receptor blockers (ARBs). Sartans are biphenyl derivatives with an excellent margin of safety, extensively used to treat cardiovascular and metabolic disorders because they antagonize Angiotensin II-induced vasoconstriction and pathological cellular growth and fibrosis, because they reduce peripheral inflammation and because they improve insulin sensitivity. Following our initial finding that sartans decrease hypertension-induced cerebrovascular inflammation, we later discovered that sartan treatment reduces brain ischemia, stress, and anxiety, and increases lifespan in rodent models. More recently, we established that the beneficial effects of sartans include a major amelioration of the negative effects of peripheral inflammation in the brain. Our conclusion was that several mechanisms may be responsible for the major neuroprotective effects of ARB treatment, and we continued studies to further clarify such mechanisms.<br />During the current fiscal year, we advanced on the clarification of the anti-inflammatory effects of sartans in the brain. We hypothesized that at least part of the central anti-inflammatory and neuroprotective effects were the consequence of direct actions of ARBs on brain cells. <br />The anti-inflammatory and neuroprotective effects of sartans (decline in inflammation-induced activation of the transcription factors nuclear factor kappa-light-chain-enhancer of activated B cells (NFkappaBalpha) and activator protein-1 (AP-1), expression of inducible nitric oxide synthase, cyclooxygenase-2 and nicotinamide adenine dinucleotide phosphate (NADPH) oxidase, reduction in the production of excess nitric oxide, prostaglandin E2, and reactive oxygen species leading to brain inflammation and neuronal injury) are widespread in the brain parenchyma. This suggested that sartans may influence multiple brain cell types. Using microglia, primary cortical neuron, primary cerebellar granule cell, and cerebral microvascular endothelial cell cultures, we discovered that ARBs ameliorate inflammation in all cell types studied. ARB neuroprotective effects were demonstrated against the bacterial endotoxin lipopolysaccharide (LPS), against excess glutamate and against the pro-inflammatory cytokine IL-1beta. Mechanisms involved include decreased activation of several protein kinases and reduced activation of the transcription factor NFkappaBalpha. <br />We hypothesized that the major anti-inflammatory and neuroprotective effects of sartans may not be the exclusive result of AT1 receptor inhibition. In human circulating monocytes, cells expressing very few AT1 receptors, the anti-inflammatory effects of sartans were partially dependent on peroxisome proliferator-activated receptor gamma (PPARgamma) activation. We have found that some sartans may have dual mechanisms of action: anti-hypertensive, anti-growth and anti-inflammatory effects related to their inhibition of AT1 receptors, and metabolic and anti-inflammatory effects, partially the consequence of direct PPARgamma activation. We now confirm that participation of PPARgamma activation as a major component of ARB effects in THP-1 cells, in primary cultures of rat cortical microglia devoid of significant AT1 receptor expression, and in cerebellar granule cells from AT1A receptor knock-out mice. These results suggest that part of the beneficial effects of sartans are due to mechanisms independent of AT1 receptor stimulation.  <br /><br />An additional novel finding is that ARB administration in a rodent model significantly protects the brain from traumatic brain injury. ARBs decrease lesion size, reduce neuronal injury and protect neurological function in this model. This is the first demonstration of the neuroprotective effect of ARBs in traumatic brain injury.<br /><br />Our work will not continue because the Section on Pharmacology was closed June 1st, 2013. 
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81197&allpubs=Y&isajaxlink=Y&_UserReference=0AFD73F8FA812ED15B38D4ED','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Benicky J, Hafko R, Sanchez-Lemus E, Aguilera G, Saavedra JM (2012) Six commercially available angiotensin II AT(1) receptor antibodies are non-specific. Cell Mol Neurobiol 32:1353-65
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22843099?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3508356/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22843099
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3508356 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Chen J, Evans AN, Liu Y, Honda M, Saavedra JM, Aguilera G (2012) Maternal deprivation in rats is associated with corticotrophin-releasing hormone (CRH) promoter hypomethylation and enhances CRH transcriptional responses to stress in adulthood. J Neuroendocrinol 24:1055-64.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22375940?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3380160/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22375940
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3380160 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Nostramo R, Tillinger A, Saavedra J, Kumar A, Pandey V, Serova LI, Kvetnansky R, Sabban EL (2012) Regulation of angiotensin II type 2 receptor gene expression in the adrenal medulla by acute and repeated immobilization stress. J Endocrinol 215:291-301
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22911895?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3474336/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22911895
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3474336 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Pang T, Benicky J, Wang J, Orecna M, Sanchez-Lemus E, Saavedra JM (2012) Telmisartan ameliorates lipopolysaccharide-induced innate immune response through peroxisome proliferator-activated receptor- activation in human monocytes. J Hypertens 30:87-96.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22124178?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3237779/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22124178
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3237779 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Pang T, Wang J, Benicky J, Sánchez-Lemus E, Saavedra JM (2012). Telmisartan directly ameliorates the neuronal inflammatory response to IL-1 partly through the JNK/c-Jun and NADPH oxidase pathways. J Neuroinflammation  9, 102.   https://doi.org/10.1186/1742-2094-9-102
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22642771?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3410820/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22642771
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3410820 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Pang T, Wang J, Benicky J, Saavedra JM (2012) Minocycline ameliorates LPS-induced inflammation in human monocytes by novel mechanisms including LOX-1, Nur77 and LITAF inhibition. Biochim Biophys Acta 1820:503-10.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22306153?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3307860/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22306153
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3307860 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Sánchez-Lemus E, Honda M, Saavedra JM (2012). Angiotensin II AT1 receptor blocker candesartan prevents the fast up-regulation of cerebrocortical benzodiazepine-1 receptors induced by acute inflammatory and restraint stress. Behav Brain Res  232, 84-92.   https://doi.org/10.1016/j.bbr.2012.03.041
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22503782?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3372928/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22503782
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3372928 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">8.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Saavedra JM (2012) Angiotensin II AT(1) receptor blockers ameliorate inflammatory stress: a beneficial effect for the treatment of brain disorders. Cell Mol Neurobiol 32:667-81.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/21938488?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3302944/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 21938488
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3302944 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">9.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Saavedra JM (2012) Angiotensin II AT1 receptor blockers as treatments for inflammatory brain disorders. Clin Sci (Lond) 123:567-90.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22827472?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3501743/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22827472
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3501743 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">10.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Villapol S, Yaszemski AK, Logan TT, Sánchez-Lemus E, Saavedra JM, Symes AJ (2012). Candesartan, an angiotensin II AT-receptor blocker and PPAR- agonist, reduces lesion volume and improves motor and memory function after traumatic brain injury in mice. Neuropsychopharmacology  37, 2817-29.   https://doi.org/10.1038/npp.2012.152
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22892395?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3499714/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22892395
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3499714 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

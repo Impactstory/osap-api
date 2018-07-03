@@ -1,0 +1,796 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002399</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002399-25</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Postmortem Brain Tissue Examination in Neuropsychiatric Disorders
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lead Investigator</div></div>
+
+<div class="rowdiv">
+<div class="data">
+Barbara K Lipska; PhD
+<br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any LIs -->
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<!-- display SoRs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Supervisor of Record</div></div>
+<div class="rowdiv">
+<div class="data">
+ <!-- faculty test -->
+Susan G Amara; PhD 
+ <!-- faculty test -->
+<br />
+
+</div>
+</div>
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Human Brain Collection Core, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Human Brain Collection Core</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Ningping  Feng; PhD<br />
+
+
+
+
+Robin Spring Kramer<br />
+
+
+
+
+Yiyin  Liu<br />
+
+
+
+
+Qing  Xu<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Francis Joseph McMahon; MD  (Section on the Genetic Basis of Mood and Anxiety Disorders)<br />
+
+
+
+Walter Scott Young; MD, PhD  (Section on Neural Gene Expression)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+H. Clifford  Lane; MD (NIAID) <br />
+
+
+
+Stanley I Rapoport; MD (NIA) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Schahram  Akbarian; MD, PhD
+<i>(University of Massachusetts Medical School)</i>
+<br />
+
+
+
+Brent  Harris
+<i>(Georgetown University)</i>
+<br />
+
+
+
+R  McCullumsmith
+<i>(University of Cinncinatti)</i>
+<br />
+
+
+
+Pamela  Sklar
+<i>(Mount Sinai Medical School)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+postmortem human brain, schizophrenia, DLPFC, allelic variation, gene expression, hippocampus, human brain development, substance abuse, susceptibility genes, transcripts
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+<br />The HBCC prepares and analyzes RNA and DNA specimens, collects gene expression and genotyping data, and disseminates the data and other scientific findings to the scientific community. Information gained from the collection of these specimens will lead to better treatments and potential cures for mental and other nervous system disorders.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Over the past year, we focused on several candidate genes for schizophrenia and affective disorders, and studied expression of multiple transcripts of these genes and their associations with schizophrenia risk-associated genotypes, such as DARPP-32, CHRNA7, and DRD1 and DRD2. For a DARPP-32 gene, we examined the association of expression of two major DARPP-32 transcripts, full-length (FL-DARPP-32) and truncated (t-DARPP-32), with genetic variants of DARPP-32 in three brain regions receiving dopaminergic input and implicated in schizophrenia (the dorsolateral prefrontal cortex DLPFC, hippocampus, and caudate) in a much larger set of postmortem samples from patients with schizophrenia, bipolar disorder, major depression and normal controls (&gt;700 subjects). We found that the expression of t-DARPP-32 was increased in the DLPFC of patients with schizophrenia and bipolar disorder and was strongly associated with genotypes at SNPs (rs879606, rs90974 and rs3764352), as well as the previously identified 7-SNP haplotype related to cognitive functioning. The genetic variants that predicted worse cognitive performance were associated with higher t-DARPP-32 expression. Our results suggest that variation in PPP1R1B affects the abundance of the splice variant t-DARPP-32 mRNA and may reflect potential molecular mechanisms implicated in schizophrenia and affective disorders.<br /><br />Dopamine 2 receptor (DRD2) is of major interest to the pathophysiology of schizophrenia both as a target for antipsychotic drug action and a schizophrenia-associated risk gene. To better understand its association with schizophrenia, we studied the expression of three DRD2 splice variants and DRD1 in the dorsolateral prefrontal cortex (DLPFC), hippocampus and caudate nucleus in a large cohort of subjects (700), including patients with schizophrenia, affective disorders and non-psychiatric controls (14th gestational week to 85 years of age). We also examined genotype-expression associations of 278 SNPs located in or near DRD2 and DRD1 genes. Expression of D2S mRNA was significantly increased in DLPFC of patients with schizophrenia relative to controls (p&lt;10e-09), while expression levels of two other splice variants of DRD2 (D2L, D2Longer) as well as DRD1 were significantly decreased (p&lt;10e-06). D2S/D2L expression ratio was significantly increased in patients with schizophrenia (). Expression of these transcripts in the DLPFC of patients with affective disorders showed an opposite pattern: reduced expression of D2S (p&lt;0.03) and increased expression of D2L and DRD1 (p&lt;0.01) relative to controls. Moreover, several SNPs were associated with DRD2 expression in the DLPFC, including a schizophrenia-associated risk allele at rs2283265 showing increased D2S/D2L expression ratio (p&lt;0.05) in control individuals. Our data suggest that altered splicing of the D2 receptor and expression of D1 receptor may constitute a pathophysiological mechanism of schizophrenia and affective disorders. The association between schizophrenia risk-associated polymorphism and the ratio of D2S/D2L is consistent with this possibility. <br />CHRNA7, coding for the &amp;#945;-7 nicotinic acetylcholine receptor (&amp;#945;7 nAChR), is involved in cognition through interneuron modulation of dopamine and glutamate signaling. CHRNA7 and its partially duplicated chimeric gene CHRFAM7A have been implicated in schizophrenia through linkage and association studies. Data on the expression of these genes in mental disorders are inconsistent. Expression of CHRNA7 and CHRFAM7A mRNA was measured in the postmortem dorsolateral prefrontal cortex in 700 subjects, including patients with schizophrenia, bipolar disorder, major depression, and non-psychiatric controls across the lifespan using quantitative real-time PCR. The effects of antipsychotics and nicotine, as well as associations of CHRNA7 SNPs with gene expression were explored. CHRFAM7A expression and CHRFAM7A/CHRNA7 ratios were significantly higher in the fetal as compared to postnatal samples, whereas CHRNA7 expression was relatively stable throughout life. CHRFAM7A expression was significantly elevated in all three diagnostic groups, while CHRNA7 expression was reduced in schizophrenia and increased in major depression as compared with controls. Importantly, CHRFAM7A/CHRNA7 ratios were significantly increased in schizophrenia and bipolar disorder (but not in major depression) as compared with controls. There was no demonstrable effect of nicotine or antipsychotics, and no association of SNPs in the region encompassing CHRNA7 and CHRFAM7A genes with expression of CHRNA7 and CHRFAM7A. Our data show preferential fetal expression of CHRFAM7A in the human prefrontal cortex, and suggest abnormalities in the CHRFAM7A/CHRNA7 ratios in schizophrenia and bipolar disorder due mainly to overexpression of CHRFAM7A.  In light of the negative findings regarding the effects of medication, nicotine and genetic variance, the mechanisms of these changes remain elusive. <br /><br />Finally, we explored epigenetic changes during development of the human prefrontal cortex (PFC), a mastermind of the brain, which is one of the last brain regions to mature. It is also a region implicated in schizophrenia and other major mental disorders. To investigate the role of epigenetics in the development of PFC we examined DNA methylation in 14,500 genes at 27,000 CpG loci focused on 5 promoter regions in 108 subjects ranging from fetal to old age. DNA methylation in the PFC shows unique temporal patterns across life. The fastest changes occur during the prenatal period, slow down markedly after birth and continue to slow further with aging. At the genome level, the transition from fetal to postnatal life is typified by a reversal of direction, from demethylation prenatally to increased methylation postnatally. DNA methylation is strongly associated with genotypic variants and correlates with expression of a subset of genes, including genes involved in brain development and in de novo DNA methylation. Our results indicate that promoter DNA methylation in the human PFC is a highly dynamic process modified by genetic variance and regulating gene transcription. We have made additional discovery by the scientists possible by using a stand-alone application BrainCloudMeth created by our team.<br /><br />We have conducted several investigations using postmortem human brain specimens focused primarily on understanding the pathophysiology of SZ in addition to other complex neuropsychiatric disorders. In addition to our own studies, the HBCC continues to provide postmortem human brain tissues to researchers and labs within and outside NIH.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86252&allpubs=Y&isajaxlink=Y&_UserReference=B3C0EB8CA606DC975B38D0B6','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Akula N, Barb J, Jiang X, Wendland JR, Choi KH, Sen SK, Hou L, Chen DT, Laje G, Johnson K, Lipska BK, Kleinman JE, Corrada-Bravo H, Detera-Wadleigh S, Munson PJ, McMahon FJ (2014) RNA-sequencing of the brain transcriptome implicates dysregulation of neuroplasticity, circadian rhythms and GTPase binding in bipolar disorder. Mol Psychiatry 19:1179-85
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24393808?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5560442/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24393808
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5560442 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Gothelf D, Law AJ, Frisch A, Chen J, Zarchi O, Michaelovsky E, Ren-Patterson R, Lipska BK, Carmel M, Kolachana B, Weizman A, Weinberger DR (2014) Biological Effects of COMT Haplotypes and Psychosis Risk in 22q11.2 Deletion Syndrome. Biol Psychiatry 75:406-13
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23992923?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3872263/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23992923
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3872263 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kunii Y, Hyde TM, Ye T, Li C, Kolachana B, Dickinson D, Weinberger DR, Kleinman JE, Lipska BK (2013) Revisiting DARPP-32 in postmortem human brain: changes in schizophrenia and bipolar disorder and genetic associations with t-DARPP-32 expression. Mol Psychiatry, in press (e-pub ahead of print)
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Morita Y, Callicott JH, Testa LR, Mighdoll MI, Dickinson D, Chen Q, Tao R, Lipska BK, Kolachana B, Law AJ, Ye T, Straub RE, Weinberger DR, Kleinman JE, Hyde TM (2014) Characteristics of the cation cotransporter NKCC1 in human brain: alternate transcripts, expression in development, and potential relationships to brain function and schizophrenia. J Neurosci 34:4929-40
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24695712?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3972720/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24695712
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3972720 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Smith RM, Papp AC, Webb A, Ruble CL, Munsie LM, Nisenbaum LK, Kleinman JE, Lipska BK, Sadee W (2013) Multiple regulatory variants modulate expression of 5-hydroxytryptamine 2A receptors in human cortex. Biol Psychiatry 73:546-54
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23158458?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3582836/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23158458
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3582836 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

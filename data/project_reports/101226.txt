@@ -1,0 +1,686 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002782</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002782-16</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">fMRI Studies Of Risk For Mood And Anxiety Disorders In Children
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Daniel  Pine; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/daniel-pine" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Development and Affective Neuroscience, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Development and Affective Neuroscience</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 20 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Rany  Abend<br />
+
+
+
+
+Brigid Mallon Behrens<br />
+
+
+
+
+Elise  Cardinale<br />
+
+
+
+
+Andrea Marie Chronis; PhD<br />
+
+
+
+
+Daniel David Louis Coppersmith<br />
+
+
+
+
+Brandee  Feola<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=101226&onameset=Section on Development and Affective Neuroscience&isajaxlink=Y&_UserReference=FE93F01CB55149685B38D50C','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 20</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Ellen  Leibenluft; MD  (Section on Mood Dysregulation and Neuroscience)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Nathan  Fox; PhD
+<i>(University of Maryland)</i>
+<br />
+
+
+
+Rachel Gittelman Klein; PhD
+<i>(Child Study Center, New York University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+anxiety, fMRI, adolescence, depression, familiality, risk, temperament, fear
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+ The goal of the current set of studies is to examine the relationship between risk for mood and anxiety disorders and the neural response to emotionally evocative stimuli and situations.  Risk is defined based on one of three indices: exposure to stressful social or medical experiences; extreme temperament during early childhood; parental history of mental illness.  The series of projects in this research program expose children and adolescents varying in one of these three domains to emotionally evocative experiences in the functional magnetic resonance imaging (fMRI) scanner.  These studies test the hypothesis that risk for mood and anxiety disorders manifests in the neural response to emotionally evocative experiences.  Specifically, risk is hypothesized to manifest in an abnormal response in the amygdala, striatum, and ventral prefrontal cortex.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+This work is conducted under protocol 03-M-0186, NCT00060775.<br />In this project, our group is examining biological aspects of risk for mood and anxiety disorders in children. Such work has major public impact. By identifying biological risks in children, information on novel treatments and preventative interventions will emerge. Given the understanding of most chronic mental illnesses as developmental disorders, such information holds the hope of dramatically influencing the mental well-being of many individuals. <br /><br />This project encompasses work examining the degree to which neurocognitive profiles vary among children and adolescents stratified with respect to personal and family history of mood and anxiety disorders. For these studies, personal history is defined based on early-childhood temperament. In a second protocol, we are acquiring fMRI data from a subset of these subjects. We have expanded our efforts in these protocols to encompass studies in juveniles across the full span of childhood and adolescence. Thus, one set of studies is based among young adults who have been prospectively followed for more than two decades. A second set of studies is based in school-aged children who are now approaching adolescence. In both sets of studies, as well as the larger series of studies in this project, considerable progress continues to be made. <br /><br />Studies on temperamental risk continue to dominate activities during the past year, as they had in the few years immediately prior. Thus, in this past year, studies on temperament occupy approximately 90% of all resources devoted to research on risk. During the past year, we spent most of our efforts on collecting data in a childhood cohort, where the subjects are now approximately 15 years old.  Our work in this cohort is now consistently replicating findings in an older cohort.  In both cohorts, our work demonstrates the persistent influence of temperament on risk into for psychopathology. In this past year, we have focused most of our efforts on identifying neurocognitive factors that isolate subsets of children with particular temperaments who face the greatest risk for psychopathology.  This has generated a steady stream of brain-imaging papers in both of these cohorts. Finally, other questions relate to the identification of factors that differentiate among children who are at high risk yet remain resilient from those who are at risk but manifest problems. Work in this project over the next few years is designed to address these questions. <br /><br />Problems with anxiety tend to run in families. Thus, anxiety often occurs among children born to parents with anxiety disorders as well as in children born to parents with major depressive disorder (MDD). In adults, MDD involves dysfunction in prefrontal brain regions that regulate attention to emotional stimuli. These abnormalities: i) have been found primarily in adults with specific familial forms of MDD, ii) persist after recovery from MDD, and iii) relate to anxiety. In adults, some data suggest that anxiety disorders are also associated with prefrontal dysfunction. However, findings in anxiety appear most strongly related to attention, whereas findings in MDD appear most strongly related to memory. This has stimulated attempts to dissociate factors in children associated with risk for anxiety as opposed to MDD. This protocol is attempting to dissociate these aspects of risk, through behavioral and fMRI studies of emotion regulation in high and low-risk adolescents. In general, research in this area continues to occupy a shrinking amount of resources in our group. <br /><br />Finally, our most in-depth studies focus on temperament, particularly the temperament of &quot;behavioral inhibition.&quot; This work is made possible through our strong collaborative relationship with Dr. Nathan Fox at the University of Maryland. Our studies in this area continued to grow and expand this year, as they had done in the immediately prior years. Dr. Fox has followed cohorts of approximately 600 infants as they passed though childhood. These children have received repeated assessments of their temperament. Temperament classifications in the sample during infancy and early childhood have been shown to predict behavior later in life. We have also completed a series of investigations in this sample. Results from these studies support the conclusions generated in other research within our group. Namely, this work establishes the presence of strong, consistent associations between the presence of and risk factors for mental illness in children and the presence of perturbed brain function.<br /><br />In the past year, our group continued to have significant success in charting relationships between temperament and brain function. We continue to publish widely in this area, having published more than 10 papers in this area during the past year, and we have acquired data from many subjects during the past 12 months. During the next year, we plan to continue to report results from completed research. This includes reports on subjects who now are in their late-20's, examining the manner in which early temperament relates to later brain function and psychopathology, expressed in early adulthood. Finally, we have completed studies in the younger cohort, with assessments when the subjects were approximately 13 years old. This led to many papers in various stages of completion. This includes reports from studies both in late adolescents and in pre-adolescent children. Most importantly, we are in the midst of preparing papers that will report data from imaging studies in this younger cohort of pre-adolescents. <br /><br />Overall, the results from these studies show that the seeds of temperament continue to be expressed throughout development. Behaviorally, these seeds are expressed in measures of task performance and signs of psychopathology. From a brain-function perspective, these seeds are expressed in measures of electrophysiology and fMRI. Moreover, these measures of brain function mediate and moderate the relationships between temperament and psychopathology. As such, the studies provide important information on understanding risk for psychopathology.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101226&allpubs=Y&isajaxlink=Y&_UserReference=FE93F01CB55149685B38D50C','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Jarcho JM, Davis MM, Shechner T, Degnan KA, Henderson HA, Stoddard J, Fox NA, Leibenluft E, Pine DS, Nelson EE (2016) Early-Childhood Social Reticence Predicts Brain Function in Preadolescent Youths During Distinct Forms of Peer Evaluation. Psychol Sci 27:821-35
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27150109?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4899210/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27150109
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4899210 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Michalska KJ, Shechner T, Hong M, Britton JC, Leibenluft E, Pine DS, Fox NA (2016) A developmental analysis of threat/safety learning and extinction recall during middle childhood. J Exp Child Psychol 146:95-105
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26922673?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5103629/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26922673
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5103629 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Shechner T, Jarcho JM, Wong S, Leibenluft E, Pine DS, Nelson EE (2017) Threats, rewards, and attention deployment in anxious youth and adults: An eye tracking study. Biol Psychol 122:121-129
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26493339?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5104661/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26493339
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5104661 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

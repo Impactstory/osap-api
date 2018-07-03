@@ -1,0 +1,780 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002808</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002808-12</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">National Comorbidity Survey - Adolescent (NCS-A)
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Kathleen R Merikangas; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/kathleen-merikangas" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Developmental Genetic Epidemiology, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Developmental Genetic Epidemiology</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 7 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Lihong  Cui; MS<br />
+
+
+
+
+Jian-Ping  He; MS<br />
+
+
+
+
+Nicole Dorothee Jameson; BS<br />
+
+
+
+
+Diane M Lameira; BA<br />
+
+
+
+
+Tarannum  Lateef; MD<br />
+
+
+
+
+Erin  Nakamura; MPH<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=86303&onameset=Section on Developmental Genetic Epidemiology&isajaxlink=Y&_UserReference=8EE73EBC4BAD1DE65B38D302','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 7</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Shelli  Avenevoli; PhD  (Developmental Trajectories of Mental Disorders Branch)<br />
+
+
+
+Marcy Ellen Burstein; PhD  (Genetic Epidemiology Branch)<br />
+
+
+
+Judith L Rapoport; MD  (Child Psychiatry Branch)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Karin B. Nelson; MD (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 9 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Robert  Althoff; MD, PhD
+<i>(University of Vermont, Vermont)</i>
+<br />
+
+
+
+Carlos  Blanco; MD, PhD
+<i>(Psychiatry, Columbia University)</i>
+<br />
+
+
+
+Elizabeth J Costello; PhD
+
+<i>(Duke University)</i>
+<br />
+
+
+
+Scott  Crow; MD
+<i>(University of Minnesota)</i>
+<br />
+
+
+
+Ian  Hickie; MD
+<i>(University of Sydney, Australia)</i>
+<br />
+
+
+
+Femke  Lamers; PhD
+<i>(VU University Medical Center Amsterdam, Netherlands)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=86303&isajaxlink=Y&_UserReference=8EE73EBC4BAD1DE65B38D302','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 9</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+NCS-A, epidemiology, adolescents, substance abuse, service use, mood, anxiety, sleep, fatigue
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The Adolescent Supplement of the National Comorbidity Study (NCS-A) is the first study of a nationally-representative sample of 10,148 U.S. adolescents assessing a broad range of emotional, behavioral, and substance use disorders using a modified version of the fully structured World Health Organization Composite International Diagnostic Interview, version 3.0 (CIDI).  The goals of the NCS-A are, in the U.S. adolescents: (1) to obtain the prevalence estimates of the major DSM-IV psychiatric disorders; (2) to identify risk or protective factors of emotional and behavioral disorders; (3) to examine the range of expression of the core phenomenology underlying mood, anxiety and behavior disorders; (4) to identify patterns and correlates of service utilization for mental disorders; and (5) to identify early forms of expression of adult mental disorders and links with adult mental disorders.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+During the past year, we have continued to actively pursue analyses of topics relevant to the National Institute of Mental Health, Intramural Research Program mission such as anxiety disorders, attention deficit hyperactivity disorder (ADHD), mood disorders, sleep patterns and problems, service utilization, and neighborhood risk factors for mental disorders. The research yielded several peer-reviewed publications.  The chief findings include: <br /><br />-Threshold and subthreshold forms of generalized anxiety disorder (GAD) are prevalent in adolescents with a high degree of psychiatric comorbidity, disability and impairment. The findings indicate that threshold GAD may be typified by greater severity and chronicity than subthreshold GAD, however the distress and impairment experienced by adolescents with subthreshold GAD is often comparable with that of those who meet full criteria for the disorder, and no less worthy of professional or scientific attention (Burstein et al, 2014);<br /><br />-Neighborhood conditions are linked with NCS-A data using geocoding.  The findings of the association of neighborhood disadvantage and salivary cortisol levels suggest place of residence may influence the stress response system in U.S. adolescents (Rudolph et al, 2014);<br /><br />-The proportion of adolescents with bipolar disorder who received treatment is substantially low; and of those who do, many receive treatment for comorbid conditions rather than for their mood-related symptoms. These findings also highlight the sources of bias of clinical samples of youth with bipolar disorder (Khazanov et al, 2014);<br /><br />-There is a high risk of suicidal ideation and behavior among adults and adolescents with bulimia nervosa. The findings underscore the importance of addressing suicide risk in adolescents and adults with eating disorder symptoms (Crow et al, 2014).<br /><br />Public Health Impact:<br />We have continued to provide data on the prevalence, correlates and service patterns at the phenomenologic level on a wide range of psychiatric disorders in a nationally representative sample of U.S. adolescents. Our study also demonstrated that neighborhood factors may play important roles in the development of mental disorders in adolescents.  We believe that these findings provide beneficial information to inform future research and treatment interventions.  As mental health treatment research is moving into the translation of lab-based findings to treatment interventions, service level data provides us with an avenue to put our previous translational research into context and further enhance subsequent interventions.  While the development of interventions is important, the ultimate success of intervention is predicated on the way this intervention is integrated into the existing medical system.  Service utilization studies conducted within this group provide some insight into the populations and service sectors that could benefit from targeted interventions.<br /><br />Future Plans:<br />We have also actively worked on the following projects that produced several important manuscripts that are either submitted or ready for submission: <br /><br />-Describe the magnitude of major depressive disorder and its severe form in U.S. adolescents and examine sociodemographic correlates, comorbidity, impairment and treatment patterns (Avenevoli et al, 2014 submitted); <br /><br />-Examine the overall prevalence of prior mental disorders among adolescents having attained each stage of substance use (from first use to dependence) and estimate the influence of prior mental disorders in the probability of transition from earlier to later stage of use (Swendsen et al, 2014 ready for submission);<br /><br />-Estimate the prevalence and health correlates of insomnia symptoms and their association with comorbid mental disorders in adolescents (Blank et al, 2014 in press);<br /><br />-Examine physical comorbidity among adolescents with a diagnosis of ADHD (Jameson et al, 2014 submitted); <br /><br />-Assess utility of the new DSM-5 label for disruptive mood dysregulation disorder (DMDD) (Althoff et al, 2014 under review);<br /><br />-Understand the diversity of psychopathology in adolescents by using a novel approach to describe the frequency of co-occurrence of psychiatric disorders in a virtual space that spanned by factors reflecting major psychopathologic dimensions; examine whether the major psychopathological dimensions can be hierarchically organized; and determine the distribution of the latent scores of individuals in the space spanned by those dimensions (Blanco et al, 2014 submitted); <br /><br />-Assess the generalizability of adolescent clinical trials of major depressive disorder; given that current practice of the clinical trials likely exclude a great majority of adolescents with major depressive disorder (Blanco et al, 2014 submitted). <br /><br />We are also pursuing additional analyses on the following topics: 1) school start time and sleep patterns among U.S. adolescents; 2) residential and school mobility and mental disorders in adolescents; 3) irritability as an index of depression; and 4) comorbidity and correlates of panic disorder.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86303&allpubs=Y&isajaxlink=Y&_UserReference=8EE73EBC4BAD1DE65B38D302','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Blank M, Zhang J, Lamers F, Taylor A, Hickie I, Merikangas KR (2014) Health correlates of insomnia symptoms and comorbid mental disorders in a nationally representative sample of US adolescents. Sleep, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Burstein M, Beesdo-Baum K, He JP, Merikangas KR (2014) Threshold and subthreshold generalized anxiety disorder among US adolescents: prevalence, sociodemographic, and clinical characteristics. Psychol Med 44:2351-62
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24384401?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4079772/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24384401
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4079772 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Costello EJ, He JP, Sampson NA, Kessler RC, Merikangas KR (2014) Services for adolescents with psychiatric disorders: 12-month data from the National Comorbidity Survey-Adolescent. Psychiatr Serv 65:359-66
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24233052?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4123755/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24233052
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4123755 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Rudolph KE, Gary S W, Stuart EA, Glass TA, Marques AH, Duncko R, Merikangas KR (2014) The association between cortisol and neighborhood disadvantage in a U.S. population-based sample of adolescents. Health Place 25C:68-77.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24367996?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3913161/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24367996
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3913161 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

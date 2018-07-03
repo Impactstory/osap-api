@@ -1,0 +1,832 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002838</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002838-14</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neurophysiology of Visual Perception
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+David A Leopold; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/david-leopold" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Cognitive Neurophysiology and Imaging, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Cognitive Neurophysiology and Imaging</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Kathryn A Smith<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Rebecca Ann Berman; PhD<br />
+
+
+
+
+Amit Paresh Khandhadia<br />
+
+
+
+
+Marvin Lionel Leathers<br />
+
+
+
+
+Aidan Peter Murphy<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Kadharbatcha Syed Saleem  (Laboratory of Neuropsychology)<br />
+
+
+
+Richard C Saunders; PhD  (Section on Cognitive Neuroscience)<br />
+
+
+
+Janita N Turchi; PhD  (Section on Cognitive Neuroscience)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Jozef H Duyn; PhD (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+James  Bourne
+<i>(Monash University)</i>
+<br />
+
+
+
+Sang-Hun  Lee
+<i>(Seoul National University)</i>
+<br />
+
+
+
+Alexander  Maier
+<i>(Vanderbilt University)</i>
+<br />
+
+
+
+Michael C Schmid
+<i>(Newcastle University)</i>
+<br />
+
+
+
+Peter Ulrich Tse; PhD
+<i>(Psychological and Brain Sciences, Dartmouth College)</i>
+<br />
+
+
+
+Andrew  Welchman
+<i>(Cambridge University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+visual perception, neurophysiology, fMRI, visual psychophysics, blindsight, multistable perception, visual cortex
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Humans are strongly guided by their vision and can make complex visual assessments without detectable effort.  This capacity belies the inherent computational difficulty of visual perception, which involves a large number of specialized and interconnected areas of the brain. <br /><br />Primates, including humans, distinguish themselves from other mammals in having a high-resolution foveal specialization of the retina that affords unusually high capacity to see detail at a distance. More than other mammalian species, we depend on our vision and the perception-at-a-distance advantage it affords over other senses.  We readily interpret visual patterns ranging from simple (e.g., the perception of light and dark) to geometric (e.g., what is in front and what is behind) to semantic (e.g., is this person trustworthy). <br /><br />Behind these interpretations is a hierarchy of cortical areas whose functioning has been the object of study for several decades. Visual perception has always been, and remains, a central feature of our research program, as it is important for understanding key aspects of human behavior for at least two reasons. First, the faculty of vision is the key model of human sensation in general, since vision is the primary sense that humans use to interact with their environment, particularly from a distance. Second, these interpretive elements of the senses can go awry in psychiatric and neurological disorders. <br /><br />At present, the principal focus of our research in this area is the interaction between the visual cortex and the visual thalamus. To study this interaction, we have been systematically mapping activity in the pulvinar nucleus, the largest thalamic nucleus in both human and nonhuman primates.  We have also measured synchronous activity within the visual cortex and its relationship to thalamic input.  The long-term aim is to describe how activity through the multiple interconnected cortical and thalamic brain areas give rise to our perceptual impressions of the surrounding world.<br /><br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+To understand our vision, it is critical to place humans within an appropriate phylogentic context: humans are primates, and their dominant use of vision is typical of primates and different from other mammals.  As a sensing faculty, vision places individuals at a great advantage over their environment, allowing them to remotely sense complex details from a safe distance.  As this context is critical for our research, we recently published a comprehensive review describing the distinguishing features of primate vision against a mammalian background, and thus placing human vision into its proper evolutionary context (Leopold, Freiwald, and Mitchell, Evolution of Nervous Systems, ed. Kaas, 2017). <br /><br />Much of our research on visual perception centers on how we see shapes, objects, and scenes. From the moment light enters the eyes, our percept is molded by a series of processing stages, crafted through years of visual experience during primates unusually long period of development. In our laboratory, we combine fMRI and electrophysiology to ask questions such as, how does the brain create a three-dimensional representation of the world, given that its retinal images are inherently two-dimensional? How do we complete surfaces, distinguish between foreground and background, and understand the difference between real motion and the motion caused by our own eye movements? These types of questions are present in each of our research lines. Here we described several studies that focus on particular sub-questions. <br /><br />In the past two years, we have placed most of our emphasis studying visual perception on the mysterious role of the large pulvinar nucleus of the thalamus, which projects to multiple visual areas including the primary visual cortex (V1).  In one set of studies, we have been investigating electrical activity across the pulvinar using a novel electrode mapping approach.  This large project has yielded two papers currently in preparation (Murphy et al. and (Deng et al..  We have recently published a comprehensive review paper on the pulvinar, (Bridge et al., 2016), which focuses on multiple aspects of its structure and function, including a newly hypothesized transient visual pathway that precedes that adult geniculostriate pathway that conveys early postnatal visual information.  We have recently submitted a large collaborative study investigating the role of early-life ablation of one small pulvinar nucleus, and the effect of its disruption on visually-guided manual behavior in the adult (Mundinano et al., 2017), under review. <br /><br />We have also made progress on activity in the visual cortex, focusing on several features of area V1. In one study, currently under review (Cox et al., 2017)), we have studied the effects of a brief attentional cue on activity outside neurons receptive fields within V1, with the results suggesting that there is effectively an activity blink just following the presentation of meaningful cues.  We further investigated the entrainment of spiking and gamma-range LFP activity by alpha signals (Dougherty et al., 2017). We also published a paper showing that the ablation of are V1 does not disrupt but rather enhances activity correlation in higher-order visual areas (Shapcott et al.,  2016). Finally, in a collaborative study, we found that human patients with damage to the parietal cortex were selectively affected in their perception of binocular disparity (Murphy et al., 2016).<br /><br />In our work on visual perception, we have been increasingly interested in the brains responses to stimuli that are not simply flashed on the screen but that rather evolve over time.  To this end, we have conducted multiple studies in which macaques and marmosets freely view dynamic video stimuli. From an experimental perspective, data analysis from this type of experiment can be challenging, as there is inherent variability in the subjects eye positions.  In one study, we systematically examined the regional fMRI responses to the subjects eye movements, and compared them to the fMRI responses to the events in the movie itself (Russ et al., 2016).  We found that the activity patterns under these two conditions were very different.  In a very recent study, we used both fMRI and electrophysiology to create a new means to classify neural responses using fMRI maps (Park et al., 2017).  This method demonstrated that neurons within hundreds of microns of one another were affiliated in very different ways with distant brain areas.  These and other results from the natural viewing paradigm have raised a number of new questions about how the brain interprets its retinal images, and we are currently in the process of focusing on the temporal dynamics of the responses, asking to what extent neural responses integrate temporal integration over time (Russ et al., in preparation).<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101233&allpubs=Y&isajaxlink=Y&_UserReference=5F569C85DBCCE7765B38D658','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Book chapters<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Leopold D, Mitchell JF, Freiwald WA (2017) Evolved mechanism of high-level visual perception in primates, in Evolution of Nervous Systems, 2nd Edition, Volume 3. , pp. 203-35.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Bridge H, Leopold DA, Bourne JA (2016) Adaptive Pulvinar Circuitry Supports Visual Cognition. Trends Cogn Sci 20:146-57
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26553222?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4724498/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26553222
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4724498 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Murphy AP, Leopold DA, Humphreys GW, Welchman AE (2016) Lesions to right posterior parietal cortex impair visual depth perception from disparity but not motion cues. Philos Trans R Soc Lond B Biol Sci 371:
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27269606?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4901457/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27269606
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4901457 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Park S, Russ BE, McMahon DB, Koyano K, Berman RA, Leopold DA (2017) Functional subpopulations of neurons in a macaque face patch revealed by single-unit fMRI mapping. Neuron, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Russ BE, Kaneko T, Saleem KS, Berman RA, Leopold DA (2016) Distinct fMRI Responses to Self-Induced versus Stimulus Motion during Free Viewing in the Macaque. J Neurosci 36:9580-9
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27629710?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5039243/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27629710
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5039243 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Shapcott KA, Schmiedt JT, Saunders RC, Maier A, Leopold DA, Schmid MC (2016) Correlated activity of cortical neurons survives extensive removal of feedforward sensory input. Sci Rep 6:34886
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27721468?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5056506/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27721468
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5056506 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Taubert JA, Wardle SG, Flessert MR, Leopold DA, Ungerleider LG (2017) Face pareidolia in the rhesus monkey. Current Biology, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

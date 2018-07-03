@@ -1,0 +1,633 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002893</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002893-07</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Learning and plasticity in the human brain
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Christopher Ian Baker; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/chris-baker" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Learning and Plasticity, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Learning and Plasticity</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 8 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Elizabeth Ashley Aguila<br />
+
+
+
+
+Joseph M Arizpe<br />
+
+
+
+
+Emily Nicole Bilger<br />
+
+
+
+
+Wai Yiu  Chan<br />
+
+
+
+
+Dwight J Kravitz<br />
+
+
+
+
+Caroline E Robertson<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=81238&onameset=Section on Learning and Plasticity&isajaxlink=Y&_UserReference=134FBE83CDA718785B38D064','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 8</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Alex  Martin; PhD  (Section on Cognitive Neuropsychology)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Carlo  Pierpaoli; MD, PhD (NICHD) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+S  Baron-Cohen
+<i>(University of Cambridge)</i>
+<br />
+
+
+
+Jack  Tsao; MD, DPhil
+<i>(Uniformed Services University of the Health Sciences)</i>
+<br />
+
+
+
+M  Williams; PhD
+<i>(Macquarie Center for Cognitive Science, Macquarie University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+learning, plasticity, functional brain imaging, human brain, macular degeneration, phantom limb pain
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+There are two major goals to our research on learning and plasticity. First, we aim to elucidate how neural processing in the brain changes over time during the course of learning or training. Second, we are very interested in how brain function is altered in the context of both injury and disorders of mental health.  By combining these two goals we hope to provide insight into how learning and training may ameliorate the effects of dysfunction in the nervous system. To achieve these goals we use magnetic resonance imaging (MRI) to measure both structure and function in the brain of i) healthy participants performing specific tasks and ii) people with different disorders/injuries of the nervous system including macular degeneration (loss of visual input from retinal damage), limb amputation (loss of somatosensory/tactile input), and Autism Spectrum Disorders (ASD). <br /><br />Macular degeneration and amputation provide excellent models to look at plasticity in the adult brain since there is no damage to the brain itself, just a change in the input to the brain. We are particularly interested in establishing whether parts of the brain deprived of input are able to take on new functions and whether plasticity is associated with conditions such as Phantom Limb Pain (PLP - the feeling of pain in the amputated/missing limb) and Charles Bonnet syndrome (visual hallucinations sometimes experienced by people with macular degeneration).<br /><br />Given the increasing number of war veterans returning with limb trauma, and the prevalence of macular degeneration in an expanding elderly population, understanding the neural consequences of these disorders and the capacity for brain plasticity is vital for the development of rehabilitative therapies.<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The primary goals of this research are i) to establish differences in brain processing in the context of nervous system damage or dysfunction, and ii) to determine the potential for learning-induced plasticity to ameliorate the negative consequences of such changes. Over the past year we have primarily focused on Autism Spectrum Disorders (ASD) and the impact of amputation, and on establishing the structural brain changes that accompany learning/training.<br /><br />1) Loss of somatosensory input (NCT00623818)<br /><br />Following limb amputation, over 90% of people report phantom sensations in their missing limb, often painful sensations (Phantom Limb Pain, or PLP). One current theory suggests that PLP is a direct result of cortical reorganization, an example of maladaptive plasticity. Mirror therapy has been used as a treatment for PLP. During this therapy, patients move their intact limb while looking in a mirror, making it seem as if their missing limb is moving. We are currently investigating the neural consequences of amputation and the impact of mirror therapy on brain activity over time. We are continuing to recruit unilateral limb amputees and monitoring brain activity with fMRI over a period of four weeks while the amputees undergo mirror therapy. We are trying to establish whether the presence of PLP correlates with cortical reorganization in the somatosensory and motor cortex (similar to that observed in our participants with macular degeneration) and whether the mirror therapy works by reducing the extent of cortical reorganization.<br /><br />2) Autism Spectrum Disorders (NCT01031407)<br /><br />We have been investigating motion processing, decision-making and attention in Autism Spectrum Disorders (ASD), processes that are supported by well-characteristic brain networks. <br /><br />In the context of motion processing, previous studies had reported conflicting results with some studies finding impaired motion processing in ASD and other finding no impairment. By varying the time allowed to make judgments, we found that motion processing in ASD is impaired, but only at short durations. Further, this deficit in performance is reflected in the activity of brain regions involved in visual motion processing, with reduced responses in autistic compared with control participants. <br /><br />In the context of attention, we asked participants to perform a simple visual discrimination and measured the spatial gradient of attentional enhancement. We found that this gradient was sharper in autism than in matched control participants (Robertson et al, 2013, Journal of Neuroscience).<br /><br />3) Learning/training (NCT00001360)<br /><br />We are conducting a long-term longitudinal study of participants learning different tasks (e.g. motor sequences) to determine how structural properties of the brain change over time. <br /><br />Establishing the nature, degree and consequences of plasticity in the adult cortex provides important insights into the potential for rehabilitative brain therapies following injury or dysfunction in the nervous system.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81238&allpubs=Y&isajaxlink=Y&_UserReference=134FBE83CDA718785B38D064','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Robertson CE, Kravitz DJ, Freyberg J, Baron-Cohen S, Baker CI (2013) Tunnel vision: sharper gradient of spatial attention in autism. J Neurosci 33:6776-81.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23595736?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3640213/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23595736
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3640213 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

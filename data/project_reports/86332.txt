@@ -1,0 +1,662 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002898</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002898-08</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Social processing and neural plasticity
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+David A Leopold; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/david-leopold" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Cognitive Neurophysiology and Imaging, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Cognitive Neurophysiology and Imaging</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Heba Dia-Eldin Elnaiem<br />
+
+
+
+
+Adam Patrick Jones<br />
+
+
+
+
+David Brian Thomas McMahon<br />
+
+
+
+
+Soo Hyun  Park<br />
+
+
+
+
+Brian E Russ<br />
+
+
+
+
+Kathryn A Smith<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Sebastian  Guderian  (Section on Cognitive Neuroscience)<br />
+
+
+
+Peter Matthew Kaskan; PhD  (Section on Neurobiology of Learning and Memory)<br />
+
+
+
+Mortimer  Mishkin; PhD  (Section on Cognitive Neuroscience)<br />
+
+
+
+Elisabeth Adams Murray; PhD  (Section on Neurobiology of Learning and Memory)<br />
+
+
+
+Barry J Richmond; MD  (Section on Neural Coding and Computation)<br />
+
+
+
+Leslie G Ungerleider; PhD  (Laboratory of Brain and Cognition)<br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Pascal  Belin
+<i>(University of Glasgow)</i>
+<br />
+
+
+
+Igor  Bondar; PhD
+<i>(Institute for Higher Nervous Activity)</i>
+<br />
+
+
+
+Pier  Ferrari; PhD
+<i>(Biology, Univesity of Parma)</i>
+<br />
+
+
+
+Daniel  Javitt
+<i>(Nathan Kline)</i>
+<br />
+
+
+
+Gillian  Rhodes; PhD
+<i>(Psychology, University of Western Australia)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+social perception, visual adaptation, dynamic visual stimuli, event-related fMRI, inferotemporal cortex
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+One characteristic of the brain is that it learns.  At the same time, it must reliably respond to stimuli and situations it has previously encountered.  As such, the brain faces the stability/plasticity dilemma, in which it must adapt itself but simultaneously retain its own features.  The nature of this dilemma can be illustrated with an example: how does the brain learn to recognize a new face?  While we do not know specific answers to this question, it is reasonable to assume that somewhere neurons must change their responses to a given face based on experience.  But if they alter the activity of some neurons, then there is the risk of losing the capacity to recognize a different face.  Being able to track individual neurons during this period would help us understand how the brain addresses this conundrum.  In the past year, we have published our first studies related to a new experimental tool developed in the laboratory that allows for isolation of multiple, individual neurons within a small area of the brain.  This isolation is so stable that the activity of the same cell can be monitored over multiple recordings sessions, multiple weeks, and in extreme cases over a year.  This method has opened up a range of new possibilities to study the brain. We have primarily directed this method toward the tracking and learning of socially related stimuli over time.  Understanding the brains plasticity for social stimuli is particularly important because failure to learn and interpret social cues is a feature of a number of neuropsychiatric disorders.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+There are countless mechanisms by which the brain learns, with the fundamental unit of learning expressed at the synapse.  In vitro studies can track the changing strength of synapses based on principles of coordinated presynaptic and postsynaptic activity.  Many of the principles of neural learning have been a part of the animals central nervous system for hundreds of millions of years.  At the level of an individual person or animal, these changes are collectively expressed in such a way that it is useful for ones interaction with the environment.  For example, upon meeting and getting to know somebody for the first time, one learns not only their basic facial features, but also how they use their face to express themselves.  The brain is able to hold onto, and later use, this information and this is undeniably related to the modification of synaptic strengths, probably in the visual system.  However, it is very difficult to even begin to understand how this pattern of learning is expressed across different cortical areas.  There may be millions or billions of synapses that are affected during the learning of a face.  Where are these changes taking place, and how is it that changing one set of synaptic weights will not severely disrupt other previously learned items?  These changes must be back compatible.<br /><br />Sometimes new technologies are needed to shed new light on aspects of brain function. In the laboratory, we have recently developed a chronic recording array of inertialess microwires that were capable of following the activity of single neurons across multiple days.  A methods paper on this subject was recently published McMahon et al., J Neurophysiol (2014).  With this method, we are able to isolate individual neurons to measure each of their action potentials, either spontaneous or in response to visual stimuli. Because of their small size, and the apparent absence of a gliosis reaction, the electrodes are able to routinely maintain isolation of the same neurons for periods that are much longer than have previously been demonstrated in the visual cortex.  This new capacity has enormous implications for the types of experiments one can conduct.  For example, with this capacity, it means one is able to examine the responses of single neurons longitudinally, not only over a few hours of a session, but also between sessions, and even across weeks and months.  In a recently published study, we measured the responses of multiple neurons within fMRI defined face patches McMahon et al, Proc Natl Acad Sci (2014).  We presented a large number of static stimuli in order to establish the selectivity of individual neurons  a fingerprint of sorts. Then we went back on subsequent days to the same electrodes (which remained permanently implanted in position) and found that the neurons were still there, and that they maintained a virtually identical fingerprint of stimulus responses.  In fact, over time periods of months and even exceeding one year, neurons in the recorded area maintained their precise pattern of stimulus response selectivity.  This finding is unexpected because it suggest that neurons in a region of the brain ostensibly dedicated to faces do not exhibit updates or adjustments in their activity with natural experience.  <br /><br />To examine face patch plasticity further, we asked whether intensive perceptual training with faces might affect neural responses Jones et al, SFN Abstr (2013).  In that study, monkeys were trained to report the identity of a set of morphed human faces as well as a set of morphed macaque faces.  We tracked that activity of neurons over a period of longer than three months to determine whether this training would have any effect on the response fingerprint.  Training commenced after one month.  Throughout this period we presented the same basic stimuli and examined the responses for signs of neural plasticity.  We were unable to detect any changes associated with learning.  This is striking given that we were recording from one of the fMRI face patches, where we demonstrated that neurons responded vigorously and selective to faces.  These findings together present the unexpected result that neurons in a face patch do not change in their responses over time.  It is important to point out that this result will almost certainly differ across the brain, as it is clear that some areas within the brain must learn about faces.  However, this study does provide a new understanding about what is possible at a neural level: once individual neurons in certain areas of the brain acquire a specific set of stimulus-contingent responses, they are able to retain this precise selectivity for much longer than was previously supposed.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86332&allpubs=Y&isajaxlink=Y&_UserReference=C069795DC93CC2905B38D4C3','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">McMahon DB, Bondar IV, Afuwape OA, Ide DC, Leopold DA (2014) One month in the life of a neuron: longitudinal single unit electrophysiology in the monkey visual system. J Neurophysiol 112:1748-62
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24966298?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4157170/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24966298
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4157170 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">McMahon DB, Jones AP, Bondar IV, Leopold DA (2014) Face-selective neurons maintain consistent visual responses across months. Proc Natl Acad Sci U S A 111:8251-6
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24799679?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4050553/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24799679
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4050553 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,732 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002843</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002843-12</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Identification of Genes Involved in Major Mood Disorders
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Francis Joseph McMahon; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/francis-mcmahon" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on the Genetic Basis of Mood and Anxiety Disorders, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on the Genetic Basis of Mood and Anxiety Disorders</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 19 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Nirmala  Akula<br />
+
+
+
+
+Timothy Glenn Barton<br />
+
+
+
+
+Stephanie Aurora Cardenas<br />
+
+
+
+
+Winston R Corona<br />
+
+
+
+
+Kenan Patrick Courtney<br />
+
+
+
+
+Theresa B DeGuzman<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=91062&onameset=Section on the Genetic Basis of Mood and Anxiety Disorders&isajaxlink=Y&_UserReference=C3C375EDD0086F435B38D117','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 19</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Melissa A Brotman  (Section on Mood Dysregulation and Neuroscience)<br />
+
+
+
+Ellen  Leibenluft; MD  (Section on Mood Dysregulation and Neuroscience)<br />
+
+
+
+Kenneth  Towbin; BA, MD  (Section on Mood Dysregulation and Neuroscience)<br />
+
+
+
+Yin Y Yao; PhD  (Statistical Genomics and Data Analysis Core)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 12 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Martin  Alda
+<i>(Dalhousie University)</i>
+<br />
+
+
+
+Maja  Bucan; PhD
+<i>(University of Pennsylvania)</i>
+<br />
+
+
+
+Michael  Crawford; PhD
+<i>(Molecular Anthropology, University of Kansas)</i>
+<br />
+
+
+
+Jonathan  Haines
+<i>(Case Western Reserve University)</i>
+<br />
+
+
+
+Lee  Hood; MD, PhD
+<i>(Insititute for Systems Biology)</i>
+<br />
+
+
+
+John  Kelsoe; MD
+<i>(University of California, San Diego)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=91062&isajaxlink=Y&_UserReference=C3C375EDD0086F435B38D117','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 12</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+lithium, Amish, behavioral genetics, family genetics, genetic marker, genetic registry /resource /referral center, genetic susceptibility, linkage mapping, sibling, sequencing, bipolar depression, mood disorder
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Major mood disorders such as bipolar disorder and major depression are common, often severe mental illnesses. Worldwide, mood disorders are one of the largest sources of death and disability. Bipolar disorder typically starts early in life, impairing social and occupational functioning over many years. Mood disorders are also the leading risk factor for suicide, a major cause of death in several age groups. Relatively little is known about the causes of mood disorders, aside from the strong contribution of genetic factors.  Family, twin, and adoption studies have shown that genes are a major determinant of individual risk for mood disorders, but as in other common disorders, the identification of these genes has proven to be a significant challenge. Real progress must encompass an understanding of the major role that genes play in determining differences in individual risk, symptoms, and response to treatment. <br />  <br />The long-term objective of this study is to identify genes that influence risk, clinical presentation, and treatment response in major mood disorders. Once identified, these genes will help illuminate the pathophysiology and may point the way to better methods of prevention, diagnosis, and treatment.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+NCT00001174<br /><br />Starting in 1993, in collaboration with 10 academic centers across the United States, we recruited a large sample of over 3,000 individuals with bipolar or related mood disorders. All participants did a diagnostic interview and provided a blood sample for DNA analysis. DNA and clinical data are available through the NIMH Center for Genetics.<br /><br />Genetic linkage studies suggested several chromosomal regions may contain genes that contribute to mood disorders in this sample. To identify individual causal genes, we conducted the first genome-wide association study of bipolar disorder in 2007. The results implicated several genes, each of small effect, suggesting that bipolar disorder is a polygenic disease. Our 2011 meta-analysis of independent case-control studies of bipolar disorder supported association with a cluster of genes on chromosome 3p21, markers near TRANK1, LMAN2L, and PTGFR, and 2 independent regions of ANK3 implicated in previous studies. Many of these findings have now been replicated in independent samples. Ongoing work, supported by the National Alliance for Research on Schizophrenia and Depression, is using genome-wide association methods in large samples of cases and controls to detect additional risk genes on the X-chromosome, which has so far been little studied in bipolar disorder by such methods. <br /><br />We have shown that models based on large numbers of markers can distinguish between cases and controls in independent datasets with high significance, but only modest predictive value. These studies also suggest that common alleles predisposing to bipolar disorder also predispose to major depression and schizophrenia, but not to neurological diseases such as Parkinson's Disease. Collaborative work we did with the Cross-Disorder Group of the Psychiatric Genomics Consortium has confirmed that there are substantial genetic correlations between schizophrenia and bipolar disorder, schizophrenia and major depressive disorder, bipolar and major depressive disorder, and between ADHD and major depressive disorder. These results point to shared genetic risk factors among major psychiatric disorders that may reflect shared pathophysiologies.<br /><br />To identify genetic variants that may have a larger impact on individual risk for major mood disorders, we have undertaken genome sequencing studies in selected populations with reduced genetic diversity and large families. Large families increase the opportunities for ascertaining distant relatives with a mood disorder, and individuals belonging to different nuclear families are often related, forming an extended kindred ideal for genome sequencing studies. So far we have collected close to 200 individuals from Amish and Mennonite communities whose unique genetic history makes them especially good candidates for this kind of study. All blood samples are processed by the Rutgers Cell and DNA Repository who also establish lymphoblastoid cell lines and distribute DNA as a resource for the general scientific community. We will also continue to collect families as they are identified. Our goal is to collect at least 200 additional cases, along with their parents and offspring. Offspring are studied in collaboration with Dr Leibenluft's group in the NIMH Division of Intramural Research Programs, which performs additional cognitive and emotional testing on these high-risk children.<br /><br />Genome sequencing began in 2012 using technology that captured only the exome, or the expressed portions of the genome. So far we have completed about 80 exome sequences in individuals of Amish or Mennonite ancestry. Although not rare, damaging mutations have been found that are shared by the majority of cases in our study, we have identified over 1000 promising variants shared by distantly-related cases. These have been submitted to the Bipolar Sequencing Consortium (BSC) where they will become part of a large meta-analysis of sequenced cases, controls, and families. Skin biopsies are obtained on sequenced individuals and converted to fibroblasts. Several fibroblast lines have been reprogrammed into induced pluripotent stem cells for functional genomic studies.<br /><br />With support and collaboration from the Institute of Systems Biology (ISB), we have also completed whole genome sequence on 105 individuals from the collection. Ongoing analyses are aimed at detecting genetic variants that influence BD risk by virtue of their impact on gene regulation. We are also examining small deletions and insertions that can be readily detected in whole genome sequence. Those that overlap known genes and tend to segregate with mood disorders in families may be particularly important. <br /><br />Also in collaboration with ISB, and the Bipolar Disorder Genome Study (BiGS), we have analyzed whole-genome sequences performed on 200 members of 41 families multiply affected with bipolar disorder. Several classes of coding and non-coding (regulatory) variants segregating in these pedigrees were enriched for neuronal excitability genes. Most affected individuals inherited several of these variants, suggesting that genetic risk is generally oligogenic. Variants in promoters and 3 and 5 untranslated regions contributed more strongly than coding variants to risk for bipolar disorder, both in pedigrees and in the case-control cohort. Ongoing work is aimed at confirming these findings in additional samples and characterizing the functional impact of the implicated genetic variants. If confirmed, these results could have important implications for our understanding of the causes of bipolar disorder and provide clues for better treatment.<br /><br />We are also searching for genetic markers that might help predict an individual's response to lithium, one of the most effective known treatments for bipolar disorder. To this end, we organized a large international collaboration, known as the Consortium on Lithium Genetics (ConLiGen), which aims to characterize lithium response in a large group of patients using reliable instruments, and then perform a genome-wide association study. In collaboration with the University of Bonn, we completed genome-wide SNP array genotyping on over 3000 cases. Association analysis was performed using definitions of lithium response that showed high inter-site reliability. We identified a genome-wide significant signal in a region on chromosome 21 that appears to encode a long-noncoding RNA molecule. Recently, supportive evidence for this genetic marker was detected in an independent sample of people with bipolar disorder who were treated with lithium alone and followed for up to 2 years.  If replicated in additional samples, these results would point to a novel pathway whereby lithium exerts its therapeutic effects on bipolar disorder.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91062&allpubs=Y&isajaxlink=Y&_UserReference=C3C375EDD0086F435B38D117','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Andreassen OA, Harbo HF, Wang Y, Thompson WK, Schork AJ, Mattingsdal M, Zuber V, Bettella F, Ripke S, Kelsoe JR, Kendler KS, O'Donovan MC, Sklar P, Psychiatric Genomics Consortium (PGC) Bipolar Disorder and Schizophrenia Work Groups, International Multiple Sclerosis Genetics Consortium (IMSGC), McEvoy LK, Desikan RS, Lie BA, Djurovic S, Dale AM (2015) Genetic pleiotropy between multiple sclerosis and schizophrenia but not bipolar disorder: differential involvement of immune-related gene loci. Mol Psychiatry 20:207-14
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24468824?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4356743/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24468824
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4356743 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Bui ET, Anderson NK, Kassem L, McMahon FJ (2014) Do participants in genome sequencing studies of psychiatric disorders wish to be informed of their results? A survey study. PLoS One 9:e101111
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24983240?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4077756/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24983240
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4077756 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Jamain S, Cichon S, Etain B, Mühleisen TW, Georgi A, Zidane N, Chevallier L, Deshommes J, Nicolas A, Henrion A, Degenhardt F, Mattheisen M, Priebe L, Mathieu F, Kahn JP, Henry C, Boland A, Zelenika D, Gut I, Heath S, Lathrop M, Maier W, Albus M, Rietschel M, Schulze TG, et al. [7 more authors] (2014). Common and rare variant analysis in early-onset bipolar disorder vulnerability. PLoS One  9, e104326.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25111785?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4128749/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25111785
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4128749 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

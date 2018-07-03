@@ -1,0 +1,951 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002778</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002778-15</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">The Phenomenology And Neurophysiology Of Juvenile Bipolar Disorder
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Ellen  Leibenluft; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/ellen-leibenluft" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Mood Dysregulation and Neuroscience, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Mood Dysregulation and Neuroscience</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 18 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Melissa A Brotman<br />
+
+
+
+
+Mollie  Davis<br />
+
+
+
+
+Chana Rose Engel<br />
+
+
+
+
+Elizabeth Ann Harkins<br />
+
+
+
+
+Derek Evan Hsu<br />
+
+
+
+
+Beth A Lee<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=86292&onameset=Section on Mood Dysregulation and Neuroscience&isajaxlink=Y&_UserReference=94BCC783E0BF625F5B38D604','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 18</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Christopher Ian Baker; PhD  (Section on Learning and Plasticity)<br />
+
+
+
+Robert  Cox; PhD  (Scientific and Statistical Computing Core)<br />
+
+
+
+Francis Joseph McMahon; MD  (Division of Intramural Research Programs)<br />
+
+
+
+Daniel  Pine; MD  (Emotion and Development Branch)<br />
+
+
+
+Carlos Alberto Zarate; MD  (Laboratory of Molecular Pathophysiology and Experimental Therapeutics)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+David  Goldman; MD (NIAAA) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Daniel  Dickstein; MD
+<i>(Department of Psychiatry, Brown University  School of Medicine)</i>
+<br />
+
+
+
+Argyris  Stringaris; MD
+<i>(Institute of Psychiatry)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Bipolar disorder, adolescents, bipolar disorder, children, course, familial, functional MRI, genetics, risk, symptoms
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Bipolar disorder (BD) is a highly impairing illness; when it occurs in children and adolescents, it tends to run a particularly severe course.  Children with BD typically require extensive treatment with medication and, often, hospitalization.  They have high rates of suicide attempts and have great difficulty navigating normal developmental milestones.  Pediatric BD takes a very significant toll on children afflicted with the disease and their families. Thus, there is an urgent public health need for research on pediatric bipolar disorder. <br /><br />The goal of our research is to elucidate brain mechanisms mediating BD in youth, and to identify brain-based and clinical markers of risk for the disorder. Such research will identify targets for future treatment development, as well as lay the groundwork for research aimed at eventually preventing the development of illness in children at risk.  <br /><br />Specifically, we use standardized behavioral paradigms to assess processing of emotional stimuli (e.g. responses to reward and punishment, processing of emotional faces) in youth with bipolar disorder and in youth at risk for bipolar disorder by virtue of having a parent or sibling with the illness.  In addition, we compare adults and children with bipolar disorder, using both behavioral testing and fMRI, to determine how the neural circuitry mediating bipolar disorder varies developmentally.  We are also following the symptoms of Amish youth who have a first-degree relative with bipolar disorder and mutations of interest for the illness. <br /><br />We are testing the hypotheses that 1) children and adults with bipolar disorder, or at familial risk for the illness, will have deficits labeling face emotion; 2)children and adults with bipolar disorder, or at familial risk for the disorder, will have increased attentional lapses, especially in the context of emotional stimuli; 3) both the attentional and the face emotion processing deficits will be mediated by dysfunction in ventral prefrontal-amygdala-parietal circuitry, but the precise nature of the neural deficit mediating differences between patients and controls will vary developmentally; 4) during implicit processing of emotional faces, patients with, or at risk for, bipolar disorder will show a distinct pattern of neural dysfunction, relative to patients with anxiety disorders or severe irritability. Behavioral hypotheses are initially tested using standardized computerized tasks in the lab an functional MRI is used to idenitfy dysfunctional neural circuitry that may be mediating those differences. Also, since little is known about the longitudinal course of pediatric BD, we follow our patients longitudinally to ascertain their response to treatment and prognosis.  <br /><br />For several years, the project has included work in children at familial risk for bipolar disorder (i.e., those with a parent or sibling with the illness). This work is designed to identify biomarkers that index risk for illness, so that the illness can be deteched earlier and, eventually, prevented.  This year, we have begun to expand this aspect of the project to include work in genetically informative isolates, such as the Amish community. Our goal is to obtain genetic material from children with a parent with bipolar disoder and a putatively information genetic mutation, assess the children clinically, and follow them longitudinally to determine who ultimately develops bipolar disorder.  <br /><br />This work is conducted under protocol 00-M-0198, NCT00006177.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Since the beginning of this project we have screened over 2200 subjects for this study. We have enrolled approximately 135 youth with bipolar disorder (BD), 130 subjects at risk for BD because they have a parent or sibling with the illness, and 120 adults with BD. This year, approximately 20 new subjects were enrolled.<br /><br />This year we continued our work designed to identify the brain mechanisms underlying BD in children; compare brain function in youth and adults with BD in order to begin to understand how the illness develops over time; and compare brain function in youth at familial risk for BD to those with BD and those at low risk, in order to facilitate the eventual development of preventive interventions.<br /><br />In terms of our work on the brain mechanisms mediating BD, much of that work consists of, not only comparing youth with BD to healthy youth, but also comparing youth with BD to those with severe, chronic irritability (the so-called severe mood dysregulation, or SMD, population, see MH002786-07). It is important to compare youth with BD and those with SMD because the latter frequently receive the diagnosis of BD in the community, despite not having a history of manic episodes. Indeed, this year we published a paper demonstrating that the rate of discharges for pediatric bipolar disorder was 12.5 times higher in the US than England (compared to 3.9 times higher in the US than England for other psychiatric diagnoses). This potential misdiagnosis is important from a therapeutic and public health perspective.  That is, compared to severe, chronic irritability, BD in youth is treated with more toxic medications.  Therefore, it is important to identify accurately youth with BD and not extend the boundaries of the diagnosis inappropriately. <br /><br />In addition to comparing BD with SMD youth, consistent with the new Research Domain Criteria (RDoC) approach of the NIMH, this year we began to include additional comparison patient populations in our studies, including those with attention deficit hyperactivity disorder (ADHD) and anxiety disorders.  Not only do these populations share with those with BD (and SMD) deficits in attentional and emotional control, but indeed these are the two most common comorbid illnesses in youth with BD. We are currently gathering functional neuroimaging data on these groups on several tasks that follow directly from previous work.  Specifically, we are using an implicit face emotion processing (i.e., gender identification) task and a task designed to identify the mechanisms underlying increased variability in reaction time (generally thought to be an indicator of attentional lapses).  We have focused on these tasks because they relate to the face emotion processing and sustained attention deficits that we and others have identified in both youth and adults with BD, and in youth at risk for the illness (the latter in a paper published this year).  Whereas, in prior work, our goal was to include approximately 20 subjects per group in each study, given concerns about Type I errors in neuroimaging studies in psychiatry and the fact that we are testing hypotheses across multiple groups, in our current studies we aim to recruit at least 40 subjects in each group. Recruitment for these two studies is approximately 40% complete. <br /><br />One notable feature of our work is our recruitment, not only of children with BD, but also adults with the illness and unaffected youth at risk for the illness (as well as appropriate healthy comparison groups).  This strategy allows us to identify possible pathophysiological mechanisms present before the onset of illness as well as across the developmental spectrum in affected individuals. Hence, we published two papers this year that complemented our previous work showing that youth with BD fail to modulate amygdala activity appropriately when viewing angry faces.  Specifically, we found that this deficit is also present in adults with BD and unaffected youth at risk for the illness. Developmental differences were found, however, in subgenual cingulate modulation in response to angry faces. In addition, we found that both youth with BD and those at risk for the illness had decreased modulation of the inferior frontal gyrus (as well as the amygdala) in response to angry faces. <br /><br />Another, related psychological process where we were able to show continuity in deficits across the developmental and pathological spectrum in BD concerns encoding of emotional faces.  In prior work, we have demonstrated a neural and behavioral deficit in emotional face encoding, and this year we published two papers demonstrating similar behavioral deficits in both adults with BD and in those at risk for the illness. Neurally, both adults and youth with BD showed occipital dysfunction during emotional face encoding, whereas youth with or at risk for the illness also showed dysfunction in the parahippocampal gyrsu. We have also continued to establish the relationships that would allow us to assess Amish children at risk for BD, and that work is progressing.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86292&allpubs=Y&isajaxlink=Y&_UserReference=94BCC783E0BF625F5B38D604','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Adleman NE, Kayser RR, Olsavsky AK, Bones BL, Muhrer EJ, Fromm SJ, Pine DS, Zarate C, Leibenluft E, Brotman MA (2013) Abnormal fusiform activation during emotional-face encoding assessed with functional magnetic resonance imaging. Psychiatry Res 212:161-3
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23541333?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3717571/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23541333
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3717571 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Brotman MA, Tseng W, Olsavsky A, Fromm S, Muhrer EJ, Rutenberg JG, Deveney CM, Adleman N, Zarate CA, Pine D, Leibenluft E (2013) Fronto-limbic-striatal dysfunction in pediatric and adult patients with bipolar disorder: Impact of face emotion and attentional demands. Psychological Medicine, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Brotman MA, Tseng WL, Olsavsky AK, Fromm SJ, Muhrer EJ, Rutenberg JG, Deveney CM, Adleman NE, Zarate CA, Pine DS, Leibenluft E (2014) Fronto-limbic-striatal dysfunction in pediatric and adult patients with bipolar disorder: impact of face emotion and attentional demands. Psychol Med 44:1639-51
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23930595?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3922892/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23930595
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3922892 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kim P, Arizpe J, Rosen BH, Razdan V, Haring CT, Jenkins SE, Deveney CM, Brotman MA, Blair RJ, Pine DS, Baker CI, Leibenluft E (2013) Impaired fixation to eyes during facial emotion labelling in children with bipolar disorder or severe mood dysregulation. J Psychiatry Neurosci 38:407-16
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23906351?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3819155/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23906351
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3819155 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Thomas LA, Brotman MA, Bones BL, Chen G, Rosen BH, Pine DS, Leibenluft E (2014) Neural circuitry of masked emotional face processing in youth with bipolar disorder, severe mood dysregulation, and healthy volunteers. Dev Cogn Neurosci 8:110-20
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24239048?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3960306/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24239048
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3960306 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Thomas LA, Kim P, Bones B, Hinton KE, Milch HS, Reynolds RC, Adleman N, Marsh AA, Blair RJ, Pine D, Leibenluft E (2013) Elevated amygdala responses to emotional faces in youths with chronic irritability or bipolar disorder. Neuroimage: Clinical 2:637-645
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Thomas LA, Kim P, Bones BL, Hinton KE, Milch HS, Reynolds RC, Adleman NE, Marsh AA, Blair RJ, Pine DS, Leibenluft E (2013) Elevated amygdala responses to emotional faces in youths with chronic irritability or bipolar disorder. Neuroimage (Amst) 2:637-645.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23977455?dopt=Abstract" target="_blank">PubMed</a>
+
+
+           &nbsp;&nbsp;&nbsp;&nbsp;<i>Available in future as a Free Article</i> <!-- looks for PMC translations for in progress or embargoed -->
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23977455
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3746996 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">8.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Towbin K, Axelson D, Leibenluft E, Birmaher B (2013) Differentiating bipolar disorder-not otherwise specified and severe mood dysregulation. J Am Acad Child Adolesc Psychiatry 52:466-81.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23622848?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3697010/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23622848
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3697010 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">9.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Weathers J, Brotman MA, Deveney CM, Kim P, Zarate C, Fromm S, Pine D, Leibenluft E (2013) A developmental study on the neural circuitry mediating response flexibility in bipolar disorder. Psychiatry Res 214:56-65
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23958598?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3759594/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23958598
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3759594 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

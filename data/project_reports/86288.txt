@@ -1,0 +1,741 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002734</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002734-19</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Genetic Basis Of Cortical Malfunction In Schizophrenia
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Karen F Berman; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/karen-berman" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Clinical and Translational Neuroscience Branch, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Clinical and Translational Neuroscience Branch</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 21 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Brenda A Agunyego<br />
+
+
+
+
+Jose A Apud; MD, PhD<br />
+
+
+
+
+Karen  Bartholomew<br />
+
+
+
+
+Morgan Elaine Bartholomew<br />
+
+
+
+
+Joann  Berkson; RN<br />
+
+
+
+
+Joseph Handel Callicott; MD<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=86288&onameset=Clinical and Translational Neuroscience Branch&isajaxlink=Y&_UserReference=A5C167D21437B2E85B38D406','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 21</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Barbara K Lipska; PhD  (Section on Neuropathology)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Terry  Goldberg; PhD
+<i>(Albert Einstein School of Medcine)</i>
+<br />
+
+
+
+Thomas W Weickert
+<i>(Univ New South Wales and Neuroscience Research Australia)</i>
+<br />
+
+
+
+Daniel R Weinberger; MD
+<i>(Lieber Institute for Brain Development)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+schizophrenia, DLPFC, cortical function, SNP, COMT, NPT, PANSS, dopamine, BOLD-fMRI, DRD2
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Based on the fact that schizophrenia has an important degree of heritability, the objectives of this work are to discover and explore genes associated with risk for schizophrenia in order to generate hypotheses about molecular and neural system mechanisms related to key biologic aspects of the illness, and to identify new approaches to treatment that are based on validated mechanisms (Study 95-M-0150 NCT00001486, 00-M-0085 NCT00004571).  The strategy for biological validation of genetic association with schizophrenia is as follows: <br /><br />1)	Identify and validate important phenotypes linked to cortical dysfunction in individuals with schizophrenia and elevated schizophrenia risk by studying patients, siblings and healthy comparison individuals.<br />2)	Provide biologic evidence of the effect of schizophrenia-associated risk alleles on relevant measures of brain development and function assayed with cognitive and neuroimaging approaches in healthy and ill subjects.<br />3)	Use evidence  of genetic association with measures of brain development and function as a basis for further characterization of molecular pathways and mechanisms in human cell lines and in post mortem human brain in collaboration with the NIMH Neuropathology Core Facility. <br />4)	Use this knowledge to identify potential new therapeutic targets as well as predictors of response to available pharmaceutical interventions, as implemented under the auspices of the NIMH Inpatient Schizophrenia Research Ward<br /><br />Emerging hypotheses are tested using a convergent strategy of cognitive, imaging and basic science methods. Genes and gene networks that affect cortical function and increase the risk for developing schizophrenia are identified via family-based and case-control comparisons. To explore abnormalities of cortical function, which are core features of chronic schizophrenia, cortical function and structure of patients, siblings and healthy volunteers are quantified using functional imaging (fMRI), structural magnetic resonance imaging, magnetic resonance spectroscopy (MRS), diffusion tensor imaging (DTI), magnetoencephalography (MEG) and neuropsychological tests. Results using these methods are combined with genetic data to look for genes that affect brain function and increase susceptibility to schizophrenia. To these ends, carefully diagnosed patients are recruited from local and national sources. Diagnosis of probands is established from previous psychiatric records and a structured diagnostic interview. Healthy volunteers and siblings are likewise evaluated with a structured interview. All subjects give a blood sample for genetic analysis. Evaluation of cortical function is performed using fMRI, PET, MEG, DTI and neuropsychological evaluations. The employed procedures have been chosen because they have been shown to be sensitive to abnormalities in patients with schizophrenia compared to normal controls. One particularly important strategy has been the study of healthy siblings of patients.  Over the years, we have shown that subsets of these healthy siblings show one or more abnormal traits on the above-mentioned tests, suggesting that these findings are heritable and that they may be useful measures for detecting genes that increase risk for schizophrenia. This study and the methods used are unique in focusing on such biological variables and their heritability in siblings.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+During FYI 2013-2014, a number of major accomplishments have driven this project closer to meeting its goals of quantifying schizophrenia- and schizophrenia-risk associated cortical dysfunction, identifying candidate genetic contributors to this dysfunction, and assessing the importance of these contributors to treatment-relevant outcomes.  For instance, recent work derived from this project has identified important cognitive impairments in perceptual categorical judgments (Weickert, Terrazas et al. 2014) and category-restricted verbal generation (Nicodemus, Elvevag et al. 2014).  The latter observation has been particularly fruitful for elaborating putative schizophrenia risk mechanisms. Using neuropsychological testing and specialized computational linguistic metrics, we employed a well-validated category verbal fluency task to assay cortical function in patients with schizophrenia, their siblings, and healthy controls.  We were able not only to discover task performance measurements that were both impaired in schizophrenia and altered in individuals with greater schizophrenia risk (siblings), but also to then test whether specific genetic risk factors (SNPs previously associated with schizophrenia) might impact these same measurements.  Indeed, this series of experiments generated novel evidence supporting a role for DISC1, ZNF804A and KIAA0319 as important genetic predictors of these cognitive schizophrenia risk phenotypes. (Nicodemus, Elvevag et al. 2014) <br />	<br />Additionally, we have advanced our investigations of medication response mechanisms, leading to several new neurocognitive and molecular discoveries.  For example, we have helped to identify novel, preliminary evidence for antipsychotic medication effects on aspects of probabilistic association learning (Weickert, Mattay et al. 2013).  In a second instance of this line of inquiry, research completed this year has been able to support an important new role for variation in the neurexin 1 (NRXN1) gene, which has previously been associated with autism, intellectual disability, epilepsy, developmental delay, and also schizophrenia. We conducted a double blind, placebo controlled trial in 54 patients with schizophrenia from the NIMH inpatient study to show a significant association of NRXN1 SNPs rs12467557 and rs10490162 with antipsychotic response. Individuals homozygous for the A allele in both SNPs showed statistically significant improvement in positive and negative symptoms, general psychopathology and thought disturbance. However, patients who were carriers of the G allele showed no overall response.  (Jenkins, Apud et al. 2014)  Ongoing work in this same vein investigates DRD2, which codes for the D2 receptor  a target of modern antipsychotic drugs. In preliminary analyses of integrated post-mortem, neuropsychological and clinical trial datasets, variation in this gene shows important regulatory effects on gene expression, interactions with a key regulator of cortical dopaminergic function, COMT, in its association with cognitive performance, and holds promise as potent predictor of therapeutic response to both antipsychotic medication and the COMT inhibitor, tolcapone.  Multilocus studies of COMT, which may be particularly valuable in understanding mechanisms of cortical dysfunction in schizophrenia, (Eisenberg and Berman 2014) as well as other dopamine-related disorders (e.g., Parkinsons disease), have also progressed this year and have focused on neuroimaging outcome measurements in tolcapone trials.  Along with continuing advancement on several other fronts, including multimodal pharmacological trials with modafinil, this project is well positioned for even greater scientific achievements in the coming year.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86288&allpubs=Y&isajaxlink=Y&_UserReference=A5C167D21437B2E85B38D406','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Eisenberg DP, Berman KF (2014) Catechol-O-methyltransferase and genetic variation under hemizygosity. Biol Psychiatry 75:346-7
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24507568?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4205935/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24507568
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4205935 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Jenkins A, Apud JA, Zhang F, Decot H, Weinberger DR, Law AJ (2014) Identification of candidate single-nucleotide polymorphisms in NRXN1 related to antipsychotic treatment response in patients with schizophrenia. Neuropsychopharmacology 39:2170-8
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24633560?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4104334/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24633560
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4104334 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Weickert TW, Mattay VS, Das S, Bigelow LB, Apud JA, Egan MF, Weinberger DR, Goldberg TE (2013) Dopaminergic therapy removal differentially effects learning in schizophrenia and Parkinsons disease. Schizophr Res 149:162-6
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23830543?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5124763/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23830543
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5124763 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Weickert TW, Terrazas A, Bigelow LB, Apud JA, Egan MF, Weinberger DR (2014) Perceptual Category Judgment Deficits are Related to Prefrontal Decision Making Abnormalities in Schizophrenia. Front Psychiatry 4:184
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24432006?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3880938/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24432006
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3880938 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

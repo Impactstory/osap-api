@@ -1,0 +1,771 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002903</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002903-09</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Procurement and Characterization of Postmortem Brain Tissue
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> August 15, 2014 -  August 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lead Investigator</div></div>
+
+<div class="rowdiv">
+<div class="data">
+Barbara K Lipska; PhD
+<br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any LIs -->
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<!-- display SoRs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Supervisor of Record</div></div>
+<div class="rowdiv">
+<div class="data">
+ <!-- faculty test -->
+Susan G Amara; PhD 
+ <!-- faculty test -->
+<br />
+
+</div>
+</div>
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Human Brain Collection Core, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Human Brain Collection Core</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 16 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Joyce Edna Adams<br />
+
+
+
+
+Jose A Apud; MD, PhD<br />
+
+
+
+
+Amit  Bhakta<br />
+
+
+
+
+Melanie A Bose<br />
+
+
+
+
+Ningping  Feng; PhD<br />
+
+
+
+
+Vesna  Imamovic<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=91088&onameset=Human Brain Collection Core&isajaxlink=Y&_UserReference=981AEBF28B6E71485B38D2C4','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 16</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Nirmala  Akula  (Section on the Genetic Basis of Mood and Anxiety Disorders)<br />
+
+
+
+Robert  Innis; MD  (Molecular Imaging Branch)<br />
+
+
+
+Francis Joseph McMahon; MD  (Section on the Genetic Basis of Mood and Anxiety Disorders)<br />
+
+
+
+Walter Scott Young; MD, PhD  (Section on Neural Gene Expression)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+<div id="moresamestaffo">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffou">6 of a total of 7 other NIH members are shown.</div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Caroline Faye Anderson (NINDS) <br />
+
+
+
+Curtis  Harris; MD (NCI) <br />
+
+
+
+Steven J Jacobson; PhD (NINDS) <br />
+
+
+
+H. Clifford  Lane; MD (NIAID) <br />
+
+
+
+Avindra  Nath; MD (NINDS) <br />
+
+
+
+Christopher Edward Ramsden; MD (NIAAA) <br />
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaffo','searchview.taf?_function=showmore&ios=O&ipid=91088&isajaxlink=Y&_UserReference=981AEBF28B6E71485B38D2C4','moresamestaffou');  return false;">
+
+
+<span class="morelist">Show all 7</span></a></form></div>
+
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 7 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Schahram  Akbarian; MD, PhD
+<i>(University of Massachusetts Medical School)</i>
+<br />
+
+
+
+Brent  Harris
+<i>(Georgetown University)</i>
+<br />
+
+
+
+James  Knowles; MD
+<i>(University of Southern California)</i>
+<br />
+
+
+
+David  Lewis; MD, PhD
+<i>(Translational Neuroscience Program, and Department, University of Pittsburgh)</i>
+<br />
+
+
+
+R  McCullumsmith
+<i>(University of Cinncinatti)</i>
+<br />
+
+
+
+Pamela  Sklar
+<i>(Mount Sinai Medical School)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=91088&isajaxlink=Y&_UserReference=981AEBF28B6E71485B38D2C4','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 7</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+postmortem human brain, DSM-IVR, PMI, RIN, diagnosis, extraction, immunohistochemistry, mRNA, neuropathology, normal control, schizophrenia, single nucleotide polymorphism, toxicology
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The mission of Human Brain Collection Core (HBCC) within the National Institute of Mental Health, Division of Intramural Programs (NIMH DIRP) is to conduct and support research on brain and behavior, with the goal of reducing the burden of mental illness. HBCC is a national resource, providing unique opportunities in mental health research.<br /><br />To conduct this research we obtain human brain tissue, hair and blood samples from deceased individuals diagnosed with major mental illnesses such as schizophrenia, depression, bipolar disorder, substance abuse, and their consequences (suicide) as well as from individuals without history of mental illness (used as controls). The tissues are obtained under protocols approved by the Combined Neuroscience Institutional Review Board (CNS IRB) and only with the permission of next-of-kin.<br /><br />We distribute samples to investigators approved by an NIMH Oversight Committee. We collect molecular and genetic data and disseminate the data to the scientific community. Information gained from this research will lead to better understanding of brain dysfunction in mental disorders and development of new therapeutic and preventive strategies.<br /><br />HBCC has the following objectives:<br />1) Expand the current collection of 1,000 brains<br />2) Initiate collection of brains from HIV positive cases<br />3) Initiate prospective collection of brains<br />4) Prepare high quality tissue, RNA and DNA samples for distribution to approved investigators<br />5) Perform molecular and genetic studies<br />5) Perform neuropathology staining, including silver staining and immunohistochemistry<br />6) Disseminate data to the scientific community within and outside NIH using custom and publicly available databases<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The mission of Human Brain Collection Core (HBCC) is to gain insight into the causes and mechanisms of mental disorders. To be able to conduct this research, we obtain brain tissues from deceased individuals with and without psychiatric disorders. The results will help us better understand brain dysfunction in mental disorders and develop new therapies and preventive strategies.<br /><br />We obtain brains through the Medical Examiners Offices (MEOs) of Northern and Central Virginia and the District of Columbia. Our personnel are notified of potential donations by MEOs and we contact the next-of-kin of the decedent to obtain consent for donation of the entire brain, blood samples, a small sample of scalp and hair. There is no cost to the next-of-kin or the decedent's family. There is also no direct benefit to the family for allowing the donation. The donation is strictly voluntary.<br /><br />We protect confidentiality of the decedent by removing his/her name and all identifying information from any materials we receive, and label all samples and the information derived from them only with a number. Our personnel audiotape the next-of-kin's consent as an official record of the donation, and make arrangements with the MEOs to collect the tissues. We try to obtain further information about the decedent's medical and psychiatric history through interviews with the family and released medical records, after obtaining written authorization from the next-of-kin. We will accept a donation even if the next-of-kin does not wish to answer follow-up questions.<br /><br />We do not provide any individual research results to the next-of-kin or the families or comments about the cause of death. The families are directed to contact the MEOs directly if they have further questions about the decedent.<br /><br />Our collection consists now of brain tissues from 1,003 subjects.<br />From August 20, 2014, we collected 74 brains through the DC and Northern and Central VA Medical Examiners Offices. The breakdown by diagnosis for the tissues collected during this year is as follows:<br />Anxiety disorder	1<br />Bipolar disorder	4<br />Non-psychiatric controls	4<br />Major Depressive Disorder	3<br />Neurological disorders	8<br />Schizophrenia	2<br />Substance abuse	2<br />Other	6<br />In the process of determining diagnosis	44<br /><br />The major focus of our studies is elucidating the cellular and molecular pathophysiology of schizophrenia and mood disorders. Improved understanding of a genetic component in in mental illness may enhance diagnostic abilities and hopefully, lead to new treatments. Postmortem human brain studies are limited by the quality and quantity of the specimens.<br /><br />Through collaborations with NIH and extramural investigators, we have initiated the following molecular and genetic studies to address these questions:<br /><br />-Whole genome expression patterns in the dorsolateral prefrontal cortex, hippocampus and dura in several hundred individuals with mental disorders using microarray expression studies.<br /><br />-Gene expression patterns and associations with genetic variants using RNA and whole genome sequencing of dorsolateral prefrontal and anterior cingulate cortices in several hundred subjects with mental disorders and control individuals.<br /><br />-Cis regulatory epigenome mapping of the dorsolateral prefrontal and anterior cingulate cortices of subjects with schizophrenia and controls from the fluorescence-activated cell sorted (FACS) neuronal and non-neuronal populations using chromatin immunoprecipitation (ChIP) with massively parallel DNA sequencing (Chipseq).<br /><br />-Comprehensive identification of active gene regulatory elements in the dorsolateral prefrontal and anterior cingulate cortices of subjects with schizophrenia and controls from sorted (FACS) neuronal and non-neuronal cells using an Assay for Transposase-Accessible Chromatin with high throughput sequencing (ATAC-seq), a method for mapping chromatin accessibility genome-wide.<br /><br />-Alterations of miRNA expression in pyramidal and astrocyte cell populations in the dorsolateral prefrontal cortex (200 subjects, controls and schizophrenia) using Taqman assays.<br /><br />-Mapping bioactive lipids and RNA expression by RNA-sequencing in migraine headaches using trigeminal ganglia, blood, blood vessels and dura tissues.<br /><br />-Mapping gene expression by RNA-sequencing in the subgenual anterior cingulate cortex of subjects with depression who committed suicide and in bipolar disorder.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91088&allpubs=Y&isajaxlink=Y&_UserReference=981AEBF28B6E71485B38D2C4','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Akula N, Barb J, Jiang X, Wendland JR, Choi KH, Sen SK, Hou L, Chen DT, Laje G, Johnson K, Lipska BK, Kleinman JE, Corrada-Bravo H, Detera-Wadleigh S, Munson PJ, McMahon FJ (2014) RNA-sequencing of the brain transcriptome implicates dysregulation of neuroplasticity, circadian rhythms and GTPase binding in bipolar disorder. Mol Psychiatry 19:1179-85
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24393808?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5560442/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24393808
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5560442 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Morita Y, Callicott JH, Testa L, Mighdoll M, Dickinson D, Chen Q, Tao R, Lipska BK, Kolachana BS, Law A, Ye T, Straub R, Weinberger DR, Kleinman J, Hyde T (2014) Characteristics of the cation co-transporter NKCC1 in human brain: alternate transcripts, expression in development, and potential relationships to brain function and schizophrenia. Journal of Neuroscience 34:4929-4940
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Morita Y, Callicott JH, Testa LR, Mighdoll MI, Dickinson D, Chen Q, Tao R, Lipska BK, Kolachana B, Law AJ, Ye T, Straub RE, Weinberger DR, Kleinman JE, Hyde TM (2014) Characteristics of the cation cotransporter NKCC1 in human brain: alternate transcripts, expression in development, and potential relationships to brain function and schizophrenia. J Neurosci 34:4929-40
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24695712?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3972720/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24695712
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3972720 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

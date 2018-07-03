@@ -1,0 +1,740 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002964</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002964-01</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Section on Light and Circadian Rhythms
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Samer Saleh Hattar
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Light and Biological Rhythms, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Light and Biological Rhythms</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Diego Carlos Fernandez<br />
+
+
+
+
+Jennifer Lou Langel<br />
+
+
+
+
+Michael Bryce Thomsen<br />
+
+
+
+
+Hui  Wang<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Yogita  Chudasama; PhD  (Section on Behavioral Neuroscience)<br />
+
+
+
+Kathleen R Merikangas; PhD  (Genetic Epidemiology Branch)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Tudor Constantin Badea; MD, PhD (NEI) <br />
+
+
+
+Wei  Li; PhD, MD (NEI) <br />
+
+
+
+Hans Jurgen  Wess; PhD (NIDDK) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 14 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+David  Berson
+<i>(Brown University)</i>
+<br />
+
+
+
+S  Blackshaw
+<i>(Johns Hopkins University)</i>
+<br />
+
+
+
+R  Brown
+<i>(Washington State University)</i>
+<br />
+
+
+
+M  Cayouette
+<i>(Montreal Clinical Research Institute)</i>
+<br />
+
+
+
+S  Chen
+<i>(National Taiwan University)</i>
+<br />
+
+
+
+A  Guler
+<i>(University of Virginia)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=101699&isajaxlink=Y&_UserReference=6AE3BF442E5201835B38D47B','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 14</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+ipRGCs, Light, Circadian Rhythms, Eye, Retina, development, non-image forming visual functions, retinal ganglion cells, Mood, depression, Learning and memory
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The core of my section's work rests on an important discovery that we made a decade ago of a new class of photoreceptors in the retina, known as intrinsically photosensitive retinal ganglion cells (ipRGCs). Before our discovery, the retina was thought to contain only rods and cones, the classical photoreceptors. We have been at the forefront of major discoveries in this field and will continue to define the retinal circuits and brain centers by which ipRGCs drive a variety of critical functions, which include circadian photoentrainment, sleep, mood and the pupillary light reflex. We have generated and will continue to generate multiple genetic mouse models, employ morphological and electrophysiological analyses and establish quantitative behavioral assays to reveal the neural circuitry, developmental pathways and in vivo functions of ipRGCs. These powerful complementary approaches will allow us to tackle exciting new directions on ipRGC functions in image formation, mood, learning and sleep. Collectively, our research will lead to a better understanding of how light influences our life and will inform light-based therapeutic measures to improve our well-being.<br /><br />The objectives of our section are fourfold: 1- Understand how the classical photoreceptors, rods and cones, interact with ipRGCs at the retinal level and how their combined processed light information is signaled to the brain to influence behaviors such as circadian light responses, the pupillary light reflex and vision. 2- Define new sleep areas that are modulated by light input. 3- Decipher the neural pathways by which light influences mood and learning and memory. 4- Understand the developmental time course for the birth and maturation of ipRGCs. Combined, these objectives will afford us a better understanding of how environmental stimuli (in our case, light) interact with their cognate receptors (in our case, photoreceptors in the retina) to influence important behaviors for human health (in our case, sleep, mood and learning).<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Research projects carried during the Fiscal Year 2017<br />1- Contribution of rod/cone photoreceptors to non-image functions:<br />In 2010, we published that rods and melanopsin phototransduction are complementary for signaling light to circadian photoentrainment (Altimus et al., Nature Neurosci 2010) and recently we showed the same for the Pupillary light reflex (Keenan et al., eLife 2016). We have now begun to determine the contribution of rods and cones to other non-image behaviors including acute body temperature regulation. We found that the retinal circuits that underlie the effects of light on body temperature regulation are distinct from those for circadian photoentrainment and we are in the process of determining why these differences exist by using the new behavioral setup that is being built at NIMH.<br /><br />2- Defining the retinal and brain circuits that drive circadian photoentrainment and phase shifts:<br />We have generated genetically modified mouse lines to uncover the contribution of ipRGC subtypes and the corresponding brain circuits to the synchronization of the internal biological clock to the solar day. We have animals that either harbor only the SCN-projecting ipRGCs (Chen et al., Nature 2011) or lack the ipRGCs that project to the SCN (unpublished). This will allow us to determine the contribution of individual subtypes of ipRGCs to circadian photoentrainment and phase shifts. The phase of the circadian oscillator can be advanced or delayed by acute pulses of light, known as phase shifts. Our exciting preliminary data reveal that different populations of ipRGCs control phase delays versus phase advances in the circadian oscillator. This finding challenges the current view in the field that similar mechanisms underlie phase advances and phase delays, and that light has a simple ON/OFF effect on the clock. Future studies will determine which ipRGC populations are necessary for advances versus delays, and map the brain regions that are influenced by light to cause changes in the phase of the circadian oscillator.<br /><br />3- Molecular and functional characterization of the 200 M1-Brn3b-negative ipRGCs:<br />We recently made a startling discovery that a subpopulation of ipRGCs (200 M1-Brn3b-negative, which we called circadian photoreceptors) is critical for the development of the circadian clock as well as vision, although they do not project to visual centers (Chew et al., eLife 2017). An exciting hypothesis is that these 200 ipRGCs (Chen et al., Nature 2011) represent an evolutionary ancient photoreceptor class given their broad influence on several distinct behaviors (photoentrainment, development of the clock and vision as well as local pupillary light reflex). Therefore, it is critical to understand the molecular and functional specification of this population in relation to other ipRGCs and conventional ganglion cells. Thus, we have started to examine the transcriptome and epigenetic marks of this population using our resources at NIMH. This project will provide the molecular handles to understand the ontogeny and the functional specialization of the 200 M1 ipRGCs in relation to other ipRGCs and conventional ganglion cells.<br /><br />4- SCN-neuropeptides in regulating light-mediated effects on sleep:<br />The SCN is believed to influence circadian rhythms primarily by direct efferent connections with downstream brain regions. The SCN produces several neuropeptides including vasoactive intestinal peptide (VIP), gastrin releasing peptide (Grp), prokineticin-2 (Prok2), and arginine-vasopressin (Avp). These neuropeptides are thought to synchronize cellular oscillators within the SCN. However, whether they are capable of entraining downstream oscillators is unclear. A major obstacle to the study of SCN neuropeptide functions in controlling downstream oscillators has been the availability of animal models that still have SCN synchrony but lack neuropeptide expression.<br /><br />We have generated a mouse model that lacks the expression of major SCN neuropeptides but maintains synchronous cellular oscillations in the SCN. This allows us, for the first time, to specifically address the necessity and sufficiency of SCN neuropeptides in regulating circadian behaviors. In collaboration with Seth Blackshaw (Johns Hopkins School of Medicine), we conditionally deleted a LIM homeodomain transcription factor, Lhx1, specifically in the SCN (Six3-Cre;Lhx1lox/lox henceforth called Lhx1 mutant mice). We found that Lhx1-mutants exhibit a dramatic downregulation in the levels of the major SCN neuropeptides, Vip, Grp, Avp and Prok2. Notably, the maturation of SCN, the core SCN clock-work and clock-controlled gene expression are still preserved (Bedont et al., Cell Reports 2014). Lhx1-mutant mice exhibit modest deficits in the circadian output behavior of wheel running activity, but importantly, we observed profound deficits in sleep regulation by light (Bedont et al., Current Biology 2017). We will determine the necessity of the SCN neuropeptides in controlling sleep. <br /><br />5. An Lhx6-neuronal population regulates sleep<br />In an exciting collaboration with Seth Blackshaw's lab, we found an undefined population of Lhx-6 GABA neurons in the zona incerta regulate sleep (Liu, Nature 2017).<br /> <br />Together, we will continue to break new ground about how light signaling from the environment regulates several functions that are essential for the well-being of humans.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+<!-- do not show project link -->
+
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Bedont JL, LeGates TA, Buhr E, Bathini A, Ling JP, Bell B, Wu MN, Wong PC, Van Gelder RN, Mongrain V, Hattar S, Blackshaw S (2017) An LHX1-Regulated Transcriptional Network Controls Sleep/Wake Coupling and Thermal Resistance of the Central Circadian Clockworks. Curr Biol 27:128-136
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28017605?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5269403/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28017605
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5269403 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Chew KS, Renna JM, McNeill DS, Fernandez DC, Keenan WT, Thomsen MB, Ecker JL, Loevinsohn GS, VanDunk C, Vicarel DC, Tufford A, Weng S, Gray PA, Cayouette M, Herzog ED, Zhao H, Berson DM, Hattar S (2017) A subset of ipRGCs regulates both maturation of the circadian clock and segregation of retinogeniculate projections in mice. Elife 6DOI: 10.7554/eLife.22861
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28617242?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5513697/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28617242
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5513697 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Somasundaram P, Wyrick GR, Fernandez DC, Ghahari A, Pinhal CM, Simmonds Richardson M, Rupp AC, Cui L, Wu Z, Brown RL, Badea TC, Hattar S, Robinson PR (2017) C-terminal phosphorylation regulates the kinetics of a subset of melanopsin-mediated behaviors in mice. Proc Natl Acad Sci U S A 114:2741-2746
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28223508?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5347544/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28223508
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5347544 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

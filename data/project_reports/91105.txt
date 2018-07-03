@@ -1,0 +1,701 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002931</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002931-05</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neurodevelopmental Genomics Study, University of Pennsylvania
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Kathleen R Merikangas; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/kathleen-merikangas" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Developmental Genetic Epidemiology, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Developmental Genetic Epidemiology</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+John David Eun; BA<br />
+
+
+
+
+Jian-Ping  He; MS<br />
+
+
+
+
+Diane M Lameira; BA<br />
+
+
+
+
+Tarannum  Lateef; MD<br />
+
+
+
+
+Diana Nicole Paksarian; PhD<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 7 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Monica  Calkins; PhD
+<i>(University of Pennsylvania)</i>
+<br />
+
+
+
+Mark  Daly; PhD
+<i>(Massachusetts General Hospital)</i>
+<br />
+
+
+
+Raquel  Gur; MD, PhD
+<i>(Department of Psychiatry, University of Pennsylvania)</i>
+<br />
+
+
+
+Ruben  Gur; PhD
+<i>(Department of Psychiatry, University of Pennsylvania)</i>
+<br />
+
+
+
+Hakon  Hakonarson; MD, PhD
+<i>(The Children's Hospital of Philadelphia)</i>
+<br />
+
+
+
+Elise  Robinson; PhD
+<i>(Massachusetts General Hospital)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=91105&isajaxlink=Y&_UserReference=4B36C47BB7FFD2CC5B38D205','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 7</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+neurodevelopment, psychopathology, comorbidity, developmental, neuropsychology, neuroimaging
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The Philadelphia Neurodevelopmental Cohort Study (PNC) is a large collaborative study between the Children's Hospital of Philadelphia (CHOP) and the University of Pennsylvania (U PENN) Medical School that enrolled a local sample of 10,000 youth ages 8-22 who had been seen in the Pediatrics Department. The major goal of this project is to establish a community sample of youth to investigate the associations between mental and physical disorders and their neural correlates including state of the art assessment of brain function with computerized cognitive testing, structural and functional neuroimaging and genetic risk. This sample will be available for future studies that may require more detailed phenotyping for specific disease related measures, and provide a normative backbone against which effects of any specific condition can be identified.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The Genetic Epidemiology Research Branch at the National Institute of Mental Health (NIMH) has partnered with U PENN and CHOP in the design and assessments, as well as the data analysis of this rich resource. The NIMH team has particularly focused on the topics of medical-mental comorbidity, mood disorders, and migraine and other neurologic conditions. Our publication on physical-mental comorbidity (Merikangas et al, 2015) revealed that there was a direct association between the severity of physical conditions and most classes of mental disorders, as well as with functional impairment. We also found that there was specificity of associations between mood disorders with immune/inflammatory conditions, and between behavior disorders and attention deficit hyperactivity disorder with neurologic/central nervous system conditions. Findings demonstrate the strong overlap between physical and mental conditions and its impact on severity and functional impairment in youth. In our analyses of racial-ethnic disparities in sub-threshold psychosis symptoms (Paksarian et al, under review), we found that ethnic minority youth were more likely to manifest sub-threshold psychosis symptoms than were non-Hispanic white youth. However, there was some indication that these associations differed between minority groups and were strongest for non-Hispanic black youth. <br /><br />We have also completed analyses of comorbidity patterns of migraine with other physical and mental conditions that showed specific associations between migraine with anxiety and depressive disorders in youth (Lateef et al, under review). Additionally, we have continued to work with collaborators at Harvard to examine the heritability of behavioral phenotypes in the study (Robinson et al, 2015). This work showed that several components of childhood cognitive abilities, such as reading ability, emotion identification, and verbal memory, are influenced by genetics. These findings further support the need to study the diverse cognitive abilities of children and contribute greatly to the existing research on the subject. <br /><br />Our collaborative efforts have also yielded 2 methodological publications in the past year: 1) a manuscript describing the methodology of the study of youth at risk for psychotic spectrum symptoms (Calkins et al, 2014) and 2) a manuscript providing an overview of PNC recruitment and clinical assessment methods to allow informed use and interpretation of the PNC resource by the scientific community (Calkins et al, 2015).<br /><br />Public Health Impact:<br />This report on physical and mental comorbidity is the first study to investigate the specificity of associations between a broad range of physical and mental conditions using a large, systematically obtained pediatric sample with enriched information from electronic medical records and direct interviews. The findings highlight the importance of capturing the roots of both physical and mental disorders in childhood in order to trace their evolution into chronic diseases causing major public health concerns. Information generated from such a sample may have profound impact on the current clinical practices. Our research on race-ethnicity and psychosis is one of the few studies to document racial-ethnic disparities in sub-threshold psychosis symptoms among U.S. youth, and adds to a growing amount of literature on racial and ethnic health disparities that document the disproportionate health burden of the minorities in the U.S. The study on migraine comorbidity indicates that comorbidity could be an important source of the clinical and etiologic heterogeneity in migraine. <br /><br />Future Plans:<br />The NIMH team will continue to work with the U PENN and CHOP collaborators to conceptualize and analyze the data, prepare manuscripts for publication, and facilitate follow-up of the subsample with mood disorders. The NIMH team will focus analytic effort on 1) using the geographic information system data to examine associations between area-level measures, such as neighborhood socioeconomic deprivation, and mood and other mental disorders; 2) using latent class analysis approach in qualitative phenotype identification; 3) conducting genome-wide complex trait analysis on selected disorders and patterns of disorders in youth; 4) examining the patterns of medical-psychiatric comorbidity in more depth; and 5) defining dimensional measures of psychopathology in the dataset. In addition, the NIMH will continue to collaborate with U PENN to follow-up youth with mood symptoms and disorders to complement the ongoing follow-up of youth at risk for psychosis in order to supplement the clinical and biomarkers research on mood disorder subtypes now underway in the NIMH Family Study of Affective Spectrum Disorders.   <br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+<!-- do not show project link -->
+
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Calkins ME, Merikangas KR, Moore TM, Burstein M, Behr MA, Satterthwaite TD, Ruparel K, Wolf DH, Roalf DR, Mentch FD, Qiu H, Chiavacci R, Connolly JJ, Sleiman PM, Gur RC, Hakonarson H, Gur RE (2015) The Philadelphia Neurodevelopmental Cohort: constructing a deep phenotyping collaborative. J Child Psychol Psychiatry 56:1356-69
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25858255?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4598260/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25858255
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4598260 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Calkins ME, Moore TM, Merikangas KR, Burstein M, Satterthwaite TD, Bilker WB, Ruparel K, Chiavacci R, Wolf DH, Mentch F, Qiu H, Connolly JJ, Sleiman PA, Hakonarson H, Gur RC, Gur RE (2014) The psychosis spectrum in a young U.S. community sample: findings from the Philadelphia Neurodevelopmental Cohort. World Psychiatry 13:296-305
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25273303?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4219071/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25273303
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4219071 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Merikangas KR, Calkins ME, Burstein M, He JP, Chiavacci R, Lateef T, Ruparel K, Gur RC, Lehner T, Hakonarson H, Gur RE (2015) Comorbidity of physical and mental disorders in the Neurodevelopmental Genomics Cohort Study. Pediatrics 135:e927-38
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25755242?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4379458/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25755242
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4379458 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Robinson EB, Kirby A, Ruparel K, Yang J, McGrath L, Anttila V, Neale BM, Merikangas K, Lehner T, Sleiman PM, Daly MJ, Gur R, Gur R, Hakonarson H (2015) The genetic architecture of pediatric cognitive abilities in the Philadelphia Neurodevelopmental Cohort. Mol Psychiatry 20:454-8
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25023143?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4294962/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25023143
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4294962 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

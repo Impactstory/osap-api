@@ -1,0 +1,504 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002736</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002736-19</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neural Substrates Of Stimulus Recognition And Association Memory
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Elisabeth Adams Murray; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/elisabeth-murray" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neurobiology of Learning and Memory, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neurobiology of Learning and Memory</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Dawn A Lundgren; MA<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Ping-Yu  Chen<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Peter  Rapp; PhD (NIA) <br />
+
+
+
+Bo  Zhang (NIA) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Perirhinal Cortex, Entorhinal cortex, Hippocampus, Object identification, Sensory Modalities
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Amnesia is most often seen in patients with damage to the hippocampus, medial thalamus and frontal cortex. Most amnesic patients have a good short-term memory and can create long-term memories for skills and perceptual learning. Amnesia is global in its involvement of all domains of associative knowledge, for both facts (semantic memory) and events (episodic memory), dense in its severity, and anterograde in that the most dramatic effects involve new memories as opposed to old (presurgical or premorbid) ones. This memory impairment has a profound impact on activities of daily life, rendering patients unable to develop the feeling of a coherent, unified life experience. The overall goal of this project is to understand how information about facts and events is stored in the brain and the way in which brain structures work together to subserve memory. The specific objective of this project, accordingly, is to identify the precise brain structures that contribute to rapidly-formed associative memories.  In the current review period, we have focused on the association of objects and places.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The prevailing model of amnesia holds that it depends on damage to a group of loosely related structures, collectively called the medial temporal lobe (MTL).  One influential theory holds that these areas work together as a single functional unit. According to this theory, the structures in the MTL store the memory of specific objects, facts and events. We have developed a competing hypothesis, which holds that different structures within the MTL have specialized functions, and that their collective functions extend beyond those assigned to the MTL by the prevailing model.<br />To test our hypotheses, we have made use of a task that measures the rate of acquisition of arbitrary associations between visual stimuli and spatially-directed responses, known as visuomotor learning (VML). Amnesic patients are notoriously poor in acquiring arbitrary associations, but there is little precise knowledge of the brain areas underlying VML in healthy subjects.  Our past work has shown that transection of the fornix, like aspirations lesions of the hippocampal formation plus underlying cortex, disrupts VML. In the current review period, we determined the precise part of the hippocampal system that is critical for VML.<br />Our research during the current review period has examined the contributions of specific brain regions that have undergone temporary inactivation. This approach provides within-subject measures of memory that can be more sensitive than comparisons across groups. Subjects rapidly acquired arbitrary associations between visual stimuli and spatial goals. We then assessed the effects of reversible inactivations of either the hippocampus or the entorhinal cortex on the within-session rate of learning. For comparison, we also evaluated the effects of inactivation on the performance of previously learned associations between visual stimuli and goals. These associations had been acquired long before the inactivations, were very familiar to the subject, and were performed nearly flawlessly. We found that inactivation of the entorhinal cortex disrupted acquisition of arbitrary visuomotor associations but left intact performance of the previously learned associations of the same type. In contrast, inactivation of the hippocampus had no effect on either new learning or performance according to the familiar associations. These data indicate that the entorhinal cortex, but not the hippocampus, is causally involved in establishing new visuospatial associations, as opposed to retrieving previously learned associations. Notably, this is the same pattern of impairment seen after fornix transection, suggesting that the entorhinal cortex projections into the fornix, or perhaps via the subiculum, are critical for VML and, by extension, the fast learning of arbitrary associations generally.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86289&allpubs=Y&isajaxlink=Y&_UserReference=E88F9D1A617F14DC5B38D403','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Yang T, Bavley RL, Fomalont K, Blomstrom KJ, Mitz AR, Turchi J, Rudebeck PH, Murray EA (2014) Contributions of the hippocampus and entorhinal cortex to rapid visuomotor learning in rhesus monkeys. Hippocampus 24:1102-11
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24753214?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4146745/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24753214
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4146745 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

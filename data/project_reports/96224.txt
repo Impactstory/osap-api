@@ -1,0 +1,707 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002810</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002810-14</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Functional Genomics of Bipolar Disorder
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2015 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Francis Joseph McMahon; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/francis-mcmahon" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on the Genetic Basis of Mood and Anxiety Disorders, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on the Genetic Basis of Mood and Anxiety Disorders</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 14 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Nirmala  Akula<br />
+
+
+
+
+Timothy Glenn Barton<br />
+
+
+
+
+Winston R Corona<br />
+
+
+
+
+Kenan Patrick Courtney<br />
+
+
+
+
+Theresa B DeGuzman<br />
+
+
+
+
+Sevilla D Detera Wadleigh; PhD<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=96224&onameset=Section on the Genetic Basis of Mood and Anxiety Disorders&isajaxlink=Y&_UserReference=13A891BD1B2BD2705B38D2D7','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 14</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Barbara K Lipska; PhD  (Human Brain Collection Core)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Kory R Johnson (NINDS) <br />
+
+
+
+Ellen  Sidransky; MD (NHGRI) <br />
+
+
+
+Ann C.M. Smith; MA, DSc (hon) (NHGRI) <br />
+
+
+
+Joseph Perry Steiner; PhD (NINDS) <br />
+
+
+
+Tiaojiang  Xiao (NIDDK) <br />
+
+
+
+Wei  Zheng; MB, PhD (NCATS) <br />
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Kwang  Choi
+<i>(USUHS)</i>
+<br />
+
+
+
+Guo-Li  Ming; PhD, MD
+<i>(Department of Neurology, Johns Hopkins University)</i>
+<br />
+
+
+
+P  Thompson; PhD
+<i>(UCLA)</i>
+<br />
+
+
+
+Jens  Wendland; MD
+<i>(Pfizer, Cambridge, MA)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+RNA-seq, iPSC, bipolar disorder, gene expression, systems biology
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Bipolar Disorder (BD) is a common, often severe mental illness. Worldwide, BD is one of the largest sources of death and disability. BD typically starts early in life, impairing social and occupational functioning over many years. BD is also a leading risk factor for suicide, a major cause of death in several age groups. <br /><br />Despite this large public health burden, relatively little is known about the causes or treatment of BD, aside from the strong contribution of genetic factors. In recent years, genome-wide association studies (GWAS) have identified a number of genes that appear to contribute to risk for BD, but little is known about how these genes act upon brain biology.<br /><br />The goal of this project is to understand how particular genes act biologically to influence risk for bipolar disorder and related conditions. We study tissues ranging from blood to skin to postmortem brain. Patterns of gene expression are compared between cases and healthy volunteers, in order to reveal gene networks and pathways that are dysregulated in BD. We also employ revolutionary cellular re-programming methods that produce induced pluripotent stem cells (iPSCs) that can be differentiated into brain cells (neurons and glia) that genetically match the donor cells, providing a cellular model system for observing the functional impact of risk variants and testing new treatments. We also use neuroimaging data to assess the structural and functional impact of genes of interest in human volunteers. In addition to genes implicated by GWAS, sequencing, or other studies, we also study structural variations in DNA, known as copy number variants (CNVs), that may strongly influence risk for BD in particular families.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+NCT00001174<br /><br />In order to better interpret the impact of genetic variation on the brain biology of bipolar disorder, we are pursuing a variety of functional genomics studies, including brain imaging, microarray gene expression and RNA-seq in post-mortem brain tissue, and cellular phenotyping of neurons derived from induced pluripotent stem cells. Current neuroimaging genetics work is focused on structural MRI. We contribute data to the Enhancing NeuroImaging Genetics through Meta-Analysis (ENIGMA) brain imaging consortium, which is using genome-wide association methods in large samples to detect genetic markers associated with the volumes of various cortical and subcortical brain regions. These important endophenotypes may shed light on the mechanisms whereby common genetic variants influence risk for a variety of psychiatric disorders. <br /><br />Following upon published pilot studies, this year we are doing RNA-sequencing in an additional 200 postmortem brain samples obtained from people with and without major psychiatric disorders. This study focusses on the subgenual anterior cingulate cortex because neuroimaging and brain stimulation studies have implicated this region in people with mood disorders. <br /><br />We also seek to model the functional genomics of disease-related genes in cells derived from induced pluripotent stem cell (iPSC) lines. This project aims to explore the ways in which we can use iPSC technology to study the biological impact of genes and genetic mutations that we identify in our other ongoing studies. Working with the NIH Center for Regenerative Medicine, the National Institute of Neurological Disorders and Stroke (NINDS) and the National Heart, Lung and Blood Institute (NHLBI) stem cell cores we have so far successfully reprogrammed fibroblasts into iPSCs from 15 individuals ascertained in our ongoing family studies of bipolar disorder. We are differentiating the cells into neurons and glia, and characterizing their morphology, neuronal action potentials, gene expression profiles, and response to medications and toxins. Careful analysis of these phenotypes could reveal differences between control and patient-derived cells. We are also studying multiple functions of those lines in collaborating labs (JHU). Our preliminary data suggest that chronic valproic acid treatment induces growth inhibition and promotes neuronal differentiation of neural progenitor cells, and chronic lithium treatment reduces calcium response to glutamate stimulation on iPSC derived neurons. <br /><br />In the coming year, we plan to expand our iPSC lines from bipolar families. We are also exploring ways to measure the functional impact of genetic mutations at the cellular level and to use genome editing tools such as CRISPR-Cas9 to rescue cellular phenotypes and establish a causal role for specific genetic mutations.  <br /><br />Our current collection of fibroblast lines were generated from &gt;40 skin biopsies from family members in our bipolar disorder study. Each line has &gt;20 vials stored frozen.  Of these, seven were reprogrammed into iPSCs this year and for each fibroblast line. At least 2 iPSC clones, previously tested for pluripotency, were grown, passaged, karyotyped and aliquots at various passage numbers are stored frozen. Clones that carry a normal karyotype are used in succeeding work on neuronal differentiation, phenotype characterization, toxicological and drug discovery research.<br /><br />iPSC-derived neural progenitor cells (NPCs) provide a renewable cellular template to conduct various investigations into disease-associated features and mechanisms at the early stage of neuronal development.  In collaboration with Joseph Steiner (NINDS), we are developing a morphologic assay to measure the effect of stressors on dendritic number and length following initiation of differentiation NPCs into neurons with or without pretreatment with mood stabilizers. <br /><br />The above approaches may illuminate important features that contribute to disruption of biological mechanisms during the disease process and provide reproducible assays for high throughput screening for novel therapeutics. <br /><br />We are also studying Smith-Magenis syndrome (SMS), a neurodevelopmental disorder characterized by various presentations including behavioral abnormalities and a profound disruption of the circadian rhythm. The majority of SMS cases are caused by a deletion on 17p11.2. We are focusing our studies on non-deletion patients that carry a mutation in RAI1, a gene located in this deleted region.  Fibroblast cells from cases obtained through a collaboration with Ann Smith (NHGRI), the co-discoverer of SMS, were reprogrammed into iPSCs. Study samples that carry an established single gene defect permits gene editing for comparative studies of phenotypes generated by 2 different cells that carry the identical genetic background. Findings from this study may have relevance to other neuropsychiatric disorders with circadian rhythm disturbances, such as depression and bipolar disorder. <br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2016 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=96224&allpubs=Y&isajaxlink=Y&_UserReference=13A891BD1B2BD2705B38D2D7','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Ament SA, Szelinger S, Glusman G, Ashworth J, Hou L, Akula N, Shekhtman T, Badner JA, Brunkow ME, Mauldin DE, Stittrich AB, Rouleau K, Detera-Wadleigh SD, Nurnberger JI, Edenberg HJ, Gershon ES, Schork N, Bipolar Genome Study, Price ND, Gelinas R, Hood L, Craig D, McMahon FJ, Kelsoe JR, Roach JC (2015) Rare variants in neuronal excitability genes influence risk for bipolar disorder. Proc Natl Acad Sci U S A 112:3576-81
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25730879?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4371952/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25730879
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4371952 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Hibar DP, Stein JL, Renteria ME, Arias-Vasquez A, Desrivières S, Jahanshad N, Toro R, Wittfeld K, Abramovic L, Andersson M, Aribisala BS, Armstrong NJ, Bernard M, Bohlken MM, Boks MP, Bralten J, Brown AA, Chakravarty MM, Chen Q, Ching CR, Cuellar-Partida G, den Braber A, Giddaluru S, Goldman AL, Grimm O, Alzheimer’s Disease Neuroimaging Initiative, CHARGE Consortium, EPIGEN, IMAGEN, SYS, et al. [262 more authors] (2015). Common genetic variants influence human subcortical brain structures. Nature  520, 224-9.   https://doi.org/10.1038/nature14101
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25607358?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4393366/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25607358
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4393366 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

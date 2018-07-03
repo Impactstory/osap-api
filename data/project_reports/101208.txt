@@ -1,0 +1,714 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002032</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002032-41</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neural Coding of Visual Stimuli
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Barry J Richmond; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/barry-richmond" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neural Coding and Computation, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neural Coding and Computation</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 14 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Abdullah Amer Adil<br />
+
+
+
+
+Samarth  Chandra<br />
+
+
+
+
+Kiana Elizabeth Dash<br />
+
+
+
+
+Mark Alexander Grainger Eldridge<br />
+
+
+
+
+Rossella  Falcone<br />
+
+
+
+
+Jennifer Megan Fredericks<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=101208&onameset=Section on Neural Coding and Computation&isajaxlink=Y&_UserReference=8438493FE0C29F9F5B38D2E7','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 14</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+John H Wittig; PhD (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+John  Hertz; PhD
+<i>(Nordita, Norse Institute for Theoretical Physics)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Katalin M Gothard; MD, PhD
+<i>(Dept of Physiology, Un of Arizona College of Medicine)</i>
+<br />
+
+
+
+Narihisa  Matsumoto; PhD
+<i>(Neurotechnology Group, AIST)</i>
+<br />
+
+
+
+Takafumi  Minamimoto; PhD
+<i>(Molecular Neuroimaging, Natl Inst Radiological Science)</i>
+<br />
+
+
+
+J-P  Nadal; PhD
+<i>(Laboratory of Statistical Physics, Ecole Normale Superieure)</i>
+<br />
+
+
+
+S  Shinomoto; Ph.D.
+<i>(Physics Dept, Kyoto Univ.)</i>
+<br />
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+neural codes, cognition, perception, vision, category formation, multiple neurons, single neurons, memory, DREADDs, visual cortex
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+One prominent feature of emotional disorders is the failure to interpret sensory stimuli in a consistent and realistic manner, for example, when depressed individuals find normally attractive scenes or items such as a favorite food, pet or family member uninteresting or even irritating. It would be helpful to know how normal perceptions arise to design strategies for ameliorating these negative feelings. To address this class of problems, we are studying how information about visual stimuli is coded and utilized. The fundamental elements for information processing in the brain, the neurons, process and carry information by working with a series of impulses, where different numbers of pulses represent different messages. No one neuron carries very much information so the information represented in the messages of different neurons must be integrated to give rise to mental events such as sensation, memory, and coordinated movements. To understand how these higher functions arise, for example, visual perception, it is important to identify the aspects of neuronal responses that carry information important for stimulus coding, and how that information is used for stimulus identification and recognition in cognitive processes. This requires learning what codes are used by individual neurons, how the information they represent is processed and transformed, and how the information is integrated across populations of connected neurons. Therefore, we combine studies of single neurons, multiple neurons and behavior, to learn how higher functions such as visual perception and memory arise.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+At the highest level of vision, perceiving complex objects, and distinguishing among those that overlap in appearance, e.g., we quickly distinguish any red tomato from any red apple, regardless of the variety, is done seemingly with ease. A half-century of behavioral, anatomical and physiological research has given rise to a hierarchical model of visual processing for objects. In this model the information about objects arises in a sequence of brain regions stretching from the occipital cortex, where simple features such as oriented edges or lines are represented, to the inferior temporal cortex called area TE where neurons represent conjunctions of visual features defining whole objects. Thus, the highest level of visual perception, perceiving complete integrated objects, is thought to take place in the inferior temporal lobe.<br /><br />A straightforward prediction from this model would be that area TE, in the monkey inferior temporal lobe, plays a key role in the categorization of complex stimuli including those having over-lapping features. Until recently it was thought that area TE represented the final stage for this hierarchical visual processing scheme. However, in the past two decades, there has been a disagreement about which rostral temporal lobe brain region, area TE on the lateral part of the temporal cortex or rhinal cortex on the ventro-medial part of the temporal cortex, represents the final stage of visual perception supporting the ability to recognize objects. it has been suggested that the rhinal cortex, which receives strong input from area TE, is important for recognition of complex objects or objects with feature ambiguity. Proponents for the rhinal cortex view argue that after removal of perirhinal cortex, monkeys are impaired in tasks requiring discrimination among stimuli with ambiguous or overlapping features. Skeptics argue that the experiments purporting to test for perception have been confounded by a memory demand. The monkeys have been asked to report whether objects presented in sequence with or without intervening objects are the same, i.e., does the test object match the sample or not. Hence deficits following removal of perirhinal cortex might have been due to a failure of memory, not perception.<br /><br />Recently we reported that monkeys with bilateral removal of area TE are only mildly impaired in performing categorical discriminations based on visual properties  e.g. cat vs. dog or car vs. truck. The impairment seemed less severe than would be predicted by the hierarchical model. We set out to test whether making the stimuli ambiguous would lead to a greater deficit than that seen when distinguishing dogs from cats or cars from trucks. We used stimuli with overlapping features. The stimuli were created by blending and warping cats with dogs in different proportions thus giving a range of category-ambiguous morphed images. We tested three groups of monkeys, one control group, one group in which area TE had been removed bilaterally, and one in which rhinal cortex had been removed bilaterally. We presented one image at a time. These stimuli were morphed (blended and warped) cats and dogs ranging between 0 and 100% dog, with a distribution biased around the category boundary (11 levels, 0, 25, 35, 40, 45, 50, 55, 60, 65, 75, 100% of dog). The monkey was trained to touch a bar to initiate a trial, and had to release the bar during one of two intervals; early (signaled by a red central dot) if it identified the stimulus as more cat-like, or late (signaled by a green central dot) if the stimulus was identified as more dog-like. If the monkey responded correctly, the color of the central dot turned into blue and liquid reward was given. We assessed performance on this task before and after bilateral TEO lesions.<br /><br />Because our task places no explicit demands on short-term memory, the monkey is comparing the current image against a stored template, any behavioral deficit produced by TE or rhinal lesions can be interpreted as a failure in categorization based on perceptual similarity. If rhinal cortex contains the neural machinery subserving the highest levels of visual perception, removal of this cortex might be expected to yield an even greater impairment with these stimuli than that observed after TE lesions. We found that the monkeys with the TE removals were able to do the categorization but they made considerably more errors than the control group. The rhinal group was indistinguishable from the control group. Thus in our testing it appears that monkeys area TE plays an important role in object discrimination, but that there are other areas of the brain that support this ability to distinguish or classify feature ambiguous stimuli, and it appears that rhinal cortex does not play a role in the perception of these objects.<br /> <br />Given the results described above, we sought to carry out the same tests in monkeys that had area TEO, the architectonic brain region just behind (caudal to) area TE, removed. In the hierarchical model this area provides the visual information to area TE.  We reasoned that this removing this tissue would lead to an impairment in classifying our feature ambiguous cats/dogs. <br /><br />We analyzed the behavioral data for 4 days before the lesions, and four days afterwards. The percentage of response as dog-like for each morphed level was calculated and used as indicator of categorization accuracy. Our preliminary data suggest that the TEO lesions were showed poor categorization on the first day of post-lesion testing. In particular, the discriminability in the first day after lesion was significantly degraded when the morphing range was between 25-75%. As we previously observed in TE lesioned monkeys, the accuracy score improved over the first few days of exposure to the morphed stimuli, in this case recovering to pre-lesion levels of performance. We are now testing monkeys with combined TEO-TE removals. These monkeys are severely impaired in categorizing the morphed images, although they retain some ability to categorize pure dogs and cats. <br /><br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101208&allpubs=Y&isajaxlink=Y&_UserReference=8438493FE0C29F9F5B38D2E7','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kuboki R, Sugase-Miyamoto Y, Matsumoto N, Richmond BJ, Shidara M (2016) Information Accumulation over Time in Monkey Inferior Temporal Cortex Neurons Explains Pattern Recognition Reaction Time under Visual Noise. Front Integr Neurosci 10:43
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28127279?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5226955/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28127279
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5226955 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Matsumoto N, Eldridge MA, Saunders RC, Reoli R, Richmond BJ (2016) Mild Perceptual Categorization Deficits Follow Bilateral Removal of Anterior Inferior Temporal Cortex in Rhesus Monkeys. J Neurosci 36:43-53
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26740648?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4701965/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26740648
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4701965 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Wittig JH, Morgan B, Masseau E, Richmond BJ (2016) Humans and monkeys use different strategies to solve the same short-term memory tasks. Learn Mem 23:644-647
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27918285?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5066608/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27918285
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5066608 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

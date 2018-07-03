@@ -1,0 +1,824 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002960</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002960-01</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Data Science and Sharing Team
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lead Investigator</div></div>
+
+<div class="rowdiv">
+<div class="data">
+Adam G Thomas; PhD
+<br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any LIs -->
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<!-- display SoRs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Supervisor of Record</div></div>
+<div class="rowdiv">
+<div class="data">
+ <!-- faculty test -->
+Peter A Bandettini; BS, PhD 
+ <!-- faculty test -->
+<br />
+
+</div>
+</div>
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Functional MRI Core, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Functional MRI Core</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Nino  Migineishvili<br />
+
+
+
+
+Dylan M Nielson; PhD<br />
+
+
+
+
+John Gavin Rodgers-Lee; PhD<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+<div id="moresamestaff">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffu">6 of a total of 8 other  members are shown. </div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Joyce  Chung; MD  (Office of the Clinical Director)<br />
+
+
+
+Richard  Coppola; SB, DSc  (Magnetoencephalography Core)<br />
+
+
+
+Robert  Cox; PhD  (Scientific and Statistical Computing Core)<br />
+
+
+
+Allison Carol Nugent; PhD  (Section on Neurobiology and Treatment of Mood Disorders)<br />
+
+
+
+Judith L Rapoport; MD  (Child Psychiatry Branch)<br />
+
+
+
+Armin  Raznahan  (Developmental Neurogenomics Unit)<br />
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaff','searchview.taf?_function=showmore&ios=S&ipid=101678&thisic=&isajaxlink=Y&_UserReference=7EA9452CE86C70DD5B38D555','moresamestaffu');  return false;">
+
+
+<span class="morelist">Show all 8</span></a>.</form></div>
+
+
+
+</div>
+</div>
+
+
+</div>
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Dante  Picchioni (NINDS) <br />
+
+
+
+Phillip  Shaw (NHGRI) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Oscar  Esteban; PhD
+<i>(Psychology, Stanford University)</i>
+<br />
+
+
+
+Satrajit  Ghosh; PhD
+<i>(Depar McGovern Institute for Brain Research tment, Massachusetts Institute of Technology)</i>
+<br />
+
+
+
+Chris F Gorgolewski; PhD
+<i>(Psychology, Stanford University)</i>
+<br />
+
+
+
+Anisha  Keshavan; PhD
+<i>(eScience Institute, University of Washington)</i>
+<br />
+
+
+
+Jong-Hwan  Lee; PhD
+<i>(Korea University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Data Sharing, Data Science, Open Science, Machine Learning, MRI, High Performance Computing, Neuroimaging
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The goal of the  Data Science and Sharing Team is to support and advance the creation, distribution, and utilization of large, open datasets to accelerate discovery within the NIMH Intramural Research Program. We provide tools and training to help scientists within the IRP embrace open and reproducible science practices. This includes:<br />- Standardized, community recognized formats and repositories for data storage and dissemination<br />- Collaborative, version-controlled tools for developing analysis code<br />- Open distribution of all experimental methods and results to maximize impact and reproducibility<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+This is the first annual report for the Data Science and Sharing Team (DSST). In this past year, the team has been busy hiring staff and establishing infrastructure. Significant progress has also been made towards the goals and mission of the group.<br /> <br />The first data scientist for the group, John Lee, was hired in June of 2016. The second data scientist, Dylan Nielson, was hired in April of 2017. Nino Migineishvili joined the team as a summer student in June of 2017. Adam Thomas  has been leading the team since its creation.<br /><br />Building an Intramural Neuroimaging Data Repository<br />	<br />The Functional Magnetic Resonance Imaging  Facility (FMRIF) maintains five MRI scanners that generate over 150 scans per week. All of this data is archived, but it is not currently standardized, organized, or consented such that investigators can aggregate across the participants in the many ongoing studies within the NIH IRP. The DSST is working to change that on three fronts. <br /><br />First, we have consulted with the scientists responsible for the Alzheimer's Disease Neuroimaging Initiative project who have established standard MRI protocols to use on large, diverse groups of participants across different scanner platforms. The protocols are now available on the FMRIF scanners and will soon replace the clinical scans currently collected on all participants on a yearly basis. Second, we have deployed a data sharing repository using the software developed at the Stanford Center  for Reproducible Neuroscience. This repository went online in June of 2017 and is currently accessible to intramural researchers on the NIH campus. It will be available to researchers throughout the world before the end of the year. Third, we have worked closely with the NIMH Office of the Clinical Director to help develop a protocol for recruiting and scanning healthy volunteers. This protocol will provide a pool of volunteers that can be streamlined into other studies within the IRP while also building a normative database of phenotypic, genetic, and imaging data.<br /><br />Facilitating Access to Shared Data<br /><br />The DSST is also working to facilitate and streamline access to existing public data repository for NIMH intramural researchers by creating a local copy on the NIH High Performance Computing System, also known as the Biowulf. Once the local copy is in place, the DSST guides researchers through the necessary data use agreements and then grants them access to the data. This has already been accomplished for the Human Connectome Project which offers comprehensive phenotypic, genetic and imaging data on 1200 participants. We are in the process of making data available from the LIFE Project (2,377 participants), the Adolescent Brain Cognitive Development (ABCD)  project (10,000 participants), the Child Mind Institute's Healthy Brain Network, and the UK Biobank (100,000 participants). <br /><br />Delivering Education and Training<br /><br />Conducting reproducible science on large datasets requires skillsets that many researchers do not possess. Since May of 2016 the DSST has conducted four hands-on courses and hosted invited talks from internationally recognized experts in the field of open and reproducible science. All slides and materials are available at https://cmn.nimh.nih.gov/dsst <br /><br />- On May 26 &amp; 27, 2016 the DSST taught a course on Data Carpentry in the NIH library. <br />- On June 9 &amp; 10 2016 the DSST taught a course on Software Carpentry for the NIH Graduate Partnership program. <br />- On Nov 2, 2016  Adam Thomas gave a presentation on reproducible methods to the MEG North America Meeting.<br />- On Dec 9, 2016 the DSST hosted Dr. Matthew Brett who provided an education lecture on how to improve reproducibility in neuroimaging research.<br />- On Jan 25, 2017 John Lee taught in the Introduction to R: Data Wrangling &amp; Statistical Analysis course at the NIH Library. <br />- On March 13-17, 2017 the DSST held a four day course on reproducible neuroscience .<br />- On April 25th, 2017 John Lee taught a course on using R for reproducible analyses in the NIH Library.<br />- On May 18, 2017 the DSST held a workshop on reproducible research as part of the NIH Pi Day celebration.<br />- On August 1-2, 2017 the DSST held a two-day course on reproducible neuroscience with guest lectures from Dr. Satra Ghosh of MIT and Dr. Yarik Halchenko of Dartmouth University.<br />- On August 14th &amp; 17th, 2017 the DSST hosted talks from Dr. Anisha Keshavan on Crowdsourcing in Neuroscience and Dr. Regina Nuzzo on common statistical pitfalls in neuroscience.<br /><br />Future Directions and Applications <br /><br />One of the motivations for building large, standardized repositories of data is so that we may more easily employ data-hungry techniques such as machine learning. The Data Science and Sharing Team was conceived of and designed to work closely with the Machine Learning Team which is still forming. In August of 2017, Charles Zheng, the first member of that team arrived and we are actively planning future projects. Two more members of that team are expected to arrive in the next few months.<br /><br />Nino Migineishvili, a summer student from UCLA who has been working with the DSST since June 2017, has also been applying machine learning to several large datasets: one acquired here by Dr. Philip Shaw from the Social and Behavioral Research Branch at NHGRI (442 participants) and others acquired outside NIH such as the Nathan Kline Institute (888 participants). Nino's project of predicting brain age from structural images has been pre-registered at Open Science Foundation and is currently being prepared for publication (DOI: 10.13140/RG.2.2.25126.63047).<br /><br />Jong Hwan Lee, a visiting professor from Korea University working with the DSST and Dr. Peter Bandettini, has also been applying machine learning methods to predict fMRI time course using the HCP dataset on the NIH HPC. Several similar, data-intensive projects are planned for the coming year.<br /><br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+<!-- do not show project link -->
+
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Ghosh SS, Poline JB, Keator DB, Halchenko YO, Thomas AG, Kessler DA, Kennedy DN (2017) A very simple, re-executable neuroimaging publication. F1000Res 6:124
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28781753?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5516225/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28781753
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5516225 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Hodgetts CJ, Voets NL, Thomas AG, Clare S, Lawrence AD, Graham KS (2017) Ultra-High-Field fMRI Reveals a Role for the Subiculum in Scene Perceptual Discrimination. J Neurosci 37:3150-3159
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28213445?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5373110/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28213445
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5373110 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Nielson D, Sederberg PB (2017) MELD: Mixed Effects for Large Datasets. PLOS One, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Thomas AG, Dennis A, Rawlings NB, Stagg CJ, Matthews L, Morris M, Kolind SH, Foxley S, Jenkinson M, Nichols TE, Dawes H, Bandettini PA, Johansen-Berg H (2016) Multi-modal characterization of rapid anterior hippocampal volume increase associated with aerobic exercise. Neuroimage 131:162-70
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26654786?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4848119/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26654786
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4848119 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Trefler A, Sadeghi N, Thomas AG, Pierpaoli C, Baker CI, Thomas C (2016) Impact of time-of-day on brain morphometric measures derived from T1-weighted magnetic resonance imaging. Neuroimage 133:41-52
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26921714?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5602560/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26921714
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5602560 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+
+<hr />Meeting Proceedngs<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Zhou D, Liu S, Dillard-Broadnax DV, Berman RA, Rapoport J, Thomas AG (2016)  7-Tesla MRI reveals regional hippocampal volume deficits of dentate gyrus in childhood-onset schizophrenia. Society for Neuroscience 46th Annual Meeting, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,720 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH000889</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH000889-34</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Dysregulation of Protein Synthesis in Fragile X Syndrome
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Carolyn E Beebe; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/carolyn-smith" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neuro-adaptation and Protein Metabolism, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neuro-adaptation and Protein Metabolism</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 10 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Kathleen Colette Schmidt; MA<br />
+
+
+
+Mei  Qin<br />
+
+
+
+Rachel Michelle Reith<br />
+
+
+
+Jeffrey L Nadel<br />
+
+
+
+Thomas  Burlin<br />
+
+
+
+Tianjian  Huang<br />
+
+
+
+ <!-- step through any ordered staff -->
+
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=81170&onameset=Section on Neuro-adaptation and Protein Metabolism&isajaxlink=Y&_UserReference=E3687D545EDCE6165B38D156','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 10</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Adriana J Pavletic; MD  (Office of the Clinical Director)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Karen P Usdin; PhD (NIDDK) <br />
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Z  Quezado; MD
+<i>(Department of Anesthesiology and Pain Medicine, Children's National Medical Center)</i>
+<br />
+
+
+
+R  Willemsen; PhD
+<i>(Department of Clinical Genetics, Erasmus Medical College)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+PET, autism, fragile X premutation, fragile X syndrome, brain imaging, protein synthesis, intellectual disability, ADHD, amino acids, anxiety, dendrites, leucine, lithium, memory consolidation, plasticity, propofol, sleep, stress
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Current data suggests links between autism and defects in synaptic plasticity as seen in fragile X syndrome (FXS).  Synaptic plasticity requires the exquisite temporal and spatial regulation of protein synthesis to ensure efficacious synaptic remodeling. Products of mutated genes in syndromic forms of autism point to a relationship between disrupted synaptic function and dysregulated protein metabolism. Our research on FXS in both mouse models and human subjects addresses our central hypothesis that dysregulated protein metabolism in the nervous system can lead to the development of autism in human subjects. <br /> <br />FXS is the most common inherited form of intellectual disability in males with an estimated frequency of 1/4000. FXS is also the most common known cause of autism. Expansion of a CGG repeat sequence in the fragile X mental retardation gene (FMR1) on the X chromosome is the usual cause of FXS. Normally the CGG repeat sequence has 4-54 repeats. Individuals with repeat length of 55-200 have the fragile X premutation and are carriers of FXS. In this range the repeat is unstable and tends to expand in succeeding generations. When the sequence length expands to greater than 200 repeats, FMR1 is silenced, and, as a consequence, its protein product, fragile X mental retardation protein (FMRP) is absent resulting in FXS. Besides moderate to severe intellectual disability, FXS is characterized by enlarged testicles, elongated face, immature-appearing dendritic spines, hyperactivity, increased sensory sensitivity, autistic behavior, and seizures.<br />  <br />The basis of our current work is our finding in a knockout (Fmr1 KO) mouse model of FXS that regional rates of cerebral protein synthesis (rCPS) are increased, particularly in hippocampus, thalamus, and hypothalamus (Qin M et al. J Neurosci 25:5087, 2005). This finding is consistent with the proposed role of FMRP as a suppressor of translation and our hypothesis that a dysregulation of brain protein metabolism is a core phenotype in FXS. We have developed a quantitative autoradiographic method for measurement of rCPS in vivo, and we have adapted the method for use with positron emission tomography (PET) so that measurements can now also be made in human subjects. Our ability to measure cerebral protein synthesis in man may endow us with a marker of the disease and a means to measure the efficacy of proposed treatments in patients.  Measurement of rCPS may provide a much needed tool in the field: a means of assessing disease progress that is objective and quantitative.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The protocol involved in this project is 06-M-0214, NCT00362843.<br /><br />During the 2013 funding period, we addressed the following:<br /><br />Based on results of our studies in the Fmr1 KO mouse, we proposed that changes in rCPS are a core phenotype of FXS and that in human subjects we would find an increased rCPS in selective regions of the brain, e.g., hippocampus, thalamus and parietal cortex.  We measured rCPS in 15 male subjects (18-24 y) with the full fragile X mutation and 12 age-matched healthy volunteers. We excluded subjects on any psychotropic medication and subjects with a history of seizures. We determined rCPS in whole brain and 10 regions.  Because of their impairments it was necessary to study FXS subjects under deep sedation.  For comparisons all subjects underwent PET scans while sedated with propofol. Subjects also underwent MRI studies for placement of regions of interest (ROIs).  Presence of a full mutation allele was confirmed in the FXS subjects by analysis of the CGG repeat length; all had greater than 200 CGG-repeats.  In control subjects repeat lengths ranged from 20 to 32 with a mean of 27.  Control subjects had full scale IQ scores above average (mean, 130).  FXS subjects scores were in the cognitively impaired range (mean, 53).  Of the 15 FXS subjects, two met criteria for an anxiety disorder and four for ADHD (combined type).  All of the FXS subjects met at least one of 12 DSM IV criteria for the diagnosis of autism and six subjects met the diagnostic criterion for autism.  <br /><br />Each healthy volunteer was studied twice with the 11Cleucine PET method, once awake and once under deep propofol-sedation. We compared rCPS in the two states with paired t-tests, and we found no difference in whole brain or in any of the regions examined.  Contrary to our hypothesis, FXS subjects under propofol-sedation had statistically significantly reduced rCPS in whole brain, cerebellum, frontal and parietal cortex compared with sedated controls.  We considered the possibility that propofol could have a disparate effect on rCPS in FXS subjects thereby masking a baseline elevation in rCPS, and we examined this possibility in the Fmr1 KO mouse model. We studied four groups of mice: wild type (WT) and Fmr1 KO mice, vehicle- and propofol-injected.  We confirm in the vehicle-treated mice our previous finding that rCPS was increased in the absence of FMRP in selective brain regions. Effects of propofol sedation on rCPS differed dramatically between WT and KO mice.  In WT mice, propofol resulted in decreased rCPS in two of the regions and an increase in CA1 of dorsal hippocampus. In KO mice, propofol treatment decreased rCPS by 14-26% (average decrease of 19%) in all regions examined except CA1.   Comparison of propofol-sedated WT and propofol-sedated KO mice indicates that rCPS was lower in the KO mice in somatosensory cortex by about 10%. We think that the increased rCPS seen in the awake KO mouse model (Qin et al, 2005) is a core phenotype of FXS and is likely also pathogenic in the human disease. Our observation that treatment with a drug that alters neuronal and possibly synaptic activity also alters rCPS in KO mice has implications for the development of therapeutic strategies for FXS.  A manuscript reporting these results is published in the J. Cerebr. Blood Flow &amp; Metab. (Qin et al., 2013).<br /><br />There are numerous clinical trials of proposed treatments for FXS currently underway in the U.S. and abroad. Drugs recently being tested include mGluR antagonists and GABA agonists.  Ongoing work in collaboration with Seaside Therapeutics addresses the involvement of the GABA-B receptor in FXS. We are measuring the effects of acute r-baclofen treatment in three month old mice on behavior in the open field, behavior in a test of social interaction, and on rCPS.  Our preliminary results indicate that vehicle-injected Fmr1-KO mice exhibit hyperactivity and lower anxiety-like behavior in the open field compared to WT as we and others have seen before, but our preliminary data indicate that r-baclofen (1.5 mg/kg, i.p. administered 30 min prior to the test) has little or no effect on activity or anxiety-like behavior in either genotype. Social interaction behavior in the Fmr1 KOs, however, appears to be profoundly affected by the r-baclofen treatment. We use the three-chambered test of social interaction and confirm our previous finding in vehicle-injected mice that there is clear phenotype in Fmr1 KO mice on the social novelty phase of the test.  Following r-baclofen treatment, Fmr1 KO mice have interactions with the novel mouse that appear to be very similar to WT indicating that activation of GABA-B receptors appears to promote normalized social interaction in the Fmr1 KO mice.  Also underway are determinations of the effects of acute r-baclofen treatment on rCPS in these mice. <br /><br /> In our previous study of the premutation knockin (KI) mouse model developed by K. Usdin (NIDDK) we found a phenotypic profile very similar to Fmr1 KO mice including increased rCPS (Qin et al., 2011).  We also found that Fmr1 mRNA levels were increased 2-6-fold and FMRP concentrations in 12 regions of the brain were reduced to about 10-20% of WT.  We hypothesize that the phenotype in the KI mice is due to the profound reduction in FMRP rather than the excess message.  We are extending these studies to another model of the premutation developed at Erasmus University (Bontekoe et al, 2001).  In the model developed by K. Usdin's lab, a CGG repeat sequence was generated by serial ligation and inserted in the Fmr1 gene.  In the Erasmus model the endogenous CGG repeat tract was replaced with a cloned human premutation CGG allele.  In the Erasmus model, we find that FMRP levels are 50% of WT and Fmr1 mRNA levels are increased 2-4 fold over WT.  The behavioral phenotype is also milder than the Usdin model (Van Dam et al, 2005). In collaboration with R. Willemsen (Erasmus University) we are repeating our measurements of rCPS in the Erasmus premutation model to ascertain whether an effect on rCPS can be detected in the presence of a less profound decrease in FMRP.  Our preliminary results indicate that rCPS is not significantly affected in this KI mouse model suggesting that reductions greater than 50% in FMRP concentration are needed to affect rCPS.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81170&allpubs=Y&isajaxlink=Y&_UserReference=E3687D545EDCE6165B38D156','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Liu ZH, Huang T, Smith CB (2012) Lithium reverses increased rates of cerebral protein synthesis in a mouse model of fragile X syndrome. Neurobiol Dis 45:1145-52.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22227453?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4988124/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22227453
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4988124 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Lokanga RA, Entezam A, Kumari D, Yudkin D, Qin M, Smith CB, Usdin K (2013) Somatic expansion in mouse and human carriers of fragile X premutation alleles. Hum Mutat 34:157-66
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22887750?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3524353/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22887750
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3524353 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Qin M, Schmidt KC, Zametkin AJ, Bishu S, Horowitz LM, Burlin TV, Xia Z, Huang T, Quezado ZM, Smith CB (2013) Altered cerebral protein synthesis in fragile X syndrome: studies in human subjects and knockout mice. J Cereb Blood Flow Metab 33:499-507
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23299245?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3618394/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23299245
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3618394 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

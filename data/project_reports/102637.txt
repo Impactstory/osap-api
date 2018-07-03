@@ -1,0 +1,453 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002967</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002967-01</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Computation by recurrent circuits of the cerebral cortex
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Mark H Histed; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Unit on Neural Computation and Behavior, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Unit on Neural Computation and Behavior</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Bradley Chun-Yee Akitake<br />
+
+
+
+
+Samuel Patrick Duffy<br />
+
+
+
+
+Caitlin Elizabeth Leedy<br />
+
+
+
+
+Anna J Li<br />
+
+
+
+
+Lauren Nicole Ryan<br />
+
+
+
+
+Alessandro  Sanzeni; PhD<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborator
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Nicolas  Brunel; PhD
+<i>(Duke University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+neural computation, recurrent cortical network models, in vivo electrophysiology
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+In the cerebral cortex, each excitatory cell receives thousands of synaptic inputs. A central question in neuroscience is how these inputs are summed to produce spiking outputs. For example, in primary sensory cortex, a particular sensory stimulus can evoke different numbers of spikes depending on the behavioral state of the animal, presumably reflecting one sort of summation change  response gain variability.  Theoretical work has characterized an array of input-summation processes that are potentially used by cortical networks, promising to explain generally how cortical networks respond to input. However, it has proven extremely difficult to obtain the experimental data needed to support and test this theoretical work, primarily because sensory stimuli generally affect neural activity within multiple brain regions, each of which could subsequently provide input to the area under study. Optogenetic stimulation, combined with sensory stimuli, can provide critical tests of these theoretical models. In parallel, theoretical work must be performed to extend existing (rate-based) models to incorporate features of real neurons that likely affect input summation (e.g., spike threshold, short-term synaptic plasticity, and conductance changes).<br /><br />To understand how cortical neurons perform computation, we are taking a joint experimental and theoretical approach.  We are measuring how mouse visual cortical neurons respond to combinations of optogenetic and visual input, and using network models to understand the circuit features that shape those input responses.<br /><br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+In one project, we are developing models of spiking networks that relate neurons responses to circuit and cellular properties.  The theoretical work is being done in collaboration with Nicolas Brunel (Duke), and we are testing predictions in the laboratory using neurophysiology with silicon multi-site probes that allow recording many neurons across cortical layers simultaneously.  Some results have been submitted in abstract form for presentation (Sanzeni et al., Society for Neuroscience meeting, 2017) and are being elaborated into a manuscript (Sanzeni et al., in prep).  A manuscript with an early form of some of these results, obtained via simulation, has been submitted (Histed, under review).  This work is shedding light on what computations the cortex can perform, and what circuit properties like connection number and strengths, are needed to control those computations.<br /><br />In a second project, we are examining how the cortex controls the gain of responses by using a learning paradigm.  Animals and humans improve their performance in sensory tasks with practice.  But it is not known in general whether cortical representations become stronger (response gain increases) with practice, or whether downstream decoding becomes more effective.  To examine the neural basis of learning, we are training animals to perform controlled learning tasks and examining how neural responses change with learning.  We will adapt the models from project 1 to predict what circuit changes might lead to any response changes, and follow up that work with experimental tests of the predictions.  This work will explain how the brain, particularly the cerebral cortex, changes during learning to support improved behavior.  Understanding the circuit elements that change with learning is made possible by insights from theoretical work on networks that relates neural activity to circuit and anatomical features.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=102637&allpubs=Y&isajaxlink=Y&_UserReference=1A3DF267BF266F815B38D50F','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+No publications during this reporting period
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

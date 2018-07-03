@@ -1,0 +1,1341 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002927</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002927-04</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neurobiology and Target validation of novel therapeutic agents in mood disorders
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Carlos Alberto Zarate; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/carlos-zarate" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neurobiology and Treatment of Mood Disorders, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neurobiology and Treatment of Mood Disorders</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 25 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Rezvan  Ameli<br />
+
+
+
+
+Charles Nicholas Barker; BS<br />
+
+
+
+
+Charles Ralph Bender<br />
+
+
+
+
+Jessica Steward Brockmeyer<br />
+
+
+
+
+Nancy E Brutsche<br />
+
+
+
+
+Yamila  Carmona<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=81265&onameset=Section on Neurobiology and Treatment of Mood Disorders&isajaxlink=Y&_UserReference=4FC9594A1ED34C115B38D3B2','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 25</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Richard  Coppola; SB, DSc  (Psychosis and Cognitive Studies Section)<br />
+
+
+
+Masahiro  Fujita  (Section on PET Neuroimaging Sciences)<br />
+
+
+
+Robert  Innis; MD  (Molecular Imaging Branch)<br />
+
+
+
+Ellen  Leibenluft; MD  (Section on Mood Dysregulation and Neuroscience)<br />
+
+
+
+Kathleen R Merikangas; PhD  (Section on Developmental Genetic Epidemiology)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Anxious Depression, Novel Treatment, Depression, Major Depressive Disorder, Opioid receptor, Brain circuits, Epidemiology, Bcl-2, Biomarker, Cytokines, Oxidative stress
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Project 1: Enkephalinergic compounds for major depressive disorder (Anxious depression)<br /><br />Primary aim<br />     The primary aim of the study is to determine if the highly selective delta-opioid receptor agonist AZD2327 is effective in the treatment of AMDD as assessed by the proportion who show a clinically significant change from baseline to endpoint in the Hamilton Rating Scale for Depression (HRSD17).<br />Hypothesis:  Adult subjects with AMDD without psychotic features when randomized to acute therapy with the highly selective delta-opioid receptor agonist AZD2327 will have a significantly greater proportion of responders from baseline to week 4 in the HRSD17 and HAM-A total scores compared to subjects randomized to placebo.<br /><br />Project 2: An investigation to determine whether levels of p11 protein in peripheral blood cells correlate with treatment response to citalopram in patients with major depressive disorder.<br />Hypothesis:  Changes in p11 levels of peripheral blood cells in patients with major depressive disorder will correlate with treatment response to citalopram. <br /><br />Project 3: Identifying biomarkers of diagnosis, illness and treatment response. Using data from the repository protocol from studies conducted in the Mood and Anxiety Disorders (MAP) which includes genetics, neuropsychological testing, structural and brain imaging, electrophysiological studies and peripheral blood measures were are examining markers of diagnosis and treatment response.<br />Project 4. Target validation of novel treatments in mood and anxiety disorders<br />A: A selective NR2B antagonist in patient depression<br />Hypothesis: Subjects with treatment-resistant major depressive disorder who are treated with an oral selective NR2B antagonist will have a rapid antidepressant response.<br /><br />B: A low-trapping NMDA channel blocker in patient depression<br />Hypothesis: Subjects with treatment-resistant major depressive disorder who are treated with a a low-trapping NMDA antagonist intravenously will have a rapid antidepressant response.<br /><br />Results in the past year:<br />1) We found an anxiolytic but not antidepressant signal with a highly selective delta-opioid receptor agonist in patients with anxious depression.<br />2) We found that P11 is low in depressed patients and increases with treatment with serotonin-reuptake inhibitors. Additional analyses are being completed.<br />3) Identifying biomarkers of diagnosis, illness and treatment response<br />a. Our collaborators and us developed a population-based input function and image-derived input function for (11)C(R)-rolipram imaging in major depressive disorder. We found that cAMP as determined by (11)C(R)-rolipram imaging is low in depressed compared to healthy controls and that cAMP increases with serotonin-reuptake inhibitors (a first-line antidepressant). This suggests that PDE4 an enzyme within this cAMP cascade may be a target for developing novel antidepressants.<br />b. We found that manic episodes transmit independently than major depressive episodes in families of individuals with mood disorders. This suggests that different approaches in the study of genetics might need to take place in order to determine the genetic underpinnings in mood disorders.<br />e.  Our collaborators and us conducted a developmental studies to examine the neural circuitry mediating motor inhibition and response to faces in bipolar disorder across the lifespan.<br />Project 4A: <br />We found that the NR2B antagonist MK-0657 has rapid antidepressant effects without the dissociative side effects of ketamine. As a result of our work, Cerecor has licensed this compound from Merck. <br />We found that the low-trapping NMDA antagonist AZD6765 produces rapid antidepressant effects without dissociative side effects. As a result of our work, Astrazeneca is pursuing the indication of treatment-resistant depression with this compound.<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Project 1: Enkephalinergic compounds for major depression: There is increasing evidence that patients with anxious major depressive disorder (AMDD) have a greater depressive severity, functional impairment, increased risk of suicidality, worse social distress, higher incidence of alcohol and drug abuse, and poorer treatment response and outcome than patients with non-anxious depression. There is increasing literature of the involvement of the endogenous opioid system in major depression and its treatment. Identification of delta-opioid receptor as a possible target in the treatment of depression and anxiety began with clinical observations that a heightened anxiety state and depressive-like behaviors were consistently noted in the delta-opioid receptor knockout mouse. A number of investigators have found that selective delta-opioid receptor agonists have antidepressant-like properties in models such as the forced swim test. In a search for a selective delta-opioid receptor agonist to test in a proof-of-concept clinical study in AMDD, AZD2327 is a potent, first in class, high-affinity enkephalinergic agonist that possesses anxiolytic and antidepressant activity in animal models. AZD2327 has efficacy comparable to diazepam and imipramine in rodent models of anxiety and depression, respectively. Phase I studies have been completed and have indicated an acceptable safety profile.  Male and female patients, ages 18 to 65, with a diagnosis of major depression (without psychotic features) meeting criteria for AMDD, will be randomized to double-blind treatment to receive either AZD2327 (3 mg BID) or placebo in a 2:1 ratio for a period of 4 weeks. In addition, a series of surrogate neurobiological markers will be obtained to establish whether they are capable of predicting therapeutic response. Approximately 96 patients with acute major depression will be enrolled in the study.<br /><br />Project 2: An investigation to determine whether levels of p11 protein in peripheral blood cells correlate with treatment response to citalopram in patients with major depressive disorder.<br />Major depressive disorder (MDD) is a serious, debilitating, life-shortening illness that affects many persons of all ages and backgrounds.  While treatments are effective for a significant portion of patients with MDD, progress in developing more effective treatments is lagging. Furthermore, with regards to existing antidepressant medications, there are yet no reliable predictors of the likelihood of remission, response or non-response with an initial trial of an antidepressant medication. Identifying factors that are likely to predict response would have the advantage of personalizing treatment to a particular individual; that is, selecting the antidepressant medication that is most likely to give the greatest probability of having a favorable outcome. <br />	The serotonin system has been implicated in the pathophysiology of depression and mechanism of action ofexisting effective antidepressant treatments. Fourteen different serotonin receptors have been identified to date. One of them, 5-HT1B, plays an important role in regulating serotonin neurotransmission. Recently, p11 (a member of the S100 family of proteins) was found to interact with 5-HT1B receptors (Svenningsson et al 2006; Svenningsson and Greengard 2007). p11 mRNA levels are markedly reduced in the forebrain in helpless H/Rouen mice and the level of p11 mRNA was down-regulated in the anterior cingulate cortex from depressed patients. p11 mRNA is distributed in an anatomical pattern that closely resembled that of 5-HT1B receptor mRNA, including cortex, hippocampus, hypothalamus and raphe nuclei. Chronic administration of the antidepressants imipramine, tranylcypromine, and citalopram significantly increase the level of p11 in cortex. Finally, we have found that chronic treatment with fluoxetine increases p11 in peripheral mononuclear cells in monkeys. <br />	We will now study whether the blood cell levels of p11 differ between healthy individuals and patients suffering from unipolar depression. Moreover, we will study whether the levels of p11 are affected by treatment with the selective serotonin reuptake inhibitor, citalopram. Complementary work will continue at other laboratories to better characterize the role of p11 in the pathophysiology of depression (e.g., animal studies, post-mortem studies).<br />	In addition, we will also acquire a battery of magnetic resonance imaging (MRI) scans in a subset of 45 more homogeneous depressed subjects, and 45 matched healthy controls at baseline and at 8 weeks.  There is a growing body of evidence implicating morphometric and physiologic abnormalities, measureable by MRI, in the pathophysiology of major depressive disorder.   We will assess both baseline differences between depressed subjects and healthy controls, treatment effects, and search for possible MRI markers predicting treatment response.   <br />This is an open label study which will be performed at the National Institute of Mental Health.  In all, 82 adult subjects with major depressive disorder, between the ages of 18 and 65 years, will be recruited from the community.   In addition, we will perform p11 measurements in blood cells from 64 healthy control subjects.<br /><br />Project 3: Identifying biomarkers of diagnosis, illness and treatment response. Using data from the repository protocol from studies conducted in the Mood and Anxiety Disorders (MAP) which includes genetics, neuropsychological testing, structural and brain imaging, electrophysiological studies and peripheral blood measures were are examining markers of diagnosis and treatment response.<br /><br />Project 4. Target validation of novel treatments in mood and anxiety disorders<br />a. NR2B antagonist in treatment-resistant major depressive disorder<br />b. Low-trapping NMDA channel blocker in treatment-resistant major depressive disorder.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81265&allpubs=Y&isajaxlink=Y&_UserReference=4FC9594A1ED34C115B38D3B2','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Adleman NE, Kayser RR, Olsavsky AK, Bones BL, Muhrer EJ, Fromm SJ, Pine DS, Zarate C, Leibenluft E, Brotman MA (2013) Abnormal fusiform activation during emotional-face encoding assessed with functional magnetic resonance imaging. Psychiatry Res 212:161-3
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23541333?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3717571/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23541333
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3717571 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Brotman MA, Tseng W, Olsavsky A, Fromm S, Muhrer EJ, Rutenberg JG, Deveney CM, Adleman N, Zarate CA, Pine D, Leibenluft E (2013) Fronto-limbic-striatal dysfunction in pediatric and adult patients with bipolar disorder: Impact of face emotion and attentional demands. Psychological Medicine, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">de Sousa RT, Busnello JV, Forlenza OV, Zanetti MV, Soeiro-de-Souza MG, van de Bilt MT, Moreno RA, Zarate CA, Gattaz WF, Machado-Vieira R (2012) Early improvement of psychotic symptoms with lithium monotherapy as a predictor of later response in mania. J Psychiatr Res 46:1564-8
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23000368?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3485427/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23000368
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3485427 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Franco-Chaves JA, Mateus CF, Luckenbaugh DA, Martinez PE, Mallinger AG, Zarate CA (2013) Combining a dopamine agonist and selective serotonin reuptake inhibitor for the treatment of depression: a double-blind, randomized pilot study. J Affect Disord 149:319-25
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23517885?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3672377/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23517885
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3672377 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Fujita M, Hines CS, Zoghbi SS, Mallinger AG, Dickstein LP, Liow JS, Zhang Y, Pike VW, Drevets WC, Innis RB, Zarate CA (2012) Downregulation of brain phosphodiesterase type IV measured with 11C-(R)-rolipram positron emission tomography in major depressive disorder. Biol Psychiatry 72:548-54
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22677471?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3438357/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22677471
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3438357 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kim P, Thomas LA, Rosen BH, Moscicki AM, Brotman MA, Zarate CA, Blair RJ, Pine DS, Leibenluft E (2012) Differing amygdala responses to facial expressions in children and adults with bipolar disorder. Am J Psychiatry 169:642-9.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22535257?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3383787/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22535257
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3383787 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Niciu MJ, Ionescu DF, Mathews DC, Richards EM, Zarate CA (2013) Second messenger/signal transduction pathways in major mood disorders: moving from membrane to mechanism of action, part I: major depressive disorder. CNS Spectr 18:231-41
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23462230?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4955397/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23462230
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4955397 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">8.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Niciu MJ, Ionescu DF, Mathews DC, Richards EM, Zarate CA (2013) Second messenger/signal transduction pathways in major mood disorders: moving from membrane to mechanism of action, part II: bipolar disorder. CNS Spectr 18:242-51
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23472710?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3936782/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23472710
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3936782 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">9.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Nugent AC, Bain EE, Carlson PJ, Neumeister A, Bonne O, Carson RE, Eckelman W, Herscovitch P, Zarate CA, Charney DS, Drevets WC (2013) Reduced post-synaptic serotonin type 1A receptor binding in bipolar depression. Eur Neuropsychopharmacol 23:822-9
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23434290?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3748207/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23434290
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3748207 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">10.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Nugent AC, Carlson PJ, Bain EE, Eckelman W, Herscovitch P, Manji H, Zarate CA, Drevets WC (2013) Mood stabilizer treatment increases serotonin type 1A receptor binding in bipolar depression. J Psychopharmacol 27:894-902
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23926239?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3784836/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23926239
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3784836 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">11.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Nugent AC, Davis RM, Zarate CA, Drevets WC (2013) Reduced thalamic volumes in major depressive disorder. Psychiatry Res 213:179-85
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23850106?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3756884/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23850106
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3756884 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">12.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Nugent AC, Luckenbaugh DA, Wood SE, Bogers W, Zarate CA, Drevets WC (2013) Automated subcortical segmentation using FIRST: test-retest reliability, interscanner reliability, and comparison to manual segmentation. Hum Brain Mapp 34:2313-29
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22815187?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3479333/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22815187
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3479333 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">13.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Soeiro-de-Souza MG, Dias VV, Figueira ML, Forlenza OV, Gattaz WF, Zarate CA, Machado-Vieira R (2012) Translating neurotrophic and cellular plasticity: from pathophysiology to improved therapeutics for bipolar disorder. Acta Psychiatr Scand 126:332-41
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22676371?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3936785/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22676371
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3936785 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">14.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Soeiro-de-Souza MG, Salvadore G, Moreno RA, Otaduy MC, Chaim KT, Gattaz WF, Zarate CA, Machado-Vieira R (2013) Bcl-2 rs956572 polymorphism is associated with increased anterior cingulate cortical glutamate in euthymic bipolar I disorder. Neuropsychopharmacology 38:468-75
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23072837?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3547197/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23072837
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3547197 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">15.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Turner AD, Furey ML, Drevets WC, Zarate C, Nugent AC (2012) Association between subcortical volumes and verbal memory in unmedicated depressed patients and healthy controls. Neuropsychologia 50:2348-55.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22714007?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3464047/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22714007
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3464047 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">16.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Weathers JD, Stringaris A, Deveney CM, Brotman MA, Zarate CA, Connolly ME, Fromm SJ, LeBourdais SB, Pine DS, Leibenluft E (2012) A developmental study of the neural circuitry mediating motor inhibition in bipolar disorder. Am J Psychiatry 169:633-41.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22581312?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3466815/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22581312
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3466815 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">17.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Zarate CA (2013) New insights into the neurobiology, diagnosis, and treatment of mood disorders. CNS Spectr 18:228-30
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23692663?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3930444/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23692663
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3930444 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">18.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Zarate CA, Mathews D, Ibrahim L, Chaves JF, Marquardt C, Ukoh I, Jolkovsky L, Brutsche NE, Smith MA, Luckenbaugh DA (2013) A randomized trial of a low-trapping nonselective N-methyl-D-aspartate channel blocker in major depression. Biol Psychiatry 74:257-64
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23206319?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3594049/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23206319
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3594049 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

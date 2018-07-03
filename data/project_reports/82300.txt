@@ -1,0 +1,256 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002945</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002945-01</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Porter Neuroscience Research Center- NIMH DIRP Programs
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Susan G Amara; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Office of the Director, NIMH
+
+</div>
+</div>
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The John Edward Porter Neuroscience Research Center (PNRC) is specifically designed to enhance inter-disciplinary research, communication and collaboration as a means of facilitating innovation. It co-locates into an innovative setting, researchers from 10 NIH institutes, launching a bold research initiative organized by crosscutting themes that are not specific to any single institute. <br /><br />Rather, the PNRC research approach seeks that which is common among seemingly diverse disorders. The facility's design encourages collaboration and communication, employs a flexible laboratory architecture that can change over time with the science and accommodates research approaches as diverse as animal models, cell culture and computer science.<br /><br />From the outside, it blends with the campus and the neighboring community. Designed to attract and retain the finest scientists, its functional, flexible design enables neuroscience to flourish as a leading intellectual enterprise in the post-genomic era. PRNC features a central atrium, open laboratories and offices, state-of-the-art infrastructure and technical facilities, seminar and conference rooms, a vivarium, a cafeteria, lab support spaces and an imaging suite.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The Porter Neuroscience Center (PRNC II) is in the activation and commissioning phase. The facility will house the NIH intramural neurosciences programs, including those in the NIMH IRP. Begun in fall 2010, the new building will house about 650 scientists from 9 institutes and centers, including NIMH, NINDS, NICHD, NEI, NIDCR, NIDCD, NIA, NCCAM and NIBIB.  <br /><br />Composed of five floors (basement, ground, 1st, 2nd and 3rd floors with interstitial levels), PNRC II consists of 370,000 gross square feet. The building features several energy-efficient and sustainable design elements, including photovoltaic roof panels and geothermal (groundwater) source heat pumps.<br /><br />NIMH will have approximately 19,500 square feet of new space, representing a new era in neuroscience research for the NIMH Division of Intramural Research Program (DIRP).<br /><br />NIMH DIRP laboratories scheduled to occupy the Porter Neuroscience Center include: <br />Genetic Epidemiology Branch, Section on Developmental Genetic Epidemiology<br />Genes, Cognition and Psychosis Program, Unit on Neural Circuits &amp; Adaptive Behaviors<br />Unit on Statistical Genomics<br />Animal Behavioral Rooms  for multiple investigators<br />Reserved Recruit Space for up to four new investigators.
+</div>
+</div>
+<div id="publications">
+
+
+
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

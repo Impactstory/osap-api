@@ -1,0 +1,912 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002468</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002468-26</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Mechanisms Of Action Of Psychoactive Drugs
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+ <!-- faculty test -->
+
+De Maw  Chuang; PhD
+
+ <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Molecular Neurobiology, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Molecular Neurobiology</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 10 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Chi-Tso  Chiu; PhD<br />
+
+
+
+Yan  Leng; MD<br />
+
+
+
+Peter R Leeds; BS<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Fairouz Lee Chibane<br />
+
+
+
+
+Hsiao-Mei  Liao; PhD<br />
+
+
+
+
+Hung-Yu D Lin<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=81180&onameset=Section on Molecular Neurobiology&isajaxlink=Y&_UserReference=56B213EA6BA610215B38D167','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 10</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Francis Joseph McMahon; MD  (Section on the Genetic Basis of Mood and Anxiety Disorders)<br />
+
+
+
+Dennis L Murphy; MD  (Laboratory of Clinical Science)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Abdel G Elkahloun; PhD (NHGRI) <br />
+
+
+
+Joshua  Hunsberger; PhD (NIAMS) <br />
+
+
+
+Dragan  Maric; PhD (NINDS) <br />
+
+
+
+Jeeva P Munasinghe (NINDS) <br />
+
+
+
+Peter Jonathan Munson; BA, MA, PhD (CIT) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Martin  Alda
+<i>(Dalhousie University)</i>
+<br />
+
+
+
+Alan  Kozikowski
+<i>(University of Illinois at Chicago)</i>
+<br />
+
+
+
+Frank M. Longo; MD, PhD
+<i>(Neurology Department, Stanford School of Medicine)</i>
+<br />
+
+
+
+B  Roysam
+<i>(University of Houston)</i>
+<br />
+
+
+
+Li-Huei  Tsai
+<i>(Dept. of Pathology, Harvard Medical School)</i>
+<br />
+
+
+
+Yumin  Zhang; MD, PhD
+<i>(Department of Anatomy, Physiology, and Genetics, Uniformed Services University of the Health Sciences)</i>
+<br />
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Cerebral ischemia, Huntingtons disease, Lithium, Traumatic brain injury, Valproate, Bipolar disorder, Glycogen synthase kinase, Histone deacetylase, Lamotrigine, Mood stabilizer, Neuroprotection, TrkB agonist, Mesenchymal stem cell, Neurons, Neurotrophic effects, Neurotrophic factors, microRNA, Intranasal application
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Bipolar disorder (BD) is a severe, chronic, and devastating mental illness characterized by cycling between mania and depression. Lithium has long been the primary drug used to treat BD. It is effective against acute mania and prophylactic for recurrent manic and depressive episodes. However, only about 50% of BD patients respond adequately to lithium. Certain anticonvulsants, notably valproate (VPA), and lamotrigine, are also effective in treating BD. Thus, combining lithium with other mood stabilizers has been frequently used to enhance therapeutic benefits. Although lithium and VPA have been mainstay drugs used for BD, the mechanisms underlying their therapeutic effects are unclear.<br />Innovative studies from our laboratory suggest that both lithium and VPA exhibit neuroprotective properties. Because of our findings, the molecular targets and cellular actions of mood stabilizers such as lithium and VPA, as well as their therapeutic potential for treating brain diseases beyond BD are first coming to light. Our research thus continues to focus on elucidating the neurobiology of lithium and VPA in cultured cells and experimental animal models of CNS diseases in order to gain key mechanistic insights. Our central hypothesis is that lithium and VPA, by inhibiting glycogen synthase kinase-3 (GSK-3) and histone deacetylases (HDACs), respectively, trigger a spectrum of neurobiological events. These include: induction of neurotrophic and neuroprotective molecules; generation of antianxiety, antidepressant, and antimanic effects; anti-inflammation; angiogenesis and neurogenesis; promotion of stem cell migration; regulation of microRNA expression; and improvement of behavioral performance. We have obtained novel results to support each of these benefits and have begun to illuminate the underlying molecular mechanisms. By utilizing multiple brain disorder models, our long-range goal is to explore the therapeutic potential of mood stabilizers for serious CNS pathological conditions, beyond BD. These goals will be met by pursuing the following objectives:<br />We will continue investigating FGF-21 regulation, its role in brain ischemia, Huntingtons disease and in other brain diseases including bipolar disorder. Additionally, using FGF-21 as a medium, we will explore the relationship between metabolism and these brain disorders.<br />We will explore if treatment with tubastatin A (TubA), a specific HDAC6 inhibitor, can improve ischemia-impaired axonal transport by evaluating mitochondrial trafficking in neuronal cultures using live cell imaging, and investigate the effects of VPA and lithium on stroke-induced brain cytoarchitecture.<br />We will launch new studies into the role of HDAC2 in ischemic stroke. Expected results are that HDAC2 overexpression will exacerbate ischemic pathology and memory impairment, while deletion will be beneficial. Mechanisms underlying the effects of HDAC2 overexpression/deletion will be investigated by measuring expression levels of signaling molecules (e.g. BDNF, TrkB, HSP70, MMPs, VEGF, iNOS, and COX-2).<br />Using mouse models of Huntingtons disease, we will determine the effects of LM22A-4, a TrkB agonist, on the TrkB signaling pathway, apoptosis, and huntingtin aggregates in the brain. This will provide insight into the role of TrkB as a possible therapeutic target for this disease. We will also investigate if transplantation of MSCs primed with lithium-VPA results in enhanced cell homing, survival, and engraftment in this model system, and determine the long-term fate of transplanted MSCs. Additionally, we will perform microarray analysis to profile genes that are differentially expressed in MSCs following preconditioning with lithium and VPA.<br />In that ketamine is known to rapidly decrease suicidal ideation, we will further characterizes the effect lithium has in potentiating sub-therapeutic ketamine doses with the goal of reducing the required amount and thus associated negative side effects in clinical settings.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+We continued investigating our central hypothesis that glycogen synthase kinase-3 (GSK-3) and histone deacetylases (HDACs) are initial targets of the mood stabilizers lithium and valproic acid (VPA), respectively, to induce a spectrum of neurobiological effects. Our studies identified previously unknown involvement of signaling pathways and neuroprotective and neurotrophic genes affected by lithium and VPA, and underlying biochemical and molecular mechanisms were elucidated in both in vitro and in vivo settings. Of general impact, results of our research support the use of these agents in the development of treatments for brain disorders.<br />We previously reported that combined treatment with lithium and VPA produced synergistic neuroprotective effects in aging primary brain neurons. This research was expanded to investigate the molecular mechanisms of this phenomenon. Microarray analysis found that fibroblast growth factor (FGF-21), a novel metabolic regulator, was dramatically and selectively increased by lithium-VPA co-treatment. Moreover, purified FGF-21 completely protected neurons from glutamate-induced excitotoxicity, and this was associated with increased Akt-1 and inhibition of GSK-3 activities (Leng et al., Mol Psychiatry in revision, 2013). Our pioneer research suggests that FGF-21 is an innovative gene for neuroprotection in brain disorders. Another mood stabilizer, lamotrigine, was also found to be neuroprotective against glutamate excitotoxicity by induction of Bcl-2 and the remodeling of chromatin (Leng et al., Intl J Neuropsychopharm, 2013).<br />We have also made recent findings that VPA through HDAC inhibition, attenuates ischemia-induced blood-brain barrier (BBB) disruption, enhances postischemic angiogenesis, and promotes functional recovery in a rat cerebral artery occlusion (MCAO) model of ischemic stroke (reviewed in Chiu et al., Pharm Rev, 2013; Fesseler et al., 2013). In one MCAO project investigating the neuroprotective effects of tubastatin A (TubA), a novel specific HDAC6 inhibitor, we discovered that post-ischemic TubA treatment robustly reduced brain infarction and facilitated functional recovery. These findings were confirmed by experiments showing that ischemia reduced levels of acetylated &amp;#945;-tubulin, and TubA significantly restored &amp;#945;-tubulin acetylation levels (Wang et al., Neurosci Meeting abstr 55.08, 2013). These findings support the notion that HDAC6 is a promising target for the treatment of ischemic stroke and the clinical utility of TubA for this brain disorder. Additionally, through the profiling of brain cytoarchitectural alterations after ischemia and drug treatment, we found significant changes in cellular population, composition, distribution, and states of differentiation and proliferation. Our preliminary results show that lithium treatment robustly ameliorates the cytoarchitectural changes after ischemic injury.<br />In other experiments using rat MCAO, we profiled microRNAs (miRNAs), small non-protein coding RNAs, in the ischemic cortex which were upregulated 24 hours following MCAO and VPA treatment. Two promising post-insult VPA-regulated candidates detected were miR-331 and miR-885-3p. miR-331 was also regulated by VPA pre-treatment in rat cortical neuronal cultures subjected to oxygen-glucose deprivation. The predicted targets of these miRNAs identified networks involved in cell death and nervous system development. These predicted networks also showed significant associations with neurodegenerative diseases (Hunsberger et al., 2012). Using primary brain neurons, we determined the potential role for miRNAs in neuroprotection following neuronal death. Combined treatment with lithium and VPA provided near-complete protection from glutamate toxicity in these neurons, and numerous miRNAs were found to be regulated including miR-34a. We then verified the apoptotic actions of miR-34a. It was observed that the pathways associated with mood stabilizer-regulated miRNAs are strongly associated with pathways implicated in neuropsychiatric diseases such as schizophrenia (Hunsberger et al., 2013).<br />We have recently shown that therapeutic doses of either lithium or VPA have neuroprotective and anti-inflammatory effects as well as behavioral benefits in a mouse model of traumatic brain injury (TBI) (Yu et al, J Neurotrauma 29: 362-374 &amp; 2342-2351, 2012). Our current studies evaluated effects of combined treatment with subeffective doses of lithium and VPA after TBI. We found that post-trauma treatment with combined subeffective doses significantly reduced lesion volume, attenuated BBB disruption and improved motor coordination. Acetylation of histone H3, an index of HDAC inhibition, was robustly increased by co-treatment and may be considered as part of the biochemical mechanism involved (Yu et al., J Neurosurgery Advance Online, 2013). Our results suggest that using a combination of these two agents at subtherapeutic doses to treat patients with TBI may also reduce side effects and enhance tolerability.<br />We also previously demonstrated that co-treatment with lithium and VPA produced behavioral benefits in two Huntingtons disease (HD) mouse models and, very importantly, prolonged survival time (Chiu et al., 2011). In addition, GSK-3 and HDAC hyperactivity were consistently suppressed by this combined treatment, which was also associated with upregulation of two important proteins for neuronal growth and protection, brain-derived neurotrophic factor (BDNF) and heat shock protein 70 (HSP70). Lithium and VPA are already FDA-approved medications, and our data provide the rationale and clinical relevance for their combined treatment of HD. Currently, we are assessing the possible therapeutic potential of LM22A-4, a small non-peptide molecule that acts as a direct and specific partial agonist of the BDNF receptor, TrkB, in a transgenic mouse model of HD, by intranasal application which allows drug delivery to the central nervous tissue by bypassing the BBB. HD-associated locomotor impairment, motor coordination and depressive-like behaviors were dramatically improved by LM22A-4 treatment. Since the physiological components largely depend on striatal function, our results suggest that improved motor function in HD mice could be attributable to neuroprotective effects of pharmacologic activation of TrkB by this compound (Chiu et al., Neurosci Meeting abstr 528.04, 2013). In a related study using a mouse stress model of depression, we found that pre- or post-lithium treatment potentiated the antidepressant-like effects of a single acute sub-therapeutic dose of ketamine through increasing p-GSK-3&amp;#946;, and p-P70S6K which is the downstream effector of mTOR.<br />We also investigated the feasibility of stem cell-based therapy for treating neurodegenerative disorders such as Huntingtons disease. Mesenchymal stem cells (MSCs) were preconditioned with lithium and VPA to enhance their biological and functional properties after transplantation in brain via intranasal application. These preconditioned MSCs improved both the speed and distance traveled as well as motor function in HD mice (Linares et al., Neurosci Meeting abstr 433.01, 2013). Our findings suggest that preconditioning MSCs with the mood stabilizers lithium and VPA may have utility in the treatment of HD to reduce the severity of neurological symptoms.<br />In summary, our investigations have substantially contributed to increased knowledge of molecular and cellular actions of mood stabilizers, and resulted in progress into the understanding of their effects in several research models of neurodegenerative and neuropsychiatric diseases. Upon implementation of future studies, we expect to provide further illumination into the biochemical mechanisms, which will pave the way for the use of mood stabilizers in clinical investigations for the treatment of certain brain disorders.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81180&allpubs=Y&isajaxlink=Y&_UserReference=56B213EA6BA610215B38D167','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by reference within the summary, then by publication type and author name.
+</p>
+
+
+
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div> <div style="margin: -1.6em 0px 5px 2em;">Yu F, Wang Z, Tchantchou F, Chiu CT, Zhang Y, Chuang DM (2012) Lithium ameliorates neurodegeneration, suppresses neuroinflammation, and improves behavioral performance in a mouse model of traumatic brain injury. J Neurotrauma 29:362-74.
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/21895523?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3261788/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 21895523
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3261788 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+ <!-- ends ordered rows -->
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Chiu CT, Wang Z, Hunsberger JG, Chuang DM (2013) Therapeutic potential of mood stabilizers lithium and valproic acid: beyond bipolar disorder. Pharmacol Rev 65:105-42
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23300133?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3565922/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23300133
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3565922 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Hunsberger J, Fessler EB, Wang Z, Elkahloun AG, Chuang D (2012) Post-insult valproic acid-regulated microRNAs: potential targets for cerebral ischemia. American Journal of Translational Research 4:316-332.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22937209?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3426385/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22937209
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3426385 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Hunsberger JG, Fessler EB, Chibane FL, Leng Y, Maric D, Elkahloun AG, Chuang DM (2013) Mood stabilizer-regulated miRNAs in neuropsychiatric and neurodegenerative diseases: identifying associations and functions. Am J Transl Res 5:450-64
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23724168?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3665918/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23724168
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3665918 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Wang Z, Tsai LK, Munasinghe J, Leng Y, Fessler EB, Chibane F, Leeds P, Chuang DM (2012) Chronic valproate treatment enhances post-ischemic angiogenesis and promotes functional recovery in a rat model of ischemic stroke Stroke 43:2430-36
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22811460?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3429729/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22811460
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3429729 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Yu F, Zhang Y, Chuang DM (2012) Lithium Reduces BACE1 Overexpression, Beta Amyloid Accumulation, and Spatial Learning Deficits in Mice with Traumatic Brain Injury. J Neurotrauma 29:2342-51.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22583494?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3430485/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22583494
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3430485 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

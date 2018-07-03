@@ -1,0 +1,605 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002884</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002884-10</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Functional MRI Core Facility
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2015 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Peter A Bandettini; BS, PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/peter-bandettini" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Functional MRI Core, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Functional MRI Core</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 17 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Ellen  Condon<br />
+
+
+
+
+John Andrew Derbyshire; PhD<br />
+
+
+
+
+Janet  Ebron<br />
+
+
+
+
+Yidong  Hu<br />
+
+
+
+
+Souheil J Inati; PhD<br />
+
+
+
+
+Chung  Kan<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=96275&onameset=Functional MRI Core&isajaxlink=Y&_UserReference=E6C2479F4D689F465B38CF7D','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 17</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+<div id="moresamestaff">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffu">6 of a total of 16 other  members are shown. </div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Bruno B Averbeck  (Laboratory of Neuropsychology)<br />
+
+
+
+Christopher Ian Baker; PhD  (Section on Learning and Plasticity)<br />
+
+
+
+Karen F Berman; MD  (Clinical and Translational Neuroscience Branch)<br />
+
+
+
+Robert James Richard Blair; PhD  (Section on Development and Affective Neuroscience)<br />
+
+
+
+Robert  Cox; PhD  (Office of the Director)<br />
+
+
+
+Christian  Grillon; PhD  (Section on Neurobiology of Fear and Anxiety)<br />
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaff','searchview.taf?_function=showmore&ios=S&ipid=96275&thisic=&isajaxlink=Y&_UserReference=E6C2479F4D689F465B38CF7D','moresamestaffu');  return false;">
+
+
+<span class="morelist">Show all 16</span></a>.</form></div>
+
+
+
+</div>
+</div>
+
+
+</div>
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+<div id="moresamestaffo">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffou">6 of a total of 20 other NIH members are shown.</div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Lauren Yvette Atlas; PhD (NCCIH) <br />
+
+
+
+Peter Joel Basser; PhD (NICHD) <br />
+
+
+
+Bibiana  Bielekova; MD (NINDS) <br />
+
+
+
+Allen R Braun; MD (NIDCD) <br />
+
+
+
+Mary Catherine Bushnell; PhD (NCCIH) <br />
+
+
+
+Leonardo G Cohen; MD (NINDS) <br />
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaffo','searchview.taf?_function=showmore&ios=O&ipid=96275&isajaxlink=Y&_UserReference=E6C2479F4D689F465B38CF7D','moresamestaffou');  return false;">
+
+
+<span class="morelist">Show all 20</span></a></form></div>
+
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborator
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+E  Wong; PhD, MD
+<i>(Radiology, University of California San Diego)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Brain Imaging, Functional MRI, fMRI, Brain, Cognition, Diffusion Tensor Imaging, MRI, Neurology, Psychiatry, VBM, Voxel Based Morphometry, Anatomic MRI, Connectivity, BOLD, NMR, Spectroscopy, machine learning, data sharing
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Our primary goal is to continue to develop cutting edge fMRI methods and applications while maintaining a high level of utility of the facility resources for users at all levels of expertise. This high level of utility requires constant scanner maintenance, user education and interaction, and commitment to setting the standard as the best fMRI center in the world in terms of research quality. <br /><br />The priorities and major decisions for the FMRIF are set in bimonthly steering committee meetings, in which Principal Investigators (PIs) and their representatives meet with the scientific and technical staff of the center to discuss major purchases and technical priorities and projects. Communication with the broader user community is accomplished via a combination of broadly attended user meetings (interleaved bi-monthly with the steering committee meetings) as well as meetings of the scientific staff with individual research groups, which are scheduled on a rotating basis with PIs from NIMH and NINDS. The staff and director of the FMRIF are also regular participants in the monthly Nuclear Magnetic Resonance Facility (NMRF) steering committee meetings which set priorities and policies.<br /><br />Toward the mission of developing cutting edge fMRI and MRI methods, we are in the process of upgrading our two GE HDx scanners, and establishing a day of scanning on the NIAAA-operated Siemens Prisma 3T scanner. We are also actively developing real time fMRI, multi-echo fMRI, and simultaneous EEG and fMRI. This new technology will allow higher sensitivity, higher speed, and higher signal to noise imaging for anatomic and functional MRI.<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Protocol number 93-M-0170, NCT00001360<br /><br />Space Utilization:<br /><br />The Functional MRI Facility (FMRIF) currently occupies approximately 4800 sq. ft of space, divided between the scanner bays, control rooms and electronics/machine rooms for 3TA, 3TB, 3TC, 3TD, and 7T MRI scanners located within the NMR center and office space on the second floor above the NMR center in the FMRIF/SFIM suite (approximately 1400 sq ft total, including shared conference space).<br /><br />The FMRIF staff (currently 14 full- time positions) consists of: the facility director, three staff scientists to keep the scanners running, six MRI technologists, an information technology specialist, a programmer, a technical laboratory manager, and an administrative laboratory manger.<br /><br />The functional MRI facility supports the research of over 30 Principal Investigators translating to over 300 researchers overall. Over 70 research protocols are active and making use of FMRIF scanners. Each scanner has scheduled operating hours of 105 hours per week.<br /><br />Since its inception in 2000 until August 2016, a total of 1069 peer-reviewed publications from intramural investigators have used data acquired in the FMRIF core facility. The total is distributed among 716 papers from NIMH, 257 papers from NINDS, and 96 from the other institutes. These papers have been cited a total of 95,390 times for a combined h-index of 152. In other words, 152 papers using the FMRIF have been cited at least 152 times.<br /><br /><br />Projects: <br /><br />We completed installation of the high-density (128 channel) EGI MRI compatible system on 3TD and trained MRI technologists. The system is currently being used in pilot studies of ketamine on 3TD as well as a assisting with a study with Leo Cohens group that combines resting MEG and resting EEG/FMRI in stroke rehabilitation.<br /><br />Jan Varada has assembled an MRI quality control processing pipeline that will likely be used for making sure that the data quality remain of a constant high quality as the neuroimaging database becomes assembled.<br /><br />A standard workflow for the 7T pTX project has been established and submission is in preparation to allow human use of the 8Tx/32Rx system (in collaboration with the Jeff Duyn group). <br /><br />A new high-performance image reconstruction system was installed on the 7T that now permits routine use of multi-band, multi-echo (prohibitive before). We have demonstrated routine 2s TR, 1.1mm iso GE-EPI (100 slices). We have tested and installed multi-band sequences from CMRR, MGH and Maastricht. <br /><br />We installed and tested the Center for Magnetic Resonance Resaerch (University of Minnessota) Multi-band sequences on all Siemens scanners. These sequences are now being used routinely on 3TD for LBC protocol.<br /><br />We have gained access to a Stanford multi-band EPI sequence for GE MR750 platform. We are in the process of porting it to Epic 22.x for use on 3TC.<br /><br />Thanks mostly to the work of Vinai Roopchansingh, we have published the base GE (Orchestra) Raw Data to ISMRM-RD converter.<br /><br />We have ported NIH-EPI (supports multi-echo) to Prisma. The sequence is in wide use with researchers at NIH, and is being distributed (as a Siemens C2P sequence) to other sites. We also ported NIH-3D-EPI (i.e. segmented 3D EPI) to Siemens Prisma plaform. This is now in use with the Reich group (Pascal Sati), and is being distributed (as a Siemens C2P sequence) to other sites.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2016 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=96275&allpubs=Y&isajaxlink=Y&_UserReference=E6C2479F4D689F465B38CF7D','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+No publications during this reporting period
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

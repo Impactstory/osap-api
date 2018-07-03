@@ -1,0 +1,610 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002890</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002890-09</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Integrating EEG/MEG and fMRI
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lead Investigator</div></div>
+
+<div class="rowdiv">
+<div class="data">
+Richard  Coppola; SB, DSc
+<br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any LIs -->
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<!-- display SoRs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Supervisor of Record</div></div>
+<div class="rowdiv">
+<div class="data">
+ <!-- faculty test -->
+Karen F Berman; MD 
+ <!-- faculty test -->
+<br />
+
+</div>
+</div>
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Psychosis and Cognitive Studies Section, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Psychosis and Cognitive Studies Section</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 11 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Karen  Bartholomew<br />
+
+
+
+
+Joann  Berkson; RN<br />
+
+
+
+
+Joseph Handel Callicott; MD<br />
+
+
+
+
+Saumitra  Das; MS<br />
+
+
+
+
+Vincent Louis del Balzo<br />
+
+
+
+
+Dwight  Dickinson; PhD<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=91080&onameset=Psychosis and Cognitive Studies Section&isajaxlink=Y&_UserReference=C5A6340A534555C35B38D2AE','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 11</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Bruno B Averbeck  (Section on Learning and Decision Making)<br />
+
+
+
+Thomas O Holroyd  (Division of Intramural Research Programs)<br />
+
+
+
+Dietmar  Plenz; PhD  (Laboratory of Systems Neuroscience)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Danielle S. Bassett; PhD
+<i>(Brain Mapping Unit, University of Cambridge)</i>
+<br />
+
+
+
+Edward  Bullmore; MD
+<i>(Biostatistics & Computing, Institute of Psychiatry)</i>
+<br />
+
+
+
+Arnold J Mandell; MD
+<i>(Cielo Institute)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+schizophrenia, EEG, MEG, fMRI, functional connectivity, neuroimaging
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+ It is the aim of this study (99-M-0172/NCT00001921) to investigate the functional activation and coupling between brain regions in healthy volunteers, patients with schizophrenia and unaffected family members. We will perform electrophysiological recordings (MEG, EEG) during cognitive activation (Continuous Performance Task, Sternberg paradigm, working memory). We will focus on the investigation of oscillatory brain activity as this is considered to be crucial for information processing related to neuronal integration. The measurements will be closely adapted to equivalent fMRI-measurements presented as an independent protocol (00-M-0085/NCT00004571). The combination of both methods will help to improve activity source localization (MEG/EEG) and correlation of this activity between different parts of the brain. In addition, local activity patterns (fMRI) can be better characterized in the time domain (tonic versus phasic BOLD-activation). We will address whether cognitive activation goes along with an increase or decrease of correlation between regional brain areas. Additionally, the detailed time resolution of MEG will also aid in the investigation of the functional connectivity among brain regions. In this context, we will investigate whether this correlated activation pattern is different in schizophrenics and unaffected siblings when compared with healthy volunteers. The study is integrated with the schizophrenia-sibling study (95-M-0150/NCT00001486). Siblings of schizophrenic patients are investigated in order to achieve a better understanding of the genetic determination of schizophrenia-related pathophysiology.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Our earlier basic studies have shown that MEG recordings during cognitive tasks have the ability to localize brain activity in comparable fashion to functional MRI. In specific, reduction in power in the beta frequency band at the cortex in general agrees with BOLD activation results. However, electrophysiological recordings such as the MEG/EEG have fine grained time dynamics not possible with other imaging techniques.  We have also found that GABA (gamma-aminobutyric acid) concentration in the anterior cingulate cortex correlates with spatially localized resting MEG beta band power. We have expanded the cohort of well-matched subjects and isolated specific frequency band difference especially in the high gamma range (65 to 115 Hz).<br /><br />Differences in the degree of activation especially in frontal regions as indexed by beta desynchronization during a working memory task have been found between patients with schizophrenia compared to well siblings and healthy control volunteers. Previously we have seen that this activation reveals an interaction with genotype for the well-studied COMT marker.  With groups of patients, siblings and controls matched for working memory task performance, patients show a distinct reduced DLPFC activation in apparent distinction to an increase in BOLD relative to task load. The MEG analysis isolates a working memory component that may reflect a different aspect of cortical processing. We have extended these results to examine differences in the high gamma band across groups. The relation of the different frequency bands to patterns of blood flow activation have revealed more specific targets for the neurophysiology underlying patient differences.  We are now also comparing these differences in patients on and off anti-psychotic medication.  It appears that medication may attenuate the PFC differences.  We are also extending our genetic comparisons to examine modulation by SCN2A, a gene encoding the alpha-2 subunit of the sodium channel. Other studies have shown variation in cognitive performance across group, with MEG source localization showing significant differences in DLPFC and dACC for genotype by task interactions.<br /><br />Differences in network patterns and dynamics are key to understanding underlying pathology in clinical groups. Previously Bassett et al. have shown that functional network variations in patient groups can be related to behavioral outcomes on cognitive activities. We have found distinct patterns of the temporal sequence of brain regions involved in these memory tasks that show a variety of individual differences across subjects. We are continuing to utilize a variety of new measures to examine the flow of information in relation to cognitive task demand.  We previously demonstrated that critical dynamics exist in resting MEG recordings and are now expanding this to compare patients with schizophrenia.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91080&allpubs=Y&isajaxlink=Y&_UserReference=C5A6340A534555C35B38D2AE','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Furl N, Coppola R, Averbeck BB, Weinberger DR (2014) Cross-Frequency Power Coupling Between Hierarchically Organized Face-Selective Areas. Cereb Cortex 24:2409-20
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23588186?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4128705/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23588186
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4128705 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

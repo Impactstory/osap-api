@@ -1,0 +1,696 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002804</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002804-13</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Family Study of Affective and Anxiety Spectrum Disorders
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Kathleen R Merikangas; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/kathleen-merikangas" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Developmental Genetic Epidemiology, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Developmental Genetic Epidemiology</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 13 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Lara Michelle Baez; BA<br />
+
+
+
+
+Francesca  Belouad; MA<br />
+
+
+
+
+Lihong  Cui; MS<br />
+
+
+
+
+John David Eun; BA<br />
+
+
+
+
+Jaclyn Marie Franco; BA<br />
+
+
+
+
+Jennifer  Glaus; PhD<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=91016&onameset=Section on Developmental Genetic Epidemiology&isajaxlink=Y&_UserReference=EEE7EE8D437C2C455B38D69D','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 13</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Christian  Grillon; PhD  (Section on Neurobiology of Fear and Anxiety)<br />
+
+
+
+Rodrigo  Machado-Vieira  (Experimental Therapeutics and Pathophysiology Branch)<br />
+
+
+
+Francis Joseph McMahon; MD  (Division of Intramural Research Programs)<br />
+
+
+
+Carlos Alberto Zarate; MD  (Laboratory of Molecular Pathophysiology and Experimental Therapeutics)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+David B Goldstein (NINDS) <br />
+
+
+
+Karin B. Nelson; MD (NINDS) <br />
+
+
+
+Nicholas  Patronas; MD (CC) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 29 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Jules  Angst; MD
+<i>(University of Zurich, Switzerland)</i>
+<br />
+
+
+
+Ruth  Benca; MD, PhD
+<i>(University of California, Irvine School of Medicine)</i>
+<br />
+
+
+
+Monica  Calkins; PhD
+<i>(University of Pennsylvania)</i>
+<br />
+
+
+
+Roman  Dunko
+
+<i>(King’s College, London, UK)</i>
+<br />
+
+
+
+Nancy  Elling
+<i>(Children's National Medical Center)</i>
+<br />
+
+
+
+Helene  Emsellem
+<i>(George Washington University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=91016&isajaxlink=Y&_UserReference=EEE7EE8D437C2C455B38D69D','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 29</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+mood disorders, family study, Bipolar Disorder, anxiety, migraine, development, mania, sleep, subtypes, biomarkers
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+This work is conducted under protocol 03-M-0211, NCT00071786.<br /><br />The chief goal of this study is to identify the components of the spectrum of mood disorders using the methods of genetic epidemiology, developmental psychopathology and clinical psychiatry/psychology. This study focuses on the specificity of familial transmission of disorders in the mood disorder spectrum (i.e. symptoms, symptom clusters, subtypes) and the role of comorbidity with anxiety disorders and physical disorders including migraine and cardiovascular diseases in defining subtypes of mood disorders.  One of the chief issues addressed in our work is identifying the core clinical and biologic factors underlying mood disorder spectrum and migraine that run in families. The major contributions of this research include: (1) identification of clinical phenotypes that breed true in families and are specific to particular subtypes of mood disorders; (2) refinement of phenotypes for the diagnostic nomenclature; (3) resolution of the role of comorbid disorders, particularly sleep disorders, anxiety and migraine, as indicators of subtypes of these disorders; and (4) elucidation of age and development-specific patterns of expression of salient components of the mood disorder spectrum across the lifespan.  The project was implemented in several phases including: (1) development of measures of the spectrum of mood and anxiety disorders in adults and children, and structured interviews for the key components of the study phenotypes including mood, sleep and headache; (2) sampling and recruitment of probands from both clinical and community settings and enrollment and evaluation of the relatives; (3) selection and implementation of measures of core features and endophenotypes for mood disorders and migraine; and (4) establishment of a high risk cohort to study the evolution of these disorders and the specificity of vulnerability markers and endophenotypes prior to clinical onset of these conditions.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The major aims of this project have been accomplished through the establishment of a large community-based family study of adult probands who participate in comprehensive clinical and biologic assessments followed by comparable evaluations of their adult and child relatives.  Recruitment of probands and evaluation of relatives are now near completion and analyses of the findings are underway.<br /><br />To date, we have enrolled 905 probands, 1388 relatives, and 175 children into the study from community, clinical, and other recruitment sources.  Over 500 probands and about 1000 of their relatives have completed the study, of which 500 have been evaluated at the National Institutes of Health (NIH) Clinical Center.  Probands represent a large range of disorders including mood, anxiety, sleep, migraine, and cardiovascular in addition to controls.  We are now completing interviews with relatives who had not previously participated in the study. We have also begun to follow-up families in order to track health changes in child and adolescent relatives over time.<br /><br />In order to identify the core features of mood and anxiety disorders and their overlap with sleep problems, cardiovascular diseases and migraine, we have established a set of clinical, psychophysiological and neuropsychological measures. The comprehensive set of measures in the study are divided into three components: (1) clinical information that includes a semi-structured diagnostic interview for mood and anxiety disorders; structured diagnostic interviews for major headache syndromes and for sleep disorders; family history of psychiatric disorders, sleep disorders and headache syndromes, and a series of self-reported measures of symptoms, sleep patterns and personality; medical history, family structure, history and function, and major life and family events; (2) in person evaluation at the NIH Clinical Center that includes physical and neurological examination; autonomic nervous system evaluation using tilt and valsalva maneuver;  laboratory measures of metabolic, cardiovascular, and immunologic function; psychophysiologic evaluation including startle reflex and eyeblink reflex; structural magnetic resonance imaging; a computerized cognitive assessment battery; and olfactory function; and (3) two-week assessment of daily activities including an electronic diary that assesses daily rhythms including mood, anxiety, sleep, stress, activity, diet, and social activities; heart rate reactivity using a holter monitor; activity and sleep using an actiwatch; and salivary hormones collected four times per day. In the past year, we have continued to run analyses on several of these clinical components and are working with external collaborators to design and implement analyses of all of the measures in the study.<br /><br />This study has yielded substantial methodological developments including the development and validation of a structured diagnostic interview for headache syndromes (Lateef et al, 2012); systematic assessment of the validity of the National Institute of Mental Health (NIMH) Family Study Diagnostic Interview for Affective Spectrum Disorders that was developed for this study compared to the Structured Clinical Interview for DSM-IV; and the validation of the NIMH Sleep Diagnostic Interview also developed for this study compared with sleep disorder diagnoses made by sleep experts (Merikangas et al, 2014).  We also joined the Research Electronic Data Capture Consortium through Vanderbilt University and are in the process of transferring our study interviews and questionnaires into computerized databases for enhanced data collection and instrument sharing.<br /><br />We have completed the primary analyses of the familial aggregation of mood disorder subtypes, their patterns of comorbidity, and their co-aggregation in relatives, and have published the principal paper that reports these findings. Likewise, we have also completed analyses of the familial aggregation of migraine and comorbid conditions. The major findings confirm the familial aggregation of bipolar disorder and major depression that has been found in earlier family studies of mood disorders, but in a community-based sample that suspended diagnostic hierarchies of earlier diagnostic systems. The most important finding that emerged from this study is the independent familial transmission of mania and depression suggesting that these two mood states may represent distinct underlying diatheses. The lack of familial aggregation of hypomania suggests that the bipolar spectrum concept may not be a valid entity. We also found strong evidence for familial specificity of atypical depression in probands and interviewed relatives, thereby confirming the validity of this subtype of depression. Additional analyses that are currently being investigated include the familial aggregation of subtypes of sleep disorders, early manifestations of mood and anxiety disorders in offspring of parents with mood spectrum disorders, and heritability analyses of both disorders and underlying traits.<br /><br />During the last year, we have devoted substantial effort to completion of diagnostic reviews and conducting best estimate diagnoses of the interview and family history information in this study. We have conducted numerous analyses of the familial aggregation of subtypes of mood disorders, co-aggregation of temperament and disorders in families, and familial patterns of sleep disorders and their relationship with mood disorders. We have also completed initial analyses of the data from multiple domains of assessment including activity monitors, ecological momentary assessment, neuropsychological data, olfactory function, autonomic reactivity, potentiated startle and neuroimaging data. These analyses will be completed during the next project period and findings will be submitted for publication. <br /><br />Public Health Impact:<br />Integration of the clinical, neuropsychological and psychophysiological measures within families will render an in-depth analysis of the biological mechanisms crucial for mood and anxiety disorders and their underlying diatheses. This will not only lead to a better understanding of these conditions and assist in identifying common genetic mechanisms, but may also lead to the development of novel treatment options and possible strategies for prevention and early intervention in those with elevated risk for these conditions. <br /><br />Future Plans:<br />During the next project year, we plan to focus on follow-up of the families to complete enrollment of relatives.   We will continue the evaluation of relatives, including increased enrollment of child and adolescent relatives who have not yet been enrolled in the study. We will continue to follow-up the probands and relatives currently enrolled in the study to update the diagnostic status and to continue the current biologic studies. We also plan to repeat the measures of circadian rhythms of activity, sleep and cognitive and mood states to test their stability through the use of mobile technologies.  We will continue analyses of familial aggregation of mood disorders and anxiety disorders as well as the biologic and laboratory measures that were included in the study.  Classification models will be employed to identify core underlying domains as indexed by the biomarker and clinical assessments now underway. Study measures will be refined to eliminate those measures that are not informative with respect to either mood disorders or familial aggregation. Based on the findings from analyses of the study, we plan to design and pilot interventions that stabilize regulation of activity, sleep and other daily rhythms in this and other samples.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91016&allpubs=Y&isajaxlink=Y&_UserReference=EEE7EE8D437C2C455B38D69D','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Book chapters<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Merikangas KR, Karayiorgou M (2015) Genetics of Psychiatric Disorders: Advances in Genetic Epidemiology and Molecular Genetics, in Psychiatry. Tasman A, Kay J, Lieberman J, First M, Riba M, eds.  John Wiley and Sons, Ltd, pp.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Lateef TM, Cui L, Nakamura E, Dozier J, Merikangas K (2015) Accuracy of family history reports of migraine in a community-based family study of migraine. Headache 55:407-12
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25676478?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4357559/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25676478
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4357559 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

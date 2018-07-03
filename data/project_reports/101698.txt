@@ -1,0 +1,681 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002963</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002963-01</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Systems Neuroscience Imaging Resource
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Theodore B Usdin; MD, PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/ted-usdin" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Fundamental Neuroscience, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Fundamental Neuroscience</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Mary Anastacia Friar<br />
+
+
+
+
+Jonathan C Kuo; MS<br />
+
+
+
+
+Maria Ivana Perica<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Heather A Cameron; PhD  (Section on Neuroplasticity)<br />
+
+
+
+Charles R Gerfen; PhD  (Laboratory of Systems Neuroscience)<br />
+
+
+
+David A Leopold; PhD  (Section on Cognitive Neurophysiology and Imaging)<br />
+
+
+
+Walter Scott Young; MD, PhD  (Section on Neural Gene Expression)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Yarimar  Carrasquillo (NCCIH) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Molecular neuroanatomy, Systems neuroscience, Light microscopy
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+NIMH Systems Neuroscience Imaging Resource<br /><br />Current approaches to investigation of brain circuits and systems require analyses of neuronal projections, gene expression, and protein distribution patterns at cellular or greater resolution across multiple brain regions.  The Systems Neuroscience Imaging Resource (SNIR) will make tools for systems level contemporary molecular anatomy accessible to NIMH and potentially other investigators. The SNIR will support investigation of circuits in the mouse and other species. This includes the implementation of advances in molecular anatomical methods in the marmoset and macaque.  A particular focus will be the facilitation of work incorporating advances in 3D reconstruction of specified circuits, cell types, and protein distributions, combining modern clearing, image acquisition, and volume reconstruction methods.<br /><br />The SNIR is intended to provide access to hardware, software, wet lab procedures, training, support and expertise surrounding histological preparation and microscopy. The SNIR will facilitate access to well established technologies such as high-throughput wide-field microscopy and laser scanning confocal microscopy. It will also facilitate the application of recently developed genetic, molecular, and imaging and analysis techniques to the projects and problems of intramural investigators. Evaluation of the tradeoffs between, and implementation of optimal combinations of, conventional sectioning approaches and clearing approaches will be an initial technical focus.<br /><br />Interactions between users and the SNIR will vary widely, based on project requirements and investigator expertise. Some investigators will have well developed procedures and simply need to use equipment. Orientation to specific equipment and time allocation will be provided. Training students and fellows in the techniques and procedures covered by the SNIR is expected to be a significant component of its work, followed by use of the equipment. Investigators may also wish to explore whether techniques such as tissue clearing or multiplex in situ hybridization will make valuable contributions to their work. SNIR staff will work closely with such investigators. The SNIR will also take on a small number of collaborations. These projects will generally be selected to advance a particular research project while also establishing procedures that will be of use to multiple investigators. <br /><br />Projected capabilities:<br />1) Sectioning using sliding microtome, cryostat or vibratome.<br />2) Tissue labeling with antibodies or nucleic acid probes, including multiplex in situ hybridization.<br />3) Tissue clearing using CLARITY, CUBIC iDISCO and related techniques.<br />4) Tissue imaging using conventional widefield illumination, including whole slide scanning, laser scanning confocal microscopy, and light sheet microscopy.<br />5) Image processing, including deconvolution, brain reconstruction, alignment, registration and segmentation.<br />6) Storage of, and online access to, image data.<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+This is the first year of operation of the Systems Neuroscience Imaging Resource (SNIR). Much of the focus has been on equipment acquisition and procedure development.<br /><br />The first piece of equipment specifically purchased for the SNIR is a Zeiss AxioscanZ1 slide scanning microscope. This is a high quality widefield microscope with transmitted brightfield and fluorescent epi-illumination capacity. Its most significant feature is the ability to program multichannel tiled acquisition of large areas from up to 100 microscope slides. It is being actively used by investigators from 10 different intramural laboratories for projects that include whole brain mapping of gene expression profiles and the projections of genetically tagged and fluorescently labeled neuron populations.<br /><br />The SNIR has taken on management of a shared Zeiss LSM780 microscope. This instrument is approximately 4 years old. It is a high quality inverted confocal microscope with 405, 488, 514, 561, 594 and 633 nm lasers, a 32-channel spectral detector and 2 conventional PMTS. It is generally used to capacity during core working hours by investigators from approximately 10 different NIMH intramural groups.<br /><br />Acquisition of additional microscopes aimed at systems neuroscience and whole brain imaging is planned. These include an upright confocal/multiphoton microscope and a light sheet microscope. Renovation of space to accommodate this equipment is planned.<br /><br />Microbrightfield Brainmaker and Neurolucida 360 software packages have been acquired to facilitate reconstruction and analysis of systems neuroscience data. Additional software purchases are under investigation.<br /><br />Protocols for multiplex in situ hybridization are being developed and work toward implementation of established protocols for clearing and imaging thick pieces of brain tissue is underway. <br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+<!-- do not show project link -->
+
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Cservenák M, Keller D, Kis V, Fazekas EA, Öllös H, Lékó AH, Szabó ÉR, Renner É, Usdin TB, Palkovits M, Dobolyi Á (2017). A Thalamo-Hypothalamic Pathway That Activates Oxytocin Neurons in Social Contexts in Female Rats. Endocrinology  158, 335-348.   https://doi.org/10.1210/en.2016-1645
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27841935?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5413079/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27841935
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5413079 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Cservenák M, Kis V, Keller D, Dimén D, Menyhárt L, Oláh S, Szabó ÉR, Barna J, Renner É, Usdin TB, Dobolyi A (2017). Maternally involved galanin neurons in the preoptic area of the rat. Brain Struct Funct  222, 781-798.   https://doi.org/10.1007/s00429-016-1246-5
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27300187?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5156581/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27300187
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5156581 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Sato E, Muto J, Zhang LJ, Adase CA, Sanford JA, Takahashi T, Nakatsuji T, Usdin TB, Gallo RL (2016) The Parathyroid Hormone Second Receptor PTH2R and its Ligand Tuberoinfundibular Peptide of 39 Residues TIP39 Regulate Intracellular Calcium and Influence Keratinocyte Differentiation. J Invest Dermatol 136:1449-59
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27000502?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5125298/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27000502
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5125298 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Usdin TB, Dimitrov EL (2016) The Effects of Extended Pain on Behavior: Recent Progress. Neuroscientist 22:521-33
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27621368?dopt=Abstract" target="_blank">PubMed</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27621368
+    
+     <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

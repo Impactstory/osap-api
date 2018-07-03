@@ -1,0 +1,574 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002954</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002954-02</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Motor Activity Research Consortium for Health (mMarch)
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Kathleen R Merikangas; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/kathleen-merikangas" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Developmental Genetic Epidemiology, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Developmental Genetic Epidemiology</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 12 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Lara Michelle Baez; BA<br />
+
+
+
+
+Lihong  Cui; MS<br />
+
+
+
+
+Jaclyn Marie Franco; BA<br />
+
+
+
+
+Jennifer  Glaus; PhD<br />
+
+
+
+
+Jordan Taylor Johns; MS<br />
+
+
+
+
+Peter R Leeds; BS<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=101286&onameset=Section on Developmental Genetic Epidemiology&isajaxlink=Y&_UserReference=A20ABE44B7829AEB5B38D6F3','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 12</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Carlos Alberto Zarate; MD  (Experimental Therapeutics and Pathophysiology Branch)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Phillip  Shaw (NHGRI) <br />
+
+
+
+Nora D Volkow; MD (NIDA) <br />
+
+
+
+Gene-Jack  Wang; MD, MPH (NIAAA) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 37 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Frank  Bellivier; MD, PhD
+<i>(French Institute of Health and Medical Research)</i>
+<br />
+
+
+
+Ruth  Benca; MD, PhD
+<i>(University of California, Irvine School of Medicine)</i>
+<br />
+
+
+
+Ole  Bernt Fasmer; MD, PhD
+<i>(University of Bergen, Norway)</i>
+<br />
+
+
+
+Maja  Bucan; PhD
+<i>(University of Pennsylvania)</i>
+<br />
+
+
+
+Ciprian  Crainiceanu; PhD
+<i>(Johns Hopkins Bloomberg School of Public Health)</i>
+<br />
+
+
+
+Bruno  Etain; MD, PhD
+<i>(French Institute of Health and Medical Research)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=101286&isajaxlink=Y&_UserReference=A20ABE44B7829AEB5B38D6F3','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 37</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+consortium, motor activity, mood disorders, mobile technologies, eating, emotion, EMA, mood, network, sleep, bipolar, circadian rhythms
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The salience of motor activity as a core feature of bipolar disorder (BPD) has led us to devote substantial effort to the development of standardized procedures for its assessment, as well as to gain understanding of its biologic correlates and relationship with other core domains associated with mood and other disorders, and with human health in general.<br /><br />In collaboration with experts in analytic methods for actigraphy in the S.M.A.R.T. (Statistical Methods and Applications for Research in Technology) group in the Department of Biostatistics at the Johns Hopkins University Bloomberg School of Public Health, the Section on Developmental Genetic Epidemiology at the National Institute of Mental Health (NIMH) has established a collaborative activity network of five sites entitled Motor Activity Research Consortium for Health (mMARCH).  Core sites involved include: 1) the CoLaus/PsyCoLaus Study in Lausanne, Switzerland (Martin Preisig, MD, MPH; Peter Vollenweider, MD); 2) the Netherlands Study of Depression and Anxiety (NESDA) at VU University Medical Center in Amsterdam, Netherlands (Brenda Penninx, PhD; Femke Lamers, PhD); 3) the Youth Mental Health Clinic at the Brain &amp; Mind Research Institute (BMRI) in Campbelltown, Sydney, Australia (Ian Hickie, MD); 4) the Brisbane Adolescent Twin Project in Brisbane, Queensland, Australia (Nick Martin, PhD; Margie Wright, PhD); and 5) the NIMH Family Study of Affective and Anxiety Spectrum Disorders (NIMH Family Study) in Bethesda, MD (Kathleen Merikangas, PhD).  The core group selected the GENEActiv Device (Activinsights Ltd., geneactiv.org) to measure actigraphy, and most sites also include ecological momentary assessment (EMA). The overarching goal is to standardize methods and analytic approaches to investigate associations between motor activity, mood, and related disorders. The specific aims are to: 1) develop standard procedures for study administration, data management, and analyses of actigraphy data; 2) conduct cross-site and meta/mega analyses in order to increase power and cross validate common study questions; 3) develop and pilot collection of supplementary information using electronic or paper and pencil diary data; and 4) facilitate joint analyses of data to address topics defined by thematic subgroups (mood disorders, substance abuse, attention-deficit hyperactivity disorder, genetic risk factors, sleep, physical health conditions, circadian rhythms, development, and inter-relationships of sleep, activity, eating, emotion, etc.).<br /><br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+There is growing interest in studying the environmental, biologic and genetic correlates of the components of motor activity as well as the relationships between motor activity with sleep, exercise, mood, and cognitive functioning. Aggregation of the findings across these studies is complicated by the substantial differences in both the study goals, procedures and statistical methods. There is a need for greater coordination across studies in the procedures and analytic methods that can take into account advances in analysis of functional data.<br /><br />We have devoted the past year to analyses of the findings of the actigraphy and electronic diary, and their combination. We have used multiple analytic approaches to characterize the actigraphy data including generalized estimating equations, mixed models, functional principal components analysis and scalar regression models. We found that bipolar 1 (BPI) disorder was characterized by lower average and greater variability in motor activity, and that those with BPD have greater reactivity across homeostatic regulatory systems of activity, sleep, mood and energy (Shou et al, 2017). We have presented findings at scientific meetings during the past year including the International Society for Bipolar Disorder Research in Washington, DC; the International Society for Affective Disorders in Amsterdam; the Gordon Conference on Cognition and Circadian Rhythms in Hong Kong; the Society for Biological Psychiatry in San Diego, CA; the International Conference on Ambulatory Monitoring of Physical Activity and Movement in Bethesda, MD; the American College of Neuropsychopharmacology in Hollywood, FL; and several academic settings including Harvard Medical School, Weill-Cornell Medical School, and the University of Toronto.<br /><br />We have also done extensive analyses of the electronic diary data using EMA. A post-baccalaureate training fellow from our group (Yao Xiao, B.S.) has developed a shiny application using R language that facilitates visualization of the data including frequencies, cross tabulation of multiple variables, and preliminary analyses of the data. Our analyses of the data showed that people with BPD have greater reactivity to positive events, whereas variability in mood and anxiety appears to be a trait marker of people with a history of mood disorders in general (Lamers et al, under review).  We have also employed a novel statistical technique to study the stability of emotional and attention states using fragmentation models (Johns et al, under review). We have now developed new EMA scripts that will be used in several sites in order to increase the generalizability of the samples and the power of these analyses. We are also analyzing sleep patterns and disorders as well as physical activity and their associations with mood disorder subtypes.<br /><br />This work has primarily been focused on data from the NIMH Family Study. However, we have also analyzed data from the Brisbane Twin Study and the Australian BMRI. Our analytic group has conducted several webinars that instruct mMARCH site investigators on the procedures for processing, setting up data sets and conducting analyses of the GENEActiv actigraphy data. We have also convened an international team of biostatisticians and mathematicians directed by Drs. Vadim Zipunnikov and Haochang Shou that is working on algorithms for processing and analyzing the actigraphy data. The goal of this group is to simultaneously characterize multiple landmarks in circadian rhythms and will model inter- and intra-day interactions and dynamics in rest/activity and sleep patterns, thereby augmenting the available information and will empower the analytical framework uniformly applied across mMARCH sites.  <br /><br />During the past year, we have had two meetings of the mood disorder work groups that have been involved in planning the analyses and developing new studies using common methods and measures. One of these work groups has written a review of the importance of motor activation as a core feature of BPD, and reviewed the literature on actigraphy in mood disorders (Scott et al, 2017).<br /><br />Publications resulting from the mMARCH initiative:<br />-Shou H, Cui L, Hickie I, Lameira DM, Lamers F, Crainiceanu C, Zipunnikov V, Merikangas K (2017) Dysregulation of objectively-assessed 24-hour motor activity patterns in bipolar disorder. Translational Psychiatry, in press.<br />-Lamers F, Swendsen J, Cui L, Zipunnikov V, Husky M, Merikangas K (2017) Mood variability and reactivity in mood disorder subtypes, under review.<br />- Johns J, Junrui D, Cui L, Swendsen J, Zipunnikov V, Merikangas KR. Fragmentation as a novel measure of stability in normalized trajectories of mood and attention assessed by electronic diaries, under review.<br />- Scott J, Murray G, Henry C, Morken G, Scott E, Angst J, Merikangas KR, Hickie IB (2017) Activation in bipolar disorders: a systematic review. JAMA Psychiatry 74:189-196.<br /><br />Public Health Impact:<br />The formation of the mMARCH initiative will enable groups to efficiently share and combine data to learn more about how activity affects different disorders and diseases across many populations, including mood disorders, sleep patterns, circadian rhythms, genetic studies, emotion, eating, etc. This work will also define targets for prevention and intervention studies.<br /><br />Future Plans:<br />During the next year we are focusing on three major activities: (1) joint analysis of the mMARCH core group data including the CoLaus/PsyCoLaus study of comorbidity of depression and cardiovascular disease, the NESDA study in the Netherlands, the Australian studies of twin and youth with emerging mood disorders, and the Hong Kong circadian rhythms study; (2) follow up of the NIMH Family Study and the CoLaus/PsyCoLaus samples to investigate the stability of the findings from the first wave of participants; and (3) initiation of new studies of youth in seven sites (miniMARCH collaboration).  For the first goal, we will continue to develop standard methods of analyses for cross-site data, and the topical work groups on mood disorders, sleep patterns, circadian rhythms, developmental trajectories, and genetic studies will establish specific aims and analyze the multi-site data. For the second goal, we have developed new scripts for the EMA data and will examine the stability of the findings by repeated assessments twice per year.  The third goal involves harmonization of clinical and mobile technology procedures in three studies of offspring of parents with BPD (NIMH, Bethesda, MD; Lausanne, Switzerland; Hong Kong, China), three population studies (Sao Paulo, Brazil; Queensland, Australia; Staten Island, NY) and three clinical studies of youth (Toronto, Canada; Philadelphia, PA; Sydney, Australia). We are starting to have regular meetings of the latter sites to discuss common aims, measures and procedures. The goal of these studies is to identify the longitudinal evolution of patterns of motor activity / sleep and their relationships with mood and comorbid conditions.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+<!-- do not show project link -->
+
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+There were no publications associated with this project
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

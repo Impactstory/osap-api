@@ -1,0 +1,662 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002918</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002918-07</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Functional Anatomy of Face Processing in the Primate Brain
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Leslie G Ungerleider; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/leslie-ungerleider" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neurocircuitry, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neurocircuitry</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 12 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Adam  Messinger; PhD<br />
+
+
+
+Hui  Zhang<br />
+
+
+
+Ning  Liu<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Amisha  Gandhi<br />
+
+
+
+
+Geena Rose Ianni<br />
+
+
+
+
+David James Pitcher<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=91096&onameset=Section on Neurocircuitry&isajaxlink=Y&_UserReference=EE043721F6C59B5E5B38D522','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 12</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Bruno B Averbeck  (Laboratory of Neuropsychology)<br />
+
+
+
+Elisabeth Adams Murray; PhD  (Section on Neurobiology of Learning and Memory)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Galia  Avidan; PhD
+<i>(Ben-Gurion University of the Negev)</i>
+<br />
+
+
+
+Marlene  Behrmann; PhD
+<i>(Carnegie Mellon University)</i>
+<br />
+
+
+
+Andrew H Bell; PhD
+<i>(Oxford University)</i>
+<br />
+
+
+
+Fadila  Hadj-Bouziane
+
+<br />
+
+
+
+Alumit  Ishai
+<i>(National Science Foundation)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+face processing, brain imaging, cerebral cortex, emotion, inferior temporal cortex, perception, visual cognition
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The ability of primates, both human and non-human, to effortlessly recognize faces has been attributed to the existence of specialized neural machinery for face perception. The long-term goal of this project is to understand the functional architecture of face processing in the primate brain using a variety of neurobiological techniques, including functional brain imaging, single-cell recording, de-activation (both acute and chronic), microstimulation, and tract tracing with MRI-visible compounds. Whenever possible, results from humans will be compared to those from monkeys, in which invasive procedures are possible.  A better understanding of the neural mechanisms for face processing should have a major impact on the treatment of disorders of social cognition, such as autism, schizophrenia, and anxiety.  This work was conducted under protocol 93-M-0170 (NCT00001360) and 12-M-0128 (NCT01617408).
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Lesions of inferior temporal (IT) cortex in humans can result in the syndrome termed prosopagnosia, an inability to recognize familiar faces. Singel-cell recordings from IT cortex of monkeys have revealed the existence of neurons that are selectively activated by visual images of faces. Additionally, brain imaging studies in both humans and monkeys have demonstrated face-selective regions, in which the fMRI signal evoked by faces is greater compared to that evoked by non-face objects. <br />Although many groups have reported face-selective regions in temporal and prefrontal cortex, the circuitry underlying face selectivity remains unclear. Here, we studied the functional connectivity among these face-selective regions in monkeys in the resting state. First, we mapped the regions by contrasting fMRI activation to images of monkey faces vs. non-face objects. Two face-selective regions in IT cortex were found in each hemisphere: the anterior and posterior face patches. The animals then underwent ten minutes of resting-state scans. Resting-state averaged time courses from the face patches of each hemisphere were the seeds for functional connectivity analyses. We found that a seed placed in the posterior face patch of one hemisphere correlated with activity in the posterior face patch of the other hemisphere and in the anterior patch, prefrontal face-selective areas and the amygdala of both hemispheres. A seed placed in the anterior face patch showed similar functional connectivity. These results demonstrate that face-selective regions form a network, which can be detected in the intrinsic, spontaneous fMRI signal fluctuations.  We have also been exploring whether the face-processing network, revealed in healthy individuals at rest, differs in those with congenital prosopagnosia (CP), a lifelong deficit in face recognition that occurs despite normal intelligence and experience. We localized key regions of the face network using a localizer task and used these regions as seeds for a functional connectivity analysis. This revealed in the controls a set of both posterior and anterior cortical areas whose activity was significantly correlated during rest, reflecting the presence of a face-selective resting state network. However, in CP individuals, the network was compromised, with correlated activity in more anterior regions markedly lower. The results thus indicate that impaired connectivity within the face network may underlie CP. &amp;#8232;&amp;#8232;&amp;#8232;&amp;#8232;<br />We previously showed that facial expressions modulate fMRI activity in the monkey's amygdala and visual cortex: expressions with emotion yield greater activation than neutral faces, which we term the valence effect. We next tested whether amygdala lesions would eliminate emotional modulatory feedback to the visual cortex, thus disrupting the valence effects seen there. Activation to four different facial expressions was tested: neutral, aggressive (open mouth threat), fearful (fear grimace) and appeasing (lip smack). In control monkeys, as expected, faces with emotional expressions relative to neutral faces produced enhanced responses in face-selective regions.  In monkeys with amygdala lesions, although face-selective patches were found in IT cortex, their activity was not modulated by facial expressions, demonstrating that the amygdala is the source of the valence effects seen in visual cortex but is not necessary for face processing per se. In related work in monkeys, we found that oxytocin (OT, nasally inhaled) reduced fMRI responses to both fearful and aggressive faces in face-responsive regions and the amygdala, while leaving responses to appeasing and neutral faces unchanged. We also found that OT reduced functional coupling between the amygdala and areas in the occipital and inferior temporal cortex when viewing fearful and aggressive faces, but not when viewing neutral or appeasing faces. Our results indicate that the monkey may be an ideal animal model to explore the development of novel OT-based pharmacological strategies for treating patients with dysfunctional social behavior, such as autism spectrum disorder. <br />Additional projects are currently in progress: &amp;#8232; <br />1. We have been studying anatomical connectivity in monkeys by electrically stimulating a targeted structure and measuring the resultant neuronal activation in functionally connected brain areas with fMRI. When we targeted the basal nucleus of the amygdala, we found preferential activation of face-selective patches compared to object-selective patches within IT cortex.  Amygdala inputs to these face patches are likely important for deciphering the emotional state of others from their facial expression.  &amp;#8232;<br />2. Arguments for face-selective homologues between humans and macaques assume common processing strategies. Here, we trained monkeys on a face inversion task where, like humans, they responded slower to inverted than to upright faces. However, better efficiency scores for recognizing upright stimuli than inverted ones were only found for macaque and chimpanzee faces (not for human or sheep faces or non-face objects). These results reveal that macaques process macaque and chimpanzee faces holistically and support the idea that the inversion effect is specific for stimuli for which the individual has developed expertise.  <br />3. In behavioral work in humans, we found that face recognition is disrupted by masks consisting of noisy curved stimuli, while object recognition (chairs) is disrupted by masks consisting of noisy straight stimuli, suggesting that separate functional streams in the brain might process curved and rectilinear shapes.  We confirmed this idea in fMRI studies in monkeys and humans.  Further, fMRI curvature-biased patches in both species partially overlapped face-selective patches, suggesting that curvature processing may contribute to face perception.  <br />4. One model of face recognition posits that separate networks process the invariant aspects of a face, such as identity, and the changeable aspects of a face, such as expression. In support of this idea, we found (using multivoxel pattern analysis) that human face-selective regions responsive to visual motion accurately decoded facial expressions, whereas face-selective regions unresponsive to motion did not, and instead decoded identity. We are currently exploring whether homologous pathways exist in monkeys. <br />5.  Monkey neuranatomy has demonstrated a pathway, specialized for biological motion, projecting down the superior temporal sulcus (STS) into the amygdala.  We used theta-burst TMS (TBS) combined with fMRI to determine whether such a pathway exists in humans.  TBS delivered over the right posterior STS (rpSTS) reduced activation to dynamic faces and bodies (but not objects) in the rrpSTS itself and activation to faces in the amygdala relative to TBS delivered over the vertex control site. These results demonstrate that the rpSTS is functionally connected to the amygdala for the perception of dynamic (moving) faces.  <br />6. Human face recognition is often attributed to configural processing; namely, processing the spatial relationships among facial features. If so, do visuospatial mechanisms within the posterior parietal cortex (PPC) contribute to this process? We explored this question in humans using fMRI and TMS in a same-different face detection task. Within localized regions of the PPC, configural face differences led to stronger activation relative to featural face differences, and the magnitude of this activation correlated with behavioral performance. Critically, TMS centered on the PPC impaired performance on configural but not featural difference detections. We conclude that spatial mechanisms within the PPC are necessary for configural face processing and, more broadly, that the PPC may be necessary for the veridical face perception.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91096&allpubs=Y&isajaxlink=Y&_UserReference=EE043721F6C59B5E5B38D522','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by reference within the summary, then by publication type and author name.
+</p>
+
+
+
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div> <div style="margin: -1.6em 0px 5px 2em;">Avidan G, Tanzer M, Hadj-Bouziane F, Liu N, Ungerleider LG, Behrmann M (2014) Selective Dissociation Between Core and Extended Regions of the Face Processing Network in Congenital Prosopagnosia. Cereb Cortex 24:1565-78
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23377287?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4064011/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 23377287
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4064011 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div> <div style="margin: -1.6em 0px 5px 2em;">Yue X, Pourladian IS, Tootell RB, Ungerleider LG (2014) Curvature-processing network in macaque visual cortex. Proc Natl Acad Sci U S A 111:E3467-75
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25092328?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4143055/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 25092328
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4143055 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div> <div style="margin: -1.6em 0px 5px 2em;">Doty T, Japee SA, Ingvar M, Ungerleider LG (2014) The interaction between expectation and sensitivity to threatening stimuli in healthy adults: an fMRI study of inter-subject variability. Cognitive Affective and Behavioral Neuroscience, in press.
+
+
+
+</div>
+</div>
+ <!-- ends ordered rows -->
+
+
+
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

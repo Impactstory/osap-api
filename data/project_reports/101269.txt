@@ -1,0 +1,380 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002925</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002925-09</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Office of Technology Transfer
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lead Investigator</div></div>
+
+<div class="rowdiv">
+<div class="data">
+Jennifer S Wong
+<br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any LIs -->
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<!-- display SoRs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Supervisor of Record</div></div>
+<div class="rowdiv">
+<div class="data">
+ <!-- faculty test -->
+Susan G Amara; PhD 
+ <!-- faculty test -->
+<br />
+
+</div>
+</div>
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Office of Technology Transfer, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Office of Technology Transfer</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Charles  Salahuddin<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Susan E Ano (OD) <br />
+
+
+
+Oksana Igorevna Dukhanina (NINDS) <br />
+
+
+
+Olufunmilola Olubamidele Olufemi (NINDS) <br />
+
+
+
+Smita A Sharma (OD) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+patent, patents, intellectual property, license, collaborations
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The goals of the NIMH Office of Technology Transfer are to fulfill the mandates of the Federal Technology Transfer Act and facilitate technology transfer activities of NIMH and its researchers by providing proactive, competent, and efficient services that complement the innovation and creativity of NIMH's mission of working to improve mental health through biomedical research on mind, brain, and behavior.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The Office of Technology Transfer Office (OTT) negotiates Material Transfer Agreements, Cooperative Research Development Agreements (CRADA), Licenses, Collaboration Agreements, Confidential Disclosure Agreements, and Clinical Trial Agreements. OTT also provides guidance and assistance to NIMH researchers, evaluates employee inventions for their patentability and commercial potential, coordinates royalty distributions arising out of NIMH inventions, and informs NIMH personnel and researchers about the latest and relevant developments in the technology transfer area. In addition, the NIMH OTT serves as a conduit for interactions between NIMH researchers and private and/or public entities, represents NIMH interests in intramural and extramural technology transfer activities, assists NIMH management in formulating policies and procedures affecting technology transfer issues, interacts regularly with NIH ODs OTT royalties and licensing monitoring and enforcement professionals and outside counsel to secure the  patent protection for  inventions.<br /><br />In the first 11 months of this fiscal year, 129 Material Transfer Agreements, 3 Licenses, 19 Confidential Disclosure Agreements, 4 CRADA amendments, 1 Memorandum of Understanding (MOU) and 3 Collaboration Agreements were completed. Three (3)invention reports were received and analyzed for patentability and the ongoing communications with the patent offices in the US and other countries were monitored. NIMH OTT also communicated with publishers on behalf of NIMH scientists with respect to the publishers' copyright agreements. NIMH OTT has been working to accelerate marketing efforts and has designed and distributed marketing materials for several meetings, including the Biotechnology Innovation Organization (BIO) annual meeting.  An NIMH technology transfer representative was a speaker at NIH's 2016 annual Small Business Innovation Research (SBIR) and Small Business Technology Transfer (STTR) meeting on how to collaborate with the NIH and met with several company representatives.<br /><br />NIMH technology transfer has participated in various NIH-wide technology transfer committees and initiatives to help streamline and modernize some of the processes involved in technology transfer. NIMH technology transfer personnel served as members of an NIH-wide technology transfer working group to award contracts to law firms for patent-related services. Additionally, staff members are part of an NIH-wide technology transfer working group to develop a master licensing agreement to distribute biological reagents to outside parties. The agreement will be used throughout the NIH technology transfer community. <br /><br />NIMH and NINDS have worked together to establish a neuroscience-focused technology transfer collaboration designed to take advantage of the common neuroscience underpinnings that form the foundation of the ICs to maximize impact, efficiency and effectiveness.  One of the initiatives undertaken by the collaboration involves forming a technology assessment group (TAG) consisting of NIMH and NINDS investigators to provide scientific and commercial development input to assist technology transfer staff in making patent decisions. Additionally, the group is working to develop a neuroscience technology transfer website to provide information to the NIH and external community.   <br /><br /><br />
+</div>
+</div>
+<div id="publications">
+
+
+
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

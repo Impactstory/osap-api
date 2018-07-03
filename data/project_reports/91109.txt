@@ -1,0 +1,541 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002936</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002936-04</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Cerebral Protein Synthesis During Sleep and Memory Consolidation
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Carolyn E Beebe; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/carolyn-smith" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neuro-adaptation and Protein Metabolism, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neuro-adaptation and Protein Metabolism</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 18 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+D  Picchioni; PhD<br />
+
+
+
+Inna  Loutaev<br />
+
+
+
+Carrie Alessandra Sheeler<br />
+
+
+
+Kathleen Colette Schmidt; MA<br />
+
+
+
+Diana Mila Vesselinovitch<br />
+
+
+
+Thomas  Burlin<br />
+
+
+
+ <!-- step through any ordered staff -->
+
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=91109&onameset=Section on Neuro-adaptation and Protein Metabolism&isajaxlink=Y&_UserReference=5235A3AE2C2F7D4B5B38D20C','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 18</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Adriana J Pavletic; MD  (Office of the Clinical Director)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborator
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+T  Balkin; PhD
+<i>(Department of Behavioral Biology, WRAIR)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+PET, memory consolidation, protein synthesis, sleep, brain, brain imaging, leucine, plasticity
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The importance of sleep is widely appreciated, but the actual function of sleep remains unknown. The drive for sleep is such that short periods of sleep deprivation result in rebound sleep. In animals, prolonged (2-3 weeks) sleep deprivation is fatal. Sleep is required for normal psychological, hormonal, and executive function.  Humans deprived of sleep may suffer psychotic episodes, and disorders of sleep are a prominent component of many psychiatric and neurodevelopmental disorders including autism.  One hypothesized role for sleep is for restoration of brain structural elements.  Based on the premise that restoration of brain structural elements requires protein synthesis, we hypothesize that regional rates of cerebral protein synthesis (rCPS) are increased during sleep.<br /><br />It is widely appreciated that inhibition of protein synthesis prevents memory consolidation. It has also been shown that improvements on memory tasks are sleep-dependent. The second goal of this study is to test, in human subjects, this hypothesized role for sleep. We will measure rCPS during sleep-dependent memory consolidation enabling us to determine directly the relationship between protein synthesis and sleep-dependent memory consolidation. <br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The protocol involved in this project is 09-M-0123, NCT00884702.<br /><br />During the FY 2015 funding period, we addressed the following:<br /><br />In collaboration with our colleagues from the Walter Reed Army Institute of Research (T Balkin), we use the L-1-C-11leucine PET method to measure rCPS in human subjects during sleep.  To address the restoration hypothesis of sleep, we measure rCPS in the same subject during normal wakefulness, sleep-deprived wakefulness, and sleep. We hypothesize that rCPS is increased during sleep, but that during sleep-deprived wakefulness, rCPS remain at levels comparable to rested wakefulness.  Subjects undergo the initial scan in the awake, sleep-sated state.  Subjects are then kept awake over the next 30 h and subsequently undergo a second PET scan in the sleep-deprived but awake state.  Subjects are then encouraged to sleep in the scanner while they undergo a third scan during slow wave sleep.  Subjects are healthy male and female volunteers between the ages of 18 and 28 y.  We exclude subjects with a history of neurological and psychiatric disorders, chronic medical conditions, and sleep disorders.  Our preliminary results indicate trends for elevated rCPS in some brain regions during slow wave sleep.<br /><br />To address the role of protein synthesis in memory consolidation, we are determining whether sleep-dependent increases in rCPS are associated with sleep-dependent improvements in memory.  We use the Texture Discrimination Task (TDT) to assess learning and memory. Improvement on performance of this task has been demonstrated to depend on sleep.  The TDT is retinotopically specific, so training in one hemisphere (due to stimuli in the contralateral visual field) does not improve performance in the opposite hemisphere.  This allows us to determine changes in rCPS in the trained hemisphere of the primary visual cortex and use the untrained hemisphere as a control. The task is administered at 8 AM, subjects are randomized to nap (12:30-2 PM) or no-nap groups, and the task is re-administered at 6 PM. The stimulus of the TDT is always in the lower half of the visual field and we randomize the stimulated side (left or right).  From 12:30-2 PM (no nap or nap opportunity), subjects undergo simultaneous L-1-11Cleucine PET and electroencephalography (EEG).  We hypothesize that an increase in rCPS in the trained hemisphere will be observed in subjects who spent a significant time in slow wave sleep during the nap opportunity.  We further hypothesize that this increase will correlate with the improvement in performance between the two administrations of the task.<br /><br />All subjects are sleep-deprived prior to the first administration of the task.  Therefore, we planned and performed a behavioral data-only pilot study.  This study is now in press in Perceptual and Motor Skills.  The question was whether one night of sleep deprivation inhibits encoding on the task.  Eighteen participants were randomized to a sleep deprivation or sleep control condition and, after the manipulation, were given two administrations of the texture discrimination task.  All participants were given an opportunity for a 90 min. nap between the two administrations.  Participants who were sleep deprived prior to encoding exhibited similar offline consolidation compared to participants who were not sleep deprived prior to encoding.  These results indicate encoding will be normal following sleep deprivation in the phase of the study that involves assessing the role of protein synthesis in sleep-dependent memory consolidation.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+<!-- do not show project link -->
+
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">McWhirter KK, Morrow AS, Lee BA, Bishu S, Zametkin AJ, Balkin T, Smith CB, Picchioni D (2015) A pilot study on the encoding of a perceptual learning task following sleep deprivation. Perceptual and Motor Skills, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Picchioni D, Reith RM, Nadel JL, Smith CB (2014) Sleep, plasticity, and the pathophysiology of neurodevelopmental disorders: the potential roles of protein synthesis and other cellular processes. Brain Sciences 4:150-201
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

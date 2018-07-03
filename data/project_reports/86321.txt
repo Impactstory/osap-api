@@ -1,0 +1,541 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002886</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002886-08</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neural mechanisms of reward processing and emotion
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Elisabeth Adams Murray; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/elisabeth-murray" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neurobiology of Learning and Memory, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neurobiology of Learning and Memory</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Ping-Yu  Chen<br />
+
+
+
+Peter Herman Rudebeck<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Peter Matthew Kaskan; PhD<br />
+
+
+
+
+Jared Tyler Mathews<br />
+
+
+
+
+Pamela  Noble<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Vincent Daniel Costa  (Section on Learning and Decision Making)<br />
+
+
+
+David A Leopold; PhD  (Section on Cognitive Neurophysiology and Imaging)<br />
+
+
+
+Andrew Rattin Mitz; PhD  (Section on Neurophysiology)<br />
+
+
+
+Leslie G Ungerleider; PhD  (Laboratory of Brain and Cognition)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Orbitofrontal Cortex, Amygdala, Decision making, Emotion, Neurophysiology, Prefrontal cortex, Sensory Modalities
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Dysfunction of the orbitofrontal cortex (OFC), medial frontal cortex (MFC) and the amygdala have been consistently implicated in several mental health disorders, including mood and anxiety disorders, panic attack syndrome, obsessive-compulsive disorder (OCD), and major depressive disorder (MDD). Current theory holds that these parts of the brain process the feedback that results from decisions, and that the brain uses this feedback to improve future decisions. The OFC, MFC and amygdala also play a key role in emotional and autonomic responses and in the recognition of emotions in other people. Accordingly, to achieve the goal of understanding mental health disorders at the level of brain mechanisms, we seek to understand how the OFC, MFC and amygdala process feedback, produce decisions, and generate both autonomic and emotional responses. Achievement of this overarching goal requires a combination of neurophysiological and neuropsychological methods. The specific objectives of this project are therefore: (1) to delineate how neurons in the OFC and MFC signal changes in expected feedback; (2) to study the neurophysiological interaction between the amygdala and both the OFC and MFC as subjects make decisions based on predicted feedback; (3) to examine the role of the amygdala, OFC and MFC in producing emotional responses in anticipation of and in reaction to feedback.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Although neurophysiological studies have shown that the activity of neurons in the amygdala, OFC and MFC correlates with the value of expected feedback, such as rewarding or aversive events, little is known about the physiological interactions among these areas or how these interactions produce emotional responses. During the past review period, we have addressed this issue by using a combination of neurophysiological and neuropsychological methods to study the interaction of both the OFC and the MFC with the amygdala as subjects make decisions based on predicted reward value. Specifically, we recorded neural activity in OFC and MFC as subjects performed a choice task, both before and after bilateral lesions of the amygdala. The subjects first learned to choose between two images, presented on a color monitor, that were associated with different magnitudes of reward. At least two different images predicted the same amount of reward. After the images and their reward assignments had been well learned, we monitored brain activity. As expected, both the OFC and the MFC signaled the reward quantity associated with each image. In contrast to the MFC, the OFC showed a large effect of reward quantity and signaled this information faster than the MFC did. Removing the amygdala eliminated these differences, mainly by decreasing and slowing value coding in OFC. In addition, signals reflecting the quantity of expected reward and amount of received reward also decreased after the lesions. Although the amygdala projects to both OFC and MFC, these findings show that it has its greatest influence over reward value coding in OFC. Importantly, amygdala lesions did not abolish value coding in OFC entirely, which shows that OFCs representations of value depends, in part, on other sources. Our results suggest that dysfunction of the amygdala primarily affects the processing of emotion and reward valuations within the OFC.<br />We have also characterized the contribution of the amygdala to reward value signals in the OFC and the MFC during learning of novel image-reward associations. Within each test session, subjects were given the opportunity to learn about three novel visual images and their associated amounts of reward. Through trial and error, subjects learned to choose the images that led to the greater reward. Amygdala lesions caused a small but significant slowing in the rate of learning. Furthermore, these lesions reduced the OFCs neural encoding of whether the best image had in fact been chosen by the subject on a given trial. In contrast, the MFC displayed an increased coding of the location and value of the chosen image. Taken together, these findings indicate that the amygdala contributes to the incorporation of feedback with image valuations during learning.<br />The subgenual anterior cingulate cortex (subgenual ACC), a part of the MFC, plays an important role in regulating emotion, and degeneration in this area correlates with depressed mood and anhedonia. Despite this clinical knowledge, it remains unknown how this part of the brain contributes to emotion. Using Pavlovian conditioning procedures, we examined the contribution of the subgenual ACC to autonomic arousal. Subjects were given Pavlovian conditioning trials in which visual cues predicted either a large fluid reward or nothing. We recorded pupil size, a measure of autonomic and emotional arousal, in six subjects as they performed the task. Three subjects had sustained bilateral lesions of the subgenual ACC, and the other three subjects served as controls. After conditioning, increases in autonomic arousal occurred in response to cues that predicted rewards, but not to cue that predicted nothing. Subjects maintained this heightened state of arousal during an interval prior to reward delivery. We found that although subjects with lesions of the subgenual ACC showed the initial, cue-evoked arousal, they failed to sustain a high level of arousal until the anticipated reward appeared. Control procedures showed that this impairment did not result from differences in autonomic responses to reward delivery alone, an inability to learn the association between cues and rewards, or to alterations in the pupillary light reflex. Our findings indicate that the subgenual ACC contributes to emotion by sustaining arousal in anticipation of positive emotional events. A failure to maintain positive affect for expected pleasurable events could contribute to mental health disorders in which negative emotions dominate a patients affective experience, such as MDD and other disorders of mood and anxiety.<br />The amygdala plays a key role in evaluating feedback and generating both emotional and autonomic responses. In an effort to extend our understanding of the physiological mechanisms underlying affective processing, we developed an fMRI paradigm to reveal BOLD responses to visual images that signal reward. Subjects learned associations between images and reward during trials of two types: choice trials and viewing-only trials. Choice trials required the subject to choose between two different images, whereas viewing-only trials consisted of presentation of a single image in the center of the screen. Half of the images predicted a high probability of reward; half predicted a low probability. On choice trials, the subjects received rewards at a probability attached to the image that they chose. On viewing-only trials, the subject received the reward associated with the viewed image. To measure reward expectation, we compared fMRI responses for high- and low-probability images and found significantly greater amygdala activity for high-probability images. Brain regions showing similar activity included the inferior temporal cortex, the head and tail of the caudate nucleus, the putamen, the substantia nigra and ventral tegmental area, the anterior insula, the ventral prefrontal cortex and several parts of the OFC and the MFC.  The latter included area 11 of the OFC and area 32 of the MFC. Areas responsive to receipt of reward included the nucleus accumbens and ventral pallidum, the anterior insula, and areas 13 and 14 of the OFC. These results provide the foundation for identification of the key regions underlying the experience of positive emotional events.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86321&allpubs=Y&isajaxlink=Y&_UserReference=026A0AB3571680915B38D68F','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Rudebeck PH, Mitz AR, Chacko RV, Murray EA (2013) Effects of amygdala lesions on reward-value coding in orbital and medial prefrontal cortex. Neuron, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Rudebeck PH, Putnam PT, Daniels TE, Yang T, Mitz AR, Rhodes SE, Murray EA (2014) A role for primate subgenual cingulate cortex in sustaining autonomic arousal. Proc Natl Acad Sci U S A 111:5391-6
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24706828?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3986148/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24706828
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3986148 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

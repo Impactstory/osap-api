@@ -1,0 +1,863 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002909</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002909-10</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Object, face,  body and scene representations in the human brain
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Christopher Ian Baker; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/chris-baker" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Learning and Plasticity, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Learning and Plasticity</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 14 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Wilma Alice Bainbridge<br />
+
+
+
+
+Brett Baribault Bankson<br />
+
+
+
+
+James Michael Brown; BS<br />
+
+
+
+
+Adam Harrison Dickter<br />
+
+
+
+
+Iris Isabelle Anna Groen<br />
+
+
+
+
+Elizabeth Heather Hall<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=101259&onameset=Section on Learning and Plasticity&isajaxlink=Y&_UserReference=B8ABB7474BD762165B38D22B','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 14</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Peter A Bandettini; BS, PhD  (Section on Functional Imaging Methods)<br />
+
+
+
+Ellen  Leibenluft; MD  (Section on Mood Dysregulation and Neuroscience)<br />
+
+
+
+Alex  Martin; PhD  (Laboratory of Brain and Cognition)<br />
+
+
+
+Elisha Prem Merriam  (Section on Neurocircuitry)<br />
+
+
+
+Leslie G Ungerleider; PhD  (Laboratory of Brain and Cognition)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Bevil Richard Conway (NEI) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 7 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Chris  Baldassano
+<i>(Princeton University)</i>
+<br />
+
+
+
+Diane  Beck
+<i>(University of Illinois)</i>
+<br />
+
+
+
+Michelle  Greene
+<i>(Bates College)</i>
+<br />
+
+
+
+Dwight Jacob Kravitz; PhD.
+<i>(Psychology, The George Washington University)</i>
+<br />
+
+
+
+Fei-Fei  Li
+<i>(Stanford University)</i>
+<br />
+
+
+
+Hans  Op de Beeck; PhD
+<i>(Laboratory of Experimental Psychology, University of Leuven)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=101259&isajaxlink=Y&_UserReference=B8ABB7474BD762165B38D22B','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 7</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+visual cognition, functional brain imaging, human brain, learning, scene perception, object perception, face perception
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The major goal of our research is to elucidate how our remarkable ability to recognize objects, scenes, faces and bodies (our own and others) is accomplished by the brain. In particular, we are interested in the role of learning and experience. To achieve this goal we measure behaviorally how well people can recognize or learn to recognize different objects, faces, body parts (e.g. hands, feet, legs) or scenes and then use functional brain imaging to measure changes in brain activity as participants perform different visual tasks on these stimuli (NCT00001360). Determining how the brain learns to extract information about ourselves, others and objects from the complex input captured by the eyes provides important insights into our perception of the world we see. Such knowledge is critical for understanding the deficits in perception and social behaviors that accompany many mental health and neurological disorders.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The goal of this research is to understand how we see what we see: how does the brain analyze the light falling on the retina of the eye to reveal a world full of objects, people and things? <br /><br />During the past year we have focused on the perception of complex visual stimuli, in particular real-world visual scenes (NCT00001360).<br /><br />Perception of real world scenes: <br /><br />Real-world scenes are incredibly complex and heterogeneous, yet we are able to identify and categorize them effortlessly. While prior studies have identified three major brain regions that appear to be specialized for scene processing, it remains unclear what the precise roles of these different regions are and what information they contain. <br /><br />Building on a general framework for visual processing we proposed in the past few years, we have been investigating the basic properties of these three scene-selective regions and trying to elucidate how these three regions interact to enable us to understand the world before our eyes. <br /><br />In particular, we have been investigating the extent to which these regions can be explained in terms of encoding low level visual properties (e.g. contrast, color, edges) versus high level properties (e.g. objects, category, actions that can be performed in the depicted scene). One main area of focus has been the relationship between retinotopy (point-by-point mapping of the visual field onto the cortical surface of the brain) and category-selectivity (differential responses to images from different visual categories e.g. scenes versus faces). We evaluate retinotopy by presenting fragments of scenes to specific portions of the visual field and measure the response across the brain with functional magnetic resonance imaging (fMRI). Similarly, we measure category-selectivity by presenting images from different categories (e.g. faces, scenes, objects, bodies) and measuring the associated brain response. We find that there is no simple relationship between these two different organizational principles. Category-selective regions exhibit retinotopy, but individual category-selective regions overlap multiple maps. These results suggests that individual category-selective regions may contain multiple sub-regions within specific retinotopic maps that perform separate computations on the images. <br /><br />One of these scene-selective regions is found in medial parietal cortex and is often implicated in memory function and spatial navigation. Our data show that there may be a gradient of function within medial parietal cortex. Posterior regions show strong retinotopy and scene-selectivity and are most strongly connected with other regions of posterior visual cortex. In contrast anterior regions are much less retinotopic and scene-selective but show strong connectivity with regions of ventral temporal cortex and parietal cortex that are implicated in memory.<br /><br />In addition to studying how the representations of scenes are spatially distributed within the brain, we have also been examining the time course of visual scene processing using electroencephalography (EEG). In contrast to fMRI, which has good spatial but poor temporal resolution, EEG allows us to monitor brain activity at a millisecond resolution. These experiments have revealed that scene-selective activity and representation of specific scene properties such as naturalness, is not observed until approximately 200 milliseconds after the onset of a scene picture, much later then the initial visual response.<br /><br />Collectively these results provide important insights into the brain network that is involved in processing real-world visual scenes and we have recently developed a specific framework for thinking about the distributed processing of scenes within visual cortex. We are currently evaluating the specific roles of scene-selective regions by i) using transcranial magnetic stimulation (or TMS) to temporarily disrupt their function and observe the impact on behavior; ii) comparing explicit computational and theoretical models of scene representation with the representations observed in different parts of the brain.<br /><br />Elucidating how the brain enables us to recognize objects, scenes, faces and bodies provides important insights into the nature of our internal representations of the world around us. Understanding these representations is vital in trying to determine the underlying deficits in many mental health and neurological disorders.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101259&allpubs=Y&isajaxlink=Y&_UserReference=B8ABB7474BD762165B38D22B','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Groen II, Silson EH, Baker CI (2017) Contributions of low- and high-level properties to neural processing of visual scenes in the human brain. Philos Trans R Soc Lond B Biol Sci 372:
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28044013?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5206270/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28044013
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5206270 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Harel A, Groen II, Kravitz DJ, Deouell LY, Baker CI (2016) The Temporal Dynamics of Scene Processing: A Multifaceted EEG Investigation. eNeuro 3DOI: 10.1523/ENEURO.0139-16.2016
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27699208?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5037322/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27699208
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5037322 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Hebart MN, Baker CI (2017) Deconstructing multivariate decoding for the study of brain function. Neuroimage, in press (e-pub ahead of print)
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28782682?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5797513/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28782682
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5797513 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Poldrack RA, Baker CI, Durnez J, Gorgolewski KJ, Matthews PM, Munafò MR, Nichols TE, Poline JB, Vul E, Yarkoni T (2017). Scanning the horizon: towards transparent and reproducible neuroimaging research. Nat Rev Neurosci  18, 115-126.   https://doi.org/10.1038/nrn.2016.167
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28053326?dopt=Abstract" target="_blank">PubMed</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28053326
+    
+     <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Silson EH, Steel AD, Baker CI (2016) Scene-Selectivity and Retinotopy in Medial Parietal Cortex. Front Hum Neurosci 10:412
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27588001?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4988988/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27588001
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4988988 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,677 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002619</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002619-23</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neural Mechanisms Of Motivation And Reward
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Barry J Richmond; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/barry-richmond" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neural Coding and Computation, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neural Coding and Computation</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 10 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Richard C Saunders; PhD<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Saakshi  Bhayana<br />
+
+
+
+
+Samarth  Chandra<br />
+
+
+
+
+Mark Alexander Grainger Eldridge<br />
+
+
+
+
+Rossella  Falcone<br />
+
+
+
+
+Ankita  Jain<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=86281&onameset=Section on Neural Coding and Computation&isajaxlink=Y&_UserReference=EE1E8DDEFF5455BC5B38D3F1','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 10</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Elisabeth Adams Murray; PhD (Section on Neurobiology of Learning and Memory)<br />
+
+
+
+Ziad S Saad; PhD (Scientific and Statistical Computing Core)<br />
+
+
+
+
+
+
+
+
+
+
+
+
+Gang  Chen; PhD  (Scientific and Statistical Computing Core)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Alan Paul Koretsky; PhD (NINDS) <br />
+
+
+
+Martin J Lizak; PhD (NINDS) <br />
+
+
+
+
+
+
+
+
+
+
+
+
+David Barrett Weintraub; MD (NINDS) <br />
+
+
+
+John H Wittig; PhD (NINDS) <br />
+
+
+
+Kareem Amir Zaghloul; MD, PhD (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Narihisa  Matsumoto; PhD
+<i>(Neurotechnology Group, AIST)</i>
+<br />
+
+
+
+Takafumi  Minamimoto; PhD
+<i>(Molecular Neuroimaging, Natl Inst Radiological Science)</i>
+<br />
+
+
+
+Munetaka  Shidara; PhD
+<i>(Neuroscience Research Institute, AIST)</i>
+<br />
+
+
+
+Y  Sugase-Miyamoto; PhD
+<i>(Neuroscience Research Institute, AIST)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+reinforcement, motivation, orbitofrontal cortex, learning, rhinal cortex
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The desire to act, that is, motivation, arises from the interactions of external factors, e.g., size and timing of reward, and internal factors, e.g., hunger or thirst. Motivation is directly related to the subjective value of reward, and is moderated, or even completely dissipated, if the perceived effort or discomfort seems too great. The normal balance between reward and work is disturbed in many psychiatric disorders, such as depression where feelings of hopelessness make rewards seem not worth pursuing and the work to obtain them too burdensome, or drug abuse where the drug of abuse is so valuable it will be sought even at great danger or cost, both personal and social. We are studying how the value of behavior is modified by the balance between reward value and burden to obtain reward in monkeys. The monkeys naturally vary their performance while we manipulate the reward size and the amount of work needed to obtain reward. We carry out theoretical studies trying to describe the exact balance among these factors, behavioral studies with both normal monkeys and monkeys with selective ablations, single neuron recordings to learn what signals related to these factors are present in different brain regions of the reward system, and genetically-based receptor manipulations to determine what the underlying molecular mechanisms for this behavior are.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Many psychiatric disorders have symptoms related to abnormal motivation. One clear example is depression, where patients describe feeling as though nothing is worthwhile, or worth working for. Learning how normal brain circuits give rise to normal motivation could be valuable in learning how disorders arise. Several studies, many of them from this laboratory, show that rhinal cortex (Rh) is essential to stimulus-reward association learning in monkeys. We, and others, have also shown that orbital prefrontal cortex (OFC) is essential for making relative value judgments, that is, what is the subjective ranking of reward values, which in turn are directly related to motivation. We recently showed that disrupting the connections between Rh and OFC produces a performance impairment in a task that requires both stimulus-reward association and comparisons between relative values. In this task monkeys are asked to indicate when a red spot turns green. If a visual cue indicating the size of the reward about to be delivered is present at the beginning of a trial the monkeys complete more trials successfully when the predicted reward is larger.<br /><br />What this last study did not do was to distinguish between learning and performance. To distinguish between learning and performance, we would like ot let the monkeys learn the task, and then inactivate the tissue reversibly. For this experiment we would like to inactivate relatively large volumes of tissue, such as all of lateral orbital prefrontal cortex. <br /><br />We turned to molecular tools for this reversible intervention. Designer Receptors Exclusively Activated by Designer Drugs (DREADDs) are G-protein coupled receptors activated by clozapine-N-oxide (CNO), a ligand without other known receptor interactions. Neurons expressing DREADDs in the mammalian brain can be inhibited or excited (depending on the DREADD) by systemic delivery of CNO, independent of regional location. The hM4Di receptor is a DREADD that inhibits neuronal firing on binding of CNO, via the Gi/o pathway. <br /><br />For these experiments, two monkeys received unilateral Rh aspiration lesions. They were then trained to perform a visually-cued reward size task. At the beginning of each trial, a visual cue signaled the amount of reward (1, 2, 4 or 8 drops) available for correctly detecting when a red visual target turned green. The reward size in any trial was picked at random, with equal probability. The demands for correct performance were always the same, i.e., release a touch-sensitive bar when a small spot changes from red to green. Although the identity of the cue was irrelevant for successful completion of the red-green color discrimination, the error rates of the monkeys were related to the size of the just forthcoming drop in that the monkeys made fewer errors when the drop was predicted to be larger, that is, they work better for bigger rewards just like unoperated control monkeys. We interpret the differences in performance across reward size as reflecting the subjective valuation of the expected reward by the monkey as signaled by the cue.<br /><br />At this point, the orbitofrontal cortex contralateral to the hemisphere with the rhinal cortex removal was injected with a modified lentiviral vector expressing a Gi-coupled receptor, hM4Di. In behavioral testing sessions in which there was systemic injection of CNO (4-5 repetitions), there was a marked reduction in the discrimination between expected reward sizes, and an overall reduction in error rate for both monkeys. In testing sessions where no hM4Di activation was given (no CNO), the behavior was indistinguishable to that before virus injection and indistinguishable from control monkeys. These results demonstrate that the CNO-DREADD system can be effective for altering behavior when applied to old world monkey cortex. The reward deficit seen after a Rh-OFC disconnection appears to be due to an inability to act on already learned reward relationships - the monkeys are only impaired on the days with CNO treatment, whereas they respond normally to cues predicting forthcoming rewards on the days before and after the CNO treatment.<br /><br />To learn what percentage of the neurons in orbitofrontal cortex of our monkeys were expressing our construct we carried out a histochemical examination. Our lentivirus construct was made up with a human synapsin promoter driving expression of the hM4Di receptor including a CFP fusion protein (hM4Di-CFP). Our injections were carried out using a handheld syringe in about 50 closely spaced sites (separation 1.5-2 mm). We used antibody staining against the DREADD expressed by the lentivirus to identify the areal coverage with cellular expression of hM4Di-CFP. There was expression within at least some cortical layers in about 8% of the OFC. The expression widths for individual injections varied from 0.3 - 3.0 mm. Early examination using confocal microscopy shows co-expression of the DREADD with the neuronal maker NeuN in greater than 80% of neurons in areas between 0.2 - 2 mm surrounding the injection tracks (high-density expression areas). Outside the high-density areas neuronal somatic expression fell sharply. For many injection sites a bloom of fibers expressing the DREADD was visible for several millimeters around the somatic expression areas. We did not observe any cortical layer preference of neuronal expression. <br /><br />We also tested the functionality of our DREADD lentivirus vector by transducing mouse primary neuron cultures. Introducing CNO into the culture bath significantly decreased neuronal spontaneous discharge. Washout of the CNO with normal culture medium was followed by a restoration of neuronal activity. In our Rh-OFC disconnection design, i.e., unilateral rhinal removal with contralateral OFC DREADD neuronal silencing, it appears that inhibition of fewer than 10% of OFC neurons, spaced in an irregular lattice throughout the OFC, is sufficient to disrupt cued reward discrimination behavior in monkeys reversibly.<br /><br />In another set of studies aimed at enhancing the utility of the DREADDs we able to (1) monitor the location and intensity of receptor expression by in vivo PET-imaging, and (2) modify monkeys behavior reversibly. Our lentiviral vector expressing the hM4Di receptor was injected into the putamen of two macaque monkeys. PET imaging using a ligand targeting the receptor showed a focal patch of high uptake at the injection site. Measuring uptake of the PET ligand following different CNO doses yielded to estimate the dose-occupancy relationship for binding of CNO to the hM4Di receptor. The high-uptake region matched the site of neuronal hM4Di receptor expression identified histochemically post-mortem. To be sure that this particular lentivirus was functionally active the vector was injected bilaterally into the ventral striatum of a monkey that had been trained to perform a reward-size task. Our PET imaging verified the expression of the hM4Di receptor. The monkeys performance was altered by CNO treatment in a manner similar to that seen after bilateral inactivation of the ventral striatum with muscimol in two other monkeys. Our experiments with the DREADDs indicate that these may be a powerful to explore the neural mechanism underlying higher brain functions in nonhuman primates, and perhaps in the long run these tools can play a role in the management of neuropsychiatric disorders.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86281&allpubs=Y&isajaxlink=Y&_UserReference=EE1E8DDEFF5455BC5B38D3F1','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Clark AM, Bouret S, Young AM, Murray EA, Richmond BJ (2013) Interaction between orbital prefrontal and rhinal cortex is required for normal estimates of expected value. J Neurosci 33:1833-45.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23365223?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3725547/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23365223
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3725547 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

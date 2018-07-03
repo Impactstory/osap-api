@@ -1,0 +1,513 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002863</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002863-10</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Multimodal Neuroimaging of Gene-Brain Relationships in Williams Syndrome
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Karen F Berman; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/karen-berman" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Integrative Neuroimaging, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Integrative Neuroimaging</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 21 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Jasmin Bettina Czarapata<br />
+
+
+
+
+Katherine Steffen Filip Damme<br />
+
+
+
+
+Daniel P Eisenberg<br />
+
+
+
+
+Michael David Gregory; MD<br />
+
+
+
+
+Grace  Hansen<br />
+
+
+
+
+Catherine Elizabeth Hegarty<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=86312&onameset=Section on Integrative Neuroimaging&isajaxlink=Y&_UserReference=4F369E8BA69332405B38D0EF','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 21</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Venkata S. Mattay; MD  (Psychosis and Cognitive Studies Section)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Carolyn B Mervis
+<i>(University of Louisville)</i>
+<br />
+
+
+
+Colleen A Morris
+<i>(University of Nevada School of Medicine)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Williams syndrome, brain function, hypersociability, visuospatial
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The Section on Integrative Neuroimaging, in the Clinical Brain Disorders Branch, employs multimodal neuroimaging methodologies, functional magnetic resonance imaging (fMRI), structural magnetic resonance imaging (MRI), and positron emission tomography (PET), to investigate Williams Syndrome (WS) (Study 10-M-0112, NCT01132885; 00-M-0085, NCT00004571). This is a rare disorder caused by a microdeletion of approximately 25 genes on chromosome 7, typically by spontaneous mutation. The incidence is usually given as one in 20,000 live births, but new prevalence estimates are as high as 1 in 7500. With its unique profile of striking behavioral features, such as hypersociability combined with differential impact on cognitive functions, some only mildly affected while others, particularly visuospatial construction, are severely impaired, WS is an intriguing experiment of nature that raises fundamental questions about the neurogenetic mechanisms of social behavior and of cognition, the modularity of mind, and brain plasticity in development. Because the genes involved in WS are known, the study of neural mechanisms in WS affords a privileged setting for investigating genetic influences on complex brain functions from the bottom-up. Studying this rare genetically-based neurodevelopmental disorder allows us to closely examine the genetic determinants of the function, structure, and organization of neural systems relevant to cognition and behavior, including, particularly, 1) the neural basis of genetically-determined of visuospatial constructive abilities; and 2) the neural mechanism by which genetic factors influence social cognition and behavior. Each of our studies compares high functioning groups of people with Williams Syndrome with healthy normal controls. These comparison groups are matched for age, sex, handedness, and IQ scores. By controlling these variables, we eliminate the possibility that factors such as mental retardation or developmental level would influence interpretation of results. Working within this model human system extends and complements efforts to understand genetic mechanisms of behavior, and its pathologies, in the general population and in neuropsychiatric disorders where contributions of individual genes are small and phenotypes may be subtle and complex.<br /><br />Our studies of the neurobiology of WS are a four-pronged effort:<br />1) We continue to refine our knowledge of the WS brain phenotype in adults with the full deletion. In this population, we aim to further explicate hippocampal, fronto-amygdalar, and dorsal visual stream abnormalities by employing new cognitive probes for fMRI aimed at dissecting the cognitive context of the dysfunction (e.g. verbal vs. spatial memory, navigation, and language learning), and we will use multi-channel MR methods to better define the hippocampal structural abnormalities; we will also apply new MR spectroscopic imaging parameters as they become available through our colleagues. Diffusion tensor imaging is expanded in this population to follow up on our intriguing preliminary leads.<br />2) We apply our multimodal imaging battery to individuals with smaller deletions to better associate components of the neurobiological phenotype with specific genes.<br />3) Using our knowledge of the adult WS brain phenotype as a template, we continue to explore the effects of specific genes by examining the effects of single nucleotide polymorphisms (SNPs) in the general population.<br />4) Lastly, to study the development of the genetically-driven anomalies of brain structure and function in WS, a major initiative is a longitudinal multimodal neuroimaging study of high functioning, normal-IQ children with the full WS deletion, smaller deletions, and duplications of the WS critical region. Our experience and success in defining the adult WS brain phenotype, together with the collaborative and in-house expertise in neurodevelopment, provide a unique opportunity to make major advances in this area.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Employing incisive, multimodal neuroimaging methodologies to study individuals with WS and related genetic variation in the WS critical region, the Section on Integrative Neuroimaging has vigorously pursued its mission of elaborating clinically meaningful, specific genetic contributions to brain structure and function. Recent advancements made toward that end have been manifold but are rooted in several foundational WS characteristics. First, prominent visuospatial construction deficits in this condition motivated a series of experiments in WS adults with normal-range IQ and carefully matched control subjects (Eisenberg et al, 2014).  Using multiple neuroimaging techniques, including retinotopic mapping, voxel- and surface-based cortical morphometry, and functional MRI, we identified a neural signature of these deficits that converges in the intraparietal sulcus.  Specifically, we  demonstrated spared early visual cortex functioning, but disrupted intraparietal sulcal region neural integrity, activation during spatial judgments, gray matter volume, and sulcal depth. In addition to visuospatial impairments, WS individuals harbor dyadic contrapuntal a distinctive pattern of socio-emotional functioning, such that hypersociability is coupled with heightened non-social anxiety. This dramatic aspect of WS, with obvious implications for understanding neurogenetic bases for social cognition and anxiety generally, serves as a second focus of our research, and we have had considerable success in identifying plausible systems-level correlates of these phenotypes. In particular, we have found decreased fearful face stimuli evoked amygdala activation in WS for compared to IQ matched healthy controls and conversely, an increased in amygdala response in WS to non-social frightening stimuli as compared with matched healthy control participants. Importantly, using structural equation modeling, we found these differences to be linked to altered prefrontal regulation. We have also identified convergent alterations in anterior insula structure, function, and inter-regional connectivity, which predict the characteristic Williams syndrome (WS) personality. <br /><br />An integral part of the WS phenotype is vascular abnormalities, most commonly supravalvular aortic stenosis and peripheral pulmonary artery stenosis, which have been attributed to hemideletion of the WS-region gene, elastin. Because elastin may be important in defining the structure of intracerebral vasculature, we sought to identify whether WS individuals with deletions that included elastin were at increased risk for clinically relevant anomalous cerebrovasculature. Using magnetic resonance angiography, we have thusfar found no evidence for abnormal dilation or stenosis of intracranial vessels (Wint et al., 2014).<br /><br />Under the auspices of our new longitudinal WS neurodevelopmental study, we have now been able to initiate collection of these same measurements of visuospatial, socio-emotional, and neurovascular systems integrity in a growing cohort of children with and without WS critical region copy number variation (i.e., individuals with one (WS), two (neurotypical), or three (WS region duplication) copies of the WS critical region).  Growing this unique dataset will allow understanding of both the developmental trajectory and gene dose-response characteristics of neural abnormalities underlying visuospatial and socio-emotional alterations in this syndrome.  Though data accrual will require years of careful and concerted effort to complete, the potential for these studies to shed unprecedented light on genetic contributions to brain development are enormous.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86312&allpubs=Y&isajaxlink=Y&_UserReference=4F369E8BA69332405B38D0EF','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+No publications during this reporting period
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

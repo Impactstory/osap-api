@@ -1,0 +1,474 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002882</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002882-09</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Characterizing the Function of miRNAs in Neural Development, Synaptic Plasticity and Schizophrenia.
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Zheng  Li; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/zheng-li" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Synapse Development and Plasticity, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Synapse Development and Plasticity</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Qinhua  Gu<br />
+
+
+
+
+Jacob  Nordman<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Jun  Zhu; PhD (NHLBI) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborator
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Danni  Yu; PhD
+<i>(Department of Statistics, Purdue University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+miRNA, schizophrenia, synaptic potentiation, AMPA receptor, NMDA receptor
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Brain development is profoundly influenced by gene expression, which is dynamically regulated across the lifespan. The temporal dynamics of gene expression is conferred by extensive transcriptional and posttranscriptional regulation. It is increasingly recognized that microRNAs (miRNAs) play important roles in the posttranscriptional regulation of gene expression during brain development. miRNAs are small non-coding RNAs that primarily repress gene expression by destabilizing mRNAs or inhibiting translation. miRNAs function in differentiation, development and plasticity of neurons. miRNA expression in the brain is developmentally regulated and correlates with cortical maturation. Dysregulation of miRNA expression is detrimental to the brain. For instance, miRNA deficiency in mice causes aberrant synaptic protein expression, synaptic transmission, dendritic spines, learning and memory. miRNAs have been implicated in schizophrenia. Mutations in genes encoding miRNAs or components in the miRNA biogenesis machinery are associated with increased risk for schizophrenia. miRNA expression is altered in the brains of schizophrenia patients. The goal of this project is to delineate the function of miRNAs in synaptic plasticity and in schizophrenia. The objective of this project during the current reporting period is to determine the function of miRNAs in long-term synaptic potentiation and activity-dependent regulation of AMPA receptors, and to identify miRNAs differentially expressed in the brains of schizophrenia patients.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+1. The function of miRNAs in long-term synaptic potentiation. Long-term potentiation (LTP) of synaptic transmission is a form of synaptic plasticity that leads to long-lasting enhancement of synaptic strength. LTP is a prominent cellular model for encoding and storing information in the brain. On the basis of temporal characteristics, LTP is classified into two forms: short- and long-lasting LTP. Short-lasting LTP is induced by weak stimulation of synaptic inputs, persists for no more than 2 hours and involves no protein synthesis. Long-lasting LTP, which is induced by strong stimulation, lasts longer than 2 hours, requires de novo protein synthesis and is essential for memory formation. Little is yet known about the mechanisms of gene-specific regulation of translation during LTP. In this project, we combine next-generation sequencing, bioinformatics, electrophysiology and time-lapse imaging to investigate the role of miRNAs in LTP. These studies lead to the identification of miR-26a, miR-384-5p and let-7a as essential for LTP maintenance and enlargement of dendritic spines. Moreover, we show that ribosomal S6 kinase 3 (RSK3) mediates the function of miR-26a and miR-384-5p in LTP and present computational evidence that miRNAs exert both diverse and concerted effects in LTP.<br /><br />2. miRNAs mediate activity-dependent regulation of AMPA receptors. &amp;#945;-Amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptors (AMPARs) are ionotropic glutamate receptors that mediate fast excitatory synaptic transmission in the central nervous system. The number of AMPARs in synapses determines the strength of synaptic transmission, and their abnormal expression has been implicated in cognitive impairments associated with such neurological and neuropsychiatric diseases as Alzheimers Disease, ischemia, schizophrenia, and depression. AMPAR expression is regulated by synaptic activity. During activity-dependent synaptic plasticity, for instance, the activation of N-methyl-d-aspartate (NMDA) or metabotropic glutamate receptors affects the abundance of synaptic AMPAR through both posttranslational mechanisms (including phosphorylation, palmitoylation, and ubiquitination) and local translation of dendritic mRNAs encoding AMPAR subunits. Activity-dependent modulation of AMPAR is an important mechanism that tunes synaptic strength to refine synaptic connectivity during brain development and to store information in the brain during learning and memory. Despite the broad recognition that AMPARs play a pivotal role in brain functions, molecular mechanisms underlying their regulation, especially activity-dependent local translation of AMPARs in dendrites, are only incompletely understood. <br /><br />In this project, we tested whether or not miRNAs regulate AMPA receptor expression in an activity-dependent manner. We combined miRNA pull-down and computational prediction to search for miRNAs that target mRNAs encoding the AMPAR subunit GluA1. This approach leads to the identification of miR-501-3p as an AMPA receptor-targeting miRNA. Our further analysis of miR-501-3p shows that it is increased locally in dendrites after NMDAR activation and that this up-regulation of miR-501-3p is required for NMDAR-dependent inhibition of AMPA receptor expression, long-lasting spine shrinkage, and elimination. These findings reveal that miRNAs are important regulators of activity-dependent local synthesis of dendritic AMPARs. <br /><br />3. The change in miRNA expression in schizophrenia brains. miRNAs have been implicated in schizophrenia. Mutations in genes encoding miRNAs or components in the miRNA biogenesis machinery are associated with increased risk for schizophrenia. Using microarray and quantitative PCR, several groups have examined miRNA expression in postmortem brains of schizophrenia patients, and consistently detected miRNA expression change. Microarray and PCR-based methods, however, are constrained by their reproducibility of quantitation due to their limited sensitivity and specificity, and variable and complicated normalization methods. Here, we employed the next-generation sequencing technology, which has superior sensitivity and quantifiability, to delineate the miRNAome in the DLPFC of schizophrenia patients. We identified miRNAs that are differentially expressed in schizophrenic brains. Using bioinformatics, we found that the targets of these miRNAs are enriched for synaptic genes, which are known to be dysregulated in schizophrenia patients. Hence, miRNAs may contribute to the synaptopathology of schizophrenia. This possibility is further supported by our finding that most miRNAs altered in schizophrenia cases are expressed predominantly in one specific period from fetus to child in unaffected people when synaptic connections are formed and refined.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91074&allpubs=Y&isajaxlink=Y&_UserReference=98C93994C913214C5B38D37B','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+No publications during this reporting period
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,578 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002717</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002717-19</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neuroimaging of Brain Circuits and Neurogenetic Mechanisms in Normal Cognition
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Karen F Berman; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/karen-berman" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Integrative Neuroimaging, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Integrative Neuroimaging</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 25 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Erica B Baller<br />
+
+
+
+
+Jeffrey Brandt Bloch<br />
+
+
+
+
+Brett Franklin Cropp<br />
+
+
+
+
+Jasmin Bettina Czarapata<br />
+
+
+
+
+Katherine Steffen Filip Damme<br />
+
+
+
+
+Daniel P Eisenberg<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=81194&onameset=Section on Integrative Neuroimaging&isajaxlink=Y&_UserReference=1996D5F936F6973E5B38D4DB','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 25</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Tuong Vi  Nguyen; MD  (Section on Behavioral Endocrinology)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+neuroimaging, DLPFC, PET, brain function, cognition, dopamine, fMRI, genetics, neuropsychiatric disorders
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The Section on Integrative Neuroimaging uses multimodal neuroimaging methods as a brain phenotyping tool, with the specific aim of defining brain circuits within which to characterize the impact of allelic variation. The overall objective of this work is to use multimodal neuroimaging to incorporate genetic information into a mechanistic account of brain function and dysfunction in order to understand mechanisms that translate genetic effects into risk for mental illness (Studies 00-M-0085 NCT00004571, 90-M-0014 NCT00001258, and 09-M-0176 NCT00942981). <br /><br />To date, our work on the neurobiology of genes of interest to schizophrenia has concentrated on healthy control subjects, in whom we have tested for genotype effects on cortical-subcortical circuitry and on the relationship between subcortical dopamine stores and cortical function. This work will continue to build the sample sizes of our multimodal data sets in all neuroimaging domains, a necessity for examining gene-gene interactions. The addition to our repertoire of new radioligands for measuring cortical D1 and D2/3 receptors will allow us to refine our knowledge of gene effects on the defined circuitry.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+In the service of its core scientific agenda, the Section on Integrative Neuroimaging (SoIN) has continued its long-standing commitment to characterizing the neurochemical, neurogenetic, and neuropsychological contributions to neural systems relevant to mental illness. The Section has made particular progress in developing an unprecedented multimodal positron emission tomography dataset that will soon be able to answer fundamental questions about dopamine pre- and post-synaptic function in a more comprehensive way than previously possible. Enormous efforts toward data acquisition in the past year have resulted in D1-like dopamine receptor, D2-like dopamine receptor, and presynaptic dopamine synthesis whole brain measurements collected in the same, painstakingly screened healthy individuals, which only now are beginning to allow for novel analyses synthesizing these disparate but interrelated indices of dopamine functioning. We expect that insights from these experiments will allow greater perspective on the piecemeal clues gathered to date about this vital neurotransmitter systems role in supporting cognitive functions in health and in psychiatric disorders.  <br /><br />Interim achievements have been wide-ranging and include elaboration on dopaminergic mechanisms underlying attentional control and emotional salience processing as well as discovery of novel gene-gene interactions on mnemonic related activity in the hippocampus. <br /><br />A distinguished lineage of experimentation has established the importance of dopamine in cognitive functions that are disrupted in neuropsychiatric illness.  We and others have previously shown that genetic variation in the gene for catechol-O-methyl transferase (COMT), an enzyme responsible for regulating cortical dopamine concentrations, is an important predictor of the efficient function of frontal neural systems recruited during cognitive challenge.  Extending this work, we now have shown that in healthy individuals, pharmacological inhibition of COMT at doses that do not impact gross behavioral measures of attention are able to significantly decrease neural responses to an attention control task (Magalona et al., 2013).  Additionally, we have discovered specific links between dopamine system operations and the neurophysiology of facial expression processing, as reported this year in Molecular Psychiatry (Jabbi et al., 2013). Using a highly multimodal, integrative neuroimaging approach that levies advantages of positron emission tomography (PET), magnetoencephalography (MEG) and functional magnetic resonance imaging (fMRI), this study was able to tackle long-standing lack of knowledge about how emotional facial expressions are processed in the brain. This is a ripe area of research because the neural mechanisms contributing to altered processing of social cues in neuropsychiatric conditions such as schizophrenia, autism and Williams syndrome remain mysterious, preventing development of targeted biological therapies. In this study, we first characterized functional correlates of facial expression viewing with unprecedented detail by measuring sustained blood-oxygenation level-dependent (BOLD) signal (providing excellent spatial resolution; from fMRI) and transient gamma-band activity (GBA; providing excellent temporal resolution; from MEG) responses to environmentally valid, dynamic emotional cues. We then progressed to demonstrate for the first time that midbrain presynaptic dopamine synthesis (from PET) predicts these dynamic signals in regions known to code perceptual, mnemonic and experiential aspects of emotional stimuli. Other recent work has focused on defining the impact of dopamine-relevant gene variants associated with schizophrenia on dopamine synthesis and has generated new hypotheses about how sequelae of common genetic variation intersects with the biology of mental illness.  This includes several epistatic hypotheses that, as discussed in Eisenberg et al (2013), have become increasingly critical.<br /><br />In fact, one of the major advances we have made this year has been to demonstrate with fMRI an interaction between SLC12A2 and DISC1 genetic markers on hippocampal activation, representing the first in vivo human experiments to confirm previously observed interactions of the same genes on hippocampal neuronal development. (Callicott et al., 2013)<br /><br />In summary, the Section on Integrative Neuroimaging has made remarkable progress toward advancing its long-range, central research aims, and, by virtue of these efforts particularly the crucial ongoing multimodal data collection is well poised for progress in the coming year.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81194&allpubs=Y&isajaxlink=Y&_UserReference=1996D5F936F6973E5B38D4DB','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Baller EB, Wei SM, Kohn PD, Rubinow DR, Alarcón G, Schmidt PJ, Berman KF (2013). Abnormalities of dorsolateral prefrontal function in women with premenstrual dysphoric disorder: a multimodal neuroimaging study. Am J Psychiatry  170, 305-14.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23361612?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3968942/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23361612
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3968942 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Wei SM, Eisenberg DP, Kohn PD, Kippenhan JS, Kolachana BS, Weinberger DR, Berman KF (2012) Brain-Derived Neurotrophic Factor Val66Met Polymorphism Affects Resting Regional Cerebral Blood Flow and Functional Connectivity Differentially in Women Versus Men. J Neurosci 32:7074-81.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22593075?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3362630/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22593075
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3362630 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

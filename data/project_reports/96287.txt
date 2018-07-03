@@ -1,0 +1,706 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002901</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002901-10</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Transgenic Resources for Neuroscience Research
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2015 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lead Investigator</div></div>
+
+<div class="rowdiv">
+<div class="data">
+James M Pickel; AB, PhD
+<br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any LIs -->
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<!-- display SoRs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Supervisor of Record</div></div>
+<div class="rowdiv">
+<div class="data">
+ <!-- faculty test -->
+Susan G Amara; PhD 
+ <!-- faculty test -->
+<br />
+
+</div>
+</div>
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Transgenic Core, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Transgenic Core</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 7 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Lenegereshe  Baweke<br />
+
+
+
+
+Yetemwork H Eshete<br />
+
+
+
+
+Dalisa Rattalia Kendricks<br />
+
+
+
+
+John A Okolonta<br />
+
+
+
+
+David  Slaughter<br />
+
+
+
+
+Lu  Teng<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=96287&onameset=Transgenic Core&isajaxlink=Y&_UserReference=9771ABF08A42A1405B38D588','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 7</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+<div id="moresamestaff">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffu">6 of a total of 7 other  members are shown. </div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Lee E Eiden; PhD  (Section on Molecular Neuroscience)<br />
+
+
+
+Charles R Gerfen; PhD  (Section on Neuroanatomy)<br />
+
+
+
+Barry Bernard Kaplan; PhD  (Laboratory of Molecular Biology)<br />
+
+
+
+Zheng  Li; PhD  (Psychosis and Cognitive Studies Section)<br />
+
+
+
+Dietmar  Plenz; PhD  (Laboratory of Systems Neuroscience)<br />
+
+
+
+Kuan Hong Wang; PhD  (Unit on Neural Circuits and Adaptive Behaviors)<br />
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaff','searchview.taf?_function=showmore&ios=S&ipid=96287&thisic=&isajaxlink=Y&_UserReference=9771ABF08A42A1405B38D588','moresamestaffu');  return false;">
+
+
+<span class="morelist">Show all 7</span></a>.</form></div>
+
+
+
+</div>
+</div>
+
+
+</div>
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+<div id="moresamestaffo">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffou">6 of a total of 19 other NIH members are shown.</div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Tamas  Balla; MD, PhD, D(Med)Sc (NICHD) <br />
+
+
+
+David M Bodine; PhD (NHGRI) <br />
+
+
+
+Alexander Theodore Chesler; PhD (NCCIH) <br />
+
+
+
+Jeffrey S Diamond; PhD (NINDS) <br />
+
+
+
+John M Hallenbeck; MD (NINDS) <br />
+
+
+
+Brandon K Harvey; PhD (NIDA) <br />
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaffo','searchview.taf?_function=showmore&ios=O&ipid=96287&isajaxlink=Y&_UserReference=9771ABF08A42A1405B38D588','moresamestaffou');  return false;">
+
+
+<span class="morelist">Show all 19</span></a></form></div>
+
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Mark  Laubach; PhD
+<i>(Biology, American University)</i>
+<br />
+
+
+
+Kazutoshi  Nakazawa; MD, PhD
+<i>(Psychiatry, University of Alabama at Birmingham)</i>
+<br />
+
+
+
+Jason  Snyder; PhD
+<i>(Psychology, Neuroscience, University of British Columbia)</i>
+<br />
+
+
+
+Xiaoqin  Wang; PhD
+<i>(BIoengineering, Johns Hopkins University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+genome engineering, marmoset, transgenic
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The causes of neuropsychiatric disorders have remained elusive. The attempt to overlay behavioral disease on the map of the human genome has been frustrating as, one by one, the correlations between a gene and a disease are weakened. Genetic risk factors have been identified for a handful of mental disorders, but both the modulation of the effect and the penetrance of these genes are variable. The mechanisms that lead to these diseases are also difficult to trace because they act indirectly, affecting processes of development, or network connections or plasticity of the nervous system. Adding to this complexity are the difficulties of studying the dysfunction in patients where the course of disease may span a lifetime and symptoms vary between individuals.<br /><br />Transgenic animals have been used to show the link between genes and disease. While complete and complex human behaviors cannot be observed in animals, there are biochemical, electrophysiological, and simple behaviors that can reveal the role of these genes in the development, adaption and function of the nervous system.  The common features of all mammalian brains, including the conservation of significant genes can be used to study neural system function. New technologies allow more efficient and precise genetic engineering of research animals. These techniques can be applied to cells and in species that were previously intractable. <br /><br />The goal of this project is to produce transgenic animals of several species that can reveal disease and normal function of the brain. In addition, advanced transgenic techniques are developed in this project. This project supports neuroscience research that capitalizes on the knowledge of genetic roles in disease and the techniques to manipulate those genes in research animals.<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The NIMH transgenic core facility has several major functions: 1) to produce transgenic research animals for neuroscience research, 2) to support research with associated techniques in genetic research in neuroscience, 3) to develop new transgenic techniques and model systems and 4) to engage in collaborative projects that promote genetic approaches to neuroscience research.<br /><br />1) Production <br />Metrics of production over the past year include: <br />a) 24 transgenic mouse projects produced by oocyte injection of DNA or CRISPR constructs, with multiple lines produced for each project.<br />b) 5 transgenic rat projects produced by oocyte injection, with multiple lines produced for each project.<br />2) Technical Support <br />a) 63 transgenic rodent lines have been archived by cryopreserving germ cells or embryos. <br />b) 44 lines have been re-derived, by transferring lines from pathogen-bearing animals into those with defined health status. <br />c) 19 marmosets have been born. In the last year it has been critical to increase the size of the colony as new research is proposed in the institute. <br />d) Transgenic project design and assistance have continued to be significant to NIH neuroscience labs that lack experience in producing transgenic animals.<br /><br />3) Technical development <br />a) Nuclease-mediated genetic engineering: There are unique features of a mouses embryonic development that make it possible to manipulate its genome. Mouse embryonic stem cells (ESC) dissected from early embryos can be grown in a dish, and still maintain the ability to generate a complete mouse from a single cell. The genes of that single cell can be altered and then expanded and transferred into a foster mother. Other species, including primates, have been refractory to the same technique that work so well for mice. The result has been an ever expanding collection of transgenic mouse lines that scientists use to test the role of virtually every one of the roughly 20,000 genes that make up a mouse genome. <br />The CRISPR/cas9 system can be used to target genes more efficiently and as specifically as in mouse ESC, but is applicable to other species. The core has been focusing on using CRISPR/cas9 to generate conditional knock out genes. These are genes in which recombination sites are innocuously inserted to flank critical regions of a gene. Only when a recombinase is expressed in the celldelivered from another transgene or a transient virusis the gene knocked out.  Subtle changes in the gene can also be made, but making a conditional modification requires the replacement of large chunks of a gene. <br />Initially, the core worked with the NIDA virus production core to make rat transgenic lines with both standard and CRISPR constructs. Moreover, since the beginning of 2016 the core has collaborated with Nick Ryba in the National Institute of Dental and Craniofacial Research (NIDCR) to improve the efficiency of modifying genes by replacing large segments. We have optimized concentration of the injected material, the use of reagents to optimize homologous recombination of donor sequences, the site of injection in embryos, and the construction of nucleic acid targeting vectors. These techniques are now being applied to make mouse and rat transgenics, with the ultimate aim of making the technique efficient enough to use in species with smaller numbers of offspring, and longer gestation and maturation times, such as marmosets.<br />b) Transgenic marmosets: In collaboration with Erika Sasaki at the Central Institute for Experimental Animals in Kawasaki, Japan the core has produced a transgenic marmoset that expresses a genetically encoded calcium indicator (GECI) and Kusabira Orange, a fluorescent marker protein. This transgenic monkeys tissues glow orange when they are excited with a specific wavelength of green light. To expand a line of animals that express this gene we have developed an artificial insemination procedure that has resulted in multiple pregnancies in the NIMH colony and in the Xiaoqin Wangs colony at Johns Hopkins University.   <br />c) Transgenic rat lines: Rat lines produced in the NIMH Transgenic core have been deposited in the RRRC (Rat Resource and Research Center) and are being distributed from that organization.  Over ten lines that express CRE recombinase in specific neuronal subtypes were produced in collaboration with the NIDA virus production core, which characterized the pattern of expression. <br />Two lines are being used in studies of neurogenesis. In one approach neural stems cells that express the thymidine kinase (TK) transgene can be specifically ablated. Jason Snyder (U British Columbia) and Heather Cameron (NIMH) Another inbred line that expresses the orange fluorescent protein (OFP) is being used by Alan Korestskys group (NINDS) to study the potential of transplanted neural stem cells.  <br />e) Transgenic voles<br />Recently, the core initiated a project to make transgenic voles. This project for Scott Young (NIMH) and Adam Smith (University of Kansas) takes advantage of CRISPR technologies to manipulate the genes of an animal with interesting social behavioral traits.<br />f) Support techniques: several techniques are under development to increase the capacity of the core's support functions. Freezing mouse sperm and improving IVF by using newer methods is a major effort. Freezing rat sperm and completing IVF in rats at an acceptable level is a challenging task in all laboratories.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2016 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=96287&allpubs=Y&isajaxlink=Y&_UserReference=9771ABF08A42A1405B38D588','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Johnson RF, Via LE, Kumar MR, Cornish JP, Yellayi S, Huzella L, Postnikova E, Oberlander N, Bartos C, Ork BL, Mazur S, Allan C, Holbrook MR, Solomon J, Johnson JC, Pickel J, Hensley LE, Jahrling PB (2015) Intratracheal exposure of common marmosets to MERS-CoV Jordan-n3/2012 or MERS-CoV EMC/2012 isolates does not result in lethal disease. Virology 485:422-30
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26342468?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5001852/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26342468
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5001852 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

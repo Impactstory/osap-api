@@ -1,0 +1,752 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002666</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002666-25</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Evaluation and Treatment of Obsessive Compulsive and Related Disorders
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Susan Elizabeth Swedo; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/susan-swedo" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Behavioral Pediatrics, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Behavioral Pediatrics</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 8 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Rebecca  Hommer; MD<br />
+
+
+
+Precilla  D'Souza<br />
+
+
+
+Cristan Ann Farmer; PhD<br />
+
+
+
+Simran  Kalra<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Jerry Judson French<br />
+
+
+
+
+Paul Joseph Grant; MD<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=101219&onameset=Section on Behavioral Pediatrics&isajaxlink=Y&_UserReference=41A9E5B31AD5340F5B38D320','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 8</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Carlos Alberto Zarate; MD  (Experimental Therapeutics and Pathophysiology Branch)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Karen Moore Frank; MD, PhD (CC) <br />
+
+
+
+Michael C Sneller; MD (NIAID) <br />
+
+
+
+Helen C Su; MD, PhD (NIAID) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 36 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Dritan  Agalliu
+<i>(Columbia University)</i>
+<br />
+
+
+
+Gail  Berstein
+<i>(University of Minnesota)</i>
+<br />
+
+
+
+Harry  Chugani
+<i>(Nemours (University of Delaware))</i>
+<br />
+
+
+
+Paul (Patrick)  Cleary; PhD
+<i>(Univ Minnesota)</i>
+<br />
+
+
+
+Mike  Cooperstock; MD
+<i>(Univ Missouri)</i>
+<br />
+
+
+
+Madeleine  Cunningham; PhD
+<i>(Univ Oklahoma)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=101219&isajaxlink=Y&_UserReference=41A9E5B31AD5340F5B38D320','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 36</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Obsessive Compulsive Disorder, PANDAS (Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection), PANS (Pediatric acute-onset neuropsychiatric syndrome), intravenous immunoglobulin (IVIG), Clinical Trial, Longitudinal investigation, Pediatric psychopathology
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The long-term goal of this research project is to identify etiologic factors and novel treatments for childhood-onset obsessive compulsive disorder (OCD). Currently, the primary focus of research attention is OCD which has an unusually abrupt onset and is accompanied by a variety of behavioral, emotional, cognitive and somatic symptoms.  Clinical diagnostic criteria define this group, identified as Pediatric Acute-onset Neuropsychiatric Syndrome (PANS).  Often, cases of PANS are triggered by a Group A streptococcal infection.  These cases are known by the acronym PANDAS (Pediatric Autoimmune Neuropsychiatric Disorders Associated with Streptococcal infections.) The PANDAS subgroup was initially described at the NIMH in the 1990s and affected children can be distinguished from others with OCD by the abruptness of their symptom onset, as well as by the presence of co-occurring symptoms, such as tics, emotional lability, separation anxiety, concentration difficulties, personality changes, and enuresis or daytime urinary urgency. Five lines of evidence have established PANDAS as a post-infectious autoimmune disorder (Williams and Swedo, Brain Research 2015) and we are now using this knowledge to design new and more effective treatments, as well as exploring biomarkers of disease activity and strategies for prevention of illness.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Obsessive-compulsive disorder (OCD) affects 1-2% of children and adolescents, causing significant distress and impairments from the unrelenting obsessional thoughts and compulsive behaviors. Approximately 1/4 of children with OCD report an abrupt, dramatic onset of their symptoms.  When these symptoms are accompanied by other behavior problems, cognitive changes and somatic symptoms, the child may qualify for a diagnosis of Pediatric Acute-onset Neuropsychiatric Syndrome (PANS). PANS is characterized by the sudden onset of OCD and/or eating disorder, accompanied by at least two of the following seven comorbidities: 1) Anxiety; 2) Emotional lability and/or depression; 3) Irritability, aggression and/or severely oppositional behaviors; 4) Behavioral (developmental) regression; 5) Deterioration in school performance; 6) Sensory or motor abnormalities; 7) Somatic signs and symptoms, including sleep disturbances, enuresis or urinary frequency and others. For a full description, see: Chang K et al.  Clinical evaluation of youth with pediatric acute-onset neuropsychiatric syndrome (PANS): Recommendations from the 2013 PANS Consensus Conference.         J Child Adolesc Psychopharmacology 2015. 25(1): p 3-13.<br /><br />The clinical description of PANS arose from investigations of a group of children with acute-onset OCD whose symptoms appeared to arise as a consequence of common childhood infections, including Group A streptococcal (GAS) infections (&quot;strep throat&quot; and Scarlet fever). Children whose symptoms begin or exacerbate following GAS infections may belong to a subgroup of neuropsychiatric disorders identified by the acronym PANDAS (for Pediatric Autoimmune Neuropsychiatric Disorders Associated with Streptococcal infections). The postulated etiology for the PANDAS subgroup is that specific strains of Group A streptococci (GAS), in genetically susceptible individuals, elicit the production of cross-reactive antibodies which recognize antigens not only on the GAS cell wall, but also in the host brain tissue, eliciting obsessions, compulsions, tics and other neuropsychiatric symptoms. The cross-reactive antibodies have been shown to correlate with other anti-streptococcal antibodies and also with neuropsychiatric symptom severity, with highest titers seen in children acutely ill with Sydenham chorea or PANDAS symptomatology. Research at NIH and elsewhere has revealed that: the PANDAS subgroup has a specific and identifiable symptom course (marked most notably by the acute, abrupt, overnight onset of symptoms (&quot;zero to sixty in less than 24 hours&quot;); the cross-reactive antibodies correlate with both GAS infection status and neuropsychiatric symptom severity; passive transfer of the cross-reactive antibodies replicated disease symptoms in animal models; prevention of GAS infections through antibiotic prophylaxis results in prevention of neuropsychiatric symptom exacerbations; and, treatment of acutely ill children with immunomodulatory therapies specifically, intravenous immunoglobulin (IVIG) or plasmapheresis, may produce dramatic reductions in symptom severity. This line of research is unusual, in that it reverses the typical &quot;bench to bedside&quot; progression and takes clinical observations into the laboratory in search of information about etiopathogenic mechanisms. This approach is yielding exciting results, as serum samples from acutely ill children contain cross-reactive antibodies which target brain antigens, presumably triggering the clinical manifestations.  Identification of the antigenic targets may provide new targets for therapeutic interventions. <br /><br />Dr. Swedo, Dr. James Leckman and colleagues at the Yale University Child Study Center, and Dr. Madeleine Cunningham of the University of Oklahoma Health Sciences Center were the joint recipients of an NIH &quot;Bench to Bedside&quot; award which helped fund a multi-site placebo-controlled trial of intravenous immunoglobulin (IVIG) for severely ill children with PANDAS (Protocol 11-M-0058, NCT 01281969). More than 40 children (3-12 years old) enrolled in the trial and 35 were randomly assigned to receive an infusion of IVIG or placebo. Although there were no significant differences between the IVIG and placebo groups, open-label treatment with IVIG produced improvements in over 80% of the children. (Williams et al, JAACAP 2016)  Data and samples from the study are being used in attempts to identify predictors of treatment response, as well as biomarkers of disease severity. <br /><br />Dr. Swedo is currently leading efforts to create a nationwide collaborative PANS/PANDAS clinical research network with the goals of (1) improving recognition, diagnosis, and treatment of acute onset neuropsychiatric syndromes, (2) conducting research which improves understanding of etiologic factors, host vulnerability, and disease mechanisms, and c) increasing awareness and recognition of PANDAS, PANS, and related disorders in order to improve access to care.  The inaugural meeting of the Network was held early in 2016, with 14 academic institutions represented.  In addition to agreeing on common measures for diagnostic assessment, the attendees agreed to develop guidelines for treatment of PANS/PANDAS.  The guidelines are being published by the Journal of Child &amp; Adolescent Psychopharmacology as a set of four papers which provide a comprehensive approach to clinical management (Swedo et al) and include recommendations for use of psychiatric medications and cognitive-behavior therapy (Thienemann et al), as well as treatment with antibiotics (Cooperstock et al) and immunomodulatry therapies (Frankovich et al)(J Child Adol Psychopharmacology Sep 2017, Vol 7, Issue 7, pages 562-606)  
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101219&allpubs=Y&isajaxlink=Y&_UserReference=41A9E5B31AD5340F5B38D320','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Gaughan T, Buckley A, Hommer R, Grant P, Williams K, Leckman JF, Swedo SE (2016) Rapid Eye Movement Sleep Abnormalities in Children with Pediatric Acute-Onset Neuropsychiatric Syndrome (PANS). J Clin Sleep Med 12:1027-32
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27166296?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4918985/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27166296
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4918985 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Swedo SE, Frankovich J, Murphy TK (2017) Overview of Treatment of Pediatric Acute-Onset Neuropsychiatric Syndrome. J Child Adolesc Psychopharmacol 27:562-565
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28722464?dopt=Abstract" target="_blank">PubMed</a>
+
+
+           &nbsp;&nbsp;&nbsp;&nbsp;<i>Available in future as a Free Article</i> <!-- looks for PMC translations for in progress or embargoed -->
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28722464
+    
+     <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Thienemann M, Murphy T, Leckman J, Shaw R, Williams K, Kapphahn C, Frankovich J, Geller D, Bernstein G, Chang K, Elia J, Swedo S (2017) Clinical Management of Pediatric Acute-Onset Neuropsychiatric Syndrome: Part I-Psychiatric and Behavioral Interventions. J Child Adolesc Psychopharmacol 27:566-573
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28722481?dopt=Abstract" target="_blank">PubMed</a>
+
+
+           &nbsp;&nbsp;&nbsp;&nbsp;<i>Available in future as a Free Article</i> <!-- looks for PMC translations for in progress or embargoed -->
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28722481
+    
+     <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

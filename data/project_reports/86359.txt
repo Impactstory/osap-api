@@ -1,0 +1,493 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002939</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002939-02</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Office of the Clinical Director-Psychiatry Clinical Research Training
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Maryland  Pao; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Office of the Clinical Director, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Office of the Clinical Director</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 16 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+David T Chen; MD<br />
+
+
+
+
+Joyce  Chung; MD<br />
+
+
+
+
+Julia  Dorfman; MD, PhD<br />
+
+
+
+
+Dorothy M Drake<br />
+
+
+
+
+David  Driver; MD<br />
+
+
+
+
+Michael David Gregory; MD<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=86359&onameset=Office of the Clinical Director&isajaxlink=Y&_UserReference=A4BA8D1C036D887D5B38D180','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 16</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Minkyung  Park; MD  (Section on Neurobiology and Treatment of Mood Disorders)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+L  Cullins; MD
+<i>(Psychiatry and Behavioral Sciences, Children's National Medical Center)</i>
+<br />
+
+
+
+S  Epstein; MD
+<i>(Medstar Washington Hospital Center)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Psychiatry Residency, Clinical Research, Psychiatry, Clinical Fellowship, Clinical Neuroscience, Research Training, Medical student education, Neuroscience literacy, Academic Research Careers
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The NIMH Office of the Clinical Director (OCD) works in partnership with the NIMH Office of Fellowship Training and the Office of Clinical Research and Training in Medical Education (ORCTME) at the NIH Clinical Center to oversee and participate in programs that: provide training for qualified physicians who intend to pursue scientific research careers; allow advanced psychiatry residents to jump start their research training; and educate medical students about clinical neuroscience research. The NIMH OCD contributes to NIMH national initiatives that identify and promote academic research careers among early career psychiatrists. In addition, the OCD organizes scientific programs that educate psychiatrists about cutting edge research on serious mental illnesses.<br /><br />Clinical Fellowship Programs:<br />Since 1954, the NIMH DIRP has supported training programs considered a national resource for physicians seeking intensive research training in biological psychiatry and clinical neuroscience. There are three types of programs offered: a three-year post-residency clinical fellowship that provides clinical neuroscience research training for highly motivated and qualified MD and MD-PhDs; a one-year ACGME accredited fourth post-graduate year (PGY4) residency program for psychiatry residents who then transition to become clinical fellows after completion of residency; and a three-year combined child psychiatry and research fellowship program with the Children's National Medical Center (CNMC) in Washington, D.C.<br />All three of the clinical fellowship programs are mentorship driven and focus on acquisition and refinement of research skills, including the evaluation and clinical care of research participants, development of research protocols, performance of clinical and/or laboratory research, and preparation and presentation of study results, while maintaining clinical skills in the specialty of Psychiatry. Residents and fellows join specialty research groups that study mechanisms or treatments of major psychiatric illnesses in adults and children. Trainees are required to develop an individualized set of research goals and objectives in collaboration with their mentors. Residents and fellows are recruited nationally from many of the top psychiatry residency programs in the United States. <br />Program features: Full-time effort in research activities during the training period; twice a year formal evaluations by mentors as well as face-to-face meetings with the program director; on call coverage of urgent or acute clinical needs of the psychiatry consultation service and NIMH patients in conjunction with an on-call psychiatry attending; a weekly year-long seminar specifically designed for clinical fellows; required coursework in the Ethical and Regulatory Aspects of Clinical Research and Current Trends in the Neurobiology of Mental Illness; completion of a NIMH-sponsored grant writing course; elective attainment of the NIH Clinical Research Curriculum Certification; other research-specific training courses as needed, for example, functional neuroimaging or advanced statistics.<br /><br />Medical Student Programs:<br />The Clinical Electives Program (CEP) at the NIH Clinical Center provides fourth year medical students with direct exposure to the conduct of clinical research after completion of their core medical school clinical rotations. The NIMH OCD helps coordinate medical student rotations in Adult Psychopharmacology, Child Psychopharmacology, and Psychosomatic Medicine; other elective options available on request.<br />Medical Research Scholars Program (MRSP) in the NIH Intramural Program provides highly motivated medical students with the opportunity to engage in a year-long elective research experience during medical school on the NIH campus in Bethesda, Maryland. The NIMH Deputy Clinical Director and faculty serve on the Board of Tutors for the MRSP. Tutors for the MRSP interview candidates, select students and help identify an appropriate mentor.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Clinical Fellowship Programs: <br /><br /> In FY14, there were fourteen NIMH IRP clinical fellows. Of the fourteen fellows, one is a PGY-4 resident in the ACGME accredited program. Three trainees were new recruits who came from top residencies in the U.S. They included three women one of whom is an MD-PhD and one who is a child psychiatrist. The emphasis of the program has been to increase the quality of trainees in terms of clinical skills in psychiatry, research background, and commitment to a research career. The clinical fellows have been actively involved in conducting basic, clinical and translational research, publishing peer-reviewed articles, presenting their research at national scientific meetings and receiving recognition for their outstanding work. Four fellows left the program in the past year; two pursued academic research careers and two went into clinical practice and maintain academic affiliations.<br /><br /> The PGY4 psychiatry residency program is a unique one-year program that provides training in clinical and translational research and is conceptualized as an elective fourth year of residency training. The PGY4 residency program allows talented and motivated future academic psychiatrists to jump start their research careers by training under world-renowned NIMH investigators. Psychiatry residents who transfer to the program have completed all required clinical rotations prior to arriving at NIMH. The PGY-4 psychiatry residency program was reviewed by the ACGME in January 2013 and granted a full five year accreditation cycle with no citations. <br /><br />Other affiliated training programs:<br /><br /> The ACGME-approved PGY4 psychiatry residency program serves as the sponsoring program for the NIH Hospice and Palliative Medicine fellowship program that is also ACGME-accredited. The two programs work to support the clinical training of fellows by joint conferences and clinical rotations.<br /> The Psychosomatic Medicine ACGME-approved fellowship in partnership with Georgetown University Medical Center and Washington Hospital Center admits two fellows each year on the NIMH Psychiatric Consultation Liaison Service, each for six months.<br />The three-year combined NIMH/Children's National Medical Center Child Psychiatry Clinical Fellowship program had one second year fellow and one third year this past year. The third year fellow completed his specialty board and the second year fellow will be taking child boards this fall. This program helps fill a gap training child psychiatrists to conduct research and takes advantage of the deep and varied child psychiatry research investigators at the NIMH IRP.<br /> Administrative duties: The Program Director for the PGY4 residency and clinical fellowship program is an active member of the NIH Graduate Medical Education Committee (GMEC) and led a subcommittee on faculty development for the GMEC. The NIMH OCD appoints one clinical fellow to represent the program on the Clinical Fellows Committee of the NIH Clinical Center; this year we also had two other representatives, a PGY4 resident representative and an elected representative to the GMEC. <br /><br />Medical Student Programs:<br /><br /> The OCD helps to place several medical students from across the U.S. in the Clinical Electives Program (CEP) with NIMH researchers to learn about psychiatric research. These students usually plan to pursue psychiatry residency after graduation and the research exposure can further promote their interest in research. <br />   There were two medical students in the Medical Research Scholars Program (MRSP) this past year and two incoming students in July 2014. Both new students plan to pursue psychiatry and were assigned to appropriate mentors at NIH.<br /><br />Clinical Neuroscience Initiatives:<br /><br /> The NIMH OCD participated in NIMH spearheaded national initiatives that promote clinical neuroscience literacy among psychiatrists and promote psychiatrists-in-training to choose and succeed in clinical neuroscience research. <br /> The NIMH Outstanding Resident Award Program (ORAP) was started in 1988 and has developed into a highly coveted and competitive annual award for promising young psychiatrists-in-training. The ORAP awardees are PGY3 psychiatry residents with outstanding academic potential who are selected from among the top residents in the U.S. who have been nominated by their department chairs or training directors in their PGY-2 year. This award is intended to honor these residents for past achievements, current efforts, and future contributions to the field of psychiatry. The NIMH Intramural Program will host fourteen new award recipients in September 2014 for a two-day program that will feature presentations by NIMH intramural investigators, extramural program staff and a tour of the NIMH facilities at the NIH campus.  <br /> NIMH Brain Camp was started in 2009 and has now had five cohorts participate. Brain Camp is an annual scientific retreat for psychiatry residents with a strong background and interest in a research career. The program, previously convened at the Banbury Center in Cold Spring Harbor, NY, involves lectures and discussions between residents, invited distinguished faculty and NIMH leadership, on a variety of cutting edge neuroscience topics relevant to psychiatry. Most of the residents who attend Brain Camp are awardees of the highly selective NIMH Outstanding Resident Award Program (ORAP). The Brain Camp programs have been very successful in terms of the caliber of the residents and faculty who participated, and the feedback received from participants by the NIMH staff. It is seen as a key way in which to nurture and identify a cadre of young clinical neuroscientists who will become the next generation of leaders in psychiatry. The residents value the opportunity to meet like-minded members of their residency cohort and the opportunity to meet and learn from leaders in psychiatry and neuroscience research in an interactive setting. This past year, Brain Camp VI was held in May 2014 as a satellite meeting to the national scientific meeting of the Society of Biological Psychiatry (SoBP).  Brain Camp trainees included ten ORAP recipients and four NIMH clinical fellows. The trainees first attended the SoBP meeting followed by the 2-1/2 day Brain Camp program was held at Banbury Center in Cold Spring Harbor, NY.<br /><br /> National meetings: American Association of Directors of Psychiatry Residency Programs (AADPRT) annual meeting is a venue where NIMH efforts to incorporate clinically-relevant neuroscience education can be highlighted and disseminated. The Program Director of the PGY4 psychiatry residency is a member of AADPRT and participated in the BRAIN pre-conference at the March 2014 annual meeting in which a new neuroscience curriculum designed to teach psychiatry residents about neuroscience was piloted. This year, the Program Director was asked the NIMH Director to organize a NIMH Research Track at the American Psychiatric Association (APA) meeting in May 2014 in which research sponsored by NIMH was highlighted in plenary lectures and scientific symposia. The intent of this research track program is to educated psychiatrists about cutting edge research that addresses serious mental illness. The Program Director also participated in the Early Research Career Breakfast at the APA meeting.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+<!-- do not show project link -->
+
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+There were no publications associated with this project
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,704 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002909</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002909-06</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Object, face,  body and scene representations in the human brain
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Christopher Ian Baker; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/chris-baker" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Learning and Plasticity, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Learning and Plasticity</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 10 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Elizabeth Ashley Aguila<br />
+
+
+
+
+Joseph M Arizpe<br />
+
+
+
+
+Emily Nicole Bilger<br />
+
+
+
+
+Wai Yiu  Chan<br />
+
+
+
+
+Carolyn Marie Gigot<br />
+
+
+
+
+Assaf  Harel<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=81250&onameset=Section on Learning and Plasticity&isajaxlink=Y&_UserReference=37E05A1D7E4568DF5B38D5C8','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 10</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Ellen  Leibenluft; MD  (Section on Mood Dysregulation and Neuroscience)<br />
+
+
+
+Alex  Martin; PhD  (Laboratory of Brain and Cognition)<br />
+
+
+
+Mortimer  Mishkin; PhD  (Laboratory of Neuropsychology)<br />
+
+
+
+Leslie G Ungerleider; PhD  (Laboratory of Brain and Cognition)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Hans  Op de Beeck; PhD
+<i>(Laboratory of Experimental Psychology, University of Leuven)</i>
+<br />
+
+
+
+Vincent  Walsh
+<i>(Institute of Cognitive Neuroscience, University College London)</i>
+<br />
+
+
+
+Galit  Yovel
+<i>(Department of Psychology, Tel Aviv University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+functional brain imaging, human brain, vision, face recognition, object recognition, scene recognition, learning
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The major goal of our research is to elucidate how our remarkable ability to recognize objects, scenes, faces and bodies (our own and others) is accomplished by the brain. In particular, we are interested in the role of learning and experience. To achieve this goal we measure behaviorally how well people can recognize or learn to recognize different objects, faces, body parts (e.g. hands, feet, legs) or scenes and then use functional magnetic resonance imaging (fMRI) to measure changes in brain activity as participants perform different visual tasks on these stimuli (NCT00001360). Determining how the brain learns to extract information about ourselves, others and objects from the complex input captured by the eyes provides important insights into our perception of the world we see. Such knowledge is critical for understanding the deficits in perception and social behaviors that accompany many mental health and neurological disorders.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The goal of this research is to understand how we see what we see: how does the brain process the light falling on the retina of the eye to produce our perception of a world full of objects, people, things and places? <br /><br />During the past year we have continued to investigate the interaction between bottom up (sensory driven) and top-down (internally driven) processing in the brain, focusing on working memory and effect of behavioral goals (task), using complex visual stimuli, such as visual objects and scenes.<br /><br />1) Mental Imagery<br /><br />Mental imagery, which occurs in in the absence of sensory input, relies entirely on top-down signals. Previously, we conducted a detailed comparison of visual imagery and perception for individual complex objects using fMRI. We found that (1) we can decode the identity of the specific object participants view or imagine in multiple brain regions, and (2) imagery and perceptual information are distributed differently throughout the visual processing stream. This prior work focused on imagery of objects that participants had just seen, requiring short-term memory only. We are currently extending this work to investigate imagery of objects from long-term memory, training subjects to learn particular objects on one day and then imagine them on a later day while we measure brain responses.<br /><br />2) Working memory<br /><br />Working memory refers to the process of actively holding information in mind over short time intervals. As with mental imagery, working memory occurs in the absence of sensory input. We investigated which brain regions are involved in maintaining information during working memory and how the involvement of brain regions varies according to the behavioral goals of the observer (Lee, Kravitz, Baker, 2013, Nature Neuroscience). Participants performed two tasks on identical visual input (pictures of objects) with one task requiring participants to maintain visual properties and the other non-visual properties (name of the object). We found that during the maintenance of visual properties, object identity could be decoded from brain activity in visual, but not prefrontal, cortex, whereas the opposite held for non-visual properties. Thus, the ability to maintain information during working memory is a general and flexible property of the brain, with the role of individual regions being goal-dependent. <br /><br />3) Behavioral goals/task<br /><br />Different tasks require different types of information to be extracted from visual stimuli, depending on the behavioral goals of the observer. We have been investigating how the representations of complex visual stimuli vary according to the task a participant is performing. <br /><br />First, we found that we could decode the task a participants was performing on a given visual object from activity in multiple regions throughout the brain. Further, we found a strong distinction between tasks that emphasized physical properties of the visual stimuli (e.g. color) and tasks that emphasized conceptual properties (e.g. real-world size). <br /><br />Second, we are now extending this work to visual scenes. Previously, we found that scene representations in a region of the brain thought to be critical for scene recognition primarily reflect the spatial properties of scenes (e.g. whether they are open or closed) and not the semantic properties (i.e. scene category). In our current work, we are investigating how these representations change according to task, by asking participants to focus on particular aspects of the scenes presented.<br /><br />Elucidating how the brain enables us to recognize objects, scenes, faces and bodies provides important insights into the nature of our internal representations of the world around us. Understanding these representations is vital in trying to determine the underlying deficits in many mental health and neurological disorders.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81250&allpubs=Y&isajaxlink=Y&_UserReference=37E05A1D7E4568DF5B38D5C8','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kim P, Arizpe J, Rosen BH, Razdan V, Haring CT, Jenkins SE, Deveney CM, Brotman MA, Blair RJ, Pine DS, Baker CI, Leibenluft E (2013) Impaired fixation to eyes during facial emotion labelling in children with bipolar disorder or severe mood dysregulation. J Psychiatry Neurosci 38:407-16
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23906351?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3819155/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23906351
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3819155 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kravitz DJ, Saleem KS, Baker CI, Ungerleider LG, Mishkin M (2013) The ventral visual pathway: an expanded neural framework for the processing of object quality. Trends Cogn Sci 17:26-49.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23265839?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3532569/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23265839
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3532569 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Lee SH, Kravitz DJ, Baker CI (2013) Goal-dependent dissociation of visual and prefrontal cortices during working memory. Nat Neurosci 16:997-9.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23817547?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3781947/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23817547
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3781947 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

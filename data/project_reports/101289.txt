@@ -1,0 +1,433 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002956</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002956-02</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Patterns of neuronal activity underlying behavioral decisions
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Mark H Histed; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Unit on Neural Computation and Behavior, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Unit on Neural Computation and Behavior</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Bradley Chun-Yee Akitake<br />
+
+
+
+
+Samuel Patrick Duffy<br />
+
+
+
+
+Caitlin Elizabeth Leedy<br />
+
+
+
+
+Anna J Li<br />
+
+
+
+
+Lauren Nicole Ryan<br />
+
+
+
+
+Alessandro  Sanzeni; PhD<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborator
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Nicolas  Brunel; PhD
+<i>(Duke University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+neural coding, holographic stimulation, two-photon, behavior
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+A major open question about brain function is how cortical neuronal activity is linked to behavioral decisions.  Millions of neurons change their activity in response to even the smallest sensory stimulus.  How does the brain use, or decode, these millions of neurons activity to generate a behavior?  It might be that our brains average over many neurons, or decode only cells with specific properties.   As an example, to make a decision on whether a visual edge has a particular orientation, it might be that the brain integrates information from all the cells that respond to the edge, or only a small number of cells that are most specific to that edge.  Theoretical frameworks exist that can justify either possibility. <br /><br />To shed light on how the brain makes behavioral decisions using neuronal activity, our research uses optical and electrical methods in mice to record and perturb the activity of populations of single neurons during behavior. We have developed mouse psychophysical behavioral assays that can accurately measure small changes in perceptual behavior.  These assays are well-suited to examine the small behavioral changes that arise from changes in neurons' activity.   We also draw on insights from machine learning, using how decoding works in artificial networks to form hypotheses about how the brain might decode activity.  The combination of these methods can allow new examinations of the circuit basis of mental diseases like schizophrenia that lead to changes in perception.<br /><br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+In one project, we are examining how particular sets of neurons are chosen by the brain to guide decisions.  Whenever humans or animals see sensory stimuli, many brain areas are activated.  We hypothesize that there are particular representations  particular patterns  that are created in each brain area, some of which are optimized for decoding and some of which are optimized for other kinds of information processing.  We are training mice to report perception of sets of visual stimuli which have decodable representations in different cortical regions.  This work will shed light on which areas the brain decodes for behavior, and why it chooses those areas for decoding. <br /><br />In a second project, to understand how neuronal activity patterns give rise to behavior, we have adopted a new technology that extends a two-photon microscope to stimulate both single neurons and patterns of individual neurons.  This approach is the first to allow changes in neural activity patterns in mammals during behavior, and it opens the door to studying how animals' choices depend on patterns of neuronal activity.  We have achieved stable psychophysical performance in mice in the laboratory, and collected data in which we use the instruments to evoke stimulation patterns.  We hypothesize that the brain regards as similar, for behavioral decisions, many different patterns that share similar statistical structure.  <br /><br />A third project is aimed at tracing the flow of information from one area to the next within the cerebral cortex to understand the circuits that underlie decoding.  We are labeling both anatomically and functionally neurons that project among several visual cortical areas.  By activating and inactivating these projections during behavior, we are measuring which projections are used in decision making.  A seminar with data from this project has been given in a cross-institute setting, and reports in abstract form are being prepared for conference presentation. <br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+<!-- do not show project link -->
+
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+There were no publications associated with this project
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

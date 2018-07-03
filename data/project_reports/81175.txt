@@ -1,0 +1,478 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002039</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002039-31</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Pharmacology Of Stimulus Memory And Habit Formation
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Mortimer  Mishkin; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/mortimer-mishkin" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Cognitive Neuroscience, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Cognitive Neuroscience</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Janita N Turchi; PhD<br />
+
+
+
+Richard C Saunders; PhD<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Makalele Alegra Gorsich<br />
+
+
+
+
+Sebastian  Guderian<br />
+
+
+
+
+Danielle L Rickrode; BS<br />
+
+
+
+
+Andrew Benjamin Wylie<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+visual recognition, muscarinic receptor, NMDA receptor, cholinergic deafferentation, monkeys, perirhinal cortex, habit formation, catecholamines
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+ The research focuses on the neurobiology of Visual and Auditory Memory in monkeys, as well as in normal and brain-injured children.  Besides employing cross-species comparisons, our work is highly multidisciplinary, as it utilizes behavioral, neuroanatomical, electrophysiological, pharmacological, and metabolic methods, as well as structural and functional neuroimaging techniques. <br />Many of the questions we have been addressing in the area of Visual Memory revolve around the issue of multiple cerebral memory systems or circuits, as illustrated by the following.  (i) Can delayed nonmatching-to-sample and other complex tasks be mastered independently in at least two different ways by different systems, i.e. both as a cognitive principle mediated by the visuo-limbic memory system and as a behavioral rule mediated by the visuo-striatal habit system.  (ii) Do the synaptic changes that occur during learning in these two very different systems depend disproportionately on two different neuromodulators, namely, acetylcholine in the case of the visuo-limbic pathways and dopamine in the visuo-striatal pathways.  (iii) Do the synaptic changes in the two systems have different temporal properties paralleling the differences between memories and habits, memories being formed all at once but readily forgotten, and habits being formed only gradually but hardly ever forgotten.  As memory impairments are a characteristic of many psychiatric neurologic illnesses (e.g. schizophrenia, Alzheimers disease) and aging, understanding the different systems and their pharmacology may lead to new and important treatments.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The memory impairment associated with Alzheimers disease has been associated with a loss in acetylcholine function and pathophysiology of the entorhinal/perirhinal, or rhinal cortex. We first demonstrated a cholinergic contribution to visual recognition memory in a series of studies showing that this function could be enhanced and impaired, respectively, by systemic administration of the cholinergic agonist, physostigmine, and the cholinergic antagonist, scopolamine. More recently we made infusions of a selective cholinergic immunotoxin, which lead to cholinergic deafferentation of the rhinal cortex and yielded recognition deficits of the same magnitude as those produced by excitotoxic lesions of this region. Substantial recognition memory deficits have been found following local infusions of the non-selective muscarinic antagonist scopolamine into the rhinal cortex. Scopolamine, however, includes antagonists of both m1 and m2 receptor subtypes. To assess the effects of selective blockade of muscarinic receptor subtypes, we infused either the m1-selective antagonist pirenzepine, or the m2-selective antagonist methoctramine directly into the rhinal cortex. Compared with control performance following saline infusions, injections of pirenzepine, but not of methoctramine, significantly impaired recognition accuracy. These findings suggest that m1 and m2 receptor subtypes in the perirhinal cortex have functionally dissociable roles, and that visual recognition memory is critically dependent on the m1 receptor subtype.  <br />In contrast to what we know about recognition memory and the importance of the rhinal cortex and cholinergic activity, we know much less about habit formation, the visuo-striatal processing stream and the responsible neuromodulator(s).  The monkeys ability to learn a set of visual discriminations presented concurrently just once a day on successive days is based on habit formation and the visuo-striatal system. We recently found that performance on this 24-h ITI task is impaired by a striatal-function blocking agent, the dopaminergic antagonist haloperidol, and not by the rhinal-function blocking agent, the muscarinic cholinergic antagonist scopolamine. In a follow-up study we trained monkeys on a short-ITI form of concurrent visual discrimination learning, one in which a set of stimulus pairs is repeated not only across daily sessions but also several times within each session. The number of trials to learn a discrimination list was reduced by half, from about 11 trials/pair on the 24-h ITI task to about 5 trials/pair on the short-ITI task.  Learning on this faster discrimination task was impaired by systemic injections of either haloperidol or scopolamine. The results suggest that learning discriminations with the short ITIs within a session could be driven by both cognitive memory and habit formation working in concert. We then compared the effects of local, bilateral, microinfusions of the dopamine D2-selective antagonist eticlopride into the tail of caudate nucleus and ventral putamen, combined with microinfusions of scopolamine into the perirhinal cortex, with the effects of infusing equivalent volumes of saline into these same targets.  The results suggest that while learning rates were similarly rapid following local saline infusions to these regions, the combined local drug administration impeded learning. Suggesting these different visuo-striatal and visuo-rhinal circuits operate in tandem during on some forms of learning.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81175&allpubs=Y&isajaxlink=Y&_UserReference=DD1BA2E0CE4473455B38D14B','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Wu W, Saunders RC, Mishkin M, Turchi J (2012) Differential effects of m1 and m2 receptor antagonists in perirhinal cortex on visual recognition memory in monkeys. Neurobiol Learn Mem 98:41-6.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22561485?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3389587/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22561485
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3389587 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

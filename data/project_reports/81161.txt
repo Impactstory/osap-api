@@ -1,0 +1,611 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002813</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002813-11</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Cholinergic Modulation of Cognition and Emotion in Mood Disorders
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lead Investigator</div></div>
+
+<div class="rowdiv">
+<div class="data">
+Maura L Furey; PhD
+<br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Carlos Alberto Zarate; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/carlos-zarate" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neurobiology and Treatment of Mood Disorders, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neurobiology and Treatment of Mood Disorders</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Jessica Steward Brockmeyer<br />
+
+
+
+
+Joanna W Szczepanik<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Irving William Wainer; PhD (NIA) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+scopolamine, treatment response, cholinergic modulation, major depressive disorder, rapid onset, bipolar disorder, depression, functional brain neuroimaging, mood disorders
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+ Objective of this Protocol:  To assess the role of the cholinergic system in cognitive, behavioral and mood symptoms of depression.<br /><br />Central Hypothesis:  Excessive stimulation of the cholinergic muscarinic receptor system contributes to the cognitive, behavioral and mood symptoms of depression.<br /><br />Rationale:  A variety of types of evidence indicate that the cholinergic system is hypersensitive during major depressive episodes and that manipulation of cholinergic activity modulates symptoms of depression.  The cholinergic system also is implicated in cognitive functions including attention and memory, both of which are impaired in major depression.  These studies are intended to determine whether hypersensitivity of the cholinergic system is contributing to the attention and memory deficits or to the emotional processing bias seen in depression. Functional magnetic resonance imaging data obtained under pharmacological challenge can elucidate the neural circuitry involved in specific cognitive functions and the role of the cholinergic system in the behavioral impairments associated with the cognitive functions observed in depression.   Moreover, to determine whether hypersensitivity of the cholinergic system is contributing to the mood symptoms that characterize depression, clinical trials that include the administration of antimuscarinic agents can be utilized.<br /><br />Specific Aims:<br />1. To identify the neural systems recruited by cognitive tasks on which performance is impaired in depressed subjects and to determine how the function of these systems differs between depressed and healthy subjects.<br /><br />2. To determine the role of an emotional processing bias in the cognitive impairments observed in Major Depressive Disorder (MDD) and Bipolar Disorder (BD), and to establish how the processing bias is reflected in the recruitment of neural systems.<br /><br /> 3. To determine the role of the cholinergic system in emotional processing and cognitive dysfunction in depression.<br /><br />4.To assess the efficacy of scopolamine, an anticholinergic agent that blocks muscarinic receptors,     in diminishing depressive symptoms. <br /><br />5.  To identify biomarkers of antidepressant treatment response to scopolamine<br /><br />Public Health Impact:<br />MDD is one of the leading causes of disability in the United States, and affects over 14 million adult Americans in any given year, and affects up to twenty percent of the population at least once in their lifetime.  Remarkably, thirty to forty percent of patients fail to respond to initial treatment.  Moreover, in patients who experience relief from symptoms, improvement is not evident for three to four weeks.  The need for improved therapeutics that are more effective and produce more rapid antidepressant responses is critical.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Clinical Studies:The role of cholinergic system in mood disorders has been highlighted recently through our demonstration that blocking cholinergic muscarinic activity with scopolamine produces rapid antidepressant effects. Our early studies identified an antidepressant effect of scopolamine in both MDD and BD patients. Significant (p&lt; 0.001) clinical improvement occurred following a single infusion of scopolamine. Over the course of the clinical trial, 70% of patients experience a full response (50% reduction in symptoms) and over 50% experience remission of symptoms.A replication of our original finding was published in an independent MDD sample of patients. Moreover, we observed that while men and women show significant clinical improvement following scopolamine, women show a larger response than do men (p&lt; 0.01). Recently, we conducted a pharmacokinetic study to identify an alternative route of scopolamine administration. The NIH pharmacy developed a nasal spray formulation, and over the past year we completed the collection of pharmacokinetic data to identify the nasal spray dose that most closely approximates the area-under-the-curve obtained with the i.v. administration. These samples currently are being processed by our collaborator, Irving Wainer, PhD.  Clinical trials utilizing this route of administration potentially will begin within the next year.<br /><br />Cognitive and Imaging Studies: Behavioral and cognitive features of depression are associated primarily with the processing of affective information. A consistently reported finding is a mood congruent processing bias, which is defined as a tendency to show a bias for processing negative as compared to positive or neutral information. The mood congruent processing bias observed in MDD can be characterized within the framework of cholinergic system and stimulus processing mechanisms. The biased processing of negative or sad information is consistent with over-active cholinergic function in depression resulting in the over-representation of negative information. We would hypothesize that competition among stimuli in the environment engages cholinergic system, and the overactive system alters the bias preferentially towards negative stimuli in MDD. We are utilizing functional brain imaging methods to elucidate the role of the cholinergic system in stimulus processing biases. We characterized behaviorally a stimulus processing bias associated with a selective attention task where face and house stimuli are presented simultaneously. Faster reaction time when attending to faces (vs houses) reflects a stimulus process bias towards faces. Scopolamine selectively increased reaction time when attending to face stimuli with no change when attending to houses, reflecting a stimulus specific shift in the processing bias. The brain regions in visual processing areas which show a bias towards faces (larger response to faces than to houses) during placebo, reduce the bias during scopolamine, a result that complements the behavioral finding. In brain regions that show a bias for processing houses during placebo, no change is observed following scopolamine. Acetylcholine also influences working memory (WM) function through stimulus processing mechanisms and particularly is critical to the encoding of information through stimulus processing mechanisms. We evaluated the influence of blocking cholinergic muscarinic activity on neural responses during WM encoding as the attended stimulus feature was modulated in a fMRI study. During the task a picture of a face was shown (encoding) followed by a delay component (maintenance) then another picture of a face (test/retrieval). Healthy participants were instructed to match the test stimulus to either the identity or the emotional expression of the encoded face. Neural activity associated with encoding was estimated for the emotion and identity task conditions. Blocking cholinergic muscarinic reccceptors preferentially reduced BOLD response during encoding selectively when attending to the emotional stimulus content, with no change when attending to identity. This finding suggests that the more salient stimulus feature (i.e. emotion) is more susceptible to cholinergic modulation. <br /><br /><br />Biomarker of Treatment Response<br />Clinical Markers of Treatment Response. We evaluated the potential for baseline clinical ratings to predict treatment response to scopolamine using discriminant function analysis to determine if a linear combination of self-report mood-ratings could discriminate treatment responders from non-responders. The disciminant function identified a set of 4 or 5 clinical ratings that, when combined into a linear function, classified 86% of unipolar patients as responders or non-responders (p= 0.002); the discriminant function scores differed significantly between the responders and non-responders (p&lt; 0.001). A validation analysis was able to correctly predict response classification in over 70% of MDD patients. Similarly, the discriminant function classified 88% of BP patients, and the discriminant fuction scores differed significantly between the responders and non-responders (p&lt; 0.001). The validation analysis in the BP group was able to correctly predict classification in over 85% of the patients.  We also are considering potential clinical or patient variables that might contribute to the identification of patients who will response to scopolamine treatment.  Previously we demonstrated that gender influenced treatment outcome, and we currently are preparing a manuscript that shows that patients with treatment resistant depression show a comparable rapid clinical response to scopolamine as do treatment naive patients, although the treatment naive group continued to improve over additional infusions.<br /><br />Functional Imaging Markers of Treatment Response. Previously we identified areas of bilateral middle occipital cortex where baseline levels of cortical activity under specific task conditions correlated with subsequent treatment response to scopolamine in patients with MDD.  Following treatment with scopolamine, changes in neural response in these same brain regions also correlated with the magnitude of response.  Recently we used a selective attention task and emotion modulation to estimate emotional processing biases in the same cortical regions prior to treatment with scopolamine, and similarly observed correlations between neural response to specific task conditions and subsequent treatment outcome in patients with MDD.  These findings indicate that difference in response patterns based on emotional content of information has the potential to predict subsequent response to treatment with scopolamine.  Subsequently, we looked at baseline activity in the same brain regions during performance of an emotion evaluation task prior to treatment with ketamine, which is another rapid acting antidepressant agent.  Again, we observed that the same brain regions that predicted treatment outcome to scopolamine also predicted treatment outcome to ketamine, in an independent cohort of patients with MDD and using a different emotion processing task.  Together, these studies point to the potential for neural activity in middle occipital cortex during emotional processing to provide a biomarker of treatment response across rapid antidepressants.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81161&allpubs=Y&isajaxlink=Y&_UserReference=068708B61B00CC4D5B38D719','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Furey ML, Nugent AC, Speer AM, Luckenbaugh DA, Hoffman EM, Frankel E, Drevets WC, Zarate CA (2012) Baseline mood-state measures as predictors of antidepressant response to scopolamine. Psychiatry Res 196:62-7.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22349648?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3464046/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22349648
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3464046 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Ricciardi E, Handjaras G, Bernardi G, Pietrini P, Furey ML (2013) Cholinergic enhancement reduces functional connectivity and BOLD variability in visual extrastriate cortex during selective attention. Neuropharmacology 64:305-13
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22906685?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3445804/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22906685
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3445804 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Zarate CA, Mathews DC, Furey ML (2013) Human biomarkers of rapid antidepressant effects. Biol Psychiatry 73:1142-55
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23374639?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3672383/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23374639
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3672383 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

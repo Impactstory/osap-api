@@ -1,0 +1,689 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH000889</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH000889-38</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Dysregulation of Protein Synthesis in Fragile X Syndrome and Other Developmental Disorders
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Carolyn E Beebe; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/carolyn-smith" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neuro-adaptation and Protein Metabolism, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neuro-adaptation and Protein Metabolism</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 13 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Inna  Loutaev<br />
+
+
+
+Kathleen Colette Schmidt; MA<br />
+
+
+
+Carrie Alessandra Sheeler<br />
+
+
+
+Tianjian  Huang<br />
+
+
+
+Thomas  Burlin<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Anna Kristine Cook<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=101205&onameset=Section on Neuro-adaptation and Protein Metabolism&isajaxlink=Y&_UserReference=8193C1FF554AEFCF5B38D005','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 13</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Audrey E Thurm; PhD  (Pediatric and Developmental Neuropsychiatry Branch)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Karen P Usdin; PhD (NIDDK) <br />
+
+
+
+
+
+
+
+
+
+
+
+
+Andrew J Mannes; MD (CC) <br />
+
+
+
+Ning  Miao (CC) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Mark  Gurney; PhD
+<i>(Tetra Discovery)</i>
+<br />
+
+
+
+Thomas  Jongens
+<i>(Genetics, University of Pennsylvania)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+autism, intellectual disability, tuberous sclerosis complex, fragile X syndrome, protein synthesis, amino acids, anxiety, leucine, memory consolidation, plasticity, sleep, brain imaging, dexmedetomidine, PET
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Current data suggests links between autism and defects in synaptic plasticity as seen in fragile X syndrome (FXS).  Synaptic plasticity requires the exquisite temporal and spatial regulation of protein synthesis to ensure efficacious synaptic remodeling. Products of mutated genes in syndromic forms of autism point to a relationship between disrupted synaptic function and dysregulated protein metabolism. Our research on FXS in both mouse models and human subjects addresses our central hypothesis that dysregulated protein metabolism in the nervous system can lead to the development of autism in human subjects. <br /><br />FXS is the most common inherited form of intellectual disability in males with an estimated frequency of 1/4000. FXS is also the most common known cause of autism. Expansion of a CGG repeat sequence in the fragile X mental retardation gene (FMR1) on the X chromosome is the usual cause of FXS. Normally the CGG repeat sequence has 4-54 repeats. Individuals with repeat lengths of 55-200 have the fragile X premutation and are carriers of FXS. In this range the repeat is unstable and tends to expand in succeeding generations. When the sequence length expands to greater than 200 repeats, FMR1 is silenced, and, as a consequence, its protein product, fragile X mental retardation protein (FMRP) is absent resulting in FXS. Besides moderate to severe intellectual disability, FXS is characterized by enlarged testicles, elongated face, immature-appearing dendritic spines, hyperactivity, increased sensory sensitivity, autistic behavior, and seizures. <br /><br />The basis of our current work is our finding in a knockout (Fmr1 KO) mouse model of FXS that regional rates of cerebral protein synthesis (rCPS) are increased, particularly in hippocampus, thalamus, and hypothalamus (Qin M et al. J Neurosci 25:5087, 2005). This finding is consistent with the proposed role of FMRP as a suppressor of translation and our hypothesis that a dysregulation of brain protein metabolism is a core phenotype in FXS. We have developed a quantitative autoradiographic method for measurement of rCPS in vivo, and we have adapted the method for use with positron emission tomography (PET) so that measurements can now also be made in human subjects. Our ability to measure cerebral protein synthesis in man may endow us with a marker of the disease and a means to measure the efficacy of proposed treatments in patients.  Measurement of rCPS may provide a much needed tool in the field: a means of assessing disease progress and potential treatment efficacy that is objective and quantitative. <br /><br />Based on results of our studies in the Fmr1 KO mouse, we proposed that changes in rCPS are a core phenotype of FXS and that in human subjects we would find an increased rCPS in selective regions of the brain.  Most subjects with FXS are unable to undergo the PET study procedures awake, so we have used sedation to help them to remain motionless during PET studies.  In our initial study we used propofol for sedation.  In control subjects, propofol sedation had no effect on rCPS, but in patients with FXS studied under propofol-sedation we found statistically significant reductions in rCPS compared with sedated controls.  A subsequent study in the Fmr1 KO mouse model indicated that propofol had very little effect on rCPS in wild type (WT) animals, but in Fmr1 KO mice propofol decreased rCPS significantly throughout the brain (Qin et al., J. Cerebr Blood Flow &amp; Metab, 2013).    We continue to address the question of rCPS in human subjects with FXS by studying subjects with a different sedative and, in a few subjects, studying them awake with a modified protocol. <br />  <br />In accord with our hypothesis that a dysregulation of protein synthesis is a core phenotype in FXS, we continue to look for potential treatments that will alter the behavioral and rCPS phenotypes in the Fmr1 KO mouse model.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The protocol involved in this project is 06-M-0214, NCT00362843.<br /><br />During the 2017 funding period, we addressed the following: 1) rCPS measured with the L-1-C-11leucine PET method in patients with FXS and healthy volunteers studied either under dexmedetomidine sedation or in the awake state, 2) Effects of treatment with metformin on rCPS and behavior in Fmr1 KO mice, 3) Effects of treatment with an inhibitor of phosphodiesterase-4D (PDE-4D) on behavior and rCPS in Fmr1 KO mice, 4) rCPS in Tsc2+/- mice, 5) Sleep abnormalities in Fmr1 KO and Tsc2+/- mice.<br /><br />1) Fragile X syndrome. We continue to analyze results of our studies of rCPS in patients with FXS  measured with the L-1-C-11leucine PET. In studies of patients and healthy controls studied under sedation we did not find increased rCPS in the patient population.  As with our previous studies of FXS subjects under propofol sedation, rCPS in dexmedetomidine-sedated subjects are lower compared with age-matched controls.  Currently, we are focusing on studies of awake patients and healthy controls studied with a modified protocol. Our hypothesis is that rCPS is altered in patients with FXS compared with age-matched controls. These studies are ongoing. <br /><br />2) Metformin treatment of Fmr1 KO mice. T. Jongens (University of Pennsylvania) reported recently that elevated insulin signaling is involved in the expression of behavioral phenotypes in the Drosophila model of FXS (dfmr1). We are following up this finding by testing the efficacy of metformin on rCPS and behavior in Fmr1 KO mice. Metformin is a biguanide drug used in the treatment of type 2 diabetes. Mice are treated chronically as adults and tested on tests of memory and rCPS are measured.   The results of these studies are being analyzed.<br /><br />3) Treatment of Fmr1 KO mice with an inhibitor of PDE-4D. Work from Berry-Kravis (Rush College of Medicine) indicates that cAMP is reduced in peripheral cells from patients with FXS and that in neuroblastoma cells cAMP production is regulated by FMRP. Moreover, work from the laboratory of T. Jongens shows that inhibition of PDE-4 ameliorates memory deficits in the dfmr1 fly and restores mGluR-dependent LTD to WT levels in the Fmr1 KO mouse. In collaboration with Tetra Discovery Partners, we are testing the efficacy of a negative allosteric modulator (NAM) of PDE-4D (BPN-14770). We are chronically treating Fmr1 KO mice with the PDE-4D NAM and measuring its effects on behavior and rCPS.  These studies are ongoing.<br /><br />4) Another syndromic form of autism under study in the SNPM is tuberous sclerosis complex (TSC). TSC is an autosomal dominant neurogenetic disorder manifested by a high incidence of seizures, intellectual disability, and autism. TSC is caused by mutations in either TSC1 or TSC2, which encode for proteins that form a complex and interact with a small GTP-binding protein, RHEB, to inhibit mTORC1. mTORC1 is a central regulator of ribosomal biogenesis and translation initiation, and loss of TSC1/2 function results in increased activity of mTORC1. We hypothesized that haploinsufficiency of TSC2 (Tsc2+/-) in mice would lead to increased rCPS. To date, our in vivo measurements of rCPS in freely-moving awake, adult, male Tsc2+/- mice indicate that rCPS is decreased in selective brain regions. Current experiments are addressing the effects of the mutation in TSC2 on recycling of leucine derived from protein degradation in the tissue; this is a critical factor in the equation for rCPS.   These studies are ongoing.<br /><br />5) Sleep and neurodevelopmental disorders. Sleep abnormalities are one of the most prevalent concurrent disorders in patients diagnosed with neurodevelopmental syndromes. In these patients, the severity of behavioral abnormalities and the severity of sleep abnormalities are correlated. Given the importance of sleep in developmental plasticity, we sought to examine sleep behavior in two animal models of single gene neurodevelopmental disorders, FXS and TSC. We used home cage monitoring to investigate total sleep times during the light and dark phases. We found that Fmr1 KO mice at two and six months of age sleep less than WT mice in the light phase.  In younger animals (at p21), we found no difference between Fmr1 KO and WT mice in sleep times.  Sleep deficits were not restored by treatment with a GABA-B agonist, R-baclofen.  The results of these studies are in press (Frontiers in Molecular Neuroscience) Future studies will address the ability of other drugs to improve sleep and improve behavioral phenotypes.  Future studies will also address sleep in other single gene neurodevelopmental disorders.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101205&allpubs=Y&isajaxlink=Y&_UserReference=8193C1FF554AEFCF5B38D005','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Saré RM, Levine M, Hildreth C, Picchioni D, Smith CB (2016). Chronic sleep restriction during development can lead to long-lasting behavioral effects. Physiol Behav  155, 208-17.   https://doi.org/10.1016/j.physbeh.2015.12.019
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26712276?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4720986/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26712276
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4720986 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Saré RM, Levine M, Smith CB (2016). Behavioral Phenotype of Fmr1 Knock-Out Mice during Active Phase in an Altered Light/Dark Cycle. eNeuro  3.   https://doi.org/10.1523/ENEURO.0035-16.2016
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27294193?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4901146/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27294193
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4901146 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

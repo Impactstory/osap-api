@@ -1,0 +1,678 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002800</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002800-13</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Identifying Neural Substrates of Behavior in Drosophila Melanogaster
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Benjamin H White; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/benjamin-white" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neural Function, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neural Function</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 7 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Fengqiu  Diao; PhD<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Feici  Diao; MD, PhD<br />
+
+
+
+
+Amicia Devin Elliott<br />
+
+
+
+
+Haojiang  Luan<br />
+
+
+
+
+Matthew Justin Roberts<br />
+
+
+
+
+Robert L Scott<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=91020&onameset=Section on Neural Function&isajaxlink=Y&_UserReference=C0D0D311538250AD5B38D056','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 7</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Carson C Chow; BASc, PhD (NIDDK) <br />
+
+
+
+Chi-Hon  Lee; MD, MS, PhD (NICHD) <br />
+
+
+
+Vipul  Periwal; BS, MA, Ph D (NIDDK) <br />
+
+
+
+Mihaela  Serpe (NICHD) <br />
+
+
+
+Hari  Shroff; PhD (NIBIB) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 13 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+H  Bellen
+<i>(Baylor College of Medicine)</i>
+<br />
+
+
+
+J  Ewer; PhD
+<i>(Centro de Neurociencia, Universidad de Valparaíso)</i>
+<br />
+
+
+
+S  Goodwin
+<i>(Oxford University)</i>
+<br />
+
+
+
+G  Jefferis
+<i>(Medical Research Council, Cambridge)</i>
+<br />
+
+
+
+A  Keene; PhD
+<i>(Department of Biology, University of Nevada, Reno)</i>
+<br />
+
+
+
+J A Kiger; PhD
+<i>(Molecular and Cellular Biology, University of California, Davis)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=91020&isajaxlink=Y&_UserReference=C0D0D311538250AD5B38D056','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 13</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+behavior, drosophila, ecdysis, bursicon, thermogenetics, circuitry, neuromodulatory, hormones
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Understanding how neural circuits generate behavior is a central issue in neuroscience. In addition, understanding how these circuits develop and change in response to both genetic and environmental influences is fundamental to elucidating the origins of behavior. These issues are germane to human mental health in that deficits in initiating, terminating, or organizing behavior characterize many mental disorders. New tools for mapping the neural circuits underlying behavior and new insights into the mechanisms that organize behavior will be required to achieve therapeutic advances.<br /><br />The work of the Section on Neural Function has the principal goal of developing and applying tools for identifying neuronal networks underlying behavior. Only by studying such networks in their native context can one understand how they develop, interact, and adapt to organize behavior. For this reason, we are primarily interested in tools that permit the targeted manipulation of neuronal function in living, behaving organisms. The organism of principal interest to my laboratory is the fruit fly, Drosophila melanogaster, which has long served as a &quot;technology incubator&quot; for rapidly testing and deploying new genetic techniques. In addition, fruit flies combine a rich behavioral repertoire with a nervous system of tractable size, and permit investigation of nervous system development at the cellular level. <br /><br />Consistent with our goal of understanding how nervous systems organize behavior, my laboratory's research focuses on a class of behavioral sequences known as ecdysis sequences. These sequences are executed to cast off the old exoskeleton during each molt and are driven by hormonal and neuroendocrine factors. However, they are also typically responsive to environmental conditions. The mechanisms by which extrinsic and intrinsic factors act on neuronal networks to orchestrate a specific behavioral output are thus naturally open to investigation in this system. Because ecdysis sequences are innate and are modified to accommodate changes in the developing fly's body plan and lifestyle, studying their neural substrates also naturally permits investigation of the mechanisms that govern circuit development. Understanding how the ecdysis sequence circuitry is initially specified during embryogenesis and then altered as the animal matures is a further long-term goal of our research.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Ecdysis sequences consist of concatenated motor programs that serve to first loosen, then cast off an insect's exoskeleton and finally to expand a new exoskeleton to accommodate further growth. Survival and growth thus depend upon successful execution of ecdysis sequences, and each such sequence must be tailored to the animal's particular developmental stage. The developmental stage that has been the focus of most of the research in my laboratory is that of the newly metamorphosed adult, where expansion of the adult exoskeleton includes expansion of the newly formed wings. Since wing expansion is only undertaken in suitable surroundings, the ecdysis sequence includes an environmentally-sensitive behavioral program that mediates the search for a favorable environment. A subsequent, hormonally-driven program serves to expand the recently developed wings of the newly emerged fly. Because wing expansion must be performed within several hours of emergence, the need for safety must be balanced by the imperative to expand and each individual fly must decide when (and under what environmental circumstances) to expand. Wing expansion thus provides a behavioral paradigm for studying decision-making, the most fundamental aspect of behavioral integration, and for understanding how hormonal and environmental factors act, individually and in concert, to recruit motor patterns to assemble behavioral sequences. Such understanding should, in turn, shed light on the deficits in behavioral organization that lie at the root of many mental disorders, including obsessive-compulsive disorder, schizophrenia, and bipolar disorder. Some of the challenges and promises of research on the molecular mechanisms of behavior as studied in model organisms can be found in a meeting review I co-authored this year that was published in the journal Molecular Pharmacology (Langenhan et al. (2015) Mol Pharmacol. 88:596-603.)<br /><br />My laboratory's approach to understanding how the Drosophila nervous system produces behavioral sequences crucially depends on genetic techniques that allow specific subsets of brain cells to be turned off or on in freely behaving animals. Making such tools is another principal goal of our research. A palette of tools that we introduced this year (Diao et al., 2015, Cell Reports 10, 14101421), which has driven much of our recent research, permits targeting of transgene expression to neurons that express a specific gene of interest. We call such tools Trojan exons by way of analogy to the Trojan horse: They are stealthily introduced into the gene of interest, and then release transcriptional effectors that render the cells susceptible to exploitation by other transgenes. They thus allow investigators to gain genetic access to cell types of interest and manipulate their function. Trojan exons have the virtue of being easy to use and completely modular, in that Trojan exons of different types can be inserted into the same gene. When used in combination with the large number of existing Drosophila strains bearing MiMIC transposons in so-called coding introns, Trojan exons truly represent plug-and-play cassettes for cell-type specific targeting. Our various Trojan exons, and the tools we created for easily generating Trojan exon fly lines, have been made available to the community through either the Bloomington Drosophila Stock Center or Addgene. <br /><br />My own laboratory has used the Trojan exon techniquetogether with tools made by a previously developed method (Diao &amp; White (2012) Genetics 190: 11391144)to investigate the circuitry underlying the wing expansion decision at adult ecdysis. To do so, we have targeted neurons that express the receptor of a hormone called Bursicon. We earlier showed that two Bursicon-expressing neurons (i.e., the BSEG) are not only necessary for wing expansion, but that activating them is sufficient to force the decision to expand even in unfavorable environmental conditions (Luan et al. (2012) J Neurosci 32: 880889). A focus of recent research has been to identify the downstream targets of the BSEG--which must necessarily express the Bursicon receptorin an effort to understand how they do so. As will be reported in a manuscript now being prepared for publication, the BSEG and their targets surprisingly comprise part of a positive feedback loop that mediates the wing expansion decision.  <br /><br />In other work, we have used the Trojan exon technique to expand our investigation of the ecdysis circuitry beyond the circuit that mediates wing expansion at the adult stage. It has long been known that the ecdysis sequences of all developmental stages are initiated by release of Ecdysis Triggering Hormone (ETH). This hormone is thought to activate central brain circuits and orchestrate the execution of the entire ecdysis sequence, but how it does so has remained largely unknown. Historically, this is due to the lack of methods for systematically identifying and characterizing the neurons targeted by ETH. We have now succeeded in doing so by targeting cells that express the ETH receptor (ETHR) using the Trojan exon technique. By fully exploiting the versatility of this technique, we have developed a comprehensive toolset for manipulating not only the entire complement of ETHR neurons, but many subsets of such neurons, including subsets that individually express one its two isoforms, ETHRA and ETHRB. In work that has recently been submitted for publication, we have shown that ETHRA and ETHRB serve functionally and developmentally distinct roles in ecdysis. In addition, we have identified several other subsets of ETHR-expressing neurons that mediate ecdysis behaviors or the physiological changes that support their execution.<br /><br />In summary, we have made substantial progress during the last year in elucidating the developmentally dynamic circuit in the Drosophila nervous system that supports ecdysis and, at the adult stage, mediates the behavioral decision governing wing expansion. At the same time, we have continued to develop tools that will support not only our own circuit mapping efforts, but also those of other members of the Drosophila research community. As we use these tools to extend and refine our analysis of the circuitry underlying ecdysis sequences at all developmental stages in the fly, our work should provide insight into the principles that govern the development and function of behavioral circuits in all organisms, including humans.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91020&allpubs=Y&isajaxlink=Y&_UserReference=C0D0D311538250AD5B38D056','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Diao F, Ironfield H, Luan H, Diao F, Shropshire WC, Ewer J, Marr E, Potter CJ, Landgraf M, White BH (2015) Plug-and-Play Genetic Access to Drosophila Cell Types using Exchangeable Exon Cassettes. Cell Rep 10:1410-1421
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25732830?dopt=Abstract" target="_blank">PubMed</a>
+
+
+           &nbsp;&nbsp;&nbsp;&nbsp;<i>Available in future as a Free Article</i> <!-- looks for PMC translations for in progress or embargoed -->
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25732830
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4373654 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Langenhan T, Barr MM, Bruchas MR, Ewer J, Griffith LC, Maiellaro I, Taghert PH, White BH, Monk KR (2015) Model Organisms in G Protein-Coupled Receptor Research. Mol Pharmacol 88:596-603
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25979002?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4551050/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25979002
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4551050 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

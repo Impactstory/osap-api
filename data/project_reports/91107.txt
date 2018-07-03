@@ -1,0 +1,570 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002933</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002933-04</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Endocrine and Neurobiologic Events Accompanying Puberty
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Peter J Schmidt; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/peter-schmidt" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Behavioral Endocrinology, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Behavioral Endocrinology</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 12 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Merry A Danaceau<br />
+
+
+
+Nazli  Haq<br />
+
+
+
+Pedro E Martinez; MD<br />
+
+
+
+Wanda R Ridley<br />
+
+
+
+Linda A Schenkel<br />
+
+
+
+Annie  Shellswick<br />
+
+
+
+ <!-- step through any ordered staff -->
+
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=91107&onameset=Section on Behavioral Endocrinology&isajaxlink=Y&_UserReference=19CDE912F28B4FD25B38D1FE','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 12</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Karen F Berman; MD  (Section on Integrative Neuroimaging)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+<div id="moresamestaffo">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffou">6 of a total of 8 other NIH members are shown.</div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+John Anthony Butman; MD, PhD (CC) <br />
+
+
+
+David  Goldman; MD (NIAAA) <br />
+
+
+
+Heidi H Kong (NCI) <br />
+
+
+
+Lynnette K Nieman; MD (NICHD) <br />
+
+
+
+James C Reynolds; MD (CC) <br />
+
+
+
+Julia A Segre; PhD (NHGRI) <br />
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaffo','searchview.taf?_function=showmore&ios=O&ipid=91107&isajaxlink=Y&_UserReference=19CDE912F28B4FD25B38D1FE','moresamestaffou');  return false;">
+
+
+<span class="morelist">Show all 8</span></a></form></div>
+
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborator
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+David R Rubinow; MD
+<i>(Department of Psychiatry, University of North Carolina at Chapel Hill)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+puberty, brain development, sex steroids, HPA axis
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+There is surprisingly little known about either the endocrine events accompanying puberty in humans or the impact of these events on normal developmental neurobiology.  Epidemiologic studies have identified sexual dimorphisms in the prevalence of several disorders, including depression and substance abuse.  Many of these sex differences emerge during puberty and are maintained until the 5th-6th decade of life.  Basic neuroscience research has demonstrated that hormonal events accompanying puberty impact many of the physiologic systems involved in the regulation of brain function (e.g., the appearance of new neurons in a brain-region specific pattern, neuronal remodeling, and the pruning of cortical connectivity).  Consistent with findings in basic neuroscience, brain imaging studies in humans have documented the manifold changes in brain structure and function during adolescence.  While important and unequivocal findings about human neurodevelopment have emerged from these studies, several questions remain to be answered about the role of puberty-related endocrine and metabolic events on brain development during adolescence.  In humans, puberty involves the (re)activations of several separate but overlapping hormonal systems that include the adrenal (adrenarche), gonadal (gonadarche), and the growth axes, each of which could influence brain development.  However, there are considerable individual and sex-specific variations in the timing, rate of development, and the relative synchrony of each of these processes.  Thus, cross-sectional efforts to link specific endocrine or metabolic events to developmental events in the brain are difficult to interpret due to the complexity of the interaction in the physiologic systems changing during puberty, the lack of synchronization of endocrine and growth changes across individuals, and the non-specificity of the existing classifications of pubertal stage (i.e., Tanner stages) used to predict specific endocrine events.<br />We perform a longitudinal study of changes in brain structure and function, behavior, and stress responsivity in relation to a comprehensive characterization of reproductive function in normally-developing boys and girls who will be monitored every eight to ten months across the pubertal transition from age eight years (when they are prepubertal) until age eighteen years (post-puberty).  Reproductive endocrine (i.e., gonadal and adrenal steroids measured by high-performance liquid chromatography with tandem mass spectrometry LC-MS/MS, bone age), metabolic (i.e., MRI and dual-energy Xray absorptiometry DEXA measures of visceral fat and body composition), and physical measures (i.e., anthropomorphic indices, MRI measures of gonadal volume) will be employed to fully characterize the stage, duration of pubertal development, and exposure to sex steroids.  Outcome measures will be derived via multimodal neuroimaging techniques, cognitive/behavioral assessments, evaluations of hypothalamic-pituitary-adrenal (HPA) axis function (e.g., cortisol awakening response CAR), and cell lines of lymphoblastoid and induced pluripotent cells (to examine in vitro evidence of the effects of sex steroids on neuronal and glial function).  Additionally, we will test selected hypotheses emerging from the literature about the impact of genetic variation on the developmental trajectory of these parameters (both reproductive and CNS).  This cross-institute proposal employs a multidisciplinary approach to evaluating the effects on CNS function of the process of puberty in both boys and girls.  Finally, these data will serve as an important archival data set for extramural (or intramural) investigators to employ in their studies of children at high risk for the development of behavioral disorders.  This work will not only serve to inform research on the mechanisms by which sexual dimorphisms in neuropsychiatric disorders develop but it will have important implications for the prevention and treatm
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+This report includes work arising from the following clinical protocol: NCT01434368.<br />Recruitment efforts for this longitudinal study continue and we have completed approximately 70% of our planned enrollment of 12-13 year old children and approximately 40% of our planned enrollment of prepubertal children (8 year olds). <br />We have observed several important methodologic variables that potentially will inform future studies: First, age alone is not sufficient to determine prepubertal status since we have identified approximately 10 - 20% of girls who show advanced Tanner breast stage at age 8. Breast development was unilateral and reflected early estradiol secretion in these girls. Second, neither chronologic age nor Tanner stage are sufficient markers of sex steroid (i.e., estradiol) exposure in boys and girls, since we have identified abnormally advanced bone age relative to their chronologic age and controlled for sex (as measured by left wrist x-rays) in approximately 10% of children screened for enrollment in this study (who otherwise are within normal range for body mass index BMI). We also have documented the reversal of pubertal stage in both boys and girls during early and late puberty consistent with the original reports by Tanner (but rarely reported in the subsequent clinical literature). We are currently investigating the potential endocrine accompaniments of this observed reversal of pubertal stage. Finally, we have identified abnormally increased or decreased BMI (defined by normal BMI percentiles between 15th and 85th percentiles) which is accompanied by alterations in sex steroid secretion in approximately 17% of otherwise normal healthy children screened for this study  thus emphasizing the importance of controlling for BMI in studies of the relationship between sex steroid secretion and brain development.  We are currently investigating the effects of these early changes in gonadal activity as reflected by advanced bone age on brain structure and function.  <br />Preliminary results of HPA axis measures in these children in which we employ the cortisol awakening response (CAR), suggest that sex differences in CAR exist, with girls having greater HPA axis activity (i.e., higher peak cortisol and more prolonged secretion) compared with boys. However, we observed no significant main or interactive effects of pubertal stage on salivary cortisol (CAR) measures. These data are consistent with studies in animals that demonstrate increased HPA axis responsivity to a variety of stressors in females compared with males; however, our preliminary findings document that the sex-differences in humans emerge prior to puberty and therefore do not reflect the onset of gonadarche for their expression.  We also have observed the emergence of abnormalities in sleep in late pubertal children compared with prepubertal children. Specifically, complaints by parents and the childs own self reports describe patterns of increased sleep latency (i.e., time to get to sleep), sleep disruption, and duration of sleep in late-puberty boys and girls. Although preliminary, we observed that these changes across puberty correlate positively with estradiol levels in both sexes  albeit a small sample. Nonetheless, as we continue to follow individual children through the pubertal transition the appearance of sleep difficulties and the possible substrates of this change will be more comprehensively examined. <br />Preliminary results of multi-modal neuroimaging studies in this project suggest that pubertal stage contributes to several measures of adolescent brain development and accounts for differences between adolescent and adult brain development that are both brain region- and sex-specific. First, we employed diffusion tensor imaging (DTI), and myelin water fraction (MWF) imaging (mcDESPOT method) to examine brain development in this sample of children. Bone age (a measure of tissue exposure to estradiol in both boys and girls) and Tanner stage were highly correlated with maturation of the corticospinal tracts as measured by both DTI and MWF. In contrast, gonadal volume and plasma steroid hormone levels were associated with minimal changes in MWF medial to the thalamus. These findings suggest that bone age and Tanner stage may co-vary with white matter maturation during the early pubertal phase, while gonadal volume and steroid hormones may be associated with more restricted changes in this early phase of development. Second, resting state functional connectivity studies have identified sex-differences in pubertal development of amygdalar resting functional connectivity. Our data suggest that biological sex influences amygdalar functional connectivity across puberty, with boys showing higher coupling between the amygdala and ventral striatum, temporal gyrus, and lateral prefrontal cortex compared with girls. However, our data also show similar amygdala  medial prefrontal functional connectivity in boys and girls, suggesting that developmental alterations in amygdala connectivity are region specific and influenced by age and sex. Third, cognition-activated fMRI studies document differential working memory-related prefrontal-hippocampal functional connectivity in children (early puberty) and adolescents (late puberty). We found differential negative prefrontal-hippocampal functional coupling during working memory in children but not adolescents, which could indicate altered reciprocal coupling between an immature prefrontal cortex and the hippocampus, along with changes in the level of cooperativity between these brain regions accompanying prefrontal cortical development during adolescence. Fourth, our studies of reward-related neurocircuitry in these children show a differential recruitment of the ventral striatum and prefrontal cortex during reward processing in early and late-pubertal children. These data provide evidence for an age-dependent differential neural recruitment in the ventral striatum and prefrontal cortex in children and adolescents, in line with past studies showing differential rates of development of subcortical regions and prefrontal cortex. Efforts to distinguish between age- and hormone-related actions to mediate these findings remains unclear and awaits completion of the longitudinal (repeated measures within children) components of this study. Finally, preliminary results from this study could provide insight into developmental processes relevant for vulnerability to early life trauma and future psychiatric morbidity. Evidence suggests that the structural integrity of the uncinate fasciculus, one of the major white matter tracts connecting limbic and prefrontal regions, predicts amygdala activation to fearful faces and is abnormal in some anxiety conditions including PTSD.  However, few studies have investigated the developmental trajectory of the amygdalas structural and functional connectivity.  In both children and adults, we examined the relationship between structural connectivity of the uncinate fasciculus and functional activation of the amygdala during viewing of aversive emotional faces.  During the viewing of aversive emotional faces, in children an increased integrity of the uncinate fasciculus predicted increased amygdala activity and functional connectivity with the anterior cingulate cortex, while this relationship was not present in adults.  These results suggest that white matter integrity may impact the functioning of the fronto-amygdalar circuitry differently in children than in the fully developed adult brain.   <br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91107&allpubs=Y&isajaxlink=Y&_UserReference=19CDE912F28B4FD25B38D1FE','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+No publications during this reporting period
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

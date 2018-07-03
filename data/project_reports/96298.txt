@@ -1,0 +1,610 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002924</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002924-08</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Veterinary Medicine Research Branch
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2015 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lead Investigator</div></div>
+
+<div class="rowdiv">
+<div class="data">
+James  Raber; DVM, PhD
+<br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any LIs -->
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<!-- display SoRs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Supervisor of Record</div></div>
+<div class="rowdiv">
+<div class="data">
+ <!-- faculty test -->
+Susan G Amara; PhD 
+ <!-- faculty test -->
+<br />
+
+</div>
+</div>
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Veterinary Medicine and Resources Branch, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Veterinary Medicine and Resources Branch</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 12 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Amjad  Chaudhry; DVM<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Krystal Heather Allen-Worthington<br />
+
+
+
+
+Fetene T Dagnew<br />
+
+
+
+
+Julia  Drake; BA, MS<br />
+
+
+
+
+James M Fellows<br />
+
+
+
+
+Justin A Golomb<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=96298&onameset=Veterinary Medicine and Resources Branch&isajaxlink=Y&_UserReference=67B46561894BA91C5B38D367','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 12</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+<div id="moresamestaff">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffu">6 of a total of 26 other  members are shown. </div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Bruno B Averbeck  (Laboratory of Neuropsychology)<br />
+
+
+
+Carolyn E Beebe; PhD  (Laboratory of Cerebral Metabolism)<br />
+
+
+
+Heather A Cameron; PhD  (Unit on Neuroplasticity)<br />
+
+
+
+Yogita  Chudasama; PhD  (Laboratory of Neurotoxicology)<br />
+
+
+
+Lee E Eiden; PhD  (Section on Molecular Neuroscience)<br />
+
+
+
+Charles R Gerfen; PhD  (Laboratory of Systems Neuroscience)<br />
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaff','searchview.taf?_function=showmore&ios=S&ipid=96298&thisic=&isajaxlink=Y&_UserReference=67B46561894BA91C5B38D367','moresamestaffu');  return false;">
+
+
+<span class="morelist">Show all 26</span></a>.</form></div>
+
+
+
+</div>
+</div>
+
+
+</div>
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Terri R Clark (OD) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Animal Care, Animal Care Core Services, Animal Care and Use, Animal Research Support, Animal Care and Use Committee (ACUC), Veterinary Care
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The NIMH Veterinary Medical Research Branch is located under the Office of the Scientific Director and is responsible for the care and use of all laboratory animals utilized in the Institute's Intramural Research Program (IRP). The Branch is committed to programs of excellence in veterinary health care, animal husbandry, technical support and program administration. The program has been accredited by the Association for Assessment and Accreditation of Laboratory Animal Care (AAALAC) for over twenty years. <br /><br />The NIMH VMRB provides direct support to NIMH IRP investigators utilizing animals in support of their research. The support includes, but is not limited to: a) assistance with animal study proposal development and execution; b) veterinary services; c) assistance with animal procurement, importation, re-derivation and exportation; and d) training. Veterinarians are on call twenty-four hours a day, seven days of the week. The VMRB: a) advises scientific staff on comparative medicine, model development, disease interference, and other potential research variables; b) advises the NIMH Scientific Director and the Animal Care and Use Committee (ACUC) on animal care and use issues; c) recommends policies and coordinates the implementation of approved policies and regulations; and d) assures that the program is run in accordance with all current guidelines, policies, laws and regulations. The VMRB provides a wide range of veterinary and animal support services for the NIMH IRP including anesthesia and surgical support, as well as other specialized research services.<br /><br />Technical assistance for investigators is offered in the areas of surgical preparation, anesthesia, animal identification, sample collection/analysis, environmental enrichment, breeding, weaning, ocular phenotyping, pathology and animal imaging (MRI, PET Radiographic, etc.). Training is offered in animal handling, restraint, specialized surgical procedures and technical procedures (i.e. bleeding, injections, NHP Bite and scratch prevention, anesthesia, humane euthanasia techniques, etc.). <br /><br />Currently, the NIMH IRP uses mice, rats, voles, and nonhuman primates in support of its research programs. The majority of these animals are held in central and shared facilities on the NIH Bethesda campus and at the NIH Animal Center in Poolesville, Maryland. The NIMH IRP also maintains one IC managed rodent holding facility and one satellite rodent housing area. In addition to the above the VMRB provides oversight for a non-human primate breeding colony maintained on contract. Direct support of the NIMH IRP is provided by the Animal Program Director (0.5 FTE), the Deputy Animal Program Director (1.0 FTE) an Institute Veterinarian (1 FTE), two (2 FTE) Government Administrative Personnel, and eight (8) Government/contract veterinary technicians and animal care personnel. Dr. James Raber serves as the Animal Program Director for both the NIMH and NEI. His position is equally shared between the two institutes (0.5 FTE).
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The NIMH Veterinary Medicine Research Branch (VMRB) has successfully provided veterinary medical, husbandry and research support to over twenty-six (26) principal investigators in the NIMH IRP with over fifty-four (54) active animal study protocols. In addition, the Branch has provided training and support to two hundred and ninety (290) animal users within the Institute. Throughout this fiscal year the NIMH Animal Program Director has also served as Director of the NEI animal care and use program. Both programs are fully accredited by the AAALAC International. Through its commitment to programs of excellence in veterinary health care, animal husbandry, technical support and program administration the NIMH VMRB has provided program support and facilitation necessary to the mission of the NIMH and NIH. The VMRB continues to play a leading role in the NIH Animal Care and Use Program and as an active participant in the laboratory animal science community both on the local and national level.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2016 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=96298&allpubs=Y&isajaxlink=Y&_UserReference=67B46561894BA91C5B38D367','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Weichbrod RH, Blanks S, Plemons T, Mallon D, Chinchilla J, Linde NS, Drake JB, Raber JM (2015) Untapped Potential: Animal care and use programs adopt alternative training and recruitment strategies for individuals with intellectual and developmental disabilities. Lab Animal Sci Prof 3:12-20
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26740963?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4699679/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26740963
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4699679 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

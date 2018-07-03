@@ -1,0 +1,877 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002961</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002961-01</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neurodevelopmental and Behavioral Phenotyping
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lead Investigator</div></div>
+
+<div class="rowdiv">
+<div class="data">
+Audrey E Thurm; PhD
+<br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any LIs -->
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<!-- display SoRs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Supervisor of Record</div></div>
+<div class="rowdiv">
+<div class="data">
+ <!-- faculty test -->
+Maryland  Pao; MD 
+ <!-- faculty test -->
+<br />
+
+</div>
+</div>
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Office of the Clinical Director, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Office of the Clinical Director</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Oyindamola Tolulope Adedipe<br />
+
+
+
+
+Lisa  Alexander<br />
+
+
+
+
+Colby Elizabeth Chlebowski<br />
+
+
+
+
+Bethany Leigh Sauls<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Carolyn E Beebe; PhD  (Section on Neuro-adaptation and Protein Metabolism)<br />
+
+
+
+Daniel  Pine; MD  (Emotion and Development Branch)<br />
+
+
+
+Armin  Raznahan  (Developmental Neurogenomics Unit)<br />
+
+
+
+Susan Elizabeth Swedo; MD  (Section on Behavioral Pediatrics)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+<div id="moresamestaffo">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffou">6 of a total of 13 other NIH members are shown.</div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Simona  Bianconi (NICHD) <br />
+
+
+
+Marc H Bornstein; PhD (NICHD) <br />
+
+
+
+William A Gahl; MD, PhD (NHGRI) <br />
+
+
+
+Amir Hossein Gandjbakhche; PhD (NICHD) <br />
+
+
+
+Andrea  Gropman; MD (NHGRI) <br />
+
+
+
+Omar Iqbal Khan; MD (NINDS) <br />
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaffo','searchview.taf?_function=showmore&ios=O&ipid=101696&isajaxlink=Y&_UserReference=078E742B1539869B5B38D486','moresamestaffou');  return false;">
+
+
+<span class="morelist">Show all 13</span></a></form></div>
+
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 11 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Somer  Bishop
+<i>(UCSF)</i>
+<br />
+
+
+
+Nathan  Fox; PhD
+<i>(University of Maryland)</i>
+<br />
+
+
+
+Joan Christine Han; MD
+<i>(Division of Pediatric Endocrinology, Department of Pediatrics, University of Tennessee Health Science Center)</i>
+<br />
+
+
+
+Alex  Kolevzon
+<i>(Mt Sinai)</i>
+<br />
+
+
+
+Stacy  Manwaring
+<i>(University of Utah)</i>
+<br />
+
+
+
+Danielle  Mead-Nytko; PhD
+<i>(San Jose State University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=101696&isajaxlink=Y&_UserReference=078E742B1539869B5B38D486','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 11</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+neurodevelopmental disorders, behavioral phenotyping, autism spectrum disorder, intellectual disability, psychological testing, social-communication, adaptive behavior, outcome measures, phenotype-genotype relationships, neurocognitive assessment, pediatrics, minimally verbal, loss of skills, regression
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+There are several goals of the Neurodevelopmental and Behavioral Phenotyping Service. One goal is to conduct neurodevelopmental psychological assessments for use in NIH clinical research. The objective of this goal is to collaborate with investigators in both NIH intramural and extramural programs to use in depth behavioral phenotyping to characterize specific genetic conditions that are associated with neurodevelopmental disorders, allowing for genotype-phenotype analyses to be conducted.  This includes neurodevelopmental characterization of individuals across the spectrum of cognitive and neurodevelopmental functioning.  Another goal is to utilize samples with rare condition that include severe and profound intellectual disability to validate existing measures and test newly standardized measures amenable to tracking developmental progress.  An objective of this goal is to pinpoint the functional-biomarker relationships that may one day inform treatment trials.   In order to meet these goals, the service collaborates with investigators both within and outside NIH in order to collect data using neurodevelopmental assessment tools.  This includes engagement in multi-site studies as well as both natural history and treatment studies conducted at the NIH.  In order to contribute to the mission of the NIMH to reduce the burden of mental illness, our assessments are part of comprehensive phenotyping conducted in NIH studies, which allow for diagnoses to be made and refined.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+This past year the Neurodevelopmental and Behavioral Phenotyping Service conducted over 200 neurodevelopmental assessments and focused on collection and analyses of data from a variety of rare genetic disorders associated with intellectual disability and autism spectrum disorder. Much of the data analyzed has been collected through a protocol that includes behavioral assessments (NCT00271622) and a collaborative protocol that includes assessment of specific rare genetic conditions (NCT02461420). We are investigators on these and several other multi-site studies that are conducting behavioral phenotyping of conditions that have yet to have their natural histories fully explored, including Phelan-McDermid Syndrome, Williams Syndrome, Moebius Syndrome, propionic acidemia, creatine transport deficiency, holoprocencephaly, congenital disorders of glycosylation and other diagnosed and undiagnosed conditions that affect neurodevelopment early in life.  These characterization studies are necessary for beginning to understand the breadth and depth of syndromes that cause lifelong impairments, based on developmental delays that often lead to Intellectual Disability and Autism Spectrum Disorder (ASD). <br /><br />Related to these goals, we seek to take advantage of gains made in identification of genetic abnormalities in those already diagnosed with ASD or Intellectual Disability, by exploring whether genotypic differences may be reflected in behavioral phenotype differences in cohorts of children diagnosed with these conditions. As such, we engaged in collaborative efforts to analyze genotype-phenotype data from large scale ASD collections and identified phenotypic profiles of children with ASD identified with specific genetic abnormalities.  Such analyses allow us to refine our understanding of when and how symptoms of neurodevelopmental disorders present if genetic etiologies such as 16p11.2 duplications or deletions are identified.<br /><br />We are specifically focused on the rates and types of Intellectual Disability and ASD profiles within rare genetic conditions, given the implications of these diagnoses on lifelong disability and the need for potential treatment targets and appropriate outcome measures. Our collection of data using standardized autism diagnostic instruments (e.g. the Autism Diagnostic Interview-Revised and the Autism Diagnostic Observation Schedule) and traditional measures of intellectual functioning and adaptive behavior allows us to conduct analyses on how use of these measures differs within specific genetic disorders, to gain an understanding of how ASD and neurocognitive profiles may present differently based on specific etiology.  Given that the field is moving towards such genetic first approaches, we also use our unique study populations to explore the limitations of our current measures and terminology for fully characterizing individuals who are minimally verbal or severely intellectually impaired.  This group of children are particularly important for inclusion in potential treatment trials of rare genetic conditions, but for which few tools have been developed with adequate representation in standardization samples. We also plan to use such data to improve upon existing measures, and collaborate with others to develop new tools. Our goal here is to participate in the creation of tools that capture the full range of social-communication development, including the ability to capture profiles of those with early onset of neurologic conditions.  We seek to create measures that capture growth and differences that may be important for recognizing change based on treatment as well as loss of skills that often accompanies both neurodevelopmental and neurodegenerative conditions. <br /><br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+<!-- do not show project link -->
+
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Bal VH, Farmer C, Thurm A (2017). Describing Function in ASD: Using the DSM-5 and Other Methods to Improve Precision. J Autism Dev Disord  47, 2938-2941.   https://doi.org/10.1007/s10803-017-3204-3
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28681254?dopt=Abstract" target="_blank">PubMed</a>
+
+
+           &nbsp;&nbsp;&nbsp;&nbsp;<i>Available in future as a Free Article</i> <!-- looks for PMC translations for in progress or embargoed -->
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28681254
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5711622 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Bishop SL, Farmer C, Bal V, Robinson EB, Willsey AJ, Werling DM, Havdahl KA, Sanders SJ, Thurm A (2017) Identification of Developmental and Behavioral Markers Associated With Genetic Abnormalities in Autism Spectrum Disorder. Am J Psychiatry 174:576-585
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28253736?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5578709/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28253736
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5578709 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Hardee I, Soldatos AG, Davids M, Vilboux TJ, Toro C, David KL, Ferreira CR, Nehrebecky ME, Snow J, Thurm AE, Heller T, Macnamara EF, Gunay-Aygun M, Zein WM, Gahl W, Malicdan MV (2017) Defective ciliogenesis in INPP5E-related Joubert syndrome. Am J Med Genet A, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Thurm A, Farmer C, Farhat NY, Wiggs E, Black D, Porter FD (2016) Cohort study of neurocognitive functioning and adaptive behaviour in children and adolescents with Niemann-Pick Disease type C1. Dev Med Child Neurol 58:262-9
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26586413?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4760874/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26586413
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4760874 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Thurm A, Tierney E, Farmer C, Albert P, Joseph L, Swedo S, Bianconi S, Bukelis I, Wheeler C, Sarphare G, Lanham D, Wassif CA, Porter FD (2016) Development, behavior, and biomarker characterization of Smith-Lemli-Opitz syndrome: an update. J Neurodev Disord 8:12
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27053961?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4822234/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27053961
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4822234 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Weiss K, Kruszka P, Guillen Sacoto MJ, Addissie YA, Hadley DW, Hadsall CK, Stokes B, Hu P, Roessler E, Solomon B, Wiggs E, Thurm A, Hufnagel RB, Zein WM, Hahn JS, Stashinko E, Levey E, Baldwin D, Clegg NJ, Delgado MR, Muenke M (2018). In-depth investigations of adolescents and adults with holoprosencephaly identify unique characteristics. Genet Med  20, 14-23.   https://doi.org/10.1038/gim.2017.68
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28640243?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5763157/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28640243
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5763157 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

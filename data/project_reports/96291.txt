@@ -1,0 +1,356 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002912</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002912-09</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Office of the Clinical Director
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2015 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Maryland  Pao; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Office of the Clinical Director, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Office of the Clinical Director</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 30 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Kathleen  Adib-Samiy<br />
+
+
+
+
+Jose A Apud; MD, PhD<br />
+
+
+
+
+Julie A Brintnall-Karabelas; MSW<br />
+
+
+
+
+Mary E Cadman; RN, MSW<br />
+
+
+
+
+Joyce  Chung; MD<br />
+
+
+
+
+Kalene Teresa Dehaut; MSW<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=96291&onameset=Office of the Clinical Director&isajaxlink=Y&_UserReference=2FC3820A0C73C3155B38D360','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 30</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Clinical Support Services, Human Subjects Protections, Combined Neuroscience Institutional Review Board, Ethics, Informed Consent, Office of the Clinical Director, Psychiatric Consultation-Liaison Service, Psychiatric Training and Education, Psychosomatic Medicine
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The National Institute of Mental Health (NIMH) Division of Intramural Programs(IRP) is charged with promoting innovative basic, clinical, and translational research to advance understanding of the diagnosis, causes, treatment, and prevention of mental disorders through the study of brain function and behavior. The NIMH Office of the Clinical Director (OCD) assists the Scientific Director in the planning and implementation of new scientific directions within the NIMH IRP. While providing critical clinical research infrastructure to NIMH investigators, the OCD also serves as an important liaison to the NIH Clinical Center (CC) and the NIH community at large through administrative advocacy of NIMH priorities and by providing mental health expertise and services. The mission of the OCD is to support and maintain a complex dynamic clinical research enterprise. This is accomplished through OCD oversight of many activities including the Human Subjects Protections Unit (HSPU), Clinical Research Support Services including annual Scientific Merit Reviews, a Patient Safety and Quality Improvement program, Clinical Training programs, and the Psychiatric Consultation Liaison Service (PCLS). In addition, the clinicians within the OCD conduct research that supports the NIMH intramural and extramural missions.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+CLINICAL RESEARCH SUPPORT SERVICES: An important mission of the OCD is to ensure that subjects participating in NIMH protocols receive the highest quality clinical care. The OCD is responsible for oversight of all clinical aspects of the NIMH IRP including: 1) Risk Management/Patient Safety of the overall clinical program. The OCD administrative team meets regularly with medical directors and nursing leadership to review census, discuss clinical concerns and plan for future initiatives. The OCD coordinates a monthly patient care meeting focused on patient safety, quality improvement and quality assurance in patient care; this meeting is a forum for communication of hospital-related policies and regulations. The OCD team has contributed substantially to the implementation of suicide risk screening at the NIH Clinical Center in response to a 2016 Joint Commission (JC) Sentinel Event Alert calling for suicide risk screening of all medical patients in the hospital setting (based on OCD research, see ZIA MH002922-08). 2) Management of the NIMH protocol review process. The OCD coordinates the scientific review of protocols prior to IRB submission and provides protocol navigation services to IRP investigators. The navigation team provides direct support to individual investigators for all aspects of IRB submissions including writing initial review submissions, submission of annual continuing reviews applications and preparation of protocol amendments. The OCD also coordinates the scientific review of active studies for continuing merit on a triennial basis. 3) The Marketing Communications and Recruitment Unit (MCRU) facilitates comprehensive and diverse NIMH patient recruitment through design and materials development, targeted marketing and advertising planning, and community outreach. In FY16, our Community Outreach Program reached over 8000 individuals through over 200 meetings with providers, consumers, community members, 26 scientific seminars, and electronic mailing subscribers to reach local and national audiences. Social media efforts produced 30 products (Twitter Talks, webinars, podcasts). 4) Quality Assurance (QA) Programs. QA efforts focus on compliance with regulatory requirements and Good Clinical Practice (GCP). The OCD coordinates a Data and Safety Monitoring Board (DSMB) that oversees several DIRP protocols. 5) Hospital credentialing of medical staff. The OCD is responsible for reviewing the qualifications of all clinical personnel and is involved in maintaining the clinical competence of all NIMH health care professionals. In 2014, the OCD implemented an evaluation tool to supplement the hospital-required Ongoing Professional Practice Evaluation (OPPE) prior to renewal of credentials. 6) Allocation of CC resources. The OCD serves as the link between the CC hospital and the Institute. The OCD is responsible for the implementation of CC policies and standard operating procedures (SOPs). The OCD participates in annual CC budget planning meetings with the CC and IC Directors and coordinates hospital initiatives such as preparation for Joint Commission accreditation visits, annual flu shot compliance, etc. 7) Data sharing requirements. The OCD works with the Scientific Director to formulate and implement NIH policies that require sharing of genomic and clinical data that are generated by IRP studies.<br />HUMAN SUBJECTS PROTECTIONS: The Human Subject Protections Unit (HSPU) is dedicated to ensuring adequate protections are in place for all NIMH intramural research participants. Established in 2005, this team of Clinical Research Advocates (CRAs) works with PIs, the IRB, the CC Bioethics Department, and individual participants to identify and ameliorate risks for vulnerable subjects. Activities include: 1) Consent Monitoring: CRAs monitor the informed consent process for potentially vulnerable patients as stipulated by the IRB. Thus, a CRA is present during the consent process and observes the quality of the process, ensuring that all required elements (45CFR46) are discussed. This also includes assent monitoring in the case of minors or adult subjects with surrogate decision makers. 2) Protocol Monitoring: All inpatient research participants are further protected by our protocol monitoring program in which each patient is assigned a CRA who meets with the participant at least weekly to reaffirm their interest in continuing in the study. 3) Capacity Assessment: For selected high-risk studies, a capacity assessment must be completed prior to study participation. Capacity assessments are completed with some patient populations such as Schizophrenia, Fragile X syndrome, Traumatic Brain injury and others. 4) Ability to Appoint an NIH Advanced Directive/Durable Power of Attorney: For protocols approved to include subjects without decision-making capacity: HSPU and the CC Bioethics Department form the Ability to Consent Assessment Team (ACAT). These clinicians assess a subject's ability to appoint a Durable Power of Attorney (DPA) or Legally Authorized Representative (LAR). 5) Assessing the Appropriateness of the Surrogate: As part of ACAT and in accordance with SOP14E, HSPU assesses the appropriateness of the surrogate (guardian, DPA, LAR) based on requirements for a given protocol and willingness to serve in the capacity of surrogate decision maker.  6) Training and Education: In 2008, the HSPU developed an informed consent training, Elements of a Successful Informed Consent, which is required for investigators approved to obtain informed consent. To date, over 1100 staff have completed the &quot;Elements of a Successful Informed Consent&quot; training. In 2010, an educational video and a computer-based training program were created highlighting the best practices in obtaining informed consent. The video is accessible on the web at http://nimhconsentvideo.nimh.nih.gov. This site has had over 10,500 hits since it was originally posted. HSPU provides customized presentations and trainings to meet the specific human subject protection needs of individual research teams at NIH and to extramural researchers as well.  TRAINING AND EDUCATION: The NIMH OCD works in partnership with the NIMH Office of Fellowship Training (OFT) and the Office of Clinical Research and Training in Medical Education (OCRTME) to oversee and participate in several programs that: 1) provide research training for qualified physicians who intend to pursue scientific research careers; 2) allow advanced psychiatry residents to jump start their research training; and 3) educate medical students and residents about clinical neuroscience research. In addition, the NIMH OCD contributes to initiatives that identify and promote academic research careers among promising early career psychiatrists. The OCD develops, promotes and organizes scientific programs and curriculum materials that educate psychiatrists about recent advances in neuroscience research relating to serious mental illnesses. See OCD Training report ZIEMH002939-04 for additional details.  CONSULTATION LIAISON: The NIMH Psychiatry Consultation Liaison Service (PCLS) and Neuro-psychology Consultation Service are teams that provide multidisciplinary clinical services to patients enrolled in clinical protocols at the NIH CC. The teams consists of psychiatrists, psychologists, neuropsychologists, social workers and psychosomatic medicine fellows and other trainees. PCLS consultants evaluate and manage patients in need of routine or emergency mental health assessments in adult and pediatric patients participating in clinical research. PCLS consultants also provide education, training and outreach in the CC and the NIH campus. PCLS consultants conduct clinical research through active collaborations with investigators from all over the world. See OCD Psychiatry Consultation Liaison Service Research ZIA-MH002922-08 for additional details. 
+</div>
+</div>
+<div id="publications">
+
+
+
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

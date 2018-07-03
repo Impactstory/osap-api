@@ -1,0 +1,493 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002344</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002344-28</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neuropsychiatric Disorders--protein Structure/activity Studies
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigators  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+ <!-- faculty test -->
+
+Brian M Martin; PhD
+
+ <!-- faculty test -->
+</div><br />
+
+<div class="topdiv">
+ <!-- faculty test -->
+
+Sanford P. Markey; PhD
+
+ <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Analytical Biochemistry, NIMH
+
+Laboratory of Neurotoxicology, NIMH<br />
+
+</div>
+</div>
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Barry J Richmond; MD  (Section on Cognitive Neuroscience)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Michael J Iadarola; PhD (NIDCR) <br />
+
+
+
+Andrew J Mannes; MD (CC) <br />
+
+
+
+Franco  Marincola; MD (CC) <br />
+
+
+
+Ellen  Sidransky; MD (NHGRI) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+D  Dunaway-Mariano; PhD
+<i>(Chemistry, UNM)</i>
+<br />
+
+
+
+Paul  Fletcher; PhD
+<i>(East Carolina University)</i>
+<br />
+
+
+
+Edward  Ginns; MD, PhD
+<i>(Brudnick Neuropsychiatric Research Institute, Univ Mass Med Sch)</i>
+<br />
+
+
+
+Li-Shan  Hsieh; PhD
+<i>(FDA)</i>
+<br />
+
+
+
+B  Thatcher; PhD
+<i>(Cellular Autoimmunity Unit,  Lund Univ. Hosp)</i>
+<br />
+
+
+
+K  Weninger; PhD
+<i>(Physics, NCSU)</i>
+<br />
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+neutrotropic factors, bio-active peptides, toxins, Alzheimers disease, Multiple Sclerosis, amino acid sequence, anxiety, brain cancer, ion channels, mood, receptors
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+ The goal of these studies is to better understand the molecular mechanisms underlying human nervous system development and function, as well as the pathogenesis of certain inherited brain disorders. Our studies have focused on the structural and active-site properties of proteins found in the nervous system including neurotrophic peptides/proteins, lysosomal hydrolases, and other proteins/peptides, which interact with excitable membranes, receptors and venom toxins. Proteins from human and animal tissues are purified by liquid chromatography (ion-exchange, gel permeation and affinity techniques), high performance liquid chromatography (HPLC) and electrophoretic separation. State-of-the-art micro sequencing analysis (gas-phase, liquid-phase and solid-phase), surface enhanced laser desorption ionization (SELDI) and matrix assisted laser desorption ionization-time of flight (MALDI-TOF) mass spectrometry are performed to characterize proteins.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The unambiguous identification of proteins/peptides is crucial for the definition of the proteome. Using ProteinChip Array technology (SELDI) we have developed experimental protocols and probed test conditions required for protein identification on ProteinChip Arrays. We are able to directly digest proteins/peptides on-chip surfaces by specific proteases such as trypsin, Glu C and Asp N and obtain the peptide mass fingerprint of the sample under investigation by direct analysis on a simple laser desorption/ionization mass spectrometer. Furthermore, tandem mass spectrometry can be performed on the resulting tryptic peptides by using collision quadrupole time of flight (Qq-TOF) MS/MS via a ProteinChip interface, thus allowing the precise identification of the parent protein within the sample. In addition we are able to identify the C-terminal sequence of peptides after digestion with carboxypeptidase Y directly on ProteinChip surfaces coupled with SELDI-TOF mass spectral analysis both under native and denaturing conditions. Utilizing the on chip digestion methodology, we have examined the structural differences between the disease and physiological forms of proteins that may be diagnostic for the disease processes. The primary structure of both forms of the protein may be identical by MS/MS analysis; however, post-translational modification such as an altered N-linked glycosylation pattern could prove to be informative. By coupling enzymatic digestion(both peptide N-glycosidase F and trypsin) and ProteinChip technology these altered protein forms are identifiable. Furthermore, we have developed methods for studying the interaction of both pathologic and physiologic forms of proteins with their ligands or receptors. The biological characteristics of the pathological form may be altered with regard to their binding properties. Utilizing SELDI, we have also examined the peptide component of patient plasma. In order to fully characterize these molecules we developed a micro-preparative procedure (employing liquid chromatography and SELDI) that provided separation of these peptides. Microsequencing and MS/MS analyses of the peptides have identified several molecules that are fragments of larger proteins that would appear to be different from disease versus control. Combining the resources of the laboratory, we have clearly demonstrated our ability to analyze samples from a variety of disease states, such as Alzheimers disease and Multiple Sclerosis. We are presently evaluating methods for maximizing the number of proteins/peptides detected from CSF. These methods will be used in examining CSF from patients as well as other biological fluids and tissues to identify possible biomarkers for use in earlier diagnosis.  By combining both SELDI analysis and on-chip immunoassay, we hope to clearly identify the species that are different from patient versus control as well as those that are post-translationally altered.<br /> We have succeeded in identifying and characterizing a family of metalloproteases that have unique effects on the SNARE complex in various model systems (initially rat and mouse). The proteases are capable of disrupting a number of the members of the complex in different ways depending on the particular protease. Studies have also been directed at recombinant forms of the members of the complex including Snap 25, Snap 23 and Vamp 2. Our studies may provide insight as to how portions of the complex ensure the stability and function of the proteins forming the complex. The initial work has been published in the Journal of Biological Chemistry and has been the basis for a provisional US patent application with our collaborators at East Carolina University. In addition we have a cDNA clone which encodes a portion of one of the metalloproteases and are attempting to recover a full length version of it.Recently we have also isolated a form of the metalloproteinase from the venom of an Arizonan scorpion C. sculpturatus which we are characterizing. Due to ban on export of scorpions fom Brazil the american species will allow cloning and expression to proceed in a more reasonable manner.<br />   Due to partial cDNA sequence in our possession we have began recombinant production of two of the metalloproteinase in order to have sufficent material for further characterization. Additionally we are undertaking studies on other venoms to better understand the full range of activity toward the human SNARE complex.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81178&allpubs=Y&isajaxlink=Y&_UserReference=A71E22E9D052F2055B38D13C','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+No publications during this reporting period
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

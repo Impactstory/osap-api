@@ -1,0 +1,671 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002940</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002940-02</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Pathophysiological Mechanisms  in Major Depression and Bipolar Disorder
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+ <!-- faculty test -->
+
+Philip William Gold; MD
+
+ <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Office of the Director, NIMH
+
+</div>
+</div>
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Kathleen R Merikangas; PhD (Experimental Therapeutics and Pathophysiology Branch)<br />
+
+
+
+Carlos Alberto Zarate; MD (Experimental Therapeutics and Pathophysiology Branch)<br />
+
+
+
+Erica Martin Richards; MD, PhD (Section on Neurobiology and Treatment of Mood Disorders)<br />
+
+
+
+David A Luckenbaugh; BA, MA (Experimental Therapeutics and Pathophysiology Branch)<br />
+
+
+
+Pedro E Martinez; MD (Section on Behavioral Endocrinology)<br />
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+<div id="moresamestaffo">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffou">6 of a total of 10 other NIH members are shown.</div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Alan T Remaley; MD, PhD (CC) <br />
+
+
+
+George P Chrousos; MD (NICHD) <br />
+
+
+
+James C Reynolds; MD (CC) <br />
+
+
+
+Maria  Pavlatou (NICHD) <br />
+
+
+
+Tomoyuki  Kino (NINDS) <br />
+
+
+
+Rene A Costello; MT (CC) <br />
+
+
+
+
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Paul  Carlson
+<i>(University of Utah School of Medicine)</i>
+<br />
+
+
+
+Wayne  Drevets; MD
+<i>(Neuroscience, Laureate Neuroscience Institute)</i>
+<br />
+
+
+
+Mitchel  Kling; MD
+<i>(University of Pennsylvania, School of Medicine)</i>
+<br />
+
+
+
+Julio  Licinio; MD
+<i>(Psychiatry, University of Miami School of Medicine)</i>
+<br />
+
+
+
+Ma-Li  Wong; MD
+<i>(Psychiatry, University of Miami School of Medicine)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+melancholic depression, klotho, parainflammation, atypical depression, Metabolic Syndrome, osteoporosis
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Specific Aim #1<br /><br />1A. To Elucidate Pathophysiological Mechanisms of the Premature Coronary Artery Disease, Diabetes, and Stroke in Patients with MDD<br /><br />1B. To Document that Normal Weight Patients with MDD Have All Six Components of the Metabolic Syndrome and to Establish a Model for their Interactions<br /><br />1C To Test the Hypothesis that Ketamine Treatment Ameliorates All Six Components of the Metabolic Syndrome in MDD<br /><br />1D. To Propose Effective Medical Interventions for the Metabolic Syndrome of MDD<br /><br />1E. To Determine If Antidepressants Other than Ketamine Influence the Metabolic Syndrome of MDD	<br /><br /><br />Specific Aim #2<br /><br />2A. To further Elucidate Mechanisms of the Premature Osteoporosis in Patients with MDD and to Determine Potential Steps to Prevent It <br /><br />2B. To Test the Hypothesis that Osteoporosis in MDD is Linked to the Metabolic Syndrome in MDD<br /><br />2C To Conduct Translational Studies Examining the Role of Antidepressants in the Risk of Increased Bone Fracture in Elderly Patients<br /><br />2D. To Examine the Hypothesis that Ketamine Influences Bone Markers of Synthesis and Resorption<br />	<br />	<br />Specific Aim #3<br /><br />3A. To Test the Hypothesis that Peripheral and CNS Calcium Metabolism is Dysregulated in MDD<br />           <br />3B. To Test the Hypothesis that Klotho contributes to the Pathophysiological Components of Calcium Dysregulation in MDD<br /><br />3C.To Test the Hypothesis that Ketamine Ameliorates the Pathophysiological Components of Calcium Dysregulation in Depression<br /><br />NOTE:  The protocols described below are no longer active.  Data are in repository and available for collaborative data analysis.<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Aim 1.<br />1A. We hypothesize that the premature coronary artery disease, diabetes and stroke of MDD occur as a consequence of the metabolic syndrome in patients with MDD secondary to the CNS changes that promote the cognitive and mood components of MDD. Although the metabolic syndrome occurs in the general population as a consequence of obesity, we have shown that patients with MDD have the six main components of the metabolic syndrome even in the normal weight state. These consist of:<br /><br />(1) activation of the HPA Axis and sympathetic nervous system (protocols 90-M-0199, 88 M-0162)<br />(2) a proinflammatory state (protocol 90-M-0199)<br />(3) insulin resistance with hyperinsulinemia (protocol 00M-0049)<br />(4) increased blood pressure compared to matched controls (protocol 00M-0049)<br />(5) dyslipidemia (protocol 00-M-0049)<br />(6) increased levels of prothrombotic mediators (protocol 00-M-0049)<br /><br />1B. We hypothesized that the pathophysiological organization of these six stigmata consists of the following cascade that we have documented in MDD, which concluded this year: (note redundant positive feedback loops). We have just finished completing our studies and validated the following:<br />(1) CRH hypersecretion leads to activation of the HPA axis and sympathetic nervous system (protocol 90-M-0199)<br />(2) A proinflammatory state occurs, secondary (paradoxically), in part, to hypercortisolism, which increases the visceral fat mass; visceral fat is replete with proinflammatory mediators like IL-6 that they release into the plasma; IL-6, in turn, stimulates the secretion of proinflammatory acute phase proteins such as CRP from the liver. (Protocol 90-M-0199)<br />(3) Insulin resistance with hyperinsulinemia occurs as a consequence of visceral fat-mediated free fatty acid and inflammatory mediator release, and hypercortisolism. (Protocol 00-M-0049)<br />(4) CRH-mediated activation of the sympathetic nervous system leads to hypertension. Insulin resistance with hyperinmsulinemia and increased inflammatory mediators also stimulate the sympathetic nervous system (protocols 88-M-0162, 90-M-0199, 90-M-0199)<br />(5) Insulin resistance and a proinflammatory state lead to dyslipidemia (protocol 00-M-0049)<br />(6) Finally, a proinflammatory state, insulin resistance, and increased sympathetic outflow each lead independently to a prothrombotic state. (Protocol 04-M-0002)<br /><br />	These six pathophysiologic stigmata relating to one another in mutually positive feedback loops promote premature coronary artery disease stroke, and diabetes in patients with MDD. All six are deeply involved in the normal stress response. We have incorporated this model in an invited paper submitted to Molecular Psychiatry entitled, The Organization of the Stress System and Its Dysregulation in Depressive Illness.<br /><br />1C. We hypothesize that ketamine treatment will ameliorate all six components of the metabolic syndrome in patients with MDD<br /><br />1D. Available medications like statins can ameliorate the components of the metabolic syndrome through their anti-inflammatory effects and the subsequent amelioration of insulin resistance<br /><br />1E. We have shown that SSRIs promote insulin resistance by an unknown mechanism, and that lithium promotes insulin resistance by antagonizing adiponectin secretion. Adiponectin is the most potent endogenous stimulus to the impact of insulin at its receptor.  (Protocol 04-M-0002)<br /><br />	<br /> Aim 2. <br /><br />2A. We previously reported in The New England Journal of Medicine that virtually 30% of premenopausal women with major depression had clinically significant losses of bone that left them with either osteoporosis or osteopenia. The bone loss was greater at the hip than at the spine, an unusual pattern signifying inflammatory mediators rather than hypercortisolism as the primary cause of bone loss in MDD. This finding has been replicated in over 20 other studies.  (Conducted under protocol 00-M-0203)<br /><br />2B. Each of the six factors we identify in the metabolic syndrome of MDD also contributes to the development of osteoporosis. Inflammation, hypercortisolism, and increased sympathetic spillover are especially potent inducers of osteoporosis. Thus, the metabolic syndrome is pathophysiologically linked to osteoporosis in MDD.<br /><br />2C. Bone strength is a more reliable predictor of bone fracture than bone mineral density. We assessed bone strength by testing load displacement, stiffness, and moment of inertia in Sprague-Dawley rats after 90 days of daily ip injections of antidepressants and anticonvulsants. The antidepressants fluoxetine and imipramine did not affect bone strength, but the anticonvulsants valproic acid and carbamazepine had pronounced effects on multiple parameters of bone strength and by novel means not previously described. Our findings suggest that by not affecting bone strength, antidepressants are not likely to promote bone fracture. Special care should be taken with depressed patients who receive anticonvulsants.  (Conducted under Protocol 00-M-0203)<br /><br /><br />2D. We hypothesize that ketamine will positively affect the balance between markers for bone production vs. bone resorption.<br /><br /><br />Aim 3.<br />Current data suggest a dysregulation in glutamate neurotransmission in depressive illness, and two separate studies have shown an association between affective illness and calcium channel polymorphisms. Calcium is a principal mediator of neuronal glutamate release. We have found that, compared to controls, cerebrospinal fluid (CSF) calcium concentrations are significantly increased in 21 medication-free patients with major depression. This finding potentially reflects increased calcium spillover into CSF, reflecting excessive synaptic calcium concentrations. These patients also had significant decreases in plasma calcium concentrations. The compound klotho, a peripheral and CNS hormonal mediator, plays a significant role in the transfer of calcium from the peripheral circulation to the CSF. We have submitted to Molecular Psychiatry a review paper entitled Klotho: A Humeral Mediator in CSF and Plasma that Influences Longevity and Susceptibility to Multiple Complex Disorders. This paper discusses many of the implications of klotho for health and disease, including its role in bidirectional calcium transfer from the periphery into the CNS. (Protocol 04-M-0002)<br /><br /><br />Clinical Significance of the Findings<br /><br />1. Patients with MDD have the stigmata of the metabolic syndrome without obesity, indicating an intrinsic cause of the metabolic syndrome secondary to changes in CNS function. Patients with depressive illness should be evaluated for components of the metabolic syndrome, and those who have it should be treated by agents which ameliorate it, such as statins and a member of a group of compounds that have potent effects to increase insulin sensitivity and decrease inflammation.<br />2. Premenopausal women have a loss in bone mineral density in a pattern that suggests an inflammatory component in its pathophysiology. Our data indicate that given a prevalence of MDD in the 134 million US women between the ages of 21 and 45 years of approximately 16%, we estimate that nearly 4 million premenopausal women with MDD may have undetected deficits in bone mineral density. We now demonstrate that post-menopausal women with major depression have losses of bone that significantly correlated with plasma levels of the inflammatory mediator C-reactive protein, a sensitive marker of inflammation.<br /><br />3. Further documentation that SSRIs promote insulin resistance would have clinically relevant implications for the many patients on SSRIs. <br /><br />4. We have advanced the first clinical data supporting a role for a dysregulation in calcium channel function in patients with depressive illness and are investigating potential causes.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86360&allpubs=Y&isajaxlink=Y&_UserReference=18F1C33E88828B135B38CF65','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Cullen KR, Eberly LE, Heller MD, Schlesinger A, Gold PW, Martinez PE, Klimes-Dougan B (2014) Personality disorders in offspring of mothers with mood disorders: results from a longitudinal family study. Psychiatry Res 218:303-10
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24844978?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4385706/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24844978
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4385706 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Miranda J, Romero R, Korzeniewski SJ, Chaemsaithong P, Stampalija T, Yeo L, Dong Z, Hassan SS, Chrousos GP, Gold P, Chaiworapongsa T (2014) The Anti-aging Factor -klotho during Human Pregnancy and its Expression in Pregnancies Complicated by Small for Gestational Age Neonates and/or Preeclampsia. J Matern Fetal Neonatal Med 27:449-57
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23808483?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4157896/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23808483
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4157896 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Pavlatou MG, Vickers KC, Varma S, Malek R, Sampson M, Remaley AT, Gold PW, Skarulis MC, Kino T (2013) Circulating cortisol-associated signature of glucocorticoid-related gene expression in subcutaneous fat of obese subjects. Obesity (Silver Spring) 21:960-7
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23784897?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4199221/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23784897
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4199221 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,1160 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002955</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002955-02</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Non-invasive Neuromodulation Unit (NNU)
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+ <!-- faculty test -->
+
+Sarah Hollingsworth Lisanby
+
+ <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Unit on Non-invasive Neuromodulation, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Unit on Non-invasive Neuromodulation</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 9 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Kevin Randolph Akhlaghi<br />
+
+
+
+
+William Cox Altekruse<br />
+
+
+
+
+Zhi-De  Deng<br />
+
+
+
+
+Bruce Michael Luber; PhD<br />
+
+
+
+
+Valerie T Martinez<br />
+
+
+
+
+Thomas Christopher Radman<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=101288&onameset=Unit on Non-invasive Neuromodulation&isajaxlink=Y&_UserReference=155BB7908199F65F5B38D160','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 9</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+<div id="moresamestaff">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffu">6 of a total of 8 other  members are shown. </div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Nicholas Lee Balderston  (Section on Neurobiology of Fear and Anxiety)<br />
+
+
+
+Peter A Bandettini; BS, PhD  (Functional MRI Core)<br />
+
+
+
+Monique  Ernst; MD, PhD  (Section on Neurobiology of Fear and Anxiety)<br />
+
+
+
+Christian  Grillon; PhD  (Section on Neurobiology of Fear and Anxiety)<br />
+
+
+
+Bashkim  Kadriu  (Office of the Clinical Director)<br />
+
+
+
+Allison Carol Nugent; PhD  (Section on Neurobiology and Treatment of Mood Disorders)<br />
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaff','searchview.taf?_function=showmore&ios=S&ipid=101288&thisic=&isajaxlink=Y&_UserReference=155BB7908199F65F5B38D160','moresamestaffu');  return false;">
+
+
+<span class="morelist">Show all 8</span></a>.</form></div>
+
+
+
+</div>
+</div>
+
+
+</div>
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Sarah Elizabeth Aronson (NIDA) <br />
+
+
+
+Leonardo G Cohen; MD (NINDS) <br />
+
+
+
+Mark  Hallett; MD (NINDS) <br />
+
+
+
+Betty Jo  Salmeron; MD (NIDA) <br />
+
+
+
+Elliot Alan Stein; PhD (NIDA) <br />
+
+
+
+Eric M Wassermann; MD (NINDS) <br />
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 26 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Chris  Abbott
+<i>(University of New Mexico)</i>
+<br />
+
+
+
+Greg  Appelbaum; PhD
+<i>(Duke)</i>
+<br />
+
+
+
+M  Bikson
+<i>(CUNY)</i>
+<br />
+
+
+
+A  Brunoni
+<i>(University of São Paulo)</i>
+<br />
+
+
+
+Roberto  Cabeza
+<i>(Duke)</i>
+<br />
+
+
+
+Paul  Croarkin
+<i>(The Mayo Clinic)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=101288&isajaxlink=Y&_UserReference=155BB7908199F65F5B38D160','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 26</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Transcranial Magnetic Stimulation, Neuromodulation, Brain stimulation, depression, neural plasticity
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Major psychiatric disorders such as major depression remain a leading source of disability and economic burden world-wide. Psychotherapies and psychopharmacology are often helpful, but unfortunately many patients do not respond to available therapies. New developments in engineering and technology have opened the door to a new set of interventions with which to study and treat brain-based disorders that are not effectively managed with available treatments. Collectively, these neuromodulation tools apply energy to the brain, using electrical or magnetic fields, with the goal of studying brain function and of treating depression and other disabling conditions.<br /><br />The Noninvasive Neuromodulation Unit (NNU) focuses on developing novel noninvasive neuromodulation tools, coupled with brain measurements via neurophysiology and neuroimaging, to measure and modulate neural plasticity for the study and treatment of neuropsychiatric disorders. The NNU provides expertise in neuromodulation tools to support other NIH investigators, and we conduct research projects focused on advancing neuromodulation technologies to improve their utility and safety. <br /><br />Specifically, we develop novel stimulation paradigms and biomarker batteries to investigate brain-behavior relationships and to inform novel intervention development. Our team, spanning the fields of psychiatry, engineering, neuroscience and psychology, has expertise in electric field modeling, device and coil design for transcranial magnetic stimulation (TMS), cognitive neuroscience trials employing image-guided neuromodulation, and the translational development of novel treatments in preclinical models, healthy volunteers, and clinical populations. As a service within the Multi-Modal Imaging Center directed by Dr. Bandettini, the Non-Invasive Neuromodulation service includes TMS, transcranial direct current stimulation (tDCS), transcranial alternating current stimulation (tACS), electroconvulsive therapy (ECT), magnetic seizure therapy (MST), TMS-compatible EEG (electroencephalography), and TMS/fMRI interleaving facilities. We supply state of the art TMS, tDCS, tACS, EEG, EMG (electromyography), frameless stereotaxy (neuronavigation), perturbation/physiology equipment and associated data processing pipelines to support NIH IRP investigators. <br /><br />Our mission is:<br />1. to develop novel technology and stimulation paradigms for neuromodulation, and <br />2. to advance understanding of mechanisms of neuromodulation therapies, including the spatial, temporal, and contextual aspects of brain stimulation
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Work was conducted under clinical protocols NCT03065335 and NCT03289923.<br />Major accomplishments for the NNU were the recruitment of additional staff, acquiring research data from our first subjects in our collaboration with the Experimental Therapeutics and Pathophysiology Branch  (ETPB),  launching our initial multimodal protocol in combined TMS and talk therapy, installation and testing of neuromodulation equipment, expanding our training of staff to include additional labs at NIH as a core function, writing of software to implement experiments and collect and process data, protocol development and launch of the Multimodal Brain Stimulation speaker series. We now have a fully functional noninvasive neuromodulation laboratory operating for use with human subjects installed in the inpatient unit in the Clinical Center. <br /><br />Training in the safe and effective delivery of neuromodulation is one of our major functions as a Service within the Center for Multimodal Neuroimaging . To date, 67 individuals have received in-service training on TMS safety, 46 hands-on training sessions have been provided, 26  distinct individuals have received intensive hands-on training sessions (6 from NINDS, 3 from NIDA, 3 from NCCIH, and 14 from NIMH) including physicians, neuroscientists, advanced practice nurses, and students. Hands-on training sessions have covered the following procedures: Motor threshold determination, electromyography (EMG), Paired pulse TMS measures of cortical excitability, simultaneous TMS/EEG to measure TMS-evoked potentials, Somatosensory evoked potentials, Paired Associative Stimulation (a paradigm which induces neural plasticity),  TMS-Safety procedures, and the role of Nursing in TMS and patient management.<br /><br />Our planned projects fall into 3 themes: 1) measuring neuroplasticity, 2) modulating neuroplasticity, 3) modeling the effects of neuromodulation and mining multi-modal datasets to discover biomarkers of rapid antidepressant response. Our projects include:<br /><br />Theme I:  Measuring Neuroplasticity<br /><br />Mechanisms of Rapid Antidepressant Action collaboration with Drs. Zarate and Park<br />o This project develops biomarkers of rapid antidepressant response through the addition of TMS-EMG, TMS-EEG and TMS-fMRI neuroplasticity measures to the existing intramural research program on ketamine, and adding a seizure therapy comparison arm. <br /><br />Concurrent fMRI-guided rTMS and cognitive therapy for the treatment of major depressive episodes<br />o This project (which also incorporates Theme II, below) uses MEG (in collaboration with Allison Nugent (ETPB)), fMRI,  and TMS/EEG to measure brain network engagement and neuroplastic changes due to  multimodal TMS/CBT in depressed subjects.<br /><br />Theme II: Modulating Neuroplasticity<br /><br />We are taking complementary approaches to modulating neuroplasticity: 1) seizure-induced neuroplasticity, 2) paired associative stimulation (PAS) and 3) novel tool development to extend the spatial and temporal specificity of noninvasive neuromodulation. <br /><br />Next generation seizure therapy collaboration with Drs. Zarate, Park, Bikson, Datta<br />o Therapeutically induced seizures exert rapid antidepressant action and are robust inducers of neurotrophic factors and neurogenesis. New technologies for focal seizure induction may improve the risk/benefit ratio by lowering cognitive side effects, and also provide the valuable scientific opportunity to examine common mechanisms across rapidly acting interventions such as ketamine. <br />o This project involves optimization of seizure therapy dosing, through the study of individualized low amplitude seizure therapy (iLAST), comprised of focal seizure induction with minimal current exposure to improve tolerability of seizure therapy for depression. <br /><br />Cognitive Paired Associative Stimulation (C-PAS) <br />o PAS has been shown to strengthen synaptic efficacy within a circuit through repeated co-activation and coincident firing. We extend that approach to activate a targeted neural circuit through cognitive task performance, and couple that with simultaneous focal neuromodulation to enhance plasticity, as a means of enhancing circuit function and improving the functional-specificity of neuromodulation action. One of our projects employs fMRI-guided TMS paired with a specific form of cognitive behavioral therapy for the treatment of depression (in collaboration with Dr. Strauman). Another of our projects, being conducted in the form of a cooperative agreement (5U01AG050618) uses fMRI-guided TMS with simultaneous working memory training to enhance executive function in older adults (in collaboration with Drs. Appelbaum, Peterchev, and Cabeza).<br /><br />Noninvasive focal deep brain stimulation (nfDBS)<br />o Noninvasive brain stimulation is either focal and superficial, or deep and broad. Its utility as a clinical and research tool hinges on the ability to improve the spatial and temporal aspects of targeting. These projects address innovative approaches to improve the spatial resolution of TMS at depth, to precisely target deep brain structures and distributed networks of interest. <br /><br />Transcranial direction current stimulation to reduce effects of nicotine withdrawal syndrome<br />NIDA Protocol 12-DA-N474 (PI: E.A.Stein, collaborators: Betty Jo Salmeron, Sarah Aronson)<br />Symptoms of nicotine withdrawal remain a major impediment for smokers trying to quit, with most quit attempts failing within the first week of abstinence when withdrawal symptoms are at their height. Transcranial Direct Current Stimulation (tDCS) has the potential to modify neuronal circuits by application of a subthreshold conductive current through the scalp. The goal is to investigate the effects of tDCS on modulating large-scale brain networks dysregulated in nicotine addiction and withdrawal. <br />Neural mechanisms underlying noninvasive brain stimulation assisted motor skill learning in older adults (Grant submitted to the Australian Research Council DP180101997)<br />We combine animal and human models to examine the mechanisms underlying tDCS modulated motor skill learning in older adults and brain connectivity with a multimodal approach. Collaborators: PI: Hak Fujiyama, PhD, Murdoch University, Australia; Jeff Summers (UTAS); Stephan Swinnen (KU Leuven); Jennifer Rodger (UWA)<br /><br />Theme III: Modeling Neuroplasticity / Mining Multi-Modal Datasets<br /><br />Our team comprises engineering expertise to perform in silico modeling of the spatial and temporal effects of neuromodulation on neuronal function, and to apply machine learning and graph theoretical approaches to data-mining and hypothesis generation to support the discovery of common mechanisms across rapidly acting antidepressant interventions. 
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101288&allpubs=Y&isajaxlink=Y&_UserReference=155BB7908199F65F5B38D160','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Book chapters<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Lisanby S (2016) Magnetic Seizure Therapy for the Treatment of Depression, in Brain Stimulation: Methodologies and Interventions. , pp. 123-148.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Friel KM, Kuo HC, Fuller J, Ferre CL, Brandão M, Carmel JB, Bleyenheuft Y, Gowatsky JL, Stanford AD, Rowny SB, Luber B, Bassi B, Murphy DL, Lisanby SH, Gordon AM (2016). Skilled Bimanual Training Drives Motor Cortex Plasticity in Children With Unilateral Cerebral Palsy. Neurorehabil Neural Repair  30, 834-44.   https://doi.org/10.1177/1545968315625838
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26867559?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4981562/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26867559
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4981562 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Grehl S, Martina D, Goyenvalle C, Deng ZD, Rodger J, Sherrard RM (2016) In vitro Magnetic Stimulation: A Simple Stimulation Device to Deliver Defined Low Intensity Electromagnetic Fields. Front Neural Circuits 10:85
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27857683?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5093126/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27857683
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5093126 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kuo HC, Ferre CL, Carmel JB, Gowatsky JL, Stanford AD, Rowny SB, Lisanby SH, Gordon AM, Friel KM (2017) Using diffusion tensor imaging to identify corticospinal tract projection patterns in children with unilateral spastic cerebral palsy. Dev Med Child Neurol 59:65-71
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27465858?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5215687/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27465858
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5215687 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Lee WH, Lisanby SH, Laine AF, Peterchev AV (2017) Minimum Electric Field Exposure for Seizure Induction with Electroconvulsive Therapy and Magnetic Seizure Therapy. Neuropsychopharmacology 42:1192-1200
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27934961?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5437889/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27934961
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5437889 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Luber BM, Davis S, Bernhardt E, Neacsiu A, Kwapil L, Lisanby SH, Strauman TJ (2017) Using neuroimaging to individualize TMS treatment for depression: Toward a new paradigm for imaging-guided intervention. Neuroimage 148:1-7
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28062252?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5344760/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28062252
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5344760 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div>
+<div style="margin: -1.6em 0px 5px 2em;">McClintock SM, Reti IM, Carpenter LL, McDonald WM, Dubin M, Taylor SF, Cook IA, O'Reardon J, Husain MM, Wall C, Krystal AD, Sampson SM, Morales O, Nelson BG, Latoussakis V, George MS, Lisanby SH, National Network of Depression Centers rTMS Task Group, American Psychiatric Association Council on Research Task Force on Novel Biomarkers and Treatments (2018). Consensus Recommendations for the Clinical Application of Repetitive Transcranial Magnetic Stimulation (rTMS) in the Treatment of Depression. J Clin Psychiatry  79.   https://doi.org/10.4088/JCP.16cs10905
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28541649?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5846193/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28541649
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5846193 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">8.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Peterchev AV, Luber B, Westin GG, Lisanby SH (2017) Pulse Width Affects Scalp Sensation of Transcranial Magnetic Stimulation. Brain Stimul 10:99-105
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28029593?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5241181/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28029593
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5241181 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">9.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Taylor SF, Bhati MT, Dubin MJ, Hawkins JM, Lisanby SH, Morales O, Reti IM, Sampson S, Short EB, Spino C, Watcharotone K, Wright J (2017) A naturalistic, multi-site study of repetitive transcranial magnetic stimulation therapy for depression. J Affect Disord 208:284-290
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27794252?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5550826/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27794252
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5550826 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">10.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Thome A, Marrone DF, Ellmore TM, Chawla MK, Lipa P, Ramirez-Amaya V, Lisanby SH, McNaughton BL, Barnes CA (2017) Evidence for an Evolutionarily Conserved Memory Coding Scheme in the Mammalian Hippocampus. J Neurosci 37:2795-2801
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28174334?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5354327/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28174334
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5354327 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">11.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Vaughn McCall W, Lisanby SH, Rosenquist PB, Dooley M, Husain MM, Knapp RG, Petrides G, Rudorfer MV, Young RC, McClintock SM, Mueller M, Prudic J, Greenberg RM, Weiner RD, Bailine SH, Riley MA, McCloud L, Kellner CH, COREPRIDE Work Group (2017) Effects of a right unilateral ultrabrief pulse electroconvulsive therapy course on health related quality of life in elderly depressed patients. J Affect Disord 209:39-45
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27886569?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5278419/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27886569
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5278419 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

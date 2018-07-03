@@ -15,31 +15,6 @@ from pmid import Pmid
 from app import app
 from app import db
 
-def json_dumper(obj):
-    """
-    if the obj has a to_dict() function we've implemented, uses it to get dict.
-    from http://stackoverflow.com/a/28174796
-    """
-    try:
-        return obj.to_dict()
-    except AttributeError:
-        return obj.__dict__
-
-
-def json_resp(thing):
-    json_str = json.dumps(thing, sort_keys=True, default=json_dumper, indent=4)
-
-    if request.path.endswith(".json") and (os.getenv("FLASK_DEBUG", False) == "True"):
-        print u"rendering output through debug_api.html template"
-        resp = make_response(render_template(
-            'debug_api.html',
-            data=json_str))
-        resp.mimetype = "text/html"
-    else:
-        resp = make_response(json_str, 200)
-        resp.mimetype = "application/json"
-    return resp
-
 
 def abort_json(status_code, msg):
     body_dict = {
@@ -66,13 +41,6 @@ def after_request_stuff(resp):
     return resp
 
 
-
-# FUNCTIONS. move this to another file later.
-#
-######################################################################################
-
-
-
 def print_ip():
     user_agent = request.headers.get('User-Agent')
     # from http://stackoverflow.com/a/12771438/596939
@@ -84,13 +52,6 @@ def print_ip():
         ip=ip,
         user_agent=user_agent
     )
-
-
-
-
-# ENDPOINTS
-#
-######################################################################################
 
 
 @app.route('/', methods=["GET"])
@@ -123,20 +84,4 @@ def get_papers():
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host='0.0.0.0', port=port, debug=True, threaded=True)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

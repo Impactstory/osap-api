@@ -1,0 +1,652 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002685</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002685-20</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Peptide Receptor Systems
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Theodore B Usdin; MD, PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/ted-usdin" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Fundamental Neuroscience, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Fundamental Neuroscience</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 7 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Brian Roger Coleman<br />
+
+
+
+
+Eugene L Dimitrov; MD, PhD<br />
+
+
+
+
+Jonathan C Kuo; MS<br />
+
+
+
+
+Milan  Rusnak<br />
+
+
+
+
+Mumeko Christine Tsuda<br />
+
+
+
+
+Allison Clair Wyner<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=81191&onameset=Section on Fundamental Neuroscience&isajaxlink=Y&_UserReference=277294599EE2BA785B38D4D0','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 7</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Andrew  Holmes; PhD (NIAAA) <br />
+
+
+
+Eva M Mezey; MD, PhD (NIDCR) <br />
+
+
+
+Philip M Murphy; MD (NIAID) <br />
+
+
+
+Pal  Pacher; MD, PhD (NIAAA) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Arpad  Dobolyi; PhD
+<i>(Laboratory of Neuromorphology, Semmelweis University and Hungarian Academy of Sciences)</i>
+<br />
+
+
+
+Kenji  Kohno; PhD
+<i>(NAIST)</i>
+<br />
+
+
+
+Y  Yanagawa; PhD
+<i>(Department of Genetic and Behavioral Neument, OrganGunma University Graduate School of Medicine and JST)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+neuromodulator, descending pain inhibition, locus coeruleus, anxiety, neuroendocrine, stress, memory performance, neuroanatomy, neuropeptides, neurotransmitters, G-protein coupled receptors
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Humans and animals are subject to continually changing environmental and internal influences (stressors) that affect their emotional state and behavior. Appropriate responses are likely to involve shifts in the activity of multiple modulatory systems. Drugs, or other interventions that ameliorate the symptoms of psychiatric disease, may act through endogenous modulatory systems. While initial molecular targets are established for most drugs, in many cases it is not clear which of their sites of action are related to therapeutic efficacy. Because of the multiplicity of these sites, their many anatomical locations, and the large number of biochemical changes that take place following drug treatments, major questions remain about how psychoactive drugs bring about their effects. The delay before many treatments become effective suggests that changes in the activity of endogenous modulatory systems may be critical. Knowledge of the function(s) of endogenous modulators and modulatory pathways is quite limited. This limited understanding of modulatory processes that are related to particular stressors, that are part of the pathways that drugs act on, or that affect mood, anxiety and cognitive related processes, is a major block in our ability to design new types of drugs. The overall goal of this project is to increase our understanding of the function of neuromodulatory systems in the brain. This will increase our understanding of how the brain normally responds to stressful perturbations, and potentially how this can be therapeutically exploited.<br /><br />Neuropeptides are the signaling agent in many neuromodulatory systems and are likely to modulate emotional state. This project has the intertwined goals of elucidating the physiological function of neuromodulatory circuits and evaluating their potential as therapeutic targets. Neuroregulators are chemicals, such as neuropeptides, released by neurons that affect the function of other neurons. Neuropeptides have relatively long lasting effects and frequently modulate the effects of fast acting neurotransmitters. They may influence emotions and mood and contribute to symptoms such as anxiety. We are mapping the distribution within the brain of neuropeptides and their receptors, and their relationship to other neurochemical systems, and then implementing strategies to evaluate their contribution to the functions of the brain regions in which they are present. We are developing mouse strains in which the functions of particular genes are modified in order to gain insight into the normal function of these genes. We are investigating how particular neuronal populations contribute to the brains regulation of hormone release, and evaluating the contributions that these neurons and the circuits that they are part of make to the regulation of behavioral responses that are relevant to mental illness, or to the effects of drugs used to treat psychiatric disorders.<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Summary: Investigation of the physiological functions of the neuropeptide Tuberoinfundibular Peptide of 39 residues (TIP39) and its receptor, the Parathyroid Hormone 2 (PTH2) receptor has been a recent focus of the laboratory. These molecules were discovered in this laboratory several years ago. In previous project years we mapped the neuroanatomical distributions of TIP39 and the PTH2 receptor. TIP39 is synthesized by 3 discrete groups of neurons, 2 at the caudal border of the thalamus and one in the brainstem. TIP39 synthesizing neurons project to several brain areas that are involved in the regulation of emotional function. These areas contain a matching distribution of the PTH2 receptor, and neurons in these regions project to the areas containing TIP39 neurons. Thus the system is ideally positioned to coordinate and modulate functions relevant to mental disorders. Following this anatomical mapping, laboratory projects turned to investigation of hypotheses derived from the distribution of TIP39 and the PTH2R. <br />	The hypothalamus contains a relatively high density of PTH2Rs and TIP39 containing terminals. In previous project years we found that TIP39 modulates activation of neurons in the hypothalamic paraventricular nucleus, which controls several neuroendocrine functions, including release of glucocorticoid stress hormones from the adrenal gland (corticosterone in rodents). TIP39 does this by acting on the terminals of neurons within the paraventricular nucleus that release the classic fast-acting transmitter glutamate. Thus TIP39 modulates excitatory inputs to neuroendocrine cells. We also found that TIP39 signaling in another hypothalamic region, the median preoptic nucleus, contributes to thermoregulation. Specifically, an appropriate homeostatic response to cold exposure required TIP39 signaling, while maintenance of a normal baseline temperature in an environment to which mice were adapted did not. These studies lead to the general model that TIP39 action on presynaptic PTH2Rs on some populations of glutamatergic neurons may be necessary for robust and sufficient excitatory transmitter release under particular high demand conditions.<br />	In previous years of the project we found that mice with genetic deletion of the gene encoding TIP39 (TIP39-KO) have increased anxiety-like behavior that depends upon the level of stress created by the testing conditions. Under conditions of minimal stress, loss of TIP39 had little effect, while under increased stress animals without TIP39 exhibited significantly greater anxiety-like behavior than mice with normal TIP39 function. We also investigated the role of TIP39 in modulating the effects of stress on cognitive function. Mice lacking TIP39 signaling because of either ligand or receptor loss or acute receptor blockade showed impaired performance in behavioral tests that depend on memory function (object recognition and social recognition tests and spontaneous alternation in a Y-maze), under conditions of novelty-induced arousal but not when acclimated to the testing environment. We also found that TIP39 signaling modulates long-term emotional memory. In a mouse model of post-traumatic stress disorder in which the animals are exposed to a single traumatic event (electric foot-shock) after which fear memory is evaluated by re-exposing them to the context of the traumatic event and measuring the time spent motionless (freezing, a rodent fear-like response) the lack of TIP39 signaling did not cause a detectable change in fear memory one week after the shock. However, both mice lacking the peptide gene as well as mice with null mutation in the PTH2-R gene exhibited greater fear-like behavior than wild-type mice two weeks following the shock. Preliminary data suggests that PTH2-R signaling in the medial amygdalar region contributes to this phenomenon. Thus our data suggest that TIP39 signaling may normally limit the detrimental effects of environmental stress on emotional state. Dysfunctional responses to stress are widely thought to contribute to depression.<br />	We also found that TIP39 modulates acute pain sensitivity, acting primarily within the brain to affect the processing of painful sensory information. Some of the brain areas where TIP39 appears to modulate pain are also implicated in affective disorders. There is a significant association between chronic pain and depression. The extents to which pain affects mood and to which mood affects pain are not currently clear, nor is the extent to which shared vulnerability factors contribute to the development of both chronic pain and mood disorders. Because of TIP39s involvement in acute pain, the localization of TIP39 signaling to brain regions involved in affective dimensions of pain, its involvement is stress responses, and the significant societal burden of comorbid chronic pain and depression, we began investigating the involvement of TIP39 signaling in chronic pain, with the long-term goal of assessing its contribution to the relationships between pain and depression. <br />	Using a nerve injury as a model of neuropathic pain, we found that as compared to controls, mice lacking TIP39 signaling because of mutation in either the PTH2R or TIP39 genes developed less tactile and thermal hypersensitivity, and more rapidly returned to baseline sensory thresholds following the injury. Effects of inflammatory injury were similarly decreased in knockout mice. Blockade of &amp;#945;-2 adrenergic receptors increased the tactile and thermal sensitivity of apparently recovered knockout mice, returning it to levels of neuropathic controls. The locus coeruleus (LC), a brainstem nucleus, is the most likely source of the neuromodulator, norepinephrine, that could have this effect. Supporting this hypothesis, mice with LC area injection of lentivirus encoding a secreted PTH2R antagonist had a rapid, &amp;#945;-2 reversible, apparent recovery from neuropathic injury similar to the knockout mice. Ablation of LC area glutamatergic neurons led to local PTH2R-ir loss, and barley lectin (a transneuronal tracing reagent) was transferred from local glutamatergic neurons to GABA interneurons that surround the LC. These results suggest that TIP39 signaling modulates sensory thresholds via effects on glutamatergic transmission to brainstem noradrenergic neurons via GABAergic interneurons. The data suggest that TIP39 may normally inhibit release of hypoalgesic amounts of norepinephrine during chronic pain. A speculation on the physiological adaptiveness of TIP39s contribution to maintenance of central sensitization is that it enhances guarding behavior, thus contributing to healing. A next step in this line of investigation will be to evaluate the effects of TIP39 signaling on mood and anxiety related behavior in these chronic pain models.<br />	Because of the Sections long-term interest in neuromodulator influences on mood disorders we initiated a project aimed at increased understanding of the contributions of LC noradrenergic signaling to mood and anxiety related behaviors. Correlative observations suggest that LC function is involved in a variety of brain disorders but there is little direct evidence addressing its specific role(s). Recently developed reagents, such as transgenic mice that express Cre-recombinase in defined neuronal populations and viruses encoding receptors with Cre-dependent expression should make mechanistic studies feasible. During this review period we initiated this research direction using transgenic mice and recombinant viruses to map the major forebrain projections to the LC in mouse. One significant accomplishment was production of strong evidence for direct innervation of noradrenergic LC neurons by GABA neurons of the central amygdalar nucleus. Future studies will use this approach to examine the effects of changes in LC function on mood and anxiety related behaviors.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81191&allpubs=Y&isajaxlink=Y&_UserReference=277294599EE2BA785B38D4D0','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Dobolyi A, Dimitrov E, Palkovits M, Usdin TB (2012) The neuroendocrine functions of the parathyroid hormone 2 receptor. Front Endocrinol (Lausanne) 3:121
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23060860?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3465808/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23060860
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3465808 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Varga T, Mogyorodi B, Bago AG, Cservenak M, Domokos D, Renner E, Gallatz K, Usdin TB, Palkovits M, Dobolyi A (2012) Paralemniscal TIP39 is induced in rat dams and may participate in maternal functions. Brain Struct Funct 217:323-35
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22081168?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3294170/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22081168
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3294170 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

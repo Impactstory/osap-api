@@ -1,0 +1,667 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002953</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002953-01</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Population-Based Epidemiologic Research
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2015 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Kathleen R Merikangas; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/kathleen-merikangas" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Developmental Genetic Epidemiology, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Developmental Genetic Epidemiology</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 10 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Lihong  Cui; MS<br />
+
+
+
+
+John David Eun; BA<br />
+
+
+
+
+Jennifer  Glaus; PhD<br />
+
+
+
+
+Jian-Ping  He; MS<br />
+
+
+
+
+Tarannum  Lateef; MD<br />
+
+
+
+
+Peter R Leeds; BS<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=96917&onameset=Section on Developmental Genetic Epidemiology&isajaxlink=Y&_UserReference=5DF5557604141E445B38D41B','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 10</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Shelli  Avenevoli; PhD  (Developmental Trajectories of Mental Disorders Branch)<br />
+
+
+
+Judith L Rapoport; MD  (Section on Childhood Neuropsychiatric Disorders)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 23 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Robert  Althoff; MD, PhD
+<i>(University of Vermont, Vermont)</i>
+<br />
+
+
+
+Jules  Angst; MD
+<i>(University of Zurich, Switzerland)</i>
+<br />
+
+
+
+Katja  Beesdo-Baum; PhD
+<i>(Technische Universitaet Dresden, Germany)</i>
+<br />
+
+
+
+Carlos  Blanco; MD, PhD
+<i>(Psychiatry, Columbia University)</i>
+<br />
+
+
+
+Monica  Calkins; PhD
+<i>(University of Pennsylvania)</i>
+<br />
+
+
+
+Elizabeth J Costello; PhD
+
+<i>(Duke University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=96917&isajaxlink=Y&_UserReference=5DF5557604141E445B38D41B','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 23</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+adolescents, cardiovascular disease, developmental, epidemiology, longitudinal, NCS-A, neurodevelopment, psychopathology, comorbidity, depression, anxiety, biomarkers, migraine, mood, neuropsychology, sleep, substance use
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The National Institute of Mental Health (NIMH), Section on Developmental Genetic Epidemiologys Population-Based Epidemiologic Research is focused on two broad goals: first, to ultimately contribute toward the prevention of mental disorders by examining features of onset, risk factors, and course; and second, to inform progress towards a valid psychiatric nosology by investigating the boundaries and overlap between psychiatric disorders. The specific aims of our population-based research are to: 1) identify the prevalence, risk factors, symptom patterns, and comorbidity of the spectrum of mood disorders in adults and children; 2) evaluate patterns of mental and physical comorbidity; and 3) examine continuity, course, and outcome of mood and comorbid mental and physical disorders.<br /><br />These goals are achieved through analyses of multiple, diverse population-based data sources: 1) the Adolescent Supplement of the National Comorbidity Survey (NCS-A), the first nationally representative sample of U.S. adolescents (10,123 participants) assessing a broad range of emotional, behavioral and substance use disorders; 2) the Cohort Study of Lausanne (COLAUS) on Cardiovascular Diseases and Depression, a large study of the population of Lausanne, Switzerland, to follow-up all subjects of a large population-based sample of 3,719 adults who underwent a comprehensive somatic, mental, biochemical and genetic investigation in order to prospectively study the association between cardiovascular disease/cardiovascular risk factors and mental disorders; 3) the University of Pennsylvania (UPENN) Philadelphia Neurodevelopmental Cohort Study (PNC), a large primary care sample of 10,000 youth ages 8-22 who had been seen in the Pediatrics Department; 4) the Zurich Cohort Study, a 30 year longitudinal study of 591 individuals from the canton of Zurich, Switzerland; and 5) the National Comorbidity Survey-Replication (NCS-R), a large, nationally representative study of U.S. adults aged 18 and older.<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+During the past year we have conducted a number of studies addressing the aims above. <br /><br />Although the NCS-A survey was conducted 10 years ago, it remains the richest source of data on DSM mental disorders and risk factors in a nationally-representative sample of U.S. adolescents. During the past year, we conducted 3 studies of comorbidity in mental disorder. One investigated prior mental disorders as risk factors for transition between stages of alcohol and drug use and abuse/dependence (Conway et al, 2016). We found that both anxiety disorders and behavioral disorders were important predictors of progression, but that they operated at different stages in substance use. We have also investigated comorbidities between mental and physical disorders. We examined physical health comorbidities of ADHD in adolescents and found that allergies, asthma, enuresis, headache/migraine, and serious stomach or bowel problems were more common in those with ADHD (Jameson et al, 2016). We also documented the high burden of adverse social and economic consequences of those who have both migraine and PTSD among adults in the NCS-R (Rao et al, 2015). <br /><br />The Zurich Study is one of only a few longitudinal studies in psychiatric epidemiology that performed multiple diagnostic interviews in a community-based sample from young adulthood into middle age. In collaboration with our colleagues in Zurich, we have recently completed an analysis of the trajectory of mental disorder risk across ages 20 to 50 (Paksarian et al, in press). We found that trajectories differed between men and women. We also found that while very few people had persistent mental disorder across the entire age period studied, one trajectory that was consistently identified indicated high risk from the late 20s until the early 40s.<br /><br />Our collaboration with researchers at UPENN has continued through data analysis of the PNC study. In the past year we have published our findings regarding racial-ethnic disparities in sub-clinical psychosis (Paksarian et al, 2016). We found that ethnic minority youth were more likely to manifest sub-threshold psychosis symptoms than were non-Hispanic white youth. However, there was some indication that these associations differed between minority groups and were strongest for non-Hispanic black youth. <br /><br />In the past year we have continued to collaborate with researchers from the COLAUS study in Switzerland. We found support for the independence of familial aggregation of bipolar disorder from major depressive disorder and the heterogeneity of bipolar disorder based on patterns of onset (Preisig et al, 2016). Additionally, we assessed the associations between serum leptin and adiponectin levels and migraine or migraine subtypes and found that high leptin might be a contributing factor in the role of migraine and migraine with and without aura (Pisanu et al, in press). <br /><br /><br />Public Health Impact:<br />These studies provide valuable insight into the nature of mental disorders and their burden among children, adolescents, and adults across time. The NCS-A study was the first with comprehensive domains of emotional and behavior disorders in a nationally representative sample of U.S. youth, and the results have had significant public health impact. The PNC is also destined to become a high-impact project because it consists of a large, systematically obtained pediatric sample with enriched information from electronic medical records and direct interviews. Our studies of comorbidity in adolescents and youth, such as that between mental and substance use disorders or between sleep patterns and mental disorders, highlight the potential for identification of opportunities for intervention in adolescent mental health. The findings highlight the importance of capturing the roots of both physical and mental disorders in childhood in order to trace their evolution into chronic diseases causing major public health concerns. The Zurich Cohort Study is an extremely valuable data source, as it is the longest community-based longitudinal study in which participants were enrolled at the beginning of adulthood. Data on the frequency and persistence of mental disorders are important for planning interventions and service delivery as well as for research on etiology. Lastly, our work on the COLAUS study has substantial potential for public health impact because it combines information regarding cardiovascular risk factors and mental disorders in a longitudinal study. Given the major public health impact of both, the study of the mechanisms underlying their associations is of high clinical and scientific relevance. Our recent work represents only the beginning of a research program that we hope will help to tease apart the longitudinal relationships between physical and mental health in the population.<br /><br />Future Plans:<br />We plan to continue to analyze these rich data sources, both within our research group and the NIMH, as well as to provide support to investigators outside the National Institutes of Health. We will continue to focus on the aims stated above when generating hypotheses and designing studies. Several important manuscripts are now in progress that will continue to provide knowledge about adolescent and adult mental health in the general population. We are currently focusing on the following areas: 1) mental-physical comorbidities among adolescents; 2) perinatal risk factors for emotional and behavior disorders; 3) the consistency of age-of-onset reports for mental disorders in general population samples; 4) disparities in mental disorder prevalence among adolescents based on race-ethnicity and immigrant status; and 5) psychosocial and health risk factors including sleep, activity and stress for emotional and behavior disorders.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2016 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=96917&allpubs=Y&isajaxlink=Y&_UserReference=5DF5557604141E445B38D41B','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by reference within the summary, then by publication type and author name.
+</p>
+
+
+
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div> <div style="margin: -1.6em 0px 5px 2em;">Rao AS, Scher AI, Vieira RV, Merikangas KR, Metti AL, Peterlin BL (2015) The impact of post-traumatic stress disorder on the burden of migraine: results from the National Comorbidity Survey-Replication. Headache 55:1323-41
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26473981?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4715623/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 26473981
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4715623 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div> <div style="margin: -1.6em 0px 5px 2em;">Paksarian D, Merikangas KR, Calkins ME, Gur RE (2016) Racial-ethnic disparities in empirically-derived subtypes of subclinical psychosis among a U.S. sample of youths. Schizophr Res 170:205-10
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26711527?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4790463/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 26711527
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4790463 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+ <!-- ends ordered rows -->
+
+
+
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

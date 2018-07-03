@@ -1,0 +1,788 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002898</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002898-11</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Social Processing and Neural Plasticity
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+David A Leopold; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/david-leopold" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Cognitive Neurophysiology and Imaging, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Cognitive Neurophysiology and Imaging</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 7 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Rebecca Ann Berman; PhD<br />
+
+
+
+
+Ji Hye Hong<br />
+
+
+
+
+Kenji  Koyano<br />
+
+
+
+
+Soo Hyun  Park<br />
+
+
+
+
+Brian E Russ<br />
+
+
+
+
+Kathryn A Smith<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=101255&onameset=Section on Cognitive Neurophysiology and Imaging&isajaxlink=Y&_UserReference=218651DBCDA9F3705B38D217','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 7</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Peter Matthew Kaskan; PhD  (Section on Neurobiology of Learning and Memory)<br />
+
+
+
+Elisabeth Adams Murray; PhD  (Section on Neurobiology of Learning and Memory)<br />
+
+
+
+Armin  Raznahan  (Section on Developmental Brain Imaging)<br />
+
+
+
+Leslie G Ungerleider; PhD  (Laboratory of Brain and Cognition)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Afonso C Silva; PhD (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Igor  Bondar; PhD
+<i>(Institute for Higher Nervous Activity)</i>
+<br />
+
+
+
+Winrich A Freiwald
+<i>(Rockefeller University)</i>
+<br />
+
+
+
+Daniel  Javitt
+<i>(Nathan Kline)</i>
+<br />
+
+
+
+Cory T Miller; PhD
+<i>(Psychology, University of California, San Diego)</i>
+<br />
+
+
+
+Jude F Mitchell
+<i>(University of Rochester)</i>
+<br />
+
+
+
+Xiaoqin  Wang; PhD
+<i>(BIoengineering, Johns Hopkins University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+dynamic visual stimuli, social perception, event-related fMRI, inferotemporal cortex, visual adaptation, perceptual learning, plasticity
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+A core feature of the brain is its capacity to specialize itself, over time, for particular stimuli and situations.  In humans and other primates, much of this specialization takes the form of dedicated circuits for mediating particular types of visual social behavior.  This is evidenced in basic primate behavior, a core feature of which is to judge, interpret, and act upon information derived from the faces and bodily actions of others.  It is also supported by the conspicuous tuning in the brain for relevant stimuli, most notably faces, bodies, and manual movements. This facility with visual social stimuli is clearly driven by genetically specified circuits, since both human and monkey infants from their first days of life  show interest in, and exhibit some level of comprehension of, visual social signals.  On the other hand, the shaping and sharpening of visual expertise is something that takes place gradually through development into adult life. <br /><br />In the laboratory, we have embarked on several projects to investigate the manner in which the primate brain processes and acts upon social information. This research combines electrophysiological and imaging methods in two different species, and hinges strong collaborations inside and outside the NIH. Among methods, we are combining the longitudinal recordings afforded by microwire brush electrode arrays with fMRI, in some cases simultaneously. Among species, we are complementing work in the macaque with the development of a marmoset research program, as each offers advantages in some domains.  Much of our effort has gone toward understanding the stability and plasticity trade-off for high-level visual social representations in the nonhuman primate brain. For this, we have relied on the long-term isolation of single units, which we are able to monitor and track during the learning of socially important stimuli. We have also developed and employed paradigms to study the brains responses to naturalistic stimuli during free viewing behavior.  This research thread is borne out of a conviction that the information gleaned from conventional stimulus testing must ultimately be linked to natural forms of cognition.  Importantly, given the prominent disruption in the processing of social stimuli in neuropsychiatric disorders, the use of naturalistic paradigms may also offer a new and more inviting set of methods to study and analyze brain function in patients that whose capacity for focused visual fixation paradigms may be limited.<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Neuroscientists studying the brain use stimuli with different levels of complexity to study the neural mechanism of sight.  These stimuli range from dots and lines, to faces and bodies.  Decades of investigation using electrophysiological and functional imaging methods have revealed that the brains of humans and animals are replete with neurons that respond selectively to particular visual features.  These favored features are of many types, with brain areas organized in an apparent cascade of simpler features identified early in the pipeline, and more complex ones identified later.  Selectively responding neurons are often said to represent individual visual features. The normal interplay between primates does not much resemble the contrived and controlled experiments that have given rise to our theories about brain function. A logical question, then, is whether a neuron that represents a feature, say a face, in one context will also represent that face in a different context. Humans are a particularly large primate species, but are typical of primates in some ways, such as the abundant use of vision to mediate interaction with others.  The primate brain has a significant fraction of its billions of neurons dedicated to the processing of social stimuli. An exciting challenge for neuroscientists is to understand how the neural representation of stimuli gleaned from conventional testing paradigms bears on perception and behavior under more natural conditions.  <br /><br />Over the past year, we have used extensively a microwire bundle array developed and modified in the laboratory to longitudinally track the activity of cells in the brain that reside in so-called face patches, which are small, circumscribed regions showing greater fMRI responses to faces than to other categories of stimuli.  We recently investigated fMRI responses in the face patches of both macaques (Russ et al.,2015) and marmosets (Hung et al., 2015).  Within the last year, we have continued this line of research in both species, with new results published in the macaque.<br /><br />In one free-viewing study in the macaque, we tracked the relative contribution of motion caused by the subjects own eye movements to the fMRI signals in the brain (Russ et al., 2016).  In this study, we showed that the brain areas responding to the motion in a movie video were very different than those responsive to an animals own eye movements.  In another study (Park et al., 2017) which is a follow up to a previous electrophysiology study (McMahon et al., 2015), we developed a new method for understanding the surprising functional diversity of neurons within &lt;1mm3 area in the cerebral cortex.  That study tracked the time course of both neuron activity and fMRI activity in monkeys watching 5-minute movies.  By comparing the time courses of voxels throughout the brain to each neurons response, we obtained whole-brain activity maps for each neuron.  This method then allowed us to classify neurons based on their affiliation with other areas throughout the brain. <br /><br />Multiple other studies are underway in the laboratory, in both macaques and marmosets.  In the macaques, for example, we are presently preparing a manuscript that describes the way in which neurons in face patches respond to the facial identity of monkey and human faces (Koyano et al., in preparation).  This study is in many ways a follow up to a study published more than a decade ago (Leopold et al.,  2006), and is closely related to recent work published by Doris Tsao and colleagues.  This work highlights the important role of the average face, which serves as a learned norm to steer the brains perception of individual identity.   In the marmoset, we are setting up to investigate the developmental plasticity of face identity learning, using a combination of microelectrode and optical imaging methods. <br /><br />A common theme in these projects is an ethological and evolutionary perspective as they shape theories of brain function.  To that end, in the last year we have published three reviews and commentaries on the topic of social neuroscience and evolution.  One of these, published in Jon Kaass 4-volume set Evolution of Nervous Systems, focuses on the evolution of high-level visual specialization in primates (Leopold et al., 2017).   Another is a discussion of the use of marmosets as a model to study issues in social neuroscience (Miller et al., Neuron, 2016).   The last of these is a highlight of a recent study in human patients, where naturalistic viewing was combined with intracranial ECoG recordings (Leopold and Russ, 2017). 
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101255&allpubs=Y&isajaxlink=Y&_UserReference=218651DBCDA9F3705B38D217','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Book chapters<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Leopold D, Mitchell JF, Freiwald WA (2017) Evolved mechanism of high-level visual perception in primates, in Evolution of Nervous Systems, 2nd Edition, Volume 3. , pp. 203-35.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Miller CT, Freiwald WA, Leopold DA, Mitchell JF, Silva AC, Wang X (2016) Marmosets: A Neuroscientific Model of Human Social Behavior. Neuron 90:219-33
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27100195?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4840471/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27100195
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4840471 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Park S, Russ BE, McMahon DB, Koyano K, Berman RA, Leopold DA (2017) Functional subpopulations of neurons a macaque face patch revealed by single-unit fMRI mapping. Neuron, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Park SH, Russ BE, McMahon DBT, Koyano KW, Berman RA, Leopold DA (2017) Functional Subpopulations of Neurons in a Macaque Face Patch Revealed by Single-Unit fMRI Mapping. Neuron 95:971-981.e5
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28757306?dopt=Abstract" target="_blank">PubMed</a>
+
+
+           &nbsp;&nbsp;&nbsp;&nbsp;<i>Available in future as a Free Article</i> <!-- looks for PMC translations for in progress or embargoed -->
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28757306
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5572832 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Russ BE, Kaneko T, Saleem KS, Berman RA, Leopold DA (2016) Distinct fMRI Responses to Self-Induced versus Stimulus Motion during Free Viewing in the Macaque. J Neurosci 36:9580-9
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27629710?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5039243/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27629710
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5039243 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Taubert JA, Wardle SG, Flessert MR, Leopold DA, Ungerleider LG (2017) Face pareidolia in the rhesus monkey. Current Biology, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,616 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002032</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002032-40</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neural Coding of Visual Stimuli
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2015 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Barry J Richmond; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/barry-richmond" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neural Coding and Computation, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neural Coding and Computation</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 10 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Samarth  Chandra<br />
+
+
+
+
+Mark Alexander Grainger Eldridge<br />
+
+
+
+
+Rossella  Falcone<br />
+
+
+
+
+Jennifer Megan Fredericks<br />
+
+
+
+
+Walter  Lerchner; PhD<br />
+
+
+
+
+Grace Elizabeth Mammarella<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=96232&onameset=Section on Neural Coding and Computation&isajaxlink=Y&_UserReference=B95F7BB0AB33AF755B38D0A1','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 10</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+John H Wittig; PhD (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+John  Hertz; PhD
+<i>(Nordita, Norse Institute for Theoretical Physics)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Katalin M Gothard; MD, PhD
+<i>(Dept of Physiology, Un of Arizona College of Medicine)</i>
+<br />
+
+
+
+Narihisa  Matsumoto; PhD
+<i>(Neurotechnology Group, AIST)</i>
+<br />
+
+
+
+Takafumi  Minamimoto; PhD
+<i>(Molecular Neuroimaging, Natl Inst Radiological Science)</i>
+<br />
+
+
+
+J-P  Nadal; PhD
+<i>(Laboratory of Statistical Physics, Ecole Normale Superieure)</i>
+<br />
+
+
+
+S  Shinomoto; Ph.D.
+<i>(Physics Dept, Kyoto Univ.)</i>
+<br />
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+neural codes, cognition, perception, vision, category formation, multiple neurons, single neurons, memory, DREADDs, visual cortex
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+One prominent feature of emotional disorders is the failure to interpret sensory stimuli in a consistent and realistic manner, for example, when depressed individuals find normally attractive scenes or items such as a favorite food, pet or family member uninteresting or even irritating. It would be helpful to know how normal perceptions arise to design strategies for ameliorating these negative feelings. To address this class of problems, we are studying how information about visual stimuli is coded and utilized. The fundamental elements for information processing in the brain, the neurons, process and carry information by working with a series of impulses, where different numbers of pulses represent different messages. No one neuron carries very much information so the information represented in the messages of different neurons must be integrated to give rise to mental events such as sensation, memory, and coordinated movements. To understand how these higher functions arise, for example, visual perception, it is important to identify the aspects of neuronal responses that carry information important for stimulus coding, and how that information is used for stimulus identification and recognition in cognitive processes. This requires learning what codes are used by individual neurons, how the information they represent is processed and transformed, and how the information is integrated across populations of connected neurons. Therefore, we combine studies of single neurons, multiple neurons and behavior, to learn how higher functions such as visual perception and memory arise.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+In their classic works, Hubel and Wiesel studied the responses of Primary Visual Cortex (V1) neurons by showing bright or dark bars of light as visual stimuli. Movshon et al. used smoothed alternating bright and dark bars, sine wave gratings, as stimuli. With all such stimuli, the strength of the neuronal responses are sensitive to luminance changes across space, such in sharp edges of bars or the smooth gratings. The current concept of this suggest that there is a process of contrast normalization, that is, the effect of luminance is removed by being sensitive only to relative differences in luminance across space, while subtracting or normalizing the effect of absolute luminance (brightness).<br /><br />While recording from parafoveal V1 using an array of chronic electrodes (Utah array), we have found neurons whose firing rate depends on the mean luminance even after adaptation. We present sine-wave gratings at 4 orientations, and two phases, at a single average luminance for several hundred trials, followed by another set of similar gratings but with different average luminance for the next several hundred trials, and so on. One of the stimuli is blank, that is, no stimulus comes on. We present all of these stimuli at four mean luminances, from dim to bright. There seem to be two populations of neurons, those with high background firing rates (17 Hz or greater) and those with low background rates (below 8 Hz). The high background neurons might be from layer 4 of the visual cortex. Neurons in both groups show firing rates dependent on the average luminance, both for the visible gratings and for the blank stimulus. About half of the observed neurons show a significant dependence of firing rate on average luminance, that is, the neuronal firing is related to the blank stimulus. Thus, the ongoing firing rate seems to be dependent on the absolute level of brightness. Out of these mean-luminance responsive units, making up about half of our sample of neurons (80 in our sample) approximately 60 per cent show an increase in firing rate with increasing luminance, another third show a decrease while for the remaining neurons the effect is idiosyncratic. Thus, it appears that part of the neural code in primary visual cortex contains information about the absolute brightness of the scene.<br /><br />It is widely accepted that the other end of visual system in the rostral lateral temporal lobe, area TE, is important for perceiving complex objects, e.g., hands or faces. Bilateral removal of area TE in monkeys causes impairments in assigning images to categories. The impairments, while significant, are mild enough so that the monkeys are able to correctly assign exemplars correctly about 80% of the time, even stimuli that are mixtures from the categories, so-called morphed images. Over this year we have explored whether monkeys with bilateral area TE removals are impaired in tests of figure-ground discrimination and pattern completion. <br /><br />Three control monkeys and three monkeys with bilateral area TE removals were tested on a cat vs. dog categorization task comprising 440 unique stimuli per session. Monkeys were trained to touch a bar to initiate a trial, and release the bar during one of two intervals; early (signaled by a red central dot) if they identified the stimulus as cat, or late (signaled by a green central dot) if the stimulus was identified as dog. A correct response resulted in the delivery of a reward, an incorrect response led to a time-out. Once the animals performed this simple categorization task we added visual noise to the images. <br /><br />The monkeys were presented with interleaved trials of foreground (covering the stimulus) or background noise (11 levels, from 0 to 100%). The noise was generated by replacing randomly chosen stimulus pixels with a black or white pixel, either on the background image or on the stimulus image; this makes the image look like it has snow on a television. In the absence of noise, the performance of monkeys with TE removals was, as seen before, modestly degraded relative to that of controls. The presence of background noise did not further degrade the ability of the monkeys with TE removals to categorize stimuli, suggesting that TE is not necessary for figure-ground discrimination as configured in this experiment. However, increasing levels of foreground noise caused decreasing accuracy of categorization in both experimental and control groups. As foreground noise, that is, noise on the image itself, increased from 0 to 40% noise, the performance of control and monkeys with TE removals degraded in parallel. Beyond 60% foreground noise, control monkey performance dropped abruptly becoming indistinguishable from that of monkeys with ablations; at 90% foreground noise both groups performed at chance levels. From this we infer that pattern completion depends on two mechanisms. The first is a TE-independent mechanism that supports a basic ability to perform categorization at modest levels. The second is a TE-dependent mechanism confers a substantial advantage at lower noise levels. This makes it seem that TE is critical for recognizing objects that are partially obscured; imagine having to recognize a tiger in the foliage of a forest. <br /><br /><br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2016 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=96232&allpubs=Y&isajaxlink=Y&_UserReference=B95F7BB0AB33AF755B38D0A1','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Mochizuki Y, Onaga T, Shimazaki H, Shimokawa T, Tsubo Y, Kimura R, Saiki A, Sakai Y, Isomura Y, Fujisawa S, Shibata K, Hirai D, Furuta T, Kaneko T, Takahashi S, Nakazono T, Ishino S, Sakurai Y, Kitsukawa T, Lee JW, Lee H, Jung MW, Babul C, Maldonado PE, Takahashi K, et al. [29 more authors] (2016). Similarity in Neuronal Firing Regimes across Mammalian Species. J Neurosci  36, 5736-47.   https://doi.org/10.1523/JNEUROSCI.0230-16.2016
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27225764?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4879195/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27225764
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4879195 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

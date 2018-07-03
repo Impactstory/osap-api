@@ -1,0 +1,639 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002920</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002920-09</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">The Cognitive Neuroscience of Autism Spectrum Disorders
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Alex  Martin; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/alex-martin" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Cognitive Neuropsychology, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Cognitive Neuropsychology</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 10 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Stephen  Gotts; PhD<br />
+
+
+
+Lauren  Kenworthy; PhD<br />
+
+
+
+Shawn C Milleville; BA<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Jason Aaron Avery; PhD<br />
+
+
+
+
+Meghan Alexandra Collins<br />
+
+
+
+
+Jason Benjamin Crutcher<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=101266&onameset=Section on Cognitive Neuropsychology&isajaxlink=Y&_UserReference=1DDC85A06D76FEBA5B38D3C5','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 10</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Robert  Cox; PhD (Office of the Director)<br />
+
+
+
+
+
+
+
+
+
+
+
+
+Peter A Bandettini; BS, PhD  (Section on Functional Imaging Methods)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Avniel  Ghuman
+<i>(University of Pittsburgh)</i>
+<br />
+
+
+
+W Kyle  Simmons
+<i>(Laureate Institute for Brain Research)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+magnetoencephalography (MEG), Autism Spectrum Disorders, functional magnetic resonance imaging (fMRI), social cognition, structural MRI, eye tracking, human brain, neuropsychological testing
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Autism spectrum disorders (ASDs) are a group of developmental disorders primarily affecting social interactions and communication, and flexibility of behavior. Much remains unknown about the neural bases and correlates of these pervasive developmental disorders. The major goal of our studies is to utilize neuroimaging technologies (functional magnetic resonance imaging fMRI, structural MRI, magnetoencephalography MEG), and neuropsychological instruments (clinical neuropsychological tests, questionnaires, eye-tracking, and specific measures of memory and cognition) to identify the neural correlates of the social and communicative deficits characteristic of ASD individuals.  This work was conducted under protocol NCT01031407.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+This past year we have continued to evaluate the neural characteristics and associated behavioral consequences of Autism Spectrum Disorders (ASD). <br /><br />Prevailing theories suggest that ASD results from impaired brain communication due to aberrant timing or coordination of neuronal firing patterns (impaired synchrony). However, it remains debated whether synchrony abnormalities in ASD are among local and/or long-range circuits, are circuit-specific or are generalized, reflect increased (hyper-) synchrony and/or decreased (hypo-) synchrony, and whether they are frequency band specific or are distributed across the frequency spectrum. In previous studies, we used data driven techniques in conjunction with both fMRI and structural data to show that the abnormalities in ASD brain networks are most prominent within brain regions that support social functions. To provide an additional test of this hypothesis, as well as determine how oscillatory neural dynamics are affected in ASD, we recorded spontaneous magnetoencephalography (MEG) data in 17 high functioning adolescents and adults with ASD and 18 controls matched on age, IQ, and sex, and equated for motion during the scanning session. We used a method we recently developed to look at all-to-all synchronization across the brain in conjunction with data driven analyses to compare local and long-distance synchrony in a frequency-specific manner. We found that individuals with ASD showed local increased or hypersynchrony in the theta band (4-7 Hz) in lateral occipitotemporal cortex. We also observed long-range decreased or hyposynchronous activity in the alpha band (10-13 Hz) that was most prominent in neural circuitry underpinning social processing. The magnitude of this alpha band hyposynchrony was correlated with social symptom severity. These results suggest that while ASD is associated with both decreased long-range synchrony and increased posterior local synchrony - with each effect limited to a specific frequency band - impairments in social functioning may be most related to decreased alpha synchronization between critical nodes of the social processing network (Ghuman et al., 2017).<br /><br />To extend our understanding of these social deficits, we evaluated developmental changes in social functioning in 324 individuals with ASD, without intellectual impairment, compared to 438 typically developing subjects ranging in age from 4 to 29.  We found that as they approach adolescence/adulthood the subjects with ASD fell increasing behind their age-matched peers in their social-communicative skills, indicating that social difficulties become more, rather than less pronounced in ASD during development (Wallace et al., 2017).<br /><br />We also completed two studies of higher-order executive functions, such as planning, organization skills, and cognitive flexibility, that strongly impact activities of daily living.  In one of these studies (Wallace et al., 2016) we found that impairments of executive functions persist into adulthood and are associated with both depression and anxiety in ASD.  We also evaluated executive functioning and adaptive behaviors in the largest study to date of sex differences in executive functions in ASD (White et al., 2017).  Our study included 79 females and 158 males with ASD.  Our results indicated relative weaknesses for females compared to males diagnosed with ASD on executive function and daily living skills. These differences occur in the absence of sex differences in our sample in age, IQ, clinician ratings of core ASD symptomatology, parent ratings of ADHD symptoms, and parent-reported social and communication adaptive skills on the VABS. These findings indicate specific liabilities in real world executive functions and daily living skills for females with ASD and have important implications for targeting their treatments.<br /><br /><br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101266&allpubs=Y&isajaxlink=Y&_UserReference=1DDC85A06D76FEBA5B38D3C5','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by reference within the summary, then by publication type and author name.
+</p>
+
+
+
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div> <div style="margin: -1.6em 0px 5px 2em;">Ghuman A, van den Honert RN, Hubert T, Wallace G, Martin A (2017) Aberrant oscillatory synchrony is biased towards specific frequencies and processing domains in the autistic brain Biological Psychiatry: Cognitive Neuroscience and Neuroimaging 2:245-252
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div> <div style="margin: -1.6em 0px 5px 2em;">Wallace GL, Kenworthy L, Pugliese CE, Popal HS, White EI, Brodsky E, Martin A (2016) Real-World Executive Functions in Adults with Autism Spectrum Disorder: Profiles of Impairment and Associations with Adaptive Functioning and Co-morbid Anxiety and Depression. J Autism Dev Disord 46:1071-83
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26572659?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5111802/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 26572659
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5111802 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div> <div style="margin: -1.6em 0px 5px 2em;">White EI, Wallace GL, Bascom J, Armour AC, Register-Brown K, Popal HS, Ratto AB, Martin A, Kenworthy L (2017). Sex differences in parent-reported executive functioning and adaptive behavior in children and young adults with autism spectrum disorder. Autism Res  10, 1653-1662.   https://doi.org/10.1002/aur.1811
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28568910?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	 [Available in future as a Free Article] <!-- looks for PMC translations for in progress or embargoed -->
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 28568910
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5721669 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+ <!-- ends ordered rows -->
+
+
+
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,700 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002798</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002798-13</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">The Psychophysiology Of Fear And Anxiety
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Christian  Grillon; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/christian-grillon" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neurobiology of Fear and Anxiety, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neurobiology of Fear and Anxiety</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 9 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Nicholas Lee Balderston<br />
+
+
+
+
+Andrew Ogilvie Davis<br />
+
+
+
+
+Elizabeth Ann Hale<br />
+
+
+
+
+Katherine Marie O'Connell<br />
+
+
+
+
+David Max Quispe-Escudero<br />
+
+
+
+
+Deborah Morgan Roberts<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=86260&onameset=Section on Neurobiology of Fear and Anxiety&isajaxlink=Y&_UserReference=B932A8D2C498B8E15B38D31C','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 9</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Kathleen R Merikangas; PhD  (Genetic Epidemiology Branch)<br />
+
+
+
+Daniel  Pine; MD  (Emotion and Development Branch)<br />
+
+
+
+Carlos Alberto Zarate; MD  (Laboratory of Molecular Pathophysiology and Experimental Therapeutics)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Neill  Epperson; MD
+<i>(Department of Psychiatry, University of Pennsylvania School of Medicine)</i>
+<br />
+
+
+
+Abby  Fyer; MD
+<i>(Department of Psychiatry, Columbia University)</i>
+<br />
+
+
+
+Gregor  Hasler; MD, PhD
+<i>(University Hospital of Psychiatry and Psychotherapy Bern)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+anxiety, executive function, Fear, classical conditioning, threat, startle, psychophysiology
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The Section on the Neurobiology of Fear and Anxiety investigates the neuropsychobiology of normal and pathological fear and anxiety. Anxiety disorders constitute a major public health problem.  At an estimated cost of more than $50 billion per year, they are the most prevalent disorders in the US. As many as 20% of adults suffer from an anxiety disorder during their lifetime. Compared to non-anxious individuals, people with anxiety disorders are three to five times more likely to go to the doctor and six times more likely to be hospitalized for a psychiatric illness. Thus, the social and personal cost of anxiety disorders is high. Current treatments are hampered by limited efficacy and unwanted side-effects. Obstacles to the development of better treatments include the lack of pathophysiological markers, poor clinical efficacy of candidate anxiolytics discovered through basic research in animals, and unsatisfactory classification due to imprecise boundaries between anxiety subtypes and comorbidity. The major goal of our work is to elucidate the psychological and neurobiological underpinnings of normal and pathologic anxious states in order to inform the etiology, treatment, and classification of anxiety disorders.<br />	Our research employs an experimental psychopathology approach using translational paradigms and the tools of psychophysiology, psychopharmacology, and neuroimaging. We emphasize the important distinction between fear and anxiety that have differential contributions to anxiety pathology. Fear is an emergency reaction to a predictable threat, whereas anxiety is a persistent aversive state caused by anticipation of uncertain threat. Although fear interrupts ongoing cognitive operations, anxiety is a complex phenomenon that involves the interplay between emotion, attention, vigilance, and the processing of feeling states, including autonomic signals and intrusive thoughts (e.g., worry).Our work on fear and anxiety maps onto the NIMH Research Domain Criteria constructs of fear (i.e., responses to acute threat) and anxiety (i.e., response to potential harm), respectively. Our aims are to: 1) identify psychophysiological and neural correlates of anxiety and anxiety disorders, 2) understand how anxiety interferes with daily life, 3) clarify how subtypes of anxiety disorders map onto the fear/anxiety distinction, 4) and identify psychopathological mechanisms.<br />	Our research branches into two major themes, one examining underlying mechanisms of fear and anxiety and the other focusing on the interaction between aversive states and thoughts, feelings, and behaviors. We rely on several approaches: 1) psychophysiology, with an approach strongly inspired from basic science in animals, which constitutes a rich source of data and theories to inform laboratory-based threat experiments, allowing greater directional hypothesis testing and cross-fertilization between neuroscience and psychological sciences (01-M-0185/NCT00026559; 03-M-0093/NCT00055224), 2) psychopharmacology, to investigate mechanisms of anxiolytic action and to develop paradigms that facilitate the drug discovery process (10-M-0049/NCT01059227), and 3) neuroimaging, to elucidate the neural underpinnings of fear and anxiety (02-M-0321/NCT00047853; 03-M-0093/NCT00055224), with a focus on the amygdala and on a neural circuit consisting of the extended amygdala, dorsal raphe nucleus, hippocampus, dorsomedial and ventromedial prefrontal cortex in the mediation and modulation of fear and anxiety. Functional brain imaging constitutes a first step toward brain-based diagnoses, endophenotypes and neurally-targeted interventions for the anxiety disorders by identifying brain correlates of these disorders.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Our work focuses on two major research themes. One major theme is to elucidate normative mechanisms of fear and anxiety in healthy individuals and to identify which of these mechanisms are perturbed in anxiety disorders. Anxiety is an adaptive response to threat that enables organisms to rapidly and efficiently confront challenges. When anxiety is evoked by anticipation of an unpleasant stimulus such as a loud sound or a mild electric shock (induced-anxiety), our sensorimotor system becomes primed to detect and react quickly to any threat. Our past work shows that this effect is mediated by increased communication between an aversive amplification circuit, that is, the dorsal-medial prefrontal cortex (dmPFC) and the amygdala. Attentional and behavioral biases for threat play a central role in the etiology and maintenance of anxiety disorders. We have now shown that this dmPFC-amygdala aversive amplification circuit remains constantly activated in patients with anxiety disorders, even in the absence of an external stressor. These results indicate that in pathological anxiety, an adaptive threat detection mechanism is chronically switched-on, even in innocuous contexts, and contributes to a crippling focus upon negative life events. We have shown that this aversive amplification circuit is inhibited by serotonin, suggesting that anxious patients may have a weakened serotonin-mediated inhibition. In fact, serotonin plays a key role in the treatment of anxiety disorders. Indeed, a major psychopharmacological treatment of anxiety disorders (i.e., selective serotonin reuptake inhibitor or SSRI such as Prozac) acts by increasing serotonin function. This raises the possibility that the therapeutic effect of SSRI is mediated by reestablishing the serotonin inhibition of communication between the dmPFC and the amygdala.<br />Additionally, we have identified a potential vulnerability marker for anxiety disorders. Anxiety disorders are conceptualized as a disposition to overreact with fear and anxiety to mildly threatening stimuli. However, fear and anxiety are distinct emotional states.  Presenting predictable and unpredictable threat is a means of inducing fear and anxiety, respectively. A key finding is that patients with anxiety disorders, including panic disorder, posttraumatic stress disorder, and general anxiety disorder, have a propensity to show elevated anxiety to unpredictable threat. However, our recent results suggest that this propensity characterizes only a subgroup of patients who have a history of panic attack. In addition, we found that the anxiety response to unpredictable threat is heritable. Thus, an exaggerated response to unpredictable threat may constitute a risk factor for panic attack and related anxiety disorders.<br />We also began to map the neural responses to predictable and unpredictable threat, particularly within the regions that have been implicated in animal models, such as the amygdala and the bed nucleus of the stria terminalis (BNST). A current objective is to better delineate the amygdala-BNST circuitry and its connection with the distributed network mediating aversive responses to threat, which includes the insula, dmPFC, and hippocampus. To this goal, we are moving from the traditional 3 Tesla to the state-of-the-art high-resolution 7 Tesla MRI scanners, with which we are studying healthy individuals and patients with anxiety disorders.<br />A second theme concerns the nature of the interactions between anxiety and task performance. On the one hand, it is clear that along with the emotional facets of anxiety disorders, anxiety patients report difficulty concentrating together with feeling distracted, which in turn can negatively impact their job performance and interpersonal relationships. On the other hand, it is also clear that humans possess the capacity to actively disengage from anticipation of a potential threat in order to focus on a challenging task, thereby reducing their anxiety. This resource shift is adaptive because it allows individuals to perform necessary procedures in order to survive in an environment with imminent threat (e.g., war). We have examined these interactive processes using induced-anxiety during performance of working memory (WM) tasks. WM is central to healthy functioning because it supports online maintenance and manipulation of information (e.g., tallying the cost of a grocery bill while shopping).  We showed that the impact of anxiety on verbal WM performance, and, reciprocally, of task demand on anxiety is based on the cognitive demand of a given task. Specifically, when a WM task is easy, anxiety remains relatively high and performance is disrupted. However, when a task places greater demand on cognitive resources, anxiety is reduced, and performance normalizes. The dmPFC is a key structure where competition to process threat-related and WM-related information takes place. Further insight into these mechanisms reveals that anxiety and task demand increase communication between dmPFC and amygdala and dorsolateral PFC (dlPFC), respectively. Under low-load (easy tasks), anxiety engages the dmPFC, and dmPFC-amygdala coupling increases to promote an anxious response. Under high-load (difficult tasks) WM engages the dmPFC and dmPFC-dlPFC coupling increases to promote focus on task demands. By describing the neural underpinnings of anxiety/cognition interactions we are one step closer to identifying biomarkers of vulnerability to anxious pathology, and discrete neural sites for novel treatments that target both emotional and cognitive disruptions associated with anxiety.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86260&allpubs=Y&isajaxlink=Y&_UserReference=B932A8D2C498B8E15B38D31C','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Cornwell BR, Overstreet C, Grillon C (2014) Spontaneous fast gamma activity in the septal hippocampal region correlates with spatial learning in humans. Behav Brain Res 261:258-64
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24388977?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3954846/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24388977
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3954846 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Grillon C, Franco-Chaves JA, Mateus CF, Ionescu DF, Zarate CA (2013) Major depression is not associated with blunting of aversive responses; evidence for enhanced anxious anticipation. PLoS One 8:e70969
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23951057?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3738594/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23951057
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3738594 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Mueller SC, Cornwell BR, Grillon C, Macintyre J, Gorodetsky E, Goldman D, Pine DS, Ernst M (2014) Evidence of MAOA genotype involvement in spatial ability in males. Behav Brain Res 267:106-10
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24671068?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4548810/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24671068
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4548810 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

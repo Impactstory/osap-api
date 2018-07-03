@@ -1,0 +1,422 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002851</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002851-12</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Generalized Anxiety Disorder and Social Anxiety Disorder
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+ <!-- faculty test -->
+
+Robert James Richard Blair; PhD
+
+ <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Affective Cognitive Neuroscience, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Affective Cognitive Neuroscience</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Joseph Christopher Leshin<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Christian  Grillon; PhD  (Section on Neurobiology of Fear and Anxiety)<br />
+
+
+
+Karina  Peschardt  (Emotion and Development Branch)<br />
+
+
+
+Daniel  Pine; MD  (Emotion and Development Branch)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+anxiety disorders, MPFC, amygdala, fMRI, generalized anxiety disorder, self-referential processing, social anxiety disorder
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Generalized Social Phobia (GSP) is characterized by fear/avoidance of social situations and being judged negatively by others. It is the most common anxiety disorder in the general population with the lifetime prevalence estimated at 13.3 percent. General Anxiety Disorder (GAD) is less common than GSP, with the lifetime prevalence estimated at 4-6%. It involves intrusive worry about a broader array of everyday life circumstances that may or may not include social circumstances. Both disorders are associated with a high risk for depression, alcohol and drug abuse, and suicide. While both have considerable social and economic costs, relatively little is known about their neurobiological bases. In particular, the degree to which the conditions result from a shared or unique pathophysiology is currently unclear, complicating targeted therapeutic advancement. In addition, it is currently unclear whether the comorbid presentation of the two disorders is associated with the pathophysiologies associated with the GAD, the GSP, or both the GAD and the GSP. <br /><br />The Section of Affective Cognitive Neuroscience (SACN) employs fMRI to investigate the neural underpinnings of GAD, GSP, and comorbid GAD/GSP in order to identify the neural mechanism associated with the two disorders, and thus provide both treatment suggestions as well as treatment targets for pharmacological interventions. Work was carried out under protocol 03-M-0185 (NCT00062517).
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Over the last 12 months, one particular strand of our work with patients with Generalized Anxiety Disorder (GAD) and Generalized Social Phobia (GSP) stands out.<br />  <br />Pathological worry is the defining feature of GAD in DSM.  Understanding the neural dysfunction underlying worry in GAD therefore likely represents an important treatment target.  However very little is known about the neural underpinnings of worry or how they may malfunction in patients with GAD complicating treatment progress.  More is known about a construct that may be viewed as a counterpoint to worry:  optimistic bias (OB).  OB is shown by most healthy individuals and involves thinking that compared to the average individual they are less likely to experience negative life events, but more likely to experience positive life events.  However, in previous behavioral work we have found that GAD is associated with a reduced OB (i.e., realistic view) about the future.  Specifically when we asked participants to indicate how likely they thought they were to experience something positive (e.g., having a great haircut; winning the lottery) or negative (e.g., having a bad haircut; having a heart attack) compared to the average individual, patients with GAD were much less likely to be optimistic.  One goal this year was to determine the neural basis of this cognitive impairment in GAD using fMRI and to determine whether such impairment is specific to GAD and not GSP. <br /> <br />In line with previous work, healthy participants showed significant OB; they considered themselves significantly less likely to experience future negative but significantly more likely to experience future positive events relative to others.  This was also seen in GSP.  However, GAD patients showed no significant OB.  At the neural level, OB was associated with significantly greater modulation of medial prefrontal cortex (rmPFC) in the healthy and GSP groups compared to the GAD group.  The GAD group also differed from the two other groups by showing increased neural responses to low impact (e.g., having a bad haircut) relative to high impact (e.g., having a heart attack) events. This neural dysfunction, particularly within mPFC, in patients with GAD may represent the neural substrate that underlies the reduced optimism and increased worry about everyday events in this population.  Further and importantly, patients with GSP did not show such dysfunction, suggesting disorder-specificity and the possibility it could represent an important biomarker for treatment of GAD. <br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91064&allpubs=Y&isajaxlink=Y&_UserReference=26A221E4A2BB8D7B5B38D11E','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+No publications during this reporting period
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

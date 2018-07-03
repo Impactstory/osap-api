@@ -1,0 +1,1539 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002949</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002949-01</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Developmental Neurogenomics Unit
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2015 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Armin  Raznahan
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Developmental Neurogenomics Unit, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Developmental Neurogenomics Unit</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Ari Moshe Fish<br />
+
+
+
+
+Catherine Melita Mankiw<br />
+
+
+
+
+Paul Kirkpatrick Reardon<br />
+
+
+
+
+Jakob Maxwell Seidlitz<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Adam G Thomas; PhD  (Office of the Director)<br />
+
+
+
+Audrey E Thurm; PhD  (Pediatric and Developmental Neuropsychiatry Branch)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Janice Sin-Ee Lee; DDS, MD, MS (NIDCR) <br />
+
+
+
+Thomas A Misteli; PhD (NCI) <br />
+
+
+
+Karl Thomas Ried; MD (NCI) <br />
+
+
+
+Phillip  Shaw (NHGRI) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 11 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Edward  Bullmore; MD
+<i>(University of Cambridge)</i>
+<br />
+
+
+
+Arnaud  Cachia; PhD
+<i>(Neuroscience Section, Institut Universitaire de France)</i>
+<br />
+
+
+
+Zameel  Cader
+<i>(Oxford University)</i>
+<br />
+
+
+
+Mallar  Chakravarty
+<i>(The Douglas)</i>
+<br />
+
+
+
+Daniel H Geschwind; MD, PhD
+<i>(Neurology, Human Genetics, Psychiatry, UCLA)</i>
+<br />
+
+
+
+Nancy  Lee
+<i>(Drexel University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=96696&isajaxlink=Y&_UserReference=799E594B815ADA7F5B38D1C3','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 11</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Sex Chromosome Variation, Magnetic Resonance Imaging, Adolescent, Twins, ADHD, Child, Childhood Onset Schizophrenia, XXXY, XXY, XXYY, XYY, XXX, XXXXY
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The Developmental Neurogenomics Unit (DNU) is dedicated to better understanding the biology of childhood-onset neuropsychiatric disorders in ways that might ultimately help to improve disease prediction, detection and treatment. Together with our collaborators, we work towards this goal in two mutually-informative ways.<br /><br />First, we use large-scale longitudinal neuroimaging datasets to study the architecture of brain development in healthy volunteers. By modeling how neuroimaging measures of the human brain vary with age, sex and behavior in health, we hope to advance basic developmental neuroscience while also providing a data-driven way of selecting neuroimaging measures that should be prioritized for study in atypically developing groups.<br /><br />Second, we use a genetics-first strategy to study the relationship between atypical brain development and neuropsychiatric symptoms. This effort involves gathering deep-phenotypic data (spanning measures of gene expression, brain structure/function, psychophysiology, cognition and behavior) in diverse genetic disorders which all increase risk for neuropsychiatric impairment. Guided by knowledge of typical development, we harness these clinical data to empirically dissect the diverse biological pathways that can contribute to the emergence of neuropsychiatric syndromes.<br /><br />Cross-cutting themes of special interest within our Unit include sex-differences, allometry, and structure-function relationships within the central nervous system.<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+This work is conducted under protocol 89-M-0006 (NCT00001246).<br /><br />The Developmental Neurogenomics Unit (DNU) was established in October 2015, and work during the past year was focused on completion of basic infrastructural tasks including physical relocation and furnishing of the laboratory, recruitment of staff, and setting-up new standard operating procedures. We have also restructured our biosamples to distinguish material newly gathered under DNU projects from legacy samples that form a subset of the larger Child Psychiatry Branch collection.<br /><br />Our Unit has also embarked upon a large-scale process of re-annotation, collation and screening of all neuroimaging data gathered as part of the 30 year old longitudinal NIMH IRP study of structural brain maturation in typically developing humans ages 5-30 years old. These efforts are the first step in making these 1.5 Tesla structural neuroimaging data freely available for use by the wider research community.<br /><br />1. Over the last year, our studies of brain development in healthy volunteers have involved the following activities and outputs: <br /><br />A) We have conducted a series of new analyses on existing longitudinal structural brain magnetic resonance imaging (MRI) scans and associated demographic information. <br /><br />First, given that we often study children - who tend to move more in the MRI scanner than adults - we carefully characterized the effects of in-scanner motion on the anatomical estimates we measure from MRI brain scans. This study showed that greater degrees of motion lead to greater underestimation of how thick the cerebral cortex is, and that this bias varies in magnitude between different cortical regions. These effects are largely reproducible across both main softwares for measuring cortical anatomy (CIVET and Freesurfer). Having defined these effects will help improve our future studies of structural brain development, and also provides the broader neuroimaging community with information that can ultimately help to promote reproducibility in research.<br /><br />Second, we harnessed naturally-occurring variation in gender, brain-size, age, and genetic status to study how different structural properties of the human brain &quot;hang-together&quot;, so that we can improve the biological utility of neuroimaging measures we use to study brain development in health and disease. For example, we showed that the classical method of focusing on brain volume within subcortical structures misses distinct region-specific anatomical changes within each subcortical nucleus. Moreover, the shape of subcortical structures varies with human brain size, and this new knowledge is critical for accurately defining disease-related changes in subcortical anatomy. We also completed a series of studies that focused on cortical folding -  a prominent, but poorly understood aspect of brain anatomy, which is thought to carry special information about early development, and structure-function relationships within the central nervous system. These studies showed that folding patterns are stable during postnatal life, and that the pits and crests of cortical folds tend to mature in very different ways. These findings provide important new foundations for greater use of cortical folding to track brain development in health and illness.<br /><br /><br />B) We have recruited, scanned and gathered detailed behavioral and cognitive measures on more than 150 adults who had previously been studied during childhood by our Branch an average of 20 years ago. Data collection is ongoing for this project, which represents the longest known neuroimaging follow-up study of human brain development, and will provide unique opportunities to study how childhood brain organization relates to later outcomes in adulthood.<br /><br /><br />2. Over the last year, our studies of brain development in clinical populations have involved the following activities and outputs:<br /><br />A) We have conducted a series of new analyses on existing structural brain magnetic resonance imaging (MRI) scans in participants with idiopathic and genetically-defined neurodevelopmental disorders. <br /><br />First, we studied children with idiopathic Autism Spectrum Disorder (ASD), and identified a set of brain regions that tend to show atypical structural maturation relative to the anatomical changes seen in typically developing children. Moreover, in a separate set of brain regions, inter-individual differences in brain maturation amongst children with ASD were correlated with inter-individual differences in language development. These studies emphasize that shifts in anatomical brain development are already detectible in ASD during preschool life, and point towards a set of brain regions that may mark compensatory processes in children with ASD who have more favorable language development.<br /><br />Second, we have analyzed existing structural neuroimaging data in children with a range of sex chromosome aneuploidy syndromes (SCAs) to provide new insights into the impact of changing X- and Y-chromosome dosage on diverse aspects of brain anatomy including cortical thickness, surface area and asymmetry as well as subcortical volume and shape. These studies have identified a set of brain regions that appear to be especially sensitive to SCA in terms of their anatomical development, and represent promising new candidates in the search for neural systems that underpin some of the cognitive and behavioral changes that can be associated with SCA.<br /><br />Third, we initiated a series of genomic studies designed to shed light on the way that SCA can alter cellular function. The cellular consequences of SCA represent a critical stepping-stone on the path between carriage of an atypical number of sex chromosomes and increased risk for neurodevelopmental disorders impacting cognition and behavior.<br /><br />B) We launched a new deep-phenotyping study of participants with SCA and their family members, which is ongoing, and expected to span several years. This study expands on past work in SCA by gathering more comprehensive measures of brain structure and function, as well as providing more fine-grained information regarding the cognitive and behavioral variations that can be seen in SCA. This new phase in our clinical research of participants with SCA is providing us with information that will ultimately help to better define the developmental risks and resiliencies associated with X- and Y-chromosome dosage variation in humans, and identify neurobiological systems that might underpin these associations. We hope these insights will (i) improve accurate public and professional awareness of SCAs,  (Ii) help clinicians provide more targeted assessment and counseling to patient and families with SCA , and (iii) begin to identify biological markers with the potential to ultimately improve assessment, prediction and treatment of neurodevelopmental issues in SCA.<br /><br />C) We complemented our human studies with a series of neuroimaging studies in mouse models of ASD and SCA. These animal models provide new opportunities for investigating potential causes and consequences of the anatomical changes that are seen in genetically-determined alterations of brain development.<br /><br />Collectively, our studies in SCA also shape understanding of sex chromosome contributions to sex-differences seen in typically developing populations. 
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2016 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=96696&allpubs=Y&isajaxlink=Y&_UserReference=799E594B815ADA7F5B38D1C3','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Alexander-Bloch A, Clasen L, Stockman M, Ronan L, Lalonde F, Giedd J, Raznahan A (2016) Subtle in-scanner motion biases automated measurement of brain anatomy from in vivo MRI. Hum Brain Mapp 37:2385-97
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27004471?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5110234/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27004471
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5110234 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Berman RA, Gotts SJ, McAdams HM, Greenstein D, Lalonde F, Clasen L, Watsky RE, Shora L, Ordonez AE, Raznahan A, Martin A, Gogtay N, Rapoport J (2016) Disrupted sensorimotor and social-cognitive networks underlie symptoms in childhood-onset schizophrenia. Brain 139:276-91
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26493637?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4719706/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26493637
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4719706 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Cachia A, Borst G, Tissier C, Fisher C, Plaze M, Gay O, Rivière D, Gogtay N, Giedd J, Mangin JF, Houdé O, Raznahan A (2016). Longitudinal stability of the folding pattern of the anterior cingulate cortex during development. Dev Cogn Neurosci  19, 122-7.   https://doi.org/10.1016/j.dcn.2016.02.011
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26974743?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4912935/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26974743
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4912935 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Davis JM, Searles VB, Anderson N, Keeney J, Raznahan A, Horwood LJ, Fergusson DM, Kennedy MA, Giedd J, Sikela JM (2015) DUF1220 copy number is linearly associated with increased cognitive function as measured by total IQ and mathematical aptitude scores. Hum Genet 134:67-75
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25287832?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5898241/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25287832
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5898241 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Ellegood J, Anagnostou E, Babineau BA, Crawley JN, Lin L, Genestine M, DiCicco-Bloom E, Lai JK, Foster JA, Peñagarikano O, Geschwind DH, Pacey LK, Hampson DR, Laliberté CL, Mills AA, Tam E, Osborne LR, Kouser M, Espinosa-Becerra F, Xuan Z, Powell CM, Raznahan A, Robins DM, Nakai N, Nakatani J, et al. [8 more authors] (2015). 3D visualization of the regional differences. Mol Psychiatry  20, 1.   https://doi.org/10.1038/mp.2014.168
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25648202?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5131793/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25648202
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5131793 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Ellegood J, Anagnostou E, Babineau BA, Crawley JN, Lin L, Genestine M, DiCicco-Bloom E, Lai JK, Foster JA, Peñagarikano O, Geschwind DH, Pacey LK, Hampson DR, Laliberté CL, Mills AA, Tam E, Osborne LR, Kouser M, Espinosa-Becerra F, Xuan Z, Powell CM, Raznahan A, Robins DM, Nakai N, Nakatani J, et al. [8 more authors] (2015). Clustering autism: using neuroanatomical differences in 26 mouse models to gain insight into the heterogeneity. Mol Psychiatry  20, 118-25.   https://doi.org/10.1038/mp.2014.98
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25199916?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4426202/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25199916
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4426202 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Giedd JN, Raznahan A, Alexander-Bloch A, Schmitt E, Gogtay N, Rapoport JL (2015) Child psychiatry branch of the National Institute of Mental Health longitudinal structural magnetic resonance imaging study of human brain development. Neuropsychopharmacology 40:43-9
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25195638?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4262916/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25195638
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4262916 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">8.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Hedrick A, Lee Y, Wallace GL, Greenstein D, Clasen L, Giedd JN, Raznahan A (2012) Autism risk gene MET variation and cortical thickness in typically developing children and adolescents. Autism Res 5:434-9
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23097380?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3528800/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23097380
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3528800 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">9.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Lee NR, Adeyemi EI, Lin A, Clasen LS, Lalonde FM, Condon E, Driver DI, Shaw P, Gogtay N, Raznahan A, Giedd JN (2016) Dissociations in Cortical Morphometry in Youth with Down Syndrome: Evidence for Reduced Surface Area but Increased Thickness. Cereb Cortex 26:2982-90
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26088974?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4898663/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26088974
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4898663 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">10.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Lin A, Clasen L, Lee NR, Wallace GL, Lalonde F, Blumenthal J, Giedd JN, Raznahan A (2015) Mapping the stability of human brain asymmetry across five sex-chromosome aneuploidies. J Neurosci 35:140-5
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25568109?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4287138/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25568109
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4287138 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">11.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Raznahan A (2014) Sizing up the search for autism spectrum disorder (ASD) risk markers during prenatal and early postnatal life. J Am Acad Child Adolesc Psychiatry 53:1045-7
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25245346?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4862369/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25245346
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4862369 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">12.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Raznahan A, Lee NR, Greenstein D, Wallace GL, Blumenthal JD, Clasen LS, Giedd JN (2016) Globally Divergent but Locally Convergent X- and Y-Chromosome Influences on Cortical Development. Cereb Cortex 26:70-9
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25146371?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4701121/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25146371
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4701121 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">13.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Raznahan A, Lue Y, Probst F, Greenstein D, Giedd J, Wang C, Lerch J, Swerdloff R (2015) Triangulating the sexually dimorphic brain through high-resolution neuroimaging of murine sex chromosome aneuploidies. Brain Struct Funct 220:3581-93
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25146308?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4879679/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25146308
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4879679 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">14.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Raznahan A, Shaw P, Lalonde F, Stockman M, Wallace GL, Greenstein D, Clasen L, Gogtay N, Giedd JN (2011) How does your cortex grow? J Neurosci 31:7174-7.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/21562281?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3157294/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 21562281
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3157294 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">15.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Reardon PK, Clasen L, Giedd JN, Blumenthal J, Lerch JP, Chakravarty MM, Raznahan A (2016) An Allometric Analysis of Sex and Sex Chromosome Dosage Effects on Subcortical Anatomy in Humans. J Neurosci 36:2438-48
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26911691?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4764663/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26911691
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4764663 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">16.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Shaw P, Sharp W, Sudre G, Wharton A, Greenstein D, Raznahan A, Evans A, Chakravarty MM, Lerch JP, Rapoport J (2015) Subcortical and cortical morphological anomalies as an endophenotype in obsessive-compulsive disorder. Mol Psychiatry 20:224-31
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24514568?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5912882/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24514568
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5912882 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">17.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Smith E, Thurm A, Greenstein D, Farmer C, Swedo S, Giedd J, Raznahan A (2016) Cortical thickness change in autism during early childhood. Hum Brain Mapp 37:2616-29
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27061356?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4905793/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27061356
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4905793 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">18.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Vandekar SN, Shinohara RT, Raznahan A, Hopson RD, Roalf DR, Ruparel K, Gur RC, Gur RE, Satterthwaite TD (2016) Subject-level measurement of local cortical coupling. Neuroimage 133:88-97
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26956908?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4889557/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26956908
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4889557 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">19.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Vandekar SN, Shinohara RT, Raznahan A, Roalf DR, Ross M, DeLeo N, Ruparel K, Verma R, Wolf DH, Gur RC, Gur RE, Satterthwaite TD (2015) Topologically dissociable patterns of development of the human cerebral cortex. J Neurosci 35:599-609
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25589754?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4293413/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25589754
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4293413 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

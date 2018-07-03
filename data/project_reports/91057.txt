@@ -1,0 +1,921 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002795</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002795-14</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Translational Evaluation of PET Radiotracers
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Robert  Innis; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/robert-innis" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on PET Neuroimaging Sciences, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on PET Neuroimaging Sciences</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 10 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Elizabeth C Alzona<br />
+
+
+
+
+Masahiro  Fujita<br />
+
+
+
+
+Robert  Gladding<br />
+
+
+
+
+Ioline D Henter; MA<br />
+
+
+
+
+Aneta  Kowalski<br />
+
+
+
+
+Jeih-San  Liow<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=91057&onameset=Section on PET Neuroimaging Sciences&isajaxlink=Y&_UserReference=4A4902C279A596865B38CFD1','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 10</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Carlos Alberto Zarate; MD  (Section on Neurobiology and Treatment of Mood Disorders)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Michael Marc Gottesman; MD (OD) <br />
+
+
+
+William Harold Theodore; MD (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborator
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Jan  Mulder; PhD
+<i>(Karolinska Institutet)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+PET imaging, depression, radiochemistry, alzheimer's disease
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Major psychiatric disorders like schizophrenia and depression are associated with and, in some cases, caused by chemical imbalances in the brain. The purpose of our research is to develop probes that can be used to assess these chemical imbalances in order to better understand these disorders and, hopefully, improve their treatment.<br /><br />A major goal of the Molecular Imaging Branch is to develop new radiotracers and new imaging paradigms to study abnormal protein targets in patients with neuropsychiatric disorders. The purpose of this research is to evaluate in vivo the pharmacokinetics, sensitivity, and reproducibility of brain imaging measurements of radiolabeled probes for use in positron emission tomography (PET). Animals are used to evaluate new tracers and new methods (e.g., combined with a pharmacological challenge) prior to their extension to human subjects. Testing of these tracers in animals prior to their extension to humans is essential to ensure the validity of the measurement as well as the safety of the procedures.<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Examples of progress made during the prior year are summarized below.<br /><br />1) We have been studying phosphodiesterase type IV (PDE4), an important component of the cyclic adenosine monophosphate (cAMP) cascade, for several years. Here, we sought to investigate the interactions between PDE4 and DISC1 which limits PDE4 activityin live animals. We found increased rolipram binding to PDE4 in Disc1 KO mice,consistent with DISC1 inhibition of PDE4 activity by binding to its active site. Our work is the first to demonstrate that PDE4 is regulated by DISC1 in live animals.<br /><br />PDE4 selectively metabolizes cAMP in the brain to the inactive monophosphate. PDE4 is regulated by protein kinase A (PKA) and by disrupted-in-schizophrenia 1 (DISC1). DISC1 inhibits PDE4 activity, and DISC1 mutations are involved in both schizophrenia and mood disorders. Rolipram, a selective PDE4 inhibitor, has been labeled with carbon-11 (11C(R)-rolipram) for PET imaging of PDE4 and PKA interaction in vivo. Prior work from our laboratory confirmed in animals that increased 11C(R)-rolipram binding reflects the phosphorylated / active state of PDE4. <br /><br />To investigate the interactions between PDE4 and DISC1 in live animals, we compared 11C(R)-rolipram binding in the brains of Disc1 gene locus impaired C57BL/6 model mice lacking a large genomic region between exons 1 and 3 (Disc1 KO, n=11) and wild type mice (WT, n=9). The average change in brain radioactivity per hour after the 50-minute scan time was only 5 to 6% for both mouse groups, indicating that equilibrium was achieved within the scan time. Disc1 KO mice showed a 41% significant increase in VT (P = 0.04) compared to WT mice. The VT/fP, which more accurately reflects 11C(R)-rolipram binding than VT, showed a 73% significant increase (P = 0.004) in Disc1 KO compared to WT mice. <br /><br />The increased rolipram binding to PDE4 observed in Disc1 KO mice is consistent with DISC1 inhibition of PDE4 activity by binding to its active site. This is the first study to demonstrate that PDE4 is regulated by DISC1 in live animals. The results also suggest that PET imaging of PDE4 activity could facilitate the development of drugs such as PDE4 inhibitors, or could be used to monitor treatment in individuals affected with DISC1 gene variants.<br /><br /><br />2) We sought to develop a PET radioligand for cyclooxygenase-1 (COX-1) and COX-2; the expression of both enzymes is increased by neuroinflammation. We found that, in monkey, the PET radioligands 11CPS13 and 11CMC1 showed excellent imaging properties for selectively measuring COX-1 or COX-2, respectively. <br /><br />PET imaging of neuroinflammation has largely been restricted to studies of translocator protein (TSPO), which transports cholesterol across the mitochondrial membrane and is highly expressed in activated microglia and reactive astrocytes. However, use of TSPO as a biomarker of neuroinflammation is limited because TSPO is highly expressed both in microglia (the major source of inflammatory mediators) and astrocytes (which can form scars and merely mark sites of former damage and inflammation). For this reason, we sought to develop a PET radioligand for COX-1, which is almost exclusively localized in microglia and whose expression is increased by neuroinflammation. In parallel with this effort, we sought to develop a radioligand selective for COX-2, which is expressed in both neurons and glia. Although COX-2 is known to play a much larger role than COX-1 in peripheral inflammation, the relative role of these two enzymes in brain is controversial. <br /><br />We synthesized and screened over 50 compounds for inhibitory potency using in vitro enzymatic assays in whole blood from monkey and human. In vitro enzymatic assays in monkey and human blood showed that 11CPS13 was potent and selective for COX-1 compared to COX-2 and, conversely, 11CMC1 was potent and selective for COX-2 compared to COX-1. Both ligands showed good uptake in monkey brain and washed out relatively quickly (demonstrating that the binding was reversible, as expected). In addition, VT values were stable after about 70 minutes, suggesting that brain uptake was not contaminated by radiometabolites. To determine the percentage of brain uptake specifically bound to each enzyme, we intravenously injected pharmacological doses of drugs selective for COX-1 and COX-2. From these studies, we estimated that specific binding as a percentage of total uptake was 80% for 11CPS13 and 40% for 11CMC1.<br /><br />Our results indicate that these two PET radioligands showed excellent imaging properties for selectively measuring COX-1 or COX-2 in monkey. The percentage of total brain uptake specifically bound to each target (40 to 80%) was moderate to good at baseline but would be expected to markedly increase in inflammatory conditions. The COX-1 radioligand, 11CPS13, should provide a selective measure of microglial activation and, thus, of active inflammation. The COX-2 radioligand, 11CMC1, will help identify the relative roles of both COX enzymes in neuroinflammation. Together, these two radioligands can be used to assess the relative in vivo selectivity and brain entry of non-steroidal anti-inflammatory drugs, two areas for which relatively little information is available. Finally, both COX-1 and COX-2 are obvious therapeutic targets. Thus, in addition to being used as biomarkers of disease, these two PET radioligands can also measure target engagement of anti-inflammatory drugs and potentially monitor therapeutic response.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91057&allpubs=Y&isajaxlink=Y&_UserReference=4A4902C279A596865B38CFD1','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Brouwer C, Jenko K, Zoghbi SS, Innis RB, Pike VW (2014) Development of N-Methyl-(2-arylquinolin-4-yl)oxypropanamides as Leads to PET Radioligands for Translocator Protein (18 kDa). J Med Chem 57:6240-51
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24949670?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4216211/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24949670
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4216211 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Lodge NJ, Li YW, Chin FT, Dischino DD, Zoghbi SS, Deskus JA, Mattson RJ, Imaizumi M, Pieschl R, Molski TF, Fujita M, Dulac H, Zaczek R, Bronson JJ, Macor JE, Innis RB, Pike VW (2014) Synthesis and evaluation of candidate PET radioligands for corticotropin-releasing factor type-1 receptors. Nucl Med Biol 41:524-35.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24793011?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4072041/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24793011
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4072041 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Lohith TG, Xu R, Tsujikawa T, Morse CL, Anderson KB, Gladding RL, Zoghbi SS, Fujita M, Innis RB, Pike VW (2014) Evaluation in monkey of two candidate PET radioligands, [11 C]RX-1 and [18 F]RX-2, for imaging brain 5-HT4 receptors. Synapse, in press (e-pub ahead of print)  https://doi.org/10.1002/syn.21773
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25088028?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4317381/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25088028
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4317381 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Shrestha SS, Liow JS, Lu S, Jenko K, Gladding RL, Svenningsson P, Morse CL, Zoghbi SS, Pike VW, Innis RB (2014) (11)C-CUMI-101, a PET radioligand, behaves as a serotonin 1A receptor antagonist and also binds to (1) adrenoceptors in brain. J Nucl Med 55:141-6
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24385311?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4247002/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24385311
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4247002 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Shrestha SS, Nelson EE, Liow JS, Gladding R, Lyoo CH, Noble PL, Morse C, Henter ID, Kruger J, Zhang B, Suomi SJ, Svenningsson P, Pike VW, Winslow JT, Leibenluft E, Pine DS, Innis RB (2014) Fluoxetine administered to juvenile monkeys: effects on the serotonin transporter and behavior. Am J Psychiatry 171:323-31
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24480874?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4181537/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24480874
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4181537 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Shrestha SS, Pine DS, Luckenbaugh DA, Varnäs K, Henter ID, Innis RB, Mathé AA, Svenningsson P (2014). Antidepressant effects on serotonin 1A/1B receptors in the rat brain using a gene x environment model. Neurosci Lett  559, 163-8.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24287374?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4204401/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24287374
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4204401 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Zanotti-Fregonara P, Zhang Y, Jenko KJ, Gladding RL, Zoghbi SS, Fujita M, Sbardella G, Castellano S, Taliani S, Martini C, Innis RB, Da Settimo F, Pike VW (2014) Synthesis and evaluation of translocator 18 kDa protein (TSPO) positron emission tomography (PET) radioligands with low binding sensitivity to human single nucleotide polymorphism rs6971. ACS Chem Neurosci 5:963-71
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25123416?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4210126/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25123416
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4210126 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

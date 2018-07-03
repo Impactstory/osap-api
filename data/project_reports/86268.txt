@@ -1,0 +1,615 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002032</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002032-38</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neural Coding Of Visual Stimuli
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Barry J Richmond; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/barry-richmond" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neural Coding and Computation, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neural Coding and Computation</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 10 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Samarth  Chandra<br />
+
+
+
+
+Mark Alexander Grainger Eldridge<br />
+
+
+
+
+Rossella  Falcone<br />
+
+
+
+
+Ankita  Jain<br />
+
+
+
+
+Walter  Lerchner; PhD<br />
+
+
+
+
+Kaleb Alexander Lowe<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=86268&onameset=Section on Neural Coding and Computation&isajaxlink=Y&_UserReference=C799DBD6CCF504275B38D53C','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 10</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Lance Michael Optican; PhD (NEI) <br />
+
+
+
+John H Wittig; PhD (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+John  Hertz; PhD
+<i>(Nordita, Norse Institute for Theoretical Physics)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Katalin M Gothard; MD, PhD
+<i>(Dept of Physiology, Un of Arizona College of Medicine)</i>
+<br />
+
+
+
+Narihisa  Matsumoto; PhD
+<i>(Neurotechnology Group, AIST)</i>
+<br />
+
+
+
+Takafumi  Minamimoto; PhD
+<i>(Molecular Neuroimaging, Natl Inst Radiological Science)</i>
+<br />
+
+
+
+J-P  Nadal; PhD
+<i>(Laboratory of Statistical Physics, Ecole Normale Superieure)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+neural codes, cognition, perception, category formation, multiple neurons, single neurons, memory
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+One prominent feature of emotional disorders is the failure to interpret sensory stimuli in a consistent and realistic manner, for example, when depressed individuals find normally attractive scenes or items such as a favorite food, pet or family member uninteresting or even irritating. It would be helpful to know how normal perceptions arise to design strategies for ameliorating these negative feelings. To address this class of problems, we are studying how information about visual stimuli is coded and utilized. The fundamental elements for information processing in the brain, the neurons, process and carry information by working with a series of impulses, where different numbers of pulses represent different messages. No one neuron carries very much information so the information represented in the messages of different neurons must be integrated to give rise to mental events such as sensation, memory, and coordinated movements. To understand how these higher functions arise, for example, visual perception, it is important to identify the aspects of neuronal responses that carry information important for stimulus coding, and how that information is used for stimulus identification and recognition in cognitive processes. This requires learning what codes are used by individual neurons, how the information they represent is processed and transformed, and how the information is integrated across populations of connected neurons. Therefore, we combine studies of single neurons, multiple neurons and behavior, to learn how higher functions such as visual perception and memory arise.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Categorization is considered a high level visual-perceptual function. It allows individuals to make reasonable guesses based on experience about the function and desirability of a stimulus or object. Monkeys, like humans, can classify whether images blending cats and dogs, so-called morphing from cat to dog are more cat-like or dog-like. In our experiments, monkeys were required to identify whether the morph being presented is closer to a cat or a dog in a sequential two-alternative forced choice task. Single unit recordings in regions of inferior temporal cortex--specifically area TE and rhinal cortex (Rh)--have implicated these regions in late-stage visual processes, such as categorization and stimulus-reward association, respectively. We have previously found that TE-lesioned monkeys are only mildly impaired in a perceptually difficult test of visual categorization (employing dog-cat morphs), and that the performance of Rh-lesioned monkeys is indistinguishable from that of controls. To study how this categorization takes place, our monkeys were trained to touch a bar to initiate a trial, and release the bar during one of two intervals; early (during the presence of a red central target) if they identified the stimulus as more cat-like, or late (following the transition of the central target to green) if the stimulus was more dog-like. Rewards were only delivered for correctly identifying a dog. In summary, if cat, release on red to skip the trial and move on to the next, if dog, release on green to get a reward. We measured the percentage of trials and reaction times when the monkey correctly indicated cat. As the morph level changes from pure cat towards dog, the number of times the monkey indicated a cat decreased sigmoidally. The sigmoid was also shifted toward dog, indicating a bias toward choosing dog - when very unsure, guessing dog prevents missing a potential reward, with a penalty of having to wait through the whole trial for nothing if the stimulus should have been identified as cat. As the morph progresses from all cat to equal cat/dog, the monkeys take longer to make a decision, i.e., the reaction times become longer.<br /><br />We model this behavior as a drift diffusion process. A point starts midway between 2 boundaries, and takes a random walk until it hits a boundary, which represents a decision of cat or dog. The drift velocity depends on the morph level presented. The model has an analytical solution. Here we use the experimentally measured frequency with which the monkey identifies a given morph as dog to determine the drift velocity, which is then used to predict the mean reaction time. We find that for morph levels close to a pure cat the experimental mean reaction times are similar to the theoretical ones. When the morph level is close to a 50:50 mixture, the experimental mean reaction times are faster than the theoretical predictions. It appears that for the easy morph levels the monkey reaches the boundary quickly and decides. For more ambiguous morphs the monkey takes more time to accumulate evidence. If reaching a bound takes too long, the monkey stops accumulating evidence and indicates dog - not wanting to miss a potential reward. The question now is whether there is another process apart from drift diffusion, also stochastic, governing how long the monkey will wait to accumulate evidence before simply terminating the trial by guessing dog.<br /><br />Now, we asked whether decreasing the information available by shortening the stimulus duration would affect any of our study groups: controls, or monkeys with either TE or rhinal removals. We trained the monkeys to touch a bar to initiate a trial, and release the bar during one of two intervals; early (during the presence of a red central target) if they identified the stimulus as more cat-like, or late (following the transition of the central target to green) if the stimulus was more dog-like. A correct response resulted in the delivery of a fixed-size liquid reward, an incorrect response led to a punishment time-out. We presented the morphed stimuli for durations of 25, 50, 100, 250 or 500 ms in an interleaved design. The stimuli appeared on a background of black and white noise. When the stimuli were removed, the background immediately reappeared; the reappearance of the visual noise appeared to mask the after-image. The accuracy with which control monkeys categorized the stimuli decreased as the stimulus presentation became shorter. The reaction times of control monkeys were indistinguishable across the different stimulus durations. Bilateral TE and Rh cortex removals had different effects: TE-lesioned monkeys made more incorrect categorization judgments, but made their decisions as quickly as controls. Rh-lesioned monkeys categorized as accurately as controls, but took longer to respond, that is, their reaction times were longer. The mild impairment in the performance of TE-lesioned monkeys is consistent with our previous results, and may reflect compromised perceptual or associative processes. The slower reaction times of the Rh-lesioned monkeys could be related to the decision process in some as yet undefined manner.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86268&allpubs=Y&isajaxlink=Y&_UserReference=C799DBD6CCF504275B38D53C','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Clark AM, Bouret S, Young AM, Murray EA, Richmond BJ (2013) Interaction between orbital prefrontal and rhinal cortex is required for normal estimates of expected value. J Neurosci 33:1833-45.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23365223?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3725547/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23365223
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3725547 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

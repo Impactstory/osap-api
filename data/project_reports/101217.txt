@@ -1,0 +1,748 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002619</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002619-26</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neural Mechanisms of Motivation and Reward
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Barry J Richmond; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/barry-richmond" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neural Coding and Computation, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neural Coding and Computation</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 14 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Walter  Lerchner; PhD<br />
+
+
+
+Mark Alexander Grainger Eldridge<br />
+
+
+
+Samarth  Chandra<br />
+
+
+
+Rossella  Falcone<br />
+
+
+
+Tsuyoshi  Setogawa<br />
+
+
+
+Richard C Saunders; PhD<br />
+
+
+
+ <!-- step through any ordered staff -->
+
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=101217&onameset=Section on Neural Coding and Computation&isajaxlink=Y&_UserReference=60318949BEBB51DF5B38D337','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 14</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+<div id="moresamestaff">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffu">6 of a total of 8 other  members are shown. </div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Elisabeth Adams Murray; PhD (Section on Neurobiology of Learning and Memory)<br />
+
+
+
+
+
+
+
+
+
+
+
+
+Bruno B Averbeck  (Laboratory of Neuropsychology)<br />
+
+
+
+Gang  Chen; PhD  (Scientific and Statistical Computing Core)<br />
+
+
+
+Vincent Daniel Costa  (Laboratory of Neuropsychology)<br />
+
+
+
+Robert  Innis; MD  (Molecular Imaging Branch)<br />
+
+
+
+Victor W Pike; PhD  (Section on PET Radiopharmaceutical Sciences)<br />
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaff','searchview.taf?_function=showmore&ios=S&ipid=101217&thisic=&isajaxlink=Y&_UserReference=60318949BEBB51DF5B38D337','moresamestaffu');  return false;">
+
+
+<span class="morelist">Show all 8</span></a>.</form></div>
+
+
+
+</div>
+</div>
+
+
+</div>
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Alan Paul Koretsky; PhD (NINDS) <br />
+
+
+
+Martin J Lizak; PhD (NINDS) <br />
+
+
+
+
+
+
+
+
+
+
+
+
+Xiaoyuan  Chen; PhD (NIBIB) <br />
+
+
+
+Dale Oscar Kiesewetter; BS, PhD (NIBIB) <br />
+
+
+
+John H Wittig; PhD (NINDS) <br />
+
+
+
+Kareem Amir Zaghloul; MD, PhD (NINDS) <br />
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+S  Bouret; Ph.D.
+<i>(Institut du Cerveau et de la Moelle epiniere)</i>
+<br />
+
+
+
+Narihisa  Matsumoto; PhD
+<i>(Neurotechnology Group, AIST)</i>
+<br />
+
+
+
+Takafumi  Minamimoto; PhD
+<i>(Molecular Neuroimaging, Natl Inst Radiological Science)</i>
+<br />
+
+
+
+Munetaka  Shidara; PhD
+<i>(Neuroscience Research Institute, AIST)</i>
+<br />
+
+
+
+Y  Sugase-Miyamoto; PhD
+<i>(Neuroscience Research Institute, AIST)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+orbitofrontal cortex, rhinal cortex, reinforcement, motivation, basal ganglia, learning, DREADDs
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The desire to act, that is, motivation, arises from the interactions of external factors, e.g., size and timing of reward, and internal factors, e.g., hunger or thirst. Motivation is directly related to the subjective value of reward, and is moderated, or even completely dissipated, if the perceived effort or discomfort seems too great. The normal balance between reward and work is disturbed in many psychiatric disorders, such as depression where feelings of hopelessness make rewards seem not worth pursuing and the work to obtain them too burdensome, or drug abuse where the drug of abuse is so valuable it will be sought even at great danger or cost, both personal and social. We are studying how the value of behavior is modified by the balance between reward value and burden to obtain reward in monkeys. The monkeys naturally vary their performance while we manipulate the reward size and the amount of work needed to obtain reward. We carry out theoretical studies trying to describe the exact balance among these factors, behavioral studies with both normal monkeys and monkeys with selective ablations, single neuron recordings to learn what signals related to these factors are present in different brain regions of the reward system, and genetically-based receptor manipulations to determine what the underlying molecular mechanisms for this behavior are.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+To be effective in modulating behavior information arising in the cerebral cortex about the value of the behavior must pass through the subcortical striatum. It is known from many experiments including ours that the orbitofrontal cortex (OFC) is important for distinguishing among rewards with different values. The OFC sends information into the striatum, specifically the ventromedial striatum. The ventral striatum is part of the brains reward circuitry, a circuit that also includes the amygdala, the hippocampus, the prefrontal cortex, the anterior cingulate cortex, the globus pallidus, the ventral pallidum, the substantia nigra, the ventrotegmental area and the mediodorsal nucleus of thalamus.<br /><br />Tonically active neurons (TANs) are cholinergic striatal interneurons that are interesting because they seem to process reward-related and motivational information.  It is thought that they help control the information that is projected out of the striatum through their contacts with the projection neurons, the medium spiny neurons. The responses of TANs were originally described as stereotyped conditioned stimuli (CS) predicting appetitive or aversive outcomes. The CS provoked a pause followed by a pulse, with pause plus pulse lasting a few hundred milliseconds.<br /><br />Given the rich encoding of reward value in OFC, we hypothesized that the OFC target in the ventral striatum might also have a rich encoding in our task. We recorded the responses of TANs in two monkeys that were given the option to accept or reject an offered reward that changed with every trial. The monkey began a trial by touching a bar.  A visual cue appeared indicating which of several possible rewards was being offered. The monkey could reject the offer or could accept, after which the offered reward was delivered. On each trial, the offer was chosen randomly from the combination of a 2, 4, or 6 drops of reward liquid and a discounting delay of 1, 4 or 7 seconds. The monkeys were more likely to accept big rewards delivered immediately and reject small rewards for which there was a long waiting time. Intermediate combinations led to intermediate probability of acceptance.  A reinforcement learning model showed the acceptance rates were related to a value the animal assigned to each offer.<br /><br />Just after the visual cue appeared, the TANs responded with a time-varying profile depending on the offered reward.  For 40% of the TANs, the response was for some values a pause in the ongoing activity followed by a pulse of activity, and for other values there was a pulse first, followed by a pause, i.e., the responses looked like a see-saw with one part going up that other down by the same amount, or vice-versa. Because of this see-saw type of response these neurons could appear to have no change in activity. However, if the temporal modulation, pause-pulse -&gt; pulse-pause is quantified using principal component analysis the responses show a powerful reward-dependent modulation, i.e. these neurons use a temporal code. The principal component analysis also showed that the other TANs were using a code by modulating either the pause or the pulse. Thus, all of the TANs can be regarded as having a temporally modulated neural code. This is perhaps the first time that this type of temporal coding mechanism has been observed anywhere in the brain. The temporal modulated response give the TANS a mechanism to reliably synchronize the activity of the targeted elements, medium spiny neurons and striatal dopamine terminals. These results provide strong evidence supporting a functional role of TANs for cognition and regulating behavior, and we have shown how these neurons have responses that are well-suited to provide precise, reproducible coding for different reward values, just the type of synchronization that is needed to promote organized motor behavior.<br /><br />Using chemogenetic tools such as DREADDs (Designer Receptors Exclusively Activated by Designer Drugs) to modulate neural activity in selected brain regions repeatedly and non-invasively is becoming a powerful means for investigating the connection between neural activity and behavior. Activating the DREADD is done with clozapine-N-oxide. If injected systemically it acts specifically where the DREADD is expressed. For example, we showed recently that reversibly inactivating OFC during a reward value experiment similar to that described above for the TANs leads to a loss of behavioral sensitivity to differences in rewards. Despite the success we had in the OFC experiment, there are several technical steps that need improvement. Ideally, we would like to know whether the injections of virus were made accurately into the targeted tissue region, and we would like to know that the gene for the DREADD in this case is producing the desired molecular product. <br /><br />To visualize the site of the DREADD viral construct at the time of surgery, we co-injected Mn2+ with the virus can be used for post-surgery verification of injection sites. Mn2+ elicits an MRI hyper-signal lasting up to a day after injection, showing that this procedure is valuable. To be sure that the Mn2+ does not interfere with the infectious titer of DREADD-containing virus, we added 10mM of MnCl2 to viral suspension, after which we saw that the titer was stable for at least 6 hours at room temperature. To test in vivo, 5 l of lentivirus was mixed with concentrations of MnCl2 of 0.1, 1.0, and 10mM, and injected into monkey cortex; all concentrations resulted in detectable MRI hyper-signal. Subsequent histological examination of the tissue showed that that coverage and penetrance were not affected by addition of MnCl2.<br /><br />We have shown that in vivo visualization of DREADD expression can be achieved using radiolabeled clozapine (C11-CLZ).  Clozapine is not typically used as an inducer due to its high affinity for several endogenous receptors. Recent findings suggest that CNO converts to clozapine in vivo, in both rats and monkeys. We sought to determine whether CNO-derived clozapine binds DREADDs expressed in the rhesus macaque brain. We expressed inhibitory DREADD, hM4Di, in the right amygdala of two rhesus macaques. This was achieved using lentivirus (130  200 uL), which expressed the designer receptor under the control of a human synapsin promoter. Then, using PET imaging, we visualized DREADDs in vivo with radiolabeled clozapine (C11-CLZ). C11-CLZ was used as the radioligand due to its high affinity for DREADDs and ability to cross the blood brain barrier. In both monkeys, PET imaging revealed increased C11-CLZ signal at the site of injection compared to non-target regions, confirming lateralized expression of DREADDs. Signal was also observed in other parts of the brain, particularly those rich in dopamine receptors  a known endogenous target of clozapine  such as the striatum. <br /><br />In a second experiment, CNO (10 mg/kg) was administered 10 minutes before the radioligand. We found that C11-CLZ uptake was blocked by CNO, resulting in reduced signal in the region of DREADD expression. Because CNO binds to the receptors selectively, this localized reduction was expected. However, we also observed a reduction in signal in non-target regions. The result of the CNO blocking study is consistent with what would be expected following the block of radiolabeled clozapine by unlabeled clozapine (i.e. a self-block) and supports the interpretation that CNO is converted to clozapine in sufficient quantities to produce detectable binding at endogenous receptors. These experiments suggest that activation of the DREADD could be accomplished through administration at a very low dose, likely subclinical, dose of clozapine.<br /><br /><br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101217&allpubs=Y&isajaxlink=Y&_UserReference=60318949BEBB51DF5B38D337','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Eldridge MA, Richmond BJ (2017) Resisting the Urge to Act: DREADDs Modifying Habits. Trends Neurosci 40:61-62
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28104285?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5285454/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28104285
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5285454 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Nagai Y, Kikuchi E, Lerchner W, Inoue KI, Ji B, Eldridge MA, Kaneko H, Kimura Y, Oh-Nishi A, Hori Y, Kato Y, Hirabayashi T, Fujimoto A, Kumata K, Zhang MR, Aoki I, Suhara T, Higuchi M, Takada M, Richmond BJ, Minamimoto T (2016) PET imaging-guided chemogenetic silencing reveals a critical role of primate rostromedial caudate in reward evaluation. Nat Commun 7:13605
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27922009?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5150653/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27922009
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5150653 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

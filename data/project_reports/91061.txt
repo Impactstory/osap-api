@@ -1,0 +1,760 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002838</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002838-12</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neurophysiology of Visual Perception
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+David A Leopold; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/david-leopold" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Cognitive Neurophysiology and Imaging, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Cognitive Neurophysiology and Imaging</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Kathryn A Smith<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Adebambo Adekanmi Adedire<br />
+
+
+
+
+Rebecca Ann Berman; PhD<br />
+
+
+
+
+Chunshan  Deng<br />
+
+
+
+
+Aidan Peter Murphy<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Mortimer  Mishkin; PhD  (Section on Cognitive Neuroscience)<br />
+
+
+
+Kadharbatcha Syed Saleem  (Laboratory of Neuropsychology)<br />
+
+
+
+Richard C Saunders; PhD  (Section on Cognitive Neuroscience)<br />
+
+
+
+Janita N Turchi; PhD  (Section on Cognitive Neuroscience)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Jozef H Duyn; PhD (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 7 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+James  Bourne
+<i>(Monash University)</i>
+<br />
+
+
+
+Ole  Jensen
+<i>(Donders Institute)</i>
+<br />
+
+
+
+Sang-Hun  Lee
+<i>(Seoul National University)</i>
+<br />
+
+
+
+Alexander  Maier
+<i>(Vanderbilt University)</i>
+<br />
+
+
+
+Pieter  Roelfsema; PhD
+<i>(Netherlands Institute for Neuroscience)</i>
+<br />
+
+
+
+Peter Ulrich Tse; PhD
+<i>(Psychological and Brain Sciences, Dartmouth College)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=91061&isajaxlink=Y&_UserReference=C476A62FFAB2C1565B38D10A','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 7</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+multistable perception, neurophysiology, visual perception, fMRI, visual psychophysics, blindsight
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+How we see, recognize, remember, and interact with the elements of the world is of great interest on many levels, ranging from philosophical to clinical.  The visual system of primates, including humans, approaches this task by combining a high-resolution foveal specialization of the retina with a brain specialized to interpret complex visual patterns and to determine where the fovea should next be pointed.  The interpretation of visual patterns ranges from geometric (e.g. what is in front and what is behind) to semantic (e.g. is this person trustworthy). Behind these interpretations is a hierarchy of cortical areas whose functioning has been the object of study for several decades. At the heart of our research program is the study of perceptual ambiguity.  Certain classes of stimuli are designed to be in a state of perpetual ambiguity  a situation in which the brain strangely solves the dilemma by periodically alternating between viable subjective interpretations.  Ambiguity can be captured in virtually all aspects of vision, ranging from color to shape, depth, movement, and even semantic features such as facial expression.  The abundance of perceptual ambiguity draws attention to the fact that, at some level of description, the brain actively constructs all information about the external world. Gaining a deeper understanding of inferential visual processes is important for understanding key aspects of human behavior, for at least two reasons.  First, the faculty of vision is the key model of human sensation in general, since vision is the primary sense that humans use to interact with their environment, particularly from a distance.  Second, these interpretive elements of the senses can go awry in psychiatric and neurological disorders. Disruptions in visual consciousness can affect people's lives in many ways, from basic visual capacities to social perception.  Thus understanding the brain mechanisms underlying visual perception is of great value for both basic research and medicine. In the Section on Cognitive Neurophysiology and Imaging, we are presently investigating a combination of electrophysiology and neuroimaging to investigate how the activity of neurons gives rise to our subjective perception, with a focus on neural activity in the visual cortex and thalamus.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+It may be seen as an accident of nature, and atypical among mammals, that human vision is so advanced.  As large-brained, large-eyed primates, humans have come to rely strongly upon vision, as it carries with many advantages, such as perceiving individuals and events from a distance. Primates in general take vision a step further than other mammals, using vision to observe others, evaluate social relationships and situations, select mates, and predict behavior. Vision is thus at the center of many aspects of human cognition related not only to our navigation and object recognition, but also to our interaction with others.  Thus understanding vision is critical for understanding human cognition.<br /><br />Our research program has its roots in the study of visual perception, from its barest raw signals coming out of the retina to its most complex interpretations in the prefrontal cortex.  We employ a range of experimental research tools to ask questions such as, how can the brain impose three-dimensional structure on its internal representation of the world, if its retinal images are inherently two-dimensional?  This question, familiar to vision scientists, may seem nonsensical to those who have not yet pondered the fact that there is a problem there.  When one looks at the 3-D world, or a 2-D photograph for that matter, the brain takes patterns of light and dark, color and texture, and composes the impression of three-dimensional space.  These mechanisms are so hard wired, that it is impossible to avoid seeing three-dimensional structure if the appropriate cues are there.  There are countless such cues, but to name a few, consider the tricks an artist uses to capture depth: perspective, shadows, texture gradients, foreshortening, and occlusion.  These and many others are automatically absorbed and unconsciously interpreted be the depth, avoiding any moment in which the world might appear as it is on the retina: flat.  We exploit particular cues for studying depth by stripping stimuli down to their bare minimum and leaving one cue, say 2-D shape, to define the three-dimensional structure. Within a range of parameters, virtually every such cue lends itself to perceptual ambiguity, where different people might see the same 2-D structure adopting different 3-D configurations.  In the right regime, the number of potential interpretations becomes exactly two.  And faced with this situation, the brain does something rather unexpected; it continually changes its mind, alternating subjectively between the two possible interpretations every few seconds.  Such stimuli, generally termed bistable, are useful tools for neuroscientists trying to understand the principles of visual perception.  For example, one is able to ask questions such as, if the stimulus on the retina is constant, but the perceptual interpretation spontaneously changes, where in the brain do neural responses reflect the unchanging stimulus and where to they instead reflect the changing percept?  This question is at the heart of much of our research.<br /><br />We have recently completed three studies related to the mechanisms underlying visual perception, with two others currently underway. One recently published study used a famous visual illusion, called a Kanizsa figure (Cox et al., Proc Natl Acad Sci (2013)), in which four pac man shapes face one another in a square array.  This configuration gives rise to the illusion of a surface that appears to float in front of the page, or in our case in front of the computer monitor screen.  We measured neural responses in area V4 while macaques viewed this stimulus under a number of configurations.  A subset of these configurations gave rise to the perception of a floating illusory surface, as described, whereas the rest were control stimuli that did not.  Importantly, the basic structure of the control stimuli was in nearly all ways similar to the main stimuli, except that the pac man elements were facing a different direction.  Thus we wanted to see whether neurons in area V4 responded in an enhanced manner during the illusion, as this may provide clues to how the brain infers surfaces from visual cues more generally.  We found that V4 neurons indeed responded much more vigorously during perception of the illusory surface than in any of the control conditions. Moreover, the firing took a different form, with large oscillations during floating surface perception that were not present when the image appeared only flat.  Interestingly, the role of a given neuron in this illusion was highly sensitive to the position of its receptive field, or the region of visual space that it monitored.  Small shifts of the stimulus relative to this receptive field changed the nature of the perceptual neural modulation.  Finding these results in V4, including both the perception-related modulation and the sensitivity to spatial position, adds new and potentially important evidence that this important part of the primate visual cortex is involved in the subjective construction of the third dimension of visual space.<br /><br />In another study (Murphy et al., Front Psychol (2014)), we investigated one salient feature of bistable visual perception that we discovered more than a decade ago (Leopold et al., Nature Neuroscience (2002)), which is that although the probability of seeing bistable stimulus a particular way on a given presentation may be likened to flipping a coin, things are very different when the stimulus is shown repeatedly.  Namely, repeated presentation of the same bistable stimulus leads to a stable perception of one or the other interpretation that can last for several minutes, rather than just a few seconds.  In our recent study, we demonstrated that this effect can last much longer yet, and is fundamentally driven by a new type of perceptual memory whose nature is only partially understood and whose underlying neural mechanisms are virtually unknown.  This study provides the basis for designing fMRI and electrophysiological experiments in the future to investigate the neural mechanisms.<br /><br />In a final study, we exploited the phenomenon of blindsight to study the information carried by visual pathways under conditions in which V1 is damaged.  In blindsight, there is a fascinating dissociation between the subjective perception of a person, who claims he or she cannot see anything, and their preserved capacity to use vision to guide certain aspects of their behavior, such as pointing to or reaching for an object.  Our most recent study is a follow-up in a series of studies related to blindsight, which have been reported in previous years.  In the most recent study, we found that the field potentials in area V4 were affected by a V1 lesion, to be expected. However, in contrast to the spiking of neurons carrying visual information about a stimulus, which are sharply diminished, the amplitude of stimulus-induced field potentials increased following the V1 lesion.  These results suggest that the residual pathways influencing cortical responses following V1 lesions affect the circuitry in a manner that is very distinct from the normal feedforward pathways.  While speculative, it is intriguing to think that this different mode of activity relates directly to the dissociation between perception and action, for which blindsight is famous.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91061&allpubs=Y&isajaxlink=Y&_UserReference=C476A62FFAB2C1565B38D10A','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Murphy AP, Leopold DA, Welchman AE (2014) Perceptual memory drives learning of retinotopic biases for bistable stimuli. Front Psychol 5:60
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24550874?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3909828/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24550874
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3909828 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Russ BE, Leopold DA (2015) Functional MRI mapping of dynamic visual features during natural viewing in the macaque. Neuroimage 109:84-94
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25579448?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4339453/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25579448
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4339453 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Schmiedt JT, Maier A, Fries P, Saunders RC, Leopold DA, Schmid MC (2014) Beta oscillation dynamics in extrastriate cortex after removal of primary visual cortex. J Neurosci 34:11857-64
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25164679?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4145181/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25164679
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4145181 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

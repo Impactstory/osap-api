@@ -1,0 +1,678 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002537</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002537-24</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Psychobiology And Treatment Of Perimenopausal Mood Disorders
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Peter J Schmidt; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/peter-schmidt" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Behavioral Endocrinology, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Behavioral Endocrinology</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 15 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Rivka Rivi Ben Dor<br />
+
+
+
+
+Anne F Bowles<br />
+
+
+
+
+Dara Maria Cannon; MD<br />
+
+
+
+
+Merry A Danaceau<br />
+
+
+
+
+Neelima  Dubey<br />
+
+
+
+
+Gioia Mia Guerrieri; DO<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=81183&onameset=Section on Behavioral Endocrinology&isajaxlink=Y&_UserReference=94563A6CABE4558A5B38D273','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 15</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Karen F Berman; MD (Section on Integrative Neuroimaging)<br />
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Lynnette K Nieman; MD (NICHD) <br />
+
+
+
+Michael T Collins; MD (NIDCR) <br />
+
+
+
+James C Reynolds; MD (CC) <br />
+
+
+
+
+
+
+
+
+
+
+
+
+David  Goldman; MD (NIAAA) <br />
+
+
+
+Lawrence M Nelson; MD (NICHD) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Susan  Girdler; PhD
+<i>(Department of Psychiatry, University of North Carolina at Chapel Hill)</i>
+<br />
+
+
+
+Christine  Marx; MD
+<i>(Psychiatry, Duke University)</i>
+<br />
+
+
+
+David R Rubinow; MD
+<i>(Department of Psychiatry, University of North Carolina at Chapel Hill)</i>
+<br />
+
+
+
+Carol A. Shively; PhD
+<i>(Pathology and Psychology, Wake Forest University)</i>
+<br />
+
+
+
+Patrick  Sullivan; MD, PhD
+<i>(University of North Carolina)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+depression, perimenopause, hormone therapy, estrogen, hypogonadism, premature ovarian failure, progesterone
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+This report includes work arising from the following protocols: NCT00030147, NCT00060736, NCT00001231, and NCT00001322.  The appearance of mood disorders that are specifically linked to the menopause transition suggests that hormonal events accompanying this stage of life might underlie the affective dysregulation that occurs in some women.  Indeed, longitudinal studies have observed a relationship between changes in reproductive function and the severity of mood symptoms in depressed perimenopausal women. The development of depression at midlife is important for several reasons.  First, in addition to the well-documented morbidity related to an episode of depression, depression conveys an increased risk for several medical illnesses relevant to women at midlife including osteoporosis, metabolic syndrome, and cardiovascular disease (CVD).  Thus, depressions during the menopause transition have important implications for women at midlife, but as with other reproductive endocrine-related mood disorders, they are seldom the focus of research.  Second, reproductive endocrine-related mood disorders represent pathophysiologically distinct subtypes of depression, since the appearance of symptoms is linked to a change in reproductive function.  Thus, better understanding their unique biologies could lead to the development of novel therapeutics for women with these conditions, the need for which is underscored by the constrained effectiveness of antidepressants in achieving remission in major depression (i.e., 28 to 40% efficacy).  Finally, there is considerable overlap between reproductive endocrine-related mood disorders and traditional affective disorders including symptom presentation and shared co-morbidities; nonetheless, reproductive-related mood disorders are distinguished by several characteristics including the linkage of the symptomatic state to a hormone transition and treatment response characteristics (i.e., efficacy of hormonal therapies, selective response to SSRIs versus other classes of antidepressants).  These mood disorders represent the convergent effects of the reproductive trigger and a susceptibility to experience affective dysregulation, since the same biological trigger is without effect on mood in women lacking the susceptibility.  Thus the susceptibility to a hormone-induced mood destabilization must involve differential processing of the hormone signal that leads to an abnormal affective state.  As such, these disorders provide an unparalleled opportunity to uncover the biological and environmental underpinnings of susceptibility to affective dysregulation.  We hope that our studies will provide insight into the mechanisms underlying affective disorders in general, and, additionally, may help to identify the mechanism whereby gonadal steroids modify the course or expression of affective disorders.<br />The specific goals and objectives for this project are as follows: 1) Define the role of estradiol withdrawal in the precipitation of depression during the perimenopause.  2) Identify the predictors of the development of depression in the context of menopause-related hypogonadism.  3) Determine the mood and behavioral effects of the selective estrogen receptor modulator raloxifene and phytoestrogens in perimenopause-related depression.  4) Perform investigations of disturbances in mood and behavior occurring in the context of ovarian failure in younger women.<br />The long-range goals will be to identify the mechanisms underlying the effects of gonadal steroids on affective state regulation and the effects of aging on the behavioral and neuroregulatory effects (HPA axis regulation, regional cerebral blood flow) of hypogonadism and gonadal steroid replacement.  Finally, we wish to determine the therapeutic utility and predictors of response to hormonal therapies (i.e., gonadal and adrenal steroids) in mood disorders occurring during midlife and the perimenopause.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The protocols involved in this project are as follows: 02-M-0120, 03-M-0175, 88-M-0131, 92-M-0174.<br />This report includes work arising from the following protocols: NCT00030147, NCT00060736, NCT00001231, and NCT00001322.<br />A role of estradiol withdrawal in the onset of mood disorders in some perimenopausal women has been suggested indirectly by the clustering of depressive episodes during the late menopause transition (the stage of ovarian aging associated with maximal decline of ovarian estradiol secretion) and by estradiol's antidepressant efficacy in perimenopausal depression.  Nonetheless, there is no direct evidence that estradiol withdrawal precipitates depressive episodes in those women who develop depression during the perimenopause.  In these studies, first we examine the effects of estradiol withdrawal and the recent onset of hypogonadism on mood symptoms in asymptomatic premenopausal women.  Second, we investigate what factors influence the development of depression during estradiol withdrawal.  If the onset of ovarian failure and/or the development of vasomotor symptoms and disturbed sleep during the menopause are sufficient to trigger depression, then the induction of a hypogonadal state should be accompanied by depressive symptoms in a substantial number of women.  We administered a GnRH agonist for two to three months to 72 regularly cycling, healthy premenopausal women (age: mean SD = 33.0 8.0 years) with no medical or gynecologic illness.  The absence of current or past psychiatric illness was confirmed by SCID interview, and daily symptom ratings were completed prior to the study to confirm the absence of significant menstrual cycle-related mood or behavioral symptoms.  Mood symptoms were measured by the BDI and a daily self-report symptom rating form.  We observed only four women (5.6% of the sample) who reported BDI scores &gt; 10 (suggestive of clinically significant symptoms of depression), and in only one of these women did the elevated BDI scores persist beyond two weeks duration (Ben Dor et al, in press).  In contrast to the relative absence of depressive symptoms in these women, we did observe the significant appearance of several symptoms including nocturnal hot flushes, disturbed sleep, and diminished libido (this latter finding is consistent with a subsample of these women in whom significant reductions in libido were observed in approximately 30% of the sample).  Neither plasma estradiol levels nor the severity of hot flushes correlated with mood rating scores.  Thus, in otherwise healthy women the induction of neither hypogonadism nor hot flushes (with an accompanying sleep disturbance) uniformly precipitates depressive symptoms.  Finally, the fact that our results stand in marked contrast to multiple case reports describing the onset of clinically significant depression during GnRH agonist treatment of several gynecologic disorders (e.g., endometriosis, uterine fibroids) suggests several biological factors (e.g., estrogen receptor signaling) that need to be studied as potential risks for the onset of depression in the context of estradiol withdrawal and hypogonadism.<br />In a second study, we evaluate the effects of the acute withdrawal of estradiol therapy in older postmenopausal women with and those without a past perimenopausal depression.  Estradiol withdrawal induces depressive symptoms in women with a past perimenopausal depression, but not in those without such a history.  In women with a past depression during the perimenopause, estradiol withdrawal is associated with a significant increase in depressive symptoms compared with those who were maintained on estradiol therapy.  Additionally, no significant depressive symptoms emerged in the women lacking a history of depression.  These data are consistent with those from epidemiologic studies showing that, for a subgroup of women, the endocrine events of the late menopause transition represent an important trigger for mood destabilization and the onset of depression.  Both the markers of this risk and the mechanisms underlying estradiol withdrawal-induced depressive symptoms remain to be identified.  The results of the Womens Health Initiative (WHI) have deterred many women from using estrogen therapy, and many women and their physicians are concerned about the long-term risks of estrogen therapy.  In a previous study, we demonstrated the antidepressant effects of the short-term administration of estradiol in women with perimenopausal depression.  We now examine the effects on mood and behavior of two compounds that for many women represent alternatives to traditional estrogen therapy.  Specifically, selective estrogen receptor modulators (SERMs) and phytoestrogens (plant-derived estrogen-like compounds) have become available and are reported to display both tissue-specific profiles of estrogen agonist and antagonist actions and differential affinities from estradiol for the two forms of estrogen receptor.  Preliminary results of this trial, demonstrate that after eight weeks of either estradiol or raloxifene (but not a plant-based phytoestrogen compound), mood rating scores were significantly decreased compared with baseline scores and significantly lower than scores in women receiving placebo.  Thus, we not only have replicated our previous demonstration of the therapeutic efficacy of estradiol in perimenopausal depression, but in addition, we have identified a potential new therapeutic agent (raloxifene) in this condition.  Comparable efficacy of raloxifene to that of estradiol would provide an alternative therapeutic option with a more acceptable profile of long-term side effects.  As phytoestrogens are already commonly recommended, and widely used for the treatment of mood symptoms, further clarification of their mood effects has significant public health implications.  In future studies, we will examine the antidepressant/anxiolytic efficacy of selective estrogen receptor beta agonists (when available for human use) in women with perimenopausal depression.<br />In a separate set of studies in collaboration with Dr. Laurence Nelson within NICHHD, we investigate the relationship between ovarian failure, deficiencies in testosterone production, and depression in younger women with karyotypically, normal, 46XX spontaneous (i.e., idiopathic) primary ovarian insufficiency (POI).  In a prior study, we identified a significantly greater lifetime prevalence of depression in adult women with POI than that reported in both the general population, and in gynecologic or general medical outpatient settings.  It has been suggested that the accompanying loss of ovarian testosterone production increases the risk for depression in POI (and in perimenopausal depression).  Thus we performed a randomized, placebo-controlled, trial of physiologic testosterone replacement in128 women with POI.  Results of this trial clearly show the lack of efficacy of testosterone on mood symptoms, quality of life, and self-esteem in POI.  A better understanding of the nature of the association between POI and depression could identify candidate genes and physiological processes that may inform both our understanding of the relationship between depression and POI, as well as the association between depression and the normally-timed menopause transition.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81183&allpubs=Y&isajaxlink=Y&_UserReference=94563A6CABE4558A5B38D273','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Gass ML, Manson JE, Cosman F, Grodstein F, Jordan VC, Karas RH, Kaunitz AM, Maki PM, Schmidt PJ, Shifren JL, Stuenkel CA, Utian WH (2012) The 2012 Hormone Therapy Position Statement of the North American Menopause Society. Menopause 19:257-271.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">North American Menopause Society (2012) The 2012 hormone therapy position statement of: The North American Menopause Society. Menopause 19:257-71.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22367731?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3443956/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22367731
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3443956 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

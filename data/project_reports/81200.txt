@@ -1,0 +1,1156 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002781</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002781-12</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">fMRI Studies Of Pediatric Mood And Anxiety Disorders
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Daniel  Pine; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/daniel-pine" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Development and Affective Neuroscience, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Development and Affective Neuroscience</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 11 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Monique  Ernst; MD, PhD<br />
+
+
+
+
+Andrea Lillian Gold<br />
+
+
+
+
+Johanna Molly Jarcho; PhD<br />
+
+
+
+
+Anastasia Lara McGlade<br />
+
+
+
+
+Kalina Julia Michalska; PhD<br />
+
+
+
+
+Eric E Nelson; BA, PhD<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=81200&onameset=Section on Development and Affective Neuroscience&isajaxlink=Y&_UserReference=6ECBCC4C177623FD5B38D6D0','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 11</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Ellen  Leibenluft; MD  (Section on Mood Dysregulation and Neuroscience)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+anxiety, SSRI, fMRI, fluoxetine, therapeutics, adolescence, depression, emotion, pediatrics
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Through a series of three protocols, we are using functional magnetic resonance imaging (fMRI) to examine individual differences in neurocognitive function among pediatric anxiety disorders and major depressive disorder.  As a secondary goal of the project, we also are examining the degree to which these neurocognitive measures predict treatment outcome.  Thus, in one aspect of this project, we will test the hypothesis that children and adolescents with mood and anxiety disorders exhibit hyperactivity in the amygdala and ventral prefrontal cortex when confronted with emotionally evocative stimuli.  In a second aspect of this protocol, we will test the hypothesis that levels of hyperactivity before treatment predict a patient's response to treatment.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Through a series of three protocols, we are using functional magnetic resonance imaging (fMRI) to examine neurocognitive correlates of pediatric anxiety disorders.  Through ongoing collaborative studies, we also have increasingly compared findings in these syndromes with findings in adult anxiety disorders as well as findings in other pediatric mental disorders.  Through collaborative work, we have a particularly strong interest in examining the similarities and differences between pediatric and adult mood and anxiety disorders.  From this vantage point, studies conducted at the NIH as part of this protocol focus most narrowly and deeply on pediatric anxiety disorders.  On the other hand, studies conducted with collaborators both within the NIH and at extramural sites focus most deeply on adult anxiety disorders and mood or other psychiatric disorders in children and adolescents.  Finally, as the neural correlates of anxiety have been defined increasingly precisely through work in this protocol, we have begun to focus more deeply on the manner in which effective treatment changes these neural correlates so that research on novel therapeutics might target such neural correlates.    <br /><br />The work performed under this protocol and with the many associated collaborators holds the potential to dramatically impact public health, for various reasons.  Mood and anxiety disorder dramatically alter the well-being of children and adolescents.  Nevertheless, relatively little work has been conducted on the underlying pathophysiology of these conditions, using methods that allow direct extensions to work in basic neuroscience.  fMRI research is vital for work in this area.  Such research assesses brain function in children using methods that are directly comparable to the techniques used to study brain function in animal models.  <br /><br />Work in this protocol holds the hope of generating insights on pathophysiology in a way that will lead to novel treatment discovery.  This hope has increased in recent years, with discovery of replicable perturbations that might be targeted by novel treatments.  This suggests that novel treatments have begun to  emerge through the confluence of findings in animal models and children.  As such, this protocol is beginning to generate treatments that will alter clinical practice.  In the past year, this work has focused most deeply on aspects of attention.  Moreover, this protocol can generate understandings of development.  This is because most adult mood and anxiety disorders also emerge from earlier disorders, manifest in childhood.  Therefore, not only might this protocol dramatically alter the well-being of youth, but it also holds the hope of improving the lives of adults.  Finally, we have increasingly incoroporated novel treatment approaches into the body of work implemented under this protocol.  This applies most directly to the a novel computer-based method for retraining attention in pediatric anxiety disorders.  This provides a novel means to achieve clinical benefits.  In fact, during the past two years, we completed one randomized controlled trial in 30 subjects with an anxiety disorder, and we are in the midst of a second trial designed to extend findings from this first study.  Moreover, through collaborative research, we have completed an additional three trials using similar methods.            <br /><br />The central focus of the protocol is on individual differences in neural circuitry function, as they relate to individual differences in behavior and clinical response to treatment.  Thus, in the most important aspect of the protocols, we are attempting to document deficits in brain systems mediating reward-related processes, attention bias, and emotional memory in pediatric mood and anxiety disorders.  Replicated findings from this project clearly implicate many such deficits in anxiety, moving research on developmental psychopathology into the domain of neuroscience.  This shows that individual differences in behavior firmly relate to individual differences in brainfunction.  In the past two years, our focus has been on extending attention-based and fear-conditioning work, in ways that most directly inform therapeutics.  As noted above, this has led us to implement novel therapies.  We have also just begin to return to questions on disorder specificity, with a particular focus on comparing fears that are elicited by social and non-social stimuli.  Thus, a particularly important goal in our current studies among individual groups of anxiety disorders.  <br /><br />Prior neuropsychological studies in children as well as in adults note that mood and anxiety disorders are associated with deficits in attention modulation and emotional memory.  We have found consistent evidence of such deficits in the current protocol.  Moreover, prior imaging studies in healthy adults note that tasks requiring attention modulation or emotional memory engage cortico-limbic brain regions previously implicated in adult mood and anxiety disorders.  These regions include the amygdala, ventral prefrontal cortex, cingulate gyrus, and hippocampus.  Once again, we also find such evidence in the current set of projects, with multiple, replicated reports of cortico-limbic dysfunction in both pediatric and adult anxiety disorders.  This shows that fMRI attention modulation and emotional memory paradigms differentially engage cortico-limbic brain regions in psychiatrically healthy and anxious, impaired subjects.  These studies are ongoing in more than 400 subjects.  For these subjects, each received neurocognitive examinations, and a subset received fMRI examinations.  Each received standardized assessments of response to treatment.  As part of our studies in healthy subjects, we also successfully developed each of the fMRI protocols that will be used in the current project.  As noted above, many of our initial hypotheses have been confirmed, and our studies are now moving forward to examine issues of specificity and to consider how our findings might be used to inform advances in treatment.  This involves a particularly deep focus on fear conditioning.    <br /><br />During the coming year, we will continue the process of analyzing the extensive data emerging from the fMRI studies performed as part of this protocol; we also will continue to analyze data from behavioral studies in patient groups.  Moreover, we also have finalized one randomized controlled trial; we have submitted the results of this trial for publication, and we have begun a second trial.  Finally, we have analyzed data acquired with our new fMRI protocols, particularly attention-based and fear-conditioning paradigms; we also have submitted results from these analyses for publication, and we have initiated new studies that extend this recently-completed work.  Beyond these ongoing behavioral and fMRI studies, our group is also involved in various collaborations that have led to analyses of other data sets and reporting of research findings.  This also has led to a number of recently published papers and manuscripts that are under review.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81200&allpubs=Y&isajaxlink=Y&_UserReference=6ECBCC4C177623FD5B38D6D0','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Blackford JU, Pine DS (2012) Neural substrates of childhood anxiety disorders: a review of neuroimaging findings. Child Adolesc Psychiatr Clin N Am 21:501-25.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22800991?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3489468/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22800991
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3489468 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Blair KS, Geraci M, Smith BW, Hollon N, DeVido J, Otero M, Blair JR, Pine DS (2012) Reduced dorsal anterior cingulate cortical activity during emotional regulation and top-down attentional control in generalized social phobia, generalized anxiety disorder, and comorbid generalized social phobia/generalized anxiety disorder. Biol Psychiatry 72:476-82
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22592057?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3424322/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22592057
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3424322 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Britton JC, Bar-Haim Y, Carver FW, Holroyd T, Norcross MA, Detloff A, Leibenluft E, Ernst M, Pine DS (2012) Isolating neural components of threat bias in pediatric anxiety. J Child Psychol Psychiatry 53:678-86.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22136196?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3354023/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22136196
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3354023 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Britton JC, Bar-Haim Y, Clementi MA, Sankin LS, Chen G, Shechner T, Norcross MA, Spiro CN, Lindstrom KM, Pine DS (2013) Training-associated changes and stability of attention bias in youth: Implications for Attention Bias Modification Treatment for pediatric anxiety. Dev Cogn Neurosci 4:52-64
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23200784?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3606014/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23200784
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3606014 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Chen G, Saad ZS, Britton JC, Pine DS, Cox RW (2013) Linear mixed-effects modeling approach to FMRI group analysis. Neuroimage 73:176-90
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23376789?dopt=Abstract" target="_blank">PubMed</a>
+
+
+           &nbsp;&nbsp;&nbsp;&nbsp;<i>Available in future as a Free Article</i> <!-- looks for PMC translations for in progress or embargoed -->
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23376789
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3638840 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Cho YT, Fromm S, Guyer AE, Detloff A, Pine DS, Fudge JL, Ernst M (2013) Nucleus accumbens, thalamus and insula connectivity during incentive anticipation in typical adults and adolescents. Neuroimage 66:508-21
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23069809?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3949208/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23069809
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3949208 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Eldar S, Apter A, Lotan D, Edgar KP, Naim R, Fox NA, Pine DS, Bar-Haim Y (2012) Attention bias modification treatment for pediatric anxiety disorders: a randomized controlled trial. Am J Psychiatry 169:213-20.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22423353?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3491316/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22423353
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3491316 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">8.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Guyer AE, Choate VR, Detloff A, Benson B, Nelson EE, Perez-Edgar K, Fox NA, Pine DS, Ernst M (2012) Striatal functional alteration during incentive anticipation in pediatric anxiety disorders. Am J Psychiatry 169:205-12.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22423352?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3307369/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22423352
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3307369 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">9.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Guyer AE, Choate VR, Pine DS, Nelson EE (2012) Neural circuitry underlying affective response to peer feedback in adolescence. Soc Cogn Affect Neurosci 7:81-92.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/21828112?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3252630/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 21828112
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3252630 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">10.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Jarcho JM, Leibenluft E, Walker OL, Fox NA, Pine DS, Nelson EE (2013) Neuroimaging studies of pediatric social anxiety: paradigms, pitfalls and a new direction for investigating the neural mechanisms. Biol Mood Anxiety Disord 3:14
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23849682?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3733938/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23849682
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3733938 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">11.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Mueller SC, Aouidad A, Gorodetsky E, Goldman D, Pine DS, Ernst M (2013) Gray matter volume in adolescent anxiety: an impact of the brain-derived neurotrophic factor val(66)met polymorphism? J Am Acad Child Adolesc Psychiatry 52:184-95.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23357445?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3570270/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23357445
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3570270 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">12.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Olsavsky AK, Brotman MA, Rutenberg JG, Muhrer EJ, Deveney CM, Fromm SJ, Towbin K, Pine DS, Leibenluft E (2012) Amygdala hyperactivation during face emotion processing in unaffected youth at risk for bipolar disorder. J Am Acad Child Adolesc Psychiatry 51:294-303.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22365465?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3292775/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22365465
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3292775 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">13.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Roy AK, Fudge JL, Kelly C, Perry JS, Daniele T, Carlisi C, Benson B, Xavier Castellanos F, Milham MP, Pine DS, Ernst M (2013) Intrinsic functional connectivity of amygdala-based networks in adolescent generalized anxiety disorder. J Am Acad Child Adolesc Psychiatry 52:290-299.e2
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23452685?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3760686/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23452685
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3760686 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">14.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Shechner T, Wakschlag N, Britton JC, Jarcho J, Ernst M, Pine DS (2013) Empirical examination of the potential adverse psychological effects associated with pediatric FMRI scanning. J Child Adolesc Psychopharmacol 23:357-62
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23738869?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3689936/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23738869
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3689936 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

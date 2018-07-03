@@ -1,0 +1,693 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002962</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002962-01</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Sleep and Neurodevelopment Service
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lead Investigator</div></div>
+
+<div class="rowdiv">
+<div class="data">
+Ashura  Buckley
+<br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any LIs -->
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<!-- display SoRs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Supervisor of Record</div></div>
+<div class="rowdiv">
+<div class="data">
+ <!-- faculty test -->
+Maryland  Pao; MD 
+ <!-- faculty test -->
+<br />
+
+</div>
+</div>
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Office of the Clinical Director, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Office of the Clinical Director</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 9 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Matthew James Brannan<br />
+
+
+
+
+Daniel None Ephrem<br />
+
+
+
+
+James Kenneth Hollingsworth<br />
+
+
+
+
+Josiah  Koleosho<br />
+
+
+
+
+Amanda Grace Kuhn<br />
+
+
+
+
+Sunitha Lena Nune<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=101697&onameset=Office of the Clinical Director&isajaxlink=Y&_UserReference=1480404BD966C9D15B38D483','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 9</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+David  Driver; MD  (Child Psychiatry Branch)<br />
+
+
+
+Cristan Ann Farmer; PhD  (Pediatric and Developmental Neuropsychiatry Branch)<br />
+
+
+
+Susan Elizabeth Swedo; MD  (Pediatric and Developmental Neuropsychiatry Branch)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Alison Marie Boyce; MD (NIDCR) <br />
+
+
+
+Michael T Collins; MD (NIDCR) <br />
+
+
+
+Sara K Inati; MD (NINDS) <br />
+
+
+
+Omar Iqbal Khan; MD (NINDS) <br />
+
+
+
+Yaron  Rotman (NIDDK) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Greg  Holmes; MD
+<i>(University of Vermont)</i>
+<br />
+
+
+
+Alcibiades  Rodriguez; MD
+<i>(NYU)</i>
+<br />
+
+
+
+leila  tarokh; Phd
+<i>(University Hospital of Child & Adolescent Psychiatry and Psychotherapy Research Department, Universi)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+sleep, neurodevelopment, disorders
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The goal of the Sleep Disorders and Neurodevelopment Service is to provide clinical assessment and diagnosis of sleep disorders for children and adults for the Clinical Center. The ultimate goal of the research component of this service is to work collaboratively with scientists inside and outside of the NIH to help identify electrical activity patterns in the sleeping brain that might predispose to neurodevelopmental disability or mental illness. If we can identify these patterns, we can work together to identify therapeutic targets.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+This past year the Sleep and Neurodevelopmental Service conducted over 120 overnight sleep studies ordered by nine different institutes. Seventy-three of those studies were performed in pediatric patients. We have collected sleep data on several distinct  cohorts including children with childhood onset schizophrenia, obsessive compulsive disorder, autism, McCune Albright Syndrome, Chronic Fatigue Syndrome and Sickle Cell Disease as well as for people with various disorders of neurodevelopment with both known and unknown genetic causes. We are working with our collaborators to try to identify unique sleep signals that help define the disorders under study and therefore outline paths for potential therapeutic intervention. <br /><br />Some of our earliest work, looking at sleep in children with autism, helped us understand that there is a lot of information in the way the brain sleeps and that sleep neurophysiology also contains important information about the way the brain matures. We recently published our findings comparing the way the brain is connected in different regions and in different states, for different groups of young children; those with autism, those with developmental delays without autism and those with typical development. We found that there were very pronounced differences in connectivity that were region-specific and most evident when the children were in slow wave sleep. We have recently completed a study of sleep neurophysiology in young children at risk for autism due to severe language delays through a natural history study of children ages 12 - 18 months (Protocol 11-M-0144, NCT01339767), where we were able to explore longitudinally how very early differences in sleep rhythms and maintenance may relate to aberrant development and the onset of autistic symptoms; that analysis and publication is forthcoming. <br /><br />These findings highlight the importance of looking at the sleeping brain during development for some of the earliest clues regarding neurodevelopmental disorders. Yet, considerable gaps in knowledge still exist in our understanding of sleep measurements and how these change during the early periods of brain development. Filling in these gaps may aid in the earliest identification of mental health disorders. We work closely with the Neurodevelopmental and Behavioral Phenotyping Service to best associate changes in the sleeping brain to neurodevelopmental stages in typical and atypical neurodevelopment. <br /><br />A major focus of the research arm of the Service is to develop a comprehensive battery of sleep measurements as a mainstay of clinical assessment of children at risk for neurodevelopmental disorders. Through our efforts with researchers from many different disciplines, we hope to create and initiate standardized protocols for collecting sleep data on children. These protocols would include comprehensive behavioral assessments at the time of the sleep exam in order to best identify normal and abnormal developmental trajectories at the earliest possible opportunity.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+<!-- do not show project link -->
+
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Gaughan T, Buckley A, Hommer R, Grant P, Williams K, Leckman JF, Swedo SE (2016) Rapid Eye Movement Sleep Abnormalities in Children with Pediatric Acute-Onset Neuropsychiatric Syndrome (PANS). J Clin Sleep Med 12:1027-32
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27166296?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4918985/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27166296
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4918985 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Schwartz S, Kessler R, Gaughan T, Buckley AW (2017). Electroencephalogram Coherence Patterns in Autism: An Updated Review. Pediatr Neurol  67, 7-22.   https://doi.org/10.1016/j.pediatrneurol.2016.10.018
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28065825?dopt=Abstract" target="_blank">PubMed</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28065825
+    
+     <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

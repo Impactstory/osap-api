@@ -1,0 +1,390 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002039</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002039-35</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Pharmacology of Stimulus Memory and Habit Formation
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Mortimer  Mishkin; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/mortimer-mishkin" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Cognitive Neuroscience, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Cognitive Neuroscience</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Janita N Turchi; PhD<br />
+
+
+
+Richard C Saunders; PhD<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Brian Anthony Corgiat<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+muscarinic receptor, cholinergic deafferentation, monkeys, visual recognition, proteomics, AMPA/kainate receptor, rhinal cortex
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The research focuses on the neurobiology of visual and auditory memory in monkeys, as well as in normal and brain-injured children. Besides employing cross-species comparisons, our work is highly multidisciplinary, as it utilizes behavioral, neuroanatomical, electrophysiological, pharmacological, and metabolic methods, as well as structural and functional neuroimaging techniques. <br /><br />This past year many of the questions we have been addressing in the area of visual memory revolve around the issue of neurochemistry of the multiple cerebral memory systems or circuits:   Do the synaptic changes that occur during learning depend disproportionately on different neuromodulators, namely, acetylcholine in the case of the visuo-limbic pathways and dopamine in the visuo-striatal pathways?  What are the intracellular protein changes associated with memory processing within these memory systems?   As memory impairments are a characteristic of many psychiatric neurologic illnesses (e.g. schizophrenia, Alzheimer's disease) and aging, understanding the different systems and their pharmacology may lead to new and important treatments. <br /><br /><br />This is the last year of this project
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The memory impairment associated with Alzheimers disease has long been associated with a loss in acetylcholine function and pathophysiology of the entorhinal/perirhinal, or rhinal cortex. In monkeys, lesions of this region as well as cholinergic deafferentation lead to severe memory deficits. We recently compared the effects of selective infusion of the (cholinergic receptor) m1 antagonist pirenzepine, and the m2 antagonist methoctramine directly into the rhinal cortex. Our findings suggest that m1 and m2 receptor subtypes in the perirhinal cortex have functionally dissociable roles, and that visual recognition memory is critically dependent on the m1 receptor subtype.  To examine more about the m1 muscarinic-dependent intracellular signaling pathways that underlie critical synaptic changes important for memory we used a proteomics approach to uncover the molecular signaling pathways activated during memory formation in a region-specific manner using two techniques: laser capture microdissection and reverse phase protein microarrays. Sections of snap-frozen perirhinal tissue from Rhesus monkeys were prepared and stained for Nissl substance. Tissue subregions of perirhinal cortex (Layers III and V/VI), as well as hippocampus (cell body layers of CA1, CA3, and dentate gyrus and their corresponding dendritic fields), were isolated using laser capture microdissection. Lysed tissue samples were then printed onto reverse phase protein arrays (RPPA). These arrays were probed with antibodies against phosphorylated, as well as total, proteins involved in muscarinic signaling, synaptic transmission, and neuronal activity.  We focused on the muscarinic acetylcholine receptor (M1AChR) and the mechanistic target rapamycin (mTOR) signaling pathways to determine the baseline biological variability of the phosphoprotein signature within monkey brain cortical layers. The ventral portion of the anterior TE (TEav), the perirhinal cortex (PRh), the entorhinal cortex (ERh) and the rostral hippocampus (HF) were dissected from both hemispheres of four rhesus monkeys, and key laminae of TEav, PRh, and ERh, as well as key strata of HF within each subregion, were microdissected using laser capture microdissection. Phosphoprotein and total protein levels of 19 endpoints within the m1AChR or mTOR signaling pathways were quantified using reverse phase protein microarrays.<br />Comparing the variability of phosphoprotein levels between (a) the local microenvironment at the mid rostro-caudal level of the PRh within a single monkey, (b) along the rostro-caudal axis of the PRh within a single monkey, and (c) at the mid rostro-caudal level of the PRh between monkeys, revealed a different pattern for the m1AChR signaling pathway compared to mTOR signaling. As expected, m1AChR pathway signaling variability increased step-wise from the local mid-PRh microenvironment to the entire  PRh between monkeys. In contrast, mTOR signaling showed a significantly higher variability that did not follow the same pattern, with only a slight increase of variability across monkeys compared to within monkey PRh.<br />Memory formation and retrieval depends on the translaminar and layer-specific inter-area flow of information within a highly complex neural network. We therefore wanted to establish whether baseline m1AChR and mTOR signaling differed between individual layers of the cortical subregions of visual association area TE and the perirhinal cortex. Overall, m1AChR pathway activation was not different between individual layers within anterior TEav, perirhinal cortex or the entorhinal cortex. However, mTOR pathway activation was increased in PRh layers 5/6 compared to layer 3. In addition, mTOR signaling was increased in ERh layers 2/3 versus layers 5/6. Interestingly, this complements the known anatomical connections, where PRh layers 5/6 feed into ERh layers 2/3. Using the workflow we established, we were able to quantify mTOR and m1AChR signaling pathway activation within specific laminae of the monkey PRh, as well as critical brain regions feeding into PRh (area TEav) and those receiving input from the PRh (ERh and hippocampus). The pattern of mTOR pathway activation followed the physiologic route of neuronal signaling between the PRh and the ERh. This sets the stage to determine the role of key cell signaling pathways on visual recognition memory in behaviorally trained non-human primates.<br /><br />This project has now been terminated.<br /><br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101210&allpubs=Y&isajaxlink=Y&_UserReference=5C89E831515925575B38D335','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+No publications during this reporting period
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

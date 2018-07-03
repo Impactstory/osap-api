@@ -1,0 +1,688 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002717</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002717-20</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neuroimaging of Brain Circuits and Neurogenetic Mechanisms in Normal Cognition
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Karen F Berman; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/karen-berman" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Integrative Neuroimaging, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Integrative Neuroimaging</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 28 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Jose A Apud; MD, PhD<br />
+
+
+
+
+Jasmin Bettina Czarapata<br />
+
+
+
+
+Saumitra  Das; MS<br />
+
+
+
+
+Dwight  Dickinson; PhD<br />
+
+
+
+
+Daniel P Eisenberg<br />
+
+
+
+
+Shannon C Flynn; BA, MA<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=86287&onameset=Section on Integrative Neuroimaging&isajaxlink=Y&_UserReference=4FB897E3A6497E7F5B38D3EE','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 28</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Bhaskar S Kolachana; PhD  (Human Brain Collection Core)<br />
+
+
+
+Tuong Vi  Nguyen; MD  (Section on Behavioral Endocrinology)<br />
+
+
+
+Peter J Schmidt; MD  (Behavioral Endocrinology Branch)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborator
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Venkata  Mattay
+<i>(Lieber Institute for Brain Development)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+neuroimaging, DLPFC, PET, brain function, cognition, dopamine, fMRI, genetics, neuropsychiatric disorders
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The Section on Integrative Neuroimaging uses multimodal neuroimaging methods as a brain phenotyping tool, with the specific aim of defining brain circuits within which to characterize the impact of allelic variation. The overall objective of this work is to use multimodal neuroimaging to incorporate genetic information into a mechanistic account of brain function, development and dysfunction in order to understand mechanisms that translate genetic effects into risk for mental illness (Studies 00-M-0085 NCT00004571, 90-M-0014 NCT00001258, and 09-M-0176 NCT00942981). <br />To date, our work on the neurobiology of genes of interest to schizophrenia has concentrated on healthy control subjects, in whom we have tested for genotype effects on cortical-subcortical circuitry and on the relationship between subcortical dopamine stores and cortical function. This work will continue to build the sample sizes of our multimodal data sets in all neuroimaging domains, a necessity for examining gene-gene interactions. Furthermore, the initiation of a dedicated longitudinal study of children and adolescents will allow us to refine our knowledge of developmental trajectories and neural maturation by gene interaction effects on the defined circuitry.  In collaboration with the Section on Behavioral Endocrinology, we will also be able to discern how these neurodevelopmental changes may be linked to precisely measured pubertal advancement.<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+In pursuit of its long-standing commitment to characterizing the neurochemical, neurogenetic, and neuropsychological contributions to neural systems function and development relevant to mental illness, the Section on Integrative Neuroimaging (SoIN) has made tremendous progress in building two unprecedented scientific resources: first, a unique multimodal positron emission tomography dataset that will soon be able to answer fundamental questions about dopamine pre- and post-synaptic function in a more comprehensive way than previously possible; and, second, a neurodevelopmental dataset that incorporates structural and functional magnetic resonance-based brain imaging, and, in conjunction with the Section on Behavioral Endocrinology, precise, state-of-the-art endocrinological measurements of pubertal status.  These extensive and comprehensive ongoing data acquisition efforts have yielded a growing repository of integrated information about the brain, which will permit both novel analyses synthesizing disparate but interrelated indices of pre- and post-synaptic dopamine functioning and discovery of critical genetic and endocrinological factors guiding neurodevelopment. <br />There have been achievements on several fronts, including multimodal elaboration of normative social information processing and identification of novel genetic associations with cortical activation to mnemonic challenge.<br />Because the neural mechanisms contributing to altered processing of social cues in neuropsychiatric conditions such as schizophrenia, autism and Williams syndrome remain mysterious, preventing development of targeted biological therapies, we have employed integrated multimodal methods to investigate the dynamics of brain networks critical for processing socially salient stimuli.  We have been able to characterize functional correlates of facial expression viewing with unprecedented detail by measuring sustained blood-oxygenation level-dependent (BOLD) signal (providing excellent spatial resolution; from fMRI) and transient gamma-band activity (GBA; providing excellent temporal resolution; from MEG) responses to environmentally valid, dynamic emotional cues. We demonstrated for the first time that midbrain presynaptic dopamine synthesis (from PET) predicts BOLD and GBA signals in important socio-emotional brain regions such as the superior temporal sulcus (STS) (Jabbi et al., 2013) and have now extended this work to show that both transient beta-band activity and BOLD signal show concomitant modulation over time as facial expressions emerge on a viewed face. (Jabbi et al., 2014)<br />Other recent work has focused on defining the impact of gene variants associated with schizophrenia and has begun to evaluate new hypotheses about how sequelae of common genetic variation intersects with the biology of mental illness.  This includes testing of several epistatic hypotheses, which has become increasingly critical (Eisenberg et al., 2013) and is exemplified by several novel neuroimaging genetic experiments, such as those confirming previous preclinical interactions between SLC12A2 and DISC1. (Callicott et al., 2013)  This also includes testing hypotheses generated by large-scale, data-driven genome-wide association analyses, as was executed in a high-profile, multistep investigation of allelic variation in SCN2A, a gene coding for a sodium channel protein, which shows not only genome-wide association with general cognitive ability, but also association with working-memory induced prefrontal activation. (Dickinson et al., 2014)<br />In summary, the Section on Integrative Neuroimaging has made substantial progress toward advancing its long-range, central research aims and with further data acquisition will be well-poised to address several pressing scientific questions of high impact to the neuroscience field.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86287&allpubs=Y&isajaxlink=Y&_UserReference=4FB897E3A6497E7F5B38D3EE','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Callicott JHC, Feighery EL, Mattay VS, White MG, Chen Q, Baranger D, Berman KF, Lu B, Song H, Ming G, Weinberger DR (2013) DISC1 and SLC12A2 interaction affects human hippocampal function and connectivity. J Clin Invest 123:2961-4
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23921125?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3999052/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23921125
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3999052 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Eisenberg DP, Kleinman J, Berman KF (2013) Epistasis and complex neuropsychiatric phenotypes. Psychiatry 76:295-7
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23965266?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4207620/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23965266
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4207620 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Jabbi M, Nash T, Kohn P, Ianni A, Rubinstein D, Holroyd T, Carver FW, Masdeu JC, Kippenhan JS, Robinson SE, Coppola R, Berman KF (2013) Midbrain presynaptic dopamine tone predicts sustained and transient neural response to emotional salience in humans: fMRI, MEG and FDOPA PET. Mol Psychiatry 18:4-6
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22411228?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3526684/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22411228
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3526684 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

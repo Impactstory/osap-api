@@ -1,0 +1,458 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002807</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002807-12</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Zurich Cohort Study of Young Adults
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Kathleen R Merikangas; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/kathleen-merikangas" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Developmental Genetic Epidemiology, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Developmental Genetic Epidemiology</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Lihong  Cui; MS<br />
+
+
+
+
+Jennifer  Glaus; PhD<br />
+
+
+
+
+Diana Nicole Paksarian; PhD<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Jules  Angst; MD
+<i>(University of Zurich, Switzerland)</i>
+<br />
+
+
+
+Ian  Hickie; MD
+<i>(University of Sydney, Australia)</i>
+<br />
+
+
+
+Wulf  Rossler
+<i>(Zurich University Psychiatric Hospital, Switzerland)</i>
+<br />
+
+
+
+Joel  Swendsen; PhD
+<i>(Department of Psychology, University of Bordeaux, France)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+longitudinal, epidemiology, anxiety, depression, migraine, comorbidity, stability
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+This study was designed to investigate the prevalence of mental disorders and symptoms and functional somatic syndromes in the general population of the canton of Zurich, Switzerland.  The chief goals of our analyses of this study are: (1) to describe the frequency of occurrence, severity and chronicity of mental disorders from early to mid-adulthood and (2) to examine changes in the structure of psychopathology across adulthood, including patterns of comorbidity between psychiatric and somatic conditions.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+During the past year, we have continued to analyze the data from this unique prospective cohort study that covers a total observation period of 30 years for this cohort of young adults who have been followed since the age of 18. In collaboration with our colleagues in Zurich, we have completed a recently published analysis describing the frequency of occurrence of mental disorders across adulthood, taking into account information from the latest wave of follow-up in 2008. This is the only study that has described these patterns among a cohort starting in young adulthood. Analyses approximate the lifetime risk of disorders through age 50. Results indicate that mental disorders occur relatively commonly across this age range; lifetime risks range from 1.21% for Bipolar I Disorder to 32.54% for Major Depressive Disorder. <br /><br />These findings, that it is relatively common for people to experience at least one episode of mental disorder across the course of adulthood, have led us to ask what proportion of adults in the general population experience repeated or chronic episodes of mental disorder across adulthood. We have begun a project that will address this question in the Zurich Cohort Study. The Zurich Cohort Study's prospective, longitudinal design makes it one of only a few data sources in which this question can be investigated without relying on long periods of retrospective recall. We will investigate the persistence of specific categories of mental disorder, including mood, anxiety, phobias, and substance use disorders, and of mental disorder in general. We will also investigate sex differences in the persistence of mental disorders across adulthood.<br /><br />Public Health Impact:<br />These studies provide valuable insight into the nature of mental disorders and their burden among adults across time. The Zurich Cohort Study is an extremely valuable data source, as it is the longest community-based longitudinal study in which participants were enrolled at the beginning of adulthood. Data on the frequency and persistence of mental disorders are important for planning interventions and service delivery as well as for research on etiology. Our investigation of the persistence of mental disorders may provide a valuable counterpoint to the high lifetime prevalence rates that are often reported in community surveys of mental disorder.<br /><br />Future Plans:<br />During the next year, in addition to completing the project described above, we plan to analyze the 30 year follow-up data on the following topics: 1) the reliability of participant-reported prevalence and age of onset of mental disorders in community-based studies; 2) the comorbidity of physical health conditions and mental disorders across adulthood; 3) patterns of sleep across adulthood and the relationship between sleep and mental disorders; and 4) the spectrum of mania, hypomania, and depression in the general population, including order of onset and patterns across age.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91012&allpubs=Y&isajaxlink=Y&_UserReference=487B2C7804B440765B38D6A4','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+No publications during this reporting period
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

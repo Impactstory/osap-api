@@ -1,0 +1,626 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002882</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002882-08</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Characterizing the function of miRNAs in neural development, synaptic plasticity and schizophrenia.
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Zheng  Li; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/zheng-li" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Synapse Development and Plasticity, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Synapse Development and Plasticity</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Qinhua  Gu<br />
+
+
+
+
+Zhonghua  Hu<br />
+
+
+
+
+Jacob  Nordman<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Lee E Eiden; PhD  (Section on Molecular Neuroscience)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Jun  Zhu; PhD (NHLBI) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+M  Braga; PhD
+<i>(Psychiatry,  Uniformed Services University of the Health Sciences)</i>
+<br />
+
+
+
+Keshen  Li; PhD
+<i>(Department of Neurology, Guangdong Medical College)</i>
+<br />
+
+
+
+Ann M. Marini; PhD, MD
+<i>(Neurology, Uniformed Services University of the Health Sciences)</i>
+<br />
+
+
+
+Danni  Yu; PhD
+<i>(Department of Statistics, Purdue University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+miRNA, schizophrenia, neural development, synaptic plasticity, long-term synaptic depression, NMDA receptor, dendritic spine, synapse
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Schizophrenia is a severe psychiatric disorder with a lifetime prevalence of 4.0/1,000 worldwide. It is among the top 10 causes of disability worldwide,and there is no known cure for it. Its symptoms, which typically begin in young adulthood, include hallucinations, delusions, and cognitive impairments. It is thought that schizophrenia is caused by a combination of genetic predisposition and environmental stresses during development and in the adult. Search for the genetic underpinnings is one of the major areas of schizophrenia research. From the genetic studies of schizophrenia, a complex genetic architecture has emerged, and tens of risk genes and alleles have been identified. However, except a few promising loci, most of the known risk variants have small effect sizes and lack definitive proof for their causal links to schizophrenia. The genetic basis of schizophrenia is still elusive. <br />The genetic studies of schizophrenia to date have been focused on protein-coding genes. It is increasingly recognized that microRNAs (miRNAs) play important roles in diverse cellular processes. miRNAs are small non-coding RNAs which are about 18-26 nucleotides in length. Mature miRNAs bind to mRNAs to modulate their translation and stability. Because most miRNAs can potentially target to hundreds of mRNAs, and each mRNA usually has binding sites for multiple miRNAs, miRNAs serve as key regulators to control the robustness of gene expression in a fine-tuned manner. MiRNAs are essential for differentiation, development and plasticity of neurons. Intriguingly, mounting evidence suggests that mutations in miRNA genes and miRNA biogenesis machinery are associated with increased risk of schizophrenia. Over 1000 miRNAs have been identified in humans, and hundreds of them are expressed in the brain, but only a small number of miRNAs have been studied in schizophrenia. A systematic investigation of the significance of miRNAs for schizophrenia is necessary to obtain a complete understanding of the genetics of schizophrenia.<br />The goal of this project is to determine the functions of miRNAs in synaptic plasticity and in schizophrenia, and to gain insights into the pathogenic mechanisms of synaptic pathology associated with schizophrenia. The objective of this project during the current reporting period is to identifiy miRNAs involved in synaptic plasticity and differentially expressed in szhizophrenia brains.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+1. The role of miRNAs in long-lasting synaptic plasticity.<br />microRNAs (miRNAs) are short, non-coding RNAs that bind to mRNAs to inhibit translation and/or promote mRNA degradation. Each miRNA can potentially target to hundreds of distinct mRNAs, and thousands of genes are regulated by miRNAs. miRNAs are increasingly recognized as key regulators of gene expression and have been found to play important roles in diverse cellular processes, such as the differentiation and development of cells. <br />miRNAs are crucial for proper brain function. Hundreds of miRNAs are expressed in the brain. miRNA loss i leads to alterations in synaptic protein expression, synaptic transmission, dendritic spines, learning, and memory. Several miRNAs, such as miR-134, miR-125, miR-138, miR-132, miR-29 and miR-188, regulate the morphogenesis of dendritic spines. miRNAs are also implicated in mental disorders. For instance, mounting evidence suggests that mutations in miRNA genes and miRNA biogenesis machinery are associated with increased risk of schizophrenia (Beveridge et al., 2008). Despite the demonstrated importance of miRNAs, however, the function of the vast majority of miRNAs expressed in the brain have yet to be elucidated. <br />&amp;#945;-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptors (AMPAR) are ionotropic glutamate receptors that mediate fast excitatory synaptic transmission in the central nervous system. AMPAR are tetramers composed of four possible subunits (GluA1-4) (Shepherd and Huganir, 2007). The number of AMPAR in synapses determines the strength of synaptic transmission, and their abnormal expression has been implicated in cognitive impairments associated with such neurological and neuropsychiatric diseases as Alzheimers disease, ischemia, schizophrenia and depression (Chang et al., 2012). <br />AMPAR expression is regulated by synaptic activity (Grooms et al., 2006). During activity-dependent synaptic plasticity, for instance, the activation of N-methyl-D-aspartate (NMDA) or metabotropic glutamate receptors affects the abundance of synaptic AMPAR through both post-translational mechanisms (including phosphorylation, palmitoylation and ubiquitination) and local translation of dendritic mRNAs encoding AMPAR subunits (Grooms et al., 2006; Ju et al., 2004; Lu and Roche, 2012; Snyder et al., 2001; Sutton et al., 2006). Activity-dependent modulation of AMPAR is an important mechanism that tunes synaptic strength to refine synaptic connectivity during brain development and to store information in the brain during learning and memory (Shepherd and Huganir, 2007). Despite the broad recognition that AMPAR play a pivotal role in brain functions, however, molecular mechanisms underlying their regulation, especially activity-dependent local translation of AMPAR in dendrites, are only incompletely understood. <br />In neurons, many miRNAs localize to dendrites where they can be regulated by synaptic activity (Hu et al., 2014; Schratt, 2009). For instance, NMDAR activation inhibits miR-191 expression locally in dendrites, resulting in an elevation of its target tropomodulin-2, which promotes actin depolymerization, shrinkage and elimination of dendritic spines. In view of this finding, we hypothesize that miRNAs also contribute to activity-dependent local synthesis of AMPAR in dendrites. .   <br />To test this hypothesis, we combined miRNA pull-down and computational prediction to search for miRNAs that target the AMPAR subunit GluA1. This approach leads to the identification of miR-501-3p as a GluA1 binding miRNA. Our further analysis of miR-501-3p shows that it is increased locally in dendrites following NMDAR activation, and that this upregulation of miR-501-3p is required for NMDAR-dependent inhibition of GluA1 expression, long-lasting spine shrinkage and elimination. These findings reveal that miRNAs are important regulators of activity-dependent local synthesis of dendritic AMPAR. <br />2.  Delineating the miRNAome in schizophrenia.<br />Schizophrenia is a debilitating mental illness with a lifetime prevalence of 4.0/1,000 worldwide, and a typical age of onset at late adolescence and young adulthood. Schizophrenia manifests as a spectrum of clinical symptoms, such as hallucinations, delusions and social withdrawal, with cognitive deficits as a core feature. The etiology of schizophrenia is unclear. Family, twin and adoption studies indicate that schizophrenia has a strong genetic component. It is thought that schizophrenia is caused by complex interactions between multiple genes and the environment. Linkage and association studies have led to the discovery of dozens of susceptibility genes. However, most risk genes have small effect sizes and are protein-coding genes. The genetic architecture of schizophrenia is still largely unclear.<br />The recently-established next-generation sequencing technologies have significantly pushed back the limitations of prior transcriptome profiling approaches by greatly improving the throughput and depth of coverage. In addition, the superior sensitivity and quantifiability of next-generation sequencing are especially advantageous to detect low-abundant miRNAs. In this study, we applied the Illumina Solexa deep-sequencing platform, which is a next-generation sequencing technology based on massively parallel signature sequencing, to delineate the miRNA transcriptomes in schizophrenic brain. <br />Dr. Joel Kleinman (NIMH) has provided me RNA samples isolated from postmortem brains of schizophrenic and normal control subjects. All postmortem human brains are obtained from the Offices of the Chief Medical Examiner of the District of Columbia, and of the Commonwealth of Virginia, Northern District, all with informed consent from the legal next of kin (protocol 90-M-0142 approved by the NIMH/NIH Institutional Review Board). Diagnoses, macro- and microscopic neuropathological examinations and toxicological analysis are performed on all cases. <br />Small RNAs are extracted from Brodmann area 46 of the dorsal lateral frontal cortex (DLPFC) by using the mirVana miRNA Isolation Kit (Ambion) and used for construction of deep-sequencing libraries as described (Wu et al., 2010). DLPFC is selected because of its strong implication in the psychopathology of schizophrenia (Weinberger et al., 1986). We have completed the library construction step. We are currently conducting deep-sequencing. We will analyzed deep-sequencing results for the change of miRNAome in schizophrenia brains.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86319&allpubs=Y&isajaxlink=Y&_UserReference=2237089AF2187F6B5B38D0DC','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;"> (2014) miR-137: a new player in schizophrenia Int J Mol Sci. 15(2):3262-71
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Hu Z, Yu D, Gu QH, Yang Y, Tu K, Zhu J, Li Z (2014) miR-191 and miR-135 are required for long-lasting spine remodelling associated with synaptic long-term depression. Nat Commun 5:3263.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24535612?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3951436/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24535612
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3951436 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,886 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002786</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002786-15</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">The Pathophysiology and Treatment of Children with Severe Irritability
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2015 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Ellen  Leibenluft; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/ellen-leibenluft" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Mood Dysregulation and Neuroscience, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Mood Dysregulation and Neuroscience</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 24 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Katherine  Ardeleanu<br />
+
+
+
+
+Melissa A Brotman<br />
+
+
+
+
+Sofia Isabela Cardenas<br />
+
+
+
+
+Alexa Lauren Curhan<br />
+
+
+
+
+Mollie  Davis<br />
+
+
+
+
+Laura Marie Donahue<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=96255&onameset=Section on Mood Dysregulation and Neuroscience&isajaxlink=Y&_UserReference=9E68F6BA6CE4EEE85B38D471','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 24</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Daniel  Pine; MD  (Section on Development and Affective Neuroscience)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+David  Goldman; MD (NIAAA) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Yair  Bar-Haim; PhD
+<i>(Psychology Department, Tel Aviv University)</i>
+<br />
+
+
+
+Marcus  Munafo; PhD
+<i>(Psychology, University of Bristol)</i>
+<br />
+
+
+
+Argyris  Stringaris; MD
+<i>(Institute of Psychiatry)</i>
+<br />
+
+
+
+Laurie  Wakschlag; PhD
+<i>(Northwestern University School of Medicine)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+oppositional defiant disorder, severe mood dysregulation, attention deficit hyperactivity disorder, disruptive behavior disorder, functional MRI, disruptive mood dysregulation disorder with dysphoria, irritability, frustrative non-reward, bipolar disorder, mood disorder, treatment, children, adolescents, mental health
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+In the late 1990s, researchers noted a dramatic upsurge in diagnosis of bipolar disorder (BD) in children.  This was likely due to the fact that, due to changing clinician practice,  youth with severe irritability and symptoms of attention deficit hyperactivity disorder (ADHD) were being assigned the diagnosis of BD, even though they do not exhibit distinct manic episodes. In 2003 we defined criteria for such chronically, severely irritable children (the syndrome severe mood dysregulation, SMD). The original goal of this project was to identify the extent to which youth with SMD are similar to, or differ from, those with BD in clinical presentation, course of illness, family history, treatment response, and brain mechanisms. The most compelling results arose from the longitudinal studies, which indicated that youth with severe irritability are not at increased risk to develop BD as they age, but instead are at increased risk for unipolar depression and anxiety disorders. Thus, these results indicate that youth with severe irritability, but without distinct manic episodes, should not be assigned the diagnosis of BD. These results help to insure that youth with severe irritability will be diagnosed appropriately and receive treatment that is most likely to alleviate their symptoms while incurring the least possible side-effect burden. SMD was the prototype for the new DSM-5 diagnosis of disruptive mood dysregulation disorder with dysphoria (DMDD). <br /><br />Currently, the primary goal of this study is to identify the pathophysiology of severe irritability in youth, in order to foster the development of novel treatments for this common and impairing symptom in youth. Severe irritability is one of the most common presenting complaints in child psychiatry, and yet remarkably little research has been devoted to it. Thus, studies designed to characterize the accompanying symptoms and course of irritability, as well as brain mechanisms, is timely and important. In addition, since irritability is a dimension present across the population, its study fits well into the NIMH Research Domain Criteria (RDoC) initiative. Increasingly, our studies include not only youth with severe irritability (i.e., those with DMDD) and healthy subjects, but also those with anxiety or attention deficit hyperactivity disorder (ADHD), because it is common for youth with the latter two illnesses to also exhibit significant irritability.<br /><br />This project has considerable public health impact. To the extent that youth with SMD are considered to have a form of unipolar depression and/or anxiety, along with ADHD, then treatment with antidepressants and stimulants would be indicated. However, in BD, such treatment would be relatively contraindicated, and treatment instead would be with atypical antipsychotic and/or mood stabilizing medication, which have high side-effect burdens. Thus, this year we continued an ongoing trial of stimulant plus an antidepressant vs. stimulant plus placebo in SMD. Also, we added a new protocol that includes testing and developing two novel psychosocial interventions for DMDD. One targets the tendency of youth with DMDD to see ambiguous faces as hostile. The other involves developing a cognitive behavioral treatment specifically targeting mechanisms mediating irritability, including deficits in instrumental conditioning and the ability to tolerate frustration. <br /><br />In sum, the goals are to 1)characterize children with DMDD, and follow them longitudinally, 2)compare brain function in children with DMDD children vs. BD, as well as vs. other diagnoses but also experience significant irritability; 3)adopting a dimensional, trans-diagnostic perspective, identify the pathophysiology of severe irritability in youth, to foster development of novel interventions; and 4)test novel treatments for DMDD.<br /><br />This work was conducted under protocols 02-M-0021(NCT00025935),00-M-0198(NCT00006177), 09-M-0034 (NCT00794040),and 15-M-0182(NCT02531893).
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Given concerns about the appropriate diagnosis for children with chronic, severe irritability, we defined the syndrome of severe mood dysregulation(SMD)to capture youth with extremely severe irritability and symptoms of hyperarousal. Our SMD phenotype formed the basis for the new pediatric diagnosis of mood dysregulation disorder with dysphoria(DMDD)in DSM-5. Since the inception of this project, approximately 300 youth with SMD/DMDD have been recruited into the project. Approximately 20 new patients were recruited this year. <br /><br />Youth with DMDD suffer very severe psychiatric impairment, as assessed by medications received, number of psychiatric hospitalizations, and standardized measures of function. As noted above, we demonstrated differences between youth with SMD and those with bipolar disorder (BD) in clinical course, family history, and brain mechanisms associated with symptoms. While we continue to compare youth with BD and those with severe irritability in terms of mediating brain mechanisms, we have become increasingly interested in the pathophysiology of irritability in its own right. Indeed, irritability is one of the most common presenting symptoms in pediatric psychiatry. <br /><br />The construct of irritability is particularly well-suited for the transdiagnostic, translational approach of the Research Domain Criteria (RDoC). Much of our work now involves examining irritability, not only in DMDD, but also in other groups exhibiting irritability, including youth with anxiety disorders, ADHD, or BD. Across groups, we characterize irritability as a continuous variable. A focus of our neuroimaging work includes the use of frustrating tasks, since a hallmark of irritability is difficulty tolerating frustration. Previously, we demonstrated behavioral and neural differences between irritable and non-irritable youth during a frustrating attentional task. We improved that paradigm and obtained fMRI data from approximately 200 youth with DMDD, BD, ADHD, and/or anxiety disorders, as well as healthy youth; these data are currently being analyzed. This approach allows us to examine the neural correlates of irritability, operationalized dimensionally, while also comparing DSM-5 diagnostic groups in the brain circuitry engaged during a frustrating task. We also demonstrated in a community-based sample (N=109) that the same frustrating task has good test-retest reliability in inducing frustration (therefore, it might be used pre- and post-treatment as a measure of treatment response). Also, the child's ratings of his/her frustration during the task correlated with his/her ratings of irritability in daily life, supporting the suggestion that the task assesses processes relevant to the child's symptoms. We have also piloted an additional frustration task both inside and outside the scanner, to try to improve even further our ability to detect neural mechanisms mediating frustration.  <br /><br />We continue our work comparing the neural circuitry mediating face emotion processing among youth with DMDD, BD, and healthy youth. As with the frustration work, we now incorporate a dimensional approach, examining neural associations with continuous measures of irritability.  In work published this year, we compared the impact of irritability on brain activation across youth with BD, DMDD, and healthy subjects. Brain activity was measured while youth performed a labeling task with happy, fearful, and angry faces of varying emotional intensity. We found differences between BD and DMDD in associations between irritability and brain activity. Specifically, irritability correlated with amygdala activity across all intensities for all emotions in the DMDD group; such correlation was present in the BD group only for fearful faces. In the ventral visual stream, associations between neural activity and irritability were found more consistently in the DMDD group than in the BD group, especially in response to ambiguous angry faces. These data suggest that the circuitry mediating a dimension, such as irritability, might vary across diagnoses. RDoC does not explicitly incorporate a longitudinal perspective; arguably, such a perspective is more central to the diagnosis of BD than to other diagnoses, such as DMDD, anxiety disorders, and ADHD.  Therefore, compared to the latter three diagnoses, cross-sectional dimensions alone may not be less able to explain the circuitry of a trait when that trait appears within the context of BD. Second, these data suggest that treatment approaches, such as one described below designed to modify irritable children's responses to angry faces, might be less effective in irritable youth with BD than in those with DMDD. This work emphasizes the importance of integrating both categorical (i.e., diagnostic group) and  dimensional (e.g., irritability) research approaches. <br /><br />Another unexplored aspect of the RDoC framework is whether traits interact neurally. We are interested in possible interactions between anxiety and irritability, given cross-sectional and longitudinal associations between these traits and possible shared circuitry mediating them. In healthy youth and those with DMDD, ADHD, anxiety disorders (N=115), we found that irritability and anxiety jointly influenced left amygdala to left medial prefrontal cortex (mPFC) connectivity during viewing of intensely angry faces. Specifically, decreased connectivity was associated with high levels of both anxiety and irritability, whereas increased connectivity was associated with high levels of anxiety but low levels of irritability. This study yields the important conclusion that the circuitry mediating dimensional traits should not be considered in isolation from each other.  <br /><br />A major focus of our work is treatment. We continue our double-blind trial designed to ascertain whether citalopram (a serotonergic reuptake inhibitor (SRI) antidepressant that is effective in the treatment of pediatric anxiety) plus stimulant is more effective than placebo plus stimulant in the treatment of severe irritability. Stimulant and SRI treatment tend to have fewer side-effects than atypical antipsychotic treatment, which that is considered first-line treatment for BD, yet stimulants and SRI's are relatively contraindicated in patients with BD because of concern about possibly inducing a manic episode. Therefore, this work has considerable public health importance. We have randomized approximately 50 children into the trial, and youth are tolerating the treatment well. <br /><br />We are now developing and testing two novel psychosocial approaches to treating irritability. The first involves computer-based training designed to shift a subject's perception of ambiguous faces from angry toward happy. In work published this year, we found that youth with DMDD tend to judge ambiguous faces as angry rather than happy; that we can change this judgment with computer-based training; and that this is associated with decreased irritability. This was an open trial, without a control condition. We have begun a controlled trial of this new Interpretation Bias Treatment, along with brain imaging before and after training. Recruitment has been robust. We are also now piloting a manual-based cognitive behavioral treatment targeting irritability. This has a strong emphasis on behavioral techniques i.e., exposing the child to tolerable, but frustrating situations, to improve the child's ability to tolerate such situations. The treatment is based on our neuroscience-based model of irritability, including irritable children's hypothesized deficits in the process and content of instrumental learning. We are now piloting a neuroimaging paradigm designed to assess such deficits in irritable youth. Such a paradigm could that can be used pre- and post- treatment to document changes in the circuitry mediating these processes during successful treatment. 
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2016 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=96255&allpubs=Y&isajaxlink=Y&_UserReference=9E68F6BA6CE4EEE85B38D471','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Cha J, Fekete T, Siciliano F, Biezonski D, Greenhill L, Pliszka SR, Blader JC, Roy AK, Leibenluft E, Posner J (2015) Neural Correlates of Aggression in Medication-Naive Children with ADHD: Multivariate Analysis of Morphometry and Tractography. Neuropsychopharmacology 40:1717-25
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25645374?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4915254/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25645374
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4915254 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Hulvershorn LA, Hummer TA, Fukunaga R, Leibenluft E, Finn P, Cyders MA, Anand A, Overhage L, Dir A, Brown J (2015) Neural activation during risky decision-making in youth at high risk for substance use disorders. Psychiatry Res 233:102-11
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26071624?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4536117/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26071624
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4536117 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Mikita N, Hollocks MJ, Papadopoulos AS, Aslani A, Harrison S, Leibenluft E, Simonoff E, Stringaris A (2015) Irritability in boys with autism spectrum disorders: an investigation of physiological reactivity. J Child Psychol Psychiatry 56:1118-26
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25626926?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4737220/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25626926
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4737220 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Pagliaccio D, Wiggins JL, Adleman NE, Harkins E, Curhan A, Towbin KE, Brotman MA, Pine DS, Leibenluft E (2017). Behavioral and Neural Sustained Attention Deficits in Bipolar Disorder and Familial Risk of Bipolar Disorder. Biol Psychiatry  82, 669-678.   https://doi.org/10.1016/j.biopsych.2016.09.006
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27837919?dopt=Abstract" target="_blank">PubMed</a>
+
+
+           &nbsp;&nbsp;&nbsp;&nbsp;<i>Available in future as a Free Article</i> <!-- looks for PMC translations for in progress or embargoed -->
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27837919
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5354995 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Stoddard JJ, Sharif-Askary B, Harkins EA, Frank H, Brotman MA, Penton-Voak I, Bar-Haim Y, Munafo M, Pine D, Leibenluft E (2015) An open pilot study of training hostile interpretation bias to treat Disruptive Mood Dysregulation Disorder. J Child Adolescent Psychopharmacol, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Wakschlag LS, Estabrook R, Petitclerc A, Henry D, Burns JL, Perlman SB, Voss JL, Pine DS, Leibenluft E, Briggs-Gowan ML (2015) Clinical Implications of a Dimensional Approach: The Normal:Abnormal Spectrum of Early Irritability. J Am Acad Child Adolesc Psychiatry 54:626-34
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26210331?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4515952/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26210331
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4515952 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Whelan YM, Leibenluft E, Stringaris A, Barker ED (2015) Pathways from maternal depressive symptoms to adolescent depressive symptoms: the unique contribution of irritability symptoms. J Child Psychol Psychiatry 56:1092-100
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25665134?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4855627/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25665134
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4855627 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,717 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002894</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002894-11</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Magnetic Resonance Spectroscopy Core Facility
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Jun  Shen; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/jun-shen" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Magnetic Resonance Core, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Magnetic Resonance Core</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Shizhe Steve Li<br />
+
+
+
+
+Johan W Van Der Veen; PhD<br />
+
+
+
+
+Yan  Zhang<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Karen F Berman; MD  (Clinical and Translational Neuroscience Branch)<br />
+
+
+
+Robert  Innis; MD  (Molecular Imaging Branch)<br />
+
+
+
+Stefano  Marenco; MD  (Clinical and Translational Neuroscience Branch)<br />
+
+
+
+Carlos Alberto Zarate; MD  (Experimental Therapeutics and Pathophysiology Branch)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+<div id="moresamestaffo">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffou">6 of a total of 9 other NIH members are shown.</div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Simona  Bianconi (NICHD) <br />
+
+
+
+Mark  Hallett; MD (NINDS) <br />
+
+
+
+Paul M Hwang; MD, PhD (NHLBI) <br />
+
+
+
+Forbes D Porter; MD, PhD (NICHD) <br />
+
+
+
+Daniel S Reich (NINDS) <br />
+
+
+
+Leorey Nagac Saligan (NINR) <br />
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaffo','searchview.taf?_function=showmore&ios=O&ipid=101252&isajaxlink=Y&_UserReference=DD624C94AD192C2C5B38D222','moresamestaffou');  return false;">
+
+
+<span class="morelist">Show all 9</span></a></form></div>
+
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+R  de Beer
+<i>(Tech Univ. of Delft)</i>
+<br />
+
+
+
+J  Murdoch
+<i>(Toshiba Medical Research Institute USA)</i>
+<br />
+
+
+
+D  van Ormondt
+<i>(Tech Univ. of Delft)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+GABA, N-acetylaspartate, carbon-13, glutamate, glutamine, glutathione, metabolism, neurotransmitter cycling, spectroscopic imaging, magnetic resonance spectroscopy
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The goals of the Magnetic Resonance Spectroscopy (MRS) Core are to support NIH investigators, in both clinical and basic sciences, who use MRS as a research tool. MRS follows the same fundamental principles as magnetic resonance imaging (MRI), except that MRS measures molecules other than water. Because it is noninvasive (it has been called the noninvasive biopsy method), MRS can provide vital biochemical information about the living brain. It currently plays a critical role in expanding our understanding of brain neurochemistry and function. The MRS Core aims to: (1) provide technical support to existing MRS protocols in order to ensure the highest quality of data acquisition and analysis; (2) track and convey technical advances in the field; (3) develop and implement techniques required to advance the research aims of NIH investigators who use MRS.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+As a noninvasive method for measuring the concentration and distribution of chemicals in the living brain, MRS is an important tool for studying brain function and disorders. However, acquiring robust measurement of MRS signals requires a sophisticated study design and the successful implementation and maintenance of various MRS techniques. An active area for research area, MRS technology attracts major efforts from top research centers around the world. Clinical magnetic resonance imaging scanners that are optimized for performing structural and functional imaging studies also present daunting obstacles for MRS technical development. Most of the MRS protocols at NIH have been developed and implemented by the MRS Core under protocols 05-M-0144 (NCT00109174) and 11-M-0045 (NCT01266577). <br /><br />1) Correction of baseline in short echo time proton MRS. Data acquisition at short echo time is needed to capture the entire metabolic profile of brain visible to proton MRS and to acquire, at the same time, the broad macromolecule baseline. The macromolecule baseline contributes to Cremer Rao Lower Bound of the metabolite signals. To accurately quantify this effect accurately in clinical short echo time MRS, we recently developed and optimized a method, based on mean squared error of the baseline, for determining the smoothness of baseline. This advance has led to a more objective and reliable determination of metabolite signals (Zhang et al., Magn Reson Med, 72(4):913-22. 2014 ). <br /><br />2) Automatic correction of magnetic field inhomogeneity. It is essential to optimize the homogeneity of the magnetic field for all MRS experiments, because field inhomogeneity can easily destroy the critical separation of different chemicals. More importantly, an inhomogeneous field makes it difficult to effective suppress the tissue water signal effectively, making the reliable detection of more dilute chemicals impossible. This is particularly the case for anatomical regions of interest to psychiatric research. We optimized an automatic shimming method that consistently out-performs the automatic shimming methods provided by MRI scanner manufacturers. This new method has already greatly improved the quality of clinical MRS data acquired at NIH. <br /><br />3) Multi-slice chemical shift imaging of N-acetylaspartate (NAA), creatine, and choline. The MRS core maintains a chemical shift imaging technique for mapping distribution of the neuronal marker N-acetylaspartate at 3 Tesla. This method simultaneously generates images of N-acetylaspartate, creatine, and choline-containing compounds. <br /><br />4) Glutathione detection. Glutathione is a marker for oxidative stress. Many psychiatric and neurological disorders (such as schizophrenia, Alzheimer's disease, and stroke) are associated with abnormal glutathione levels. In collaboration with Steven Warach (NINDS) a glutathione editing method was developed on the Philip 3 Tesla scanner at the Suburban Hospital for studying stroke patients using adaptive line-fitting. We have also developed a single-shot method for measuring glutathione at 7 Tesla (Lally et al, J Magn Reson Imaging. 2016, 43(1):88-98.).<br /><br />5) Carbon-13 MRS. Using carbon-13 labeled glucose or the glial-specific substrate acetate, it is possible to measure brain energetics and glutamate and glutamine cycling flux. Previously we invented a method for carbon-13 MRS by combining low power stochastic decoupling and intravenous infusion of glucose with a carbon-13 label at the C2 position. This strategy makes it possible to perform viable carbon-13 MRS on single channel clinicial MRI scanners. Using this strategy, we have acquired high quality carbon-13 MRS data from both the occipital and frontal lobes of healthy subjects and showed that it is possible to simultaneously detect two labeling pathways in the human brain. Recently, we have succeeded in implementing and optimizing this strategy on the 7 Tesla scanner with enhanced sensitivity and spectral resolution (Li et al, Magn Reson Med. 2016, 75(3):954-61), and we were the first to detect GABA turnover in the human brain.<br /><br />6) Proton glutamate editing. Previously we implemented a single-voxel glutamate editing method with correction of eddy current effects for measuring glutamate concentration at 3 Tesla. A method for simultaneously extracting both glutamate and glutamine from multi-echo MRS data has also been developed and implemented (Zhang et al, Magn Reson Med. 2016, 76(3):725-32). Recently, We developed and optimized a new glutamate editing method that needs a single echo time to isolate the glutamate H4 signal at 7 Tesla. <br /><br />7) GABA editing. Previously we implemented and refined a method for measuring GABA. As with N-acetylaspartate imaging, patient movements can lead to difficulty in the accurate determination of GABA. We used a navigator strategy, based on residual water, to track and correct for patient movement. We also developed spectral data processing software to correct for phase changes because of patient motion (van der Veen et al, NMR Biomed. 2017. doi: 10.1002/nbm.3725.). Improvements to these  corrections have now been quantified and successfully applied in studies of human subjects. Currently, we are quantifying glutamate concentration using GABA-edited spectral data. The goal of this effort is to measure GABA and glutamate simultaneously.<br /><br />8) NAAG editing. We successfully developed MRS methods for measuring the dipeptide neurotransmitter N-acetylaspartylglutamate (NAAG), which plays an important role in glutamate signaling. Our methods use regularized line-shape deconvolution, based on the L-curve method and Wiener filtering, to measure NAAG reliably (An et al, Magn Reson Med. 2014, 72(4):903-12). <br /><br />9) 7 Tesla Phosphorus MRS imaging. We have developed a chemical shift imaging method for measuring phosphorus-containing chemicals in brain. The method has been successfully tested in occipital lobe. Development and testing for frontal lobe studies are currently in progress.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101252&allpubs=Y&isajaxlink=Y&_UserReference=DD624C94AD192C2C5B38D222','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">An L, Li S, Shen J (2017). Simultaneous determination of metabolite concentrations, T1 and T2 relaxation times. Magn Reson Med  78, 2072-2081.   https://doi.org/10.1002/mrm.26612
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28164364?dopt=Abstract" target="_blank">PubMed</a>
+
+
+           &nbsp;&nbsp;&nbsp;&nbsp;<i>Available in future as a Free Article</i> <!-- looks for PMC translations for in progress or embargoed -->
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28164364
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5545076 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">van der Veen JW, Marenco S, Berman KF, Shen J (2017). Retrospective correction of frequency drift in spectral editing: The GABA editing example. NMR Biomed  30.   https://doi.org/10.1002/nbm.3725
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28370463?dopt=Abstract" target="_blank">PubMed</a>
+
+
+           &nbsp;&nbsp;&nbsp;&nbsp;<i>Available in future as a Free Article</i> <!-- looks for PMC translations for in progress or embargoed -->
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28370463
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5511084 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Zhang Y, An L, Shen J (2017). Fast computation of full density matrix of multispin systems for spatially localized in vivo magnetic resonance spectroscopy. Med Phys  44, 4169-4178.   https://doi.org/10.1002/mp.12375
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28548302?dopt=Abstract" target="_blank">PubMed</a>
+
+
+           &nbsp;&nbsp;&nbsp;&nbsp;<i>Available in future as a Free Article</i> <!-- looks for PMC translations for in progress or embargoed -->
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28548302
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5578626 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

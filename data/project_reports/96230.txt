@@ -1,0 +1,715 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH001090</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH001090-39</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Studies of Central Nervous System Functional Anatomy
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2015 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Miles  Herkenham; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/miles-herkenham" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Functional Neroanatomy, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Functional Neroanatomy</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 9 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Michael L Lehmann; PhD<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Hannah Ruth Crowder<br />
+
+
+
+
+Stacey Leigh Kigar<br />
+
+
+
+
+Samuel J Listwak; PhD<br />
+
+
+
+
+Jamie Elizabeth Mondello<br />
+
+
+
+
+Rachel Brooke Scheinert; PhD<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=96230&onameset=Section on Functional Neroanatomy&isajaxlink=Y&_UserReference=91F6DCB00F6397895B38D09A','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 9</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Robert  Innis; MD  (Molecular Imaging Branch)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+<div id="moresamestaffo">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffou">6 of a total of 8 other NIH members are shown.</div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Mary Catherine Bushnell; PhD (NCCIH) <br />
+
+
+
+Rachel R Caspi; PhD (NEI) <br />
+
+
+
+Abdel G Elkahloun; PhD (NHGRI) <br />
+
+
+
+Ching J Hu li (NIAID) <br />
+
+
+
+Kory R Johnson (NINDS) <br />
+
+
+
+Dragan  Maric; PhD (NINDS) <br />
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaffo','searchview.taf?_function=showmore&ios=O&ipid=96230&isajaxlink=Y&_UserReference=91F6DCB00F6397895B38D09A','moresamestaffou');  return false;">
+
+
+<span class="morelist">Show all 8</span></a></form></div>
+
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborator
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Laurie L Parker; PhD
+<i>(Biochemistry, Molecular Biology, and Biophysics, University of Minnesota)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+microglia, neuroimmunology, psychosocial stress, depression, anxiety, blood-brain barrier, cytokine, environmental enrichment, limbic, neuroanatomy, social behavior, hippocampal neurogenesis, lymphocytes
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Risk factors for developing mental disorders include adverse life events and physiological challenges from drugs, toxicants, and infections.  Both psychological and physiological challenges, especially when present chronically, affect the brain directly and also indirectly via interactions with the endocrine and immune systems.  Consequent changes in brain structure and chemistry, occurring in specific cell types in discrete brain regions comprising emotional circuits, underlie mood changes.  The interactions between the brain and the endocrine and immune systems occur bidrectionally.  Psychological stressors induce endocrine changes that affect the immune system, and the endocrine and immune systems in turn produce altered molecules and cells that feed back onto the brain to affect the emotional circuitry.  The research in our lab focuses on neuroimmune interactions in mice undergoing psychosocial stress imposed in ethologically relevant paradigms.  Our goal is to define the anatomical circuits and key cellular and molecular elements that are engaged when the brain responds to acute and chronic stress and immune challenges.  Behavioral, histochemical, biochemical, and molecular tools are employed to reveal these changes.  Immune system alterations may contribute to an animal's susceptibility or resilience to stressors, and they are assessed and manipulated in order to understand their contributions to altered affective states. Understanding the cellular and molecular factors differentially controlling the outcomes in question may help guide development of interventions aimed at treating mental disorders, notably depression, anxiety, and post-traumatic stress that arise as a consequence of psychosocial, pathophysiological, and immunological challenges.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Chronic psychosocial stress has been implicated in the etiology and progression of psychiatric disorders such as major depression and post-traumatic stress disorder (PTSD). In mice, we study the effects of psychosocial stress in a conflict paradigm that leads to behavioral alterations such as deficits in social interaction or increases in anhedonia, anxiety, and depressive-like states. In our social defeat paradigm, two mice are placed in a continuous dyadic living relationship in which the subordinate experimental mouse is chronically exposed to and periodically defeated by a dominant mouse. Over the course of weeks in this living situation, the experimental mouse develops anxious and depressive-like behaviors that are associated with distinct neurochemical alterations in identified brain circuits. A decreased rate of hippocampal neurogenesis is one well-documented readout of stress effects. Thus the paradigm is an ethologically relevant and validated model that can provide insights into the bases for mental illness in humans. <br /><br />Our research focuses on the roles played by immune factors in the etiology of psychosocial stress-induced depressive states. We hypothesize that whereas there is a bidirectional dialog between the brain and the immune system that serves to maintain homeostasis within the two systems in healthy conditions, disturbances in these pathways lead to homeostatic corrections or dysfunction that contribute to the onset and course of psychiatric disease. Two projects are underway; one focuses on the role of the adaptive immune system in maintaining homeostatic balance, and the second investigates immune cells and molecules within the brain itself.<br /><br />1) We conducted experiments aimed at addressing the role of the adaptive immune system in controlling mood states in the social defeat model. The adaptive immune system, separate from the innate immune system, comprises cells  lymphocytes  that adapt, i.e., acquire and retain a memory of prior challenges. Surprisingly, lymphocytes appear to exert effects on the brain and behavior as suggested by results of lymphocyte depletion experiments. We developed a novel approach to the question by studying the Rag2-/- mouse, which lacks a gene needed to produce mature lymphocytes. We adoptively transferred lymphocytes into this lymphopenic mouse from normal donor mice that had either been chronically stressed or unstressed, and after two weeks of lymphocyte reconstitution in the host mouse, behavioral tests and hippocampal cell proliferation assays were performed. The Rag2-/- mice that received cells from defeated mice showed anti-depressive and anxiolytic behaviors relative to Rag2-/- mice that received no cell transfer or transfer of cells from home-cage control mice. These surprising findings suggested that the adaptive immune system retains a memory for adverse events and attempts to return the lymphopenic host animal to a condition of homeostasis. News stories about the study likened the outcome to a vaccination against stress. We subsequently determined that Rag2-/- mice that had been rendered depressed following a chronic restraint procedure showed recovery from that state after being transplanted with cells from defeated donor mice, indicating that the transferred cells actually are anti-depressant. Future work will examine the molecular and cellular determinants of the interaction and the anatomical and humoral pathways by which the immune system affects brain function and structure. Such studies may lead to insights into new targets for therapeutic interventions in psychiatric disorders.<br /><br />2) The immune system comprises cells of peripheral immune organs and also specialized immune cells within the brain  microglia  that share many properties with peripheral immune cells, particularly the ability to respond to immune challenges and produce immune molecules like cytokines. Our recent research has shown that social defeat stress triggers a CNS immune response within emotion-processing brain areas. We have data showing effects of acute and chronic defeat stress on microglial proliferation and activation states in the prefrontal cortex and hippocampus. Microglia can be activated to the status of an M1-like state to secrete pro-inflammatory cytokines, or they might adopt an alternative M2-like state to secrete anti-inflammatory, pro-repair cytokines, and growth factors. These activation states can affect neuronal function in the vicinity and may differentially direct behavioral outcomes associated with either susceptibility or resilience to the effects of the stress. We developed a method to harvest microglia from the brain using cell separation techniques and Percoll gradients, and we study the cells ex vivo in cell culture. Microglia activation states are probed in cell culture by examination of the contents of the culture media, by gene expression profiling, by response to M-1 versus M-2 stimulation, and by phagocytosis of labeled cellular debris. We can also analyze isolated microglia by flow cytometry to characterize cell-surface markers of activation and by microarray analysis to assess gene expression patterns. Ongoing experiments showed that microglia isolated from defeated mice that had been susceptible to the depressive effects of social defeat were functionally distinct from microglia taken from defeated mice that showed behavioral resilience to the stress procedure. The microglial characteristics of the resilient group were more like those from unstressed control mice, suggesting that microglia participate in the protective effects of psychosocial stress in the resilient group. Drugs that prevent the conversion of microglia into a reactive pro-inflammatory state like that seen in the susceptible group may protect the animals from the depressive effects of the defeat stress. Preliminary experiments with microglial blocking treatment supported this hypothesis. The aims of the work are to demonstrate a causal relationship between stress-induced immune alterations and susceptibility or resilience to the stress, and to suggest new therapeutic targets for the treatment of stress-related mood disorders.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2016 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=96230&allpubs=Y&isajaxlink=Y&_UserReference=91F6DCB00F6397895B38D09A','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Brachman RA, Lehmann ML, Maric D, Herkenham M (2015) Lymphocytes from chronically stressed mice confer antidepressant-like effects to naive mice. J Neurosci 35:1530-8
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25632130?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4308600/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25632130
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4308600 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Lehmann ML, Cooper HA, Maric D, Herkenham M (2016) Social defeat induces depressive-like states and microglial activation without involvement of peripheral macrophages. J Neuroimmunol , in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Scheinert RB, Haeri MH, Lehmann ML, Herkenham M (2016) Therapeutic effects of stress-programmed lymphocytes transferred to chronically stressed mice. Prog Neuropsychopharmacol Biol Psychiatry 70:1-7
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27109071?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4925280/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27109071
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4925280 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

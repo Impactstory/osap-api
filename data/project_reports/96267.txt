@@ -1,0 +1,1174 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002857</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002857-12</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Glutamatergic Modulators for Rapid and Sustained Antidepressant Effect
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2015 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Carlos Alberto Zarate; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/carlos-zarate" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neurobiology and Treatment of Mood Disorders, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neurobiology and Treatment of Mood Disorders</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 26 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Rezvan  Ameli<br />
+
+
+
+
+Elizabeth Day Ballard<br />
+
+
+
+
+Charles Nicholas Barker; BS<br />
+
+
+
+
+Charles Ralph Bender<br />
+
+
+
+
+Hannah Elizabeth Berg<br />
+
+
+
+
+Nancy E Brutsche<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=96267&onameset=Section on Neurobiology and Treatment of Mood Disorders&isajaxlink=Y&_UserReference=1AEB625E483EB14F5B38D1D8','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 26</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+<div id="moresamestaff">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffu">6 of a total of 8 other  members are shown. </div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Richard  Coppola; SB, DSc  (Magnetoencephalography Core)<br />
+
+
+
+Christian  Grillon; PhD  (Section on Neurobiology of Fear and Anxiety)<br />
+
+
+
+Ioline D Henter; MA  (Section on Molecular Neuropsychiatry)<br />
+
+
+
+Ellen  Leibenluft; MD  (Section on Mood Dysregulation and Neuroscience)<br />
+
+
+
+Francis Joseph McMahon; MD  (Unit on Genetics of Mood and Anxiety Disorders)<br />
+
+
+
+Kathleen R Merikangas; PhD  (Section on Developmental Genetic Epidemiology)<br />
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaff','searchview.taf?_function=showmore&ios=S&ipid=96267&thisic=&isajaxlink=Y&_UserReference=1AEB625E483EB14F5B38D1D8','moresamestaffu');  return false;">
+
+
+<span class="morelist">Show all 8</span></a>.</form></div>
+
+
+
+</div>
+</div>
+
+
+</div>
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+David  Goldman; MD (NIAAA) <br />
+
+
+
+Peter  Herscovitch; MD (CC) <br />
+
+
+
+Ruin  Moaddel (NIA) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Todd  Gould; MD
+<i>(University of Maryland)</i>
+<br />
+
+
+
+Bryan  Roth; MD, PhD
+<i>(Department of Pharmacoogy, University of North Carolina Chapel Hill Medical School)</i>
+<br />
+
+
+
+R  Schwartz; PhD
+<i>(Maryland Psychiatric Research)</i>
+<br />
+
+
+
+Giulio  Tononi; PhD
+
+<i>(University of Wisconsin)</i>
+<br />
+
+
+
+G  Wegener; MD, PhD
+<i>(Centre for Psychiatric Research, University of Aarhus)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+riluzole, glutamate, Genetics, Magnetic resonance spectroscopy, Magnetoencephalography, Metabolomics, Neurotrophic factors, Polysomnography, Predictors response, Proteomics, depression, ketamine metabolites, response, rapid onset, antidepressant, biomarker response, Slow wave activity, suicide ideation improvement
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Mood disorders (major depressive disorder and bipolar disorder) are life-threatening medical illnesses often chronic in nature. The amount of distress and functional impairment resulting from depression can be just as severe as other chronic medical illnesses. Our lab demonstrated that ketamine, an NMDA antagonist, produces a rapid antidepressant and antisuicidal effect (within hours) in patients with treatment-resistant depression. The response rate to conventional antidepressants usually takes 6 weeks or longer. Our finding of rapid antidepressant effects with ketamine has had a paradigm-shifting effect and has generated considerable interest and investment in industry, academics, and government to develop drugs that have a rapid onset of antidepressant action. We are now examining the mechanism of action of response to ketamine in major depressive disorder and bipolar depression and suicidal ideation and are searching for biomarkers of this rapid antidepressant and antisuicidal response. Identifying the neural signatures of rapid antidepressant and antisuicidal response to ketamine would help develop other treatments that also result in rapid antidepressant and antisuicidal effects.<br /> <br />Predictors and neural correlates of antidepressant response to ketamine:<br /><br />To determine the neural correlates (by using multi-modal imaging, genetics, sleep studies) of rapid antidepressant effect with an NMDA receptor antagonist in subjects with major depressive disorder. To identify the biomarkers that are associated with response and relapse to ketamine in patients with major depressive disorder. <br /><br />Primary Outcome Measure: clinical (e.g., family history), imaging (positron emission tomography PET, magnetic resonance imaging/spectroscopy), electrophysiological (magnetoencephalography (MEG), electroencephalography (EEG), neuropsychological, and biochemical (e.g., genetics, microRNA, BDNF, metabolomics).Change in Montgomery-Asberg Depression Rating Scale (MADRS) total scores.<br /><br />Secondary Outcome Measures: Change in Hamilton Depression Rating (HDRS), Brief Psychiatric Rating Scale (BPRS), Clinician Administered Dissociative States scale (CADSS), Young Mania Rating Scale (YMRS), Clinical Global Impression (CGI) scale total scores, and Scale Suicide Ideation (SSI)
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+This Report involves work collected under protocol 04-M-0222 (NCT00088699).<br /><br />Our research suggests that the glutamatergic system is involved in the mechanism of action of rapid antidepressant response. In addition, this system may be a feasible target for developing treatments that have rapid and robust efficacy in individuals who have treatment-resistant depression and suicidal thoughts. We found that the glutamatergic modulator ketamine resulted in rapid, robust and relatively sustained antidepressant, antisuicidal, and anti-anhedonic effects. Response with ketamine occurred within 2 hours and lasted approximately 1 week. Comparable response rates with existing treatments occur at 6-8 weeks instead of hours. <br /><br />Study: (Biomarkers of rapid response in major depressive disorder).<br />OBJECTIVE: To determine the neural correlates of rapid antidepressant response to the NMDA antagonist ketamine in subjects with major depressive disorder. We found robust and rapid antidepressant effects resulted from a single intravenous dose of an N-methyl-D-aspartate antagonist (ketamine); onset occurred within 2 hours post-infusion and continued to remain significant for 1 week. <br /><br />Aims are 1) to examine the antisuicidal effects of ketamine, and 2) to examine correlates of antidepressant response to ketamine in both major depressive disorder and bipolar disorder and include these data/outcome measures: clinical (e.g., family history), imaging (positron emission tomography PET, magnetic resonance imaging/spectroscopy), electrophysiological (magnetoencephalography MEG, electroencephalography EEG), neuropsychological, and biochemical (e.g., genetics, microRNA, BDNF, metabolomics).<br /><br />Results in the past year:<br />NMDA-independent antidepressant actions of ketamine metabolite (2R,6R)-hydroxynorketamine. In this paper published in Nature 2016, we uncover the mechanism of how ketamine produces its rapid and sustained antidepressant effect. More importantly, we find that this effect takes place through one of its metabolites, (2R,6R)-hydroxynorketamine. This metabolite does not produce the dissociative and psychomimetic side effects or risk of abuse potential that ketamine has. This discovery has resulted in a series of drugs that could be developed for treatment-resistant depression that have rapid antidepressant effects and are well tolerated. <br />1.	The role of adipokines in the rapid antidepressant effects of ketamine. In this project, we find that adipokines, which are cell signaling proteins secreted by the adipose tissue mediate the rapid antidepressant effects of ketamine. Adipokines have a key role in metabolism (including body mass index) and directly regulate inflammation and neuroplasticity pathways and also influence insulin sensitivity, bone metabolism and sympathetic outflow; all of these have been implicated in mood disorders <br />2.	Pre-treatment differences in BOLD response to emotional faces correlate with antidepressant response to scopolamine. Intravenous administration of scopolamine (used for sea-sickness) produces rapid antidepressant effects. Here we show that a BOLD response to emotional faces correlates with the antidepressant effects of scopolamine. This work has importance because it begins to tease how prior to treatment who might or might not respond to a particular treatment intervention before the treatment is administered. <br />3.	Single-dose infusion ketamine and non-ketamine N-methyl-D-aspartate receptor antagonists for unipolar and bipolar depression. In this study, we conducted a meta-analysis of efficacy, safety and time trajectories of all studies of ketamine in treatment-resistant depression. We confirmed that ketamine in multiple centers did indeed produce rapid and relatively sustained antidepressant efficacy in patients with treatment-resistant depression. This meta-analysis supports our work and findings to date with ketamine in depression. <br />4.	Ketamine has rapid anti-fatigue effects in patients with depression. In a reanalysis of data from our ongoing studies, we demonstrate that ketamine produces rapid and relatively sustained anti-fatigue effects in patients with depression. This finding is important as it could give us clues to drugs that might produce rapid anti-fatigue effects for a variety of medical disorders and other conditions.  <br />5.	Assessing measures of suicidal ideation in clinical trials with a rapid-acting antidepressant. In this project, we assessed measures of suicidal thinking in subjects who participated in our ketamine studies. We demonstrate that some measures are reliable in measuring suicidal thinking and response to treatment. <br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2016 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=96267&allpubs=Y&isajaxlink=Y&_UserReference=1AEB625E483EB14F5B38D1D8','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Ballard ED, Luckenbaugh DA, Richards EM, Walls TL, Brutsché NE, Ameli R, Niciu MJ, Vande Voort JL, Zarate CA (2015). Assessing measures of suicidal ideation in clinical trials with arapid-acting antidepressant. J Psychiatr Res  68, 68-73.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26228403?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4522045/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26228403
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4522045 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Ballard ED, Vande Voort JL, Bernert RA, Luckenbaugh DA, Richards EM, Niciu MJ, Furey ML, Duncan WC, Zarate CA (2016) Nocturnal Wakefulness Is Associated With Next-Day Suicidal Ideation in Major Depressive Disorder and Bipolar Disorder. J Clin Psychiatry 77:825-31
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27337418?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5103284/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27337418
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5103284 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Furey ML, Drevets WC, Szczepanik J, Khanna A, Nugent A, Zarate CA (2015) Pretreatment Differences in BOLD Response to Emotional Faces Correlate with Antidepressant Response to Scopolamine. Int J Neuropsychopharmacol 18:
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25820840?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4571629/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25820840
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4571629 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Iadarola ND, Niciu MJ, Richards EM, Vande Voort JL, Ballard ED, Lundin NB, Nugent AC, Machado-Vieira R, Zarate CA (2015) Ketamine and other N-methyl-D-aspartate receptor antagonists in the treatment of depression: a perspective review. Ther Adv Chronic Dis 6:97-114
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25954495?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4416968/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25954495
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4416968 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Lally N, An L, Banerjee D, Niciu MJ, Luckenbaugh DA, Richards EM, Roiser JP, Shen J, Zarate CA, Nugent AC (2016) Reliability of 7T (1) H-MRS measured human prefrontal cortex glutamate, glutamine, and glutathione signals using an adapted echo time optimized PRESS sequence: A between- and within-sessions investigation. J Magn Reson Imaging 43:88-98
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26059603?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4671833/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26059603
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4671833 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Lally N, Nugent AC, Luckenbaugh DA, Niciu MJ, Roiser JP, Zarate CA (2015) Neural correlates of change in major depressive disorder anhedonia following open-label ketamine. J Psychopharmacol 29:596-607
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25691504?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5116382/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25691504
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5116382 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Machado-Vieira R, Zanetti MV, Teixeira AL, Uno M, Valiengo LL, Soeiro-de-Souza MG, Oba-Shinjo SM, de Sousa RT, Zarate CA, Gattaz WF, Marie SK (2015) Decreased AKT1/mTOR pathway mRNA expression in short-term bipolar disorder. Eur Neuropsychopharmacol 25:468-73
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25726893?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5863235/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25726893
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5863235 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">8.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Nugent AC, Martinez A, D'Alfonso A, Zarate CA, Theodore WH (2015) The relationship between glucose metabolism, resting-state fMRI BOLD signal, and GABAA-binding potential: a preliminary study in healthy subjects and those with temporal lobe epilepsy. J Cereb Blood Flow Metab 35:583-91
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25564232?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4420874/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25564232
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4420874 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">9.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Nugent AC, Robinson SE, Coppola R, Furey ML, Zarate CA (2015) Group differences in MEG-ICA derived resting state networks: Application to major depressive disorder. Neuroimage 118:1-12
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26032890?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4555091/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26032890
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4555091 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">10.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Park M, Niciu MJ, Zarate CA (2015) Novel Glutamatergic Treatments for Severe Mood Disorders. Curr Behav Neurosci Rep 2:198-208
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26824031?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4725605/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26824031
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4725605 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">11.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Saligan LN, Luckenbaugh DA, Slonena EE, Machado-Vieira R, Zarate CA (2015) Development of a clinician-administered National Institutes of Health-Brief Fatigue Inventory: A measure of fatigue in the context of depressive disorders. J Psychiatr Res 68:99-105
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26228407?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4522041/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26228407
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4522041 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,479 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002931</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002931-04</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neurodevelopmental Genomics Study, University of Pennsylvania
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Kathleen R Merikangas; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/kathleen-merikangas" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Developmental Genetic Epidemiology, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Developmental Genetic Epidemiology</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Jian-Ping  He; MS<br />
+
+
+
+
+Nicole Dorothee Jameson; BS<br />
+
+
+
+
+Diane M Lameira; BA<br />
+
+
+
+
+Tarannum  Lateef; MD<br />
+
+
+
+
+Diana Nicole Paksarian; PhD<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Monica  Calkins; PhD
+<i>(University of Pennsylvania)</i>
+<br />
+
+
+
+Mark  Daly; PhD
+<i>(Massachusetts General Hospital)</i>
+<br />
+
+
+
+Raquel  Gur; MD, PhD
+<i>(Department of Psychiatry, University of Pennsylvania)</i>
+<br />
+
+
+
+Ruben  Gur; PhD
+<i>(Department of Psychiatry, University of Pennsylvania)</i>
+<br />
+
+
+
+Hakon  Hakonarson; MD, PhD
+<i>(The Children's Hospital of Philadelphia)</i>
+<br />
+
+
+
+Elise  Robinson; PhD
+<i>(Massachusetts General Hospital)</i>
+<br />
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+genomics, neurodevelopment, neuropsychology, neuroimaging
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+This project is a large collaborative study between the Childrens Hospital of Philadelphia (CHOP) and the University of Pennsylvania (U PENN) Medical School.  The major goal of this project is to establish a community sample with state of the art assessment of brain function including computerized cognitive testing, structural and functional neuroimaging and genotyping as well as sequencing. The sample includes 10,000 youth ages 8-22 who have enrolled in a genomics initiative at CHOP. In addition, a subset of 500 youth, 300 of whom are at risk for psychosis and 200 of whom are healthy, are returning for more comprehensive assessments. The high throughput phenotyping of medical and behavioral parameters, most relevant across disorders, is based on clinical and medical assessments developed at the Genetic Epidemiology Research Branch of the Intramural Research Program of the National Institute of Mental Health (NIMH/IRP/GEB). We will include both parents of already phenotyped and genotyped children and a diverse community sample. This sample will be available for future studies that may require more detailed phenotyping for specific disease related measures. It will provide a normative backbone against which effects of any specific disease can be identified.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The NIMH team has collaborated with the U PENN team on assessment and data analysis of emotional and behavioral conditions in children enrolled in the Neurodevelopmental Genomics Study. During the past year, the NIMH team has collaborated with the U PENN and CHOP investigators to facilitate data analysis and manuscript preparation.  We completed and submitted one manuscript focused on medical and psychiatric comorbidity in the sample, and another manuscript describing the identification of youth at risk for psychotic spectrum symptoms. In addition, we recently submitted a manuscript describing the study methodology, and have continued to work with collaborators at the Broad Institute to examine the heritability of behavioral phenotypes in the study. Cross validation of this assessment with more extensive diagnostic interviews at the NIMH site is now underway.  We have been developing a collaboration to follow 300 youth between the ages of 15 and 25 years who show or are at risk for mood spectrum disorders, acquiring measures of activity, experiential momentary sampling, olfaction, neurocognition, and clinical symptom measures.<br /><br />Public Health Impact:<br />This report on physical and mental comorbidity is the first study to investigate the specificity of associations between a broad range of physical and mental conditions using a large, systematically obtained pediatric sample with enriched information from electronic medical records and direct interviews. The findings highlight the importance of capturing the roots of both physical and mental disorders in childhood in order to trace their evolution into chronic diseases causing major public health concerns. Information generated from such a sample may have profound impact on the current clinical practices. <br />The proposed comprehensive phenotyping will benefit medicine across diseases and include neurobehavioral measures, which will help elucidate both specific effects of neuropsychiatric disorders and the impact of other medical disorders on brain function.<br /><br />Future Plans:<br />The NIMH team will continue to work with the U PENN and CHOP collaborators to conceptualize and analyze the data, and prepare manuscripts for publication. The NIMH team will focus on the medical-psychiatric comorbidity, environmental/neighborhood risk factors of mental disorders, and dimensional measures of psychopathology in the dataset. In addition, the NIMH will collaborate with U PENN to acquire data on the 300 youth who show or are at risk for mood spectrum disorders and implement clinical and biomarkers for mood disorders that have been identified in the NIMH Family Study of Affective Spectrum Disorders.   <br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86354&allpubs=Y&isajaxlink=Y&_UserReference=659E53735AE858C75B38D18E','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+No publications during this reporting period
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

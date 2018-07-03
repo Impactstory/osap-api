@@ -1,0 +1,595 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002869</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002869-08</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Characterization of Dentate Mossy Cell-restricted Genetic Manipulation Mice
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+ <!-- faculty test -->
+
+Kazutoshi  Nakazawa; MD, PhD
+
+ <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Unit on Genetics of Cognition and Behavior, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Unit on Genetics of Cognition and Behavior</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Veronika  Zsiros<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Kazuhito  Nakao<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+James M Pickel; AB, PhD  (Transgenic Core)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Seiichiro  Jinde; MD, PhD
+<i>(Neuropsychiatry, The University of Tokyo)</i>
+<br />
+
+
+
+Kenji  Kohno; PhD
+<i>(NAIST)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+mossy cell, epilepsy, pattern separation, Cre recombinase, cell ablation, dentate gyrus, diphtheria toxin receptor, hilar region
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Our overall goal is to understand how molecular changes in hippocampal subfields modify neural circuits that underlie memory-guided behavior. We are particularly interested in investigating the function of the dentate gyrus - an initial gateway of hippocampal circuitry that is crucial for acquiring contextual information during episodic memory formation. We are also interested in the function of the dentate gyrus in pathological conditions, since neuronal loss in the hilus of dentate gyrus, which includes mossy cells and hilar interneurons, has been shown to be a major pathological hallmark of human temporal lobe epilepsy. In this project, we use mouse genetic tools in which a particular gene can be manipulated selectively in dentate hilar mossy cells. The mossy cells in the dentate hilus receive inputs from the granule cells of the dentate gyrus and the pyramidal cells of area CA3, and provide massive recurrent connections back to dentate granule cells, thereby controlling dentate excitability. Therefore, mossy cells have been suggested to be important to the intrinsic computational properties of the dentate gyrus. However, the functional significance of mossy cells in the in vivo dentate network has not been explored. To address the role of this mossy cell-mediated dentate gyrus network in vivo, we generated two transgenic mouse lines: one is a hippocampal mossy cell-restricted NMDA receptor subtype 1 (NR1) knockout mice (mossy cell NR1-KO mice), and another transgenic line expresses human HB-EGF as a diphtheria toxin receptor (DTR) predominantly in the hippocampal mossy cells (mossy cell-DTR mice). We have analyzed these lines using behavioral, in vitro and in vivo electrophysiological techniques. In our view, this line of research is most likely to provide definitive answers to some key questions regarding dentate mossy cell functions in epilepsy research, which will provide a significant step toward identifying the mechanisms to treat seizure disorders more effectively.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Earlier, we generated a conditional transgenic mouse line in which diphtheria toxin receptor was selectively expressed in mossy cells using the Cre/loxP system.  Within one week after diphtheria toxin injection, we observed 80% loss of mossy cells throughout the longitudinal axis.  We found no obvious or sustained epilepsy-like discharges in the hippocampus as measured by in vivo local field potential recordings. Interestingly, no mossy fiber sprouting was detected by Timm staining. These results suggested that, in contrast to previous reports showing that lesions of the entire hilar region induce massive mossy fiber sprouting and epilepsy, selective in vivo elimination of mossy cells does not trigger behavioral epilepsy or mossy fiber sprouting. This year, we found that dentate granule cells in the DT-treated mutants became hyperexcitable to afferent stimulation in in vitro slice preparation, and during this hyperexcitable state deficits in contextual pattern separation were detected.  We also evaluated the immediate-early gene (IEG) expression in response to kainic acid (KA) injection under the assumption that an excitatory stimulus would cause more granule cells to discharge and activate IEG expression in mutants compared to controls.  KA injection evoked Zif268 expression in more granule cells in mutants than in controls.  We also examined the KA-induced seizure intensity. The cumulative seizure score of mutants for the hour following KA injection was significantly higher than controls.  Together, these results all suggested an increase in granule cell excitability following mossy cell ablation.  In summary, we concluded that mossy cell loss in vivo renders the granule cells hyperexcitable.  Contrary to the predicted epileptogenesis implicit in the dormant basket cell hypothesis, however, it was insufficient to trigger the mossy fiber sprouting and epileptic discharges.  Perhaps, in addition to the loss of mossy cells, neurodegeneration of other limbic areas, such as entorhinal cortex, is necessary to induce medial temporal lobe epilepsy. These findings provide new insights into the mechanisms of epileptogenesis in the limbic cortex.  <br /><br />This year, for the manuscript forth revisions, To analyze the impact of mossy cell loss on in vivo brain activity in the dentate gyrus, we placed electrodes in the dentate gyrus to record local field potentials (LFPs). In comparison with the same animals/electrodes/behavioral state before and 4 weeks after DT treatment, LFP oscillatory powers at theta frequency (712 Hz) were enhanced during exploration in mutants one week from DT exposure. That no such changes occurred in DT-treated fDTR controls suggests that the transient increase in theta power in mutants is not due to DT treatment. DT injection shows no effect on LFP power spectra during immobility periods regardless of genotype. Since the theta input to the dentate gyrus in vivo is conveyed from entorhinal cortex by the perforant path to granule cells, transient elevation of theta oscillatory power may reflect a transient increase in granule cell excitability.  This result, again, support our conclusion that dentate mossy cells play overall an inhibitory role in granule cell activity.  The manuscript has finally been published (Jinde S, Zsiros V, Jiang Z, Nakao K, Pickel J, Kohno K, Belforte JE, Nakazawa K. (2012) Hilar mossy cell degeneration causes transient dentate granule cell hyperexcitability and impaired pattern separation. Neuron 76:1189-2000). We also published a review article on this subject, entitled &quot;Hilar mossy cell circuitry controlling dentate granule cell excitability (Jinde S, Zsiros V, and Nakazawa K (2013) Frontier Neural Circuits 7:14).
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+<!-- do not show project link -->
+
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Jinde S, Zsiros V, Jiang Z, Nakao K, Pickel J, Kohno K, Belforte JE, Nakazawa K (2012) Hilar mossy cell degeneration causes transient dentate granule cell hyperexcitability and impaired pattern separation. Neuron 76:1189-200.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23259953?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3530172/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23259953
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3530172 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Jinde S, Zsiros V, Nakazawa K (2013) Hilar mossy cell circuitry controlling dentate granule cell excitability. Front Neural Circuits 7:14
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23407806?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3569840/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23407806
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3569840 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

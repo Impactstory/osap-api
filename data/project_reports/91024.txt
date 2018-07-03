@@ -1,0 +1,530 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH000478</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH000478-59</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neural Mechanisms of Learning and Memory in Vision
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Mortimer  Mishkin; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/mortimer-mishkin" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Cognitive Neuroscience, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Cognitive Neuroscience</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Richard C Saunders; PhD<br />
+
+
+
+Sebastian  Guderian<br />
+
+
+
+Danielle L Rickrode; BS<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Marley Andrea Rossa<br />
+
+
+
+
+Bernardus Martinus  Steemers; BSC<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+F.  Vargha-Khadem; PhD
+<i>(Institute of Child Health, University College London Medical School)</i>
+<br />
+
+
+
+
+D. G. Gadian; PhD
+<i>(Institute of Child Health, University College London Medical School)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+developmental amnesia, hippocampus, navigational memory, recognition, monkeys, object-place association, parahippocampal cortex, recall
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The research focuses on the neurobiology of memory systems in non-human primates, as well as in normal and brain-injured children.  The studies on children are being carried out in collaboration with a team headed by Professor F. Vargha-Khadem at the University College London (UCL), Institute of Child Health, (ICH) and Great Ormond Street Hospital for Children (GOSH).  Aside from employing cross-species comparisons, our work is highly multidisciplinary, as it utilizes behavioral, neuroanatomical, electrophysiological, pharmacological, and metabolic methods, as well as structural and functional neuroimaging techniques. <br /><br />Many of the questions we have been addressing in the area of visual memory revolve around the issue of multiple cerebral memory systems or circuits.  During the past two decades we have identified two circuits, a visuo-limbic memory system important for cognitively mediated memories (e.g. episodic memory, stimulus recognition, associative recall) and a visuo-striatal circuit supporting habit learning.   More recent questions include: (i) Is the visuo-limbic memory system further divisible into a visuo-perirhinal object memory circuit and a visuo-posterior parahippocampal spatial memory circuit. (ii) Even more importantly, is the visuo-limbic memory system hierarchically organized into a lower-order visuo-parahippocampal system that encodes and stores context-poor factual knowledge that is retrieved through the process of familiarity-based 'knowing', and a higher-order visuo-parahippocampo-hippocampal system that encodes and stores context-rich events that are retrieved through the process of recollection-based 'remembering'. This last question is also being pursued in children with developmental amnesia (DA), a syndrome associated with early hippocampal pathology often due to perinatal hypoxic/ischemic episodes.  As memory impairments are a characteristic of many psychiatric and neurologic illnesses (e.g. schizophrenia, Alzheimer's disease) and aging, understanding the role of the different neural systems and their pharmacology may lead to new and important treatments.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The essential circuit for both item and associative stimulus recognition in any given sensory modality consists of the relevant cortical sensory processing stream(s), the medial temporal rhinal cortex, the ventromedial prefrontal cortex, and the medial dorsal nucleus of the thalamus. Context-free recall, familiarity based recognition, or fact memory, seems to depend primarily on the above basic memory circuit. Associative recall, recollection-based recognition, or event memory, seems to depend in addition on a higher-order circuit superimposed on the basic one and consisting of the hippocampus, mammillary body, and anterior thalamic nuclei.  Several years ago we discovered that hypoxic ischemic events sustained within the first year of life may result in a form of amnesia.  This 'developmental amnesia' (DA) is characterized by markedly impaired episodic (or event) memory combined with relative preservation of both semantic (or fact) memory and familiarity-based recognition memory, and is associated with medial temporal pathology that seems to be restricted to the hippocampus. We previously showed that, in addition to severe bilateral hippocampal atrophy, patients with DA have a mild degree of volume reduction in the thalamus.  It is not clear whether this extra-hippocampal damage is also due to hypoxia-ischaemia or to secondary degeneration after hippocampal damage. To investigate this question in an animal model, we examined the extra-hippocampal effects of pharmacological lesions to the hippocampus in five adult rhesus monkeys compared with three normal control animals, using structural magnetic resonance imaging. In addition, we compared the extent of extra-hippocampal damage observed in hippocampal-lesioned animals to that of 18 patients with DA resulting from severe hippocampal damage sustained early in life. In patients, the extent of hippocampal atrophy ranged from 28% to 64% bilateral volume reduction relative to normal, whereas in the monkeys it exceeded 50%. Total volumes of the thalamus were measured manually, and grey matter abnormalities across the whole brain were investigated using voxel-based morphometry. Results showed that monkeys with hippocampal lesions had normal thalamic volumes. No extra-hippocampal abnormalities were detected. In contrast, patients with DA had reduced volumes of the thalamus, and grey matter density reduction in the right amygdala. These results suggest that damage seen in patients with DA is at least in part a direct effect of hypoxia-ischaemia, and cannot be fully accounted for by anterograde degeneration. Thus, the diencephalic damage in DA subjects may independently contribute to the patients' memory loss.  In rodents, performance on a variety of spatial memory tasks depends on the integrity of the hippocampus. The extent to which navigational spatial memory depends on hippocampal integrity in monkeys and humans is not well documented. We therefore examined the extent to which subjects with DA and in a separate experiment a group of monkeys are impaired in navigational spatial memory.  We looked at allocentric spatial recall using a virtual environment in a group of subjects with severe hippocampal damage (SHD), a group of subjects with moderate hippocampal damage (MHD), and a normal control group. Distal cues were present throughout the experiment to provide orientation. A circular boundary as well as an intra-arena landmark provided spatial reference frames. During a subsequent test phase, recall was tested with only the boundary or the landmark being present. Patients with SHD were impaired in both phases of this task. Across groups, performance on both types of spatial recall was highly correlated with memory quotient (MQ), but not with IQ, age, or sex. Boundary-based and landmark-based spatial recall were both strongly related to bilateral hippocampal volumes, but not to volumes of the thalamus, putamen, pallidum, nucleus accumbens, or caudate nucleus. In monkeys, we investigated the effect of hippocampal lesions on allocentric spatial navigational memory in monkeys using a virtual environment. The task, a variant of the Morris Water Maze, which has been used extensively to test navigational spatial memory in rodents, required monkeys to use a joystick to navigate to a rewarded location within a circular arena. This circular arena resided in a larger hexagonal room, with six unique images at the walls of the room providing cues for orientation. The orientation cues, as well as the rewarded location within the arena, were different on each testing day, thus providing a different allocentric spatial memory problem in each session. In each trial, monkeys started navigating from a random location within the circular arena. Performance was assessed as the ratio between the distance traveled and the optimal distance, given each trial's starting location (perfect performance thus being 1) Pre-operatively, monkeys were able to reach a performance asymptote of around 1.5 and reliably learned to locate the reward within 20-30 trials. To our surprise, neither learning rate nor ceiling performance was significantly reduced after bilateral lesions of the hippocampus. The results thus suggest that the integrity of the hippocampus in rhesus monkeys may not be critical for memory-based allocentric spatial navigation in this virtual reality environment. However, further testing needs to be carried out before ruling out the importance of the hippocampus in navigational memory.  Recognition consists of the relevant cortical sensory processing stream and the medial temporal cortex. Visual recognition memory is dependent upon the interaction of the visual association cortex of area TE and the adjacent perirhinal cortex. Neural signals in perirhinal cortex have been shown to discriminate between new and familiar stimuli in a number of recognition memory tasks. However, the extent to which those signals depend on mnemonic task demands is not well understood. Thus we asked whether recognition memory signals in the perirhinal cortex are expressed regardless of whether the old/new status of an image is task relevant, or, alternatively, whether being engaged in a memory task modulates how old and new stimuli are represented. We trained monkeys on a recognition memory task and a categorization task. In both tasks, monkeys were presented with a list of dogs and cats, some of which were repeated exactly once. During the recognition memory task, monkeys had to pull a right lever when an image was new, and a left lever when an image was old, regardless of whether an image was of a dog or a cat. During the categorization task, monkeys had to pull a right lever if the image was of a dog, and a left lever if the image was of a cat, regardless of whether it was new or old. This design thus allowed us to assess whether old/new signals are differentially expressed as a function of mnemonic task demand. While monkeys performed both tasks in each daily session, we recorded neural activity in perirhinal cortex, as well as, simultaneously, in cortical area TE. Spectral analysis of the single-trial current source densities revealed that the amplitude of both low (30-60 Hz) and high (60-200 Hz) gamma oscillations discriminated between new and old stimuli regardless of whether the monkeys were engaged in the recognition memory task or in the categorization task. Specifically, gamma amplitude was higher for new than for old stimuli primarily in the middle layers of perirhinal cortex. Notably, a similar difference was not observed in area TE. Thus, our data suggest that the perirhinal cortex discriminates between old and new stimuli, regardless of whether the old/new status is task relevant or not and thus are important to understanding the distinction between episodic and semantic memory and the role of the perirhinal cortex.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91024&allpubs=Y&isajaxlink=Y&_UserReference=EFE29493ED39B3ED5B38D04C','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by reference within the summary, then by publication type and author name.
+</p>
+
+
+
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div> <div style="margin: -1.6em 0px 5px 2em;">Aggleton JP, Saunders RC, Wright NF, Vann SD (2014) The origin of projections from the posterior cingulate and retrosplenial cortices to the anterior, medial dorsal and laterodorsal thalamic nuclei of macaque monkeys. Eur J Neurosci 39:107-23
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24134130?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4112842/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 24134130
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4112842 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+ <!-- ends ordered rows -->
+
+
+
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

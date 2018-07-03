@@ -1,0 +1,621 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002860</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002860-12</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Emotional Dysfunction and Childhood Behavioral Disturbance
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2015 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+ <!-- faculty test -->
+
+Robert James Richard Blair; PhD
+
+ <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Affective Cognitive Neuroscience, NIMH
+
+</div>
+</div>
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Bruno B Averbeck  (Section on Learning and Decision Making)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Conduct Disorder, ADHD, amygdala, fMRI, orbital frontal cortex, Childhood behavioral disturbance
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Conduct Disorder (CD) is characterized by repetitive behavior where the rights of others and current social norms are violated.  One particular subtype of CD is associated with reduced guilt and empathy (callous and unemotional CU traits).  Adolescents with CD+CU are at greatest risk for increased levels of instrumental, goal directed aggression and a poor long term prognosis.  While adolescents with this form of CD incur considerable social and economic costs, relatively little is known about its neurobiological basis.  <br /><br />The Section of Affective Cognitive Neuroscience (SACN) employs fMRI to investigate the neural underpinnings of CD+CU in order to identify the pathophysiology associated with this disorder. By identifying the neurobiological basis of this form of CD, this work will provide both treatment suggestions as well as treatment targets for future intervention studies. Work was carried out under protocol 05-M-0105 (NCT00104039).
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+This project has established a series of core neuro-biological findings regarding the basis of Conduct Disorder (CD). Over the past year, we have particularly concentrated on forms of function that are compromised in youth with CD and then examined what specific symptom sets are consequent on these forms of dysfunction. <br /><br />In our previous work, we have shown that youth show reduced amygdala responses to the distress of others. This year we have continued this work revealing that patients with CD show reduced amygdala (and connected structure) responses to not only other forms of negative stimuli but also animate stimuli. The amygdala is importantly involved in responding to animacy information as well as emotional information.  Children with CD are compromised in both functions and thus show more widespread amygdala dysfunction that previously identified.  Notably, both forms of impairment relates to the level of Callous Unemotional symptomatology (i.e., levels of reduced guilt and empathy). <br /><br />Youth with CD show elevated levels of retaliation to social provocation.  We examined the neural substrates mediating retaliatory behavior in both healthy youth and youth with CD.  We particularly noted that ventromedial prefrontal cortex plays an important modulatory role in the selection of retaliatory responses to social provocation.  Youth with CD show impairment in this modulatory role.  Moreover, level of impairment in this modulatory role relates to the level of reactive aggression shown by youth with this disorder in their communities.  Reactive aggression is anger-based aggression conducted in response to threat, frustration and provocation.<br /><br />Youth with CD show high comorbidity with attention deficit hyperactivity disorder (ADHD).  We examined the neural substrates mediating impulsiveness in youth with CD and youth with ADHD.  We noted that the recruitment of regions implicated in response control (dorsomedial frontal and anterior insula cortices) was disrupted in youth with CD relative to healthy youth.  Notably, the extent of this impairment related to the level of impulsive and ADHD symptoms shown by the youth with CD.  However, it did not relate to level of CU traits, reactive aggression or CD symptoms more generally.  <br /><br />Critically, this work has allowed us to identify objective biomarkers of specific symptom sets that can be used in on-going work to assess treatment efficacy in this population. Indeed, our group, in other protocols, is about to start examining treatment efficacy using the paradigms developed under this protocol. <br /><br />This project has established a series of core neuro-biological findings regarding the basis of Conduct Disorder (CD). Over the past year, we have particularly concentrated on forms of function that are compromised in youth with CD and then examined what specific symptom sets are consequent on these forms of dysfunction. <br /><br />In our previous work, we have shown that youth show reduced amygdala responses to the distress of others. This year we have continued this work revealing that patients with CD show reduced amygdala (and connected structure) responses to not only other forms of negative stimuli but also animate stimuli. The amygdala is importantly involved in responding to animacy information as well as emotional information.  Children with CD are compromised in both functions and thus show more widespread amygdala dysfunction that previously identified.  Notably, both forms of impairment relates to the level of Callous Unemotional symptomatology (i.e., levels of reduced guilt and empathy). <br /><br />Youth with CD show elevated levels of retaliation to social provocation.  We examined the neural substrates mediating retaliatory behavior in both healthy youth and youth with CD.  We particularly noted that ventromedial prefrontal cortex plays an important modulatory role in the selection of retaliatory responses to social provocation.  Youth with CD show impairment in this modulatory role.  Moreover, level of impairment in this modulatory role relates to the level of reactive aggression shown by youth with this disorder in their communities.  Reactive aggression is anger-based aggression conducted in response to threat, frustration and provocation.<br /><br />Youth with CD show high comorbidity with attention deficit hyperactivity disorder (ADHD).  We examined the neural substrates mediating impulsiveness in youth with CD and youth with ADHD.  We noted that the recruitment of regions implicated in response control (dorsomedial frontal and anterior insula cortices) was disrupted in youth with CD relative to healthy youth.  Notably, the extent of this impairment related to the level of impulsive and ADHD symptoms shown by the youth with CD.  However, it did not relate to level of CU traits, reactive aggression or CD symptoms more generally.  <br /><br />Critically, this work has allowed us to identify objective biomarkers of specific symptom sets that can be used in on-going work to assess treatment efficacy in this population. Indeed, our group, in other protocols, is about to start examining treatment efficacy using the paradigms developed under this protocol. <br /><br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2016 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=96268&allpubs=Y&isajaxlink=Y&_UserReference=CC8DD2EB0A5FA00C5B38D1CC','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Blair RJ (2015) Reward Processing, Functional Connectivity, Psychopathy, and Research Domain Criteria. Biol Psychiatry 78:592-3
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26434627?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4975941/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26434627
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4975941 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Hwang S, Nolan ZT, White SF, Williams WC, Sinclair S, Blair RJ (2016) Dual neurocircuitry dysfunctions in disruptive behavior disorders: emotional responding and response inhibition. Psychol Med 46:1485-96
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26875722?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5638306/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26875722
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5638306 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Hwang S, White SF, Nolan ZT, Craig Williams W, Sinclair S, Blair RJ (2015) Executive attention control and emotional responding in attention-deficit/hyperactivity disorder--A functional MRI study. Neuroimage Clin 9:545-54
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26640766?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4632075/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26640766
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4632075 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">White SF, Briggs-Gowan MJ, Voss JL, Petitclerc A, McCarthy K, R Blair RJ, Wakschlag LS (2016) Can the fear recognition deficits associated with callous-unemotional traits be identified in early childhood? J Clin Exp Neuropsychol 38:672-84
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27167866?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5155588/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27167866
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5155588 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">White SF, Tyler PM, Erway AK, Botkin ML, Kolli V, Meffert H, Pope K, Blair JR (2016) Dysfunctional representation of expected value is associated with reinforcement-based decision-making deficits in adolescents with conduct problems. J Child Psychol Psychiatry 57:938-46
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27062170?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4958524/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27062170
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4958524 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

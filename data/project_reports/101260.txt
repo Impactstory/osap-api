@@ -1,0 +1,599 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002911</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002911-10</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">NIMH Instrumentation Core Facility
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lead Investigator</div></div>
+
+<div class="rowdiv">
+<div class="data">
+George Raphael Dold; MME, BSEE
+<br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any LIs -->
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<!-- display SoRs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Supervisor of Record</div></div>
+<div class="rowdiv">
+<div class="data">
+ <!-- faculty test -->
+Susan G Amara; PhD 
+ <!-- faculty test -->
+<br />
+
+</div>
+</div>
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Instrumentation, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Instrumentation</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 8 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Danny L Trang<br />
+
+
+
+Phuoc H Pham<br />
+
+
+
+Daryl  Bandy<br />
+
+
+
+David C Ide<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Thomas William Bennett<br />
+
+
+
+
+Bruce Allen Pritchard; BSEE<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=101260&onameset=Section on Instrumentation&isajaxlink=Y&_UserReference=0B4D8B07040E84FD5B38D3D9','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 8</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+<div id="moresamestaff">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffu">6 of a total of 40 other  members are shown. </div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Arash  Afraz; MD, PhD  (Unit on Neurons, Circuits and Behavior)<br />
+
+
+
+Stefano  Altomonte  (Section on PET Radiopharmaceutical Sciences)<br />
+
+
+
+Bruno B Averbeck  (Laboratory of Neuropsychology)<br />
+
+
+
+Nicholas Lee Balderston  (Section on Neurobiology of Fear and Anxiety)<br />
+
+
+
+Peter A Bandettini; BS, PhD  (Office of the Director)<br />
+
+
+
+Rebecca Ann Berman; PhD  (Section on Cognitive Neurophysiology and Imaging)<br />
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaff','searchview.taf?_function=showmore&ios=S&ipid=101260&thisic=&isajaxlink=Y&_UserReference=0B4D8B07040E84FD5B38D3D9','moresamestaffu');  return false;">
+
+
+<span class="morelist">Show all 40</span></a>.</form></div>
+
+
+
+</div>
+</div>
+
+
+</div>
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+<div id="moresamestaffo">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffou">6 of a total of 40 other NIH members are shown.</div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Daniel T Abebe; MS (NICHD) <br />
+
+
+
+Hyesook  Ahn; PhD (NCCIH) <br />
+
+
+
+Zane Nathan Aldworth; PhD (NICHD) <br />
+
+
+
+Lauren Yvette Atlas; PhD (NCCIH) <br />
+
+
+
+Dvir  Blivis (NINDS) <br />
+
+
+
+Kevin Lawrence Briggman; PhD (NINDS) <br />
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaffo','searchview.taf?_function=showmore&ios=O&ipid=101260&isajaxlink=Y&_UserReference=0B4D8B07040E84FD5B38D3D9','moresamestaffou');  return false;">
+
+
+<span class="morelist">Show all 40</span></a></form></div>
+
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+3D Printing, Biomedical, CAD/CAM, Custom, Design, Electrical, Electrophysiology, Engineering, Fabrication, LabView, MRI, Machining, Mechanical, Programming, Prototyping, Rapid Prototyping, Sensors, Data Acquisition, Instrumentation
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The mission of the NIMH, NIHDS, and NICHD Instrumentation CORE facility is to provide comprehensive engineering support in a collaborative and synergistic environment for research as requested by NIMH, NINDS and NICHD scientists.  The projects requested from our investigators include the full spectrum of applications from the cellular level, such as custom microscope chambers and perfusion systems, to insect studies with fruit flies or locusts. In addition, we do various projects for research applications using rodents, primates and, of course, human, clinical-based research. To support this mission, our Section provides a staff of engineers and technicians to fabricate custom electronic, mechanical, and electromechanical devices and instruments. The unique arrangement of our group allows us to not only help the investigators that come to us directly, but to spend many hours each week helping in the individual labs to solve electrical noise and recording problems, consult on electrophysiological recording set-ups, and to make recommendations for custom or commercial equipment or software.<br /><br />To provide the support necessary for each of these areas requires a dedicated staff that, over time, becomes experienced in the specific research areas such as electrophysiology, radiochemistry, behavioral testing, fMRI, etc. As part of our goal, we therefore strive to have staff expertise in each of these various research areas. This expertise allows us to better understand the investigator's requests and to recommend the right technical solution as appropriate.  Due to the multitude of requests we encounter and the limited time to devote to each request, our engineering approach is one of integration before development.  If a commercially available system or sensor can be used, we will integrate or modify it into our design first.<br /><br />An additional goal for our Section is to keep abreast of new technologies as they become available and to integrate these new technologies into the research as needed. Application of new technologies in the area of Rapid Prototyping and 3D printing has saved many hours of design and construction time and provided a rapid turnaround for engineering and fabrication requests.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+This past year, our Section had the unique opportunity to support the research of various Labs &amp; Sections within NIMH, NINDS, NICHD, and NCCIH. During the past twelve months, investigators from these labs and branches requested 465 formal projects from our staff. Each of these requests was documented and the time recorded to complete the job. In addition to the formal requests we are available daily for numerous walk-in, phone call or e-mail requests for assistance. <br /><br />In general, our technical support this past year can be divided into the following research areas:<br /><br />Electrophysiology<br /> <br />The Section on Instrumentation staff continuously strives to improve the utility of various components that comprise electrophysiology. We have continued to improve the engineering and fabrication of multiple-hole grid arrays that allow precise, repeatable placement of a single or multiple electrodes over a wide area. We have also continued to develop small single-electrode microdrives.  Novel methods using 3D printing now allow for the production low-component count yet accurate and smooth microdrives.<br />Single unit recording in behaving nonhuman primates is widely used to study the primate central nervous system. However, certain questions cannot be addressed without recording large numbers of neurons simultaneously. In collaboration with NIMH scientific staff, the Section on Instrumentation developed a method using 3D printing to include an individualized 3D-printed connector mounting platform, allowing for implanting and recording from 8 arrays of 96 electrodes. This technique doubles the number of arrays that have been successfully implanted in single animals. <br /><br />fMRI<br /><br />The Section on Instrumentation provides a wide range of support for fMRI-related research. Fabrication of devices for use in MRI environments is a specialized area of expertise, with great attention given to design without ferrous metals and minimization of all metal components. In addition, commercial industrial fiber optic components and systems are evaluated and integrated into many designs and devices we fabricate.  The Section on Instrumentation supports the installation of new equipment in MRI suites, including custom mirror and projection assemblies used for stimulus presentation, and custom RF-shielded penetration panels used to route cabling.<br /><br />Non-Human Primate (NHP)<br /><br />Our group is responsible for providing a wide range of engineering and fabrication services to support non-human primate research. Many of the mechanical assemblies that are necessary for this type of research are engineered and fabricated in-house. Our group provides a diverse array of custom systems and components to many different investigators, such as custom primate chairs, high-strength restraints, MRI positioning systems, custom head coils, reward systems, data acquisition, analysis and optical response systems, plus a wide range of small mechanical components. Using the 3D print capabilities of our shop, the Section on Instrumentation is assisting neurological researchers within the NIMH and other institutes in improving their pre-surgery preparations. With data provided and converted from CT and MRI scans, our section is able to print custom and detailed models of the individual monkeys skull and brain. These skulls and brains allow the surgeon and researchers to complete some of the necessary modifications and planning before entering the operating room, reducing surgery times, decreasing risks of complications, and maintaining sterility. <br /><br />Human<br /><br />Human research requires the creation of many novel devices that are compatible with the high-magnetic field environment. When a new magnet is installed, we are consulted with and provide the necessary components for presenting visual stimuli in the bore of the magnet, including image periscopes, screens, and mirrors. These devices are designed and manufactured with specific space and material constraints. <br />The Section on Instrumentation provides a substantial amount of engineering support to the Section on PET Radiopharmaceutical Sciences in the Molecular Imaging Branch (MIB) in the production of short-lived radiotracers for research studies in human subjects with positron emission tomography (PET).  A bubble point test (BPT) on the sterilizing filter is required before release of a PET radiopharmaceutical.   Data logging is an important aspect of quality assurance. The Section on Instrumentation fabricated an automated data-logging BPT instrument.  The fabricated BPT instrument gives accurate, reliable and data-loggable BPT results.<br /><br />Behavioral<br /><br />Several different types of mazes are used to study spatial learning and memory in rats. These studies have been used to help understand general principles about learning that can be applied to humans, and to determine what effect different treatments affect learning and memory in mice. We continue to produce a variety of custom T and Y mazes for behavioral testing. <br />When you pick up a phone, remember a phone number and dial it, you are using your working memory. Working memory is a cognitive process which maintains information for a relative short time, and is one of the most important cognitive process which is crucial to the functioning of the mind. <br />The T-maze delayed alternation task is a classic method to assess working memory in rodents. The task consists of a sample trial, a holding period and a test trial. In the sample trial, the animal is guided into one of the two arms to get a reward. After the sample trial, the animal is kept in the holding area for several seconds. Then in the test trial, the animal needs to go to the arm which it has not been to in the sample phase to get a reward. In order to eliminate any environmental distractions such as the movement of the investigator, we fabricated an automated T-maze. It detects the position and movement of the mouse, and operates the doors and delivers rewards automatically.<br /><br />Imaging<br /><br />Two-photon excitation microscopy is a fluorescence imaging technique that allows imaging of living tissue up to about one millimeter in depth.   Two-photon excitation can be a superior alternative to confocal microscopy due to its deeper tissue penetration, efficient light detection, and reduced phototoxicity.  The Section on Instrumentation produces a variety of equipment that supports two-photon microscopy, such as faraday cages for electronic and light shielding and custom mirror mounts.  In addition, behavioral testing equipment such as low-inertia mouse wheels are fabricated for use with two-photon microscopy.<br /><br />Clinical<br /><br />Our Section also supports a number of clinical based research requests under the broad areas of surgical, therapeutic and basic research. Moderate and deep pressure touch are commonly utilized in massage therapy and have been linked to reductions in stress, depression, and pain. Yet there is no understanding of how pressure exerts these affective benefits.  We recently developed a custom novel  device that administers repeatable mechanical compression.  This apparatus was used to identify the most pleasant intensity, frequency, and location for pressure stimulation of the lower leg.  This device allowed the testing of the subject while undergoing fMRI to determine the brain regions that correspond to the sensory stimulation. <br /><br />Technology<br /><br />By using the latest technology in advanced fabrication machinery, we are able to increase productivity and effectiveness while at the same time decreasing the amount of time needed to engineer and machine the components. Our waterjet cutter continues to increase our cutting and fabricating capabilities, especially with the multiple fiberglass parts we produce. With this system, we were able to drill a hole the approximate diameter of 4 human hairs through a ceramic screw.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101260&allpubs=Y&isajaxlink=Y&_UserReference=0B4D8B07040E84FD5B38D3D9','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Mitz AR, bartolo R, Saunders RC, Browning P, Talbot T, Averbeck B (2017) High channel count single-unit recordings from nonhuman primate frontal cortex Journal of Neuroscience Methods 289:39-47
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

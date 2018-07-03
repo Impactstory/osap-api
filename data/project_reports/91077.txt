@@ -1,0 +1,544 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002887</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002887-09</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neural substrates of reward processing and emotion
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Elisabeth Adams Murray; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/elisabeth-murray" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neurobiology of Learning and Memory, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neurobiology of Learning and Memory</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 8 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Dawn A Lundgren; MA<br />
+
+
+
+Emily J Howland<br />
+
+
+
+Ping-Yu  Chen<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Benjamin Michael Basile<br />
+
+
+
+
+Emily Caroline Fiuzat<br />
+
+
+
+
+Jaewon  Hwang<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=91077&onameset=Section on Neurobiology of Learning and Memory&isajaxlink=Y&_UserReference=EF21A6EE794CCEA35B38D378','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 8</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Barry J Richmond; MD (Section on Neural Coding and Computation)<br />
+
+
+
+Andrew M Clark (Section on Neural Coding and Computation)<br />
+
+
+
+Bruno B Averbeck (Section on Learning and Decision Making)<br />
+
+
+
+Olga  Dal Monte (Section on Learning and Decision Making)<br />
+
+
+
+Richard C Saunders; PhD (Laboratory of Neuropsychology)<br />
+
+
+
+Janita N Turchi; PhD (Section on Cognitive Neuroscience)<br />
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Emotion, Amygdala, Orbitofrontal Cortex, Prefrontal cortex, Sensory Modalities
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Functional neuroimaging and clinical studies have repeatedly implicated the orbitofrontal cortex (OFC) and the amygdala in major depressive disorder, phobias, panic attack syndrome and other neuropsychiatric diseases. Depressed patients, for example, show altered activation of the OFC and amygdala in a variety of circumstances. In agreement with these findings, stimulation of the amygdala causes fear, anxiety and dysphoria.<br /><br />Much of our information about brain structure and function is derived from studies that employ functional neuroimaging, electrophysiology, and either molecular or genetic methodologies.  The results that these methods provide are correlational in nature, not causal, and therefore can establish structure-function relationships in only a provisional way. The lack of a causal analysis hampers any attempt to translate research findings into improvements in a patients quality of life. In the absence of causal knowledge about the underlying pathophysiology, and especially about the localization of functions disrupted in mental health disorders, treatments of these diseases typically affect the whole brain. Targeted interventions, such as deep brain stimulation (DBS), when they have been attempted at all, have lacked a strong theoretical foundation. A better understanding of the structural underpinnings of emotion and valuation is therefore essential for progress in this area.<br /><br />Other limitations have also retarded progress in this field. Previous work has, for example, focused excessively on the role of the amygdala in fear conditioning and negative emotions at the expense of understanding its full range of functions, which encompass positive valuations and emotions. Given the importance of the OFC and the amygdala to major mental health disorders, there is a clear need for an improved understanding of their role in emotion in both health and disease, as well as in both positive and negative emotions.<br /><br />The current project addresses these limitations with direct tests of causal relationships in the regulation of positive affect and valuations. Recent findings from this project elucidate its goals and objectives. They point to both cooperating and contrasting functions of the OFC and the amygdala. Cooperation between the OFC and the amygdala arises when the OFC depends on the value-updating function of the amygdala. Contrasting functions reflect OFCs role in surmounting behaviors controlled by the amygdala, among other factors. In this context, the goal of the present project is to develop a causal theory of the functional interactions between the amygdala and the OFC. The overall objective of the project is to establish a concrete conceptual approach for the translation of research findings into therapies.  The specific objectives of this project are: (1) to elucidate the functional role of the amygdala, OFC and related structures in valuations and emotions; (2) to understand the division of labor within subdivisions of the OFC and the interactions of each of its subdivisions with the amygdala; and (3), to explore the possibility of using inactivating agents or receptor manipulations within targeted parts of the amygdala or OFC to promote healthy affective regulation.<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Previous work on this project has shown that value-based decision making requires both the OFC and the amygdala. We have used two kinds of tasks to investigate their mechanisms: (1) standard probabilistic and deterministic 2- and 3-choice visual discrimination learning tasks and (2) tasks that require subjects to make choices associated with rewards of different value (the devaluation task). We have found that both the amygdala and OFC are necessary when subjects need to make choices based on the current value of rewards, but not for choices based simply on the availability of rewards. Our earlier results indicated that when the value of one food was reduced by the subject consuming it to satiety, control subjects showed a reduction in actions associated with the devalued food. In contrast, subjects with either bilateral damage to the amygdala or the OFC failed to show this devaluation effect. <br /><br />It is well established that many animals can identify when one item is the same as another item. For example, subjects can be trained to respond to item repetitions, such as in matching paradigms, and they also naturally treat repeated objects differently than novel ones, as demonstrated in preferential viewing paradigms. It is less clear to what degree nonhuman animals possess something akin to an abstract concept of sameness that can be divorced from perceptual features. For example, we cannot only identify similarity in perceptually similar things (e.g., two dogs are the same breed), but also perceptually dissimilar things (e.g., a bullet is like an arrow), and we can conceptualize similarity as an abstract concept that can have value independent of specific objects. In the period under review we found evidence that subjects can learn a two-item same-different discrimination, and transfer this discrimination to novel stimuli. The transfer was not affected by perceptual variations in stimulus size, rotation, view, or luminance. Success on this task suggests that our subjects have a computation of sameness that is more categorical, and perhaps more abstract, than previously thought. Future studies will evaluate whether OFC and the amygdala contribute to the valuation of abstract concepts, like they do to valuation of objects and actions.<br /><br />We recently found that damage limited to cells in the OFC, but sparing fibers, did not affect performance on standard tests of visual discrimination learning and reversal. This led us to reject the influential idea that the primary function of the OFC involves inhibitory control. Although the loss of neurons in OFC per se is not responsible for the impairment, some other part(s) of the frontal cortex is presumably responsible. Our evidence suggests that impaired performance on reversal tasks following mechanical damage to OFC is caused by damage to white matter tracts passing nearby OFC, which disrupts the connections and functions of other frontal cortex areas. Accordingly, we set out to determine the role of both the OFC (Walkers areas 11, 13, and 14) and the ventrolateral prefrontal cortex (VLPFC, Walkers area 12), the area laterally adjacent to the OFC, in learning and reversing probabilistic stimulus-reward associations. Subjects were trained to perform a stimulus-based three-arm bandit task for food rewards. On this task, three stimuli are available for choice on each trial, and the probability of receiving a reward from any of the stimuli fluctuates over the course of 300-trial testing sessions. Both controls and subjects with lesions of the OFC were readily able to learn and track which stimulus was associated with the highest probability of reward. In contrast, subjects with lesions of VLPFC were severely impaired. Logistic regression analyses indicate that this was because subjects with VLPFC lesions were unable to form contingent associations between stimuli and rewards. Our data strongly suggest that the deficits in flexible stimulus-reward learning and reversal previously ascribed to OFC are actually the result of unintentional damage to projections to or from VLPFC.<br /><br />Like these recent findings for the OFC, the amygdala is not necessary for visual discrimination learning and reversal in the standard task. Indeed, amygdala damage leads to a slight facilitation in this form of stimulus-reward learning. In the period under review we developed a Bayesian approach to separately characterize two component learning processes: learning and reversing specific stimulus-reward associations and learning a higher-order rule (or belief) that reversals occur. This rule can be formally defined as a Bayesian prior belief that a reversal in the reward contingencies will occur. The object reversal learning task, therefore, requires the development of a prior belief about the probability that reversals occur. We applied the approach to behavior obtained from 89 subjects, comprising twelve lesion groups and a control group. We found that subjects from all of the groups reversed more quickly as they experienced more reversals, and correspondingly they updated their prior beliefs about reversals at the same rate. We found that across the population of subjects, reversal behavior clustered into three groups. Mechanical lesions involving OFC and rhinal cortex, as well as excitotoxic lesions of the hippocampus, lead to deficits on the task.  Damage to medial OFC area 14 had no effect on task performance. Finally, selective damage to the amygdala, selective damage to OFC or parts of the medial prefrontal cortex, led to improved performance on the first few reversals. In addition, we found that the clusters differed in the initial value of their prior beliefs in reversals, but that all clusters updated their belief in reversals at the same rate. Thus, by taking a Bayesian approach we find that variability in reversal learning performance attributable to different neural systems is primarily driven by different prior beliefs about reversals that each group brings to the task.<br /><br />Finally, a considerable body of evidence has suggested a role for the amygdala in processing emotionally salient information in faces. To evaluate amygdala contributions to social displays of emotion, we had subjects perform an attentional capture task in which they viewed images of a socially relevant portion of a subject face (eye, nose, or mouth) or nonsocial (scrambled) images. When the image appeared at the subjects fixation point, they had to make a saccade away from it as quickly as possible. We found that both subjects with amygdala lesions and controls made saccades more slowly when they saw social vs. nonsocial images. We also found that saccade latency was significantly faster in subjects with amygdala damage, compared to controls, especially on trials with a threatening expression formed by the mouth. For comparison, we also monitored eye movements during free viewing, i.e., as subjects looked at images of faces voluntarily. In this condition, all subjects spent the greatest amount of time exploring the eye region of the face. Subjects with amygdala lesions, however, spent less time than controls exploring the eye region of the faces and more time exploring the mouth. The two tasks seem to be measuring different aspects of attention to faces. The slowing of saccades on the attentional capture task may reflect an innate response to imminent danger signals, a response that is diminished by amygdala damage. By contrast, the exploration of the eyes and mouth within a face are important to collect information about the identification and status (e.g., health, social and reproductive status) of a conspecific. Here, an influence of amygdala damage on face processing may reflect a lack of attention to social cues. These data indicate that the amygdala plays a crucial role in processing and attending to multiple aspects of face features.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91077&allpubs=Y&isajaxlink=Y&_UserReference=EF21A6EE794CCEA35B38D378','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Jang AI, Costa VD, Rudebeck PH, Chudasama Y, Murray EA, Averbeck BB (2015) The Role of Frontal Cortical and Medial-Temporal Lobe Brain Areas in Learning a Bayesian Prior Belief on Reversals. J Neurosci 35:11751-60
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26290251?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4540808/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26290251
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4540808 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

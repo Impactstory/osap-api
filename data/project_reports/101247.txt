@@ -1,0 +1,723 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002887</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002887-11</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neural Substrates of Reward Processing and Emotion
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Elisabeth Adams Murray; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/elisabeth-murray" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neurobiology of Learning and Memory, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neurobiology of Learning and Memory</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 11 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Dawn A Lundgren; MA<br />
+
+
+
+Emily J Howland<br />
+
+
+
+Ping-Yu  Chen<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Benjamin Michael Basile<br />
+
+
+
+
+Nicole Katherine Ciesinski<br />
+
+
+
+
+Brian Roger Coleman<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=101247&onameset=Section on Neurobiology of Learning and Memory&isajaxlink=Y&_UserReference=B9409D87E82777075B38D025','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 11</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Bruno B Averbeck (Section on Learning and Decision Making)<br />
+
+
+
+Richard C Saunders; PhD (Laboratory of Neuropsychology)<br />
+
+
+
+
+
+
+
+
+
+
+
+
+Vincent Daniel Costa  (Section on Learning and Decision Making)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborator
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Steve  Chang; PhD
+<i>(Dept. of Psychology, Yale University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+valuation, Amygdala, Orbitofrontal Cortex, Prefrontal cortex, Emotion
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Clinical studies have repeatedly implicated the orbitofrontal cortex (OFC), the medial prefrontal cortex (MFC) and the amygdala in phobias, panic attacks, major depressive disorder, bipolar disorder, obsessive-compulsive disorder, schizophrenia, and autism. Patients with major depressive disorder, for example, show altered cerebral blood flow in all three of these brain structures. Furthermore, dysfunctional interactions of the OFC and the MFC with the amygdala are thought to underlie these disorders, at least in part.<br /><br /><br />Much of our information about brain structure and function is derived from studies that employ functional neuroimaging, electrophysiology, and either molecular or genetic methodologies. The results that these methods provide are correlational in nature, not causal, and therefore can establish structure-function relationships in only a provisional way. The lack of a causal analysis hampers any attempt to translate research findings into improvements in a patients quality of life. In the absence of causal knowledge about the underlying pathophysiology, and especially about the localization of functions disrupted in mental health disorders, treatments of these diseases typically affect the whole brain. Targeted interventions, such as deep brain stimulation (DBS), when they have been attempted at all, have lacked a strong theoretical foundation. A better understanding of the structural underpinnings of emotion and valuation is therefore essential for progress in this area.<br />Given the links between mental health disorders and altered function in the OFC, MFC, and the amygdala, there is a clear need for an improved understanding of their role in learning, decision making, and emotion in both health and disease.<br /><br />The overarching goal of this project is to develop an understanding of the functional interactions among the amygdala, the OFC and the MFC in value-based decision making. Accordingly, our work examines the specific and collective contributions of these three key components of the limbic system to reward and emotion. The specific objectives of this project are: (1) to elucidate the role of the amygdala, the OFC and the MFC in reward processing, valuation and emotion; (2) to understand the selective contributions of the OFC and the MFC to value-based decision making; and (3) to explore therapies that might ameliorate the symptoms of major depressive disorder and other disorders of mood and anxiety.<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+OFC is thought to be essential for at least two aspects of stimulus-reward learning: 1) representing the current value of anticipated outcomes and 2) learning to choose based on the relationship between particular choices and the probability of receiving a reward. These two aspects might be considered to reflect the desirability and availability of reward outcomes. Yet the ventrolateral prefrontal cortex (VLPFC), a region adjacent to OFC, has also been implicated in learning about the availability of outcomes. To explore the functional specializations of these two frontal cortex regions, we trained animals on two tasks: one required updating representations of a predicted outcomes desirability, as measured by the devaluation task; the other required updating representations of an outcomes availability, as indexed by performance on a probabilistic 3-choice visual discrimination. We evaluated performance on both tasks in three groups of animals: unoperated controls and those with selective, fiber-sparing lesions of either OFC or VLPFC. We found that VLPFC but not OFC plays an essential role in making choices based on outcome availability; in contrast, OFC but not VLPFC is essential for making choices based on outcome desirability. The separate processing of outcome availability and desirability in VLPFC and OFC, respectively, has implications for models of prefrontal cortex function during choice behavior.<br /><br />A considerable body of evidence suggests a role for the amygdala in processing emotionally salient information in faces. For example, patients with amygdala damage fix their gaze on the eye region of faces to a lesser extent than controls. In our earlier work we used an attentional capture task to assess the role of the amygdala in attending to different aspects of facial expressions of emotion. Attentional capture is a phenomenon whereby irrelevant stimuli in the field of view detract from ongoing cognitive processes. We found that subjects with amygdala lesions showed reduced attentional capture by face stimuli, and that this effect was driven by the mouth region more than the eyes. Thus, the amygdala contributes to the processing of, and attention to, certain social cues.<br />Rewarded stimuli are also known to capture attention. Because the amygdala is essential for processing reward outcomes, this raised the possibility that it is important for attending to rewarded stimuli. To test this, animals with amygdala lesions and intact controls were trained to acquire stimulus-reward associations, and then probed for attentional capture by those rewarded stimuli. Both groups showed robust attentional capture by the rewarded stimuli, measured by the latency to look away from a valuable, rewarded image. Importantly, there was no effect of the lesion on attentional capture. The same groups of animals were tested for attentional capture by innately valuable stimuli, including predators (e.g., snakes, crocodiles) and positive social cues (e.g., female perineum). Here, attentional capture was attenuated in the animals with amygdala lesions relative to controls. These data indicate that the amygdala is essential for attending to innately valuable but not learned reward-predictive stimuli.<br />We have also studied the neural basis of reward processing in a social context. Previous research shows that animals choose to deliver rewards to their conspecifics under some conditions. This apparent prosocial preference suggests that the sight of another animal receiving reward is vicariously reinforcing. Here, we evaluated how pupil size, an autonomic correlate of arousal, changed when animals anticipated that juice would be delivered to themselves, another conspecific animal, or not at all. Two animals sat opposite each other while one, the actor, was visually cued to the upcoming juice delivery outcome and could choose to complete or abort the trial. Consistent with previous research, actors chose to complete most self-reward trials, a moderate number of other-reward trials, and the fewest neither-reward trials, suggesting that they did prefer juice delivery to the other animal over juice delivery to nobody. As expected, pupil size was widest in anticipation of the animals own reward. Paradoxically, pupil size was more constricted in anticipation of reward to the other animal than in anticipation of reward to nobody. Thus, trial completion rates suggest animals find reward delivery to another animal reinforcing, but pupil size suggests they find it aversive. Thus, there may be both positive and negative affect associated with vicarious reinforcement.<br />Studies examining the effects of focal brain lesions provide critical insights on the relationships between brain structure and behavior. Current techniques allow researchers to damage cell bodies selectively, while sparing fibers of passage. A major challenge of the lesion method is documenting the degree to which the lesion is both complete and selective for the region of interest. Currently, lesion extent is manually drawn on a series of sections of a reference brain from visual inspection of a postoperative T1 MRI scan (in which damage appears as relative hyposignal), T2 MRI scan (in which damage appears as relative hypersignal), or histology slides. However, this approach is time-consuming and difficult to standardize. Recent advances in automated nonlinear registration algorithms and the advent of a standard brain template may improve the speed and standardization of lesion mapping. Here, we employ a semi-automated method to map cortical lesion boundaries (e.g., orbitofrontal cortex, prelimbic cortex, premotor cortex) from multiple subjects to a single standard template. This two-step process involves: 1) manually tracing the lesions in native space on the subjects postoperative MRI scan, and 2) warping the traced lesion mask and postoperative scan to template space using a nonlinear algorithm provided by a validated neuroimaging software package, ANTs. We further evaluate the extent to which the damage registered in the in vivo scans are representative of the actual surgical damage by comparing these digitized masks to traditional Nissl-stained histological material. This approach provides an improved method for lesion mapping that saves time, standardizes results, and provides multiple options for quantifying lesion extent and generating informative 2D and 3D visualizations.<br />Selective, fiber-sparing excitotoxic lesions are a state-of-the-art tool for studying the causal contributions of different brain areas to behavior. We routinely use MRI to plan and to guide injections of excitotoxins into specific regions to produce selective cell loss (i.e., lesions). In addition, we routinely assess the extent of excitotoxic lesions in vivo, using MRI-based methods, within a few weeks of the operation. To determine whether in vivo T2-weighted MRI accurately estimates damage following selective excitotoxic lesions of the amygdala, we compared lesion volume estimates for the amygdala obtained from MRI and traditional histology. Across 19 hemispheres from 13 subjects, MRI assessment consistently overestimated amygdala damage compared to microscopic examination of Nissl-stained histological material. Two outliers suggested that near-complete MRI-estimated damage may predict actual damage of at least 45%, but more data  are necessary to evaluate this hypothesis. However, excitotoxins routinely produce extensive damage (median = 82%) that correlates with total injection volume, validating the general success of the technique. The field will benefit from more research into these assessment methods, and the accuracy of MRI assessment in different brain areas. For now, in vivo MRI assessment of lesions of the amygdala can be used to confirm successful injections, but estimates of lesion extent should be interpreted with caution. 
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101247&allpubs=Y&isajaxlink=Y&_UserReference=B9409D87E82777075B38D025','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Book chapters<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Murray E (2017) From emotion to motion: making choices based on current states and biological needs, in The Nature of Emotion. Fundamental Questions. Fox AS, Lapate RC, Shackman AJ, Davidson RJ, eds, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Basile BM, Karaskiewicz CL, Fiuzat EC, Malkova L, Murray EA (2017) MRI Overestimates Excitotoxic Amygdala Lesion Damage in Rhesus Monkeys. Front Integr Neurosci 11:12
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28642691?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5462941/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28642691
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5462941 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Costa VD, Dal Monte O, Lucas DR, Murray E, Averbeck B (2016) Amygdala and ventral striatum make distinct contributions to reinforcement learning. Neuron, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Fiuzat EC, Rhodes SE, Murray EA (2017) The Role of Orbitofrontal-Amygdala Interactions in Updating Action-Outcome Valuations in Macaques. J Neurosci 37:2463-2470
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28148725?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5354351/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28148725
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5354351 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Rudebeck PH, Saunders RC, Lundgren DA, Murray E (2017) Specialized representations of value in orbital and ventrolateral prefrontal cortex: desirability versus availability of outcomes. Neuron, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Vicario-Feliciano R, Murray EA, Averbeck BB (2017). Ventral striatum lesions do not affect reinforcement learning with deterministic outcomes on slow time scales. Behav Neurosci  131, 385-91.   https://doi.org/10.1037/bne0000211
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28805428?dopt=Abstract" target="_blank">PubMed</a>
+
+
+           &nbsp;&nbsp;&nbsp;&nbsp;<i>Available in future as a Free Article</i> <!-- looks for PMC translations for in progress or embargoed -->
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28805428
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5620131 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

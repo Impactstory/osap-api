@@ -1,0 +1,1010 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002798</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002798-12</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">The Psychophysiology Of Fear And Anxiety
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Christian  Grillon; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/christian-grillon" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neurobiology of Fear and Anxiety, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neurobiology of Fear and Anxiety</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 13 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Brian R Cornwell; PhD<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Phillip Stoll Allen<br />
+
+
+
+
+Maria Anne Briscione<br />
+
+
+
+
+Andrew Ogilvie Davis<br />
+
+
+
+
+Elizabeth Ann Hale<br />
+
+
+
+
+Marissa Rene Krimsky<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=81165&onameset=Section on Neurobiology of Fear and Anxiety&isajaxlink=Y&_UserReference=B1C6F569EB4979615B38D708','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 13</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Kathleen R Merikangas; PhD  (Genetic Epidemiology Branch)<br />
+
+
+
+Daniel  Pine; MD  (Emotion and Development Branch)<br />
+
+
+
+Carlos Alberto Zarate; MD  (Laboratory of Molecular Pathophysiology and Experimental Therapeutics)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Neill  Epperson; MD
+<i>(Department of Psychiatry, University of Pennsylvania School of Medicine)</i>
+<br />
+
+
+
+Abby  Fyer; MD
+<i>(Department of Psychiatry, Columbia University)</i>
+<br />
+
+
+
+Gregor  Hasler; MD, PhD
+<i>(University Hospital of Psychiatry and Psychotherapy Bern)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+anxiety, executive function, Fear, classical conditioning, threat, startle, psychophysiology
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The Section on the Neurobiology of Fear and Anxiety uses the tools of psychophysiology, cognitive neuroscience, psychopharmacology, and neuroimaging to investigate the neuropsychobiology of normal and pathological fear and anxiety. Anxiety disorders constitute a major public health problem.  At an estimated cost of more than $50 billion per year, they are the most prevalent disorders in the US. As many as 20% of adults suffer from an anxiety disorder during their lifetime. Compared to non-anxious individuals, people with anxiety disorders are three to five times more likely to go to the doctor and six times more likely to be hospitalized for a psychiatric illness. Thus, the social and personal cost of anxiety disorders is high. Current treatments are hampered by limited efficacy and unwanted side-effects. Obstacles to the development of better treatments include the lack of pathophysiological markers, poor clinical efficacy of candidate anxiolytics discovered through basic research in animals, and unsatisfactory classification due to imprecise boundaries between anxiety subtypes and comorbidity. The major goal of our work is to elucidate the psychological and neurobiological underpinnings of normal and pathologic anxious states in order to inform the etiology, treatment, and classification of anxiety disorders.<br />	Our research distinguishes anxiety from fear. Fear is a short-duration, defensive state to an imminent and predictable threat, whereas anxiety is a more sustained state of uncertainty and apprehension about unpredictable, future threats. Our working hypothesis is that fear and anxiety are functionally dissociable states making unique contributions to anxiety disorder pathophysiology. Our aims are to: 1) identify psychophysiological and neural correlates of anxiety and anxiety disorders, 2) understand how anxiety interferes with daily life, 3) clarify how subtypes of anxiety disorders map onto the fear/anxiety distinction, 4) and identify psychopathological mechanisms.<br />	Our research branches into four areas: 1) psychophysiology with an approach strongly inspired from basic science in animals, which constitutes a rich source of data and theories to inform laboratory-based threat experiments, allowing greater directional hypothesis testing and cross-fertilization between neuroscience and psychological sciences (01-M-0185/NCT00026559; 03-M-0093/NCT00055224), 2) psychopharmacology to investigate mechanisms of anxiolytic action and to develop paradigms that facilitate the drug discovery process (10-M-0049/NCT01059227), 3) neuroimaging to elucidate the neural underpinnings of fear and anxiety (02-M-0321/NCT00047853; 03-M-0093/NCT00055224), with a focus on the amygdala and on a neural circuit consisting of the extended amygdala, dorsal raphe nucleus, hippocampus, dorsomedial and ventromedial prefrontal cortex in the mediation and modulation of fear and anxiety. Functional brain imaging constitutes a first step toward brain based diagnostics, endophenotypes and neurally-targeted interventions for the anxiety disorders by identifying brain correlates of these disorders, and finally, 4) affective neuroscience with a focus on the interaction between aversive states and thoughts, feelings, and behaviors (01-M-0185/NCT00026559; 02-M-0321/NCT00047853; 03-M-0093/NCT00055224).
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Our objective is to determine the extent to which fear and anxiety are relevant to features of particular forms of normal and abnormal anxiety in humans and to qualify how these aversive states interfere with ongoing goals and activity. Past work focused mainly on mechanisms of fear/anxiety learning and expression during anticipation of unpleasant stimuli (shocks). More recent investigations explores the interaction between anxiety and cognitive/attention processes. This research has major public health implications. Identifying the psychological and neurobiological substrate of anxiety evoked by different types of threat and defining key aspects of anxietycognition interactions may provide important links between brain dysfunction and clinical phenomenology and may help design better psychological and psychopharmacological treatments.<br /><br />There are three major research areas.<br /><br />1) We examine pathways by which normative mechanisms malfunction in anxiety disorders. Here we are seeking evidence that the brain circuit responsible for adaptive, healthy threat-processing is hyperactive in anxiety disorders. In past investigations, we found that anxiety evoked by shock anticipation (induced-anxiety) promotes attentional bias for threat in healthy individuals. Attentional bias plays a key role in the etiology and maintenance of anxiety disorders. While it is adaptive to pay attention to threat to react effectively to danger, a chronic state of attentional bias for threat is maladaptive. Our prior work showed that increased positive coupling between the dorsal-medial prefrontal cortex (dmPFC) and the amygdala is critical for the instigation and maintenance of a bias towards threat. We now have confirmed this finding utilizing a different technique; enhanced positive intrinsic connectivity is seen between the dmPFC and the amygdala during prolonged periods of shock anticipation in an adapted, resting state paradigm (Vytal et al, submitted).We also showed that mimicking a pharmacological symptom of anxiety in healthy individuals - reduced serotonergic function - engages functional connectivity within this circuit during the processing of fearful faces (Robinson et al 2013). This study provides a putative psychological and neural mechanism by which, one of the leading psychopharmacological treatment for anxiety disorders, the selective serotonergic reuptake inhibitor medications (e.g., Prozac), which increases serotonin levels, alleviates anxiety.  Our results suggest that such a treatment may lessen anxiety by suppressing chronic attentional bias via a reduction in dmPFC-amygdala connectivity. <br /><br />The above hypotheses provide a strong rationale to examine dmPFC-amygdala connectivity in anxiety disorders, a study that is currently ongoing. Showing that dmPFC-amygdala connectivity is increased in anxiety disorders would confirm that a neural mechanism of attentional bias is constantly switched on in these conditions. <br /><br />A second approach investigates the interaction between anxiety and task performance. On the one hand, it is clear that along with the emotional facets of the disorder, anxiety patients have difficulty concentrating and report feeling distracted, which in turn can negatively impact their job performance and interpersonal relationships. On the other hand, it is also clear that humans possess the capacity to actively disengage from anticipation of a potential threat in order to focus on a challenging task, thereby reducing their anxiety. This resource shift is adaptive because it allows for individuals to perform necessary procedures in order to survive in an environment with imminent threat (e.g., war). We have examined these interactive processes using induced-anxiety during performance of working memory (WM) tasks. WM is central to healthy functioning because it supports online maintenance and manipulation of information (e.g., tallying the cost of a grocery bill while shopping). <br />We showed that that the impact of anxiety on verbal WM performance and, reciprocally, of task demand, on anxiety is based on the cognitive demand of a given task. Specifically, when a WM task is easy, anxiety remains relatively high and performance is disrupted (Vytal et al 2013). However, when a task places greater demand on cognitive resources, anxiety is reduced, but not fully suppressed, and performance normalizes. Recently, we identified the dmPFC as a key structure where competition for resources to process threat-related and WM-related information takes place (Vytal et al submitted). Further insight into these mechanisms reveals that anticipatory anxiety and task demand increase communication between dmPFC and amygdala and dorsolateral PFC (dlPFC), respectively. Under low-load (easy tasks), anxiety engages the dmPFC, and dmPFC-amygdala coupling increases to promote an anxious response. Under high-load (difficult task) WM engages dmPFC and dmPFC-dlPFC coupling increases to promote increased focus on task demands. By describing the neural underpinnings of anxiety/cognition interaction we are one step closer to identifying biomarkers of vulnerability to anxious pathology, and discrete neural site for novel treatments that target both emotional and cognitive disruption associated with anxiety. <br /><br />We are currently extending this research into three areas, 1) exploring the interaction between anxiety and other types of tasks, 2) examining these processes in individuals with anxiety disorders, and 3) investigating whether the interaction between anxiety and WM can be manipulated pharmacologically. <br /><br />The third approach focuses on basic mechanisms that help maintain sustained anxiety responses. One such mechanism is prediction error, which is a fundamental neural learning process that reflects the difference between an actual outcome and an expected outcome. We have reported that prediction error is increased by induced-anxiety, which may explain the propensity for threat-related associations under stress (Robinson et al 2013). Another basic mechanism is stimulus generalization.  It is adaptive for a neutral stimulus that has been associated with an aversive event to evoke a conditioned fear response because it may predict danger in the future. Stimulus generalization is the propensity to also react with fear to stimuli that resemble or share features with the conditioned stimulus (e.g., a person who survived an explosion reacts with fear to any loud sound). It has been proposed that overgeneralization of fear to many safe stimuli could contribute importantly to anxiety disorders. Our past studies reported results consistent with this view. We showed that stimulus generalization is increased in individuals with panic disorder. We have now extended these findings to another anxiety disorder, generalized anxiety disorder (Lissek et al in press).  In a recent study, we also identified neural mechanisms underlying various aspects of stimulus generalization. The dmPFC and insula show increased activity as stimuli increasingly resemble the conditioned fear stimulus (Lissek et al 2013). Conversely, the hippocampus and the ventromedial PFC, a structure that mediates the inhibition of fear, show increased activity as stimuli less resemble the conditioned fear stimulus. In addition, these two structures showed positive coupling, suggesting that stimuli that less resembled the conditioned fear stimulus were associated with greater safety values and with more fear inhibition. These results have potential treatment implications.<br /><br />Future studies: We are planning to pursue this line of research by examining a basic mechanism of over-generalization, pattern separation, which is mechanism that helps differentiate stimuli that are perceptually similar.  <br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81165&allpubs=Y&isajaxlink=Y&_UserReference=B1C6F569EB4979615B38D708','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Britton JC, Grillon C, Lissek S, Norcross MA, Szuhany KL, Chen G, Ernst M, Nelson EE, Leibenluft E, Shechner T, Pine DS (2013) Response to Learned Threat: An fMRI Study in Adolescent and Adult Anxiety. Am J Psychiatry 170:1195-204
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23929092?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3790858/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23929092
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3790858 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Cornwell BR, Overstreet C, Krimsky M, Grillon C (2013) Passive avoidance is linked to impaired fear extinction in humans. Learn Mem 20:164-9
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23427168?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3578273/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23427168
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3578273 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Glotzbach-Schoon E, Tadda R, Andreatta M, Tröger C, Ewald H, Grillon C, Pauli P, Mühlberger A (2013). Enhanced discrimination between threatening and safe contexts in high-anxious individuals. Biol Psychol  93, 159-66.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23384512?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4166521/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23384512
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4166521 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Jenewein J, Moergeli H, Sprott H, Honegger D, Brunner L, Ettlin D, Grillon C, Bloch K, Brügger M, Schwegler K, Schumacher S, Hasler G (2013). Fear-learning deficits in subjects with fibromyalgia syndrome? Eur J Pain  17, 1374-84.   https://doi.org/10.1002/j.1532-2149.2013.00300.x
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23468076?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3929307/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23468076
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3929307 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Lissek SM, Kaczkurkin A, Rabin SJ, Geraci M, Pine D, Grillon C (2013) Generalized anxiety disorder is associated with overgeneralization of classically conditioned-fear. Biol Psychiatry, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Robinson OJ, Krimsky M, Grillon C (2013) The impact of induced anxiety on response inhibition. Front Hum Neurosci 7:69
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23471118?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3590569/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23471118
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3590569 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Robinson OJ, Overstreet C, Allen PS, Letkiewicz A, Vytal K, Pine DS, Grillon C (2013) The role of serotonin in the neurocircuitry of negative affective bias: serotonergic modulation of the dorsal medial prefrontal-amygdala aversive amplification circuit. Neuroimage 78:217-23
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23583742?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3677215/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23583742
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3677215 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">8.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Robinson OJ, Overstreet C, Charney DR, Vytal K, Grillon C (2013) Stress increases aversive prediction error signal in the ventral striatum. Proc Natl Acad Sci U S A 110:4129-33
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23401511?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3593853/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23401511
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3593853 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">9.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Robinson OJ, Vytal K, Cornwell BR, Grillon C (2013) The impact of anxiety upon cognition: perspectives from human threat of shock studies. Front Hum Neurosci 7:203
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23730279?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3656338/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23730279
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3656338 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">10.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Vytal KE, Cornwell BR, Letkiewicz AM, Arkin NE, Grillon C (2013) The complex interaction between anxiety and cognition: insight from spatial and verbal working memory. Front Hum Neurosci 7:93
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23542914?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3610083/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23542914
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3610083 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,543 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002886</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002886-07</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neural mechanisms of reward processing and emotion
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Elisabeth Adams Murray; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/elisabeth-murray" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neurobiology of Learning and Memory, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neurobiology of Learning and Memory</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 9 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Ping-Yu  Chen<br />
+
+
+
+Tianming  Yang<br />
+
+
+
+Peter Herman Rudebeck<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Peter Matthew Kaskan; PhD<br />
+
+
+
+
+Jared Tyler Mathews<br />
+
+
+
+
+Pamela  Noble<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=81232&onameset=Section on Neurobiology of Learning and Memory&isajaxlink=Y&_UserReference=F471D8A48720A6265B38D088','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 9</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Vincent Daniel Costa  (Section on Learning and Decision Making)<br />
+
+
+
+David A Leopold; PhD  (Section on Cognitive Neurophysiology and Imaging)<br />
+
+
+
+Andrew Rattin Mitz; PhD  (Section on Neurophysiology)<br />
+
+
+
+Leslie G Ungerleider; PhD  (Laboratory of Brain and Cognition)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Orbitofrontal Cortex, Amygdala, Decision making, Emotion, Neurophysiology, Prefrontal cortex, Sensory Modalities
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The frontal lobe and amygdala both regulate emotions and play a key role in updating the valuations of objects, actions and rules. Furthermore, dysfunction of these two brain regions has been implicated in mood and anxiety disorders, obsessive-compulsive disorder, schizophrenia and autism spectrum disorders. Research on this project has focused on representations of value because of its potential relevance to mood disorders, in particular. For example, dysregulation of valuation mechanisms could contribute to anhedonia, apathy, abulia and other symptoms of major depressive disorder. To cite one specific example, problems with valuation of self could produce low self-esteem.<br /><br />The goal of this project is therefore to understand the physiological mechanisms of valuation, with a focus on interactions between that amygdala and two key parts of the frontal lobe, the orbitofrontal cortex (OFC) and the medial frontal cortex (MFC). This project studies how these regions encode value, how they link value to particular objects and actions during learning, and the contribution of the amygdala to OFC and MFC function. To understand these relationships, it will be necessary to understand how the OFC, the MFC, and the amygdala process information and how they interact with each other at the physiological level.<br /><br />Current approaches to understanding these interactions have serious limitations. Research that relies on functional neuroimaging or physiological measures can establish that a particular variable is encoded in a particular brain region, but these approaches do not reveal the source(s) of that information. For example, analyses of functional neuroimaging data can reveal functional connectivity and psychophysiological interactions, but these measures are correlational in nature. For a causal analysis of the amygdalas contribution to frontal lobe function, neuronal information processing needs to be studied before and after the removal of the amygdala.<br /><br />Although neurophysiological studies have shown that the activity of neurons in amygdala, OFC and MFC correlates with the value of expected rewarding or aversive events, little is known about the physiological interactions among these areas or how these interactions produce autonomic and emotional responses. To address these issues, the objective of this project is to examine the contribution of the amygdala to autonomic responses and to neuronal activity in both the OFC and MFC. Our specific objective is to use a combination of neurophysiological and neuropsychological methods: (1) to study the neurophysiological interaction of both the OFC and the MFC with the amygdala as subjects make decisions based on predicted reward values; (2) to examine the role of the amygdala in producing emotional responses in anticipation of and in reaction to rewards; (3) to determine the relationship between the neural activity in the OFC and the MFC and the autonomic responses that occur in anticipation of reward; and (4) to study the effect of amygdala, OFC and MFC damage on autonomic responses.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+To address whether the amygdala is critical for encoding reward value in OFC and MFC, we recorded neural activity in these areas as subjects performed a choice task, both before and after bilateral lesions of the amygdala. The subjects had previously learned that visual stimuli were associated with different magnitudes of reward. As expected, neurons in both OFC and MFC signaled the reward quantity associated with each stimulus. In contrast to MFC, OFC contained a larger proportion of neurons encoding reward quantity and did so with faster response latencies. Removing the amygdala eliminated these differences, mainly by decreasing and slowing value coding in OFC. In addition, the proportion of neurons that encoded the quantity of expected reward and received reward also decreased after the lesions. In effect, the amygdala lesions abolished the preoperative differences between the OFC and MFC. Although the amygdala projects to both OFC and MFC, these findings show that it has its greatest influence over reward value coding in OFC. Importantly, amygdala lesions did not abolish value coding in OFC, which shows that OFCs representations of value depends, in part, on other sources. Our data suggest that any effect of dysfunction or degeneration within the amygdala would primarily affect the processing of emotion and reward valuations within OFC.<br />As part of our effort to understand valuation mechanisms in OFC and MFC, we also investigated the activity of these areas during learning. As indicated above, the amygdala is one source of valuation signals to these two parts of the frontal lobe. To determine whether the amygdala is critical for the development of valuation signals within the OFC and MFC during learning, we recorded neural activity within these areas in subjects performing a learning task both before and after bilateral lesions of the amygdala. Within each session, subjects were given the opportunity to learn about three novel visual stimuli and their associated amounts of fluid reward. Through trial and error, subjects learned to choose the stimulus that led to the greater reward. Amygdala lesions caused a small, but significant, slowing in the rate of learning. Furthermore, these lesions reduced OFCs neural encoding of whether the best stimulus had been chosen on a given trial. By contrast, neurons in MFC displayed an increased coding of the position and value of the chosen stimulus. Taken together, these findings indicate that the amygdala contributes to the incorporation of feedback with stimulus valuations during learning.<br /><br />Recently, there has been renewed interest in the role of the anterior cingulate cortex (ACC), a distinct part of the MFC, in the regulation of emotion and arousal. Dysfunction and degeneration in the ACC has been reported in patients suffering from depression, and its activation in depressed patients is correlated with anhedonia. Based on these findings, therapeutic approaches to treatment-resistant depression have targeted the ACC with electrical stimulation. Determining the role of ACC in positive affect and in arousal would advance our understanding of the neural substrates of emotion and potentially provide a window into the pathophysiology of depression. Accordingly, we assessed the effect of lesions of the ACC on autonomic arousal to positive emotional events. We recorded pupil size, a measure of autonomic and emotional arousal, during Pavlovian conditioning for fluid rewards. Subjects with lesions of ACC and controls exhibited increased pupil size in response to a stimulus that predicted a reward (a conditioned stimulus), but not for a stimulus that had no association with reward. Notably, whereas controls showed a sustained increase in autonomic arousal during a period between the offset of the conditioned stimulus and reward delivery, subjects with lesions of the ACC did not. Lesions of the ACC did not affect extinction of conditioned autonomic arousal, autonomic arousal in response to the delivery of rewards alone, or the acquisition and extinction of object-reward associations. Our data reveal that the ACC is important for sustaining autonomic arousal in anticipation of positive emotional events, such as rewards, and suggest a specific role for this area in the regulation of arousal and emotion.<br /><br />Relative to neutral stimuli, arousing visual stimuli produce greater fMRI activation within the inferior temporal cortex (IT) and the amygdala. This affective modulation could underlie emotional attention, a mechanism through which biologically important stimuli capture neural resources devoted to sensory processing. The emotional-attention effect in IT could derive from three sources: (1) direct amygdala projections to IT; (2) a subcortical loop involving the striatum; and/or (3) direct projections from the OFC and the ventral prefrontal cortex to IT. Using visual stimuli, we used fMRI to measure cortical activation in subjects after they had learned stimulus-reward associations in sessions composed of two types of trials. One type of trial involved a forced choice between two visual stimuli. The other type, interleaved with the first, involved Pavlovian viewing-only trials. Half of the stimuli predicted a high probability of reward and half predicted a low probability. To measure reward expectation, we compared activations on viewing-only trials, contrasting the response to stimuli predicting a high probability of reward with those predicting a low probability. After learning, subjects chose the high probability stimulus on about 90 percent of choice trials, which shows that they attended to and learned about the valuations of the visual stimuli. We found significantly greater activation in response to the high probability stimuli in both the amygdala and IT. The effect was specific for emotional attention in IT, as shown by the observation that the activated regions did not respond to receipt of reward per se. These results demonstrate that the amygdala and IT encode reward probability, and that reward-related responses in IT cortex are specific for emotional attention.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81232&allpubs=Y&isajaxlink=Y&_UserReference=F471D8A48720A6265B38D088','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Hadj-Bouziane F, Liu N, Bell AH, Gothard KM, Luh WM, Tootell RB, Murray EA, Ungerleider LG (2012) Amygdala lesions disrupt modulation of functional MRI activity evoked by facial expression in the monkey inferior temporal cortex. Proc Natl Acad Sci U S A 109:E3640-8
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23184972?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3535608/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23184972
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3535608 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

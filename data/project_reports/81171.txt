@@ -1,0 +1,737 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH001090</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH001090-36</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Studies Of Central Nervous System Functional Anatomy
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Miles  Herkenham; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/miles-herkenham" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Functional Neroanatomy, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Functional Neroanatomy</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Michael L Lehmann; PhD<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Matthew Evan Dean<br />
+
+
+
+
+Mitra H Haeri<br />
+
+
+
+
+Jennifer Laurel Lee<br />
+
+
+
+
+Samuel J Listwak; PhD<br />
+
+
+
+
+Rachel Brooke Scheinert; PhD<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Lee E Eiden; PhD  (Section on Molecular Neuroscience)<br />
+
+
+
+Keri  Martinowich  (Laboratory of Molecular Pathophysiology and Experimental Therapeutics)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Rachel R Caspi; PhD (NEI) <br />
+
+
+
+Abdel G Elkahloun; PhD (NHGRI) <br />
+
+
+
+Kory R Johnson (NINDS) <br />
+
+
+
+Heather R Kalish; PhD (NIBIB) <br />
+
+
+
+Dragan  Maric; PhD (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Eleonore  Beurel; PhD
+<i>(Departments of Psychiatry and Behavioral Sciences, Miller School of Medicine, University of Miami)</i>
+<br />
+
+
+
+Eric J Nestler; MD, PhD
+<i>(Neuroscience, Mt. Sinai Medical Center)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+neuroimmunology, psychosocial stress, hippocampal neurogenesis, depression, NF-kappaB, anxiety, blood-brain barrier, cytokine, environmental enrichment, in situ hybridization, limbic, maternal immune activation, neuroanatomy, social behavior
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Susceptibility to mental disorders is affected by encounters with adverse life events causing psychological harm and by physiological challenges such as drugs, toxicants, and infections.  The challenges can occur any time during the lifespan with different consequences depending on age.  Some of the adverse events and challenges occur in utero, with consequences on the offspring during development and after birth.  Other challenges occur during adolescence or other critical periods.  A complex interplay between genetic and environmental influences can determine the outcome.  The resultant maladaptive and enduring changes are visible at the behavioral level, but their underlying causes lie in enduring neurochemical and molecular changes that occur in specific cell types in discrete brain regions.  Moreover, interactions between the central nervous system (CNS) and the peripheral organs, notably the immune system, occur bidirectionally.  Our goal is to define the anatomical circuits and key cellular and molecular elements that participate in this kind of communication and are engaged when the brain responds to psychosocial stress and to physiological changes brought about by chronic stress, illness, and infections, both in adult and in developing animals.  Our laboratory uses neuroanatomical, behavioral, histochemical, biochemical, and molecular tools to reveal these changes in rodents.  Changes at the systems, circuit, neurochemical, and molecular levels are measured and causally related to an animals susceptibility or resilience to the adverse challenges.  Understanding the pathways involved in such responses may help guide development of interventions aimed at treating mental disorders, including depression, anxiety, post-traumatic stress disorder, schizophrenia, and autism, that arise as a consequence of psychophysiological, pathophysiological, and immunological challenges.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Our work currently falls into two major areas.  The first area is focused on the study in mice of neurobiological and immune system factors that contribute to altered behaviors induced by psychosocial stress-induced depressive-like states and the amelioration or prevention of these states by environmental enrichment coupled with voluntary wheel running exercise.  We previously developed an ethologically valid form of chronic psychosocial stress in mice.  Chronic stress has been implicated in the etiology and progression of various psychiatric disorders including depression and post-traumatic stress disorder (PTSD).  In mice, we are exploring the effects of social conflict stress in a paradigm involving repeated daily exposure to social defeat by a dominant mouse living in a dyadic relationship with the subordinate experimental mouse that develops depressive-like behaviors and enduring neurochemical alterations in identified neuronal pathways.  Specifically, adult hippocampal neurogenesis is a target of these manipulations, and we showed that the survival of newborn hippocampal neurons is reduced by repeated social defeat and increased by environmental enrichment.  The defeat-induced depressive-like behaviors and reduced new cell survival can be reversed by a period of environmental enrichment that includes access to a running wheel.  Animals exposed to environmental enrichment prior to social defeat develop resilience to the aggressor mouse and do not go on to develop depressive-like behaviors.  The concomitant reduction in neurogenesis is reversed as well.  Stress hormones are known to affect neurogenesis, so we examined the role of the adrenal hormone corticosterone in affecting behavior and new cell survival.  Transgenic mice with the GFAP-HSV-tk construct, when given the antibiotic drug gancyclovir, lack adult neurogenesis, and these animals are not able to regain normal behavior after being subjected to the social defeat followed by environmental enrichment.  The mice have been used to test the role of hippocampal neurogenesis in supporting the effects of corticosterone on behavior.  In these studies, mice were adrenalectomized and corticosterone-replaced to eliminate the high surges that occur following stressful events.  We were thus able to investigate causal roles of glucocorticoids and neurogenesis in induction of depressive-like behavior and its amelioration by environmental enrichment.  By blocking neurogenesis and surgically clamping adrenal hormone secretions, we showed that neurogenesisvia the hypothalamic-pituitary-adrenal (HPA) axis interactions is directly involved in precipitating the depressive phenotype following social defeat.  Mice adrenalectomized prior to social defeat showed enhanced behavioral resiliency and increased survival of adult-born hippocampal neurons compared to sham-operated defeated mice.  However, mice lacking hippocampal neurogenesis did not show protective effects of adrenalectomy.  Moreover, glucocorticoids secreted during environmental enrichment promoted neurogenesis and were required for restoration of normal behavior after social defeat.  The data demonstrated that glucocorticoid-dependent declines in neurogenesis drive changes in mood following social defeat and that glucocorticoids secreted during enrichment promote neurogenesis and restore normal behavior after defeat.  These data provide new evidence for direct involvement of neurogenesis in the etiology of depression, suggesting that treatments promoting neurogenesis can enhance stress resilience.<br />The adverse consequences of social defeat can be experimentally validated by administering behavioral tests that assess helplessness in forced swim, anxiety in the elevated zero maze, and affiliation in the social interaction task.  We sought to develop better ways to characterize the depressive-like states generated by psychosocial stressors such as social defeat.  Reasoning that naturalistic behaviors support the best assays, we developed a highly sensitive, easy-to-perform, and reliable method to assess depressive state in a test that we named the urine scent marking (USM) test.  In this test, male mice with various prior experiences will scent mark a spot of female urine in an open field to varying degrees, and the marks can be quantified for determination of depressive-like status.<br /><br />A major focus of the lab is aimed at exploring the role of microglia in the response to psychosocial stress.  We have preliminary data showing differential effects of acute and chronic stress on activation of microglia in the prefrontal cortex.  We will document this phenomenon in extensive experiments and show the role played by the brains immune cells in contributing to neuronal function and circuit activity.<br /><br />The second area of research examines biochemical pathways that may translate immune signals into a language that neurons might use.  The studies address the more general question of how the immune system exerts its effect on brain function.  We studied the involvement of the transcription factor NF-kB (nuclear factor-kappa B) in neuronal function.  NF-kB exists in the molecular form of a complex of well characterized proteins that can convey information, usually about immune activation or cellular stress, from the cell surface to the nucleus where key molecular pairs bind to DNA to induce the production of immune molecules that regulate key cellular functions such as cell proliferation, cell survival, cell death, immunity, and inflammation.  Interestingly, the NF-kB pathway is active in the brain.  The role of NF-kB in neurons has yet to be clearly elucidated.  Neuronal NF-kB reportedly responds to immune and toxic stimuli, glutamate, and synaptic activity.  However, because the brain contains many cell types, assays specifically measuring neuronal NF-kB activity are difficult to perform and interpret.  To address this, we compared NF-kB activity in cultures of primary neocortical neurons, mixed brain cells, and liver cells.  Functional assays showed that constitutive NF-kB activity was nearly absent in neurons.  Induced activity was many fold lower than in other cell types, as measured by degradation of the inhibitor IkBa, nuclear accumulation of the subunit p65, binding to kB DNA consensus sites, NF-kB reporting, or induction of NF-kB-responsive genes.  The most efficacious activating stimuli for neurons were the proinflammatory cytokines tumor necrosis factor alpha (TNFa) and interleukin-1beta (IL-1b).  Neuronal NF-kB was not responsive to glutamate, or to other putative stimuli.  Importantly, the level of induced neuronal NF-kB activity in response to TNFa or any other stimulus was lower than the level of basal activity in non-neuronal cells, calling into question the functional significance of neuronal NF-kB activity. 
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81171&allpubs=Y&isajaxlink=Y&_UserReference=2B9678E221CE355C5B38D159','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Lehmann ML, Brachman RA, Martinowich K, Schloesser RJ, Herkenham M (2013) Glucocorticoids orchestrate divergent effects on mood through adult neurogenesis. J Neurosci 33:2961-72.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23407954?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3711562/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23407954
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3711562 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Lehmann ML, Geddes CE, Lee JL, Herkenham M (2013) Urine Scent Marking (USM): A Novel Test for Depressive-Like Behavior and a Predictor of Stress Resiliency in Mice. PLoS One 8:e69822
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23875001?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3713058/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23875001
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3713058 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Listwak SJ, Rathore P, Herkenham M (2013). Minimal NF-κB activity in neurons. Neuroscience  250, 282-299.   https://doi.org/10.1016/j.neuroscience.2013.07.013
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23872390?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3785079/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23872390
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3785079 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

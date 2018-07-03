@@ -1,0 +1,735 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002652</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002652-21</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Imaging of Neuropsychiatric Disorders with Developmental and Genetic Mechanisms
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Karen F Berman; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/karen-berman" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Integrative Neuroimaging, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Integrative Neuroimaging</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 23 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Jose A Apud; MD, PhD<br />
+
+
+
+
+Erica B Baller<br />
+
+
+
+
+Jeffrey Brandt Bloch<br />
+
+
+
+
+Brett Franklin Cropp<br />
+
+
+
+
+Jasmin Bettina Czarapata<br />
+
+
+
+
+Katherine Steffen Filip Damme<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=81189&onameset=Section on Integrative Neuroimaging&isajaxlink=Y&_UserReference=1AF8E781B4982D9F5B38D170','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 23</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Bhaskar S Kolachana; PhD  (Psychosis and Cognitive Studies Section)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+B  Buchsbaum
+<i>(Rotman Research Institute)</i>
+<br />
+
+
+
+A  Meyer-Lindenberg; MD
+<i>(Central Institute of Mental Health)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Neuroimaging, Schizophrenia, COMT, Cognition, Executive function, Genetics, Brain Circuitry, dopamine, Working Memory
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The Section on Integrative Neuroimaging, in the Clinical Brain Disorders Branch, is working to more clearly define the neurobiology of schizophrenia at the systems level, characterizing abnormalities in implicated neural circuits serving cognitive functions disrupted in schizophrenia and their neurochemical underpinnings. In particular, we examine pathophysiology in the frontotemporal system and in systems based on the relationship between subcortical dopamine neurons and cortical activity (Study 01-M-0232 NCT00024622). This work brings together measurements of regional cerebral blood flow (rCBF) with oxygen-15 water PET (Study 90-M-0014 NCT00001258), neural activation with functional magnetic resonance imaging (fMRI) (Study 00-M-0085 NCT00004571), and comprehensive pre- and post-synaptic dopaminergic function with F-18-fluorodopa (18FDOPA), C-11-NNC112 (NNC112), and F-18-fallypride (fallypride) PET (Study 09-M-0176 NCT00942981). This multifaceted approach has the potential to uncover distinctive systems-level phenotypes that may be helpful in the search for susceptibility genes for schizophrenia and other neuropsychiatric disorders, which may ultimately help guide the development of desperately needed new treatments. <br /><br />Because the neural circuits and neurochemical indices that are tested depend upon dopamine and other neurotransmitters that can be affected by neuroleptic medications, patients are studied with these multiple imaging modalities while they are medication-free. The Clinical Brain Disorders Branch (CBDB) inpatient ward and the drug withdrawal protocol in which many of our inpatients participate are critically important to understanding the pathophysiology, particularly neurochemical features, without the contaminant of ongoing neuroleptic treatment. The NIMH Intramural Research Program (IRP) is one of the few remaining clinical research facilities where work of this nature can be carried out. Similarly, this privileged setting allows for close integration with candidate risk gene discovery efforts from other investigators, permitting this work to provide an active database with which to test the neurobiological repercussions of newly identified schizophrenia susceptibility genes. <br /><br />Specifically, our current work in medication-free patients aims to describe dysfunction of basal-, reward- and executive cognition-related neural activity via fMRI and rCBF studies in relation to clinical indices, candidate risk genotypes, and correlative measurement of presynaptic dopamine stores using 18FDOPA PET scanning. In addition, we are assembling a comparison cohort of patients with early Parkinsons disease who can tolerate these same neuroimaging procedures while briefly withdrawn from their medications to examine the sequelae of a mechanistically different disorder of dopamine regulation. We further seek to refine our understanding of cortical dopamine economy in schizophrenia by incorporating into our research program the radioligands NNC112 and fallypride, which permit measurement of D1 and D2/3 receptors in the cortex, respectively. This allows us to directly test the theories that cortical dopaminergic tone plays a role in maintaining task appropriate network activity and that the ratio between D1 and D2/3 receptors influences cortical signal-to-noise ratios. These methods for testing the reciprocal prefrontal cortex-subcortical interactions that are strongly implicated in schizophrenia hold great promise for identifying the mechanisms that underlie this and other devastating neuropsychiatric illnesses.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The Section on Integrative Neuroimaging continues to make advances toward its goals of understanding the nature, molecular underpinnings, underlying neurochemistry, and clinical correlates of neural systems-level dysfunction in schizophrenia. This year, we have made substantial progress in furthering our multimodal neuroimaging studies of a unique and growing cohort of medication-free patients with schizophrenia. In particular, new efforts to characterize not only presynaptic dopamine synthetic capacity, but also D1 and D2/3 receptor availability in this population have been successful in this years participants, and with further accrual, will allow evaluation of key hypotheses about integrated pre- and post-synaptic dopamine functioning in this disorder. In conjunction with cortical cognitive activation data collected in the same patients, these data will also provide a platform to expand work from this lab yolking characteristic schizophrenia-associated impairments in prefrontal activation during executive task performance and exaggerated striatal dopamine synthesis. Specifically, this ongoing project will allow us to directly evaluate theories that schizophrenic neuropathophysiological changes are reflected in failures of maintaining task appropriate network activity via disturbed cortical dopaminergic tone and impaired signal-to-noise ratios due to suboptimal D1 to D2/3 receptor relationships. <br /><br />As we have previously described, critical disturbances in cognitive control and mnemonic neural circuitry in schizophrenia not only serve as sources of marked disability in affected individuals, but also provide a valuable phenotype for testing hypotheses regarding how genes implicated in schizophrenia might contribute risk. For example, by measuring regional cerebral blood flow during the N-back continuous working memory task, we have re-confirmed an aberrant prefrontal activation pattern even in patients who perform relatively well on the task and further demonstrated profoundly aberrant connectivity in prefrontal and medial temporal lobe regions, which showed strong ability to discriminate between healthy and ill participants. This latter finding was prospectively validated in two additional data sets, suggesting that disturbances in the prefrontal-limbic functional axis may be an illness trait marker. Delving then into contributing molecular mechanisms, we have also reported on a unique gene-diagnosis interaction operating on regional cerebral blood flow involving the gene coding for catechol-O-methyltransferase, COMT, which harbors common variation that is weakly but consistently associated with schizophrenia risk and strongly implicated in both prefrontal and limbic functioning during executive and affective challenge, respectively, in healthy individuals. In particular, we have identified that even at rest there exists in patients with schizophrenia an inverse relationship between dorsolateral prefrontal cortical and medial temporal lobe blood flow, which is mediated by COMT genotype. This is an effect not seen in healthy study participants and suggests an important intersection between genetically determined cortical dopaminergic tone and fundamental biases in baseline prefrontal-limbic neural network activity in patients suffering with schizophrenia. Adopting a similar strategy, we have broadened our work in this cohort to identify gene-diagnosis interactions with other risk genes that impact neural functioning during both working-memory performance and basal resting conditions. This year, we have shown that genetic variation in brain-derived neurotrophic factor (BDNF), a key molecule regulating hippocampal development and function, which has also been implicated in aspects of schizophrenic neuropathophysiology, plays an important, independent predictive role in hippocampal physiology under multiple cognitive conditions and does so much differently in medication-withdrawn patients with schizophrenia (Eisenberg et al., 2013). Together, this series of experiments elucidates a mechanistic explanation for variation in characteristic resting-state and cognitive challenge-related neural abnormalities previously identified in schizophrenia. In addition, we have very recently extended our study of schizophrenia-associated hippocampal dysfunction by establishing that activity during mnemonic encoding is a likely indicator of genetic liability for this illness (Rasetti et al, 2013).  Advancing these lines of research provides an important complement to studies of other central biomarkers (e.g., Masdeu et als report screening for autoimmunity in schizophrenia (2013)) and ultimately promises to aid treatment target discovery. (Masdeu et al., 2013) <br /><br />In parallel, in collaboration with the Behavioral Neuroendocrinology Section we have employed an incisive hormone manipulation, multimodal neuroimaging approach aimed at understanding the neural substrate of premenstrual dysphoric disorder (Baller et al., 2013).  Measuring both fMRI and PET indices of working-memory during sex steroid hormone suppression with a GnRH agonist and individually, progesterone and estrogen add-back administration, in both healthy and PMDD patients, we found that regardless of the modality or hormone condition, PMDD patients showed exaggerated prefrontal neural response to working memory challenge, which was related to clinical symptom measurements, providing a much-needed foothold towards unraveling the neural underpinnings of this common and costly mental disorder.<br /><br />Finally, in collaboration with Dr. Sidransky in NHGRI, we have been able to advance insight into the pathophysiology of parkinsonism associated with genetic mutations in GBA, a gene disrupted in Gauchers disease.  With our multitracer PET approach, we have characterized both dopaminergic and perfusion abnormalities related to idiopathic and GBA-linked parkinsonism (Goker-Alpan et al., 2012).
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81189&allpubs=Y&isajaxlink=Y&_UserReference=1AF8E781B4982D9F5B38D170','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Dreher JC, Koch P, Kohn P, Apud J, Weinberger DR, Berman KF (2012) Common and differential pathophysiological features accompany comparable cognitive impairments in medication-free patients with schizophrenia and in healthy aging subjects. Biol Psychiatry 71:890-7.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22341369?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4834851/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22341369
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4834851 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Eisenberg DP, Ianni AM, Wei SM, Kohn PD, Kolachana B, Apud J, Weinberger DR, Berman KF (2013) Brain-derived neurotrophic factor (BDNF) Val(66)Met polymorphism differentially predicts hippocampal function in medication-free patients with schizophrenia. Mol Psychiatry 18:713-20
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23319002?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3628926/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23319002
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3628926 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Eisenberg DP, Kleinman J, Berman KF (2013) Epistasis and complex neuropsychiatric phenotypes. Psychiatry 76:295-7
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23965266?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4207620/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23965266
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4207620 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Goker-Alpan O, Masdeu JC, Kohn PD, Ianni A, Lopez G, Groden C, Chapman MC, Cropp B, Eisenberg DP, Maniwang ED, Davis J, Wiggs E, Sidransky E, Berman KF (2012) The neurobiology of glucocerebrosidase-associated parkinsonism: a positron emission tomography study of dopamine synthesis and regional cerebral blood flow. Brain 135:2440-8.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22843412?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3407426/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22843412
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3407426 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

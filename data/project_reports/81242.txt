@@ -1,0 +1,527 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002897</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002897-07</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Molecular and Cellular Mechanisms of Experience-Dependent Cortical Processing
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Kuan Hong Wang; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/kuan-hong-wang" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Unit on Neural Circuits and Adaptive Behaviors, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Unit on Neural Circuits and Adaptive Behaviors</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Vania Y Cao<br />
+
+
+
+
+Surjeet S Mastwal<br />
+
+
+
+
+Ming  Ren; MD, PhD<br />
+
+
+
+
+Yizhou  Ye; PhD<br />
+
+
+
+
+Motoko  Yoshizawa<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Andres  Buonanno; PhD (NICHD) <br />
+
+
+
+Rui Manuel Costa; DVM, PhD (NIAAA) <br />
+
+
+
+David Michael Lovinger; PhD (NIAAA) <br />
+
+
+
+Detlef  Vullhorst; PhD (NICHD) <br />
+
+
+
+Robert H Wurtz; PhD (NEI) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+experience-depedent plasticity, mental illness mouse models, molecular and cellular biology, neural circuit structure and function
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+It is the objective of the Unit on Neural Circuits and Adaptive Behaviors group, as part of the Clinical Brain Disorders Branch, to understand the logic and mechanisms of experience-dependent cortical information processing at the molecular, cellular, circuitry and behavioral levels.  An integrated approach including molecular genetics, epigenetics, multi-photon imaging, electrophysiology, optogenetics, and behavioral analyses are applied to investigate the ability of the brain to change in response to environmental challenges and social interactions in normal mice and mice carrying genetic risk factors for psychiatric disorders such as schizophrenia, depression and drug addiction.<br /><br />To accomplish this goal, we are interested in engineering new tools and developing new approaches to monitor and modulate the cellular and molecular dynamics induced by neurobehavioral perturbations in mice.  Such tools will lead us to:<br />1) Identify and characterize the molecular and cellular changes in the maturing and adult cerebral cortex that are regulated by internal drives, environmental exposures, and social interactions of an animal;<br />2) Examine the neurophysiological consequences of these molecular and cellular changes and investigate the mechanisms by which these changes are integrated in the cortical circuits to control behavioral decisions and action plans; and<br />3) Combine the optical-genetic systems that are developed with mouse models of mental disorders to monitor the development of brain dysfunctions in real time, and test the effects of genetic risk factors as well as pharmacological and behavioral treatments.<br />&amp;#8195;
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Our brain can be considered as a type of information processing system like a computer, where input signals need to be first detected and properly represented, then integrated for decision-making and output control.  A unique feature of the brain as an information processing system lies in its adaptability.  Namely, sensory experience-induced neural activities can trigger cascades of molecular and cellular changes in brain circuits, which subsequently alter brain functions and affect behavioral outputs.  In healthy individuals, this adaptive process can adjust the brain in response to the demands of the external physical and social environments, and ultimately benefit the survival of individuals.  Abnormalities in the adaptation to environmental and social stressors can contribute to the development of a variety of mental disorders, such as schizophrenia and depression.  In order to prevent maladaptations and develop pharmacological treatments for mental disorders, it is important to understand the cellular and molecular mechanisms of experience-dependent information processing in brain circuits.<br /><br />We have chosen to use laboratory mice as a model organism to investigate the basic cellular and molecular mechanisms of experience-dependent cortical processing.  This organism offers several major advantages for this line of study.   First, mice and humans both have about 30,000 genes, and about 99 percent of them are shared.  Second, the cellular organization of mouse cerebral cortex is similar to human, and major cortical regions are also homologous.  Third, it is possible to perform precise molecular manipulations in specific types of cells in mouse brain, which is required to establish causal relationships between genes, cells, circuits and behaviors.  We have previously established a mouse line in which the coding part of the neural activity-regulated immediate early gene Arc is replaced with a gene encoding green fluorescent protein (GFP).  Using this line, we have studied the experience-dependent expression pattern of Arc in the visual cortex, and revealed a physiological function of Arc in sharpening stimulus-specific visual responses.<br /><br />Our lab continues to investigate the mechanisms by which experience-induced molecular changes impact on cortical processing of information, with a particular focus on frontal cortical circuits.  Normal executive function in goal-directed behavior depends on the frontal cortex, and functional brain imaging studies have revealed altered frontal lobe activity in response to cognitive challenges in psychiatric patients.  However, the mechanisms by which specific genetic risk factors and behavioral experiences may influence the functional cellular architecture and the developmental trajectory of frontal cortical circuits remain largely unknown.  To begin to investigate the impact of behavioral experience on plasticity-related gene expression dynamics in the frontal cortex, we have developed and published a method that combines in vivo two-photon microscopy with a genetically encoded fluorescent reporter to track experience-dependent gene expression changes in individual frontal cortical neurons over the course of day-to-day experience (Cao et al, J Vis Exp 2013).  We have applied this imaging method to animals that are trained under various motor tasks, and revealed the dynamic processes by which neuronal ensembles in the frontal cortex adapt to different behavioral situations.  Furthermore, we have optically identified individual neurons with experience-dependent gene expression changes in frontal cortical circuits, and determined the functional contributions of those molecular changes to circuit activities and behavioral responses.<br /><br />Our group is also interested in investigating the coupling mechanisms between neuronal activity and plasticity-related gene expression in frontal cortical circuits, using both molecular genetic and optical imaging tools.  Particularly, we are examining whether the induction of activity-dependent gene expression is modified under the influence of specific neuromodulators that are associated with the motivational or emotional relevance of a given behavioral experience.<br /><br />Among the several neuromodulator systems in the brain, dopaminergic signaling has a particularly powerful impact on behavior.  In collaboration with our colleagues at NICHD, we have reviewed the critical roles of dopaminergic signaling in cognitive functions and circuit activities (Furth et al., Front Cell Neurosci 2013).  Since dysfunctions in the mesofrontal dopaminergic circuit have been implicated in many psychiatric disorders in human, a better understanding of the plasticity mechanisms in the mesofrontal dopaminergic circuit may inform therapeutic approaches aimed at restoring normal functioning to this circuit in psychiatric patients.  Recent development of optogenetic techniques offers a great opportunity to dissect circuit plasticity mechanisms.  In collaboration with our colleagues at NEI, we have experimentally evaluated the critical factors affecting the efficacy of optogenetic perturbations in animals (Cavanaugh et al., Neuron 2012).  We are now applying in vivo imaging and optogenetic techniques to evaluate the structural and functional plasticity of the mesofrontal dopaminergic circuit and determine the underlying cellular and molecular mechanisms.  <br /><br />Finally, in collaboration with other research groups in the Clinical Brain Disorders Branch, we are extending our investigations to examine frontal dysfunctions in mouse models of psychiatric disorders.  Those studies may help to monitor the development of abnormal cortical circuits in real time, and elucidate the interactions of genetic risks with environmental factors. <br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81242&allpubs=Y&isajaxlink=Y&_UserReference=8BC9F619D8A366915B38CFE3','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Cavanaugh J, Monosov IE, McAlonan K, Berman R, Smith MK, Cao V, Wang KH, Boyden ES, Wurtz RH (2012) Optogenetic inactivation modifies monkey visuomotor behavior. Neuron 76:901-7
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23217739?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4311889/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23217739
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4311889 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

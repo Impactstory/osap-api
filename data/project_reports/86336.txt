@@ -1,0 +1,701 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002903</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002903-08</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Procurement and Characterization of Postmortem Brain Tissue
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lead Investigator</div></div>
+
+<div class="rowdiv">
+<div class="data">
+Barbara K Lipska; PhD
+<br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any LIs -->
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<!-- display SoRs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Supervisor of Record</div></div>
+<div class="rowdiv">
+<div class="data">
+ <!-- faculty test -->
+Susan G Amara; PhD 
+ <!-- faculty test -->
+<br />
+
+</div>
+</div>
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Human Brain Collection Core, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Human Brain Collection Core</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 13 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Joyce Edna Adams<br />
+
+
+
+
+Jose A Apud; MD, PhD<br />
+
+
+
+
+Ningping  Feng; PhD<br />
+
+
+
+
+Vesna  Imamovic<br />
+
+
+
+
+Jewell P King<br />
+
+
+
+
+Bhaskar S Kolachana; PhD<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=86336&onameset=Human Brain Collection Core&isajaxlink=Y&_UserReference=5EF46737B92B91835B38D4B4','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 13</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Robert  Innis; MD  (Molecular Imaging Branch)<br />
+
+
+
+Suad  Kapetanovic; MD  (Office of the Clinical Director)<br />
+
+
+
+Walter Scott Young; MD, PhD  (Section on Neural Gene Expression)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Caroline Faye Anderson (NINDS) <br />
+
+
+
+H. Clifford  Lane; MD (NIAID) <br />
+
+
+
+Avindra  Nath; MD (NINDS) <br />
+
+
+
+Stanley I Rapoport; MD (NIA) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 8 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Schahram  Akbarian; MD, PhD
+<i>(University of Massachusetts Medical School)</i>
+<br />
+
+
+
+T  Hyde
+<i>(Lieber Institute)</i>
+<br />
+
+
+
+Joel  Kleinman
+<i>(Lieber Institute for Brain Development)</i>
+<br />
+
+
+
+James  Knowles; MD
+<i>(University of Southern California)</i>
+<br />
+
+
+
+David  Lewis; MD, PhD
+<i>(Translational Neuroscience Program, and Department, University of Pittsburgh)</i>
+<br />
+
+
+
+R  McCullumsmith
+<i>(University of Cinncinatti)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=86336&isajaxlink=Y&_UserReference=5EF46737B92B91835B38D4B4','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 8</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+postmortem human brain, DSM-IVR, PMI, RIN, diagnosis, extraction, immunohistochemistry, mRNA, neuropathology, normal control, schizophrenia, single nucleotide polymorphism, toxicology
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+In the Human Brain Collection Core (HBCC), the goal is to collect postmortem human brain tissue specimens from cases (Study 90-M-0142 NCT00001260) that have been characterized in four domains (clinical, toxicological, molecular biological and neuropathological) and share the specimens and the data with the investigators within and outside NIH. The specimens are used in the following studies:<br /><br />1. RNA and DNA Sequencing of samples obtained from subjects with mental illness<br /><br />2. Mapping cell-type specific transcriptome and epigenome components in brain tissues  obtained from control (non-psychiatric) subjects and subjects with mental illness<br /><br />3. Characterizing the distribution of transcript and protein expression of susceptibility<br />genes, their splice variants, and related genes for major mental illnesses (especially schizophrenia (SZ), bipolar disorder and major depression) in a number of regions of normal human brain<br /><br />3. Comparing mRNA and protein expression of susceptibility genes and their splice variants in SZ relative to normal controls in relevant brain regions<br /><br />3. Examining the effects of single nucleotide polymorphisms (SNPs) of susceptibility genes on mRNA and protein expression on those genes and related genes in SZ and normal controls in relevant brain regions<br /><br />4. Characterizing temporal/spatial distribution of mRNA and protein expression of susceptibility genes across normal brain development in relevant brain regions<br /><br />5. Comparing mRNA and protein expression of susceptibility genes in affective disorders (bipolar and unipolar depression) and substance abuse disorders (alcoholism, nicotine addiction, and addiction to a variety of illicit substances) relative to normal controls in relevant brain regions using the same strategies.<br /><br />Working with the Washington, D.C. and Northern Virginia Medical Examiner (ME) offices allows for the high quality of the brain tissue specimens while also affording us a greater opportunity to have a diverse racial composition of samples. A significant improvement has come from follow-up interviews with next-of-kin of our normal controls to assure that this group is carefully screened. This collection is instrumental in studies of normal brain development throughout the lifespan and is pivotal for examining gene, mRNA and protein expression changes that only occur during early brain development. <br /><br />Elucidating the pathophysiology and etiology of neuropsychiatric illnesses is our primary goal. We have helped to usher in a new era of genetic neuropathology. Much like imaging genetics, a paradigm in brain research using clinical genetics and neuroimaging, to explore basic molecular biology and genetics of human information processing, this approach takes advantage of advances in genetics and combines human postmortem brain and molecular genetics to examine how allelic variations in disease risk-associated genes affect expression and function of transcripts and proteins.<br /><br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+From July 11, 2013  August 20, 2014, we collected 77 brains through the DC and VA Medical Examiners Offices. During this time, part of the brain collection was transferred to the Lieber Institute on Brain development (LIBD) as part of the Material Transfer Agreement (MTA) and as a result the total number of brains in the NIMH collection diminished as compared with the last fiscal year (from 1,204 to 929).<br /><br />Our collection consists now of brain tissues from 929 subjects. The breakdown by diagnosis is as follows:<br />ADHD 7<br />Anxiety 3<br />Autism 4<br />Bipolar disorder 87<br />Controls (non-psychiatric) 301<br />Major depression 182<br />Neurological disorders 14<br />Schizophrenia 180<br />Substance abuse 13<br />Other 30<br />Not yet characterized 108<br /><br />The major focus of our studies is schizophrenia (SZ), which involves cognitive deficits, negative symptoms, and psychosis, usually starting in late adolescence or early adulthood. The recent discovery of genetic variations associated with SZ not only speaks to a significant component of the etiology, but allows for increased understanding of the neuropsychology, neuroimaging, and neuropathology of the disorder. Postmortem human brain studies guided by genetic advances are a valuable, if not essential component, in elucidating the cellular and molecular pathophysiology of SZ. Improved understanding of a genetic component in SZ may enhance diagnostic abilities and hopefully, lead to new treatments. Postmortem human brain studies are limited by the quality and quantity of the specimens.<br /><br />Brain Procurement: The number of brains collected per year has remained relatively constant for the past ten years and we have become very selective in choosing cases. The entire collection has undergone a case-by-case review leading to a reduction in the number of brains for study. Selected cases all have informed audiotaped consent from the next-of-kin at time of donation, with extensive medical records available for review. Interviews with the next-of-kin, adds clinical information. The tissue is screened for macro- and microscopic neuropathology, and multiple screens are performed for RNA and protein integrity. Toxicological screens are conducted for substances of abuse, and prescribed psychotropic medications.<br /><br />Clinical Review and Characterization: Informed consent for research on the brain and related tissue samples from the next-of-kin is obtained at or before the time of autopsy includes the brain, blood, and hair specimen (for toxicology) as well as permission to obtain medical records. Next-of-kin are interviewed with a 14-item telephone-screening questionnaire. The next-of-kin are advised that they will receive a follow-up interview in greater depth within several months. This in-depth interview relies upon three screening devices: a SCID (First et al., 1997), a modified psychological autopsy (Kelly and Mann, 1996) and a modified version of the DEAD (Diagnostic Evaluation after Death) (Zalcman et al., 1983) to collect relevant clinical information from the next-of-kin in order to enhance our diagnostic classification.<br />The ME offices provide demographic information (age, gender, race, etc.), a police report, interviews with the next-of-kin, and relevant medical personnel and witnesses, toxicology screens, and a general autopsy report that includes the cause and manner of death. The ME offices perform toxicology screens in the vast majority of cases. If toxicology screens are not performed or inadequate in terms of the extent of the substances measured, we have contracted a laboratory to complete the screens.<br /><br />An extensive review of clinical records and all other available information is conducted by<br />trained HBCC personnel and independently reviewed by two board certified psychiatrists. If the latter agree on diagnosis, the case is formally reviewed at a diagnostic conference attended by the two psychiatrists, the neuropathologist, the clinical interview team, and the social worker and study coordinator who records a final diagnostic description according to DSM-IVR (APA, 2000) into the database. If the two psychiatrists disagree, a third board certified psychiatrist reviews the case independently prior to the diagnostic conference. No final DSM-IVR diagnosis is assigned at the diagnostic conference unless two psychiatrists concur on diagnoses.<br />Similar rigor is used in designating normal control subjects who must have no history of psychiatric or neurological disorders, no history of significant substance abuse or dependence, a negative toxicology screen at autopsy, and a neuropathological screen free from abnormalities. Nicotine use has been carefully reviewed and is not an exclusionary criterion for normal control subjects.<br /><br />The neuropathological screening involves two components, a macro- and microscopic examination and inspection. A board certified neuropathologist conducts the macroscopic examination at time of tissue collection, weighing and inspecting the whole brain, upper cervical spinal cord, pituitary and pineal glands, dura, and intracranial vasculature. The microscopic examination involves sectioning and staining tissue from the frontal, temporal, and occipital poles, the posterior hippocampus, and the cerebellar vermis, looking for evidence of neurodegeneration or other pathological processes. Sections are routinely stained to reveal neurofibrillary tangles and neuritic plaques that are counted to apply Khachaturian criteria to establish the neuropathological diagnosis of AD (Khachaturian, 1985). Sections are taken from any region that shows signs of macroscopic pathology, such as an apparent infarct or abscess, for additional neuropathological analysis. A formal macro- and microscopic neuropathology report is written from the information obtained from these examinations.<br /><br />Screening for Molecular Biology Studies: The following procedures have been performed<br />on every brain prior to study inclusion:<br /><br />a. Measurement of tissue pH from homogenized cerebellar hemispheric tissue.<br />b. Measurement of mRNA expression of a panel of putatively constitutively expressed<br />genes (such as actin, B2M, GUSB) by quantitative PCR<br />c. Extraction of total RNA using Qiagen RNAeasy kits<br />d. Quantitative analysis of total RNA integrity (RIN) and 28S to 18S ratios using capillary electrophoresis on a Bioanalyzer 2100 (Agilent, Inc.).<br />e. Acceptable postmortem intervals (PMI) in human brain for each protein studied with Westerns or ELISAs are inferred from rat studies investigating the PMI when protein levels for that protein significantly decline (Halim et al., 2003).<br />f. To determine effects of medications in the human studies of mRNA and protein expression, we are using brain tissue from rats chronically treated with various doses of antipsychotic drugs (haloperidol and clozapine) (Lipska et al., 2001,2003).<br />g. From these screening measurements, we have developed exclusionary criteria for the use of human brain tissue in our experiments: tissue pH &lt; 6.00, PMI &gt; 60 hours, RIN &lt; 5.0.<br />h. The vast majority of our cases (over 90%) come from ME offices, and few, if any, of our brains come from patients who have died with prolonged agonal states. The latter is clearly associated with low pH and increased RNA degradation (Tomita et al., 2004). <br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86336&allpubs=Y&isajaxlink=Y&_UserReference=5EF46737B92B91835B38D4B4','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kunii Y, Hyde TM, Ye T, Li C, Kolachana B, Dickinson D, Weinberger DR, Kleinman JE, Lipska BK (2013) Revisiting DARPP-32 in postmortem human brain: changes in schizophrenia and bipolar disorder and genetic associations with t-DARPP-32 expression. Mol Psychiatry, in press (e-pub ahead of print)
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Smith RM, Papp AC, Webb A, Ruble CL, Munsie LM, Nisenbaum LK, Kleinman JE, Lipska BK, Sadee W (2013) Multiple regulatory variants modulate expression of 5-hydroxytryptamine 2A receptors in human cortex. Biol Psychiatry 73:546-54
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23158458?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3582836/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23158458
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3582836 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

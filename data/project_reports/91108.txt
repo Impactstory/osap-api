@@ -1,0 +1,486 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002935</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002935-04</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Mathematical and Statistical Analysis Techniques for in Vivo Imaging Studies
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Carolyn E Beebe; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/carolyn-smith" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neuro-adaptation and Protein Metabolism, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neuro-adaptation and Protein Metabolism</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Kathleen Colette Schmidt; MA<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+William Craig Barker; PhD (CC) <br />
+
+
+
+Shielah L Green (CC) <br />
+
+
+
+Shanthalaxmi  Thada; MS (CC) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Alessandra  Bertoldo; PhD
+<i>(Department of Electronics and Informatics, University of Padova)</i>
+<br />
+
+
+
+
+M  Veronese
+<i>(Kings College, University of London)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+protein synthesis, PET, brain imaging, autism, fragile X syndrome, amino acids, anxiety, leucine, memory consolidation, plasticity, sleep, intellectual disability
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Interpretation of changes in images of brain functional activity that are produced by disease or by activation of various pathways requires quantification of the rates of physiological and biochemical processes that underlie the imaging method. In imaging modalities that use radioactive tracers, e.g. positron emission tomography (PET), quantification is carried out by means of a mathematical model that describes the rates of the biochemical reactions in the metabolic pathway of the tracer and traced molecules.  Selection of the best kinetic model is critical as the use of an inappropriate model can lead to substantial errors in quantification and possible misinterpretation of results. Once a model is selected, numerical procedures that are efficient, robust, and require minimal assumptions about errors in the measurements are required to estimate kinetic model parameters accurately.  Additionally, powerful statistical tests are needed so that the data can be examined for significant differences among experimental groups. The objective of this project is to develop better techniques for addressing these interrelated mathematical and statistical issues.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+In the current year we have refined our data analysis methods for estimation of rates of cerebral protein synthesis (rCPS) with L-1-C-11leucine and PET.  Because rCPS tends to change only modestly under different physiological conditions, it is essential that the analyses achieve the highest possible accuracy. We are also examining the impact of simplifying patient scanning protocols on estimation of rCPS.<br /><br />(1) Refinement of kinetic model analysis methods. Quantification with PET tracers utilizes compartmental models that generally assume homogeneity for each tissue region-of-interest (ROI) with respect to relevant physiological variables. The kinetic model of the C-11leucine PET method was originally applied to ROI data with the assumption that each ROI is homogeneous with respect to concentrations of amino acids, blood flow, transport and metabolism of amino acids, and rCPS. Due to the limited spatial resolution of PET, however, most regions contain a kinetically heterogeneous mixture of tissue components; this may bias estimation results. We have been refining our analyses to minimize effects of tissue heterogeneity on estimates of kinetic parameters and rCPS.  We reasoned that a substantial reduction in the volume of a tissue region should reduce the impact of heterogeneity.  We developed a method to apply the homogeneous tissue model to analysis of PET data at the voxel level, the Basis Function Method (BFM). We found that voxel-level BFM estimates of rCPS averaged over a ROI were substantially less biased than estimates based on direct fitting of the ROI time-activity curve (TAC) with a homogeneous tissue model.  Model fits of the TACs showed that effects of tissue heterogeneity had been reduced, but not eliminated. We developed a second approach that explicitly takes heterogeneity within a ROI into account, spectral analysis with an iterative filter (SAIF).  When applied to ROI-level data, SAIF-ROI produced low bias, low variance estimates of rCPS. It performed comparably to the voxel-level BFM method when count rates are normal, but at low count rates it performed better. Although SAIF allows for heterogeneity in a ROI, it does require an assumed constraint on the relationship among the kinetic parameters within the heterogeneous tissues. This has the most impact when kinetics of the various tissues within the ROI are most dissimilar. Under the premise that the dissimilarity among the tissues would be less at the voxel level, we extended the SAIF method for analysis of voxel-level data. In normal count rate studies, rCPS estimated with SAIF-voxel was approximately 5-15% higher than with SAIF-ROI analysis; intersubject variability was comparable.  Based on simulation studies we conclude that the difference is predominantly due to underestimation of rCPS with SAIF-ROI, i.e., the performance SAIF-voxel is better.  As a final step, we investigated which data analysis method is optimal under various PET scanning conditions.  When scanning with the high resolution research tomograph (HRRT), we found that voxel-level BFM and voxel-level SAIF analyses yielded comparable estimates of rCPS at both high and low count rates.  However, when scanner resolution is degraded, SAIF-voxel performs better.  We conclude that future C-11leucine studies on the high resolution PET scanner can be analyzed with the computationally simpler voxel-level BFM.  <br /><br />(2) Refinement of PET reconstruction algorithms.  Reconstruction algorithms are necessary to create three dimensional images of radioactivity distribution from positron emission data collected during the scanning process.  PET scanners measure radioactivity in an object by detecting the two annihilation gamma rays emitted when a positron decays.  The annihilation gammas are emitted simultaneously at 180 degrees from each other, and the scanner records the event simultaneously in two of its detectors.  The scanner cannot identify exactly where the decay event occurred, only that it occurred somewhere on a line between the two detectors.  By combining data from millions of lines of response between detector pairs, an image of the original 3D distribution of radioactivity can be calculated with a reconstruction algorithm.  If the object moves during the scanning process the image will be degraded and attenuation corrections applied during the reconstruction procedure will be in error. <br /><br />At the NIH, motion during PET scans of the brain on the HRRT has been addressed by continuously recording head position throughout the scanning procedure with the Polaris optical tracking system.  This system has an accuracy of 0.5-0.6 mm; its recorded position data are used for motion correction of the emission data during image reconstruction.  This motion correction has been shown to be sufficient for subjects who can lie fairly still in the scanner and therefore do not make large or abrupt motions during scanning. We have found, however, that the motion correction is not sufficient for some of our subjects, particularly those who are asleep when the scan is initiated and who startle awake causing large and abrupt motion later in the scanning interval.  Inadequate motion correction in the data leads to corrupted time courses of tissue activity and potentially large errors in estimated rates of cerebral protein synthesis. We are collaborating with physicists in the NIH PET Department to test a new reconstruction procedure that provides additional motion and attenuation corrections.<br /><br />We are analyzing C-11leucine PET data acquired in subjects with large abrupt motion during scanning and in subjects without such motion.  Motion was evaluated by examining Polaris recordings of three dimensional translations and rotations of the head during scan acquisition.  PET emission data were reconstructed by means of the standard Polaris-based motion correction only or the new procedure that introduces additional motion and attenuation corrections.  <br /><br />Effectiveness of the new reconstruction procedure was assessed visually by comparing images of radioactivity distribution in brain during different intervals after administration of C-11leucine; substantial failures of motion correction lead to systematic shifting of the images between early and late intervals of the scan. Smaller failures of motion correction could be seen by examining TACs in selected ROIs.  Preliminary findings show that the new reconstruction procedure had negligible impact on the scans in which motion was small (no image degradation was detected), but made substantial improvement in the scans with large abrupt motions.  The new reconstruction procedure is expected to improve data quality in PET studies with all positron-emitting tracers, but will be especially useful in C-11leucine PET studies that depend on high accuracy data in order to detect small changes in rCPS.<br /><br />(3) Simplification of scanning protocols. One of our goals is to be able to study subjects with intellectual disabilities without the need for sedation, so any changes in the procedure that make the study less onerous for subjects may help us to achieve that goal.  The C-11leucine method requires arterial blood sampling and has a 90 min scan time.  We are investigating the effects of shortening the scan duration to 50-60 min and substituting venous for arterial blood sampling on measurement of rCPS.   We use a population-derived arterial input function scaled by the subjects venous data.   Preliminary results suggest that it may be feasible to utilize venous in place of arterial blood sampling for the C-11leucine PET method. We are currently expanding these studies.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91108&allpubs=Y&isajaxlink=Y&_UserReference=F80819C68489FBF95B38D209','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+No publications during this reporting period
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

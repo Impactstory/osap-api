@@ -1,0 +1,643 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH000332</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH000332-35</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Genetic Mouse Models for the Study of Serotonin Function and Behavior
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Dennis L Murphy; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/dennis-murphy" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Laboratory of Clinical Science, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Laboratory of Clinical Science</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Pablo R Moya Vera; PhD<br />
+
+
+
+Meredith A Fox; PhD<br />
+
+
+
+Teresa J Tolliver; MS<br />
+
+
+
+Theresa B DeGuzman<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Renee F Ren Patterson; PhD  (Psychosis and Cognitive Studies Section)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Scott  Hall; PhD (NIDA) <br />
+
+
+
+George R Uhl; PhD, MD (NIDA) <br />
+
+
+
+Andrew  Holmes; PhD (NIAAA) <br />
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 7 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Klaus-Peter  Lesch; MD
+<i>(University of Wurzburg, Germany)</i>
+<br />
+
+
+
+
+Jens  Wendland; MD
+<i>(Pfizer, Cambridge, MA)</i>
+<br />
+
+
+
+
+Anne M Andrews; PhD
+<i>(University of California, Los Angeles)</i>
+<br />
+
+
+
+
+Lynnette  Daws; PhD
+<i>(University of Texas at San Antonio)</i>
+<br />
+
+
+
+
+Ichiro  Sora; MD
+<i>(Tohoku University Graduate School of Medicine, Japan)</i>
+<br />
+
+
+
+
+Pierre  Blier; MD
+<i>(University of Ottawa, Ottawa, Canada)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=81168&isajaxlink=Y&_UserReference=E9AC50B48B6C4BA85B38D6FE','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 7</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+serotonin transporter (SERT), glutamate transporter (EAAC3), anxiety, dopamine transporter (DAT), depression, transgenic mice, monoamine oxidase (MAO), serotonin, stress
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+We are seeking better understanding of several neurotransmitter systems and especially one of their key components, the neuronal transporters (SERT, DAT and EAACT) in neuropsychiatric disorders using mouse genetic models with transporter gene deficiencies of 50% in +/- heterozygous mice and 100% in -/- knockout mice. These models are associated with neurotransmitter system abnormalities produced by inhibition of the capacity to re-capture synaptic and axonal/dendritic transmitters after their release, which normally regulates their action of transmitter receptors. This modifies transmitter system homeostasis in brain and in the periphery. <br /><br />With the development of the SERT-deficient knockout and EAAC3 knockout and transgenic- overexpressing mice in our Lab, we obtained new living tools to study these transporters and their associated receptors. The serotonin system provides the target molecule for the largest numbers of neuropsychiatric drugs used in the world, including the serotonin reuptake inhibitors (SRIs) and antipsychotic drugs such as clozapine. Thus, the SERT genetic murine model has a large and continuing impact on human health, human disease, and neuropsychiatric disease treatment. More than 50 neurochemical, behavioral, pharmacological, and other phenotypic changes have been discovered in SERT-deficient +/- and -/- mice. The resulting data are helping to guide the LCS and other laboratories in fulfilling one of our human health-related objectives, the investigation of the multiple functional variants recently discovered in the human SLC6A4 gene, as recently reviewed and as described in our other Project Report # MH000336-34 LCS.<br /><br />Humans have common SLC6A4 polymorphisms that reduce SERT function by fifty percent in 32% of Caucasian populations, and by more than 75% in some other world populations such as Asians. Overall, combinations of promoter region and intronic variants can yield a total of a five-to 40-fold variation in SERT function in humans (Murphy and Lesch, 2008). Thus, the broad objective of our studies is a better understanding of the serotonin and related dopamine and glutamate neurotransmitter systems and their contributions to the physiological, behavioral, and pharmacological components of human disorders, all demonstrated to be important in the development of neuropsychiatric disorders, as well as disorder-related personality and emotional traits that affect individuals without overt disorders. <br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+As recently reviewed by us, SERT-deficient +/- and -/- mice have gene-proportionate increases in extracellular fluid serotonin concentrations, i.e., 5- or 7-fold excesses respectively over wildtype +/+ mice. At the same time, SERT -/- mice have a marked deficit of intracellular, releasable serotonin. <br /><br />Continuing advances have been made in our studies of serotonin-related toxic reactions, including the serotonin syndrome. Most commonly, this toxicity occurs as a side effect in humans treated with certain antidepressant and anti-anxiety drugs. Importantly, its milder forms contribute to reduced therapeutic efficacy or a requirement to interrupt treatment in some individuals treated with SRIs. Our earlier studies exploring this behavioral and temperature-related syndrome in SERT-deficient mice revealed a genetic vulnerability to a markedly exaggerated serotonin syndrome when these mice were exposed to the metabolic precursor of serotonin, 5-HTP, or to other serotonergic drugs such as the monoamine oxidase-inhibiting (MAO-I) antidepressant tranylcypromine. <br /><br />In addition to the serotonin syndrome behavioral changes, exaggerated alterations in temperature responses were also found in SERT- and MAO-deficient mice. We are now further extending these studies to include dopamine transporter (DAT) knockout mice to further explicate the unusual behavioral feature, some resembling compulsive, stereotyped behaviors related to human obsessive-compulsive disorder (OCD).<br /><br />These findings in these mouse genetic models suggest the likelihood that humans with lower-expressing SLC6A4 SS, SLg and LgLg genotypes, or other SERT or MAO or DAT variants that may lead to 50-80% decreases in binding sites or transport function, may be at higher risk to develop behavioral neurotoxicity. Of special note, it is likely that relatively mild serotonin syndrome occurrence may contribute to early discontinuation of SRIs and other side effects during SRI treatment of neuropsychiatric patients that are strongly associated with the lower-expressing SLC6A4, SLC6A3 or SLC1A1 genotypes. <br /><br />Given this transgenic mouse data and human SLC6A4 and MAO polymorphism data, we have formed an international collaborative effort - &quot;Genes Involved in Serotonin Toxicity&quot; or &quot;GISETTO&quot; - in which we are examining functional variants in the multiple serotonin (SLC6A4, MAOA) and drug metabolizing gene groups (e.g., CYP2D6) in hospitalized individuals developing serotonin toxicity and other serotonin-related toxicities, both retrospectively and prospectively, in collaboration with our Newcastle, AZ colleagues. Understanding these genetic mechanisms will improve serotonergic drug safety and efficacy by identifying patients whose response to drugs might be genetically compromised, and thereby might be at risk of adverse and potentially life threatening drug reactions. SERT and MAO provide intriguing examples of likely mouse-human congruence in genetic vulnerability to serotonin toxicity. Functional variants exist in additional genes that can also be postulated to confer vulnerability to serotonin neurotoxicity, for example, serotonin receptor genes. <br /><br />This past year, we extended our studies of transporter systems by generating both conditional EAAC3 knockout and transgenic overexpressing mice. Comprehensive behavioral and other studies were initiated this year. A report about these mice was published in abstract from this year (Moya PR et al., 2013).<br /><br />Overall, the data accumulated by our Lab, as referenced below and previously, support the use of different genetically modified mice as vulnerability models for humans with SERT, MAO, EAAC3 and other gene variants with regard to gene-gene and gene-environment interactions that contribute to human diseases and the pharmacologic treatment of multiple psychiatric disorders. <br /><br />Citations numbers of other papers that have referenced our scientific reports number over 35,000 as of August, 2013.<br /><br />The protocol number for this report is LCS 04.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81168&allpubs=Y&isajaxlink=Y&_UserReference=E9AC50B48B6C4BA85B38D6FE','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by reference within the summary, then by publication type and author name.
+</p>
+
+
+
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div> <div style="margin: -1.6em 0px 5px 2em;">Moya PR, Wendland JR, Rubenstein LM, Timpano KR, Heiman GA, Tischfield JA, King RA, Andrews AM, Ramamoorthy S, McMahon FJ, Murphy DL (2013) Common and rare alleles of the serotonin transporter gene, SLC6A4, associated with Tourettes disorder. Mov Disord 28:1263-70
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23630162?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3766488/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 23630162
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3766488 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+ <!-- ends ordered rows -->
+
+
+
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

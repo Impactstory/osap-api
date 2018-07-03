@@ -1,0 +1,533 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002886</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002886-09</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neural mechanisms of reward processing and emotion
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Elisabeth Adams Murray; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/elisabeth-murray" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neurobiology of Learning and Memory, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neurobiology of Learning and Memory</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Ping-Yu  Chen<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Aaron Moyer Dean<br />
+
+
+
+
+Jaewon  Hwang<br />
+
+
+
+
+Peter Matthew Kaskan; PhD<br />
+
+
+
+
+Mark Andrew Nicholas<br />
+
+
+
+
+Pamela  Noble<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Vincent Daniel Costa  (Section on Learning and Decision Making)<br />
+
+
+
+David A Leopold; PhD  (Section on Cognitive Neurophysiology and Imaging)<br />
+
+
+
+Andrew Rattin Mitz; PhD  (Section on Neurophysiology)<br />
+
+
+
+Leslie G Ungerleider; PhD  (Laboratory of Brain and Cognition)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Amygdala, Decision making, Emotion, Neurophysiology, Orbitofrontal Cortex, Prefrontal cortex, Sensory Modalities
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The frontal lobe and amygdala both regulate emotions and play a key role in updating the valuations of objects, actions and rules. In addition, dysfunction of these two brain regions has been implicated in mood and anxiety disorders, obsessive-compulsive disorder, schizophrenia and autism spectrum disorders. Research on this project has focused on representations of value because of its potential relevance to mood disorders, in particular. For example, dysregulation of valuation mechanisms could contribute to anhedonia, apathy, abulia and other symptoms of major depressive disorder. To cite one specific example, problems with valuation of self could produce low self-esteem.<br />The goal of this project is to understand the physiological mechanisms of valuation, with a focus on interactions between that amygdala and two key parts of the frontal lobe, the orbitofrontal cortex (OFC) and the medial frontal cortex (MFC). This project studies how these regions encode value, how they link value to particular objects and actions during learning, and the contribution of the amygdala to OFC and MFC function. To understand these relationships, it will be necessary to understand how the OFC, the MFC, and the amygdala process information and how they interact with each other at the physiological level.<br />Current approaches to understanding these interactions have serious limitations. Research that relies on functional neuroimaging or physiological measures can establish that a particular variable is encoded in a particular brain region, but these approaches do not reveal the source(s) of that information. For example, analyses of functional neuroimaging data can reveal functional connectivity and psychophysiological interactions, but these measures are correlational in nature. For a causal analysis of the amygdalas contribution to frontal lobe function, neuronal information processing needs to be studied before and after the removal of the amygdala.<br />Although neurophysiological studies have shown that the activity of neurons in amygdala, OFC and MFC correlates with the value of expected rewarding or aversive events, little is known about the physiological interactions among these areas or how these interactions produce autonomic and emotional responses. To address these issues, the objective of this project is to examine the contribution of the amygdala to autonomic responses and to neuronal activity in both the OFC and MFC. Our specific objective is to use a combination of neurophysiological and neuropsychological methods: (1) to study the neurophysiological interaction of both the OFC and the MFC with the amygdala as subjects make decisions based on predicted reward values; (2) to examine the role of the amygdala in producing emotional responses in anticipation of and in reaction to rewards; (3) to determine the relationship between the neural activity in the OFC and the MFC and the autonomic responses that occur in anticipation of reward; and (4) to study the effect of amygdala, OFC and MFC damage on autonomic responses.<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Although neurophysiological studies have shown that the activity of neurons in the amygdala, OFC and MFC correlates with the value of expected feedback, such as rewarding or aversive events, little is known about the physiological interactions among these areas or how these interactions produce emotional responses. We recently addressed this issue by using a combination of neurophysiological and neuropsychological methods to study the interaction of both the OFC and the MFC with the amygdala as subjects make decisions based on predicted reward value. Specifically, we recorded neural activity in OFC and MFC as subjects performed a choice task, both before and after bilateral lesions of the amygdala. The subjects first learned to choose between two images, presented on a color monitor, that were associated with different magnitudes of reward. After the images and their reward assignments had been well learned, we monitored brain activity. We found that although the activity of neurons in both OFC and MFC signaled the reward quantity associated with each image, the OFC neurons coded reward magnitude more robustly and signaled this information faster than the MFC did. Removing the amygdala eliminated these differences, mainly by decreasing and slowing value coding in OFC. In addition, signals reflecting the quantity of expected reward and amount of received reward also decreased after the lesions. <br />Although the amygdala projects to both OFC and MFC, these findings show that it has its greatest influence over reward value coding in OFC. Importantly, amygdala lesions did not abolish value coding in OFC entirely, which shows that OFCs representations of value depends, in part, on other sources. Our results suggest that dysfunction of the amygdala primarily affects the processing of emotion and reward valuations within the OFC.<br /><br />The response properties of single neurons, however, only reflect the local processing and output of an area; a more complete understanding of this network might be informed by considering population-level activity and the inputs to an area, which can be studied using local field potentials (LFPs). To better determine the population dynamics of reward-value coding in the amygdala-MFC-OFC network, we performed time-frequency analysis on LFPs recorded from the OFC and MFC of subjects engaged in the same stimulus-choice task mentioned earlier. Recordings were made both before and after lesions of the amygdala. Because the LFP is thought to represent the population-level input to a structure, we expected to find signatures in the prefrontal LFP that (1) reflect the reward-value associated with a visual stimulus, (2) are altered when value signals from the amygdala are removed, and (3) precede or coincide with local single cell activity.  Our analyses suggest that the visual stimuli presented in the task evoke a response in the LFP in both the OFC and the MFC. This evoked response is composed of a low (&lt;2 Hz) and mid-range frequency band (4-20 HZ). The power in these frequency bands scales with the reward-value of the visual stimuli. In concert with the findings from single neurons, the value-induced modulations in LFP are stronger and occur earlier in the OFC than in the MFC. Following bilateral lesions of the amygdala, and similar to the single neuron data that were previously reported, the magnitude of the evoked LFP response decreases and the latency of the response is delayed. In contrast to the effects of amygdala lesions on single neuron encoding, however, the number of LFP sites that encode reward-value was significantly reduced in both the OFC and MFC. These analyses reveal that following amygdala damage there is a disconnection between LFP and single unit activity related to reward-value in MFC. Future analysis will further determine the relationship between single-unit activity and fluctuations in LFP power.  <br /><br />We have also characterized the contribution of the amygdala to reward value signals in the OFC and the MFC during learning of novel image-reward associations. Within each test session, subjects were given the opportunity to learn about three novel visual images and their associated amounts of reward. Through trial and error, subjects learned to choose the images that led to the greater reward. Amygdala lesions caused a small but significant slowing in the rate of learning. Furthermore, these lesions reduced the OFCs neural encoding of whether the best image had in fact been chosen by the subject on a given trial. In contrast, the MFC displayed an increased coding of the location and value of the chosen image. Taken together, these findings indicate that the amygdala contributes to the incorporation of feedback with image valuations during learning.<br /><br />In an effort to extend our understanding of the physiological mechanisms underlying affective processing, we developed an fMRI paradigm to reveal BOLD responses to visual images that signal reward. Subjects learned associations between images and reward; half of the images predicted a high probability of reward and half predicted a low probability. Subjects performed a task with two trial types: Choice and View trials. Choice trials required the subject to choose between two different images, whereas View trials required subjects to gaze at a single image in the center of the screen. On Choice trials, the subjects received rewards at a probability attached to the image that they chose. On View trials, the subject received the reward associated with the viewed image. The Choice and View trials, which were interleaved, allowed us to evaluate both performance (as estimated from accuracy on Choice trials) and reward-value coding (as estimated from BOLD responses on View trials) within each session.<br />Value estimates from a reinforcement learning algorithm were used to parametrically modulate regressors that modeled responses to chosen or singly viewed cues on each trial. After training, several brain regions encoded value while subjects viewed reward predictive cues. These included the dorsal striatum, insula, medial prefrontal area 32, ventral prefrontal area 12, cingulate cortex, visual areas V2, V4, and IT, temporal polar area TG, and the amygdala. In addition, reward receipt was modeled with a canonical BOLD response on each trial. Several brain areas were responsive to reward receipt, both before and after training, including orbitofrontal areas 11, 13 and 14, the ventral striatum, ventral putamen and insula. A limited number of areas responded to both anticipated value and reward receipt, including the insula and a small portion of the putamen. By fitting a reinforcement learning algorithm to subjects behavior, areas responding to learning about the value of reward predictive cues defined anticipatory circuits homologous to those described in humans. These results provide the foundation for identification of the key regions underlying the experience of positive emotional events.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91076&allpubs=Y&isajaxlink=Y&_UserReference=62A76D48E4A5FE045B38D374','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Rudebeck PH, Murray EA (2014) The Orbitofrontal Oracle: Cortical Mechanisms for the Prediction and Evaluation of Specific Behavioral Outcomes. Neuron 84:1143-1156
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25521376?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4271193/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25521376
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4271193 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

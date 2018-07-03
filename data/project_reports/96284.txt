@@ -1,0 +1,570 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002897</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002897-10</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Molecular and Cellular Mechanisms of Experience-Dependent Cortical Processing
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2015 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Kuan Hong Wang; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/kuan-hong-wang" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Unit on Neural Circuits and Adaptive Behaviors, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Unit on Neural Circuits and Adaptive Behaviors</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Matthew Charles Coon<br />
+
+
+
+
+Xinjian  Li<br />
+
+
+
+
+Qing  Liu<br />
+
+
+
+
+Surjeet S Mastwal<br />
+
+
+
+
+Wenyu  Zhang<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Abdel G Elkahloun; PhD (NHGRI) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Francesco  Papaleo
+<i>(Istituto Italiano di Tecnologia)</i>
+<br />
+
+
+
+Daniel R Weinberger; MD
+<i>(Lieber Institute for Brain Development)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Dopamine, Activity-dependent gene, Schizophrenia, In vivo imaging, Molecular genetics, Mouse models, Neuromodulation, Neurodevelopment, Learning and plasticity, Mental disorders, Frontal cortical circuitry
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+<br />It is the objective of the Unit on Neural Circuits and Adaptive Behaviors group, as part of the Clinical and Translational Neuroscience Branch, to understand the logic and mechanisms of experience-dependent cortical information processing at the molecular, cellular, circuitry and behavioral levels.  An integrated approach including molecular genetics, optical imaging, electrophysiology, neuromodulation and behavioral techniques are applied to investigate the ability of the brain to change in response to environmental challenges and social interactions across developmental stages.  Both normal mice and mice carrying genetic risk factors for psychiatric disorders such as schizophrenia, depression and drug addiction are the subjects of studies.<br /><br />To accomplish this goal, we are interested in engineering new tools and developing new approaches to monitor and modulate the cellular and molecular dynamics induced by neurobehavioral perturbations in mice.  Such tools will lead us to:<br /><br />1) Identify the molecular and cellular changes in the developing and adult brain that are regulated by internal drives, environmental exposures, and social interactions of an animal;<br /><br />2) Determine the neurophysiological consequences of these molecular and cellular changes and the mechanisms by which these changes are integrated in the cortical circuits to control behavioral decisions and action plans; and<br /><br />3) Elucidate the development of brain dysfunctions in real time and the effects of pharmacological, electroceutical, and behavioral treatments.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Our brain can be considered as a type of information processing system like a computer, where input signals need to be first detected and properly represented, then integrated for decision-making and output control.  A unique feature of the brain as an information processing system lies in its adaptability.  Namely, sensory experience-induced neural activities can trigger cascades of molecular and cellular changes in brain circuits, which subsequently alter brain functions and affect behavioral outputs.  In healthy individuals, this adaptive process can adjust the brain in response to the demands of the external physical and social environments, and ultimately benefit the survival of individuals.  Abnormalities in the adaptation to environmental and social stressors can contribute to the development of a variety of mental disorders, such as schizophrenia and depression.  In order to prevent maladaptation and develop pharmacological treatments for mental disorders, it is important to understand the cellular and molecular mechanisms of experience-dependent information processing in brain circuits.<br /><br />	We have chosen to use laboratory mice as a model organism to investigate the basic cellular and molecular mechanisms of experience-dependent cortical processing.  This organism offers several major advantages for this line of study.   First, mice and humans both have about 30,000 genes, and about 99 percent of them are shared.  Second, the cellular organization of mouse cerebral cortex is similar to human, and major cortical regions are also homologous.  Third, it is possible to perform precise molecular genetic manipulations in specific types of cells in mouse brain, which is required to establish causal relationships between genes, cells, circuits and behaviors.  <br /><br />       Our lab investigates the mechanisms by which experience-induced molecular changes impact on cortical processing of information, with a particular focus on frontal cortical circuits. Normal executive function in goal-directed behavior depends on the frontal cortex, and functional brain imaging studies have revealed altered frontal lobe activity in response to cognitive challenges in psychiatric patients. However, the mechanisms by which behavioral experiences and specific genetic factors may influence the functional cellular architecture and the developmental trajectory of frontal cortical circuits remain largely unknown.  Our recent studies have shed light on the reciprocal regulation between the dopaminergic neuromodulatory circuit and the activity-dependent Arc gene expression in the frontal cortex, and provided initial biological support implicating the importance of such mechanisms in neuropsychiatric disorders.  Our specific findings on these topics are described below.<br /><br />      The activity-regulated gene Arc/Arg3.1 encodes a postsynaptic protein crucially involved in synaptic plasticity. Genetic mutations in Arc pathway and altered Arc expression in human frontal cortex have been associated with schizophrenia. Although Arc expression has been reported to vary with age, what mechanisms regulate Arc mRNA levels in frontal cortex during postnatal development remains unclear. Using quantitative mRNA analysis of mouse frontal cortical tissues, we mapped the developmental profiles of Arc expression and found that its mRNA levels are sharply amplified near the end of the second postnatal week, when mouse pups open their eyes for the first time after birth. Surprisingly, electrical stimulation of the frontal cortex before eye-opening is not sufficient to drive the amplification of Arc mRNA. Instead, this amplification needs both electrical stimulation and dopamine D1-type receptor (D1R) activation. Furthermore, visual stimuli-driven amplification of Arc mRNA is also dependent on D1R activation and dopamine neurons located in the ventral midbrain. These results indicate that dopamine is required to drive activity-dependent amplification of Arc mRNA in the developing postnatal frontal cortex and suggest that joint electrical and dopaminergic activation is essential to establish the normal expression pattern of a schizophrenia-associated gene during frontal cortical development.<br /><br />      Human genetic studies have recently suggested that the postsynaptic activity-regulated cytoskeleton- associated protein (Arc) complex is a convergence signal for several genes implicated in schizophrenia. However, the functional significance of Arc in schizophrenia-related neurobehavioral phenotypes and brain circuits is unclear. Here, we find that, consistent with schizophrenia-related phenotypes, disruption of Arc in mice produces deficits in sensorimotor gating, cognitive functions, social behaviors, and amphetamine-induced psychomotor responses. Furthermore, genetic disruption of Arc leads to concomitant hypoactive mesocortical and hyperactive mesostriatal dopamine pathways. Application of a D1 agonist to the prefrontal cortex or a D2 antagonist in the ventral striatum rescues Arc-dependent cognitive or psychomotor abnormalities, respectively. Our findings demonstrate a role for Arc in the regulation of dopaminergic neurotransmission and related behaviors. The results also provide initial biological support implicating Arc in dopaminergic and behavioral abnormalities related to schizophrenia.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2016 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=96284&allpubs=Y&isajaxlink=Y&_UserReference=6D5ECCA6AE79A2AD5B38D57D','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Managò F, Mereu M, Mastwal S, Mastrogiacomo R, Scheggia D, Emanuele M, De Luca MA, Weinberger DR, Wang KH, Papaleo F (2016). Genetic Disruption of Arc/Arg3.1 in Mice Causes Alterations in Dopamine and Neurobehavioral Phenotypes Related to Schizophrenia. Cell Rep  16, 2116-28.   https://doi.org/10.1016/j.celrep.2016.07.044
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27524619?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5001893/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27524619
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5001893 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

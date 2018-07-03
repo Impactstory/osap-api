@@ -1,0 +1,563 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH000279</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH000279-31</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Proteomics in neurotoxicology
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+ <!-- faculty test -->
+
+Sanford P. Markey; PhD
+
+ <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Analytical Biochemistry, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Analytical Biochemistry</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Anthony  Makusky; MS<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Meng-Hsuan  Han<br />
+
+
+
+
+Jeffrey A Kowalak; PhD<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Zheng  Li; PhD  (Clinical and Translational Neuroscience Branch)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Ayse  Dosemeci; PhD (NINDS) <br />
+
+
+
+Timothy P Lockwich (NIDCR) <br />
+
+
+
+Indu Suresh Ambudkar; PhD (NIDCR) <br />
+
+
+
+Andres  Buonanno; PhD (NICHD) <br />
+
+
+
+
+
+
+
+
+
+
+
+
+Robert Matthew Mitchell; PhD (NICHD) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+caspase-3, postsynaptic density, proteomics, long term depression, mass spectrometry, lithium, schizophrenia, valproate
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Our research seeks to provide a means of preventing biological causes of neurodegenerative and neuropsychiatric disorders through understanding the molecular mechanisms of normal and aberrant cell development and the biochemical pathology of behavioral diseases. Healthy growth, proliferation and differentiation of cells require multiple sub-cellular complexes of proteins that provide specialized functions. Knowledge of the structural biology of normal and disease-related complexes can provide the basis to rationally define and treat the effects of disease. Our objective is to structurally characterize sub-cellular protein complexes in order to better understand and rationally treat human disease processes associated with impaired function. To achieve this objective, we are applying sub-cellular localization and bioinformatic proteomic methods to animal models or human cells grown in culture in collaboration with clinicians studying genetically characterized patients. <br />Our research on mood disorders seeks to understand commonalities in the biochemical effects of various drugs used in the successful treatment of those disorders by determining how the brain remodels synapses in specific brain areas as a consequence of commonly used and chemically different therapies that produce similar clinical results. Genomic research in schizophrenia has implicated ErbB4, a receptor of neuregulin, and dysbindin  as important in familial forms of the disease. To determine the interacting proteins necessary for ErbB4 function, studies are in progress with genetically altered mice that express ErbB4 peripherally, but not centrally, allowing clearer distinction of ErbB4 interacting proteins; immunoaffinity studies are in progress on dysbindin. <br />We are seeking to determine the biochemical events that accompany the physiological changes seen in synaptic long term depression. For this purpose, rapid protein changes that ensue in the synapse will be characterized.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+We are applying proteomic methodology to unresolved problems in neuropathologic diseases. Progress continues in studies on the structure of the postsynaptic density and its remodeling by drugs used in the treatment of mood disorders, on protein complexes implicated by genomic studies of schizophrenia, and synaptic protein changes accompanying long term depression (LTD). <br /><br />The ErbB4 and Dystrobrevin binding protein 1 (dysbindin) protein signaling complexes have both been implicated by genomic studies on schizophrenia and have remained difficult to analyze in brain. We are continuing a project to identify, characterize and validate complexes associated with both proteins. ErbB4 is a receptor tyrosine-protein kinase, and we have used antibodies to covalently link it to magnetic beads. Comparative LC/MS/MS proteomic studies using on-bead digestion procedures developed for this project have failed to provide the enrichment factor required for ErbB4 recovery and mass spectrometric detection. However, new peptide targeting strategies are planned using labeled proteins from synthetic genes to allow better tracking of enrichment and recovery of this complex. <br /><br />Protein degradation/modification by proteases involves many physiological processes such as apoptosis. Caspase-3 is a cysteine protease best known as an executioner protease in apoptosis. Recent studies suggest that caspase-3 plays an important non-apoptotic function in synapses as well. In hippocampal neurons, caspase-3 activity is specifically required for NMDA receptor-dependent long-term depression (LTD), but not for long-term potentiation. More importantly, activation of casapse-3 in LTD promotes AMPA receptor endocytosis instead of cell death. To understand the molecular mechanism by which caspase-3 activation leads to LTD, we applied a published method developed to selectively capture emergent peptides derived from proteolytic cleavage upon NMDA receptor activation and apoptosis induction. Briefly, the newly formed free, unblocked protein N-termini produced from protease cleavage events are tagged with a biotinylated peptide using an engineered enzyme subtiligase. The labeled proteins are enriched by immobilized avidin and analyzed by mass spectrometry. The substrate degradomes of control (untreated neurons), NMDA treated, and staurosporine treated samples are compared. Currently, we are focusing on the substrates with putative caspase-cleavage sites and testing their functions in LTD.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81167&allpubs=Y&isajaxlink=Y&_UserReference=62873F56786570F75B38D712','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kawasoe M, Yamamoto Y, Okawa K, Funato T, Takeda M, Hara T, Tsurumi H, Moriwaki H, Arioka Y, Takemura M, Matsunami H, Markey SP, Saito K (2013) Acquired resistance of leukemic cells to AraC is associated with the upregulation of aldehyde dehydrogenase 1 family member A2. Exp Hematol 41:597-603.e2
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23507523?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5108046/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23507523
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5108046 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

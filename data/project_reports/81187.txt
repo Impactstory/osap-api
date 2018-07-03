@@ -1,0 +1,708 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002592</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002592-22</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Viral And Cellular Factors Governing Efficient Gene Delivery
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Maribeth V Eiden; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/maribeth-eiden" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Directed Gene Transfer, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Directed Gene Transfer</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 8 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Tiffany Hazel Blankenship<br />
+
+
+
+
+Kyle Adam Delaney<br />
+
+
+
+
+Kristen L Gorman<br />
+
+
+
+
+Nathaniel R Jensen<br />
+
+
+
+
+Deanna Michelle Myer<br />
+
+
+
+
+Jill R Russ<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=81187&onameset=Section on Directed Gene Transfer&isajaxlink=Y&_UserReference=9A21DDEF68EB726A5B38D265','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 8</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Lee E Eiden; PhD  (Section on Molecular Neuroscience)<br />
+
+
+
+Andrew C Emery  (Section on Molecular Neuroscience)<br />
+
+
+
+Tomris  Mustafa  (Section on Molecular Neuroscience)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Geoffrey w Pye; DVM
+
+<i>(San Diego Zoo)</i>
+<br />
+
+
+
+J  Siegal-Willott; DVM
+<i>(Smithsonian National Zoological Park)</i>
+<br />
+
+
+
+Cynthia K. Stadler; DVM
+
+<i>(Los Angeles Zoo)</i>
+<br />
+
+
+
+William  Switzer
+<i>(-, Centers for Disease Control and Prevention)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+therapeutic gene delivery, retroviral vector, self-inactivating vector, gene therapy
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The goal of the Section on Directed Gene Transfer is to develop and optimize viral vectors in the areas of fundamental, translational, and applied gene transfer to cells of the central nervous system. Discovery of the genetic bases of CNS disorders, development of corresponding animal models, and continued advances in vector-mediated gene delivery have all increased the potential for gene therapies to ameliorate human CNS disease. Viral vector mediated gene therapy is a reiterative process requiring continual feedback from clinical trial results to ensure the proper direction of translational studies. Modifications to the design of retroviral vectors and delivery modalities based on this feedback are a path towards arresting the progression or relieving the symptoms in human diseases of the CNS.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The Section on Directed Gene Delivery assesses the ability of viral vectors to efficiently deliver genes to appropriate target cells with the end goal of transferring therapeutic genes to cells of the central nervous system. We, and others have determined that although Adeno-Associated Viral (AAV) vectors preferentially target neuronal cells in the central nervous system (CNS) there remain certain limitations to their employment. Retroviral vectors, such as lentiviral and gammaretroviral vectors, have certain advantages over AAV in their ability to stably integrate into the genome of target cells, the absence of an immune response, and the ability to target specific cells in the CNS. Over the past several years we have developed a systematic series of tools to allow us to construct targeted viral vectors that can be purified and concentrated in a manner that will allow delivery to specific cell types in the rodent brain. Vesicular stomatitis virus (VSV) is the envelope of choice for most cell culture work because it imposes a broad host range unto viral vectors. However VSV envelope proteins are cytotoxic and VSV viral enveloped vector particles are neurotoxic, which limits their application, especially in the brain. The envelope protein of gibbon ape leukemia virus (GALV) and a new retrovirus isolated from koalas (Xu W, et al. (2013) PNAS 110:11547-11552) are highly related but employ distinct ubiquitously expressed receptors to infect human cells. GALV uses the ubiquitously expressed inorganic phosphate transporter and KoRV-B the thiamine transporter for entry into cells. Vectors bearing GALV or KoRV-B in contrast to VSV enveloped particles are not cytotoxic. The ability of two highly related envelope proteins to bind distinct receptor offers us an opportunity to map the residues specific to each envelope that confer receptor specificity and provide us with a template for making enveloped vectors that target receptor expressed on specific cells in the CNS. We are constructing human cell lines that produce GALV and KoRV-B enveloped vectors. These cell lines offer distinct advantages over previous vector producing cell lines in that they capable of being continuously modified using enzyme based recombination or gene editing to change the types of viral particles they produce.<br /> &amp;#8232;The pace of gene delivery to the brain in a clinical setting has been significantly limited by the lack of translation of advances in vector development. Simply put, CNS payloads have evolved but their delivery systems have not. The availability of optimized preclinical vectors for in vivo testing would be a valuable resource for the national neuroscience community where they would serve seamlessly as tools for hypothesis-driven basic research, and again for clinical research, without needing to be re-discovered and re-presented for the clinic by translational scientists. A repository of such vectors would significantly reduce the time from inception of proof-of-concept design to in vivo execution and would serve to reduce redundancy in the evaluation of vectors through highly interactive collaborations among investigators in neuroscience, molecular virology, and surgical neurology.<br /><br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81187&allpubs=Y&isajaxlink=Y&_UserReference=9A21DDEF68EB726A5B38D265','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Liu M, Eiden MV (2012) A mutant retroviral receptor restricts virus superinfection interference and productive infection. Retrovirology 9:51.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22691439?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3418563/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22691439
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3418563 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Ozturk F, Park PJ, Tellez J, Colletti E, Eiden MV, Almeida-Porada G, Porada CD (2012) Expression levels of the PiT-2 receptor explain, in part, the gestational age-dependent alterations in transduction efficiency after in utero retroviral-mediated gene transfer. J Gene Med 14:169-81.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22262359?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3934108/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22262359
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3934108 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Xu W, Russ JL, Eiden MV (2012) Evaluation of residual promoter activity in -retroviral self-inactivating (SIN) vectors. Mol Ther 20:84-90.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22008914?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3255602/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22008914
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3255602 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

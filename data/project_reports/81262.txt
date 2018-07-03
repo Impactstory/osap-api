@@ -1,0 +1,1202 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002922</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002922-05</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Psychiatry Consultation Liaison Service Research
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lead Investigator</div></div>
+
+<div class="rowdiv">
+<div class="data">
+Maryland  Pao; MD
+<br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any LIs -->
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<!-- display SoRs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Supervisor of Record</div></div>
+<div class="rowdiv">
+<div class="data">
+ <!-- faculty test -->
+Susan G Amara; PhD 
+ <!-- faculty test -->
+<br />
+
+</div>
+</div>
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Office of the Clinical Director, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Office of the Clinical Director</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 15 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Mary E Cadman; RN, MSW<br />
+
+
+
+Joyce  Chung; MD<br />
+
+
+
+Lisa Meryl Horowitz; PhD<br />
+
+
+
+Suad  Kapetanovic; MD<br />
+
+
+
+Harvey  Mudd; MD<br />
+
+
+
+Adriana J Pavletic; MD<br />
+
+
+
+ <!-- step through any ordered staff -->
+
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=81262&onameset=Office of the Clinical Director&isajaxlink=Y&_UserReference=31A0FA74E8FCB4DF5B38D395','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 15</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Karen F Berman; MD  (Section on Integrative Neuroimaging)<br />
+
+
+
+Amy Beth Goldstein  (Child and Adolescent Treatment and Preventive Intervention Research Branch)<br />
+
+
+
+William C Kreisl  (Section on PET Neuroimaging Sciences)<br />
+
+
+
+Gonzalo E Laje; MD  (Emotion and Development Branch)<br />
+
+
+
+David A Luckenbaugh; BA, MA  (Experimental Therapeutics and Pathophysiology Branch)<br />
+
+
+
+Peter J Schmidt; MD  (Section on Behavioral Endocrinology)<br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+<div id="moresamestaffo">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffou">6 of a total of 19 other NIH members are shown.</div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Tannia P Cartledge; MS (CC) <br />
+
+
+
+Phillip A Dennis; MD, PhD (NCI) <br />
+
+
+
+Adrienne R Farrar; MSW, PhD (CC) <br />
+
+
+
+Ahmed Medhat Gharib; MD (NIDDK) <br />
+
+
+
+Raphaela  Goldbach-Mansky; MD, MHS (NIAMS) <br />
+
+
+
+Dima Ali Hammoud (CC) <br />
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaffo','searchview.taf?_function=showmore&ios=O&ipid=81262&isajaxlink=Y&_UserReference=31A0FA74E8FCB4DF5B38D395','moresamestaffou');  return false;">
+
+
+<span class="morelist">Show all 19</span></a></form></div>
+
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 22 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Elizabeth  Ballard; PhD
+<i>(Johns Hopkins University)</i>
+<br />
+
+
+
+Monica  Biradavolu; PhD
+<i>(American University)</i>
+<br />
+
+
+
+Kim  Blankenship; PhD
+<i>(American University)</i>
+<br />
+
+
+
+Edwin  Boudreaux; PhD
+<i>(Department of Emergency Medicine, University of Massachusetts Medical School)</i>
+<br />
+
+
+
+Jeffrey  Bridge; PhD
+<i>(Research Institute, Nationwide Children's Hospital)</i>
+<br />
+
+
+
+Priscilla  Dass-Brailsford; PhD
+<i>(Georgetown University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=81262&isajaxlink=Y&_UserReference=31A0FA74E8FCB4DF5B38D395','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 22</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Suicide Screening in Medical Settings, Psychiatry Consultation Liaison, Chronic Illness, Distress, HIV/AIDS Mental Health, Healthy Volunteers, Human Subjects Protections, Methionine Metabolism, Neurocognitive Phenotypes, Pediatric, Psychosocial Outcomes, Psychosomatic Medicine, Suicide Screening in Children
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The Psychiatry Consultation Liaison Service (PCLS) is a multidisciplinary team consisting of psychiatrists, psychologists, social workers, and nurses that work extensively in collaboration with the Clinical Center (CC) and other Institutes. The PCLS provides clinical services to the NIH community including psychiatric, psychological, psychosocial and neuropsychological consultations and education and training in mental health issues. The PCLS team also conducts collaborative research within NIH and with national and international research groups. The breadth and depth of mental health expertise on the PCLS team establishes it as an important resource to characterize a wide variety of behavioral and cognitive correlates to rare and common diseases studied in the NIH CC by other Institutes. The PCLS research team has focused its research in six main areas: 1) establishing psychiatric phenotypes in genetic diseases, 2) identifying and understanding psychiatric symptoms including distress, anxiety, and depression, as well as suicidal ideation and behaviors in medically ill patients, 3) describing biopsychosocial factors that affect living with a chronic life-threatening illness such as cancer, HIV, or other rare diseases, 4) describing practices involved in maintaining human subjects protections in healthy volunteers as well as vulnerable populations, 5) suicide screening in medical settings, and 6) developing instruments for assessing patients with mental health concerns.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The NIMH Psychiatric Consultation Liaison Service (PCLS) provides important psychiatric services to the many constituencies of the NIH. While providing such services to the NIH Community, PCLS clinicians conduct research and collaborate with NIH investigators by providing expertise in the areas of psychiatric, neurocognitive, and psychosocial functioning in NIH research subjects who often have complex medical and neuropsychiatric symptoms. Patient-subjects enrolled in research trials in other Institutes/Centers at the NIH offer unparalleled opportunities to explore the roles of specific genes (e.g., monogenic diseases such as methylmalonic acidemia (MMA)) and specific therapies (e.g., interferon in hepatitis) in psychiatry and neurodevelopment. Psychosomatic medicine trainees on the PCLS are encouraged during their rotations to pursue research projects that result in publications in peer reviewed journals, including literature reviews, case reports and poster presentations at national conferences. Active NIH research collaborators include the CC Bioethics Department, NCI Pediatric Oncology Branch (POB), the NIAID HIV/AIDS Service, and the Smith-Magenis Research Team to name just a few. The PCLS Neuropsychology Consultation Service performs neuropsychological evaluations for neurocognitive phenotyping of medical disorders resulting in research collaborations with other Institutes such as NIAMS, NHGRI, NIAID, NHLBI, NINDS and others. <br /><br />The PCLS conducts collaborative research with the NCI POB and provides research support to the Pediatric Oncology Psychosocial Research Program which studies palliative care, psychopharmacologic management in pediatric oncology patients, sibling, parent and caregivers concerns, and screening for distress in bone marrow transplantation recipients as compared to other chronic diseases, among other topics. This active research program on psychiatric and psychosocial aspects of pediatric oncology care has led to several shared protocols including evaluation of a distress thermometer in pediatric medically ill populations, characterization of &quot;lone&quot; parenting and a protocol to understand the experiences and needs of international families whose children are in research all of which resulted in recent publications. The PCLS research group provides mental health consultation on a number of educational brochures and booklets and recently developed &quot;Voicing My Choices,&quot; an advance care planning guide for adolescents and young adults. Over 9000 copies of &quot;Voicing My Choices&quot; has been distributed nationally and internationally. It has been translated into Spanish and Italian. The PCLS group is also studying assessment instruments of mood and anxiety disorders for adolescents and young adult (AYA) healthy volunteers and AYA with cancer. <br /><br />The PCLS research team has taken a central role in NIMH's collaboration with NIAID and the District of Columbia (DC) in establishing an interdisciplinary, cross-institutional research collaborative effort with local investigators (see list of extramural collaborators), the DC-NIH Partnership for AIDS Progress (DC PFAP), to enhance knowledge of the biopsychosocial mental health aspects of HIV/AIDS. PCLS staff are working with DC Government leaders, clinical providers and administration, and community groups to identify gaps in services and knowledge to develop related research opportunities. PCLS researchers have co-founded and co-chaired the DC CFAR &quot;Mental Health and Neuroscience&quot; Scientific Interest Group which includes more than 30 investigators from DC based universities and meets monthly to discuss research collaborations. PCLS researchers have also co-founded and co-chaired the intramural NeuroHIV Interest Group Steering Committee, which meets monthly and oversees and coordinates five intramural research protocols at various stages of development; two protocols were co-authored and are co-led by PCLS researchers while all five receive substantial logistical support from PCLS, including neuropsychological testing and mental health screening which are among the key outcome measures for all these protocols.<br /><br />The PCLS research group continues to describe the processes involved in developing adequate programs for the protection of healthy volunteers as well as vulnerable subjects while conducting cutting-edge research. An informed consent training video produced by the Clinical Research Advocates (CRAs) of the Human Subjects Protections Unit (HSPU), in the Office of the Clinical Director, is now being used for training in all the Graduate Medical Education programs at the NIH as well as throughout the CC. The CRAs continue to provide training courses as well as present at national meetings on their experiences regarding implementing processes to standardize the evaluation and protection of vulnerable subjects in research. They continue to serve on the Ability to Consent Assessment Team (ACAT) with the CC Bioethics department and are utilized frequently throughout the Clinical Center to provide additional safeguards to vulnerable subjects. The PCLS also provides mental health consultation to the National Institute for Child Human Development (NICHD), and assigns a mental health professional to serve on the NICHD IRB. PCLS faculty regularly serve as reviewers for peer reviewed journals in mental health, psychosomatic medicine, pediatrics, neuropsychology, ethics, and public health.<br /><br />The PCLS research group is involved in several timely research projects that align with NIMH's mission to improve suicide prevention strategies.  Three suicide screening projects address suicide screening in the medical setting. This past year we concluded a multisite study of pediatric EDs at Children's National Medical Center, Boston Children's Hospital and Nationwide Children's Hospital in Columbus, Ohio led by the PCLS group. A four-item screening instrument was developed, the ASQ (Ask Suicide-Screening Questions), and has been published by Archives of Pediatrics and Adolescent Medicine (now JAMA Pediatrics). To address the issue of suicidality in hospital settings, the PCLS research group created a suicide screening instrument and educational program to assist nurses on inpatient medical units with suicide assessment.  The Ask Suicide-Screening Questions to Everyone in Medical Settings (asQem) Quality Improvement Project was initiated in January 2012 and was published in Psychosomatics in 2013.  The third project involves an international collaboration and is focused on developing a suicide screening tool for youth with developmental delay and adults with intellectual disabilities. Phase 2 of this study was completed in July 2013 with the first manuscript in preparation. Due to the PCLS's expertise in this area of research, PCLS members have presented in-services to physicians, nurses and NIH police around the NIH CC on the topic of suicide prevention. <br /><br />The PCLS research team had a productive year with more than a dozen posters, more than 20 papers and numerous presentations and educational courses in the past year.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81262&allpubs=Y&isajaxlink=Y&_UserReference=31A0FA74E8FCB4DF5B38D395','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Ballard ED, Bosk A, Snyder D, Pao M, Bridge JA, Wharff EA, Teach SJ, Horowitz L (2012) Patients opinions about suicide screening in a pediatric emergency department. Pediatr Emerg Care 28:34-8.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22193697?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3587360/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22193697
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3587360 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Chung JY, Frank L, Subramanian A, Galen S, Leonhard S, Green BL (2012) A qualitative evaluation of barriers to care for trauma-related mental health problems among low-income minorities in primary care. J Nerv Ment Dis 200:438-43.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22551798?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3478235/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22551798
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3478235 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Gormley NJ, Bronstein AC, Rasimas JJ, Pao M, Wratney AT, Sun J, Austin HA, Suffredini AF (2012) The rising incidence of intentional ingestion of ethanol-containing hand sanitizers. Crit Care Med 40:290-4.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/21926580?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3408316/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 21926580
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3408316 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Green BL, Kaltman SI, Chung JY, Holt MP, Jackson S, Dozier M (2012) Attachment and health care relationships in low-income women with trauma histories: a qualitative study. J Trauma Dissociation 13:190-208.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22375807?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3422631/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22375807
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3422631 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Ludi E, Ballard ED, Greenbaum R, Pao M, Bridge J, Reynolds W, Horowitz L (2012) Suicide risk in youth with intellectual disabilities: the challenges of screening. J Dev Behav Pediatr 33:431-40.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22668827?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3464013/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22668827
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3464013 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">O'Shea CJ, Sloan JL, Wiggs EA, Pao M, Gropman A, Baker EH, Manoli I, Venditti CP, Snow J (2012) Neurocognitive phenotype of isolated methylmalonic acidemia. Pediatrics 129:e1541-51.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22614770?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3362903/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22614770
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3362903 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Pavletic AJ, Hnatiuk O (2012) Puzzling dyspnea caused by respiratory muscle weakness. J Am Board Fam Med 25:396-7.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22570404?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3931301/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22570404
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3931301 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">8.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Rackley S, Pao M, Seratti GF, Giri N, Rasimas JJ, Alter BP, Savage SA (2012) Neuropsychiatric conditions among patients with dyskeratosis congenita: a link with telomere biology? Psychosomatics 53:230-5.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22458992?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3348420/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22458992
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3348420 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">9.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Walker A, Pao M, Nguyen N (2012) Pediatric psychosomatic medicine: creating a template for training. Psychosomatics 53:532-40
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22658325?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3525319/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22658325
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3525319 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">10.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Wiener L, McConnell DG, Latella L, Ludi E (2013) Cultural and religious considerations in pediatric palliative care. Palliat Support Care 11:47-67
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22617619?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3437238/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22617619
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3437238 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">11.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Wiener L, Zadeh S, Battles H, Baird K, Ballard E, Osherow J, Pao M (2012) Allowing adolescents and young adults to plan their end-of-life care. Pediatrics 130:897-905
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23045560?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3483891/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23045560
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3483891 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

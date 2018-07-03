@@ -1,0 +1,446 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002966</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002966-01</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Multiple Scales of Stimulus Representation in the Human Brain
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lead Investigator</div></div>
+
+<div class="rowdiv">
+<div class="data">
+Elisha Prem Merriam
+<br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any LIs -->
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<!-- display SoRs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Supervisor of Record</div></div>
+<div class="rowdiv">
+<div class="data">
+ <!-- faculty test -->
+Leslie G Ungerleider; PhD 
+ <!-- faculty test -->
+<br />
+
+</div>
+</div>
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neurocircuitry, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neurocircuitry</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Zvi Nehemia Roth<br />
+
+
+
+
+Minyoung  Ryoo<br />
+
+
+
+
+Noah Jeremy Steinberg<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Marisa  Carrasco; PhD
+<i>(Psychology, New York University)</i>
+<br />
+
+
+
+Aniruddha  Das; PhD
+<i>(Department of Neuroscience, Columbia University)</i>
+<br />
+
+
+
+David J. Heeger; PhD
+<i>(Center for Neural Science, New York University)</i>
+<br />
+
+
+
+Krystel  Huxlin; PhD
+<i>(Department of Ophthalmology, University of Rochester)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+neural computation, visual perception, attention, arousal, functional brain imaging, human brain
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The major goal of our research is to understand how neural activity in the human cortex creates our sense of visual perception. Our research uses a combination of functional magnetic resonance imaging, computational modeling and analysis, and psychophysical measurements to link human perception to cortical activity.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+During the past year, we have focused on 1) characterizing the representation of stimulus features in primary visual cortex, and 2) studying how these representations interact with endogenous brain states, such as spatial attention and arousal.<br /><br />1) Characterizing stimulus representations in human visual cortex. <br /><br />Stimulus orientation is one of the most basic stimulus features represented in primary visual cortex (V1). Yet, after more than 50 years of research, the representation of orientation is inadequately understood. Orientation-selective V1 neurons are organized at a fine spatial scale in a pseudo-periodic, columnar structure across the cortical surface. Using functional magnetic resonance imaging (fMRI), we have previously discovered an additional level of organization, a coarse-scale orientation bias in which each fMRI voxel in V1 exhibits an orientation preference that depends on the region of space that it represents.<br /><br />Over the past year, we have investigated the neural computations that give rise to the coarse-scale orientation bias. We developed a computational model of neural activity in V1. The modeling results indicate that three theoretically distinct neural mechanisms could give rise to the coarse-scale orientation bias: contextual modulation, neural gain fields, and asymmetric surround suppression.<br /><br />We tested predictions of the theoretical model using high-resolution fMRI at 7 Tesla (7T) under NCT00001360. We found that orientation selectivity is strongly influenced by contextual factors, such as contrast changes at the boundary of the stimulus. Our results have implications for the neural processing of natural scenes. We are now applying these theoretical and empirical findings to guide studies of visual recovery following stroke. Our work on understanding neural computations in the intact visual system is vital in determining how these computations are altered in mental health and neurological disorders.<br /><br />2) Endogenous brain states.<br /><br />Visual perception arises from dynamic interactions between feedforward sensory information and top-down modulatory signals. In the past year, we have studied two types of top-down modulation. First, we used a novel spatial cuing protocol to isolate fMRI activity associated with endogenous spatial attention. We discovered specific sub-regions of the temporal-parietal junction are involved in directing attention to locations in space.<br /><br />Second, we identified a type of brain activity that reflects the subject's general engagement in a task. This task-related activity contributes prominently to brain hemodynamic responses measured with fMRI, is independent of external visual stimuli, and instead reflects internal brain states. Task-related activity appears to be distinct from spatially-localized endogenous attention. Rather, it may be related to general arousal. We are now testing the hypothesis that fluctuations in task-related brain activity predict fluctuations in behavioral performance. Our experiments in the past year have focused on simple visual discrimination tasks. However, we are planning to extend these experiments to investigate the relationship between task-related activity and reward processing and response conflict. Understanding the neural mechanisms of attention and global brain states has implications for the study of a number of neurological and psychiatric disorders, including schizophrenia, autism and Attention Deficit Hyperactivity Disorder (ADHD).<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+<!-- do not show project link -->
+
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+There were no publications associated with this project
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,761 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002942</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002942-01</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Multimodal imaging: genetic and environmental effects in neuropsychiatry
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lead Investigator</div></div>
+
+<div class="rowdiv">
+<div class="data">
+Stefano  Marenco; MD
+<br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any LIs -->
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<!-- display SoRs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Supervisor of Record</div></div>
+<div class="rowdiv">
+<div class="data">
+ <!-- faculty test -->
+Karen F Berman; MD 
+ <!-- faculty test -->
+<br />
+
+</div>
+</div>
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Psychosis and Cognitive Studies Section, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Psychosis and Cognitive Studies Section</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 30 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Joyce Edna Adams<br />
+
+
+
+
+Brenda A Agunyego<br />
+
+
+
+
+Jose A Apud; MD, PhD<br />
+
+
+
+
+Karen  Bartholomew<br />
+
+
+
+
+Joann  Berkson; RN<br />
+
+
+
+
+Melanie A Bose<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=82036&onameset=Psychosis and Cognitive Studies Section&isajaxlink=Y&_UserReference=2560D20EF2E665965B38D44A','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 30</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Alan Seth Barnett; PhD (Clinical and Translational Neuroscience Branch)<br />
+
+
+
+Jun  Shen; PhD (Magnetic Resonance Core)<br />
+
+
+
+Johan W Van Der Veen; PhD (Division of Intramural Research Programs)<br />
+
+
+
+Yan  Zhang (Magnetic Resonance Core)<br />
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Carlo  Pierpaoli; MD, PhD (NICHD) <br />
+
+
+
+Joelle  Sarlls; PhD (NINDS) <br />
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Matt  Glasser
+<i>(Washington University)</i>
+<br />
+
+
+
+Venkata  Mattay
+<i>(Lieber Institute for Brain Development)</i>
+<br />
+
+
+
+David  Van Essen
+<i>(Washinton University)</i>
+<br />
+
+
+
+Daniel R Weinberger; MD
+<i>(Lieber Institute for Brain Development)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Schizophrenia, DTI, MRS, relaxometry, Williams Syndrome, fMRI
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Using a multimodal neuroimaging approach primarily involving diffusion tensor imaging (DTI), magnetic resonance spectroscopy (MRS), functional MRI (fMRI) and quantitative measures of magnetic relaxation parameters of brain tissue, we pursue research aimed at understanding the genomic mechanisms related to risk for psychiatric disorders such as schizophrenia. The rationale for this work is founded on the premise that the discovery of susceptibility genes for psychiatric disorders will facilitate the identification of patho-physiological mechanisms and new therapies. Our primary objectives in this field are 1) to identify, through in vivo imaging, molecular and anatomical abnormalities in psychosis that can be linked to genetic predisposition; this is done by identifying brain phenotypes, that are not only present in patients with psychosis, but also in their unaffected siblings, who share half of their genetic material but do not have psychosis and are not treated with psychotropics; 2) ro identify which genetic variants increase risk for schizophrenia and are at the same time associated with the imaging phenotypes mentioned above, thus, providing support for the effects of specific genes on brain biology; and 3) to predict treatment response in patients based on the above mentioned phenotypes (95-M-0150 NCT00001486). <br /><br />The imaging modalities used allow integration of data from diverse domains of brain structure and function. Brain anatomy is studied through advanced methods for structural imaging that allow determination of relaxometry properties of tissue (T1 and T2). These relaxation maps are not only more adequate for large studies because they are less sensitive to changes in imaging software and equipment over time, but also allow, in conjunction with other techniques, a more biologically-based interpretation of results. The microstructural organization of white matter is studied with DTI, a quantitative technique that allows identification of the main tracts connecting distant brain regions. DTI-derived metrics allow limited inference about the preservation of connectivity between different brain areas. For example, we have shown that measures derived from tractography from the thalamus to the prefrontal cortex correlate with fMRI measures of efficiency and discriminate patients with schizophrenia from controls (Marenco et al. 2011, NPP). Resting state fMRI can also provide indexes of functional connectivity that have been shown to overlap to some extent with anatomical connections.  Brain function is studied with several fMRI tasks, enabling observation of brain activation during working memory, emotional and mnemonic processing. This is complemented by measures of brain metabolites with MRS. We are currently investigating &amp;#947;-Aminobutyric acid (GABA) and glutamate in addition to the commonly detected metabolites (N-acetyl-aspartate, choline and creatine containing compounds). The detection of these metabolites requires specialized acquisition and data analysis techniques. <br /><br />The researchers in this group contribute to methodological developments in MRS and DTI and continue to provide technical expertise towards improvements in the quality of data acquisitions and data processing.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+ The past year has seen a number of published papers and new data presented at national and international meetings.  <br />In Tost et al. 2013, an association of variation in the gene coding for the brain derived neurotrophic factor (BDNF; Val66Met polymorphism) with white matter microstructure was assessed. This polymorphism has been associated with various psychiatric conditions, including schizophrenia. It is known that the variant changes the trafficking of BDNF within neural cells, resulting in changes in hippocampal neurochemistry, fMRI activation and performance on memory tasks. Besides affecting neuronal phenotypes, BDNF has effects on other cell types, including oligodendrocytes, represented more prominently in white matter. Several studies have addressed the effect of the BDNF Val66Met polymorphism on white matter structure, with conflicting results. Our results are in line with the largest study in the literature in finding that white matter anisotropy (a measure of the coherent spatial organization of white matter bundles) was increased in Met carriers as compared to Val homozygotes. We also found that this effect was mostly due to a decrease in a measure that is usually considered a measure of myelination; however, there is no evidence supporting increased myelination in Met carriers and it is more likely that these changes reflect alterations in the architecture of white matter fibers. We also showed in this publication that in Val/Val individuals white matter microstructure (anisotropy) was positively correlated with verbal and working memory performance, while in Met carriers, the opposite was true.  Along similar lines of inquiry, we found an effect of a polymorphism in the serotonin transporter promoter region (5HTT-LPR) on the white matter microstructure of the uncinate fasciculus. This polymorphism has been implicated in the causation of mood disorders and has been associated with changes in white matter microstructure in previous literature, though the results have been conflicting. We implemented a novel method to define the uncinate fasciculus that allows for automatic delineation of multiple white matter tracts and extraction of tract metrics.  <br /><br />In Radulescu et al. 2013, genetic variants in GPR85 that were previously found to increase risk for schizophrenia, were associated with brain activation studied with fMRI. Tasks designed to produce activation in hippocampus (encoding of scenes) and amygdala (presentation of anxious or angry faces), both regions where this gene in highly expressed in adulthood, showed association with the two variants studied. The association in the amygdala was sex specific. Moreover, one of the studied gene variants was associated in a sex specific manner to brain activation during a working memory task. A similar trend occurred in our clinical, where the G allele at locus rs56080411 appeared to increase risk for schizophrenia mainly in males, while it was protective in females. Although the functions of GPR85 are still unknown, these results obtained in healthy individuals support a role of this gene in emotional and mnemonic processing, both functions that are altered in schizophrenia. <br /><br />The work on obstetrical complications as an environmental risk factor for schizophrenia generated a publication (Jaffe et al. 2013, Mol. Psych.) showing that it is unlikely that de novo mutations are the main cause for the known association of paternal age and schizophrenia.  Obstetrical complications were associated with increased risk for schizophrenia especially for lower birth order, consistent with the fact that initial pregnancies are more likely to be problematic than later ones. <br /><br />In collaboration, advances have also been made in detailing the effects on white matter microstructure of the 7q11.23 hemideletion associated with Williams Syndrome, leading to the observation that white matter tracts connecting the insula to other important stations of the emotional regulation system (such as amygdala and prefrontal cortex) may be altered in this condition (Jabbi et al. 2012). Moreover, studies in this domain have revealed that people with atypical deletions of the Williams Syndrome chromosome region have an overall alteration of white matter microstructure as compared to controls. Because all the atypical deletions involved the gene LIMK1, which is important in neuronal migration and maturation, it is possible that this gene controls multiple aspects of white matter architecture. Confirmation of this hypothesis was obtained in healthy volunteers, where a genetic variant in the promoter region of LIMK1 was found to be associated with reduced gray matter volume in the intra-parietal sulcus (a characteristic of Williams Syndrome) and a global alteration of white matter microstructure with the same directionality as found in partial and full deletions of the Williams Syndrome chromosome region. Consistent with a role of LIMK1 in regulating white matter microstructure are its known biological functions, which include regulation of growth cone motility in response to axon guidance cues, synapse maturation and plasticity, axon response to myelin associated inhibitors, and appropriate myelination of peripheral nervous cells. Connected to this research, is a more methodological line of work, where we laid the groundwork for determination of white matter tract volume in large datasets of individuals for genetic studies. We focused on the inferior fronto-occipital fasciculus because preliminary work indicated that this might be the white matter tract particularly reduced in volume in participants with short deletions of the Williams syndrome chromosome region. <br /><br />We have also studied GABA and glutamate levels in the anterior cingulate cortex of patients with schizophrenia as compared to controls and have found that GABA levels do not differ between patients and controls, whereas glutamate levels appear to be reduced. We also found that the suspension of neuroleptic medication had no effect on GABA levels in patients with schizophrenia. <br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=82036&allpubs=Y&isajaxlink=Y&_UserReference=2560D20EF2E665965B38D44A','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Jabbi M, Kippenhan JS, Kohn P, Marenco S, Mervis CB, Morris CA, Meyer-Lindenberg A, Berman KF (2012) The Williams syndrome chromosome 7q11.23 hemideletion confers hypersocial, anxious personality coupled with altered insula structure and function. Proc Natl Acad Sci U S A 109:E860-6.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22411788?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3325656/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22411788
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3325656 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Radulescu E, Sambataro F, Mattay VS, Callicott JH, Straub RE, Matsumoto M, Weinberger DR, Marenco S (2013) Effect of Schizophrenia risk-associated alleles in SREB2 (GPR85) on functional MRI phenotypes in healthy volunteers. Neuropsychopharmacology 38:341-9
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22968816?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3527120/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22968816
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3527120 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Tost H, Alam T, Geramita M, Rebsch C, Kolachana B, Dickinson D, Verchinski BA, Lemaitre H, Barnett AS, Trampush JW, Weinberger DR, Marenco S (2013) Effects of the BDNF valmet polymorphism on white matter microstructure in healthy adults. Neuropsychopharmacology 38:525-32
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23132269?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3547204/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23132269
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3547204 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

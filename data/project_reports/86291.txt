@@ -1,0 +1,536 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002768</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002768-17</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Subcellular Compartmentilization of Neuronal Gene Expression
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Barry Bernard Kaplan; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/barry-kaplan" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neurobiology, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neurobiology</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 8 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Anthony  Gioio; MS<br />
+
+
+
+Amar Nath  Kar<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Cai Y Chen; BS<br />
+
+
+
+
+Noreen May Gervasi<br />
+
+
+
+
+Nima  Khoshab<br />
+
+
+
+
+Kathryn L Reichard<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=86291&onameset=Section on Neurobiology&isajaxlink=Y&_UserReference=F0D7D1A6281013225B38D60D','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 8</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Kazutoshi  Nakazawa; MD, PhD  (Unit on Genetics of Cognition and Behavior)<br />
+
+
+
+James M Pickel; AB, PhD  (Division of Intramural Research Programs)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Intra-axonal protein synthesis, Catecholamine neurotransmitter synthesis, Micro RNAs, Nuclear-encoded mitochondrial RNAs, Nerve terminal, ATP synthesis, Axon, Axonal Growth, Oxidative stress, Sympathetic neuron
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+<br />The goal of the Section on Neurobiology is to define the function(s) and regulation of intra-axonal protein synthesis and to delineate the mechanism(s) mediating the intracellular trafficking of a mRNA population that is present in the axon and presynaptic nerve terminal. The central hypothesis of the Sections research effort is that the local translation of these mRNAs plays a key role in the growth and development of the nerve terminal and the viability/function of the axon per se. It is believed that dysfunction of  the axonal trafficking of mRNA and the intra-axonal protein synthetic system will result in widespread anomalies in brain function and behavior. This hypothesis has direct clinical relevance as there is a growing consensus that dysregulation of local protein synthesis may play an important role in the pathophysiology of several neurodevelopmental and/or neurodegenerative disorders. Hence, the protein synthetic system present in the axon  and presynaptic nerve terminal might serve as a heretofore unrecognized foci for the pathobiology of psychiatric disorders. The specific aims of this years research effort were three--fold: (1) Establish the analytical techniques and experimental approaches requisite to investigate the molecular mechanisms regulating the axonal trafficking of nuclear-encoded mitochondrial mRNAs;  (2)  Delineate the physiological and behavioral consequences of the disruption of the axonal trafficking of mRNA in vivo, using transgenic animal methodology; and (3) continue investigation of the local regulation of catecholamine neurotransmitter biosynthesis in the axons of sympathetic neurons.<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Axons and nerve terminals are unique subcellular structures of the neuron that play a critical role in the development and maintenance of neural connectivity. One of the  central tenets in neuroscience is that the protein constituents of these distal neuronal compartments are synthesized in the nerve cell body and are subsequently transported  to their ultimate sites of function. Hence, the structure and function of these highly specialized distal domains of the neuron are totally dependent on the axoplasmic transport of protein synthesized in the parental cell bodies. Although the majority of neuronal mRNAs are indeed transcribed and translated in the neuronal cell body, it is now well-established that there exists a diverse population of mRNAs and noncoding microRNAs in the distal structural/functional domains of the neuron to include the axon and presynaptic nerve terminal. It has also become well-accepted that proteins synthesized from these mRNA templates play a key role in the development of the neuron, as well as the long-term viability and function of the axon and nerve terminal.  In previous studies, we reported the surprising observation that the axon contained numerous nuclear-encoded mitochondrial mRNAs and that approximately 25% of the total protein synthesized in the presynaptic nerve terminal was shipped into this organelle.  The inhibition of the local synthesis of these proteins had a profound negative impact on local mitochondrial function to include the inhibition of ATP production and elevation of the synthesis of damaging reactive oxygen species (ROS). In previous studies, we also identified a 38-nucleotide sequence (cis-acting regulatory element) that directs the trafficking of select nuclear-encoded mRNAs to the axon.  We refer to th8is element as a zip-code that is present in the 3 untranslated region of the mRNAs. Results of recent cell culture studies indicate that the over-expression of the zip-code disrupts the normal trafficking of the endogenous mRNAs, inhibits the function of the local mitochondria, as well as manifests deleterious effects on axonal growth and axonal viability.  This year, we completed the initial behavioral and physiological characterization of a transgenic mouse line that over expresses the zip-code specifically in glutaminergic neurons located in the cerebral cortex.  These transgenic animals manifest anxiety- and depressive-like behaviors that are exacerbated by stress (Kar et al., 2014). At present, we are evaluating the effects of the over-expression of the zip-code on the transgenic animals cognitive behavior.   This past year, we discovered that mRNAs encoding two protein synthesis translation initiation factors were also present in the axon. The results generated from this portion of our research program established that the local expression of these factors regulates the activity of the intra-axonal protein synthetic system per se. Moreover, the inhibition of local expression of these key proteins has a profound inhibitory effect on axon growth, as well as the long-term viability of the axon. A peer-reviewed paper describing these new findings was recently published (Kar et al., 2013). Last, we continue to conduct our exploratory, high-risk investigation designed to test the working hypothesis that the synthesis and release/reuptake of the catecholamine neurotransmitters are regulated locally in the axon and presynaptic nerve terminal. In this regard, our preliminary data indicate that the mRNAs encoding all the enzymes of   the catecholamine biosynthesis pathway are present in the axons of sympathetic   neurons, and are locally translated. Additionally, the levels of these mRNAs in the polysome fraction, as well as, levels of axonal norepinephrine could be induced 2-to 4-fold by elevating the levels of cyclic AMP in the axon, a finding that suggests that the intra-axonal synthesis of these enzymes and neurotransmitter can be modulated by synaptic activity. Papers describing these provocative new findings have been presented at two prestigious international conferences by my postdoctoral fellow, Dr. Noreen Gervasi, and a manuscript is now in preparation.  Taken together, these results deived fom this years investigation of the local local protein synthetic system indicate that this system plays a key role in the regulation of  local mitochondrial activity and axon growth, as well as neurotransmitter metabolism. We anticipate that this line of investigation will augment our understanding of the molecular mechanisms that underlie neuronal development, regeneration, and plasticity and generate new avenues of research into the pathophysiology of mental illness.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86291&allpubs=Y&isajaxlink=Y&_UserReference=F0D7D1A6281013225B38D60D','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kar AN, Macgibeny MA, Gervasi NM, Gioio AE, Kaplan BB (2013) Intra-axonal Synthesis of Eukaryotic Translation Initiation Factors Regulates Local Protein Synthesis and Axon Growth in Rat Sympathetic Neurons. J Neurosci 33:7165-74.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23616526?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3685850/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23616526
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3685850 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,818 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002581</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002581-25</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Childhood Onset Schizophrenia
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Judith L Rapoport; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/judith-rapoport" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Childhood Neuropsychiatric Disorders, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Childhood Neuropsychiatric Disorders</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 18 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Kwangmi  Ahn; PhD<br />
+
+
+
+Peter A Gochman<br />
+
+
+
+Anna Elisa Ordonez; MD<br />
+
+
+
+Siyuan  Liu; PhD<br />
+
+
+
+Xueping  Zhou; MHS<br />
+
+
+
+Rebecca Edith Watsky<br />
+
+
+
+ <!-- step through any ordered staff -->
+
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=91037&onameset=Section on Childhood Neuropsychiatric Disorders&isajaxlink=Y&_UserReference=CE77DB95E9D5EF0E5B38D248','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 18</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Karen F Berman; MD  (Section on Integrative Neuroimaging)<br />
+
+
+
+Stephen  Gotts; PhD  (Laboratory of Neuropsychology)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 21 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Kristen  Brennand; PhD
+<i>(Department of Psychiatry, Icahn School of Medicine at Mount Sinai)</i>
+<br />
+
+
+
+
+Paul  Thompson; PhD
+<i>(Department of Neurology, UCLA)</i>
+<br />
+
+
+
+
+Alan C Evans; PhD
+<i>(ACE NeuroImaging Laboratory, McConnell Brain Imaging Centre)</i>
+<br />
+
+
+
+
+R F Asarnow; PhD
+<i>(Department of Pyschiatry, UCLA)</i>
+<br />
+
+
+
+
+Edward  Bullmore; MD
+<i>(Biostatistics & Computing, Institute of Psychiatry)</i>
+<br />
+
+
+
+
+Michel  Cuenod; MD
+<i>(Centre for Psychiatric Neurosciences, Lausanne University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=91037&isajaxlink=Y&_UserReference=CE77DB95E9D5EF0E5B38D248','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 21</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Childhood Onset Schizophrenia, Child and Adolescents, Cytogenetic Abnormalities, Clozapine, Genetics, MRI, Whole Genome Sequencing, Oxytocin, Transcranial Direct Stimulation (TDCS), Copy Number Variants (CNVs), Brain Connectivity, iPSCs
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Schizophrenia is one of the most severe mental illnesses. Early diagnosis and treatment reduce the cost to society by at least 30%. Clinical studies across all of medicine show that early onset illness is often more severe, and with stronger biological and genetic factors. Since 1990, the NIMH has been recruiting patients with onset of schizophrenia before age 13. An overarching hypothesis is that clinical, neurobiological markers will be more pronounced than for adult onset disorder. Major goals are to study development of brain circuitry during childhood and adolescence for early onset schizophrenia patients and their full siblings, and devise novel treatment strategies for this treatment refractory population. Prospective studies show subtle abnormalities in growth for younger healthy siblings of childhood onset schizophrenia (COS) patients. Rare and/or disease related chromosomal Copy Number Variants (CNVs) are significantly more frequent for COS probands than for their healthy siblings. Exome sequencing and ultimately whole genome sequencing are expected to identify additional salient genetic risks.<br /><br />This report involves work collected under NCT00049738 Protocol 03-M-0035: Screening, Evaluation, Diagnosis, Treatment Optimization and Follow-up for Childhood Onset Psychotic Disorders; NCT01712646 Protocol 13-M-0004: The use of daily, intranasal oxytocin for the treatment of childhood-onset schizophrenia (COS), a randomized double-blind trial; NCT00001198 Protocol 84-M-0050: Biochemical, Physiological, and Psychological Measures in Normal Controls and Relatives of Psychiatric Patients;  NCT00001656 Protocol 97-M-0126: Childhood Onset Psychotic Disorders: Characterization and Treatment with Atypical Neuroleptics; NCT00757497 Protocol 08-M-0211: Safety of transcranial direct current brain stimulation (TDCS) for improvement of psychotic symptoms and cognitive functioning in childhood onset schizophrenia (COS);NCT00001246  Brain Imaging of Childhood Onset Psychiatric Disorders.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+In comparison with adult onset schizophrenia patients, childhood onset patients have a greater number of pre-psychotic developmental disorders. One fifth of our COS cases have earlier forms of autism spectrum disorder, and one third have motor, speech, language, attention or impulse related developmental disorders (Rapoport et al. 2009; Driver et al. 2013). In contrast, the non-psychotic siblings do not have an elevated rate of early neurodevelopmental disorders. Cognitive studies have begun within this protocol to obtain prospective measures of working memory.<br /><br />COS probands have significantly decreased hippocampal volume (Mattai et al 2011).  Studies of anatomic hippocampal development in the healthy siblings showed no deviance from that seen for the healthy controls however a study in collaboration with colleagues at the University of Chicago show anterior hippocampal shape deviation in COS, similar to that seen for adult onset subjects, which are also shared, more subtly, by healthy COS siblings (Johnson et al. 2013).  We have initiated a higher field strength (7T) study of the hippocampus in COS, their non-psychotic siblings and healthy controls. We expect to find most prominent reductions in CZ2/3 and CA4/dentate gyrus.  Similarly, recent analyses also show that COS probands and their siblings show overlapping developmental deficits in the insula compared to matched controls (Moran et al. 2013a); and that sibling brain developmental defects tend to be age limited (Moran et al. 2013b). <br /><br />We are studying the neurocircuitry development and abnormal connectivity in COS patients and their healthy siblings. Such analyses, particularly in healthy siblings may highlight resilience factors or circuits in the brain that are relevant to early psychosis. A task related functional MRI study in collaboration with Dr. Karen Berman, NIMH, is studying functional response during two working memory tasks for probands, healthy siblings and controls. Very preliminary data suggest that probands and to a lesser extent healthy siblings demonstrate increased recruitment in several brain regions including the right DLPFC and parietal circuits suggesting a subtle functional endophenotype. A recent study explored the small world networks properties using resting state fMRI data in COS patients which suggested loss of shorter connections while the longer connections were relatively preserved (Alexander-Bloch et al. 2014). A resting state fMRI study of COS, their siblings and controls in collaboration with Dr. Stephen Gotts, NIMH, found striking abnormalities in the integration of activation in cognitive/social circuitry and motor/sensory circuits (Berman et al in preparation). Interestingly, these abnormalities bear some similarity to those seen in autism (Gotts et al in preparation).<br /><br />Several genetic studies are ongoing. There is a higher rate of rare copy number variants (CNVs), with 126 probands, involving 75 proband/sib pairs, and access to the current Database of Genomic Variation of over 26,000 individuals.  A total of 13% of COS probands carry a rare, disease related CNV including 5 cases with the 22q11 deletion. This represents a significantly higher incidence compared to that seen for healthy controls and to that for adult onset schizophrenia patients (p&lt;.05) (Ahn et al. 2013). To better understand the heritability of COS, exomic sequencing of 73 trios is being completed in collaboration with Matthew State, MD, (UCSF).  We are also finding an 11% rate of the same rare CNVs for a group of our patients with severe early onset non-schizophrenic disorders indicating the non-specificity of CNV risk. Extramural funding has just been approved for Dr. State and his group to carry out whole genome sequencing for our COS sample. <br /><br />An ongoing collaborative study with Dr. Ricardo Dolmetsch, Novartis Institute, is studying neuronal activation and neurite development from induced pluripotent stem cell (iPSC) derived neurons from our childhood onset schizophrenia patients. Patients with and without rare disease associated copy number variants (CNVs) are included. Contrast groups will include unrelated healthy controls, and healthy and affected family members (some healthy carriers of risk CNVs).  Evidence from iPSC-derived neurons 22q11 subjects indicated reduced L-type voltage gated calcium responses in pyramidal neurons (Psca et al. in preparation). A new study will compare changes in expression for ipsc derived neurons from our best responders and a matched group of  poor clozapine responders.<br /><br />Finally, we continue to explore novel treatment strategies for this severely psychotic and treatment refractory population. Two inpatient treatment trials are currently ongoing; both with two week, double blind, placebo-controlled, parallel designs. The first trial explores the efficacy of trans-cranial direct current stimulation (TDCS) to (a) improve cognitive deficits by application of anodal current to bilateral DLPFC and (b) improve hallucinations by applying cathodal current to temporal cortex bilaterally (David et al. 2013). The second trial, which was just approved by the IRB, explores the efficacy of twice-daily intranasal oxytocin for enhancement of emotional cognition in COS and its effects on amygdalar-frontal emotional circuitry. We continue to advise on use of clozapine for COS and to establish guidelines for monitoring its use (Maher et al. 2013; Merikangas et al. 2013).  These studies are of importance given the dearth of new treatments in child psychiatry (Merikangas et al. 2013; Rapoport. et al 2013).
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91037&allpubs=Y&isajaxlink=Y&_UserReference=CE77DB95E9D5EF0E5B38D248','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Giedd JN, Raznahan A, Alexander-Bloch A, Schmitt E, Gogtay N, Rapoport JL (2015) Child psychiatry branch of the National Institute of Mental Health longitudinal structural magnetic resonance imaging study of human brain development. Neuropsychopharmacology 40:43-9
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25195638?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4262916/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25195638
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4262916 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Greenstein D, Kataria R, Gochman P, Dasgupta A, Malley JD, Rapoport J, Gogtay N (2014) Looking for Childhood-Onset Schizophrenia: Diagnostic Algorithms for Classifying Children and Adolescents with Psychosis. J Child Adolesc Psychopharmacol 24:366-73
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25019955?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4162429/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25019955
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4162429 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kano S, Yuan M, Cardarelli RA, Maegawa G, Higurashi N, Gaval-Cruz M, Wilson AM, Tristan C, Kondo MA, Chen Y, Koga M, Obie C, Ishizuka K, Seshadri S, Srivastava R, Kato TA, Horiuchi Y, Sedlak TW, Lee Y, Rapoport JL, Hirose S, Okano H, Valle D, O'Donnell P, Sawa A, et al. [1 more author] (2015) Clinical utility of neuronal cells directly converted from fibroblasts of patients for neuropsychiatric disorders: studies of lysosomal storage diseases and channelopathy. Curr Mol Med 15:138-45
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25732146?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4428755/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25732146
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4428755 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Moran ME, Luscher ZI, McAdams H, Hsu JT, Greenstein D, Clasen L, Ludovici K, Lloyd J, Rapoport J, Mori S, Gogtay N (2015) Comparing fractional anisotropy in patients with childhood-onset schizophrenia, their healthy siblings, and normal volunteers through DTI. Schizophr Bull 41:66-73
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25217482?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4266298/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25217482
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4266298 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Ordóñez AE, Luscher ZI, Gogtay N (2016). Neuroimaging findings from childhood onset schizophrenia patients and their non-psychotic siblings. Schizophr Res  173, 124-31.   https://doi.org/10.1016/j.schres.2015.03.003
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25819937?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4583796/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25819937
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4583796 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

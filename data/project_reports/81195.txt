@@ -1,0 +1,1971 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002734</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002734-18</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Genetic Basis Of Cortical Malfunction In Schizophrenia
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lead Investigator</div></div>
+
+<div class="rowdiv">
+<div class="data">
+Jose A Apud; MD, PhD
+<br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Karen F Berman; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/karen-berman" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Clinical and Translational Neuroscience Branch, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Clinical and Translational Neuroscience Branch</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 27 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Joyce Edna Adams<br />
+
+
+
+
+Brenda A Agunyego<br />
+
+
+
+
+Omoye Osimen Akhile<br />
+
+
+
+
+Karen  Bartholomew<br />
+
+
+
+
+Joann  Berkson; RN<br />
+
+
+
+
+Melanie A Bose<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=81195&onameset=Clinical and Translational Neuroscience Branch&isajaxlink=Y&_UserReference=4124B5422B55A2D15B38D4DF','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 27</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Qiang  Chen  (Psychosis and Cognitive Studies Section)<br />
+
+
+
+Barbara K Lipska; PhD  (Section on Neuropathology)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Terry  Goldberg; PhD
+<i>(Albert Einstein School of Medcine)</i>
+<br />
+
+
+
+Thomas W Weickert
+<i>(Univ New South Wales and Neuroscience Research Australia)</i>
+<br />
+
+
+
+Daniel R Weinberger; MD
+<i>(Lieber Institute for Brain Development)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+schizophrenia, DLPFC, cortical function, SNP, Parkinson's disease, BDNF, COMT, NPT, MEG, PANSS, dopamine, BOLD-fMRI
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Based on the fact that schizophrenia has an important degree of heritability, the objectives of this work are to discover and explore genes associated with risk for schizophrenia in order to generate hypotheses about molecular and neural system mechanisms related to key biologic aspects of the illness, and to identify new approaches to treatment that are based on validated mechanisms (Study 95-M-0150 NCT00001486).  The strategy for biological validation of genetic association with schizophrenia is as follows: <br /><br />1)	Provide biologic evidence of the effect of schizophrenia-associated risk alleles on relevant measures of brain development and function assayed with cognitive and neuroimaging approaches in healthy and ill subjects; <br /><br />2)	Use evidence of genetic association with measures of brain development and function as a basis for further characterization of molecular pathways and mechanisms in human cell lines and in post mortem human brain in collaboration with the Section on Neuropathology; <br /><br />3)	 Develop specific molecular models in cell lines and in animals based on defined illness-associated perturbations within these pathways; and<br /><br /> 4)   Identify potentially new therapeutic targets within these molecular pathways and networks. <br /><br />Emerging hypotheses are tested using a convergent strategy of cognitive, imaging and basic science methods. Genes and gene networks that affect cortical function and increase the risk for developing schizophrenia are identified via family-based and case-control comparisons. To explore abnormalities of cortical function, which are core features of chronic schizophrenia, cortical function and structure of patients, siblings and healthy volunteers are quantified using functional imaging (fMRI), structural magnetic resonance imaging, magnetic resonance spectroscopy (MRS), diffusion tensor imaging (DTI), magnetoencephalography (MEG) and neuropsychological tests. Results using these methods are combined with genetic data to look for genes that affect brain function and increase susceptibility to schizophrenia. To these ends, carefully diagnosed patients are recruited from local and national sources. Diagnosis of probands is established from previous psychiatric records and a structured diagnostic interview. Healthy volunteers and siblings are likewise evaluated with a structured interview. All subjects give a blood sample for genetic analysis. Evaluation of cortical function is performed using fMRI, PET, MEG, DTI and neuropsychological evaluations. The employed procedures have been chosen because they have been shown to be sensitive to abnormalities in patients with schizophrenia compared to normal controls. One particularly important strategy has been the study of healthy siblings of patients.  Over the years, we have shown that subsets of these healthy siblings show one or more abnormal traits on the above-mentioned tests, suggesting that these findings are heritable and that they may be useful measures for detecting genes that increase risk for schizophrenia. This study and the methods used are unique in focusing on such biological variables and their heritability in siblings.<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The past year has seen a number of accomplishments.  Several studies in patients with schizophrenia have been completed.  First, in medication-free inpatients with schizophrenia we have shown that a genetic alteration in the BDNF gene, which affects release of brain-derived neurothrophin factor in the brain, impacts hippocampal function differentially in patients off antipsychotic medication compared to controls.  Specifically, in patients, the Met allele was associated with decreased hippocampal regional cerebral blood flow (rCBF) whereas in healthy individuals, this genetic alteration was associated with increased hippocampal rCBF.  <br /><br />	Next, recognizing that the human brain is a complex biological system composed of many interacting subsystems with widespread functional networks that operate on a millisecond timescale we used magnetoencephalography (MEG) to identify functional networks of the so-called resting human brain in health and schizophrenia using two graphical tools, small worldness and degree distribution. The goal of this study was to determine whether functionally connected brain networks show non-random features in healthy controls and/or patients with schizophrenia on antipsychotics.  Results showed that functional brain networks presented small world topologies and non-random degree distributions in both controls and patients with schizophrenia on antipsychotics.  <br />  <br />	Additionally, we sought to understand how alterations in brain dopamine in schizophrenia and Parkinsons disease (PD) affect learning.  Because (1) both types of patients share dysfunctions of dopaminergic neurotransmission, (2) previous studies of probabilistic association learning (PAL) in patients with schizophrenia on treatment with antipsychotics provided conflicting evidence for normal or abnormal probabilistic learning, and (3)studies of patients with Parkinson's  receiving dopamine-augmenting drugs  similarly report conflicting evidence for early PAL that elicits frontal-striatal activity, we examined the effects of dopamine-altering drugs on PAL. Patients with schizophrenia were studied before and after withdrawal from antipsychotic dopamine blockers, and PD patients were studied following treatment with dopamine-augmenting agents.  We found that both blockade of dopamine receptors with antipsychotics in schizophrenia and the depletion of presynaptic dopamine that causes PD resulted in impairments of PAL. However, when dopamine receptor signaling was enhanced by removing the dopamine blocker in schizophrenia (but not by restoring the dopamine signal by replacement with dopamine augmenters in PD), some aspects of probabilistic association learning improved. <br />	<br /><br />	We also explored the administration of tolcapone, an agent that inhibits catechol-O-methyltransferase (COMT), an enzyme that breaks down dopamine, because dopamine dysregulation is a core biological feature of schizophrenia, and because the gene that codes for COMT harbors a common variation that has been associated with schizophrenia risk and is implicated in both prefrontal and limbic functioning.  Individuals who possess the high activity enzyme and have less DA in the frontal cortex have previously been found to perform worse than individuals who possess the low activity enzyme on tests of attention, concentration and memory and tolcapone effects on cognition are modulated by this variation. We have now explored the effect of tolcapone on cortical information processing during attention in healthy volunteers, hypothesizing that the drug would enhance efficiency of information processing in the prefrontal cortex. This randomized, double-blind, placebo-controlled, crossover study showed that tolcapone selectively improves the efficiency of information processing in the cortex of healthy volunteers. <br /><br />	Our continued search for genes that affect cortical function and increase risk for developing schizophrenia led to the discovery of a variant of a potassium channel gene, KCNH2, that produces a form of the potassium channel that is specifically present in the brain, in contrast to a similar family of potassium channels present in the heart that interact with antipsychotics and can be associated with changes in the heart rhythm.  The gene that produces this form of the potassium channel confers risk for schizophrenia and is highly expressed in the brains of patients.  We examined drug-response data from two groups of patients: (1) those from the NIMH inpatient program in which patients are studied both while off medications for four weeks and while on antipsychotics for four weeks, and (2) those from the long-term, outpatient antipsychotic treatment (CATIE) study.  In both groups of patients, antipsychotic treatment produced a significant improvement in symptoms, but patients who had the TT type of the KCHNH2 gene preferentially showed this response. Patients with this genotype were also the least likely to discontinue their antipsychotic treatment. This study may open new avenues for the development of new therapeutic strategies.<br /><br />Our work translating human genetic markers that are associated with risk for neuropsychiatric disorders into genetic mouse models has also produced several important advances.  For example, in Carr (Behav Brain Res 2013) a mouse model lacking the DTNBP1 gene had learning and memory deficits from changes in PFC circuitry; they required more practice trials to reach a criterion.  To study the effects of mutations in the risk gene, COMT, on brain functions, our group developed a knock-in mutant mouse carrying the human form of the gene. The mutant mice showed higher level of anxiety, which suggests that COMT is a genetic factor for emotional control.  Since COMT mutation mainly affects the dopamine level in the prefrontal cortex, prefrontal dopamine might play an important role in anxiety.  Additionally, since some cognitive functions differ in males and females Papaleo et al (PNAS 2012) tested in mice the interaction of these COMT mutations and sex, on environmental manipulations of cognitive functions such as attention, impulsivity, compulsivity, motivation, and rule-reversal learning. This work demonstrated a series of complex sex- and COMT-related effects and their interactions with environmental factors to influence specific executive cognitive domains.  For example, changes in mild stress negatively affected cognitive performance in males, particularly those without the COMT gene, but not females. In contrast amphetamine treatment produced small sex-COMT genotype and sex-treatment interactions for compulsive behavior.  Interestingly, females improved performance after repeated testing, worked harder and outperformed males.  Since this mouse model mimics the human genotype, studies such as these may be useful for genotype-specific testing of medications such as COMT inhibitors for treatment of brain disorders including Parkinsons disease and schizophrenia.  <br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81195&allpubs=Y&isajaxlink=Y&_UserReference=4124B5422B55A2D15B38D4DF','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Book chapters<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Dickinson D, Schaefer J, Weinberger DR (2013) The multifaceted "global" cognitive impairment profile in schizophrenia, in Cognitive Impairment in Schizophrenia. Harvey P, ed. Cambridge University Press (New York), pp. 24-49.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Callicott JHC, Feighery EL, Mattay VS, White MG, Chen Q, Baranger D, Berman KF, Lu B, Song H, Ming G, Weinberger DR (2013) DISC1 and SLC12A2 interaction affects human hippocampal function and connectivity. J Clin Invest 123:2961-4
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23921125?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3999052/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23921125
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3999052 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Carr GV, Jenkins KA, Weinberger DR, Papaleo F (2013) Loss of dysbindin-1 in mice impairs reward-based operant learning by increasing impulsive and compulsive behavior. Behav Brain Res 241:173-84
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23261874?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3556458/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23261874
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3556458 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Carver FW, Elvevåg B, Altamura M, Weinberger DR, Coppola R (2012). The neuromagnetic dynamics of time perception. PLoS One  7, e42618.   https://doi.org/10.1371/journal.pone.0042618
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22912714?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3422225/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22912714
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3422225 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Cole VT, Apud JA, Weinberger DR, Dickinson D (2012) Using latent class growth analysis to form trajectories of premorbid adjustment in schizophrenia. J Abnorm Psychol 121:388-95.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22250661?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3771364/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22250661
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3771364 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Dickinson DD (2012) Using latent class growth analysis to form trajectories of premorbid adjustment in schizophrenia. j of abnormal Psychology 121:388-395.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Dreher JC, Koch P, Kohn P, Apud J, Weinberger DR, Berman KF (2012) Common and differential pathophysiological features accompany comparable cognitive impairments in medication-free patients with schizophrenia and in healthy aging subjects. Biol Psychiatry 71:890-7.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22341369?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4834851/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22341369
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4834851 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">8.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Eisenberg DP, Ianni AM, Wei SM, Kohn PD, Kolachana B, Apud J, Weinberger DR, Berman KF (2013) Brain-derived neurotrophic factor (BDNF) Val(66)Met polymorphism differentially predicts hippocampal function in medication-free patients with schizophrenia. Mol Psychiatry 18:713-20
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23319002?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3628926/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23319002
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3628926 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">9.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Eisenberg DP, Ianni AM, Wei SM, Kohn PD, Kolachana B, Apud J, Weinberger DR, Berman KF (2013) Hippocampal dysfunction in schizophrenia: association with brain-derived neurotrophic factor genotype. Mol Psychiatry 18:631
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23698315?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4215702/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23698315
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4215702 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">10.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Eisenberg DP, Kleinman J, Berman KF (2013) Epistasis and complex neuropsychiatric phenotypes. Psychiatry 76:295-7
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23965266?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4207620/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23965266
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4207620 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">11.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Furl N, Coppola R, Averbeck BB, Weinberger DR (2014) Cross-Frequency Power Coupling Between Hierarchically Organized Face-Selective Areas. Cereb Cortex 24:2409-20
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23588186?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4128705/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23588186
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4128705 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">12.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Gold JM, Dickinson D (2013) Generalized cognitive deficit in schizophrenia: overused or underappreciated? Schizophr Bull 39:263-5
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23211397?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3576177/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23211397
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3576177 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">13.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Gomar JJ, Gordon ML, Dickinson D, Kingsley PB, Uluğ AM, Keehlisen L, Huet S, Buthorn JJ, Koppel J, Christen E, Conejero-Goldberg C, Davies P, Goldberg TE (2013) APOE Genotype Modulates Proton Magnetic Resonance Spectroscopy Metabolites in the Aging Brain. Biol Psychiatry, in press (e-pub ahead of print)
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">14.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Gothelf D, Law AJ, Frisch A, Chen J, Zarchi O, Michaelovsky E, Ren-Patterson R, Lipska BK, Carmel M, Kolachana B, Weizman A, Weinberger DR (2014) Biological Effects of COMT Haplotypes and Psychosis Risk in 22q11.2 Deletion Syndrome. Biol Psychiatry 75:406-13
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23992923?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3872263/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23992923
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3872263 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">15.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Hashimoto R, Ikeda M, Ohi K, Yasuda Y, Yamamori H, Fukumoto M, Umeda-Yano S, Dickinson D, Aleksic B, Iwase M, Kazui H, Ozaki N, Weinberger DR, Iwata N, Takeda M (2013) Genome-wide association study of cognitive decline in schizophrenia. Am J Psychiatry 170:683-4
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23732972?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4181719/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23732972
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4181719 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">16.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Jabbi M, Kippenhan JS, Kohn P, Marenco S, Mervis CB, Morris CA, Meyer-Lindenberg A, Berman KF (2012) The Williams syndrome chromosome 7q11.23 hemideletion confers hypersocial, anxious personality coupled with altered insula structure and function. Proc Natl Acad Sci U S A 109:E860-6.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22411788?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3325656/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22411788
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3325656 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">17.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Jabbi M, Nash T, Kohn P, Ianni A, Rubinstein D, Holroyd T, Carver FW, Masdeu JC, Kippenhan JS, Robinson SE, Coppola R, Berman KF (2013) Midbrain presynaptic dopamine tone predicts sustained and transient neural response to emotional salience in humans: fMRI, MEG and FDOPA PET. Mol Psychiatry 18:4-6
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22411228?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3526684/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22411228
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3526684 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">18.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kim JY, Liu CY, Zhang F, Duan X, Wen Z, Song J, Feighery E, Lu B, Rujescu D, St Clair D, Christian K, Callicott JH, Weinberger DR, Song H, Ming GL (2012) Interplay between DISC1 and GABA signaling regulates neurogenesis in mice and risk for schizophrenia. Cell 148:1051-64
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22385968?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3294278/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22385968
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3294278 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">19.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kopalt BE, Mirra KM, Egan MF, Weinberger DR, Goldberg TE (2012) Magnitude of impact of executive functioning and IQ on episodic memory in schizophrenia. Biol Psychiatry 71:545-551
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">20.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kunii Y, Hyde TM, Ye T, Li C, Kolachana B, Dickinson D, Weinberger DR, Kleinman JE, Lipska BK (2013) Revisiting DARPP-32 in postmortem human brain: changes in schizophrenia and bipolar disorder and genetic associations with t-DARPP-32 expression. Mol Psychiatry, in press (e-pub ahead of print)
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">21.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Magalona SC, Rasetti R, chen J, Chen Q, Gold I, Decot H, Callicott JH, Berman KF, Apud JA, Weinberger DR, Mattay VS (2013)  Effect of tolcapone on brain activity during a variable attentional control task: a double blind, placebo-controlled, counter-balanced trial in healthy volunteers. CNS Drugs 27(8):663-673
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">22.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Marenco S, Stein JL, Savostyanova AA, Sambataro F, Tan HY, Goldman AL, Verchinski BA, Barnett AS, Dickinson D, Apud JA, Callicott JH, Meyer-Lindenberg A, Weinberger DR (2012) Investigation of anatomical thalamo-cortical connectivity and FMRI activation in schizophrenia. Neuropsychopharmacology 37:499-507
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/21956440?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3242311/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 21956440
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3242311 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">23.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Marenco sm (2013) Effect of schizophrenia risk associated alleles in SREB2 (GPR85) on functional MRI phenotypes in healthy volunteers. Neuropsychopharmacology 38(2):341-349
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">24.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Masdeu JC, González-Pinto A, Matute C, Ruiz De Azúa S, Palomino A, De Leon J, Berman KF, Dalmau J (2012). Serum IgG antibodies against the NR1 subunit of the NMDA receptor not detected in schizophrenia. Am J Psychiatry  169, 1120-1.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23032395?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4112408/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23032395
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4112408 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">25.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Nicodemus KK, Elvevåg B, Foltz PW, Rosenstein M, Diaz-Asper C, Weinberger DR (2014). Category fluency, latent semantic analysis and schizophrenia: a candidate gene approach. Cortex  55, 182-91.   https://doi.org/10.1016/j.cortex.2013.12.004
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24447899?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4039573/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24447899
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4039573 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">26.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Papaleo F, Erickson L, Liu G, Chen JC, Weinberger DR (2012) Effects of sex and COMT genotype on environmentally modulated cognitive control in mice. PNAS 109:20160-20165
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">27.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Radulescu E, Sambataro F, Mattay VS, Callicott JH, Straub R, Matsumoto M, Weinberger DR, Marenco sm (2012) Effect of schizophrenia risk associated alleles in SREB2 (GPR85) on functional MRI phenotypes in healthy volunteers. Neuropsychopharmacology 38:341-349
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">28.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Robinson SE, Mandell AJ, Coppola R (2012) Spatiotemporal imaging of complexity. Front Comput Neurosci 6:101
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23355820?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3553423/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23355820
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3553423 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">29.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Rutter L, Nadar SR, Holroyd T, Carver FW, Apud J, Weinberger DR, Coppola R (2013) Graph theoretical analysis of resting magnetoencephalographic functional connectivity networks. Front Comput Neurosci 7:93
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23874288?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3709101/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23874288
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3709101 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">30.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Sambataro F, Mattay VS, Thurin K, Safrin M, Rasetti R, Blasi G, Callicott JHC, Weinberger DR (2013) Altered cerebral response during cognitive control: A potential indicator of genetic liability for schizophrenia. Neuropsychopharmacology 38(5):846-853
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">31.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Schaefer J, Giangrande E, Weinberger DR, Dickinson D (2013) The global cognitive impairment in schizophrenia: Consistent over decades and around the world. Schizophr Res, in press (e-pub ahead of print)
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">32.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Scheggia D, Bebensee A, Weinberger DR, Papaleo F (2013) The ultimate intrs-extra-dimensional attentional set-shifting task for mice. Biol Psychiatry, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">33.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Shriki O, Alstott J, Carver F, Holroyd T, Henson RN, Smith ML, Coppola R, Bullmore E, Plenz D (2013) Neuronal Avalanches in the Resting MEG of the Human Brain. J Neurosci 33:7079-7090.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23595765?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3665287/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23595765
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3665287 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">34.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Tan HY, Chen AG, Kolachana BK, Apud JA, Mattay VS, Callicott JH, Chen Q, Weinberger DR (2012) Effective connectivity of AKT1-mediated dopaminergic working memory networks and pharmacogenetics of anti-dopaminergic treatment. brain 135:1436-1445.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">35.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Tao R, Newburn EN, Ye T, Lipska BK, Herman MM, Weinberger DR, Kleinman J, Hyde T (2012) Transcript-specific associations of SLC12A5 (KCC2) in human prefrontal cortex with development, schizophrenia, and affective disorders. J Neuroscience 32:5216-5222
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">36.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Thurin K, Rasetti R, Sambataro F, Safrin M, Chen Q, Callicott JH, Mattay VS, Weinberger DR (2013) Effects of ZNF804A on neurophysiologic measures of cognitive control. Mol Psychiatry 18:852-4
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23032874?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3962234/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23032874
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3962234 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">37.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Thurin K, Rasetti R, Sambataro F, Safrin M, Chen Q, Callicott JHC, Mattay VS, Weinberger DR (2012) Effects of ZNF804A on neurophysiologic measures of cognitive control. Mol Psychiatry, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">38.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Tost H, Alam T, Geramita M, Rebsch C, Kolachana B, Dickinson D, Verchinski BA, Lemaitre H, Barnett AS, Trampush JW, Weinberger DR, Marenco S (2013) Effects of the BDNF valmet polymorphism on white matter microstructure in healthy adults. Neuropsychopharmacology 38:525-32
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23132269?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3547204/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23132269
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3547204 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">39.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Wallwork RS, Fortgang R, Hashimoto R, Weinberger DR, Dickinson D (2012) Searching for a consensus five-factor model of the Positive and Negative Syndrome Scale for schizophrenia. Schizophr Res 137:246-50
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22356801?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3351536/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22356801
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3351536 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">40.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Wei SM, Eisenberg DP, Kohn PD, Kippenhan JS, Kolachana BS, Weinberger DR, Berman KF (2012) Brain-Derived Neurotrophic Factor Val66Met Polymorphism Affects Resting Regional Cerebral Blood Flow and Functional Connectivity Differentially in Women Versus Men. J Neurosci 32:7074-81.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22593075?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3362630/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22593075
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3362630 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

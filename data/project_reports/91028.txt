@@ -1,0 +1,620 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002032</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002032-39</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neural Coding Of Visual Stimuli
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Barry J Richmond; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/barry-richmond" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neural Coding and Computation, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neural Coding and Computation</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 13 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Saakshi  Bhayana<br />
+
+
+
+
+Samarth  Chandra<br />
+
+
+
+
+Mark Alexander Grainger Eldridge<br />
+
+
+
+
+Judith Haeri Han<br />
+
+
+
+
+Sonia  Jindal<br />
+
+
+
+
+Walter  Lerchner; PhD<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=91028&onameset=Section on Neural Coding and Computation&isajaxlink=Y&_UserReference=EB0ADFDC3D87A0D15B38D045','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 13</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Lance Michael Optican; PhD (NEI) <br />
+
+
+
+John H Wittig; PhD (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+John  Hertz; PhD
+<i>(Nordita, Norse Institute for Theoretical Physics)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Katalin M Gothard; MD, PhD
+<i>(Dept of Physiology, Un of Arizona College of Medicine)</i>
+<br />
+
+
+
+Narihisa  Matsumoto; PhD
+<i>(Neurotechnology Group, AIST)</i>
+<br />
+
+
+
+Takafumi  Minamimoto; PhD
+<i>(Molecular Neuroimaging, Natl Inst Radiological Science)</i>
+<br />
+
+
+
+J-P  Nadal; PhD
+<i>(Laboratory of Statistical Physics, Ecole Normale Superieure)</i>
+<br />
+
+
+
+S  Shinomoto; Ph.D.
+<i>(Physics Dept, Kyoto Univ.)</i>
+<br />
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+DREADDs, category formation, multiple neurons, neural codes, single neurons, cognition, memory, perception
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+One prominent feature of emotional disorders is the failure to interpret sensory stimuli in a consistent and realistic manner, for example, when depressed individuals find normally attractive scenes or items such as a favorite food, pet or family member uninteresting or even irritating. It would be helpful to know how normal perceptions arise to design strategies for ameliorating these negative feelings. To address this class of problems, we are studying how information about visual stimuli is coded and utilized. The fundamental elements for information processing in the brain, the neurons, process and carry information by working with a series of impulses, where different numbers of pulses represent different messages. No one neuron carries very much information so the information represented in the messages of different neurons must be integrated to give rise to mental events such as sensation, memory, and coordinated movements. To understand how these higher functions arise, for example, visual perception, it is important to identify the aspects of neuronal responses that carry information important for stimulus coding, and how that information is used for stimulus identification and recognition in cognitive processes. This requires learning what codes are used by individual neurons, how the information they represent is processed and transformed, and how the information is integrated across populations of connected neurons. Therefore, we combine studies of single neurons, multiple neurons and behavior, to learn how higher functions such as visual perception and memory arise.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Humans and other primates somehow recognize whether objects have been seen in the recent past or not, that is, whether they are familiar, and the individual knows approximately when the object was last seen. This ability seems effortless. It has been hypothesized that rhinal cortex in the temporal lobe (Rh) and orbitofrontal cortex (OFC), and their interaction, are critical for this ability to classify objects as familiar or not. Anatomically orbitofrontal cortex and rhinal cortex are reciprocally connected within the same half of the brain. To test the hypothesis that they must interact for sensing visual object repetition in time, we produced a functional disconnection between these structures by removing the Rh in one hemisphere, and interfering with OFC function in the other hemisphere. The OFC interventions were of two types. In 3 monkeys the targeted OFC was removed. In two monkeys, neurons were silenced reversibly by using introducing a genetic tool into the tissue. This genetic tool, a DREADD (Designer Receptor Activated by Designer Drug), produces a receptor within the neurons that prevents normal neuronal activity when activated by a chemical, clozapine-N-oxide (CNO) given systemically.<br />Three normal monkeys served as control subjects. Visual stimuli were presented one at a time, with a different stimulus presented in each trial. By the end of the testing session each stimulus would have appeared twice. The monkeys had to indicate whether the stimulus displayed was being presented for the first or second time. The interval between stimulus repetitions within a session varied between 0 to 128 stimuli. A stimulus set consisted of 6000 images. No stimulus was reused within a 30 day period.  The three control monkeys reliably differentiated between the first and second presentations of stimuli. The performance of the monkeys with crossed Rh-OFC lesions was significantly worse than controls at all retention intervals tested. When the DREADD agent, the hM4di gene, was activated by systemic injection of clozapine-N-oxide (CNO) in the two DREADD treated monkeys, performance on the recognition memory task was mildly impaired compared to sessions without CNO administration. These results using the DREADD are equivocal so far. The possible explanations for the results are that  an intact rhinal-orbitofrontal connection may only be necessary during the learning of the serial recognition test used here, and/or the volume of OFC tissue inactivated by the DREADD may have been insufficient to replicate the effect of the permanent removal. Finally the procedure for removing the OFC tissue might have inadvertently damaged fibers from neurons in other areas as they pass the region of the removal, so-called fibers of passage.<br /><br />Visual perceptual generalization is the process through which we assign objects into categories based on some similarity in their appearance. Previously we have demonstrated that rhesus monkeys quickly learn (in less than one testing session) a visual category task with two categories of stimuli, e.g., cats vs dogs. Inferior temporal (IT) cortex is considered a late stage of visual processing in the ventral visual pathway. Monkeys with lesions of IT cortex are impaired in discriminating between pairs of patterns. Single neurons in IT cortex, i.e. area TE, show selectivity for visual stimuli, most notably faces or complex objects. These findings lead to the inference that area TE plays a critical role in generating perceptual categories for faces or other objects. Previously we reported that, despite the importance of TE in visual perception and learning, removal of this cortex caused only a mild disruption in acquisition and retention of perceptual categories. This striking result led us to look elsewhere for candidate areas important for acquisition of perceptual categories, such as the rhinal cortex.  Rhinal cortex (Rh) has extensive input from TE and other visual association areas. It is important for stimulus-stimulus and stimulus-reward associations, and is required for generalization across new views and discrimination between ambiguous stimuli. Under these conditions there was no impairment in categorization tasks. <br />To ensure the groups were not using an A-not-A method to discriminate between pairs of categories (e.g. adopting a cat-versus-not cat strategy to discriminate cats from dogs), we introduced a category task that required discrimination among 6 interleaved categories (dogs, cats, cars, trucks, human faces and monkey faces) taken two at a time. This is now a more challenging categorization task, requiring simultaneous stimulus generalization, that is, recognizing the class the stimulus was in, and distinguishing the arbitrary assignment of stimulus classes with each other, that is, the monkey had to recognize both the generalized class, e.g., dog, but also learn that it belonged to the same category as trucks. The stimuli had seldom or never previously been presented in the past. Three control monkeys, three monkeys with bilateral TE ablations, and three with bilateral Rh ablations were tested. All of the monkeys discriminated easily and accurately among categories within the first testing session in which they were presented; thus neither TE nor rhinal cortex lesions alone produce a deficit in the ability to assign stimuli to one of multiple interleaved categories.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91028&allpubs=Y&isajaxlink=Y&_UserReference=EB0ADFDC3D87A0D15B38D045','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Wittig JH, Richmond BJ (2014) Monkeys rely on recency of stimulus repetition when solving short-term memory tasks. Learn Mem 21:325-33
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25171424?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4024622/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25171424
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4024622 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,598 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002228</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002228-28</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Genetic Neurobiology Of Drosophila
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Benjamin H White; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/benjamin-white" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Molecular Genetics, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Molecular Genetics</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+David John Sandstrom; PhD<br />
+
+
+
+
+Elyssa Danielle Warner<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Jon W. Marsh; PhD  (Laboratory of Cellular and Molecular Regulation)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Yves  Pommier; PhD (NCI) <br />
+
+
+
+Thomas  Talbot; MME (NICHD) <br />
+
+
+
+Victoria M Virador (NCI) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Ravi  Allada; MD
+<i>(Department of Neurobiology and Physiology, Northwestern University)</i>
+<br />
+
+
+
+Helen  Benes; PhD
+<i>(Biochemistry & Molecular Biology, University of Arkansas for Medical Sciences)</i>
+<br />
+
+
+
+Hong-Sheng  Li
+<i>(Department of Neuobiology, U Mass Medical School)</i>
+<br />
+
+
+
+Craig  Montell; PhD
+<i>(Department of Biological Chemistry, Johns Hopkins University)</i>
+<br />
+
+
+
+Subhabrata  Sanyal; PhD
+<i>(Dept of Cell Biology, Emory University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+general anesthesia, non-selective cation channel, arousal, Drosophila melanogaster, calcium release channel, haploinsufficent loci
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+This project is focused on the genetics of the response to general anesthetics. General anesthesia is not only a vital tool for the practice of surgery but also a potentially powerful resource for the exploration of the nervous system. Anesthetized patients are sedated, have depressed motor and autonomic responses to painful stimuli, and do not form memory traces of ongoing events. Nevertheless, a variety of monitoring techniques demonstrate that significant neural activity persists during anesthesia; it is the general level of arousal that is depressed. Thus, genes that influence general anesthesia could help to identify the molecular and cellular substrates that underlie arousal and the loss of consciousness that accompanies its depression. Such genes are likely to be of interest to the field of mental health. Not only has recent work demonstrated the efficacy of the general anesthetic ketamine in the treatment of depression, there is a growing awareness that alteration in the synchrony of brain waves, a hallmark of general anesthesia, is commonly associated with schizophrenia. Thus, identification of genes that influence anesthesia may provide strong candidates for genetic studies of mental illness. <br /><br />To find such genes, we use Drosophila because it has a desirable combination of simple husbandry and a complex nervous system. Our early work established that Drosophila and vertebrates have similar sensitivities to a broad array of volatile anesthetics, suggesting that the molecular targets are conserved. We also showed that at least one neural circuit continued to function even though anesthetics had rendered the fly immobile and unresponsive. Thus, just as in vertebrates, the Drosophila nervous system appears to have elements with differential sensitivity to anesthetics. Further, as in mammals, mutations in candidate anesthetic target genes alter the effects of different volatile anesthetic compounds to varying extents, indicating that each target is preferentially sensitive to a subset of drugs.  Taken together, these facts led us to conclude that the fruit fly was a proper model organism for this study.  We have used a combination of behavioral and cell biological assays to identify genetic loci that are important for anesthesia sensitivity and determine how individual genes influence the anesthetic responsiveness of specific neural pathways and individual neuronal components.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The Section on Molecular Genetics closed this year and the final two members of the Section, Staff Scientist Dr. David Sandstrom and postdoctoral fellow Elyssa Burg, both moved on to new positions after four months. Both of them concluded their respective research projects and brought them to publication prior to leaving. A paper by Dr. Sandstrom and several co-authors describes evidence that the Drosophila ryanodine receptor is a target of volatile anesthetics and was published in the journal Anesthesiology (Gao et al., 2013, Anesthesiology 118: 587-601). A paper by Dr. Burg and several co-authors characterized the molecular and cellular basis of a simple social behavior in Drosophila (i.e. Resource Independent Local Enhancement) and was published in the journal Genes, Brain and Behavior (Burg et al., 2013, Genes, Brain, and Behavior 12: 338-47). These two papers  and the FY2012 Annual Report should be consulted for a summary of the final research conducted by the SOMG.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81177&allpubs=Y&isajaxlink=Y&_UserReference=2E581D37CBD083CA5B38D145','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Burg HN, Taylor SR, Nash HA (2013) Drosophila social clustering is disrupted by anesthetics and in narrow abdomen ion channel mutants. Genes Brain and Behavior 12:338-47
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Gao S, Sandstrom HN, Smith HE, High B, Marsh JW, Nash HA (2013) Drosophila ryanodine receptors mediate general anesthesia by halothane. Anesthesiology 118:587-601
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

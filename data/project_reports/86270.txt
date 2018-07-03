@@ -1,0 +1,403 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002039</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002039-32</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Pharmacology Of Stimulus Memory And Habit Formation
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Mortimer  Mishkin; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/mortimer-mishkin" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Cognitive Neuroscience, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Cognitive Neuroscience</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Janita N Turchi; PhD<br />
+
+
+
+Richard C Saunders; PhD<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Makalele Alegra Gorsich<br />
+
+
+
+
+Sebastian  Guderian<br />
+
+
+
+
+Danielle L Rickrode; BS<br />
+
+
+
+
+Andrew Benjamin Wylie<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+visual recognition, muscarinic receptor, NMDA receptor, cholinergic deafferentation, monkeys, perirhinal cortex, habit formation, catecholamines
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+ The research focuses on the neurobiology of Visual and Auditory Memory in monkeys, as well as in normal and brain-injured children.  Besides employing cross-species comparisons, our work is highly multidisciplinary, as it utilizes behavioral, neuroanatomical, electrophysiological, pharmacological, and metabolic methods, as well as structural and functional neuroimaging techniques. <br />Many of the questions we have been addressing in the area of Visual Memory revolve around the issue of multiple cerebral memory systems or circuits, as illustrated by the following.  (i) Can delayed nonmatching-to-sample and other complex tasks be mastered independently in at least two different ways by different systems, i.e. both as a cognitive principle mediated by the visuo-limbic memory system and as a behavioral rule mediated by the visuo-striatal habit system.  (ii) Do the synaptic changes that occur during learning in these two very different systems depend disproportionately on two different neuromodulators, namely, acetylcholine in the case of the visuo-limbic pathways and dopamine in the visuo-striatal pathways.  (iii) Do the synaptic changes in the two systems have different temporal properties paralleling the differences between memories and habits, memories being formed all at once but readily forgotten, and habits being formed only gradually but hardly ever forgotten.  As memory impairments are a characteristic of many psychiatric neurologic illnesses (e.g. schizophrenia, Alzheimers disease) and aging, understanding the different systems and their pharmacology may lead to new and important treatments.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The memory impairment associated with Alzheimers disease has been associated with a loss in acetylcholine function and pathophysiology of the entorhinal/perirhinal, or rhinal cortex. Infusions of a selective cholinergic immunotoxin, lead to cholinergic deafferentation of the rhinal cortex and yielded recognition deficits of the same magnitude as those produced by excitotoxic lesions of this region. Administration of the non-selective muscarinic antagonist scopolamine into the rhinal cortex results in a severe memory deficit. Scopolamine, however, includes antagonists of both m1 and m2 receptor subtypes. Therefore we compared the effects of selective infusion of the m1-selective antagonist pirenzepine, and the m2-selective antagonist methoctramine directly into the rhinal cortex. Our findings suggest that m1 and m2 receptor subtypes in the perirhinal cortex have functionally dissociable roles, and that visual recognition memory is critically dependent on the m1 receptor subtype.  While the importance of the m1 receptor has been established we know very little about the m1 muscarinic-dependent intracellular signaling profiles underlying critical synaptic changes. Therefore we recently undertook a proteomics approach to uncover the molecular signaling pathways activated during memory formation in a region-specific manner using two techniques: laser capture microdissection and reverse phase protein microarrays (RPPA). Sections of snap frozen perirhinal tissue from Rhesus monkeys were prepared and stained for Nissl substance. Tissue subregions of perirhinal cortex (Layers III and V/VI), as well as hippocampus (cell body layers of CA1, CA3, and dentate gyrus and their corresponding dendritic fields), were isolated using laser capture microdissection. Lysed tissue samples were then printed onto RPPA.  These arrays were probed with antibodies against phosphorylated, as well as total, proteins involved in muscarinic signaling, synaptic transmission, and neuronal activity. We are now in the process of applying this methodology to elucidate which critical proteins have been activated in specific laminae of the perirhinal cortex during visual memory formation.<br />While the cognitive memory system of the medial temporal lobe may rely on the neuromodulator acetylcholine habit formation of the ventral neo-striatum is dependent on the neuromodulator dopamine. We recently trained monkeys on a short-ITI form of concurrent visual discrimination learning, one in which a set of stimulus pairs is repeated not only across daily sessions but also several times within each session. Learning on this faster discrimination task and not the slower learning version of the task ( a habit task) with long-ITI was impaired by systemic injections of scopolamine. The results suggest that learning discriminations with the short ITIs within a session could be driven by both cognitive memory as well habit formation working in concert. <br />It is clear that cholinergic function plays a major role in cortical cognitive function. Groups of large cholinergic and GABAergic neurons in the BF are known to project widely throughout the cerebral cortical mantle. This input is thought to modulate cortical excitability locally, thus influencing brain functions as diverse as stimulus processing, motivation, and learning. We measured changes to spontaneous fMRI fluctuations after reversibly inactivating components of the basal forebrain, including the nucleus basalis of Meynert.  Unilateral inactivation of the basal forebrain had a strong impact on spontaneous activity in the injected hemisphere. In control sessions for which saline was injected, spatial independent component analysis revealed functional networks, which were in all cases bilateral and corresponded well to the known resting state networks in the macaque. However, following inactivation, many networks became independent in the left and right cerebral cortex, indicating a hemispheric uncoupling. Furthermore, a comparison of the fMRI time series correlations across all pairs of voxels within and between hemispheres revealed that the injected hemisphere was significantly weaker in its FC than the uninjected side.  These data demonstrate that resting state functional connectivity is, at least in part, shaped by long-range, common input projections arising from the basal forebrain. In a second series of experiments we examined the nature of spontaneous brain activity at rest using both fMRI and electrophysiology measurements with reversible inactivation. Initially we measured neural activity at several cortical sites while resting monkeys were scanned. The fMRI fluctuations, the neural fluctuations, and their temporal coupling, varied over time and were particularly influenced by the animals apparent state of wakefulness. In a follow-up set of experiments, we unilaterally and reversibly inactivated the Nucleus Basalis of Meynert in the basal forebrain.  Following inactivation, the level of spontaneous fMRI correlation in the injected hemisphere was consistently and significantly lower than in the uninjected hemisphere. Together, the results suggest that, in the resting brain, the shared spontaneous fMRI signals that serve as the basis of functional connectivity, are closely linked in neural fluctuations, are shaped by input from the basal forebrain, and are strongly influenced by spontaneous and induced changes in behavioral arousal.  Our results suggest that in addition to the important role of acytylcholine for recognition memory in the medial temporal lobe it plays a larger role in regulation of cortical activity.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86270&allpubs=Y&isajaxlink=Y&_UserReference=11EDD8F1D907F5625B38D552','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+No publications during this reporting period
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

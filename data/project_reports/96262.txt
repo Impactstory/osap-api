@@ -1,0 +1,760 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002838</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002838-13</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neurophysiology of Visual Perception
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2015 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+David A Leopold; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/david-leopold" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Cognitive Neurophysiology and Imaging, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Cognitive Neurophysiology and Imaging</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Kathryn A Smith<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Adebambo Adekanmi Adedire<br />
+
+
+
+
+Rebecca Ann Berman; PhD<br />
+
+
+
+
+Chunshan  Deng<br />
+
+
+
+
+Aidan Peter Murphy<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Mortimer  Mishkin; PhD  (Section on Cognitive Neuroscience)<br />
+
+
+
+Kadharbatcha Syed Saleem  (Laboratory of Neuropsychology)<br />
+
+
+
+Richard C Saunders; PhD  (Section on Cognitive Neuroscience)<br />
+
+
+
+Janita N Turchi; PhD  (Section on Cognitive Neuroscience)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Jozef H Duyn; PhD (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 7 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+James  Bourne
+<i>(Monash University)</i>
+<br />
+
+
+
+Ole  Jensen
+<i>(Donders Institute)</i>
+<br />
+
+
+
+Sang-Hun  Lee
+<i>(Seoul National University)</i>
+<br />
+
+
+
+Alexander  Maier
+<i>(Vanderbilt University)</i>
+<br />
+
+
+
+Pieter  Roelfsema; PhD
+<i>(Netherlands Institute for Neuroscience)</i>
+<br />
+
+
+
+Peter Ulrich Tse; PhD
+<i>(Psychological and Brain Sciences, Dartmouth College)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=96262&isajaxlink=Y&_UserReference=8C20EC80381D23405B38D1E1','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 7</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+visual perception, neurophysiology, fMRI, visual psychophysics, blindsight, multistable perception
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The mystery of human visual perception has captured the imagination of scientists, artists and philosophers for centuries.  From electrophysiological studies, and more recently neuroimaging, the primate visual system approaches this task by combining a high-resolution foveal specialization of the retina with a brain specialized to interpret complex visual patterns and to determine where the fovea should next be pointed.  Work in nonhuman primates has successfully proven to be an excellent model for understanding mechanisms in the human brain.  In our perception, the interpretation of visual patterns ranges from simple (e.g., the perception of light and dark) to geometric (e.g., what is in front and what is behind) to semantic (e.g., is this person trustworthy). Behind these interpretations is a hierarchy of cortical areas whose functioning has been the object of study for several decades. One pillar of our research program is the study of integration of visual features and the perceptual ambiguity that can result under conditions in which this integration is underdetermined. When stimuli are truly ambiguous in their structure, the brain lapses into an unstable perceptual state, and solves the dilemma by periodically alternating between viable subjective interpretations. Such ambiguity can be captured in virtually all aspects of vision, ranging from color to shape, depth, movement, and even semantic features such as facial expression. The abundance of perceptual ambiguity draws attention to the fact that, at some level of description, the brain actively constructs all information about the external world. Gaining a deeper understanding of inferential visual processes is important for understanding key aspects of human behavior, for at least two reasons. First, the faculty of vision is the key model of human sensation in general, since vision is the primary sense that humans use to interact with their environment, particularly from a distance. Second, these interpretive elements of the senses can go awry in psychiatric and neurological disorders.  Another main focus of our research is studying the interaction between the visual cortex and the visual thalamus.  For this we have been actively mapping activity in the pulvinar nucleus, the largest thalamic nucleus in both human and nonhuman primates. We are committed to studying mechanisms underlying visual perception, as this is of great value for furthering our fundamental understanding of the brain.<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Human vision takes center stage in our complex cognitive interaction with the world. It may be seen as an accident of nature, and atypical among mammals, that human vision is so advanced. As large-brained, large-eyed primates, humans have come to rely strongly upon vision, as it carries with it many advantages, such as perceiving individuals and events from a distance. Primates in general have visual capacities that are advanced compared to other mammals: more than most, they use vision to observe others, evaluate social relationships and situations, select mates, and predict behavior. In humans, our visual capacities are complemented by language, which together serve as the basis for the multiple levels of human interaction.<br /><br />Visual perception is the central theme of our research program. Perception is shaped from the moment light enters the eyes, and the neuroscience of vision needs to consider all levels of activity, from the barest raw signals coming out of the retina to its most complex interpretations in the prefrontal cortex. In our laboratory, we employ a range of experimental research tools to ask questions such as, how can the brain impose three-dimensional structure on its internal representation of the world, if its retinal images are inherently two-dimensional? This question, familiar to vision scientists, may seem nonsensical to those who have not yet pondered the fact that there is a problem there. When one looks at the 3-D world, or a 2-D photograph for that matter, the brain takes patterns of light and dark, color and texture, and composes the impression of three-dimensional space. These mechanisms are so hard wired that it is impossible to avoid seeing three-dimensional structure if the appropriate cues are there. There are countless such cues, but to name a few, consider the tricks an artist uses to capture depth: perspective, shadows, texture gradients, foreshortening, and occlusion. These and many others are automatically absorbed and unconsciously interpreted be the depth, avoiding any moment in which the world might appear as it is on the retina: flat. We exploit particular cues for studying depth by stripping stimuli down to their bare minimum and leaving one cue, say 2-D shape, to define the three-dimensional structure. Within a range of parameters, virtually every such cue lends itself to perceptual ambiguity, where different people might see the same 2-D structure adopting different 3-D configurations. In the right regime, the number of potential interpretations becomes exactly two. And faced with this situation, the brain does something rather unexpected; it continually changes its mind, alternating subjectively between the two possible interpretations every few seconds. Such stimuli, generally termed bistable, are useful tools for neuroscientists trying to understand the principles of visual perception. For example, one is able to ask questions such as, if the stimulus on the retina is constant, but the perceptual interpretation spontaneously changes, where in the brain do neural responses reflect the unchanging stimulus and where to they instead reflect the changing percept? This question is at the heart of much of our research.<br /><br />This year, we have completed five studies related to the neurophysiology of visual perception, and have made significant progress in two others.  One project, which is currently under consideration for publication (Cox et al (2016) under review), asks the question how visual processing in the primary visual cortex is affected by an attentional shift. While multiple previous studies have demonstrated that there is an enhancement once attention is directed to a particular location, this study makes a rather different point  that during the redirection of attention, there is a major dip in visual processing.  As such, this phenomenon resembles saccadic suppression, where perceptual and neural sensitivity is similarly diminished, but in that case during an eye movement.   The second project (Shapcott et al (2016), under revision) asks what happens to correlated activity in higher-order visual cortex when primary visual cortex (area V1) is ablated. It finds that, quite surprisingly, correlated variability in cortical area V4 increases under these conditions, thus indicating that its variability emerges from elsewhere and is normally held in check by V1 signals. The third project, (Dougherty K et al (2015), Cerebral Cortex) demonstrates that the responses in V1 elicited by a visual stimulus obey an internal clock related to the well-known alpha-rhythm.  This study used translaminar recordings to establish the patterns of current sources and sinks associated with this synchronization.  The fourth project is an fMRI study (Russ BE et al, J Neurosci, in press), where we demonstrated that, under natural viewing conditions, the responses in V1 differ fundamentally from those in other cortical areas in how they respond to motion:  In area V1, it is the motion caused by moving one's eyes that principally drives fMRI responses, whereas in higher order visual centers, this eye-movement input plays little role compared to the movement inherent in external stimuli.  Finally, in the fifth study (Murphy et al (2016) Phil Trans Royal Soc B), which was a collaboration with Andrew Welchman and the late Glyn Humphries, we examined the perception of motion and visual depth in human patients with damage to their right posterior parietal cortex, finding that they were selectively affected in the perception of stimuli involving binocular disparity. <br /><br />In addition, we have been working on two manuscripts that involve mapping activity throughout the pulvinar nucleus (Murphy et al, and Deng et al, both in preparation).  These projects capitalize on a novel method using simultaneous presentation of spaced multicontact arrays to map single-unit activity throughout a volume of tissue.  Of particular note, we discovered a hitherto unspecified face patch within the posterior pulvinar, where a high fraction of neurons respond selectively to faces compared to other biological and nonbiological objects.   These results were recently reported at the Gordon Research Conference on the Neurobiology of Cognition. <br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2016 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=96262&allpubs=Y&isajaxlink=Y&_UserReference=8C20EC80381D23405B38D1E1','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Liu X, Yanagawa T, Leopold DA, Chang C, Ishida H, Fujii N, Duyn JH (2015) Arousal transitions in sleep, wakefulness, and anesthesia are characterized by an orderly sequence of cortical events. Neuroimage 116:222-31
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25865143?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4468021/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25865143
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4468021 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Mitchell JF, Leopold DA (2015) The marmoset monkey as a model for visual neuroscience. Neurosci Res 93:20-46
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25683292?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4408257/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25683292
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4408257 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Monosov IE, Leopold DA, Hikosaka O (2015) Neurons in the Primate Medial Basal Forebrain Signal Combined Information about Reward Uncertainty, Value, and Punishment Anticipation. J Neurosci 35:7443-59
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25972172?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4429151/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25972172
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4429151 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

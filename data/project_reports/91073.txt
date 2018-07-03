@@ -1,0 +1,595 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002881</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002881-09</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Molecular Mechanisms of Synapse Development and Plasticity
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Zheng  Li; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/zheng-li" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Synapse Development and Plasticity, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Synapse Development and Plasticity</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Kaizheng  Duan<br />
+
+
+
+
+Hongmei  Shen<br />
+
+
+
+
+Jun  Zhao<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Lee E Eiden; PhD  (Section on Molecular Neuroscience)<br />
+
+
+
+Sanford P. Markey; PhD  (Section on Analytical Biochemistry)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Huaibin  Cai; PhD (NIA) <br />
+
+
+
+David Michael Lovinger; PhD (NIAAA) <br />
+
+
+
+Jun  Zhu; PhD (NHLBI) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+M  Braga; PhD
+<i>(Psychiatry,  Uniformed Services University of the Health Sciences)</i>
+<br />
+
+
+
+Keshen  Li; PhD
+<i>(Department of Neurology, Guangdong Medical College)</i>
+<br />
+
+
+
+Ann M. Marini; PhD, MD
+<i>(Neurology, Uniformed Services University of the Health Sciences)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+synapse, AMPA receptor, NMDA receptor, autophagy, synaptic vesicle, long-term synaptic depression, synaptic plasticity
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Synapses are specialized contact sites between neurons where information is transmitted. Synapses are assembled between presynaptic and postsynaptic neurons during early brain development. They are rearranged to optimize the connectivity of neural circuits during brain maturation, and are modulated in strength, size and number by experience during cognitive, emotional and behavioral processes. The ability of a synapse to change its structure and function is called synaptic plasticity, which is critical for proper brain development and function. Many mental disorders, including schizophrenia, autism, depression, and anxiety disorders are believed to stem from abnormal synaptic function as a consequence of aberrant development and/or adverse experience that has a lasting impact on synapses. The goal of this project is to identify the molecular and cellular mechanisms underlying synaptic plasticity and synapse development, to gain insights into the mechanisms of synaptic pathology associated with mental disorders, and to facilitate the development of new prevention and treatment strategies for mental illness. The objective of this project during the current reporting period is to delineate the mechanisms responsible for the development of synaptic vesicle pools and synaptopathology associated with schizophrenia.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+1. Identification of a new form of autophagy for synaptic vesicles. Synaptic vesicles are small spherical organelles in the presynaptic terminals of neurons. They contain neurotransmitter and release neurotransmitter when the presynaptic membrane is depolarized by action potentials. After exocytosis, vesicles are retrieved by endocytosis and recycled to form new synaptic vesicles. The number of synaptic vesicles at a synapse is an important factor determining synaptic strength, which is dynamically regulated during development and by experience. A stable, yet flexible, pool of synaptic vesicles is therefore critical to ensure the reliability and adaptability of neural circuits. Much has been known about the machinery and regulation of vesicle exocytosis and endocytosis. The route of vesicle trafficking post endocytosis, by contrast, is less clear. Multiple lines of evidence indicate that at least a fraction of endocytic synaptic vesicles go through the endosomal system. The activity of synaptic endosomes is necessary for endocytosis and exocytosis of synaptic vesicles. However, little is known about the role of synaptic endosomes in the synaptic vesicle cycle. Although synaptic vesicles have been intensively studied, how their number is maintained and regulated remains largely unclear. <br /><br />Endosomes can fuse with autophagosomes to form amphisomes. Autophagosomes are doublemembrane structures formed during autophagy, a process by which organelles and aggregated proteins are delivered to lysosomes for degradation. Autophagy serves as a pro-survival mechanism during stress induced by, for instance, starvation or growth factor withdrawal. Various organelles can be cargos of autophagy. Selective autophagy for organelles (such as mitophagy for mitochondria, ribophagy for ribosomes, pexophagy for peroxisomes, and reticulophagy for endoplasmic reticulum) has been uncovered. In neurons, however, the physiological significance of autophagy for synaptic vesicles remains elusive. <br /><br />In this project, we found that the activity of autophagy is essential for the homeostasis and activity-dependent cycling of synaptic vesicles in hippocampal neurons. Synaptic vesicles are recruited to autophagosomes via early and late endosomes, and autophagy of synaptic vesicles is regulated by synaptic excitation. Our study therefore elucidates a new type of autophagy for synaptic vesicles and reveals a new mechanism underlying the cycling of synaptic vesicles. <br /><br />2. The mechanism by which the schizophrenia risk gene dysbindin contributes to synaptopathology in schizophrenia. Dysbindin is a coiled-coil domain containing protein, initially discovered as a dystrophin-binding protein and later found to be one of eight subunits of biogenesis of lysosome-related organelles complex 1 (BLOC-1). Single-nucleotide polymorphisms of the dysbindin gene (Dtnbp1) have been associated with higher risk for schizophrenia, and the postmortem brains of schizophrenia patients consistently exhibit low levels of dysbindin proteins and mRNAs. Our earlier work shows that dysbindin contributes to the establishment of neuronal connectivity by regulating the development of dendritic protrusions, including dendritic spines (tiny dendritic protrusions where excitatory synapses are formed) and filopodia (long, thin protrusions that predominant in young neurons). Dysbindin, therefore, may confer the risk for schizophrenia by regulating the development of dendritic spines. To determine how dysbindins regulates spine development in this reporting period, we investigated the associated proteome of dysbindin in the P2 synaptosome fraction of mouse brain. Our data suggest that dysbindin has three isoforms associating with different complexes in the P2 fraction of mouse brain. To facilitate immunopurification, we generated BAC transgenic mice expressing a tagged dysbindin and using the transgenic mice identified 47 putative dysbindin-associated proteins, including all components of BLOC-1, by mass spectrometry. We confirmed the interaction of dysbindin with several identified proteins, including WDR11, FAM91A1, snapin, muted, pallidin, and two proteasome subunits, PSMD9 and PSMA4 by co-immunoprecipitation. We also found that proteasomal activity is significantly reduced in the P2 fraction from the brains of dysbindin-null mutant (sandy) mice. Our data suggest that dysbindin is functionally interrelated to the ubiquitin-proteasome system and offer a molecular repertoire for future study of dysbindin functional networks in brain.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91073&allpubs=Y&isajaxlink=Y&_UserReference=BD7412E10242594F5B38D36D','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Han M, Hu Z, Chen C, Chen Y, Gucek M, Li Z, Markey SP (2014) Dysbindin-associated proteome in the P2 synaptosome fraction of mouse brain. Journal of Proteome Research 13(11):4567-80
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Sgobio C, Kupferschmidt DA, Cui G, Sun L, Li Z, Cai H, Lovinger DM (2014) Optogenetic measurement of presynaptic calcium transients using conditional genetically encoded calcium indicator expression in dopaminergic neurons. PLoS One 31;9:10
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

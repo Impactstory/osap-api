@@ -1,0 +1,589 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002902</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002902-07</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">NIMH Non-Human Primate Research Core
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Bruno B Averbeck
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/bruno-averbeck" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Laboratory of Neuropsychology, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Laboratory of Neuropsychology</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Alexander Clarence Cummins<br />
+
+
+
+
+James M Fellows<br />
+
+
+
+
+Sheila  Sterk<br />
+
+
+
+
+Carlos A Waters<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Masahiro  Fujita  (Section on PET Neuroimaging Sciences)<br />
+
+
+
+Robert  Innis; MD  (Laboratory of Molecular Pathophysiology and Experimental Therapeutics)<br />
+
+
+
+Husseini K Manji; MD  (Laboratory of Molecular Pathophysiology and Experimental Therapeutics)<br />
+
+
+
+Elisabeth Adams Murray; PhD  (Section on Neurobiology of Learning and Memory)<br />
+
+
+
+Eric E Nelson; BA, PhD  (Section on Development and Affective Neuroscience)<br />
+
+
+
+Daniel  Pine; MD  (Emotion and Development Branch)<br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+John D. Newman; PhD (NICHD) <br />
+
+
+
+Stephen John Suomi; PhD (NICHD) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 9 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+David  Amaral; PhD
+<i>(MIND Institute, UC Davis)</i>
+<br />
+
+
+
+George  Anderson; PhD
+<i>(Child Study Center and Laboratory Medicine, Yale University)</i>
+<br />
+
+
+
+Michael  Davis; PhD
+<i>(Psychiatry, Emory University)</i>
+<br />
+
+
+
+Nathan  Fox; PhD
+<i>(University of Maryland)</i>
+<br />
+
+
+
+Paul  Greengard; PhD
+<i>(Rockfeller University)</i>
+<br />
+
+
+
+Michael G Kaplitt; MD, PhD
+<i>(Dept. of Neurological Surgery, Cornell University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=81246&isajaxlink=Y&_UserReference=9FA4117D77B8FB115B38CFF2','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 9</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Anxiety, Dominance hierarchy, Fear, Marmoset, Mood, Primate, Rhesus macaque, Social cognition
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The mission of the NIMH Non-Human Primate Core is to develop and provide support for non-human primate research projects associated with NIMH IRP research objectives related to the causes and treatment of psychiatric disorders. Functions include: <br /><br />-Breed, rear or purchase monkeys with varying early-life experiences purported to influence the emergence of psychiatric disorders. The staff of the Core is trained and experienced in many aspects of non-human primate husbandry, breeding and rearing strategies and handling methods. <br /><br />-Develop, implement and support detailed cognitive, behavioral, physiological and endocrine profiles of Core monkeys.  Core staff are trained and experienced in various aspects of non-human primate behavioral analysis, particularly those related to social development, social dominance and emotional behavior. Core staff is also skilled in the rapid collection of blood and CSF samples, sterile surgical technique, and stereotaxic placement of intracranial cannula.<br /><br />-Provide a team of skilled technicians to assist ongoing research projects. These technicians work closely with the research subjects and can provide valuable insights related to individual temperament, handling and daily variation in environment.<br /><br />-Provide training and reliability testing for investigators and their staff in non-human primate ethogram development, behavioral observation techniques, and other testing techniques.<br /><br />-Provide database management of complex behavioral, endocrine and genetic profiles related to pedigree, rearing experience, social competence and emotionality.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+-Assessment of neural and behavioral alterations associated with chronic fluoxetine administration in adolescence. <br /><br />Summary: A primate differential rearing model is used to assess the effects of chronic fluoxetine treatment of juvenile monkeys. Treatment and rearing history are hypothesized to interact in shaping developmental trajectories. The overall hypothesis for the study is that emotional behavior and neurobiology in adulthood are influenced both by exposure in childhood to differential rearing history and to psychotropic medications. <br /><br />Core Resources: Core staff was responsible for preparation of an Animal Studies Protocol for ACUC review. Core staff are(1)responsible for daily scheduling, transport and testing of research subjects in a behavioral battery(2)responsible for collection of biological fluids including blood and CSF as needed for drug level determinations and endocrine markers(3)responsible for temporary housing, anesthesia and life signs monitoring of research subjects during in vivo imaging sessions(4)responsible for support of procedures associated with tissue harvest for post-mortem studies. <br /><br />- Role of gonadal steroids at puberty in the development of orbital and medial prefrontal cortex of male rhesus macaques. <br /><br />Summary: This study sought to characterize primate brain development during puberty as a potential risk factor for pathophysiology associated with schizophrenia. This collaborative project between 1 intramural and 1 extramural laboratory examined the role of gonadal steroids at puberty in the normal development of gene expression patterns in the primate prefrontal cortex. Behavioral and endocrine markers and MRI scans were examined before and for up to 2 years after gonadectomy or sham operations. Post puberty animals have been euthanized and brains harvested for post-mortem studies which are still being processed.<br /><br />Core Resources: Core staff was responsible for preparation of an Animal Studies Protocol for ACUC review. Core staff are (1)responsible for training and assisting project staff in daily scheduling, transport and testing of research subjects in a comprehensive behavioral battery(2)responsible for training and assisting project staff with periodic collection of biological fluids including blood and CSF as needed for endocrine markers(3)responsible for training and assisting project staff with transport, temporary housing, anesthesia and life signs monitoring of research subjects during in vivo imaging sessions(4)responsible for training and assisting project staff with support of necropsy procedures associated with tissue harvest for post-mortem studies. <br /><br />-Depressogenic Effects of IFN-alpha, a cytokine cancer treatment agent.<br /><br />Summary: Recent evidence suggests IFN-alpha may induce symptoms of depression in humans and animal models. We collaborated with intramural and extramural scientists to examine the emergence of these symptoms in monkeys and to further characterize the neural processes associated using in vivo PET and MRI imaging technologies. This study has been completed.<br /><br />Core Resources:Core staff was responsible for preparation of an Animal Studies Protocol for ACUC review. Core staff are (1)transport and testing of research subjects in a comprehensive behavioral battery; (2)responsible for training and assisting In Vivo Imaging project staff with preparation of subjects for imaging as well as(3)collection of biological fluids including blood and CSF as needed for endocrine markers(4)responsible for training and assisting project staff with transport, temporary housing, anesthesia and life signs monitoring of research subjects during in vivo imaging sessions. <br /><br />-Role of the intracellular protein p11 in the emergence of mood disorders. <br /><br />Summary: Recent evidence suggests levels of the intracellular protein p11 may be related to the emergence of depression in humans and animal models. In the current studies we are collaborating with intramural and extramural scientists to examine the emergence of these symptoms in monkeys and to further characterize the neural processes associated using viral vector, in vivo PET and MRI imaging technologies. The pilot study has been completed, post-mortem analysis is ongoing.<br /><br />Core Resources: Core staff was responsible for preparation of an Animal Studies Protocol for ACUC review. Core staff are(1)responsible for testing of research subjects in a behavioral battery and (2)responsible for transport, temporary housing, behavioral and endocrine monitoring, anesthesia and life signs monitoring of research subjects during in vivo imaging sessions and (3)assisting in the surgical preparation of subjects for central delivery of a AAV-p11 viral vector system for over production or inhibition of p11 in selected neural structures. <br /><br />-Behavioral phenotyping in marmoset monkeys. <br /><br />Summary: To support transgenic projects in marmosets currently being developed in the IRP Transgenic Core. Core staff will work with internal collaborators to develop a battery of behavioral, endocrine and cognitive tests for assessing differences between normal and transgenic animals. This project is ongoing. <br /><br />Core Resources: Core staff is responsible for building or obtaining testing apparatus, and training and testing animals. In addition, the Core seeks to develop ELISA based endocrine assay techniques for rapid determination of the reproductive phase of marmoset monkeys to support super-ovulation and transfection techniques developed in the transgenic core. In later phases of development Core Staff will develop assessment paradigms for phenotype characterization. <br /><br />-Social cognition in differentially reared monkeys using eye-tracking. <br /><br />Summary: This pilot project seeks to use non-invasive eye-tracking technology to examine alterations in face and object information processing associated with differential rearing experience or pharmacological treatment. This technology would potentially be incorporated into analyses designed to examine social and emotional deficits and treatment effects on existing primate models of psychopathology. This project is ongoing.<br /><br />Core Resources: Core staff was responsible for preparation of an Animal Studies Protocol for ACUC review. Core staff is responsible for training and assisting project staff in daily scheduling, transport and testing of research subjects.<br /><br />-Effects of nasally administered oxytocin on FPS and visual social processing in differentially reared rhesus.<br /><br />summary: this project is evaluating dose responses and effects on fear-potentiated startle and social processing and memory using an eye tracking apparatus. <br /><br />Core Resources: core staff are responsible for all aspects of this study.<br /><br />-Development of double-perfusion brain harvesting technique.<br /><br />Summary: in collaboration with internal and external investigators, core staff has developed a method of harvesting brain that yields both fixed and fresh tissue. The procedure has been developed, and post-mortem validation is ongoing.<br /><br />Core Resources: core staff developed the procedure in-house, consulting with internal and external investigators when necessary. Four core animals were used while developing this process. Core staff handled all tissue processing and cutting before sending it for post-mortem analysis.<br /><br />-Hormone Assay services<br /><br />Summary: The NHP Core has developed and validated ELISA based endocrine assay techniques for rapid determination of gonadal and HPA endocrine status for monkeys subjects in multiple projects. <br /><br />Core Resources: The Core has leased an ELIZA plate reader and has completed efforts to validate several hormone assay kits for non-human primates
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81246&allpubs=Y&isajaxlink=Y&_UserReference=9FA4117D77B8FB115B38CFF2','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+No publications during this reporting period
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

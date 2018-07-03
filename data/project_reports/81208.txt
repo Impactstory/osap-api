@@ -1,0 +1,629 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002797</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002797-12</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neuronal avalanches in the neocortex
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Dietmar  Plenz; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/dietmar-plenz" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Critical Brain Dynamics, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Critical Brain Dynamics</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 8 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Craig V Stewart; BS<br />
+
+
+
+Woodrow L Shew<br />
+
+
+
+Shan  Yu<br />
+
+
+
+Timothy  Bellay<br />
+
+
+
+Hongdian  Yang<br />
+
+
+
+Andreas Martin Klaus<br />
+
+
+
+ <!-- step through any ordered staff -->
+
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=81208&onameset=Section on Critical Brain Dynamics&isajaxlink=Y&_UserReference=34F94D9CE632FF5D5B38D6E7','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 8</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Richard  Coppola; SB, DSc  (Magnetoencephalography Core)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Sinisa  Pajevic; PhD (CIT) <br />
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Jeanette  Hellgren; PhD
+
+<i>(Karolinska Institute)</i>
+<br />
+
+
+
+
+Giulio  Tononi; PhD
+
+<i>(University of Wisconsin)</i>
+<br />
+
+
+
+
+Rajarshi  Roy; PhD
+<i>(Department of Physics, University of Maryland)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Lucilla  De Arcangelis; PhD
+<i>(Dept Industrial and Information Engineering/CNISM, Second University of Naples)</i>
+<br />
+
+
+
+Hans Juergen Herrmann; PhD
+<i>(Institute fuer Baustoffe (IfB), ETH Zuerich)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+neuronal avalanches, criticality, cortex
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Neuronal synchronization is one of the core principles that underlies higher cortical function.  It is central to the concept of fast and selective grouping of neurons into cell assemblies, the basis of learning and memory. It is well established that specific types of neuronal synchronizations, such as &amp;#947;-oscillations, correlate with sensations and actions.  Importantly, anomalous synchronization has been reported in disease states such as schizophrenia and epilepsy.  It is, however, entirely unclear whether or not the cortex exists in a state of synchronization that is universally maintained during development and across species and which optimizes cell assembly formation.  Identifying such a state and understanding its regulation would be highly beneficial as it would allow classifying 'normal' and 'abnormal' cortical function in absolute, precisely quantifiable entities. <br /> <br />Based on work in my Section over the last 10 years, we have discovered such a cortical state and have provided solid experimental evidence of its existence and robust regulation in cortex cultures, rodents and monkeys and across different developmental states and experimental conditions.  We created the term “neuronal avalanches” to define this fundamental state of cortical synchronization that is characterized by a scale-invariant organization in neuronal group formation in time, space, and group size. Our long-term goal is to understand how the cortex maintains and regulates neuronal avalanches.  Our long-term objectives are to understand the mechanisms of avalanche generation and the function of avalanches during behavior and cognition.  <br /><br />The central hypothesis that guides our work is that neuronal avalanches indicate a critical state of cortical activity. A critical state exists at the balance of order and disorder and is governed by universal rules.  In the cortex, these rules apply to the synchronized activity of neurons in cell assemblies. Our hypothesis has been formulated on strong experimental and clinical evidence produced in my Section integrated with cross-disciplinary theory from physics, and utilizing the unique infrastructure of the Intramural Research Program.  The rationale for our research is that the precise scale-invariant organization found for systems in a critical state applies to cortical function and allows for unprecedented precision in diagnosis and therapy of disease states. Our breakthrough findings have laid the groundwork on criticality in the brain, and have been replicated and extended by several national and international groups, thereby establishing our leading role in the field.  As evident in our publications, our research provides solutions for a wide variety of fundamental problems in the neurosciences.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+1.	We identified for the first time that neuronal avalanches form the organization of the normal human brain at rest.  This study involved magentoencephalography recordings from more than 100 normal human subjects collected at 2 different MEG centers (NIH and Cambridge, UK) using two different MEG systems.  This comparative study establishes the platform to link deviations from neuronal avalanches to brain dysfunction as found in e.g. in patients suffering from schizophrenia or Alzheimers disease (Shriki et al., 2013). <br /><br />Abstract: <br />Neuronal Avalanches in the Resting MEG of the Human Brain<br />What constitutes normal cortical dynamics in healthy human subjects is a major question in systems neuroscience. Numerous in vitro and in vivo animal studies have shown that ongoing or resting cortical dynamics are characterized by cascades of activity across many spatial scales, termed neuronal avalanches.  In experiment and theory, avalanche dynamics are identified by two measures (1) a power law in the size distribution of activity cascades, with an exponent of 3/2 and (2) a branching parameter of the critical value of 1, reflecting balanced propagation of activity at the border of premature termination and potential blow up.  Here we analyzed resting-state brain activity recorded using non-invasive magnetoencephalography (MEG) from 124 healthy human subjects and two different MEG facilities using different sensor technologies.  We identified large deflections at single MEG sensors and combined them into spatiotemporal cascades on the sensor array, using multiple timescales.  Cascade-size distributions obeyed power laws.  For the timescale at which the branching parameter was close to 1, the power law exponent was 3/2.  This relationship was robust to scaling and coarse-graining of the sensor array. It was absent in phase-shuffled controls with the same power spectrum or empty-scanner data.  Our results demonstrate that normal cortical activity in healthy human subjects at rest organizes as neuronal avalanches and is well described by a critical branching process.  Theory and experiment have shown that such critical, scale-free dynamics optimize information processing.  Thus, our findings imply that the human brain attains an optimal dynamical regime for information processing.  <br /><br />2.	Neuronal avalanches identify critical brain dynamics at which several aspects of information processing are optimized as demonstrated in our previous work.  Several classes of critical systems have been identified based on the precise critical exponents that control a systems performance at criticality.  We identified the critical exponents for the mammalian brain for the first time and suggest that the brain resides in its own universality class.  This comparative study was performed on resting activity in the awake macaque monkey using local field potentials and resting activity in normal human subjects using magnetoencephalography (Yu et al., 2013). <br /><br />Abstract:<br />Universal Organization of Resting Brain Activity at the Thermodynamic Critical Point<br />Thermodynamic criticality describes emergent phenomena in a wide variety of complex systems.  In the mammalian cortex, one type of complex dynamics that spontaneously emerges from neuronal interactions has been characterized as neuronal avalanches. Several aspects of neuronal avalanches such as their size and life time distributions are described by power laws with unique exponents indicative of an underlying critical branching process that governs avalanche formation.  Here, we show that neuronal avalanches also reflect an organization of brain dynamics close to a thermodynamic critical point.  We recorded spontaneous cortical activity in monkeys and humans at rest using high-density intracranial microelectrode arrays and magnetoencephalography, respectively.  By numerically changing a control parameter equivalent to thermodynamic temperature, we observed typical critical behavior in cortical activities near the actual physiological condition, including the phase transition of an order parameter, as well as the divergence of susceptibility and specific heat.  Finite-size scaling of these quantities allowed us to derive robust critical exponents highly consistent across monkey and humans that uncover a distinct, yet universal organization of brain dynamics.  Our results demonstrate that normal brain dynamics at rest resides near or at criticality which maximizes several aspects of information processing such as input sensitivity and dynamic range.<br /><br />3.	Neuronal avalanches are increasingly recognized to be important for cortex function.  My Section took the lead in organizing the first conference on Criticality in Neural Systems in collaboration with Ernst Niebur, Johns Hopkins University.  In April 2012, the 2-day conference took place on the NIH campus in Bethesda at the Natcher Conference center with about 100 attendees and featured 19 international and national speakers and posters.  Since then, a book with about 22 chapters and international authors, most of who presented at the conference, has been assembled and recently sent to the Publisher Wiley-VCH where it will be published in autumn 2013/spring 2014.  The book covers all major aspects of criticality in the brain and is on track to become a standard text book for a rapidly increasing field of critical phenomena in the brain.  Besides being the main editor, my Section has contributed 4 chapters covering our major accomplishments demonstrating criticality in the brain from in vitro preparations to the awake animals and normal human subjects.<br /><br />4.	Our work on criticality in the brain is increasingly recognized and results in numerous invited comments on other groups working on criticality in the brain. This is demonstrated by a recent invited Commentary in Physics Highlights, the highest commentary level of the American Physics Society, on critical phenomenal demonstrated in the human brain using fMRI (Plenz 2013). <br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81208&allpubs=Y&isajaxlink=Y&_UserReference=34F94D9CE632FF5D5B38D6E7','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Plenz D (2013) The critical brain. Physics 3
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Yu S, Yang H, Shriki O, Plenz D (2013) Universal organization of resting brain activity at the thermodynamic critical point. Frontiers in Systems Neuroscience doi: 10.3389/fnsys.2013.00042
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

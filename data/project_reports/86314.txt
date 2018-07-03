@@ -1,0 +1,947 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002868</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002868-09</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Clinical and Behavioral Phenotyping of Autism and Related Disorders
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Susan Elizabeth Swedo; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/susan-swedo" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Behavioral Pediatrics, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Behavioral Pediatrics</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 19 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Audrey E Thurm; PhD<br />
+
+
+
+Cristan Ann Farmer; PhD<br />
+
+
+
+Lauren Beth Swineford; PhD<br />
+
+
+
+David O Black<br />
+
+
+
+Margaret J Pekar<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Erin Marie Adamitis<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=86314&onameset=Section on Behavioral Pediatrics&isajaxlink=Y&_UserReference=E3C23289255E780A5B38D106','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 19</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Jay  Giedd; MD  (Child Psychiatry Branch)<br />
+
+
+
+Stephen  Gotts; PhD  (Laboratory of Brain and Cognition)<br />
+
+
+
+Alex  Martin; PhD  (Laboratory of Brain and Cognition)<br />
+
+
+
+Armin  Raznahan  (Child Psychiatry Branch)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+<div id="moresamestaffo">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffou">6 of a total of 9 other NIH members are shown.</div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Amir Hossein Gandjbakhche; PhD (NICHD) <br />
+
+
+
+Sara K Inati; MD (NINDS) <br />
+
+
+
+Forbes D Porter; MD, PhD (NICHD) <br />
+
+
+
+Margarita J Raygada; PhD (NICHD) <br />
+
+
+
+Owen M Rennert; MD (NICHD) <br />
+
+
+
+Joelle  Sarlls; PhD (NINDS) <br />
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaffo','searchview.taf?_function=showmore&ios=O&ipid=86314&isajaxlink=Y&_UserReference=E3C23289255E780A5B38D106','moresamestaffou');  return false;">
+
+
+<span class="morelist">Show all 9</span></a></form></div>
+
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 11 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+David  Amaral; PhD
+<i>(MIND Institute, UC Davis)</i>
+<br />
+
+
+
+Greg  Barnes; MD
+<i>(Vanderbilt University)</i>
+<br />
+
+
+
+Sean  Deoni; PhD
+<i>(Brown University)</i>
+<br />
+
+
+
+Daniel H Geschwind; MD, PhD
+<i>(Neurology, Human Genetics, Psychiatry, UCLA)</i>
+<br />
+
+
+
+Ellen  Grant; MD
+<i>(Massachusetts General Hospital)</i>
+<br />
+
+
+
+Greg  Holmes; MD
+<i>(University of Vermont)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=86314&isajaxlink=Y&_UserReference=E3C23289255E780A5B38D106','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 11</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+autism, autism spectrum disorders, behavioral assessments, developmental delay, phenotyping
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+     The overall goal of the autism research conducted by the Pediatrics &amp; Developmental Neuroscience branch (PDN) is to elucidate the causes of autism and related social and communication disorders, and to develop new treatments.  Autism spectrum disorders (ASD) are reported to affect more than 1 in 100 children, with lifelong disabilities affecting social, communication and overall functioning.  The public health costs are tremendous, as is the investment required by the educational and social support systems.  Despite a recent increase in research on autism, little is yet known about the clinical course, etiology and pathophysiology of the disorder.  Further, although progress has been made in identifying the core symptom domains of autism, (social communication deficits, and the presence of fixated interests/repetitive behaviors), little attention has been paid to phenotypic subgroups within the autism disorders spectrum.  As has been demonstrated with other neurodevelopmental disorders, it is expected that the differences among individuals with autism may be as informative as their diagnostic similarities.  The purpose of this project is to perform comprehensive phenotyping of individuals with autism spectrum disorders in order to identify biological and behavioral clues to clinical course/prognosis, etiology, pathophysiology and treatment (Protocol 06-M-0102, NCT00298246).
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Autism is currently defined as a single disorder characterized by impairments in social communication and the presence of restricted interests and repetitive behaviors.  However, there is mounting evidence that autism represents a collection of overlapping neurodevelopmental disorders, resulting from a variety of neuroanatomical, neurophysiological, neuroimmunologic and/or genetic abnormalities.  The wide range of possible etiologies and the heterogeneity of symptom expression among individuals with autism leads to speculation that there actually are several &quot;autisms&quot;, i.e., clinically distinct disorders with similar behavioral presentations but different etiologies, clinical course, and treatments.  The PDN research program aims to characterize the behavioral and biological manifestations of these differing presentations of autism and to identify their unique features in order to facilitate development of effective therapeutic and preventive interventions.  <br /><br />During the reporting period, this project focused primarily on continuing a longitudinal, phenotyping investigation of 105 young children (ages 1-6 years) with autism, 60 age and sex-matched typically developing controls and a group of 25 children with non-autistic developmental delays (Protocol 06-M-0102, NCT 00298246).  Baseline evaluations have been completed for these subjects and they are returning for periodic follow-up assessments.  Data from the baseline evaluations are now being analyzed, including examinations of potentially meaningful subgroups of patients, such as the comparisons of children with autism who have a history of developmental regression and those without.  Interestingly, one of the most striking findings of the preliminary analyses was that regression appears to be a continuous variable, rather than the dichotomous categories previously described.  That is, children with a history of developmental regression have frequently had at least some delays in their early development and those with distinct early developmental delays may also lose some social and communication skills. We have also recently explored the measurement of restrictive and repetitive behavior in this cohort, finding that these children are reported to have significantly more restrictive and repetitive behavior than found in similar samples, and that this behavior remains stable over a one year period.   Finally, data from this project have also been used to continue validation of appropriate algorithms of diagnostic instruments for children in the preschool age range.   <br /><br />In addition to the behavioral assessments, the study includes comprehensive medical and developmental histories; neuropsychological, medical and neurological evaluations; assays of blood, urine and cerebrospinal fluid (CSF) samples; and also a variety of specialized studies, including routine and overnight electroencephalograms(EEGs); modified polysomnography to evaluate sleep architecture; and magnetic resonance imaging (MRI scans); genetic assays; and dysmorphology evaluations.  Preliminary results from these evaluations have demonstrated that more than one-half of the children have abnormalities of sleep architecture, particularly notable are relative reductions in the percentage time spent in Rapid Eye Movement (REM) sleep.  The finding prompted a therapeutic trial which is described in a separate project report (MH002914-04 PDNB).  <br /><br />We also analyzed cross-sectional data from MRI scans, which found signals of abnormal  myelination in specific brain areas of autism, as well as other indicators of abnormalities in brain white matter and relative cortical thinning in specific key regions in the brain.  Evidence of previously reported abnormalities of early brain growth was also investigated, both through imaging as well as head circumference records, with data indicating previous findings may have spuriously overestimated increased head size in autism due to inadequate norms (see Raznahan et al, 2013).<br /><br />As expected, genetic abnormalities were found in approximately 10% of the subjects and the aberrations are being evaluated for clinical significance.  Further, we are engaged in a collaboration to conduct whole exome sequencing of the cohort, and are in the process of analyzing the relationship of sequencing data and phenotypic variations. More information about this study (Protocol 06-M-0102, NCT 00298246) may be found at http://clinicalstudies.info.nih.gov/detail/A_2006-M-0102.html   <br /><br />Other phenotyping studies are also underway or have been recently completed.  Each of them shares the goal of providing a deeper understanding of the autism phenotype and its relationship to etiology, clinical course and outcome.  The first of these is a prospective, longitudinal investigation of toddlers considered to be at-risk for ASD because of the presence of early language delays (Protocol 11-M-0144, NCT01339767).  This study aims to delineate early communicative impairments that predict ASD and to distinguish these from non-specific markers of (non-autistic) developmental delays.  The investigation also examines the relationship of communication impairments to abnormalities of brain structure and function assessed by electroencephalograms (EEGs), structural MRIs, and functional MRI scans.  The longitudinal assessments also include comprehensive behavioral assessments designed to profile strengths and weaknesses in communication and other domains.  The goal of these assessments is to identify specific risk and resilience factors for ASD.  More information about this study may be found at: http://www.clinicaltrials.gov/ct2/show/NCT01339767?term=toddlers+autism&amp;rank=2<br /><br />A related investigation uses near-infrared spectroscopy (NIRS) to perform functional neuroimaging in children who are too young or behaviorally-challenged to tolerate functional MRI scanning procedures -- a key group that is missing from much of the neuroimaging  literature on autism.  Using  tasks of inhibition and  including comparison groups of children with attention-deficit hyperactivity disorder and typically developing children, this study seeks to obtain reliable and informative brain activation data on children with autism as young as 4 years old.<br /><br />A final area of phenotyping investigation involves behavioral assessments of individuals with specific genetic disorders purported to be highly associated with autism, such as Phelan McDermid Syndrome, Smith-Lemli-Opitz Syndrome and others.  Additionally, through a collaboration with the Undiagnosed Diseases Program of NHGRI, subjects with serious rare and potentially genetic disorders are evaluated to find common and unique patterns of developmental and behavioral strengths and weaknesses.  The behavioral assessments are conducted as part of PDN's &quot;Natural History&quot; investigation (Protocol 13-M-0028, NCT01778504), which is described at: http://clinicalstudies.info.nih.gov/cgi/detail.cgi?A_2013-M-0028.html
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86314&allpubs=Y&isajaxlink=Y&_UserReference=E3C23289255E780A5B38D106','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Buckley A, Wingert K, Swedo S, Thurm A, Sato S, Appel S, Rodriguez AJ (2013) First night effect analysis in a cohort of young children with autism spectrum disorder. J Clin Sleep Med 9:67-70
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23319907?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3525991/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23319907
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3525991 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Graf-Myles J, Farmer C, Thurm A, Royster C, Kahn P, Soskey L, Rothschild L, Swedo S (2013) Dietary adequacy of children with autism compared with controls and the impact of restricted diet. J Dev Behav Pediatr 34:449-59.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24042076?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3819433/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24042076
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3819433 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Han JC, Thurm A, Golden Williams C, Joseph LA, Zein WM, Brooks BP, Butman JA, Brady SM, Fuhr SR, Hicks MD, Huey AE, Hanish AE, Danley KM, Raygada MJ, Rennert OM, Martinowich K, Sharp SJ, Tsao JW, Swedo SE (2013) Association of brain-derived neurotrophic factor (BDNF) haploinsufficiency with lower adaptive behaviour and reduced cognitive functioning in WAGR/11p13 deletion syndrome. Cortex 49:2700-10
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23517654?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3762943/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23517654
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3762943 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Joseph L, Thurm A, Farmer C, Shumway S (2013) Repetitive behavior and restricted interests in young children with autism: comparisons with controls and stability over 2 years. Autism Res 6:584-95
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23868881?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3869876/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23868881
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3869876 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kim SH, Thurm A, Shumway S, Lord C (2013) Multisite study of new autism diagnostic interview-revised (ADI-R) algorithms for toddlers and young preschoolers. J Autism Dev Disord 43:1527-38
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23114567?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3594108/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23114567
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3594108 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Raznahan A, Wallace GL, Antezana L, Greenstein D, Lenroot R, Thurm A, Gozzi M, Spence S, Martin A, Swedo SE, Giedd JN (2013) Compared to What? Early Brain Overgrowth in Autism and the Perils of Population Norms. Biol Psychiatry 74:563-75
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23706681?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4837958/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23706681
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4837958 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

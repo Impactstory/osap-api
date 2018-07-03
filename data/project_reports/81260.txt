@@ -1,0 +1,511 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002919</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002919-05</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Subcellular Microdissection for the Identification of Organelle Proteins
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+ <!-- faculty test -->
+
+Sanford P. Markey; PhD
+
+ <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Analytical Biochemistry, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Analytical Biochemistry</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Brian M Martin; PhD<br />
+
+
+
+Jeffrey A Kowalak; PhD<br />
+
+
+
+Anthony  Makusky; MS<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+<div id="moresamestaffo">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffou">6 of a total of 9 other NIH members are shown.</div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Adele R Blackler; PhD (NCI) <br />
+
+
+
+Nicole Yen-I Morgan; PhD (NIBIB) <br />
+
+
+
+Michael  Tangrea (NCI) <br />
+
+
+
+Robert F Bonner; PhD (NICHD) <br />
+
+
+
+Michael R Emmert-Buck; MD, PhD (NCI) <br />
+
+
+
+Thomas J Pohida; MS (CIT) <br />
+
+
+
+
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+laser capture microdissection, proteomics, expression microdissection, mass spectrometry, subcellular organelle, target-activated microdissection, Golgi, cilia, nuclei
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+This is an inter-institute Director's Challenge Grant Award project to develop methods for direct tissue-based capture of spatially resolved, optically defined subcellular proteins and their neighboring interactors for mass spectrometric proteomic analyses. Protein interactions are defined by the subcellular location of specific proteins, but this information is compromised when cellular homogenization is used for sample preparation. Current fluorescent, nanogold, or radioactive labeling methods provide a means to trace protein sub-cellular localization, but do not effectively reveal the identity of proteins interacting with the stained target. While direct imaging mass spectrometric analysis from tissue is a promising development for rapid mapping of high concentration components with sub-millimeter resolution,  subcellular protein sequencing and identification would be advanced by a method for pooling material from a number of optically defined sites.  Subcellular microdissection coupled with mass spectrometric analysis can be applied to many types of biological questions, such as the effects of disease pathologies on mitochondria.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Microscopic pathology defines many human diseases, but the chemical composition of most histologically observed subcellular structures remains largely uncharacterized. Currently, there is no method for isolating subcellular areas of interest without disrupting the cells and thus distorting naturally occurring protein interactions. We combined in situ labeling schemes and subsequent microdissection with mass spectrometry to directly analyze subcellular complexes and organelles. To this end, we improved expression microdissection (xMD) in order to isolate optically dark targets (chemical, antibody, or metal-based stains) using optimized protocols compatible with mass spectrometric analysis to allow unsupervised thermoplastic capture of subcellular structures. In contrast to Laser Capture Microdissection, the film in xMD does not contain a dye and consequently the heat required for thermoplastic melting and adhesion is derived from the stained organelle. xMD is compatible with microscopic methodologies and avoids tissue homogenization. Combining the xMD technique with subsequent liquid chromatography coupled nano-spray mass spectrometry (LC-MS/MS) provides a novel and unique analytical method to identify the composition of subcellular components and characterize their physiological functions in cells.  We introduced a custom-designed flashcube system that permits consistent and reproducible microdissection of nuclei across an FFPE rat brain tissue section in milliseconds.  Both light and scanning electron microscopy demonstrated captured nuclear structures. Shotgun<br />proteomic analysis of the samples showed a significant enrichment in nuclear localized proteins, with an average 25% of recovered proteins localized to the nucleus, versus 15% for whole tissue controls (p&lt; 0.001). Targeted mass spectrometry using multiple reaction monitoring (MRM) showed more impressive data, with a 3-fold enrichment in histones, and a concurrentdepletion of proteins localized to the cytoplasm, cytoskeleton, and mitochondria. Our data demonstrate that the flashcube-xMD technology is applicable to the proteomic study of a broad range of targets in molecular pathology
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81260&allpubs=Y&isajaxlink=Y&_UserReference=EF8EE4BD60E906CF5B38D39E','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Blackler AR, Morgan NY, Gao B, Olano LR, Armani MD, Romantseva E, Kakareka JW, Bonner RF, Mukherjee S, Xiao B, Tran K, Pohida TJ, Emmert-Buck MR, Tangrea MA, Markey SP (2013) Proteomic analysis of nuclei dissected from fixed rat brain tissue using expression microdissection. Anal Chem 85:7139-45.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23799655?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3767164/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23799655
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3767164 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,837 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002901</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002901-11</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Transgenic Resources for Neuroscience Research
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lead Investigator</div></div>
+
+<div class="rowdiv">
+<div class="data">
+James M Pickel; AB, PhD
+<br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any LIs -->
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<!-- display SoRs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Supervisor of Record</div></div>
+<div class="rowdiv">
+<div class="data">
+ <!-- faculty test -->
+Susan G Amara; PhD 
+ <!-- faculty test -->
+<br />
+
+</div>
+</div>
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Transgenic Core, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Transgenic Core</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 7 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Lenegereshe  Baweke<br />
+
+
+
+
+Yetemwork H Eshete<br />
+
+
+
+
+Aikeen Malcolm Jones<br />
+
+
+
+
+Sindhura Mahati Kolachana<br />
+
+
+
+
+David  Slaughter<br />
+
+
+
+
+Bala T S Susarla<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=101257&onameset=Transgenic Core&isajaxlink=Y&_UserReference=0E50B7962A600F515B38D20F','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 7</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+<div id="moresamestaff">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffu">6 of a total of 10 other  members are shown. </div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Yogita  Chudasama; PhD  (Section on Behavioral Neuroscience)<br />
+
+
+
+Lee E Eiden; PhD  (Section on Molecular Neuroscience)<br />
+
+
+
+Charles R Gerfen; PhD  (Section on Neuroanatomy)<br />
+
+
+
+Samer Saleh Hattar  (Section on Light and Biological Rhythms)<br />
+
+
+
+Barry Bernard Kaplan; PhD  (Laboratory of Molecular Biology)<br />
+
+
+
+David A Leopold; PhD  (Section on Cognitive Neurophysiology and Imaging)<br />
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaff','searchview.taf?_function=showmore&ios=S&ipid=101257&thisic=&isajaxlink=Y&_UserReference=0E50B7962A600F515B38D20F','moresamestaffu');  return false;">
+
+
+<span class="morelist">Show all 10</span></a>.</form></div>
+
+
+
+</div>
+</div>
+
+
+</div>
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+<div id="moresamestaffo">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffou">6 of a total of 19 other NIH members are shown.</div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+David M Bodine; PhD (NHGRI) <br />
+
+
+
+Alexander Theodore Chesler; PhD (NCCIH) <br />
+
+
+
+Mark A Hoon; PhD (NIDCR) <br />
+
+
+
+George Frederick Koob; PhD (NIDA) <br />
+
+
+
+Alan Paul Koretsky; PhD (NINDS) <br />
+
+
+
+Claire Eliane Le Pichon (NICHD) <br />
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaffo','searchview.taf?_function=showmore&ios=O&ipid=101257&isajaxlink=Y&_UserReference=0E50B7962A600F515B38D20F','moresamestaffou');  return false;">
+
+
+<span class="morelist">Show all 19</span></a></form></div>
+
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Mark  Laubach; PhD
+<i>(Biology, American University)</i>
+<br />
+
+
+
+Kazutoshi  Nakazawa; MD, PhD
+<i>(Psychiatry, University of Alabama at Birmingham)</i>
+<br />
+
+
+
+Xiaoqin  Wang; PhD
+<i>(BIoengineering, Johns Hopkins University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+genome engineering, marmoset, transgenic
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The causes of neuropsychiatric disorders have remained elusive. Attempts to overlay behavioral disease symptoms on the map of the human genome has been frustrating as, one by one, the correlations between a gene and a disease are weakened. Genetic risk factors have been identified for a handful of mental disorders, but both the penetrance and the modulation of the effect of these genes are variable. The mechanisms that lead to these diseases are also difficult to trace because they act indirectly. Even in cases where disease is seen as a regression at distinct ages (schizophrenia and autism spectrum disorders, for instance) the links to gene expression are elusive. The causes of mental health disorders are further obscured because they affect the basic processes of development, network connections and plasticity of the nervous system. Adding to this complexity are the difficulties of studying the dysfunction in patients where the course of disease may span a lifetime and symptoms vary between individuals.<br /><br />Transgenic animals have been used to show the link between genes and many diseases. For mental health disorders, this is difficult because complete and complex human behaviors cannot be observed in animals. However,  there are biochemical, electrophysiological, and simple behaviors that can reveal the role of these genes in the development, adaption and function of the nervous system. The common features of all mammalian brains, including the conservation of significant genes, can be used to study neural system function. But even so, therapies that have been developed and shown promise in rodents have failed to alleviate patients burdens. The use of new technologies allow more efficient and precise genetic engineering of research animals. These techniques can be applied to cells as well as in species that were previously intractable and show promise for expanding our understanding of the link between genes and neuropsychiatric disease.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The NIMH transgenic core facility has several major functions: 1) to produce transgenic research animals for neuroscience research, 2) to support research with associated techniques in genetic research in neuroscience, 3) to develop new transgenic techniques and model systems and 4) to engage in collaborative projects that promote genetic approaches to neuroscience research.<br /><br />1) Production <br />Metrics of production over the past year include: <br />a) 19 transgenic mouse projects produced by oocyte injection of DNA or CRISPR constructs, with multiple lines produced for each project.<br />b) Five projects using embryonic stem cells (ESC) have been undertaken.<br />c) Three transgenic rat projects produced by oocyte injection, with multiple lines produced for each project.<br /><br />2) Technical Support <br />a) 87 transgenic rodent lines have been archived by cryopreserving germ cells or embryos. <br />b) 39 lines have been re-derived, by transferring lines from pathogen-bearing animals into those with defined health status. <br />c) Transgenic project design and assistance have continued to be significant to NIH neuroscience labs that lack experience in producing transgenic animals.<br /><br />3) Technical development <br />a) Nuclease-mediated genetic engineering (CRISPR): Mouse embryonic development has been observed and manipulated for decades. Genetic manipulation has taken advantage of the ability to grow totipotent cells (embryonic stem cells, ESC) in a dish. Other species, including primates, have been refractory to the same technique that works so well for mice. The result has been an ever-expanding collection of transgenic mouse lines that scientists use to test the role of virtually every one of the roughly 20,000 genes that make up a mouse genome.  <br /><br />Now, the CRISPR/Cas9 system can be used to target genes more efficiently and as specifically as in mouse ESC, but is applicable to other species. The core has focused on using CRISPR/Cas9 to generate conditional knock out genes in mice, rats and primates. In these animals, recombination signals are inserted to flank critical regions of a gene. Only when a recombinase is expressed in the cell is the gene function disrupted. Subtle changes in the gene can also be made, but making a conditional modification replaces large segments of a gene.<br /><br />The core has over the last year benefited from a collaboration with Nick Ryba in the National Institute of Dental and Craniofacial Research (NIDCR) to improve the efficiency of modifying genes by replacing large segments. We have optimized concentration of the injected material, the use of reagents to optimize homologous recombination of donor sequences, the site of injection in embryos, and the construction of nucleic acid targeting vectors. These techniques are now being applied to make mouse and rat transgenics, with the ultimate aim of making the technique efficient enough to use in species with smaller numbers of offspring, and longer gestation and maturation times, such as marmosets.<br /><br />b) Transgenic marmosets: In collaboration with Erika Sasaki at the Central Institute for Experimental Animals in Kawasaki, Japan the core has produced a line of transgenic marmosets that expresses a genetically encoded calcium indicator (GECI) which will allow the visualization of neuronal activity in vivo. To expand a line of animals that express this gene, we have developed an artificial insemination procedure that has resulted in multiple pregnancies in the NIMH colony and in the Xiaoqin Wang's colony at Johns Hopkins University. These animals are being used for experiments on the activity in the sensory cortex.<br /><br />c) Transgenic rat lines: Over 50 laboratories from around the world have requested transgenic rat lines that were produced by the transgenic core in collaboration with labs in NIDA. These lines are being maintained and distributed by  the RRRC (Rat Resource and Research Center). More than ten of these lines that express CRE recombinase in specific neuronal subtypes are continuing to be characterized for their patterns of expression. <br /><br />An inbred line of rats that expresses the orange fluorescent protein (OFP) is being used by Alan Korestsky's group (NINDS) to study the potential of transplanted neural stem cells.<br /><br />d) Support techniques: several techniques are under development to increase the capacity of the core's support functions. Freezing mouse sperm and improving IVF by using newer methods is a major effort. Freezing rat sperm and achieving IVF in rats at an acceptable level is a challenging task in all laboratories. A method of introducing adeno-associated virus (AAV) to the brain through the peripheral circulation is also underway. This method would allow more widespread delivery of a transgene and eliminate the need for intracranial delivery by surgical intervention.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101257&allpubs=Y&isajaxlink=Y&_UserReference=0E50B7962A600F515B38D20F','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Carr GV, Chen J, Yang F, Ren M, Yuan P, Tian Q, Bebensee A, Zhang GY, Du J, Glineburg P, Xun R, Akhile O, Akuma D, Pickel J, Barrow JC, Papaleo F, Weinberger DR (2016) KCNH2-3.1 expression impairs cognition and alters neuronal function in a model of molecular pathology associated with schizophrenia. Mol Psychiatry 21:1517-1526
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26857598?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4980295/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26857598
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4980295 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Richie CT, Whitaker LR, Whitaker KW, Necarsulmer J, Baldwin HA, Zhang Y, Fortuno L, Hinkle JJ, Koivula P, Henderson MJ, Sun W, Wang K, Smith JC, Pickel J, Ji N, Hope BT, Harvey BK (2017) Near-infrared fluorescent protein iRFP713 as a reporter protein for optogenetic vectors, a transgenic Cre-reporter rat, and other neuronal studies. J Neurosci Methods 284:1-14
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28380331?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5501963/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28380331
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5501963 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Sharpe MJ, Marchant NJ, Whitaker LR, Richie CT, Zhang YJ, Campbell EJ, Koivula PP, Necarsulmer JC, Mejias-Aponte C, Morales M, Pickel J, Smith JC, Niv Y, Shaham Y, Harvey BK, Schoenbaum G (2017). Lateral Hypothalamic GABAergic Neurons Encode Reward Predictions that Are Relayed to the Ventral Tegmental Area to Regulate Learning. Curr Biol  27, 2089-2100.e5.   https://doi.org/10.1016/j.cub.2017.06.024
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28690111?dopt=Abstract" target="_blank">PubMed</a>
+
+
+           &nbsp;&nbsp;&nbsp;&nbsp;<i>Available in future as a Free Article</i> <!-- looks for PMC translations for in progress or embargoed -->
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28690111
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5564224 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Snyder JS, Grigereit L, Russo A, Seib DR, Brewer M, Pickel J, Cameron HA (2016) A Transgenic Rat for Specifically Inhibiting Adult Neurogenesis. eNeuro 3DOI: 10.1523/ENEURO.0064-16.2016
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27257630?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4886221/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27257630
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4886221 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

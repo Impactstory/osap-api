@@ -1,0 +1,820 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002716</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002716-19</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">MRI Studies of Brain Function and Metabolism
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Karen F Berman; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/karen-berman" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Clinical and Translational Neuroscience Branch, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Clinical and Translational Neuroscience Branch</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 39 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Joyce Edna Adams<br />
+
+
+
+
+Brenda A Agunyego<br />
+
+
+
+
+Jose A Apud; MD, PhD<br />
+
+
+
+
+Karen  Bartholomew<br />
+
+
+
+
+Morgan Elaine Bartholomew<br />
+
+
+
+
+Graham Leigh Baum<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=81193&onameset=Clinical and Translational Neuroscience Branch&isajaxlink=Y&_UserReference=2B04D626FC66011C5B38D692','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 39</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Qiang  Chen
+<i>(Lieber Institute for Brain Development)</i>
+<br />
+
+
+
+Xi  Cheng
+<i>(Lieber Institute for Brain Development)</i>
+<br />
+
+
+
+Daniel R Weinberger; MD
+<i>(Lieber Institute for Brain Development)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Imaging Genetics, BOLD fMRI, Schizophrenia, Brain structure, genetic variations, structural MRI, EEG/MEG, DTI, MRSI, neuroimaging phenotypes
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The Magnetic Resonance Imaging (MRI) group of the Clinical Brain Disorders Branch consists of multidisciplinary specialists with expertise in psychiatry, genetics, psychology, and MRI techniques. Combining multimodal neuroimaging and genetics, this group helped establish the field of imaging genetics and has published pioneering studies in candidate gene, genetic epistasis, and genome-wide imaging studies. They were the first group to report a heritable fMRI phenotype (prefrontal efficiency during working memory (Callicott et al,, 2003) and have established three additional familial neuroimaging phenotypes in schizophrenia  prefrontal-hippocampal disconnection during working memory (Rasetti et al., 2011), hippocampal dysfunction during memory encoding (Rasetti et al., in press) and prefrontal insufficiency underlying processing speed abnormalities (Lau et al., in preparation). Over more than a decade of work, we have established one of the largest databases of healthy subjects, patients with schizophrenia, and their non-psychotic siblings who have been phenotyped across an array of cognitive measures, structural MRI, EEG and MEG, DTI and MRSI, and BOLD fMRI (Study 95-M-0150 NCT00001486).  The rationale for this work is founded on the premise that susceptibility genes for psychiatric disorders do not encode psychiatric disorders per se, but rather determine a variety of neural abnormalities (i.e., intermediate or endophenotypes) that collectively produce a brain susceptible to mental illness and the associated cognitive dysfunctions that produce much of the long term disability associated with conditions like schizophrenia. To that end, we seek to identify heritable neuroimaging phenotypes via structural imaging, cognitive task, and resting BOLD fMRI studies. By defining the genetic architecture of these fundamental building blocks of cognition in healthy and ill subjects, we hope to identify novel mechanisms and potential treatment avenues for severe mental illness and cognitive disability. An added benefit is that such measures provide traits, alternatively biomarkers, suitable for assessment during medication-free and drug trail experimental designs. Our primary objectives in this field to this point have been as follows:  1) To identify heritable neuroimaging phenotypes; 2) To use genes associated with risk for schizophrenia to generate query multimodal fMRI datasets; 3) To assess the impact of putative cognitive enhancing drugs on these phenotypes; and 4) Study the effects of antipsychotic medications on these phenotypes. <br /><br />Moving forward, our goals will be as follows: <br />1) Use heritable neuroimaging phenotypes to query whole genome variation for the multiple polymorphisms associated with their optimal function in healthy subjects for novel mechanisms and genetic pathways; <br /><br />2) Implement data-driven methods across multimodal MRI, neuropsychological testing, symptom profiles, and treatment response data to derive factor or latent variable classifications to reduce heterogeneity thought to weaken genetic association and treatment studies, in general, and to be consistent with fundamental concepts of the RDoCs initiative; <br /><br />3) Combine environmental variables (like urbanicity and obstetrical complications) with genetic variants in gene-by-environment interaction studies thought critical to accurately dissect heritable aspects of human cognition and mental illness; <br /><br />4) Explore minimally-invasive treatments for cognitive enhancement including computerized training, exercise, and direct current transcranial stimulation via plasticity-related changes in neuroimaging phenotypes; and <br /><br />5) Develop novel fMRI paradigms probing functions in line with the RDoCs initiative. <br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The group has continued to make strides conducting imaging-genetic studies to explore basic molecular biology and genetics of human information processing in healthy controls and patients with schizophrenia. Interesting findings have emerged from these studies. <br /><br />1) Using fMRI during working memory, we demonstrated that altered DLPFC connectivity is found in both patients with schizophrenia and healthy siblings and therefore is a familial and likely heritable feature of genetic risk for schizophrenia. We also discovered that this novel intermediate phenotype is independent of the well documented altered dorsolateral prefrontal cortex engagement in patients with schizophrenia and siblings (Rasetti et al. AJP 2011). These findings add to evidence that distributed network-based neurointegrative deficits manifested as disrupted network dynamics reflect genetic risk mechanisms for schizophrenia. As an illustration that some risk genes may map onto some intermediate phenotypes but not others, the group demonstrated that ZNF804A, a putative susceptibility gene for psychosis, impacts differentially on the above neuroimaging intermediate phenotypes 1) has no effect on DLPFC engagement during working memory, and 2) modulates DLPFC-HF coupling during WM (Rasetti et al. AJP 2011).<br /><br />2) Tan et al. Brain 2012 explored genetic control over component working memory cortical-subcortical networks in humans, and the pharmacogenetic implications of dopamine-related genes on cognition in schizophrenic patients receiving anti-dopaminergic drugs. Using predictions from basic models of dopaminergic signaling in cortical and cortical-subcortical circuitries implicated in dissociable working memory maintenance and manipulation processes, the group examined pharmacogenetic effects on cognition in the context of anti-dopaminergic drug therapy. Using dynamic causal models of functional magnetic resonance imaging in normal subjects, we identified differentiated effects of functional polymorphisms in COMT, DRD2 and AKT1 genes on prefrontal-parietal and prefrontal-striatal circuits engaged during maintenance and manipulation, respectively. Cortical synaptic dopamine monitored by the COMT Val158Met polymorphism influenced prefrontal control of both parietal processing in working memory maintenance and striatal processing in working memory manipulation. DRD2 and AKT1 polymorphisms implicated in DRD2 signaling influenced only the prefrontal-striatal network associated with manipulation. In the context of anti-psychotic drugs, the DRD2 and AKT1 polymorphisms altered dose-response effects of anti-psychotic drugs on cognition in schizophrenia. These findings suggest that genetic modulation of DRD2-AKT1-related prefrontal-subcortical circuits could, at least in part, influence cognitive dysfunction in psychosis and its treatment.<br /><br />3) Another study, Marenco et al. Neuropsychopharmacology 2012, studied measures of anatomical connectivity between the thalamus and lateral prefrontal cortex (LPFC) in patients with schizophrenia and controls, and assessed their functional implications. Thalamocortical connectivity was measured with diffusion tensor imaging (DTI) and probabilistic tractography. The relationship between thalamocortical connectivity and prefrontal cortical BOLD functional activity and behavioral performance during working memory was also assessed. Compared with controls, patients with schizophrenia showed reduced total connectivity of the thalamus to only 1 of 6 cortical regions, namely the LPFC. The size of the thalamic region with at least 25% of model fibers reaching the LPFC was also reduced in patients compared with controls. The total thalamocortical connectivity to the LPFC predicted working memory task performance and also correlated with LPFC BOLD activation. The correlation with BOLD activation was accentuated in patients compared with controls in the ventral LPFC. These results suggest that thalamocortical connectivity to the LPFC is altered in schizophrenia with functional consequences on working memory processing in LPFC.<br /><br />The group has also continued to make strides in the field of cognitive aging. Interesting findings have emerged from these studies as well.<br /><br />1) Using a novel data driven analysis approach with parallel independent component analysis, we explored the effect of normal aging on the effect of aging on networks common to multiple brain processes (e.g. working memory and episodic memory cognitive functions that have been shown to decline with age). The results from this study suggested that cognitive aging is associated with alteration in connectivity within prefrontoparietal networks that is not memory domain specific. These findings are in line with the dedifferentiation hypothesis of neurocognitive aging, and suggest decreased specialization of the brain networks supporting different memory networks with advancing age (Sambataro et al.Eur J Neurosci 2012). <br /><br />2) The group also explored the neurobiology underlying age-related changes in working memory updating using fMRI with healthy subjects from across the adult age spectrum. The study results indicate that older age is associated with poorer performance, reduced meso-cortico-striatal activation, and reduced functional coupling between the caudate and the VLPFC during working memory updating. Based on prior evidence that normal aging is associated with decline in executive functions along with a progressive decline of neurotransmitter systems including dopamine (DA), these results are consistent with computational models of executive cognition and DA-mediated age-related decline. Given the known relationship between aging and DA system decline, these findings add to the literature on the neurobiology of the central executive and of age-related cognitive decline (Podell et al. Neuroimage 2012).<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81193&allpubs=Y&isajaxlink=Y&_UserReference=2B04D626FC66011C5B38D692','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Callicott JHC, Feighery EL, Mattay VS, White MG, Chen Q, Baranger D, Berman KF, Lu B, Song H, Ming G, Weinberger DR (2013) DISC1 and SLC12A2 interaction affects human hippocampal function and connectivity. J Clin Invest 123:2961-4
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23921125?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3999052/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23921125
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3999052 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Lemaitre H, Goldman AL, Sambataro F, Verchinski BAV, Meyer-Lindenberg A, Weinberger DR, Mattay VS (2012) Normal age-related brain morphometric changes: Nonuniformity across cortical thickness, surface area and grey matter volume? Neurobiol of Aging 33:617.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Magalona SC, Rasetti R, chen J, Chen Q, Gold I, Decot H, Callicott JH, Berman KF, Apud JA, Weinberger DR, Mattay VS (2013)  Effect of tolcapone on brain activity during a variable attentional control task: a double blind, placebo-controlled, counter-balanced trial in healthy volunteers. CNS Drugs 27(8):663-673
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Podell JE, Sambataro F, Murty V, Emery MR, Tong Y, Das SD, Goldberg T, Weinberger DR, Mattay VS (2012) Neurophysiological correlates of age-related changes in working memory updating. Neuroimage, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Podell JE, Sambataro F, Murty VP, Emery MR, Tong Y, Das S, Goldberg TE, Weinberger DR, Mattay VS (2012) Neurophysiological correlates of age-related changes in working memory updating. Neuroimage 62:2151-60
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22659476?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3856325/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22659476
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3856325 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Radulescu E, Sambataro F, Mattay VS, Callicott JH, Straub RE, Matsumoto M, Weinberger DR, Marenco S (2013) Effect of Schizophrenia risk-associated alleles in SREB2 (GPR85) on functional MRI phenotypes in healthy volunteers. Neuropsychopharmacology 38:341-9
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22968816?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3527120/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22968816
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3527120 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Sambataro F, Mattay VS, Thurin K, Safrin M, Rasetti R, Blasi G, Callicott JHC, Weinberger DR (2013) Altered cerebral response during cognitive control: A potential indicator of genetic liability for schizophrenia. Neuropsychopharmacology 38(5):846-853
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">8.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Tan HY, Chen AG, Kolachana BK, Apud JA, Mattay VS, Callicott JH, Chen Q, Weinberger DR (2012) Effective connectivity of AKT1-mediated dopaminergic working memory networks and pharmacogenetics of anti-dopaminergic treatment. brain 135:1436-1445.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">9.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Thurin K, Rasetti R, Sambataro F, Safrin M, Chen Q, Callicott JH, Mattay VS, Weinberger DR (2013) Effects of ZNF804A on neurophysiologic measures of cognitive control. Mol Psychiatry 18:852-4
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23032874?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3962234/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23032874
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3962234 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">10.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Thurin K, Rasetti R, Sambataro F, Safrin M, Chen Q, Callicott JHC, Mattay VS, Weinberger DR (2012) Effects of ZNF804A on neurophysiologic measures of cognitive control. Mol Psychiatry, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">11.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Tost H, Alam T, Geramita M, Rebsch C, Kolachana B, Dickinson D, Verchinski BA, Lemaitre H, Barnett AS, Trampush JW, Weinberger DR, Marenco S (2013) Effects of the BDNF valmet polymorphism on white matter microstructure in healthy adults. Neuropsychopharmacology 38:525-32
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23132269?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3547204/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23132269
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3547204 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

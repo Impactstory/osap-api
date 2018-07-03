@@ -1,0 +1,532 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002860</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002860-11</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Emotional Dysfunction and Childhood Behavioral Disturbance
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+ <!-- faculty test -->
+
+Robert James Richard Blair; PhD
+
+ <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Affective Cognitive Neuroscience, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Affective Cognitive Neuroscience</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Stuart Francis White; PhD<br />
+
+
+
+Harma  Meffert; PhD<br />
+
+
+
+Soonjo  Hwang; MD<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Anna Lynne Gilmour<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Bruno B Averbeck  (Section on Learning and Decision Making)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Conduct Disorder, Childhood behavioral disturbance, ADHD, amygdala, fMRI, orbital frontal cortex
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Conduct Disorder (CD) is characterized by repetitive behavior where the rights of others and current social norms are violated.  One particular subtype of CD is associated with reduced guilt and empathy (callous and unemotional CU traits).  Adolescents with CD+CU are at greatest risk for increased levels of instrumental, goal directed aggression and a poor long term prognosis.  While adolescents with this form of CD incur considerable social and economic costs, relatively little is known about its neurobiological basis.  <br /><br />The Section of Affective Cognitive Neuroscience (SACN) employs fMRI to investigate the neural underpinnings of CD+CU in order to identify the pathophysiology associated with this disorder. By identifying the neurobiological basis of this form of CD, this work will provide both treatment suggestions as well as treatment targets for future intervention studies. Work was carried out under protocol 05-M-0105 (NCT00104039).
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+This project has established a series of core neuro-biological findings regarding the basis of Conduct Disorder (CD). Over the past year, we have identified core neuro-computational impairments that are: (i) specific to youth with CD and high callous-unemotional (CU) traits (reduced guilt and empathy); (ii) specific to youth with CD and low callous-unemotional traits; (iii) common to youth with CD irrespective of CU trait level.<br /><br />In our previous work, we have shown that youth with CD and high CU traits show reduced amygdala responses to the distress of others.  This year we have continued this work revealing that patients with CD+CU show reduced amygdala responses to other forms of negative stimuli.  We have shown that the level of this impairment relates to the level of CU traits.  In short, reduced amygdala functioning contributes to the reduced guilt and empathy in this population.<br /><br />In our earlier work, we concentrated less on youth with CD and low CU traits.  However, over the past year, we have shown that this group shows increased amygdala responses to not only threat cues but also social provocation.  Moreover, they show increased responses to threat not only within the amygdala but also the periaqueductal gray.  This is important because these regions have been shown to mediate reactive aggression in work with animals.  Reactive aggression is aggression shown in response to threat, social provocation and frustration.  Youth with CD and low CU traits show a specifically increased risk for the display of reactive aggression.<br /><br />In addition, over the past year, we have begun to identify neuro-computational impairments that are common to both youth with CD+CU and CD-CU.  These impairments are seen in systems involved in decision-making.  Specifically, we have identified impaired functioning in ventromedial prefrontal cortex in youth with CD, irrespective of CU trait level, when participants were choosing how to respond to another individual's social provocation.  Patients with CD, irrespective of CU level, failed to show modulated ventromedial prefrontal cortex functioning when choosing how to retaliate to another individual's provocation.  Importantly, level of failed responding predicted level of reactive aggression shown by the patients in their communities.<br /><br />In addition, we have identified a specific form of dysfunction in regions involved in changing and stopping behaviors; anterior insula and dorsomedial frontal cortex.  In healthy individuals, these regions are sensitive to the expected value of a behavior.  They show greater activity when an individual is about to make a poor choice.  Moreover, their level of activity is a function of how poor the choice is; these regions show greater activity the more an individual might lose if they make that choice.  Patients with CD show reduced modulation of activity within these regions as a function of the poverty of the choice.  Importantly, the level of reduced modulation of activity within these regions relates to the level of CD symptoms shown by these youth.<br /><br />Critically, this work has allowed us to identify objective biomarkers that can be used in on-going work to assess treatment efficacy in this population. Indeed, our group, in other protocols, is about to start examining treatment efficacy using the paradigms developed under this protocol.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91067&allpubs=Y&isajaxlink=Y&_UserReference=E9074BD49B5650465B38D120','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">
+Blair JR, 
+Leibenluft E (2014) Conduct disorder and callous-unemotional traits in youth. New England Journal of Medicine 371 (23):2207-2216
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Blair JR (2014) Psychopathic traits from an RDoC perspective. Current Opinions in Neurobiology 30:79-84
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">White SF, Brislin SJ, Vantieghem MR, Sypher I, Sinclair S, Pine D, Hwang S, Blair JR (2016) Neural Correlates of the Propensity for Retaliatory Behavior in Youths With Disruptive Behavior Disorders. Am J Psychiatry 173:282-90
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26441155?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4950844/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26441155
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4950844 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

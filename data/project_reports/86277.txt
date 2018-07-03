@@ -1,0 +1,709 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002537</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002537-25</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Psychobiology And Treatment Of Perimenopausal Mood Disorders
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Peter J Schmidt; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/peter-schmidt" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Behavioral Endocrinology, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Behavioral Endocrinology</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 13 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Rivka Rivi Ben Dor<br />
+
+
+
+
+Dara Maria Cannon; MD<br />
+
+
+
+
+Merry A Danaceau<br />
+
+
+
+
+Neelima  Dubey<br />
+
+
+
+
+Gioia Mia Guerrieri; DO<br />
+
+
+
+
+Nazli  Haq<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=86277&onameset=Section on Behavioral Endocrinology&isajaxlink=Y&_UserReference=9B7B74F20694E4775B38D56A','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 13</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Karen F Berman; MD (Section on Integrative Neuroimaging)<br />
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Lynnette K Nieman; MD (NICHD) <br />
+
+
+
+James C Reynolds; MD (CC) <br />
+
+
+
+
+
+
+
+
+
+
+
+
+David  Goldman; MD (NIAAA) <br />
+
+
+
+Lawrence M Nelson; MD (NICHD) <br />
+
+
+
+Steven John Soldin; PhD (CC) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Susan  Girdler; PhD
+<i>(Department of Psychiatry, University of North Carolina at Chapel Hill)</i>
+<br />
+
+
+
+Christine  Marx; MD
+<i>(Psychiatry, Duke University)</i>
+<br />
+
+
+
+David R Rubinow; MD
+<i>(Department of Psychiatry, University of North Carolina at Chapel Hill)</i>
+<br />
+
+
+
+Patrick  Sullivan; MD, PhD
+<i>(University of North Carolina)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+depression, perimenopause, hormone therapy, estrogen, hypogonadism, progesterone
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+ Depression risk increases during the perimenopause, and depression is cited as a primary reason for resuming menopausal hormone therapy (HT). Community-based epidemiologic studies document a 1.5-3 fold greater risk of first onset and recurrent depressions in women during the perimenopause compared with those who are premenopausal (or who are several years postmenopausal). The development of depression at midlife is important for several reasons.  First, in addition to the well-documented morbidity related to an episode of depression, depression conveys an increased risk for all-cause mortality in women at midlife as well as the risk for several specific medical illnesses relevant to women at midlife including osteoporosis, metabolic syndrome, and cardiovascular disease (CVD). Thus, depressions during the menopause transition have important implications for women at midlife, but as with other reproductive endocrine-related mood disorders, they are seldom the focus of research. Second, reproductive endocrine-related mood disorders represent distinct subtypes of depression, since the appearance of symptoms is linked to a change in reproductive function. Thus, better understanding their unique biologies could lead to the development of novel therapeutics for women with these conditions, the need for which is underscored by the constrained effectiveness of antidepressants in achieving remission in major depression (i.e., 28 to 40% efficacy).  Finally, there is considerable overlap between reproductive endocrine-related mood disorders and traditional affective disorders including symptom presentation and shared co-morbidities; nonetheless, reproductive-related mood disorders are distinguished by several characteristics including the linkage of the symptomatic state to a hormone transition and treatment response characteristics (i.e., efficacy of hormonal therapies, selective response to SSRIs versus other classes of antidepressants). These mood disorders represent the convergent effects of the reproductive trigger and a susceptibility to experience affective dysregulation, since the same biological trigger is without effect on mood in women lacking the susceptibility. Thus, the susceptibility to a hormone-induced mood destabilization must involve differential processing of the hormone signal that leads to an abnormal affective state. As such, these disorders provide an unparalleled opportunity to uncover the biological and environmental underpinnings of susceptibility to affective dysregulation. Thus, our studies will provide insight into the mechanisms underlying affective disorders in general, and, additionally, may help to identify the mechanism whereby gonadal steroids modify the course or expression of affective disorders.<br />The specific goals and objectives for this project are as follows: 1) Define the role of estradiol withdrawal in the precipitation of depression during the perimenopause. 2) Identify the predictors of the development of depression in the context of menopause-related hypogonadism. 3) Determine the mood and behavioral effects of the selective estrogen receptor modulator raloxifene and phytoestrogens in perimenopause-related depression. 4) Characterize the clinical characteristics and functional impact of disturbances in mood and behavior occurring in the context of ovarian failure.<br />The long-range goals will be to identify the mechanisms underlying the effects of gonadal steroids on affective state regulation and the effects of aging on the behavioral and neuroregulatory effects (HPA axis regulation, regional cerebral blood flow) of hypogonadism and gonadal steroid replacement in women.  Finally, we wish to determine the therapeutic utility and predictors of response to hormonal therapies (i.e., gonadal and adrenal steroids)in mood disorders occurring during midlife and the perimenopause.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The protocols involved in this project are as follows: 02-M-0120, 03-M-0175, 88-M-0131, 92-M-0174. This report includes work arising from the following protocols: NCT00030147, NCT00060736, NCT00001231, and NCT00001322.<br />In addition to the established increased risk of first onset depression during the perimenopause, there is preliminary evidence of estradiols antidepressant efficacy in perimenopausal depression (PMD). Indeed, observational studies report the emergence of depressive symptoms after the discontinuation of estradiol therapy (ET) in 5-10% of women. The role of estradiol -either declining or low levels - in the precipitation of PMD is unknown, largely due to the associational and indirect nature of the evidence linking ovarian function and depression. Correlative studies with plasma FSH or response to ET do provide indirect evidence of the relevance of changes in reproductive hormones to mood disturbances. However, even prospective epidemiological studies cannot test the estradiol withdrawal hypothesis since perimenopausal changes in the secretion of several hormonal and metabolic factors could confound the effects of estradiol withdrawal. In other studies of the role of ovarian steroids in affective disturbance, changes in ovarian steroids (in the context of otherwise normal levels) have been shown to directly trigger depression, but only in a subset of women with histories of mood disorders linked to reproductive function.  In this study, we directly examined the hypothesis that declining ovarian function  estradiol withdrawal - underpins depression occurring during the perimenopause. We further sought to examine whether the response to estradiol withdrawal differed in women with a past PMD compared with those without any past depression.  In this second study, we determined if sudden, blinded withdrawal of ET would precipitate depressive symptoms and if it would do so differentially in those with a history of PMD. Our findings support both predictions. Estradiol withdrawal precipitated depression in women with a history of PMD, but no depressive symptoms were seen after estradiol withdrawal in women with no past history of PMD. Further, depressive symptoms did not emerge in those women with past PMD who were maintained on ET. Importantly, the recurrence of depressive symptoms in women with past PMD occurred in the absence of differences in several measures that could influence mood, including baseline clinical characteristics (other than PMD), the severity of daytime/nighttime hot-flushes, and plasma hormone levels after withdrawal. The lack of depressive symptoms in the control women despite identical hormone manipulation (and similar levels of hot-flushes and plasma estradiol levels) demonstrates that estradiol withdrawal differentially impacts CNS function in some women so as to render them susceptible to depression. This suggests that perimenopausal changes in estradiol can trigger depression, but only in the susceptible subgroup. These observations, in the context of similar plasma reproductive hormone levels, suggest that normal changes in ovarian estradiol secretion can trigger an abnormal behavioral state in susceptible women.  There are several mechanisms by which changes in estradiol might mediate the observed effects on mood. First, estradiol modulates the activity of virtually every system implicated in the pathogenesis of depression, including regulation of neurotransmitter synthesis and metabolism, stress axis activation, neuroplasticity (including regulation of BDNF), epigenesis, and immune system activation.  Second, estradiol signaling through estrogen receptor (ER) beta reverses depressive-like behavior in animal studies. Third, reward responsiveness, which is disturbed in depression, is modulated by estradiol in both rodents and humans. Finally, of particular note, discontinuation of long term ET in postmenopausal women was accompanied by decreases in medial frontal and temporo-occipital metabolism. Thus, through local signaling or network-level dysfunction, particularly in fronto-limbic regions, estradiol withdrawal could precipitate affective dysregulation. What remains unclear is the reason for the differential susceptibility to the mood destabilizing effects of estradiol withdrawal. Of interest in this regard is the recent identification of increased sensitivity to estrogen regulation among transcripts that were differentially expressed in women who developed postpartum depression. Alternatively, basic science studies report the de novo production of estradiol from androgens in brain regions involved in mood regulation (e.g., hippocampus). Thus, it is possible that women who did not develop depressive symptoms after ET withdrawal have sufficient CNS aromatase activity to prevent the development of depressive symptom during declining estradiol secretion. The investigation of these possible mechanisms will be the focus of future studies. <br />One possible source of the susceptibility to developing perimenopasual depression is an abnormal hypothalamic pituitary-adrenal (HPA) axis. Dysfunction of the HPA axis is a frequent accompaniment of depression, and HPA axis function is modulated by both aging and ovarian steroid secretion.  To date, only a few studies have evaluated basal (but not stimulated) HPA axis function in women with perimenopause-related depression, with findings suggesting differences in adrenal androgen secretion but not basal cortisol secretion in PMD compared with controls.  We examined HPA axis function in depressed and asymptomatic perimenopausal women using the combined dexamethasone-corticotropin releasing hormone (Dex/CRH) test. In contrast to recent suggestions that declining ovarian estradiol secretion (and in turn alterations in neurosteroid synthesis), preliminary results suggest that abnormalities of HPA axis function do not distinguish perimenopausal women with depression from those without depression. Thus, unlike depression in premenopausal women, HPA axis dysfunction is not a frequent accompaniment of depression during the perimenopause. These findings suggest that reproductive endocrine-related mood disorders are not uniformly associated with the HPA dysregulation and could reflect underlying pathophysiologic processes that are distinct from those reported in women with non-reproductive-related depressions.   <br />Finally, we continue our longitudinal investigation of the onset of depression during the perimenopause. Over sixty women have completed this study that involved measuring early follicular phase blood samples, daily and weekly symptom self-ratings, and formal in-person interviews every six months during the transition from regular menstrual cycle function (premenopausal) until one year postmenopause. Women participate in this study for an average of five years (range = 3-10 years). Preliminary results confirm previous observations of a clustering of depressive episodes during the late menopause transition  a stage of reproductive aging associated with estradiol withdrawal. Moreover, we have observed that depression occurring during the perimenopause,( but not other events related to the perimenopause including menstrual cycle irregularity, aging, or vasomotor symptoms) is accompanied by significant declines in measures of quality of life, social support, and personal disability.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86277&allpubs=Y&isajaxlink=Y&_UserReference=9B7B74F20694E4775B38D56A','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Ben Dor R, Harsh VL, Fortinsky P, Koziol DE, Rubinow DR, Schmidt PJ (2013) Effects of pharmacologically induced hypogonadism on mood and behavior in healthy young women. Am J Psychiatry 170:426-33
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23545794?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3952563/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23545794
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3952563 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Schmidt PJ, Keenan PA, Schenkel LA, Berlin K, Gibson C, Rubinow DR (2013) Cognitive performance in healthy women during induced hypogonadism and ovarian steroid addback. Arch Womens Ment Health 16:47-58
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23188540?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3547128/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23188540
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3547128 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

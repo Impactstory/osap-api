@@ -1,0 +1,623 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002887</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002887-07</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neural substrates of reward processing and emotion
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Elisabeth Adams Murray; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/elisabeth-murray" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neurobiology of Learning and Memory, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neurobiology of Learning and Memory</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Dawn A Lundgren; MA<br />
+
+
+
+Emily J Howland<br />
+
+
+
+Ping-Yu  Chen<br />
+
+
+
+Peter Herman Rudebeck<br />
+
+
+
+Tianming  Yang<br />
+
+
+
+Chicora Frances Oliver<br />
+
+
+
+ <!-- step through any ordered staff -->
+
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Barry J Richmond; MD (Section on Neural Coding and Computation)<br />
+
+
+
+Andrew M Clark (Section on Neural Coding and Computation)<br />
+
+
+
+Bruno B Averbeck (Section on Learning and Decision Making)<br />
+
+
+
+Olga  Dal Monte (Section on Learning and Decision Making)<br />
+
+
+
+Richard C Saunders; PhD (Laboratory of Neuropsychology)<br />
+
+
+
+Janita N Turchi; PhD (Section on Cognitive Neuroscience)<br />
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Amygdala, Orbitofrontal Cortex, Emotion, Prefrontal cortex, Sensory Modalities
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Functional neuroimaging and clinical studies have repeatedly implicated the orbitofrontal cortex (OFC) and the amygdala in major depressive disorder, phobias, panic attack syndrome and other neuropsychiatric diseases. Depressed patients, for example, show altered activation of the OFC and amygdala in a variety of circumstances. In agreement with these findings, stimulation of the amygdala causes fear, anxiety and dysphoria.<br /><br />As important as they are, most current approaches to understanding the amygdala and OFC have serious limitations. Research that relies on functional neuroimaging, electrophysiology, and either molecular or genetic methodologies cannot establish a causal relationship between the function of these two key brain structures and specific emotions or behaviors. The results that these methods provide are correlational in nature, not causal, and therefore can establish structure-function relationships in only a provisional way. The lack of a causal analysis hampers any attempt to translate research findings into improvements in a patient's quality of life. In the absence of causal knowledge about the underlying pathophysiology, and especially about the localization of functions disrupted in mental health disorders, treatments of these diseases typically affect the whole brain. Targeted interventions, such as deep brain stimulation (DBS), when they have been attempted at all, have lacked a strong theoretical foundation. A better understanding of the structural underpinnings of emotion and valuation is therefore essential for progress in this area.<br /><br />Other limitations have also retarded progress in this field. Previous work has, for example, focused on the role of the amygdala in fear conditioning and negative emotions at the expense of understanding its full range of functions, which encompass positive valuations and emotions. Given the importance of the OFC and the amygdala to major mental health disorders, there is a clear need for an improved understanding of their role in emotion in both health and disease, as well as in both positive and negative emotions.<br /><br />The current project addresses these limitations with direct tests of causal relationships in the regulation of positive affect and valuations. Recent findings from this project elucidate its goals and objectives. They point to both cooperating and contrasting functions of the OFC and the amygdala. Cooperation between the OFC and the amygdala arises when the OFC depends on the value-updating function of the amygdala. Contrasting functions reflect OFCs role in surmounting behaviors controlled by the amygdala, among other factors. In this context, the goal of the present project is to develop a causal theory of the functional interactions between the amygdala and the OFC. The overall objective of the project is to establish a concrete conceptual approach for the translation of research findings into therapies.  The specific objectives of this project are: (1) to elucidate the functional role of the amygdala, OFC and related structures in valuations and emotions; (2) to understand the division of labor within subdivisions of the OFC and the interactions of each of its subdivisions with the amygdala; and (3), to explore the possibility of using inactivating agents or receptor manipulations within targeted parts of the amygdala or OFC to promote healthy affective regulation.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Work on this project has demonstrated that value-based decision making requires both the OFC and the amygdala for normal operations. We use a decision-making task that requires subjects to make choices associated with rewards of different value. In this task, the value of rewards is varied by prior consumption of a food item that serves as a reward. Eating a certain kind of food leads to a selective satiation that temporarily decreases the value of that food. We found that the OFC and the amygdala both play a necessary, causal role in the rapid updating of valuations, based on current biological needs.<br /><br />Our previous work had emphasized the valuation of objects, but traditional psychological theory has focused on the valuation of actions rather than of objects. Specifically, the learning-theory literature stresses the valuation of actions to guide goal-directed behavior. To investigate the role of the amygdala in updating the valuation of actions, we designed a novel task. Subjects were trained to perform two different actions on a touch screen. Repetitive tapping produced one food; constant holding produced a different food. Subjects were fed one of the foods to satiety, which lowered its value. Control subjects showed a reduction in the action associated with obtaining the devalued food. This result, called the devaluation effect, is a hallmark of goal-directed behavior. Subjects with bilateral lesions of either OFC or the amygdala exhibited significantly reduced devaluation effects. These results show that both OFC and the amygdala play an essential, causal role in goal-directed behavior that depend on the valuation of actions, which complements our earlier findings on the valuation of objects. Notably, these findings challenge the idea that the OFC and MFC are specialized for object- and action valuation, respectively.  They also confirm our previous results showing that the amygdala plays an important role in positive valuations and emotions, which balances the overemphasis in the literature on negative valuations and emotions.<br /><br />To build on these findings, and to investigate whether the amygdala and either the OFC or MFC interact to guide goal-directed behavior, we are currently examining the effect of surgical crossed-disconnections of the amygdala and the frontal lobe on the performance of the same test of goal directed behavior described above.  We are studying both amygdala-MFC and amygdala-OFC interactions. Our preliminary data suggest that functional interaction of the amygdala with OFC, but not MFC, is essential for goal-directed behavior.<br /><br />For decades, both clinical and experimental work on the OFC have been dominated by the idea that it regulates emotion and enhances behavioral flexibility through inhibitory control. In support of this idea, profoundly altered emotion regulation is a hallmark of damage or dysfunction within OFC. In addition, OFC damage yields an impairment in the ability to rapidly alter object-reward associations, as assessed in the object reversal learning task, a finding taken to support the role of OFC in inhibitory control. This influential result has been replicated many times, but our research has shown that the interpretation of this finding has been incorrect.<br /><br />Our earlier work showed that subtotal fiber-sparing, excitotoxic lesions of OFC failed to produce the expected changes in behavioral flexibility and emotion regulation. This failure, however, may have resulted because complete OFC lesions are needed to produce the classic behavioral effects. Alternatively, however, the effects of OFC damage may have depended on inadvertent damage to fiber tracts running near or through OFC and not on the function of OFC per se. To examine these possibilities we assessed subjects with excitotoxic lesions of OFC on two tests of inhibitory control (object reversal learning and snake fear) and one of updating object valuations, like the tasks described above. Unlike aspirations lesions of OFC, damage limited to cells in this area, but sparing fibers, did not affect either behavioral flexibility, as measured by object reversal learning, or emotion regulation, as reflected in measures of snake fear. These complete, excitotoxic lesions of OFC did, however, cause the same impairment in updating valuations that follows aspiration lesions of the same area. In a follow-up experiment, aspiration of a narrow strip of cortex in the posterior OFC reproduced the often-replicated impairments in object reversal learning and the blunting of snake fear caused by aspiration lesions of the entire OFC. Taken together, these findings show that inadvertent damage to fibers passing near or through OFC causes the impairments in behavioral flexibility and emotion regulation typically attributed to OFC. The results also support the idea that the OFC performs a more specific function in reward-guided behavior and emotion than currently thought, and indicate that this function includes the updating of object valuations according to current motivational states. We can reject the influential idea that the primary function of the OFC involves inhibitory control.  Although loss of neurons in OFC per se is not responsible for the impairment in reversal learning or the dysregulation of snake fear, loss of neurons in some other parts of the frontal cortex presumably causes these classic results. Future studies will need to identify the specific frontal areas that mediate behavioral flexibility and emotion regulation.<br /><br />We have also studied the contribution of the amygdala to emotional processes. Learning, memory, attention and perception are all influenced by amygdala activity when subjects are perceiving and encoding emotional stimuli. Lesion studies have shown that the perception of emotional content of stimuli is affected by amygdala damage. For example, previous work on this project has shown that amygdala damage disrupts snake fear. Nevertheless, there is little work that assesses the contribution of the amygdala to social behavior in a rigorous manner. Accordingly, we examined the role of the amygdala in an attention task with social and nonsocial stimuli. Subjects with bilateral amygdala damage and control subjects performed an attention task in which they viewed social stimuli (pictures of a socially relevant portion of a face, such as the eye or mouth) or nonsocial stimuli (such as a geometrical shape). After viewing the stimuli, the subjects made a saccade to a visible target. Control subjects showed a significantly higher latency to initiate a saccade when presented with a social stimulus compared to a nonsocial one. By contrast, subjects with amygdala lesions showed the same latency to saccade for social and nonsocial stimuli, thereby indicating a lack of attention to social cues. These data show that the amygdala plays a crucial role in attending to and recognizing social cues.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81233&allpubs=Y&isajaxlink=Y&_UserReference=57DDE598E2C4A5A95B38D084','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Clark AM, Bouret S, Young AM, Murray EA, Richmond BJ (2013) Interaction between orbital prefrontal and rhinal cortex is required for normal estimates of expected value. J Neurosci 33:1833-45.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23365223?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3725547/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23365223
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3725547 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Rhodes SE, Murray EA (2013) Differential effects of amygdala, orbital prefrontal cortex, and prelimbic cortex lesions on goal-directed behavior in rhesus macaques. J Neurosci 33:3380-9.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23426666?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3711145/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23426666
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3711145 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Rudebeck PH, Saunders RC, Prescott AT, Chau LS, Murray EA (2013) Prefrontal mechanisms of behavioral flexibility, emotion regulation and value updating. Nat Neurosci 16:1140-5
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23792944?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3733248/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23792944
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3733248 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

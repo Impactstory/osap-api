@@ -1,0 +1,734 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002901</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002901-08</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Transgenic resources for neuroscience research
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lead Investigator</div></div>
+
+<div class="rowdiv">
+<div class="data">
+James M Pickel; AB, PhD
+<br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any LIs -->
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<!-- display SoRs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Supervisor of Record</div></div>
+<div class="rowdiv">
+<div class="data">
+ <!-- faculty test -->
+Susan G Amara; PhD 
+ <!-- faculty test -->
+<br />
+
+</div>
+</div>
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Transgenic Core, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Transgenic Core</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Lenegereshe  Baweke<br />
+
+
+
+
+Alice Catherine Dallstream<br />
+
+
+
+
+Yetemwork H Eshete<br />
+
+
+
+
+John A Okolonta<br />
+
+
+
+
+David  Slaughter<br />
+
+
+
+
+Lu  Teng<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+<div id="moresamestaff">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffu">6 of a total of 11 other  members are shown. </div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Heather A Cameron; PhD  (Unit on Neuroplasticity)<br />
+
+
+
+De Maw  Chuang; PhD  (Section on Molecular Neurobiology)<br />
+
+
+
+Lee E Eiden; PhD  (Section on Molecular Neuroscience)<br />
+
+
+
+Charles R Gerfen; PhD  (Section on Neuroanatomy)<br />
+
+
+
+Barry Bernard Kaplan; PhD  (Laboratory of Molecular Biology)<br />
+
+
+
+Zheng  Li; PhD  (Psychosis and Cognitive Studies Section)<br />
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaff','searchview.taf?_function=showmore&ios=S&ipid=86334&thisic=&isajaxlink=Y&_UserReference=6CB3199531D51BE15B38D4AC','moresamestaffu');  return false;">
+
+
+<span class="morelist">Show all 11</span></a>.</form></div>
+
+
+
+</div>
+</div>
+
+
+</div>
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+<div id="moresamestaffo">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffou">6 of a total of 23 other NIH members are shown.</div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Carsten Gerhart Bonnemann; MD (NINDS) <br />
+
+
+
+Robert A Colbert; MD, PhD (NIAMS) <br />
+
+
+
+Jeffrey S Diamond; PhD (NINDS) <br />
+
+
+
+Maria L Dufau Catt; MD, PhD (NICHD) <br />
+
+
+
+John M Hallenbeck; MD (NINDS) <br />
+
+
+
+Brandon K Harvey; PhD (NIDA) <br />
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaffo','searchview.taf?_function=showmore&ios=O&ipid=86334&isajaxlink=Y&_UserReference=6CB3199531D51BE15B38D4AC','moresamestaffou');  return false;">
+
+
+<span class="morelist">Show all 23</span></a></form></div>
+
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Guoping  Feng; PhD
+<i>(McGovern  Institute for Brain Research, Massachusetts Insititute of Technology)</i>
+<br />
+
+
+
+Patricio  Ray
+<i>(Children's National Medical Center)</i>
+<br />
+
+
+
+Erika  Sasaki
+<i>(Applied Developmental Biology, Central Institute for Experimental Animals)</i>
+<br />
+
+
+
+Neil  Shneider; MD, PhD
+<i>(Center for Motor Neuron BIology and Disease, Columbia University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+transgenic, Phelan-McDermid Syndrome
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Over the course of human history the genetic bases of neuropsychiatric disorders have been suspected but have remained elusive. Only in the last decades have genetic risk factors been identified for a handful of mental disorders. Genetic variants that are directly linked to pathology are even more rare. And the mechanisms that lead to disease are difficult to trace because they are indirect. They can affect any of the processes of development, network connections and plasticity of the nervous system. Studying the dysfunction of variant alleles in patients is prohibitively invasive and is confounded by individual variations.<br /><br />Transgenic animals have been developed to determine the link between disease and these putative risk genes. And while complete and complex human behaviors cannot be observed in animals, there are biochemical, electrophysiological, and simple behaviors that can reveal the role of these genes in the development, adaption and function of the nervous system. We can capitalize on the shared similarities of the mammalian brain. Mammals share basic similarities that can reveal the role of putative disease variants. Rodents have been used in this type of research for decades. New technologies developed in the last few years now allow for more efficient and precise genetic engineering of research animals. The methods allow the genetic engineering in cells and in species that were previously intractable. <br /><br />The goal of this project is to produce transgenic animals of several species, develop transgenic techniques, and support neuroscience research that capitalizes on the knowledge of genetic roles in disease and the techniques to manipulate those genes in research animals.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The NIMH transgenic core facility has several major functions: 1) to produce transgenics for neuroscience research, 2) support research with associated techniques in genetic research in neuroscience, 3) develop new transgenic techniques and model systems and 4) engage in collaborative projects that promote genetic approaches to neuroscience research.<br /><br />1) Production <br />Metrics of production over the past year included: <br />a) 12 transgenic mouse projects produced by oocyte injection, with multiple lines produced for each project.<br />b) Ten transgenic rat projects produced by oocyte injection, with multiple lines produced for each project.<br />c) Seven mouse projects first altering the genes of embryonic stem (ES) cells, and then using those to produce mice. <br /><br />2) Technical Support <br />a) 96 transgenic rodent lines have been archived by cryopreserving germ cells or embryos. <br />b) 25 lines have been re-derived, by transferring lines from pathogen bearing animals into those with defined health status. <br />c) Transgenic project design and assistance have continued to be significant to NIH neuroscience labs without experience in producing transgenic animals.<br /><br />3) Technical development <br />a) Nuclease mediated genetic engineering: Over the last year the core facility has worked on several projects that use the CRISPR/Cas9 system to modify genes in cells and in animals. In collaboration with labs at the National Insitute on Drug Abuse (NIDA), we have investigated the function of different iterations of the CRISPR/Cas9 system in rats. With Nick Ryba in the National Institute of Dental and Craniofacial Research (NIDCR), we have worked on mice, and with Guoping Feng of the McGovern Institute at Massachusetts Institute of Technology (MIT) we have targeted genes in marmosets. Using this system across species has given the core the opportunity to generalize these methods. This includes optimizing concentration of the injected material, the site of injection in embryos, and the construction of targeting plasmids. <br /><br />b) Transgenic marmosets: The core's collaboration with Erika Sasaki at the Central Institute for Experimental Animals in Kawasaki, Japan continue this year. Methods for harvesting oocytes, in vitro maturation and fertilization are based with those used in Dr Sasaki's laboratory. Cooperation between the Core and Afonso Silva's laboratory in the National Institute of Neurological Disorders and Stroke (NINDS) also continues in an effort to produce marmosets that express the genetically encoded calcium indicator (GECI). Most recently a project using CRISPR/Cas9 technologies to targeted behaviorally relevant genes in marmoset oocytes (see below under collaboration). <br /><br />c) Rat ES lines: Rat ES lines, some of which ubiquitously express the orange fluorescent protein (OFP) have been created in the lab. These lines from Long Evans rats have been cultured for several passages, still express OFP and maintain a morphology that is representative of ES cells. Especially with rat ES lines this is not enough to insure that these lines will contribute to a chimeric animal. The OFP marker will allow the potential contribution of these ES cells to the different tissues of the chimeric animals, as well as germline transmission to offspring of these founder animals.<br /><br />d) Transgenic rat production: in collaboration with NIDA, the core produces transgenic rat lines that are designed in conjunction with transiently delivered transgenes to express genes in discrete populations of central nervous system neurons. These lines are produced in the core facility and then screened for useful expression patterns in NIDA laboratories. This year, four of these lines have been characterized to the point where they are in use in laboratories in NIMH, NINDS and NIDA. We have been collaborating to use the CRISPR/Cas9 system to target specific genes as well as to increase the efficiency of targeting with replacement sequences directed to specific genetic loci.<br /><br />e) Support techniques: several techniques are under development to increase the capacity of the core's support functions. Freezing mouse sperm and improving IVF by using newer methods is a major effort. Freezing rat sperm and completing IVF at an acceptable level is a challenging task in all laboratories, but having consulted with investigators in Japan and Spain, these methods will be improved.<br /><br />4) Collaborative projects: <br />Targeting an autism gene in non-human primates: Autism spectrum disorders have been linked to several genes but Phelan-McDermid Syndrome has been most closely associated with a single gene: SHANK3. Though other genes in the telomeric region of chromosome 22q my also be involved in creating or effecting the symptoms of the disease. The protein coded by SHANK3 is a component of the post synaptic density (PSD) and incorporates multiple structural motifs that bind other PSD proteins (SH3, PDZ, ankrin, Homer-binding regions). These features indicate that SHANK3 plays a role in the structure as well as the function of the synapse. In mice the inactivation of Shank3 causes deficits in social and repetitive behaviors as well as electrophysiological and circuit disruptions (Peca et al. Nature 472:437, 2011).<br /><br />Rodent models, including the one cited above have been useful in studying the conserved behaviors and functions of mammals, but the spectrum of autism diseases have a range that is lost in the translation of experimental results from rodents to primates. To build on their work in rodents, Guoping Feng's laboratory at the McGovern Institute at the MIT has developed a nuclease-mediated targeting CRISPR/Cas9 system that we have injected into marmoset oocytes. These oocytes have been harvested from the ovary of superovulated donors and allowed to mature in vitro to a specific developmental stage, been fertilized in vitro (IVF), injected with the targeting guide RNAs and the nuclease that specifically cuts the Shank3 locus. These embryos have been analyzed, and the SHANK3 locus is indeed disrupted.<br /><br />Learning and memory: The effect of specific and tightly controlled protein synthesis on learning and memory was studied. In addition, transgenic mouse models have been used to show the role of specific peptide-expressing cells to influence the link between fear and behavior and learning.<br /><br />Manipulating circuitry: Mice have been produced for two separate laboratories which have specific neurons that could be rendered transiently inactive by light activated ion channels. Those laboratories are investigating different neural circuits that are active in learning and addiction.<br /><br />Addictive and reward behavior: Lines of transgenic rats that express GFP in response to afferent input activation of the fos gene were generated in the core facility. These rats are being used by Bruce Hopes laboratory in NIDA to study patterns of neural activity in response to addictive drugs and most recently in the role of stress in reducing the re-establishment of rewarded behavior.<br /><br />mRNA trafficking in neurons: An RNA stem loop structure is necessary for the translocation of message to specific cell compartments of the neuron. Mice that overexpress mRNA with this structure have been produced in an effort to disrupt this translocation machinery. By expressing this transgenic mRNA in different neuronal subtypes, the role for this mechanism for normal function is being studied. In addition, this mechanism could be useful to target specific messages specifically to the synapse. <br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86334&allpubs=Y&isajaxlink=Y&_UserReference=6CB3199531D51BE15B38D4AC','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by reference within the summary, then by publication type and author name.
+</p>
+
+
+
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div> <div style="margin: -1.6em 0px 5px 2em;">Kavarthapu R, Tsai-Morris CH, Fukushima M, Pickel J, Dufau ML (2013) A 5-flanking region of gonadotropin-regulated testicular RNA helicase (GRTH/DDX25) gene directs its cell-specific androgen-regulated gene expression in testicular germ cells. Endocrinology 154:2200-7
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23546600?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3740490/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 23546600
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3740490 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div> <div style="margin: -1.6em 0px 5px 2em;">Samie M, Wang X, Zhang X, Goschka A, Li X, Cheng X, Gregg E, Azar M, Zhuo Y, Garrity AG, Gao Q, Slaugenhaupt S, Pickel J, Zolov SN, Weisman LS, Lenk GM, Titus S, Bryant-Genevier M, Southall N, Juan M, Ferrer M, Xu H (2013) A TRP channel in the lysosome regulates large particle phagocytosis via focal exocytosis. Dev Cell 26:511-24
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23993788?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3794471/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 23993788
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3794471 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+ <!-- ends ordered rows -->
+
+
+
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,834 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002895</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002895-07</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Forebrain GABAergic cell-selective genetic manipulation in mice
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+ <!-- faculty test -->
+
+Kazutoshi  Nakazawa; MD, PhD
+
+ <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Unit on Genetics of Cognition and Behavior, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Unit on Genetics of Cognition and Behavior</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 9 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Veronika  Zsiros<br />
+
+
+
+Kazuhito  Nakao<br />
+
+
+
+Stefan Matthew Kolata<br />
+
+
+
+Zhihong  Jiang; PhD<br />
+
+
+
+Gregory Ronald Rompala<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Hadjira  Ishaq<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=81240&onameset=Unit on Genetics of Cognition and Behavior&isajaxlink=Y&_UserReference=EE356FF761679E515B38CFDB','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 9</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Peixiong  Yuan; MD (Laboratory of Molecular Pathophysiology and Experimental Therapeutics)<br />
+
+
+
+
+
+
+
+
+
+
+
+
+Dennisse  Jimenez  (Laboratory of Molecular Pathophysiology and Experimental Therapeutics)<br />
+
+
+
+Keri  Martinowich  (Laboratory of Molecular Pathophysiology and Experimental Therapeutics)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Andrew  Holmes; PhD (NIAAA) <br />
+
+
+
+
+
+
+
+
+
+
+
+
+Abdel G Elkahloun; PhD (NHGRI) <br />
+
+
+
+David Michael Lovinger; PhD (NIAAA) <br />
+
+
+
+Yolanda  Mateo Gonzalez; PhD (NIAAA) <br />
+
+
+
+Daniel A Paredes; PhD (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Kent C Lloyd; PhD
+<i>(University of California, Davis)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Timothy  Bussey
+<i>(University of Cambridge)</i>
+<br />
+
+
+
+Samantha  Fung; PhD
+<i>(Schizophrenia lab, Neuroscience Research Australia)</i>
+<br />
+
+
+
+Z Josh Huang; PhD
+<i>(Cold Spring Harbor Lab)</i>
+<br />
+
+
+
+Lisa  Saksida
+<i>(University of Cambridge)</i>
+<br />
+
+
+
+Cynthia Shannon Weickert; PhD
+<i>(Psychiatry, Prince of Wales Medical Research Institute)</i>
+<br />
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Gamma oscillation, Schizophrenia, GABAergic neurons, NMDA receptor, major depressive disorder, Animal Model, Cre recombinase, ErbB4, Gad67, Transgenic mice
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Our research objective is to understand the mechanisms underlying the postnatal development of cortical circuitry and how disruption of normal development can lead to neuropsychiatric disorders.  Because the maturation of excitatory circuits relies on inhibition mediated by GABA released from these interneurons, we focus on the development and function of cortical GABAergic neurons, disturbance of which could lead to a variety of neurodevelopmental disorders. We were particularly interested in the roles of the N-methyl-D-aspartate (NMDA) subtype of glutamate receptor channels (NMDARs), a major brain excitatory receptor, and a major GABA synthesizing enzyme, glutamic acid decarboxylase-67(Gad67).  It has been suggested that reduced GABAergic function in schizophrenia may result from hypofunction of NMDARs. In fact, low-dose chronic treatment with NMDAR antagonists, which induces a variety of psychotic symptoms in humans, has been shown to decrease expression of GABA synthetic enzymes in the rat frontal cortex. This suggests that at the systems level inhibitory networks may be particularly affected by antagonism of glutamatergic receptors.  Interestingly, decreased Gad67 expression in postmortem brains is not only observed in schizophrenia as mentioned above, but also in mood disorders and in autism.  Despite the circumstantial evidence suggesting that dysregulation of PV-positive GABAergic cells is involved in major mental illnesses, it has been extremely difficult to evaluate the causal relationship because PV-positive GABA cells are sparsely distributed throughout the cortex, which hampers gene or drug targeting specifically into these cells. <br />To overcome this difficulty, we have created a novel genetic manipulation system in which Cre recombinase expression is confined to a subset of cortical and hippocampal neurons in mice. This allows us to manipulate any gene of interest selectively in these interneurons in behaving animals. Previously, we generated a Ppp1r2-Cre/GluN1 KO mutant mouse line in which the genetic elimination of the NR1 subunit (Grin1 or GluN1) of NMDA receptors began at postnatal day 7 and was targeted to 40-50% of cortical and hippocampal GABAergic cells, primarily parvalbumin positive ones. We found that the mutants displayed a constellation of phenotypes from cellular, physiology to behavior levels, which resembled human schizophrenia symptoms. Therefore, it provided strong experimental support for the long-standing hypothesis that corticolimbic NMDAR hypofunction is a primary site of schizophrenia pathogenesis (Belforte et al., 2010; Nakazawa et al, 2012).  This year, we have set four specific research objectives.  (1) We sought to explore whether oxidative stress contributes to schizophrenia-like phenotypes in Ppp1r2-cre/fGluN1 KO mice, and to elucidate the underlying mechanism involved in redox dysfunction.  (2) Our results using Ppp1r2-Cre/fGluN1 KO mutant mice suggest that uncoordinated firing of cortical pyramidal neurons is a key event in the development of schizophrenia-like phenotypes.  We hypothesize that this lack of coordination could stem from impaired evoked GABA release at presynaptic terminals of NMDAR-deleted interneurons during the sensitive period, and evaluated this hypothesis.  (3)  We assessed whether NMDAR hypofunction in the cortical glutamatergic neurons also play a role in schizophrenia-like phenotypes by analyzing G35-3cre/fGluN1 KO mutant mouse line, in which the genetic elimination of the NR1 subunit began postnatally and was targeted to most cortical excitatory neurons. (4) We analyzed a Ppp1r2-Cre/Gad1 KO mutant mouse line to understand the role of cortical GABA in the physiology and behavior related to the neuropsychiatric disorders.  <br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Since last year we have focused on the following four research questions. (1) How does oxidative stress exacerbate the behavioral phenotypes of Ppp1r2-Cre/fGluN1 KO mutants?  We investigated whether oxidative stress is involved in the emergence of schizophrenia-like behaviors in this animal model.  Consistent with this idea, post-weaning social isolation (PWSI) augmented oxidative stress levels particularly in cortical PV interneurons and precipitated anxiety-like behavior in 8 week old mutants, a point at which group-housed animals displayed no such behavior. Interestingly, in mPFC of adult mutants we found decreased expression (both mRNA and protein) of a master regulator of mitochondria energy metabolism and anti-oxidation, PGC1 (peroxisome proliferator activated receptor gamma coactivator 1), which is normally highly expressed in fast-spiking PV interneurons. PWSI exacerbated the down-regulation of PGC1 in the mutants. Therefore, elevation of oxidative stress level in mutants appears to be due to impaired anti-oxidant defenses system, which occurs as a downstream consequence of the depletion of NMDARs in early postnatal corticolimbic interneurons. Chronic treatment with the antioxidant/NOX inhibitor apocynin, beginning from postnatal 2 weeks, largely diminished the signs of oxidative stress and alleviated anxiety and the spatial working memory deficit.  Our results suggest that oxidative stress plays a critical role in PV interneuron dysfunction presumably through PGC1 downregulation and in the pathogenesis of schizophrenia-like phenotypes (Jiang et al, Biol Psychiatry, 2013).  We have also submitted a review manuscript entitled Convergence of genetic and environmental factors on parvalbumin-positive interneurons in schizophrenia to Frontier in Behav Neurosci.<br />	(2) Periodic auditory stimulation entrains the electro-encephalogram (EEG) to a specific phase and frequency, often referred to as the auditory steady-state response (ASSR). In both human and animal models, the ASSR has been used to assess the functional integrity of neural circuits that support synchronization.  In order to investigate this phenomenon in a rodent model, we recorded LFPs directly from the primary auditory cortex of GABAergic interneuron-specific NMDAR hypofunction mice (Ppp1r2-Cre/fGluN1 KO mice), using the ASSR paradigm to assess both tone-evoked ASSRs and baseline LFP fluctuations. We then compared the relation of these two measures subjects. In mice with NMDAR hypofunction in cortical GABA neurons, we found that click train-evoked oscillatory LFP responses from auditory cortex are diminished. Specifically, these mutants show diminished power and phase locking at 40-Hz. Although the broadband baseline LFP power is also elevated, the signal-to-noise ratio reduction in the mutants appears to be largely due to external stimulis inability to evoke normal oscillatory power (Nakao et al., submitted).<br />	Because Ppp1r2-Cre-mediated genetic manipulation is confined to interneurons, it is unlikely that the defect is intrinsic to excitatory pyramidal neurons. Why, then, is the synchronized power of postsynaptic excitatory neurons diminished in Ppp1r2-cre/fGluN1 KO mutants? Postulating that the defect is one of synchrony between GABAergic inputs and excitatory neurons, we used double-patch recordings of sIPSCs from nearby pyramidal cells in tissue slices to test the theory. If synchronous GABAergic inputs are disturbed, IPSC events between nearby pyramidal neurons will be desynchronized. As expected, we found this to be true in mPFC slices from mutants at P28-P42. These results suggest that in our mutants, spike transmission, which must be precise to translate impulses into the correct postsynaptic responses, is disturbed.  In order to identify the cellular mechanisms and impairments that best explain these mutant phenotypes, we assessed several mechanisms implicated in the desynchronization of IPSC events in postsynaptic pyramidal neurons. We applied brief pulses of current to presynaptic fast-spiking neurons to evoke unitary IPSCs in postsynaptic pyramidal neurons. This allowed us to see whether or not action potential impulses arriving at presynaptic terminals fail to evoke proper GABA release. In the mutants P28-P42, we found, GABA release is initially depressed, but subsequently IPSC amplitudes gradually increase. This pattern stands in sharp contrast to the unitary IPSC patterns observed in floxed controls, in which synapse transmission in response to the first impulse is robust and highly reliable. These results suggest that in these mutants, precise high-fidelity spike transmission at fast-spiking neuron/pyramidal neuron synapses is impaired (Zsiros et al, in preparation).<br />	(3)   Is NMDAR hypofunction in interneurons really crucial for schizophrenia-related phenotypes?  It is unclear whether NR1 ablation at other cell types, such as excitatory neurons, could also induce similar effects.  Since last year we utilized the Cre/loxP system to generate transgenic conditional knockout mice (G35-3-Cre/fGluN1 KO), in which NR1 deletion is largely confined to cortical glutamatergic neurons. In contrast with interneuron-specific NR1 KO mice, we found that these mice do not exhibit comparable significant schizophrenia-like phenotypes in tests for working memory, social behavior, psychostimulant sensitivity, MK-801 response, and anhedonia or amotivation. Only prepulse inhibition (PPI) of acoustic startle was impaired in the mutants, suggesting attention deficits.  This supports the refined hypothesis that NMDAR hypofunction must occur in cortical interneurons in order to model the hallmark symptoms of schizophrenia in rodents (Rompala et al, PLOS One, 2013).<br />(4) What is the impact of GABA decrease or Gad67 reduction on physiology and behavior?  To directly assess the impact of Gad67 reduction in psychiatric disorder phenotypes, using the same Ppp1r2-Cre line we have been characterizing a novel transgenic mouse line in which Gad67,  was ablated following postnatal day 7 selectively in 50% of cortical and hippocampal interneurons. Gad67 expression was reduced by 50% with a concomitant increase in Gad65 and the GABA levels in the mutant cortex and hippocampus were also significantly reduced after adolescence. This manipulation recapitulated several specific features common to major depression including anhedonia, a lack of motivated behavior, and pronounced social withdrawal. However, there were no impairments in tests of behavioral despair or schizophrenia-related behaviors (prepulse inhibition and spatial working memory). Perhaps consistent with this specific behavioral phenotype, in the nucleus accumbens amphetamine-evoked dopamine release.  In all, these results suggest a relationship between the anhedonia aspect of major depressive disorders and impairments in subcortical dopamine regulation through alterations in cortical interneuron networks (Kolata et al, submitted).<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81240&allpubs=Y&isajaxlink=Y&_UserReference=EE356FF761679E515B38CFDB','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Brigman JL, Daut RA, Wright T, Gunduz-Cinar O, Graybeal C, Davis MI, Jiang Z, Saksida LM, Jinde S, Pease M, Bussey TJ, Lovinger DM, Nakazawa K, Holmes A (2013) GluN2B in corticostriatal circuits governs choice learning and choice shifting. Nat Neurosci 16:1101-10
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23831965?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3725191/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23831965
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3725191 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Jiang Z, Rompala GR, Zhang S, Cowell RM, Nakazawa K (2013) Social isolation exacerbates schizophrenia-like phenotypes via oxidative stress in cortical interneurons. Biol Psychiatry 73:1024-34
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23348010?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3638045/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23348010
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3638045 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Nakazawa K, Zsiros V, Jiang Z, Nakao K, Kolata S, Zhang S, Belforte JE (2012) GABAergic interneuron origin of schizophrenia pathophysiology. Neuropharmacology 62:1574-83.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/21277876?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3090452/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 21277876
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3090452 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Rompala GR, Zsiros V, Zhang S, Kolata SM, Nakazawa K (2013) Contribution of NMDA receptor hypofunction in prefrontal and cortical excitatory neurons to schizophrenia-like phenotypes. PLoS One 8:e61278
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23613827?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3628715/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23613827
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3628715 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

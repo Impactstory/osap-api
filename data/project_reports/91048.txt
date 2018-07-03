@@ -1,0 +1,500 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002768</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002768-18</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Subcellular Compartmentalization of Neuronal Gene Expression
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Barry Bernard Kaplan; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/barry-kaplan" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neurobiology, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neurobiology</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 8 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Anthony  Gioio; MS<br />
+
+
+
+Amar Nath  Kar<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Cai Y Chen; BS<br />
+
+
+
+
+Jenna Rose Gale; BA<br />
+
+
+
+
+Noreen May Gervasi<br />
+
+
+
+
+Shane Lauisha Scott<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=91048&onameset=Section on Neurobiology&isajaxlink=Y&_UserReference=F990897550E681F45B38D597','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 8</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Jeffrey A Kowalak; PhD  (Section on Analytical Biochemistry)<br />
+
+
+
+James M Pickel; AB, PhD  (Division of Intramural Research Programs)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Abdel G Elkahloun; PhD (NHGRI) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Intra-axonal protein synthesis, axonal mRNAs, microRNAs, nuclear-encoded mitochondrial mRNAs, axonal RNA trafficking, zipcodes, RNA-protein complexes/granules, proteomics, sympathetic neurons, Campenot compartmented cell culture system
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The goals of the Section on Neurobiology are (1) to define the function(s) and regulation of the local protein synthetic system present in the axon; and (2) to delineate the mechanism(s) mediating the intracellular trafficking of an mRNA population that is present in the axon and presynaptic nerve terminal. In addition, one of the goals of the Section is to delineate the regulatory role played by small, non-coding RNAs (i.e., microRNAs) in intra-axonal protein synthesis. The central hypothesis of the Sections research program is that the local translation of these mRNAs plays a key role in the growth and development of the nerve terminal and the viability/function of the axon, per se. It is believed that dysfunction of either the normal axonal trafficking of mRNA or the intra-axonal protein synthetic system will result in widespread anomalies in brain function and behavior. This hypothesis has direct clinical relevance as there is a growing consensus that dysregulation of local protein synthesis may play an important role in the pathophysiology of several neurodevelopmental and/or neurodegenerative disorders. Hence, the local protein synthetic system present in the axon and presynaptic nerve terminal might serve as a heretofore unrecognized focus for the pathobiology of psychiatric disorders. The specific aims of this year's research effort were five-fold: (1) To initiate investigation of the molecular mechanism(s) that regulate the selective transport of mRNA to the axon.  In this regard, we defined the regulatory sequences (i.e., zipcodes) present in the 3untranslated regions of the mRNAs and evaluated the hypothesis that these sequences serve as a nucleation site for the formation of ribonucleoprotein complexes (i.e., trafficking granules);  (2) Define the protein constituents of these RNP trafficking complexes; (3) Delineate the role played by specific microRNAs in the regulation of the intra-axonal protein synthetic system; (4) Explore the physiological and behavioral consequences of the dysregulation of the normal pattern of RNA trafficking, and the fidelity of local protein synthesis in the axon; and (5) Continue to evaluate the hypothesis that the mRNAs encoding the catecholamine neurotransmitter biosynthetic enzymes are present and are locally translated into protein in the axon and presynaptic nerve terminal. These studies will also address the postulate that the synthesis, release, and reuptake of the catecholamine neurotransmitters are locally regulated in the distal structural/functional domains of the neuron.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Although once highly controversial, it is now well-accepted that there exists a diverse population of mRNAs and non-coding microRNAs in the distal structural/functional domains of the neuron to include the dendrite, axon, and presynaptic nerve terminal.  It has also become well-established that proteins synthesized from these mRNA templates play a key role in the development and long-term viability of the axon. In 2015, we continued our investigation into the composition and function of these heterogeneous axonal RNA populations.  This past year also represented a significant transitional period for the Section on Neurobiology.  For example, during the past fiscal year, the Section relocated its research facility from Building 10, which it had occupied for the past several years, to Building 49.  The extensive period of time spent in the preparation for the move greatly facilitated the relocation as the laboratory was fully functional within ten days after the move.  In addition, in November 2013, the Section Chief, Dr. B.B. Kaplan, stepped-down from his administrative post as Director of Fellowship Training, a position that he held for the past eighteen years, to commit 100% of his time and effort to research and management of the Section's research program.  <br /><br />In regard to this past years research activities, members of the Section reported that the mRNAs encoding the key enzymes comprising the catecholamine neurotransmitter biosynthetic pathway were present in the axons and presynaptic nerve terminals of sympathetic neurons and were indeed locally translated.  These findings are at odds with the widely held belief that these enzymes are synthesized in the cell body of the neuron and are later transported to their ultimate sites of function.  Based, in part, on these findings, we now postulate that the synthesis of the proteins mediating the synthesis of this family of neurotransmitters is regulated locally and that the dysregulation of this regulatory network might play a key role in the pathophysiology of both developmental neuropsychiatric disorders and neurodegenerative disease.  The findings, derived from this aspect of the Sections research program, have been submitted for publication (see Gervasi et al., 2015).  <br /><br />Second, we continue our studies on the regulation of local mitochondrial activity.  During the past year, using a microarray analysis conducted in collaboration with the National Human Genome Research Institute (NHGRI) Microarray Core Facility (Dr. Elkahloun, Director) and quantitative PCR methodology, we discovered that there are over 350 nuclear-encoded mitochondrial mRNAs present in the axon, and that the function of this organelle, as well as the growth of the axon are dependent on the local translational activity of these mRNAs.  In addition, the local translational activity of several of these mRNAs is modulated by a family of small (approximately 20-25 nucleotides), non-coding RNAs called microRNAs (e.g., Cytochrome c-Oxidase IV and ATP synthase). Interestingly, the precursors of these miRNAs are selectively transported to the axon and associated (i.e., co-localized) with the mitochondria itself. Based upon these findings, it is hypothesized that these precursor-miRNAs serve as a reservoir in the activity-dependent regulation of the levels of the mature, biologically functional forms of the molecule and are situated in the axon in the form of stable ribonucleoprotein particles that are juxtaposed to the organelle itself.  These new observations were recently submitted for publication (Kar et al., 2015; Vargas et al., 2015).  <br /><br />This past year, we have also broadened our investigations into the function of miRNAs in the axon through an international collaboration.  This newly established collaborative research effort has already begun to bear fruit.  For example, we have discovered that miRNA-338 regulates the expression of several axon guidance genes which markedly affect the migration and differentiation of cortical neurons during development (Kos et al., 2015).  Moreover, we have just completed a pilot study on the involvement of local miRNA expression in neuropsychiatric disorders using a rat model of autism (Olde Loohius et al., 2015).<br /><br />Last, in 2015, we initiated an exciting new series of proteomic investigations into the molecular mechanism(s) regulating the trafficking of RNA to the axon.  This work is being conducted in collaboration with the NINDS/NIMH Proteomics Core (J. Kowalak, investigator).  These RNAs appear to be transported to the axon in association with a large number of proteins (approx. 80-100) which form a RNA-protein trafficking granule/complex. Our initial findings describing the experimental paradigm, as well as the components of the COX IV mRNA trafficking granule are in press (Kar et al., 2015).  In the future, we plan to extend these studies to include the axonal trafficking of the mRNAs encoding additional nuclear-encoded mitochondrial mRNAs (e.g., ATP Synthase), the mRNAs encoding the catecholamine biosynthetic enzymes (e.g., tyrosine hydroxylase and dopamine beta hydroxylase), as well as precursor miRNAs. Moreover, we plan to create a series of transgenic animal lines designed to disrupt the normal trafficking of mRNAs to CNS axons in both developing and adult animals.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91048&allpubs=Y&isajaxlink=Y&_UserReference=F990897550E681F45B38D597','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+No publications during this reporting period
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,504 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002736</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002736-18</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neural Substrates Of Stimulus Recognition And Association Memory
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Elisabeth Adams Murray; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/elisabeth-murray" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neurobiology of Learning and Memory, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neurobiology of Learning and Memory</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Dawn A Lundgren; MA<br />
+
+
+
+Ping-Yu  Chen<br />
+
+
+
+Tianming  Yang<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Peter  Rapp; PhD (NIA) <br />
+
+
+
+Bo  Zhang (NIA) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Perirhinal Cortex, Entorhinal cortex, Hippocampus, Object identification, Sensory Modalities
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Memory deficits result from brain damage due to rupture of aneurysms of the anterior communicating artery, anoxic events, viral infections (e.g., Herpes encephalitis), degenerative diseases (e.g., Alzheimers disease, semantic dementia) and other pathology that affects the ventromedial frontal lobe and medial temporal lobe. Amnesia refers to a cognitive impairment in a certain kind of memory, associated most often with damage to the hippocampus, medial thalamus, and frontal cortex. Memory is more than a simple record of facts and events; it permits us to embed ourselves in these facts and events to provide the feeling of a coherent, unified life experience. When amnesia is severe, independent life activities become virtually impossible.<br />Much research has focused on the role of the medial temporal lobe (MTL) in conscious memory. The current textbook view of memory is that it depends on the MTL memory system, which has two principal elements: first, that the MTL subserves memory but not perception; and, second, that the many anatomically distinct parts of the MTL function together in the service of memory. According to this view, the perirhinal cortex is part of the MTL, but not the ventral visual stream or object-analyzer pathway, which has well-known perceptual functions. An alternative, called the perceptual-mnemonic perspective, is that perirhinal cortex has a role in visual perception as well as in memory, and that it is part of the ventral visual stream. Much of the earlier work on this project investigated the selectivity for perirhinal cortex function in memory, as contrasted with perception. Our results demonstrated conclusively that the perirhinal cortex is important for both perception and memory. Current work on this project is directed to the second element, the idea that the MTL functions as a unitary system. Specifically, we are investigating the role of the hippocampus and other MTL structures in different types of memory.<br />Accordingly, the overall objective of this project is to understand how memories are stored in the brain and the way in which brain structures work together to subserve memory. The proximate goals of the project are to: (1) determine the neural bases for rapidly formed memories; (2) to dissect the precise structures within the MTL that contribute to fast learning of associations between images and actions; and (3) to test the contribution of structures outside the MTL to memory, particularly the prefrontal cortex. This knowledge is expected to improve the ability to treat memory disorders caused by brain injury or degenerative disease processes.<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Our most recent work on this project has made use of two measures of memory, both involving objects. One type of memory, known as paired associate learning, involves the arbitrary association between two different visual stimuli. A second measure of memory involves the arbitrary association between visual stimuli and spatially-directed responses, known as visuomotor conditional learning. Amnesic patients are notoriously poor in acquiring arbitrary associations, and so these kinds of behavior serve as reliable indicators of memory function.<br /><br />In visuomotor conditional learning, subjects are presented with one of three images on a touch screen and learn which one of three identical target boxes is correct on that trial. The target boxes appear in fixed locations. If the subject chooses the correct location cued by the image for that trial, a reward is delivered. In essence, the subjects learn that each image is associated with a particular spatially directed goal or response. Subjects learn three problems at a time in sessions with novel stimuli, called novel sessions, which because they use new stimuli require the formation of new associative memories. In addition, behavior can be compared for familiar memories, which use well learned stimuli. These sessions are called familiar sessions. In paired associate learning, subjects see images in the same way as in the visuomotor conditional learning. The difference is that they choose a target image associated with it rather than a target box in a fixed location. As in visuomotor conditional learning, behavior on novel and familiar sessions can be contrasted.<br /><br />There is evidence that the hippocampal system is not necessary for paired associate learning. Murray et al. (1993) found that paired associate learning was unaffected by complete removal of the hippocampus. This could mean that the hippocampal system is unnecessary for associative learning when neither component of the association has a relevant spatial attribute. But recent work on this project appears to rule out that account (Brasted et al., 2002, 2003, 2005). This research showed that hippocampal-system damage, specifically a transection of the fornix, impaired fast learning of visuomotor conditional associations even when both the visual stimuli and the responses were nonspatially differentiated. This finding points to another possibility for the results described by Murray et al. (1993). According to this explanation of our paired associate learning results, there was no deficit because subjects learned the paired associates slowly in that prior study. This hypothesis predicts that hippocampal-system damage might cause deficits in the fast learning of paired associates. Accordingly, we are engaged in testing the role of the hippocampus in paired associate learning using a fast learning procedure. This research tests a more general theory of hippocampal function, which holds that it subserves rapid acquisition, as a pattern-associator network, whereas the neocortex acquires similar information, but more slowly. In the context of paired associate learning, this theory implies that the perirhinal cortex, a neocortical area, subserves the slower form of learning and that the hippocampal system subserves the faster form. We have now developed procedures that allow subjects to acquire both visuomotor conditional and paired associations rapidly, within a single testing session. The results from this project could resolve crucial issues about hippocampal and perirhinal cortex function.<br /><br />A second aim of this project is to determine what part of the hippocampal system is essential for fast visuomotor conditional learning. To determine the role of the hippocampus in this task, we assessed the effects on behavior of bilateral infusions into the hippocampus of a neural inhibitor or saline. Our data indicate that there is no effect of hippocampal inactivation on visuomotor conditional learning relative to saline infusion or no infusion. For both novel and familiar sessions, hippocampal inactivation did not impair the overall performance or the rate of learning across blocks of trials. These findings suggest that regions outside the hippocampus proper, either alone or together with the hippocampus, contribute to performance on this task. Candidates include the subicular complex and the entorhinal cortex. Accordingly, we assessed the contribution to visuomotor conditional learning and performance of one other structure in the MTL, the entorhinal cortex. The entorhinal cortex is not only a major source of inputs to the hippocampus, but also has widespread projections to other cortical fields implicated in memory, including the medial prefrontal cortex. Bilateral inactivation of the entorhinal cortex impaired performance on both familiar and novel sessions, and slowed the within-session learning rate during novel sessions.<br /><br />A future aim of this project is to examine the role of MTL-prefrontal interactions in fast associative learning. We predict that both direct and indirect prefrontal-hippocampal connections, via the fornix and entorhinal cortex, respectively, are critical for rapid, arbitrary associative learning of both types studied in this project. If confirmed, this hypothesis could promote the development of therapeutic interventions aimed as facilitating one pathway when damage or disease disrupts the other.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81196&allpubs=Y&isajaxlink=Y&_UserReference=E9517412067F4D955B38D4E9','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Murray EA, Wise SP (2012) Why is there a special issue on perirhinal cortex in a journal called hippocampus? The perirhinal cortex in historical perspective. Hippocampus 22:1941-51
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22987673?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3951742/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22987673
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3951742 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

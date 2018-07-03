@@ -1,0 +1,449 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002768</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002768-16</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Subcellular Compartmentilization of Neuronal Gene Expression
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Barry Bernard Kaplan; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/barry-kaplan" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neurobiology, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neurobiology</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Anthony  Gioio; MS<br />
+
+
+
+Amar Nath  Kar<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Cai Y Chen; BS<br />
+
+
+
+
+Noreen May Gervasi<br />
+
+
+
+
+Kathryn L Reichard<br />
+
+
+
+
+Ching-Yu  Sun; MA<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Kazutoshi  Nakazawa; MD, PhD  (Unit on Genetics of Cognition and Behavior)<br />
+
+
+
+James M Pickel; AB, PhD  (Division of Intramural Research Programs)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Intra-axonal protein synthesis, Catecholamine neurotransmitter synthesis, Micro RNAs, Nuclear-encoded mitochondrial RNAs, Nerve terminal, APT synthesis, Axon, Axonal Growth, Oxidative stress, Sympathetic neuron
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The goal of the Section on Neurobiology is to define the function(s) and regulation of intra-axonal protein synthesis and to delineate the mechanism(s) mediating the intracellular trafficking of a mRNA population that is present in the axon and presynaptic nerve terminal.  The central hypothesis of the Sections research effort is that the local translation of these mRNAs plays a key role in the growth and development of the nerve terminal and the viability/function of the axon per se.  It is believed that dysfunction of the axonal trafficking of mRNA and the intra-axonal protein synthetic system will result in widespread anomalies in brain function and behavior.  This hypothesis has direct clinical relevance as there is a growing consensus that dysregulation of local protein synthesis may play an important role in the pathophysiology of neurodevelopmental and/or neurodegenerative disorders.  Hence, the protein synthetic system present in the axon and presynaptic nerve terminal might serve as a heretofore unrecognized foci for the pathobiology of psychiatric disorders.  The specific aims of this years research effort were two-fold: (1) Define the regulatory role played by specific microRNAs in the regulation of intra-axonal protein synthesis to include modulation of the activity of key axonal translation initiation factors and nuclear-encoded mitochondrial mRNAs; and (2) Delineate the physiological and behavioral consequences of the disruption of the axonal trafficking of mRNA.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Axons and nerve terminals are unique subcellular structures of the neuron that play a critical role in the development and maintenance of neural connectivity.  One of the central tenets in neuroscience is that the protein constituents of these distal neuronal compartments are synthesized in the nerve cell body and are subsequently transported to their ultimate sites of function.  Hence, the structure and function of these highly specialized distal domains of the neuron are totally dependent on slow anterograde axoplasmic transport.  Although the majority of neuronal mRNAs are indeed transcribed and translated in the neuronal cell soma, it is now well-established that there exists a diverse population of mRNAs in the distal structural/functional domains of the neuron to include the axon and presynaptic nerve terminal.  It has also become well-accepted that proteins synthesized from these mRNAs play a key role in the development of the neuron and the function of the axon and nerve terminal.  <br />In previous studies, we reported the surprising finding that several nuclear-encoded mitochondrial mRNAs were present in the axon and that approximately 25% of the total protein synthesized locally in the nerve terminal was destined for the mitochondria.  Based upon these findings, we hypothesized that the local protein synthetic system played a critical role in the maintenance of the activity of the local mitochondrial population and ultimately, the function of the axon and presynaptic nerve terminal.  Most recently, we have reported that Cytochrome c oxidase IV (COXIV) and ATP synthase mRNAs are present in the axon.  These mRNAs encode proteins that are key components of the oxidative phosphorylation chain and are rate-limiting factors in the mitochondrions ability to generate ATP.  <br />During the past year, we completed studies on the regulation of the local expression of these two nuclear-encoded mitochondrial mRNAs by a brain-specific micro RNA-338.  Micro RNAs are small, non-coding RNA molecules that regulate the post-transcriptional expression of a large number of gene products.  The results of these experiments established that the miRNA-338 binding sites located in the 3UTR of COXIV and ATP synthase mRNAs were biologically active and that the co-ordinate regulation of the levels of these nuclear-encoded mitochondrial mRNAs in the axon had a profound effect on the axons metabolic activity and its capacity to generate energy.  In addition, the down-regulation of the expression of these mRNAs also had significant inhibitory effects on the growth of the axon and neuronal differentiation.  Our work on the composition and function of the axonal miRNA population was recently reviewed (Kaplan et al., 2013; see below).<br />This past year, we also discovered that mRNAs encoding two translation initiation factors were also present in the axon.  The results generated from this portion of our investigation establish that the local expression of these factors regulate the activity of the intra-axonal protein synthetic system.  The inhibition of local expression of these key proteins has a profound inhibitory effect on axon growth, as well as the long-term viability of the axon.  A manuscript describing these new findings was recently published  (Kar et al., 2013). Within the context of this study, we were successful in establishing a transgenic mouse line that over-expressed the COXIV and ATP synthase mRNA zip-code. This 38-nt hair-pin loop structure present in the 3UTR of these mRNAs regulates their trafficking to the axon.  The findings of our previous in vitro experiments indicate that over-expression of these sequences inhibits the normal transport of the endogenous mRNAs to the axon and disrupts the activity of the local mitochondria.  Our newly created transgenic animals over-express the zip-code specifically in neurons located in the deep layers of the cerebral cortex.  The over-expression of the zip-code in these neurons results in significant increases in ROS production and the manifestation of anxiety-like behavior in the transgenic mice.  A manuscript describing these new findings has been submitted for publication. (Kar et all., 2013; see below)<br />Last, we continue to conduct our exploratory, high-risk investigation designed to test the working hypothesis that the synthesis and release/reuptake of the catecholamine neurotransmitters are regulated locally in the axon and presynaptic nerve terminal.  In this regard, our preliminary data indicate that the mRNAs encoding all the enzymes of the catecholamine biosynthesis pathway are present in the axons of sympathetic neurons, and are locally translated.  Additionally, the levels of these mRNAs in the polysome fraction could be induced 5-to 8-fold by elevating the levels of cyclic AMP in the axon, a finding that suggests that the intra-axonal synthesis of these enzymes can be modulated by synaptic activity. These provocative results are in contrast to the commonly held belief (e.g., central dogma) that the catecholamine biosynthesis enzymes are synthesized in the cell body and are transported to their sites of function (i.e., nerve terminal) by slow anterograde axonal transport, and may ultimately lead to a paradigm shift in the manner in which we envision the regulation of neurotransmitter synthesis and release.<br /><br />Taken together, these results indicate that the local protein synthetic system plays a key role in the regulation of mitochondrial activity and axon growth, as well as neurotransmitter metabolism.  We anticipate that this line of investigation will augment our understanding of the molecular mechanisms that underlie neuronal development, regeneration, and plasticity and generate new avenues of research into the pathophysiology of mental illness.<br /><br /><br />Kaplan BB, Kar AN, Gioio AE, Aschrafi A. (2013). MicroRNAs in the axon and presynaptic nerve terminal. Fronteirs Cell Neurosci. In press<br /><br />Kar AN, Sun C-Y, Reichard K, Pickel J, Nakazawa K, Gervasi NM, Gioio AE, Kaplan BB (2013).   Dysregulation of the axonal trafficking of nuclear-encoded mitochondrial mRNAs alters axonal growth and mouse behavior. Dev. Neurobio. In revision.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81198&allpubs=Y&isajaxlink=Y&_UserReference=0A590F400F3543A45B38D4F3','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+No publications during this reporting period
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

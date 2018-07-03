@@ -1,0 +1,715 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002399</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002399-24</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Postmortem Brain Tissue Examination in Neuropsychiatric Disorders
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lead Investigator</div></div>
+
+<div class="rowdiv">
+<div class="data">
+Barbara K Lipska; PhD
+<br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any LIs -->
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<!-- display SoRs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Supervisor of Record</div></div>
+<div class="rowdiv">
+<div class="data">
+ <!-- faculty test -->
+Karen F Berman; MD 
+ <!-- faculty test -->
+<br />
+
+</div>
+</div>
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neuropathology, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neuropathology</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Kasey Nicole Davis<br />
+
+
+
+
+Joel  Kleinman; MD, PhD<br />
+
+
+
+
+Chao  Li; PhD<br />
+
+
+
+
+Yiyin  Liu<br />
+
+
+
+
+Whitney Carroll McFadden<br />
+
+
+
+
+Ran  Tao<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+T  Hyde
+<i>(Lieber Institute)</i>
+<br />
+
+
+
+Joel  Kleinman
+<i>(Lieber Institute for Brain Development)</i>
+<br />
+
+
+
+Amanda  Law
+<i>(University of Colorado)</i>
+<br />
+
+
+
+Ye  Tianzhang
+<i>(Lieber Institute for Brain Development)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+postmortem human brain, schizophrenia, DLPFC, allelic variation, gene expression, hippocampus, human brain development, substance abuse, susceptibility genes, transcripts
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The Section on Neuropathology, in the Clinical Brain Disorders Branch (CBDB), is a component of the gene-based hypothesis testing and biologic validation program, and has become a centerpiece of translating clinical association into molecular mechanisms. It is also responsible for the CBDB human brain collection (90-M-0142 NCT00001260), which has proven to be an invaluable resource that has become the largest postmortem human brain tissue resource in the world. We use these tissues to do our studies of susceptibility genes for schizophrenia, gene expression, brain development, and substance abuse.<br /><br />The Section on Neuropathology investigates the following five areas of research for this protocol: <br /><br />1. Studies of susceptibility genes and related genes for schizophrenia relative to normal controls primarily in dorsolateral prefrontal cortex (DLPFC) and hippocampus; <br /><br />2. Studies of the effects of allelic variations in susceptibility genes on expression patterns of these same genes and related genes in DLPFC and hippocampus; <br /><br />3. Studies of normal human brain development;and<br /> <br />4. Studies of affective disorders<br /><br />The Section of Neuropathology supports the primary goal of the CBDB which uses evidence of genetic association to generate and test hypotheses about how specific genes affect brain development, plasticity and function and how these effects relate to biology leading to potential treatment of illness. Our core lab functions as a component of the gene-based hypothesis testing and biologic validation program in the Branch. We have been successful in translating clinical associations into molecular mechanisms. <br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Over the past year, we focused on several candidate genes for schizophrenia and affective disorders, and studied expression of multiple transcripts of these genes and their associations with schizophrenia risk-associated genotypes. For instance, for a DARPP-32 gene, we examined the association of expression of two major DARPP-32 transcripts, full-length (FL-DARPP-32) and truncated (t-DARPP-32), with genetic variants of DARPP-32 in three brain regions receiving dopaminergic input and implicated in schizophrenia (the dorsolateral prefrontal cortex DLPFC, hippocampus, and caudate) in a much larger set of postmortem samples from patients with schizophrenia, bipolar disorder, major depression and normal controls (&gt;700 subjects). We found that the expression of t-DARPP-32 was increased in the DLPFC of patients with schizophrenia and bipolar disorder and was strongly associated with genotypes at SNPs (rs879606, rs90974 and rs3764352), as well as the previously identified 7-SNP haplotype related to cognitive functioning. The genetic variants that predicted worse cognitive performance were associated with higher t-DARPP-32 expression. Our results suggest that variation in PPP1R1B affects the abundance of the splice variant t-DARPP-32 mRNA and may reflect potential molecular mechanisms implicated in schizophrenia and affective disorders.<br /><br />We also examined copy number variations (CNVs) associated with diverse neurodevelopmental behavioral disorders.  We analyzed 1M SNP genotype arrays (Illumina BeadArrays) for evidence of previously reported recurrent CNVs and enriched genome wide CNV burden in DNA from 600 brains, including 441 individuals with various psychiatric diagnoses. We explored gene expression in the dorsolateral prefrontal cortex in selected cases with CNVs and in other subjects using Illumina BeadArrays (568 subjects in total), and additionally in 66-92 subjects using quantitative real-time PCR.   CNVs in previously reported genomic regions were identified in 4/193 patients with the diagnosis of schizophrenia (1q21.1, 11q25, 15q11.2, 22q11), 4/238 patients with mood disorders (11q25, 15q11.2, 22q11), and 1/10 patients with autism (2p16.3).  No evidence of increased genome wide CNV burden was observed in cases with schizophrenia or mood disorders although the study is underpowered to observe rare events.  mRNA expression patterns suggested incomplete molecular penetrance of observed CNVs, particularly in the duplications.  Our data confirm in brain DNA the presence of certain recurrent CNVs in a small percentage of patients with psychiatric diagnoses.  <br /><br />Finally, we explored epigenetic changes during development of the human prefrontal cortex (PFC), a mastermind of the brain, which is one of the last brain regions to mature. It is also a region implicated in schizophrenia and other major mental disorders. To investigate the role of epigenetics in the development of PFC we examined DNA methylation in 14,500 genes at 27,000 CpG loci focused on 5 promoter regions in 108 subjects ranging from fetal to old age. DNA methylation in the PFC shows unique temporal patterns across life. The fastest changes occur during the prenatal period, slow down markedly after birth and continue to slow further with aging. At the genome level, the transition from fetal to postnatal life is typified by a reversal of direction, from demethylation prenatally to increased methylation postnatally. DNA methylation is strongly associated with genotypic variants and correlates with expression of a subset of genes, including genes involved in brain development and in de novo DNA methylation. Our results indicate that promoter DNA methylation in the human PFC is a highly dynamic process modified by genetic variance and regulating gene transcription. We have made additional discovery by the scientists possible by using a stand-alone application BrainCloudMeth created by our team.<br /><br />We have conducted several investigations using postmortem human brain specimens focused primarily on understanding the pathophysiology of SZ in addition to other complex neuropsychiatric disorders. In addition to our own studies, the Section continues to provide postmortem human brain tissues to researchers and labs within and outside NIH.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81157&allpubs=Y&isajaxlink=Y&_UserReference=3F045E0A4CFFB36F5B38D5AD','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Bliss LA, Sams M, Deep-Soboslay A, Jaffe A, Kleinman JEH, Hyde T (2012) Use of postmortem human dura mater and scalp for deriving human fibroblast cultures. PloS One, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Law AJ, Wang Y, Sei Y, O'Donnell P, Piantadosi P, Papaleo F, Straub RE, Huang W, Thomas CJ, Vakkalanka R, Besterman AD, Lipska BK, Hyde TM, Harrison PJ, Kleinman JE, Weinberger DR (2012) Neuregulin 1-ErbB4-PI3K signaling in schizophrenia and phosphoinositide 3-kinase-p110 inhibition as a potential therapeutic strategy. Proc Natl Acad Sci U S A 109:12165-70.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22689948?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3409795/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22689948
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3409795 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Numata S, Ye T, Hyde TM, Guitart-Navarro X, Tao R, Wininger M, Colantuoni C, Weinberger DR, Kleinman JE, Lipska BK (2012) DNA methylation signatures in development and aging of the human prefrontal cortex. Am J Hum Genet 90:260-72.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22305529?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3276664/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22305529
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3276664 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Tao R, Li C, Newburn EN, Ye T, Lipska BK, Herman MM, Weinberger DR, Kleinman JE, Hyde TM (2012) Transcript-specific associations of SLC12A5 (KCC2) in human prefrontal cortex with development, schizophrenia, and affective disorders. J Neurosci 32:5216-22.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22496567?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3752043/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22496567
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3752043 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Ye T, Lipska BK, Tao R, Hyde TM, Wang L, Li C, Choi KH, Straub RE, Kleinman JE, Weinberger DR (2012) Analysis of Copy Number Variations in Brain DNA from Patients with Schizophrenia and Other Psychiatric Disorders. Biol Psychiatry 72:651-4
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22795968?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3456994/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22795968
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3456994 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

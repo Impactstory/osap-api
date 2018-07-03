@@ -1,0 +1,558 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002946</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002946-03</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Structure, Function and Pharmacology of Neurotransmitter Reuptake Systems
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Susan G Amara; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Laboratory of Molecular and Cellular Neurobiology, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Laboratory of Molecular and Cellular Neurobiology</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 10 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+James A Boris<br />
+
+
+
+
+Jingshan  Chen<br />
+
+
+
+
+Raquel Lee Collier<br />
+
+
+
+
+Jennie  Garcia-Olivares; PhD<br />
+
+
+
+
+Aneysis De Las Mercedes Gonzalez<br />
+
+
+
+
+Patrick Dennis Hullihen<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=91115&onameset=Laboratory of Molecular and Cellular Neurobiology&isajaxlink=Y&_UserReference=1ADD30BC647170AD5B38CFAB','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 10</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Susan L Ingram; PhD
+<i>(Neurosurgery, Oregon Health & Science University)</i>
+<br />
+
+
+
+Gonzalo E Torres; PhD
+<i>(Neurobiology, University of Florida)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+neurotransmitter transporter, reuptake, membrane transport, dopamine, amphetamine, cocaine, glutamate
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Research in our laboratory focuses on neurotransmitter transporters, the plasma membrane proteins that limit the actions of neurotransmitters following their release from neurons.  These carrier proteins catalyze the inward movement of neurotransmitter molecules and have a profound impact on the extent of receptor activation that occurs during neuronal signaling.  We have also shown that these transporters can possess a substrate-dependent ion channel-like activity, a property that allows them to regulate neuronal excitability and serve as sensors of extracellular neurotransmitter concentrations.  Neurotransmitter transporters are also well-established targets for addictive drugs including cocaine and amphetamines, for the class of therapeutic antidepressants known as reuptake inhibitors, and for methylphenidate, which is used to treat attention deficit hyperactivity disorders. Our research efforts have focused on the structure, regulation and cellular physiology of two families of sodium-dependent neurotransmitter transporters, the biogenic amine and the excitatory amino acid carriers. We use molecular genetic, electrophysiological and cell biological approaches to explore the relationships between neurotransmitter transporter structure, substrate transport, drug action and ion permeation.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Our laboratory has shown that amphetamines trigger the internalization of the dopamine transporter (DAT) by a series of intracellular events that are distinct from the generally established actions of amphetamines to inhibit dopamine (DA) uptake or to increase DA efflux. We have found that when applied to cell lines, cultured DA neurons or midbrain slices, amphetamine activates the small GTPases, RhoA and Rac-1 and triggers internalization of the dopamine transporter (DAT) by a specialized internalization pathway that requires the activation of the small GTPase, RhoA. Intriguingly, amphetamine must be transported into the cell to have these effects and its actions are actually blocked by cocaine, a drug that inhibits DAT and prevents amphetamine entry.  We have also found that elevation of cAMP, via DA receptors or by amphetamine-induced adenylate cyclase activation, inactivates RhoA and serves as a break on carrier internalization, thus demonstrating an important interaction between PKA- and RhoA-dependent signaling in mediating the actions of amphetamines. These observations also imply the existence of a novel intracellular target for amphetamines and suggest new cellular pathways to target in order to disrupt amphetamine action.  <br /><br />In recent studies we have established that a G-protein coupled trace amine receptor (TAAR1) serves as a direct intracellular target for amphetamines in dopamine neurons.  Using transgenic mouse lines lacking the TAAR1 receptor we have shown that the intracellular effects of amphetamine, including both the elevation in cAMP and the increased RhoA activity, depend absolutely upon TAAR1 activation.  We are currently investigating where within the cell amphetamines activate TAAR1 and which G-proteins serve as downstream effectors. In other experiments we have shown that G-protein beta-gamma subunits released when G-protein-coupled receptors are activated bind directly to the DAT and enhance dopamine efflux.  Using cell permeable peptide fragments and mutagenesis of the DAT we have been able to define the transporter domains required for this interaction and to develop structural models for how this interaction may facilitate dopamine efflux by the transporter.<br /><br />We have also observed that the same amphetamine-activated RhoA-dependent mechanism downregulates a glutamate transporter, EAAT3, present on the surface of dopamine neurons. We have identified the EAAT3 peptide sequence responsible for this regulation, generated a cell-permeant fusion protein that blocks internalization and have used it to explore the effects of amphetamine on excitatory neurotransmission in brain slices.  These studies have provided new tools to distinguish the effects of amphetamine on dopaminergic and glutamatergic signaling.  We have also compared the effects of various amphetamine compounds on the activation of cellular signaling pathways.  Comparison of the effects of methamphetamine on glutamate transport activity to those of amphetamine indicate that while both treatments lead to a loss of cell-surface EAAT3, the effects of methamphetamine are much broader and do not depend on the expression of the DAT.  These findings suggest an explanation for the broader, more devastating effects of methamphetamine: unlike amphetamine, methamphetamine has the capacity to alter EAAT3 surface expression and regulate excitatory neurotransmission, not only in dopamine neurons, but also in many other neuronal cell types within the brain.<br /><br />Glutamate transporters (also known as excitatory amino acid transporters or EAATs) present at the surface of neurons and supporting glial cells regulate the extracellular concentration of glutamate, the major excitatory neurotransmitter in the brain.  By transporting glutamate back into the cell, these carrier proteins prevent glutamate from reaching toxic levels and also limit the extent and duration of transmitter signaling during glutamatergic neurotransmission. These carriers have an additional function in that they possess an anion channel activity that can regulate cellular excitability, which enables them to serve as sensors of glutamate levels outside the cell.  Our laboratory has used site-directed mutagenesis, sulfhydryl modification, and chemical cross-linking approaches together with biochemical, and electrophysiological analyses of the mammalian carriers to examine the structural domains required for substrate transport and ion permeation. Although there has been progress towards understanding the mechanism of glutamate transport, little is known about the mechanism and structural basis of anion channel activation. We recently identified a conserved positively-charged arginine residue in transmembrane domain 7 as an essential element in the anion channel gating mechanism. Substitution of this residue with a negatively-charged amino acid, eliminates sodium- and substrate-dependent anion channel gating, and drives the channel into a substrate-independent constitutively open state. Our data suggest that anion channel gating occurs through a transition from intermediate conformations that are closely linked to transport. We hypothesize that interactions of this crucial cationic residue with nearby anionic groups are required to stabilize the closed state of channel and thus are intrinsic elements of the channel gating mechanism. We created a homology model of the transporter and have identified potential interacting residues that also appear to be required for anion channel gating in EAATs.<br /><br />The neuronal glutamate transporter isoform, EAAT3 has also been shown to transport the amino acid cysteine and has been proposed to be a primary mechanism used by neurons to obtain cysteine for the synthesis of glutathione, a molecule critical for preventing oxidative stress and neuronal toxicity. This year the laboratory also completed work examining the mechanism of cysteine transport by EAAT3. Our results support a model whereby cysteine transport through EAAT3 is facilitated through cysteine de-protonation and that once inside, the thiolate is rapidly re-protonated. Moreover, these findings suggest that cysteine transport is predominantly unidirectional and that reverse transport does not contribute to depletion of intracellular cysteine pools.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91115&allpubs=Y&isajaxlink=Y&_UserReference=1ADD30BC647170AD5B38CFAB','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Underhill SM, Wheeler DS, Li M, Watts SD, Ingram SL, Amara SG (2014) Amphetamine Modulates Excitatory Neurotransmission through Endocytosis of the Glutamate Transporter EAAT3 in Dopamine Neurons. Neuron 83:404-16
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25033183?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4159050/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25033183
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4159050 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Watts SD, Torres Salazar D, Divito CB, Amara SG (2014) Cysteine transport through excitatory amino acid transporter 3 (EAAT3). PLoS One, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

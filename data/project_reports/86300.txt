@@ -1,0 +1,751 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002795</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002795-13</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Translational Evaluation Of PET Radiotracers
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Robert  Innis; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/robert-innis" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on PET Neuroimaging Sciences, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on PET Neuroimaging Sciences</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 12 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Elizabeth C Alzona<br />
+
+
+
+
+Masahiro  Fujita<br />
+
+
+
+
+Robert  Gladding<br />
+
+
+
+
+Ioline D Henter; MA<br />
+
+
+
+
+Aneta  Kowalski<br />
+
+
+
+
+Jeih-San  Liow<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=86300&onameset=Section on PET Neuroimaging Sciences&isajaxlink=Y&_UserReference=6787AF1B5B250BD45B38D2F7','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 12</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Daniel  Pine; MD  (Emotion and Development Branch)<br />
+
+
+
+Carlos Alberto Zarate; MD  (Section on Neurobiology and Treatment of Mood Disorders)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Michael Marc Gottesman; MD (OD) <br />
+
+
+
+Markus Alexander Heilig; MD, PhD (NIAAA) <br />
+
+
+
+William Harold Theodore; MD (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Jan  Mulder; PhD
+<i>(Karolinska Institutet)</i>
+<br />
+
+
+
+Per  Svenningsson; PhD
+<i>(Physiology and Pharmacology, Karolinska Institute)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+PET imaging, depression, radiochemistry, autism
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Major psychiatric disorders like schizophrenia and depression are associated with and, in some cases, caused by chemical imbalances in the brain. The purpose of our research is to develop probes that can be used to assess these chemical imbalances in order to better understand these disorders and, hopefully, improve their treatment.<br /><br />A major goal of the Molecular Imaging Branch is to develop new radiotracers and new imaging paradigms to study abnormal protein targets in patients with neuropsychiatric disorders. The purpose of this research is to evaluate in vivo the pharmacokinetics, sensitivity, and reproducibility of brain imaging measurements of radiolabeled probes for use in positron emission tomography (PET). Animals are used to evaluate new tracers and new methods (e.g., combined with a pharmacological challenge) prior to their extension to human subjects. Testing of these tracers in animals prior to their extension to humans is essential to ensure the validity of the measurement as well as the safety of the procedures.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Several of the advisory groups with whom we work closely encouraged us to develop radioligands for glutamatergic targets. Here, we describe our ongoing work in animals and in healthy subjects for two such targets: metabotropic glutamate receptor 1 (mGluR1) and transmembrane AMPA receptor regulatory protein &amp;#947;-8 (TARP&amp;#947;-8). Examples of progress made during the prior year are summarized below.<br /><br />1) We have developed the only radioligand18FFIMXto successfully image the mGluR1 receptor in human brain (Xu et al, J Med Chem 56: 9146-9155, 2013). This work was performed under clinical protocol #13-M-0016, with corresponding NCT number not yet assigned.<br /><br />mGluR1 has been linked to the pathophysiology of several neurological and psychiatric disorders, including Parkinsons disease, Huntingtons disease, stroke, epilepsy, anxiety and stress disorders, drug and alcohol addiction, and pain. In vivo quantification with an appropriate radioligand would help clarify the role of mGluR1 in these diseases, ultimately leading to the development of new therapies. We developed 18FFIMX as a very promising radioligand for mGluR1. This compound has attractive properties for in vivo imaging, including high affinity and selectivity. Our initial investigation in two rhesus monkeys found that 18FFIMX provided excellent imaging of mGluR1s in monkey brain, showing high uptake, appropriate regional distribution (i.e., especially high in cerebellum), fast washout, and high receptor-specific signal. Indeed, it appeared that more than 90% of the initial uptake in the cerebellum was due to specific binding. No uptake was seen in the bones, which suggests that no significant defluorination of the radioligand took place (Xu et al, J Med Chem 56: 9146-9155, 2013).<br /><br />Expanding this work, we are using 18FFIMX in a first-in-human PET imaging study. In eight subjects studied to date, 18FFIMX had high brain uptake, an early time of peak uptake followed by fast washout, and a regional distribution appropriate for mGluR1. The radioligand had a high ratio of specific to nonspecific binding as shown by the range of VT values, from 9.9 mL/cm3 in cerebellum to 1.4 in caudate. Uptake of radioactivity in skull, potentially 18F fluoride ion, was absent. Thus, as in monkeys, 18FFIMX showed promising characteristics for quantifying mGluR1s in humans.<br /><br /><br />2) In collaboration with Eli Lilly, we are developing a PET radioligand for TARP&amp;#947;-8, which helps mobilize AMPA receptors to the synaptic membrane and is preferentially localized in hippocampus. This work was performed under clinical protocol #14-M-0068, with corresponding NCT#02108015.<br /><br />TARP&amp;#947;-8 is target for which a therapeutic candidate will likely be given to humans within a year, but whose importance as a putative marker of pathophysiology is unknown. In collaboration with Eli Lilly, we are developing a PET radioligand for TARP&amp;#947;-8. An advantage of targeting this or any other TARP is that an antagonist at this protein acts as an indirect AMPA antagonist only at those receptors linked to the particular TARP. A successful radioligand could be used to measure baseline density of TARP&amp;#947;-8 in targeted disorders (epilepsy, schizophrenia), as well as to select an initial dose of the therapeutic candidate. <br /><br />Our initial attempt to develop a PET radioligand failed both in monkeys and in healthy human subjects because the specific receptor bound signal was too low relative to nonspecific binding. We are now actively exploring other analogs that may have greater specific signal (e.g., higher affinity) and less nonspecific binding (e.g., lower lipophilicity). If we develop a successful radioligand, we will perform receptor occupancy studies with Lillys therapeutic candidate. Towards this goal, Drs. Innis and Zarate (Chief, Experimental Therapeutics and Pathophysiology Branch, NIMH) have established a Phase I unit specifically for this target and candidate but whose use can be extended to many others. <br /><br />We are also in the early stages of planning to image TARP&amp;#947;-8 in conjunction with a proof-of-concept study for this therapeutic candidate in epilepsy. TARP&amp;#947;-8 is highly localized in hippocampus. Seizures, which often begin in hippocampus, are induced in part by excessive AMPA receptor activation. Because a TARP&amp;#947;-8 antagonist effectively acts as an indirect AMPA antagonist, such a drug would be expected to have anti-epileptic properties, as has been demonstrated in rats. Furthermore, if we develop a useful radioligand for TARP&amp;#947;-8, it may also be used to explore the pathophysiology of psychiatric disorders  e.g., the density of TARP&amp;#947;-8 in schizophrenia.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86300&allpubs=Y&isajaxlink=Y&_UserReference=6787AF1B5B250BD45B38D2F7','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kannan P, Pike VW, Halldin C, Langer O, Gottesman MM, Innis RB, Hall MD (2013) Factors that limit positron emission tomography imaging of p-glycoprotein density at the blood-brain barrier. Mol Pharm 10:2222-9
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23597242?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3675842/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23597242
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3675842 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Lohith TG, Osterweil EK, Fujita M, Jenko KJ, Bear MF, Innis RB (2013) Is metabotropic glutamate receptor 5 upregulated in prefrontal cortex in fragile X syndrome? Mol Autism 4:15
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23706040?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3679853/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23706040
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3679853 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Shrestha S, Nelson EE, Liow J, Yoo C, Henter I, Noble P, Kruger J, Zhang B, Suomi SJ, Morse C, Svenningsson P, Winslow JT, Liebenluft E, Pine D, Innis R (2013) Fluxotine administered to juvenile monkeys: Effects on the serotonin transporter and behavior. American Journal of Psychiatry, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Zanotti-Fregonara P, Barth VN, Liow JS, Zoghbi SS, Clark DT, Rhoads E, Siuda E, Heinz BA, Nisenbaum E, Dressman B, Joshi E, Luffer-Atlas D, Fisher MJ, Masters JJ, Goebl N, Kuklish SL, Morse C, Tauscher J, Pike VW, Innis RB (2013) Evaluation in vitro and in animals of a new 11C-labeled PET radioligand for metabotropic glutamate receptors 1 in brain. Eur J Nucl Med Mol Imaging 40:245-53
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23135321?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3537910/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23135321
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3537910 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

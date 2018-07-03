@@ -1,0 +1,611 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002951</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002951-01</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neural Circuits underlying the control of Executive and Emotional Behavior
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2015 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Yogita  Chudasama; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Behavioral Neuroscience, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Behavioral Neuroscience</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Gloria  Laryea; PhD<br />
+
+
+
+
+Michael Brian Leventhal; BS<br />
+
+
+
+
+Kokow Fany Awo Messanvi; PhD<br />
+
+
+
+
+Madeleine Quinby Perkins; BS<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Bruno B Averbeck  (Section on Learning and Decision Making)<br />
+
+
+
+Elisabeth Adams Murray; PhD  (Section on Neurobiology of Learning and Memory)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+A  Claudio Cuello; Ph.D.
+<i>(Pharmacology and Thereaputics, McGill University)</i>
+<br />
+
+
+
+M  Petrides; Ph.D.
+<i>(Psychology, McGill University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Cognitive Function, Prefrontal Cortex, Temporal Lobe, Thalamus, Decision Making, Flexibility, Impulse Control
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+When we interact with the world, our actions are steered by complex decisions, memories, and social perceptions.  It is these high-level aspects of cognition, often referred to as &quot;executive function&quot; that in some sense make us most human.  It is also these aspects that are most commonly affected in neuropsychiatric and neurological disorders. Impairments in executive function, which are characteristic of patients with cognitive and mental disorders such as schizophrenia, persist long after acute symptoms subside, and severely compromise their psychosocial function and quality of life. These patients show a heterogeneous pattern of cognitive symptoms including inattention, impaired memory, poor decision-making, perseveration, impulsivity and social disinhibition. Moreover, similar impairments can often arise in the mind of a healthy individual when exposed to stress and fatigue, and are unfortunately, also an inevitable consequence of normal aging.  Since a healthy mind is vital for promoting recovery and rehabilitation of many diseases, it is of paramount importance to understand the basic neurobiology of executive function in order to develop treatments and therapies that can improve quality of life for large numbers of people in the general population. Ultimately, this understanding hinges upon embracing the details of a complex brain circuitry, and specifically the interaction between several key structures in the forebrain that govern executive function and emotion regulation. Thus understanding the brain mechanisms underlying the control of executive and social behaviour is of great value for both basic research and medicine. In the Section of Behavioral Neuroscience, our overarching goal is to elucidate the network of forebrain and midbrain structures that steer complex executive and socioemotional behavior in the intact brain, and the disruption of which commonly leads to cognitive ailments in brain disease, injury, and aging.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Broadly speaking, much of our work has been directed toward understanding prefrontal deficits. In humans, executive function is known to rely on an intact prefrontal cortex, with famous patients such as Phineas Gage illustrating the range of inhibitory control, decision-making, and socioemotional deficits that can arise when the prefrontal cortex is damaged. In recent years, the work in my lab and that of other investigators has revealed that so-called prefrontal function, in fact, involves a broad network of areas including not only the prefrontal cortex but also the hippocampus, basal ganglia, and certain thalamic nuclei. These structures are anatomically connected in a particular way that is shared by rodents and by human and non-human primates, suggesting a mammalian network underlying the forebrain control of behavior.  Its relation to the regulation of neurotransmitters, such as dopamine, makes it central not only to understanding executive function, but also to schizophrenia and other disorders in humans. Our planned research is focused on understanding the functional anatomy of this circuitry.  Our most recent studies have examined the function and connections of the hippocampus, which we now believe is at least as important as the prefrontal cortex for the inhibitory control of behavior. For example, like humans with disinhibitory syndromes (e.g., psychopaths, alcoholics, patients with hyperkinesis), rats with hippocampal lesions are impulsive, antisocial, and emotionally unaroused. As this circuitry is central to our understanding of a wide range of human cognitive abilities and disorders, our future research will continue to investigate its underlying neurobiology, always retaining as its focal point the measurement and quantification of behavior.<br /><br />In the coming years, we will investigate the interaction between the hippocampus and the prefrontal cortex, as well as their convergent projections onto the nucleus accumbens, in certain types of decision-making behavior. Drawing from our toolbox of ablation, pharmacological blockade, and cell-type specific suppression or stimulation using genetically encoded agents, we will attempt to understand the specific types of decisions served by different pathways.  For example, we recently found that some types of decisions, particularly those involving time, critically and specifically depend on the interaction between the ventral hippocampus and the nucleus accumbens (Abela et al. European J. Neurosci, 2015). For such decisions, the prefrontal cortex appears to play a relatively minor role. At the same time, the hippocampus also works together with the prefrontal cortex in other categories of decisions, such as those requiring the inhibition of a prepotent response (Abela et al., Cerebral Cortex, 2013). Neurotransmitter and neuropeptide levels are known to selectively modulate the nature of this hippocampal contribution. For example, we were able to improve decision-making skills in normal rats by pharmacologically stimulating the alpha-2a-receptors directly in the ventral hippocampus whereas dopamine D1 receptors have no such effect (Abela and Chudasama, Psychopharm. 2014). This modulation of cognitive decision-making may be related to the successful use of noradrenergic stimulants in relieving symptoms of Attention Deficit Hyperactivity Disorder, where the site of action is presumed to be in the prefrontal cortex, but never considered to work in the hippocampus. The importance of the involvement of the hippocampus in so called prefrontal functions was highighted in our recent study in which we showed that just like humans, transgenic rats that develop amyloid plaques in the hippocampus in early senescence are rigid and inflexible in their behavior, even when their prefrontal cortex is intact (Wilson et al., Cerebral Cortex, in press)<br />We thus plan to investigate the contribution of the hippocampus more specifically using cell-type specific inactivation. For this, we plan to combine behavioural testing with optogenetic stimulation or designer receptors exclusively activated by designer drugs (DREADDs). This reversible manipulation approach will allow us to gauge the relative contributions of the hippocampus, prefrontal cortex, or nucleus accumbens to different types of cognitive decisions, with a high level of precision at both the behavioral and circuitry level. Understanding this interplay, as well as the effects of pharmacological agents in normalizing the contribution of these circuits, is a critical component of our research agenda that can have a direct clinical impact. <br /><br />In addition to the hippocampus, the thalamus has been increasingly recognized as contributing not only to the transmission of sensory and movement-related signals, but also to aspects of executive function.  This is particularly true of its midline nuclei, most of which have not been studied in great detail.  We recently tracked putative pathways through the thalamus from the prefrontal and limbic cortex to the hippocampus using a polysynaptic virus (Prasad and Chudasama, J. Neurosci. 2013).  We found that different regions of the hippocampus received input from different thalamic nuclei, which in turn received input from different cortical structures. This finding raised the question as to whether the midline thalamus is an important hub in frontotemporal circuitry and, by extension, to what extent is it a critical contributor to executive function?  This question became more pressing in light of recent findings from our laboratory that ablation of one of these principal relay nuclei, the nucleus reuniens, leads to significant changes in executive behavior. Specifically, and somewhat paradoxically, we found that lesions to this structure improved animals capacity to perform on cognitive tasks by making them intensly focused, less impulsive and highly motivated (Prasad et al., Neuroscience, in press).<br /><br />The behaviors following lesions of the prefrontal cortex, nucleus reuniens, and hippocampus underscore the fact that the control of executive behavior involves a broad network of structures, some of which lie outside the cortex and even outside of the telencephalon. Based on known connections and neuropharmacology, we anticipate that our understanding of this network will continue to expand and include additional brain structures, for example, particular nuclei in the hypothalamus. Importantly the structures that underly the control of executive behavior overlap with those that control socioemotional behavior. Socioemotional behavior is a form of social behavior that causes individuals to behave emotionally within groups and individually. This type of behavior expresses emotions such as fear, anxiety, joy and anger. It also includes complex forms of prosocial behavior such as cooperation and altruism. One major aim is the careful measurement of social behaviors with a path toward translating observations in animals to humans. This important dimension is likely to expand considerably in the coming years as we intend to integrate the growing palette of molecular tools with other methods in our repertoire, including ablation and pharmacology.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2016 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=96796&allpubs=Y&isajaxlink=Y&_UserReference=B3173C3FDFD727E75B38D40A','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Abela AR, Duan Y, Chudasama Y (2015) Hippocampal interplay with the nucleus accumbens is critical for decisions about time. Eur J Neurosci 42:2224-33
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26121594?dopt=Abstract" target="_blank">PubMed</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26121594
+    
+     <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Jang AI, Costa VD, Rudebeck PH, Chudasama Y, Murray EA, Averbeck BB (2015) The Role of Frontal Cortical and Medial-Temporal Lobe Brain Areas in Learning a Bayesian Prior Belief on Reversals. J Neurosci 35:11751-60
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26290251?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4540808/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26290251
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4540808 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

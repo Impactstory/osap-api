@@ -1,0 +1,910 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002903</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002903-11</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Procurement and Characterization of Postmortem Brain Tissue
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lead Investigator</div></div>
+
+<div class="rowdiv">
+<div class="data">
+Barbara K Lipska; PhD
+<br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any LIs -->
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<!-- display SoRs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Supervisor of Record</div></div>
+<div class="rowdiv">
+<div class="data">
+ <!-- faculty test -->
+Susan G Amara; PhD 
+ <!-- faculty test -->
+<br />
+
+</div>
+</div>
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Human Brain Collection Core, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Human Brain Collection Core</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 17 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Joyce Edna Adams<br />
+
+
+
+
+Jose A Apud; MD, PhD<br />
+
+
+
+
+Pavan Kumar Auluck<br />
+
+
+
+
+Melanie A Bose<br />
+
+
+
+
+Carolina Teresa Caban<br />
+
+
+
+
+Ningping  Feng; PhD<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=101258&onameset=Human Brain Collection Core&isajaxlink=Y&_UserReference=E39CE63943AAFB1A5B38D230','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 17</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Nirmala  Akula  (Section on the Genetic Basis of Mood and Anxiety Disorders)<br />
+
+
+
+Michelle P Freund  (Division of Neuroscience and Basic Behavioral Science)<br />
+
+
+
+Robert  Innis; MD  (Molecular Imaging Branch)<br />
+
+
+
+Zheng  Li; PhD  (Section on Synapse Development and Plasticity)<br />
+
+
+
+Francis Joseph McMahon; MD  (Section on the Genetic Basis of Mood and Anxiety Disorders)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+<div id="moresamestaffo">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffou">6 of a total of 13 other NIH members are shown.</div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Josephine M Earley; MD (NIA) <br />
+
+
+
+David  Goldman; MD (NIAAA) <br />
+
+
+
+Michael J Iadarola; PhD (CC) <br />
+
+
+
+Steven J Jacobson; PhD (NINDS) <br />
+
+
+
+Mary R Lee; MD (NIAAA) <br />
+
+
+
+Lorenzo  Leggio; MD, PhD (NIAAA) <br />
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaffo','searchview.taf?_function=showmore&ios=O&ipid=101258&isajaxlink=Y&_UserReference=E39CE63943AAFB1A5B38D230','moresamestaffou');  return false;">
+
+
+<span class="morelist">Show all 13</span></a></form></div>
+
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 26 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Schahram  Akbarian; MD, PhD
+<i>(University of Massachusetts Medical School)</i>
+<br />
+
+
+
+E  Chang
+<i>(NYC University)</i>
+<br />
+
+
+
+Joao  de Quevedo
+<i>(UT Houston)</i>
+<br />
+
+
+
+Yue  Feng
+<i>(Emory University)</i>
+<br />
+
+
+
+Chang-Gyu  Hahn
+<i>(University of Pennsylvania)</i>
+<br />
+
+
+
+Brent  Harris
+<i>(Georgetown University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=101258&isajaxlink=Y&_UserReference=E39CE63943AAFB1A5B38D230','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 26</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+postmortem human brain, DSM-IVR, PMI, RIN, diagnosis, extraction, immunohistochemistry, mRNA, neuropathology, normal control, schizophrenia, single nucleotide polymorphism, toxicology
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The mission of Human Brain Collection Core (HBCC) within the National Institute of Mental Health, Division of Intramural Programs (NIMH IRP) is to conduct and support research on brain and behavior, with the goal of reducing the burden of mental illness. HBCC is a national resource, providing unique opportunities in mental health research. To conduct this research, we obtain human brain tissue, hair and blood samples from deceased individuals diagnosed with major mental illnesses such as schizophrenia, depression, bipolar disorder, substance abuse, and their consequences (suicide) as well as from individuals without history of mental illness (used as controls). The tissues are obtained under protocol NCT00001260 approved by the Combined Neuroscience Institutional Review Board (CNS IRB) and only with the permission of next-of-kin. HBCC distributes samples to investigators approved by an NIMH Oversight Committee. We collect molecular and genetic data and disseminate the data to the scientific community. Information gained from this research will lead to better understanding of brain dysfunction in mental disorders and development of new therapeutic and preventive strategies.<br /><br />HBCC functions to:<br />-Distribute well characterized brain specimens to approved investigators <br />-Prepare high quality tissue, RNA and DNA and other derivative samples for distribution to approved investigators<br />-Provide scientific advice on neuroanatomical, molecular, clinical and technical aspects of projects involving human brain tissue<br />-Perform molecular and genetic studies<br />-Assist medical examiners offices by providing neuropathology reports<br />-Disseminate data to the scientific community within and outside NIH using custom and publicly available databases<br /><br />We obtain brains through the Medical Examiners Offices (MEOs) of Northern and Central Virginia and the District of Columbia. We protect the confidentiality of the decedent by removing his/her name and all identifying information from any materials we receive, and label all samples and the information derived from them only with a number. Our personnel audiotape the next-of-kin's consent as an official record of the donation. We obtain further information about the decedent's medical and psychiatric history through interviews with the family and released medical records after obtaining written authorization from the next-of-kin. <br /><br />As a non-renewable resource, the human brain collection requires oversight and evaluation to ensure that specimens are distributed equitably and fairly to investigators. Requests for access to samples from the collection should be emailed to hbccmailmail.nih.gov. Requests are reviewed for consistency with NIMH and HBCC mission and goals by an oversight committee. <br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Currently, the HBCC resources include brains from individuals with the following diagnoses (numbers of subjects listed in parentheses): Bipolar disorder (161), Non-psychiatric controls (358), Schizophrenia and schizoaffective disorder (202), Substance Abuse (48), Major depressive disorder (228), Other psychiatric/neurological diagnoses 136, Not diagnosed (60). <br /><br />A total number of subjects 1154. From Oct 1, 2016, until July 31, 2017 we collected 64 brains through the DC and Northern and Central VA Medical Examiners Offices. <br /><br />Other resources include:<br />-cDNA libraries constructed from dorsolateral prefrontal cortex (DLPFC), hippocampus, anterior cingulate cortex (ACC) and subgenual anterior cingulate cortex (sgACC), and dura from hundreds of subjects with mental disorders and controls <br />-microarray expression and genotyping data (publicly available at dbGAP accession ID: phs000979.v1.p1) from DLPFC, hippocampus and dura <br />-frozen sections (14 um thick) mounted on slides (DLPFC from 32 patients with schizophrenia and 63 controls), <br />-formalin-fixed coronal slices (approximately 15 mm thick) of a single hemisphere from 15 controls, 10 patients with schizophrenia, 5 with major depression, 4 with bipolar disorder.<br />-Fibroblasts derived from postmortem dura: 450<br />-Whole genome sequencing, RNA sequencing, and Chip-sequencing data for 400 subjects, to become publicly available soon<br />-RNA sequencing data from 200 individuals from the subgenual ACC will become available probably in the next year. <br /><br />We have undertaken an effort to combine and share as much information as possible between Neurobiobank (NBB) and HBCC resources. For this we obtained detailed quantitative electronic toxicological data from NMS on hundreds of our specimens and shared them with NBB. We are implementing a transition to DSM5/ICD10 codes that will make our diagnostic definitions easily sharable with NBB. We have unified the naming and reporting of brain regions/specimens available in HBCC with the goal of making these fields easily available to NBB and investigators (work in progress as we have 46,000 biospecimens available). <br /><br />The number of requests for tissue/data in the last year has more than doubled compared to the same period last year. We are still processing and/or evaluating nine projects, while we have distributed tissue/data for 23 collaborative studies. Four requests were not fulfilled after discussions with the investigators.   <br />The projects/collaborations that we have accrued in the last year (some include multiple requests for different samples): <br />1.	Examination of inhibitory microcircuits in 3D with CLARITY of postmortem schizophrenia.<br />2.	Transcriptional and epigenetic signatures of human brain development and autism. <br />3.	Molecular bio-signatures of axonal pathology in schizophrenia (measurement of proteins related to the axon initial segment).<br />4.	Methylation of the dopamine transporter gene as a biomarker for dopamine transporter binding in normal volunteers and patients with ADHD (blood, pulverized tissue of caudate, DNA and RNA from substantia nigra)<br />5.	Risk genetic variants and cis regulation of gene expression in bipolar disorder and schizophrenia (this is further work being done on the DLPFC samples distributed to the Common Mind Consortium).<br />6.	Measurement of antibodies in human Herpes Virus in blood in subjects with and without migraine.<br />7.	New roles for REST during brain maturation (FACS sorted nuclei in controls).<br />8.	The function of miR-3162 in brain development and synaptic physiology (formalin fixed tissue).<br />9.	PTSD and blast exposure (tissue from several brain regions for histological studies).<br />10.	NMDA signaling in amygdala in schizophrenia (pulverized amygdala).<br />11.	Allele-specific expression of vasopressin/orexin and GRIN2A receptors in hippocampus , including bioinformatics for detection of differential allelic expression over the whole genome based on HBCC DLPFC RNAseq data. <br />12.	GABA and AMPA currents in schizophrenia vs controls (DLPFC blocks distributed).<br />13.	Erbb4 isoforms in human brain (tissue blocks of anterior cingulate cortex/corpus callosum: manuscript in preparation (Erben, He et al. in preparation).<br />14.	Sharing of DLPFC RNAseq data with CommonMindConsortium/Psychencode with all consortia users.<br />15.	Rostromedial tegmental nucleus in humans (brainstem sections made available for confirmation of the existence of this nucleus in humans).<br />16.	Transposable elements in psychiatric disorders (whole genome sequencing data made available)<br />17.	Single cell expression analysis of human locus coerulus, dorsal raphe and substantia nigra (fresh dissections for nuclear extraction and single cell sequencing to confirm pattern of expression in animal models). <br />18.	Characterization of human anterior insula postmortem genome expression in affective disorders using RNA-Sequencing (RNA distributed). <br />19.	Single cell sequencing from frozen human tissue (establishing methodology for extraction and sorting of nuclei from frozen tissue for single cell sequencing).<br />20.	Accelerated epigenetic aging and mitochondrial DNA copy number in bipolar disorder (DNA distributed).<br />21.	qPCR validation of RNAseq findings from sgACC (validation of RNAseq results with independent method).<br />22.	RNAseq in ADHD (caudate and medial prefrontal cortex distributed).<br />23.	Molecular profiling of schizophrenia (extension of the Common Mind Consortium project).<br /><br />We continue to actively follow several projects initiated in previous years (for exhaustive list see the 2016 report). These are the ones that generated publication in the last year: <br />1. RNA sequencing data from DLPFC for 400 subjects were generated, together with whole genome sequencing and Chip-Seq on a subset of these subjects (Fromer, Roussos et al. 2016); posted on BioRxiv (Dobbyn, Huckins et al. 2017).<br />2. Glutamate receptors in in the DLPFC of  individuals with major depression and controls (Funk, Mielnik et al. 2017).<br />3. Epigenetic study of cell-type specific, high-resolution DNA methylation profiling in the adult cerebral cortex (DLPFC and ACC); Biological Psychiatry (Kundakovic, Jiang et al. 2017); Nature Neuroscience (Girdhar, Hoffman et al. (submitted)).<br />4.Mapping gene expression by RNA-sequencing in the subgenual anterior cingulate cortex of subjects with depression, bipolar disorder, schizophrenia and controls (200 subjects); abstracts (Akula, Nathan et al. 2016, Akula, Kramer et al. 2017, Akula, Kramer et al. 2017) and a manuscript in preparation.<br />5. Mapping bioactive lipids and RNA expression by RNA-sequencing in migraine headaches using trigeminal ganglia, blood, blood vessels and dura tissues (100 subjects); (LaPaglia, Sapio et al. 2017). <br />6. Characterization of binding of a 5HT1a ligand for application in PET; (Shrestha, Liow et al. 2016)<br />7.Characterization of the role of p53 in astrocytes; (Turnquist, Horikawa et al. 2016). <br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101258&allpubs=Y&isajaxlink=Y&_UserReference=E39CE63943AAFB1A5B38D230','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Davis KN, Tao R, Li C, Gao Y, Gondré-Lewis MC, Lipska BK, Shin JH, Xie B, Ye T, Weinberger DR, Kleinman JE, Hyde TM (2016). GAD2 Alternative Transcripts in the Human Prefrontal Cortex, and in Schizophrenia and Affective Disorders. PLoS One  11, e0148558.   https://doi.org/10.1371/journal.pone.0148558
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26848839?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4744057/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26848839
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4744057 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Fromer M, Roussos P, Sieberts SK, Johnson JS, Kavanagh DH, Perumal TM, Ruderfer DM, Oh EC, Topol A, Shah HR, Klei LL, Kramer R, Pinto D, Gümüş ZH, Cicek AE, Dang KK, Browne A, Lu C, Xie L, Readhead B, Stahl EA, Xiao J, Parvizi M, Hamamsy T, Fullard JF, et al. [33 more authors] (2016). Gene expression elucidates functional impact of polygenic risk for schizophrenia. Nat Neurosci  19, 1442-1453.   https://doi.org/10.1038/nn.4399
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27668389?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5083142/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27668389
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5083142 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Funk AJ, Mielnik CA, Koene R, Newburn E, Ramsey AJ, Lipska BK, McCullumsmith RE (2017). Postsynaptic Density-95 Isoform Abnormalities in Schizophrenia. Schizophr Bull  43, 891-899.   https://doi.org/10.1093/schbul/sbw173
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28126896?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5472126/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28126896
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5472126 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kundakovic M, Jiang Y, Kavanagh DH, Dincer A, Brown L, Pothula V, Zharovsky E, Park R, Jacobov R, Magro I, Kassim B, Wiseman J, Dang K, Sieberts SK, Roussos P, Fromer M, Harris B, Lipska BK, Peters MA, Sklar P, Akbarian S (2017) Practical Guidelines for High-Resolution Epigenomic Profiling of Nucleosomal Histones in Postmortem Human Brain Tissue. Biol Psychiatry 81:162-170
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27113501?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5017897/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27113501
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5017897 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Schroeder FA, Gilbert TM, Feng N, Taillon BD, Volkow ND, Innis RB, Hooker JM, Lipska BK (2017) Expression of HDAC2 but Not HDAC1 Transcript Is Reduced in Dorsolateral Prefrontal Cortex of Patients with Schizophrenia. ACS Chem Neurosci 8:662-668
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27959513?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5436730/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27959513
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5436730 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

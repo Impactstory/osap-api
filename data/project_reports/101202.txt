@@ -1,0 +1,691 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002800</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002800-15</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Identifying Neural Substrates of Behavior in Drosophila Melanogaster
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Benjamin H White; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/benjamin-white" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neural Function, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neural Function</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 8 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Fengqiu  Diao; PhD<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Feici  Diao; MD, PhD<br />
+
+
+
+
+Amicia Devin Elliott<br />
+
+
+
+
+Andrew R Lazarchik<br />
+
+
+
+
+Haojiang  Luan<br />
+
+
+
+
+Sanghoon  Park<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=101202&onameset=Section on Neural Function&isajaxlink=Y&_UserReference=78D56917FD25E8255B38D102','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 8</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Carson C Chow; BASc, PhD (NIDDK) <br />
+
+
+
+Chi-Hon  Lee; MD, MS, PhD (NICHD) <br />
+
+
+
+Vipul  Periwal; BS, MA, Ph D (NIDDK) <br />
+
+
+
+Thomas J Pohida; MS (CIT) <br />
+
+
+
+Mihaela  Serpe (NICHD) <br />
+
+
+
+Hari  Shroff; PhD (NIBIB) <br />
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 8 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+H  Bellen
+<i>(Baylor College of Medicine)</i>
+<br />
+
+
+
+J  Ewer; PhD
+<i>(Centro de Neurociencia, Universidad de Valparaíso)</i>
+<br />
+
+
+
+S  Goodwin
+<i>(Oxford University)</i>
+<br />
+
+
+
+G  Jefferis
+<i>(Medical Research Council, Cambridge)</i>
+<br />
+
+
+
+T  Southall; PhD
+<i>(Imperial College London)</i>
+<br />
+
+
+
+R  Yang
+<i>(Duke University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=101202&isajaxlink=Y&_UserReference=78D56917FD25E8255B38D102','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 8</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+drosophila, neuroethology, bursicon, thermogenetics, circuitry, neuromodulatory, hormones, behavior, ecdysis, gene targeting, neurocomputation
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The Section on Neural Function has the twin goals of developing and applying tools for identifying the neuronal networks underlying behavior in living, behaving animals. Working on the fruit fly, Drosophila melanogaster, we focus on developing genetically-encoded tools that can be used to functionally manipulate targeted neurons. We use these tools to identify and characterize the functional components of neuronal networks. Our primary aim is to understand how these networks integrate information from the environment and the body to orchestrate ordered motor sequences able to achieve adaptive goals. Such understanding is germane to human mental health in that deficits in initiating, terminating, or organizing behavior characterize many mental disorders, including obsessive-compulsive disorder, schizophrenia, and bipolar disorder. <br /><br />Consistent with our aims, our research has focused on the neural circuitry that controls the sequence of motor programs used by fruit flies to molt. Molting in flies, as in all insects, is performed several times during development to permit continued growth until the reproductively mature, adult form is reached. At each molt, a motor sequence (called an ecdysis sequence) is executed that promotes first the loosening, and then shedding, of the exoskeleton of the previous developmental stage. In many insects, the ecdysis sequence also includes a motor program to promote expansion and hardening of the new exoskeleton. Such a program is included in the ecdysis sequence of Drosophila at the final, adult molt, where it also serves to expand and harden the newly formed wings. <br /><br />One focus of my laboratory's research is to elucidate the neural substrates of wing expansion, which is subject to environmental, as well as hormonal, regulation. In adverse environments, flies will delay wing expansion and instead seek more favorable conditions. The mechanisms by which environmental and intrinsic influences are weighed to generate a behavioral decision are thus naturally open to investigation in this system. A second focus of our research is the neural circuitry underlying the pupal ecdysis sequence, which is performed at the onset of metamorphosis, while the otherwise quiescent animal is encased in its puparium. Pupal ecdysis proceeds independently of environmental cues and can be triggered even in an excised nervous system by exogenously added hormone. Taking advantage of this latter fact, we have initiated brain-wide neural imaging studies to understand how the fly nervous system converts the hormonal signal into the temporally ordered motor output of the pupal ecdysis sequence. More generally, our goal is to understand how hormones and neuromodulators induce transitions in brain states and alter an animal's behavioral priorities.<br /><br />Our work on the ecdysis network thus seeks to answer basic questions about how motor sequences are initiated, sustained, and terminated and how their component programs are assembled and temporally organized by the nervous system to assure the achievement of adaptive goals. Throughout, we wish to determine what role hormones and neuromodulation play in these processes. This work has as its fundamental aim, the derivation of principles of neural circuit function. The fact that few such principles exist reflects the current paucity of examples both of the specific mechanisms by which nervous systems accomplish particular tasks and of the general mechanisms by which they coordinate the execution of all tasks they face. By elucidating the functional neuroarchitectures that support the task of ecdysis, work in our laboratory thus aims to deliver insights into the general operation of all nervous systems.<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Insect ecdysis sequences represent a simple, robust, and tractable model for studying the neuromodulatory mechanisms that govern behavior. Because initiation of an ecdysis sequence involves a profound shift in behavioral priorities, study of these sequences offers the opportunity to understand the neuromodulatory mechanisms that govern changes in behavioral state. In addition, because ecdysis behaviors are inherently sequential, they permit the systematic investigation of how motor programs are assembled and serially executed by the nervous system. Finally, the study of ecdysis sequences promises insight into how conserved circuits can be variably configured to generate immensely different behaviors. In Drosophila, for example, the motor sequences performed at pupal and adult ecdysis before and after metamorphosis, respectively are scarcely similar though they are governed by a common set of neuromodulatory/hormonal inputs. By analogy to computing, these inputs can be regarded as instructions written in a higher programming language that are then compiled into different motor output patterns. Exposing the mechanisms of neural compilation in ecdysis is likely to deeply inform our understanding of how neuromodulators contribute to neurocomputation by reconfiguring the activity of neural networks. <br /><br />To investigate these questions, our laboratory seeks to elucidate the circuitry that governs both the pupal and adult ecdysis sequences in Drosophila, with our primary efforts over the last year being devoted to the pupal ecdysis circuitry.  As noted above, pupal ecdysis is strictly dependent on intrinsic factors, a fact most evident from the observation that exogenous application of the peripherally released hormone, Ecdysis Triggering Hormone (ETH) to an isolated pupal nervous system is sufficient to trigger sequential activation of neurons that express other key neuromodulators governing ecdysis. Evidence indicates that this sequential activation corresponds to the generation of a fictive ecdysis sequence, and our efforts over the last year have focused on characterizing the neuronal substrates of this fictive sequence using functional manipulations and Ca++ imaging. Following up on our previous identification of neurons directly targeted by ETH (Diao et al., 2016, Genetics 202:175-189), we are now characterizing neurons that act downstream of these targets. Of principal interest are neurons that respond to two hormones known to play important roles in generating the pupal ecdysis sequence: Bursicon and CCAP. These hormones are co-released by a small subset of ETH targets after the initiation of pupal ecdysis and have been shown to initiate the second of three phases of the pupal ecdysis sequence. We have completed an initial characterization of the neuronal populations that respond to Bursicon and CCAP, and this work is the subject of a recently submitted manuscript.  It is worth noting that this work relied heavily on two genetic targeting methods previously developed in the laboratory: The Split Gal4 system for refined transgene targeting (Luan et al., 2006, Neuron 52, 425-436) and the Trojan exon method (Diao et al., 2015, Cell Reports 10, 1410-1421). Our success in applying these techniques to elucidating the pupal ecdysis circuit illustrates a general strategy for mapping hormonally regulated networks: Using genes encoding the receptors of behaviorally relevant hormones as entry points for refined genetic and neuronal manipulations, one can establish patterns of functional connectivity between neurons in a behavioral network. <br /><br />The Split Gal4 system also formed the basis of two papers published in collaboration during the past year. The first describes the Split Gal4-facillitated dissection of a neural circuit that coordinates male copulation behavior in Drosophila (Pavlou et al. eLife 2016; 5:e20713. DOI: 10.7554/eLife.20713). The second describes the development of a novel genetic tool called the Killer Zipper, which augments the targeting capabilities of the Split Gal4 system (Dolan et al., Genetics 206, 775-784). The Killer Zipper is a suppressor of Split Gal4 activity that permits further refinement of the already restricted neuronal targeting that can be achieved with the Split Gal4 system. We introduce in the paper a versatile toolkit of Killer Zipper constructs and fly lines that should generally facilitate neural circuit mapping efforts in the fly and is already helping spur our own on-going investigation of the circuitry underlying the adult ecdysis sequence.  <br /><br />In summary, we have made good progress during the last year in elucidating the functional architecture of the neural network that underlies execution of the pupal ecdysis sequence. At the same time, we have continued to develop tools that will support not only our own circuit mapping efforts, but also those of other members of the Drosophila research community. As we use these tools to extend and refine our analysis of the circuitry underlying ecdysis sequences at all developmental stages in the fly, our work should provide insight into the principles that govern the development and function of behavioral circuits in all organisms, including humans.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101202&allpubs=Y&isajaxlink=Y&_UserReference=78D56917FD25E8255B38D102','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Dolan MJ, Luan H, Shropshire WC, Sutcliffe B, Cocanougher B, Scott RL, Frechter S, Zlatic M, Jefferis GSXE, White BH (2017) Facilitating Neuron-Specific Genetic Manipulations in Drosophila melanogaster Using a Split GAL4 Repressor. Genetics 206:775-784
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28363977?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5499185/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28363977
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5499185 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Pavlou HJ, Lin AC, Neville MC, Nojima T, Diao F, Chen BE, White BH, Goodwin SF (2016) Neural circuitry coordinating male copulation. Elife 5DOI: 10.7554/eLife.20713
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27855059?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5114013/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27855059
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5114013 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

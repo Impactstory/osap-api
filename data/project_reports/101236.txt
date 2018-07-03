@@ -1,0 +1,986 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002852</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002852-13</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Clinical Evaluation of PET Radiotracers
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Robert  Innis; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/robert-innis" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on PET Neuroimaging Sciences, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on PET Neuroimaging Sciences</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 20 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Elizabeth C Alzona<br />
+
+
+
+
+Chad Peter Brouwer; PhD<br />
+
+
+
+
+Yeshwant Reddy Chillakuru<br />
+
+
+
+
+Emily Rose Fennell<br />
+
+
+
+
+Maria D Ferraris Araneta; RN<br />
+
+
+
+
+Michael Paul Frankland<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=101236&onameset=Section on PET Neuroimaging Sciences&isajaxlink=Y&_UserReference=248CA99E0E0A72435B38D66B','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 20</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Carlos Alberto Zarate; MD  (Experimental Therapeutics and Pathophysiology Branch)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Peter  Herscovitch; MD (CC) <br />
+
+
+
+William Harold Theodore; MD (NINDS) <br />
+
+
+
+Nora D Volkow; MD (NIDA) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborator
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Roger N Gunn; PhD
+<i>(Imanova)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+positron emission tomography, radiochemistry, radiotracer, depression
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The goal of this laboratory is to develop, evaluate, and implement new probes to examine the chemistry of the living brain with positron emission tomography (PET). With this technique, miniscule doses of a radioactively labeled drug are administered to a subject. The drug travels to the brain and binds to specific target sites, called receptors. The distribution and density of these targets in the brain can be measured with a PET camera. Although some of the PET radiolabeled drugs might be used for diagnostic purposes, the major use of these agents is to study the pathophysiology of disease.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Examples of progress made during the prior year are summarized below.<br /><br />1. Building a database for brain 18kDa translocator protein (TSPO) imaged using 11CPBR28 in healthy subjects<br />Translocator protein 18 kDa (TSPO) has been widely imaged as a marker of neuroinflammation using several radioligands, including 11CPBR28. In order to study the effects of potential contributors to neuroinflammation (i.e., age, sex, obesity) and to determine whether 11CPBR28 binding can be accurately measured with fewer radio high-performance liquid chromatography (radioHPLC) measurements of arterial samples, we created an 11CPBR28 database of healthy subjects. 11CPBR28 scans from 48 healthy subjects (23 high-affinity binders (HABs) and 25 mixed-affinity binders (MABs), 20F/28M, age: 40.616.8 years) were analyzed using Logan plot with metabolite-corrected arterial input obtained from 23 arterial samples. Total distribution volume (VT) was found to be 1.2-fold higher in HABs across all brain regions. The polymorphism plot estimated nondisplaceable uptake (VND) as 1.40 mL  cm-3, which generated a specific-to-nondisplaceable ratio (BPND) of 1.60.6 in HABs and 1.10.6 in MABs. VT increased significantly with age in nearly all regions, but did not correlate with body mass index and was not affected by sex. VT was well estimated with radioHPLC measurements from six arterial samples. These results underscore which patient characteristics should be accounted for during 11CPBR28 studies and suggest ways to perform such studies more easily and with fewer blood samples. This work was performed under clinical protocols NCT01547780, NCT00526916, NCT01322555, NCT01851356, NCT02233868 and NCT00613119.<br /><br /><br />2. Replication of the finding that PET radioligand binding to TSPO, a putative biomarker of inflammation, is increased during major depressive episodes<br />Translocator protein 18 kDa (TSPO), a potential biomarker of neuroinflammation, can be accurately quantified using positron emission tomography (PET) and 11CPBR28, a TSPO tracer. A recent study found increased TSPO binding in multiple brain regions in unmedicated subjects with major depressive disorder (MDD) currently experiencing a major depressive episode (MDE). Building on this work, we sought to: 1) replicate these findings using a different patient population and a different tracer; 2) investigate the effects of antidepressants on TSPO binding in these subjects; and 3) determine the relationship of peripheral and central inflammatory markers to TSPO binding. Towards this end, unmedicated MDD subjects (n = 12), medicated MDD subjects (n = 16), and healthy controls (n = 20) underwent PET imaging using 11CPBR28. Total distribution volume (VT) was measured using arterial input function and corrected for TSPO genotype. The subgenual prefrontal cortex and anterior cingulate cortex were chosen as regions of interest. Peripheral blood samples and cerebrospinal fluid were analyzed to investigate the relationship between peripheral and central inflammatory markers and TSPO binding. <br /><br />We found that TSPO binding was significantly higher in MDD versus healthy control subjects in the subgenual prefrontal cortex as well as the anterior cingulate cortex. Unmedicated MDD subjects had the highest level of TSPO binding, followed by medicated MDD subjects and healthy controls. TSPO binding correlated with interleukin-5 (IL-5) in cerebrospinal fluid, but with no other peripheral or central inflammatory markers. Taken together, our results replicated previous findings showing increased TSPO binding in the brain of MDD subjects experiencing an MDE, suggesting that inflammation is a key target for developing novel therapeutics to treat MDD. The findings are particularly important because they may help further elucidate pathways involved in the development of MDD as well as identify potential novel treatments and pharmacological targets. This work was performed under clinical protocol NCT01851356. <br /><br /><br />3. Cellular localization of the inflammatory biomarkers COX-1, COX-2, and TSPO in brain tissue samples from epileptic subjects.<br />It is presently unclear what type of role neuroinflammation plays in mesial temporal lobe epilepsy. However, animal models of epilepsy have shown increases in the inflammatory enzymes cyclooxygenase (COX)-1, and -2. COX-1 and -2 work by converting arachidonic acid into prostanoids. Which prostanoids are produced depend on the type of cell in which this pathway is expressed. Therefore, knowing the cellular expression of COX-1 and COX-2 is important for understanding their function. Only two studies have investigated the expression of COX-2 in epilepsy, but there are no reports on COX-1. To investigate this issue, we sought to measure the cellular expression of COX-1, COX-2, and 18kDa translocator protein (TSPO) in brain tissue samples from 33 people with drug-resistant mesial temporal lobe epilepsy. TSPO, a biomarker of inflammation, was included as a positive control.<br /><br />We found that COX-1 is expressed in microglia, and COX-2 and TSPO are expressed in microglia and neurons. In-situ hybridization confirmed a higher expression of all three proteins in microglia than in astrocytes. The brain tissue could be classified into two groups based on histopathological assessment: sclerotic and non-sclerotic. No differences were found in the expression of any protein between the two groups. 	To the best of our knowledge, ours is the first study to measure the cellular expression of COX-1, COX-2, and TSPO amongst microglia, astrocytes, and neurons in surgical brain tissue samples drug-resistant mesial temporal lobe epilepsy. Further research is needed to determine the effects of the COX inflammatory pathway in epilepsy.<br /><br /><br />4. 11C-ER176, a radioligand for TSPO, can image all three afnity genotypes in human brain<br />18-kDa translocator protein (TSPO) is a key biomarker of neuroinammation. However, PET imaging of TSPO is complicated by the fact that most second-generation radioligands are sensitive to the single nucleotide polymorphism rs6971, though this is probably not the case for the prototypical agent 11C-PK11195. We recently found that 11C-ER176, a new analog of 11C-(R)-PK11195, showed little sensitivity to rs6971 when tested in vitro and had high specic binding in monkey brain. Building on this work, we sought to 1) determine whether the sensitivity of 11C-ER176 in humans was similar to the low sensitivity measured in vitro, and 2) measure the nondisplaceable binding potential (BPND, or the ratio of specic-to-nondisplaceable uptake) of 11C-ER176 in human brain. Nine healthy volunteers3 high-afnity binders (HABs), 3 mixed-afnity binders (MABs), and 3 low-afnity binders (LABs)were studied with whole-body 11C-ER176 PET imaging. Eight separate healthy volunteers3 HABs, 3 MABs, and 2 LABsunderwent brain PET imaging. The 3 HABs underwent a repeat brain scan after TSPO blockade with XBD173. <br /><br />We found that regional standardized uptake values (SUVs) averaged from 60 to 120 minutes after injection in brain and peripheral organs with high TSPO densities such as lung and spleen were greater in HABs than in LABs. The whole-brain BPND for LABs was much lower than that for HABs but about the same as that for HABs with 11C-PBR28. Taken together, the results show that 11C-ER176 has obvious in vivo sensitivity to rs6971 that had not been expected from the in vitro studies with this agent. This suggests that the future development of any improved radioligand for TSPO should consider the possibility that in vitro properties will not be reected in vivo. We also found that 11C-ER176 has adequately high BPND for all rs6971 genotypes. Thus, this new radioligand is likely to have greater sensitivity in detecting abnormalities in patients. This work was performed under clinical protocols NCT02147392 and NCT02181582. <br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101236&allpubs=Y&isajaxlink=Y&_UserReference=248CA99E0E0A72435B38D66B','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Fujita M, Richards EM, Niciu MJ, Ionescu DF, Zoghbi SS, Hong J, Telu S, Hines CS, Pike VW, Zarate CA, Innis RB (2017) cAMP signaling in brain is decreased in unmedicated depressed patients and increased by treatment with a selective serotonin reuptake inhibitor. Mol Psychiatry 22:754-759
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27725657?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5388600/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27725657
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5388600 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Ikawa M, Lohith TG, Shrestha S, Telu S, Zoghbi SS, Castellano S, Taliani S, Da Settimo F, Fujita M, Pike VW, Innis RB, Biomarkers Consortium Radioligand Project Team (2017) 11C-ER176, a Radioligand for 18-kDa Translocator Protein, Has Adequate Sensitivity to Robustly Image All Three Affinity Genotypes in Human Brain. J Nucl Med 58:320-325
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27856631?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5288742/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27856631
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5288742 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kobayashi M, Jiang T, Telu S, Zoghbi SS, Gunn RN, Rabiner EA, Owen DR, Guo Q, Pike VW, Innis RB, Fujita M (2018). C-DPA-713 has much greater specific binding to translocator protein 18 kDa (TSPO) in human brain than C-( R)-PK11195. J Cereb Blood Flow Metab  38, 393-403.   https://doi.org/10.1177/0271678X17699223
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28322082?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5851139/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28322082
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5851139 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kreisl WC, Lawrence R, Page E, Teich AF, Subramaniam DS, Innis RB, Turner RS (2017) (11)C-PBR28 PET detects translocator protein in a patient with astrocytoma and Alzheimer disease. Neurology 88:1001-1004
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28179461?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5333517/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28179461
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5333517 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kreisl WC, Lyoo CH, Liow JS, Snow J, Page E, Jenko KJ, Morse CL, Zoghbi SS, Pike VW, Turner RS, Innis RB (2017) Distinct patterns of increased translocator protein in posterior cortical atrophy and amnestic Alzheimer's disease. Neurobiol Aging 51:132-140
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28068564?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5381519/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28068564
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5381519 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kreisl WC, Lyoo CH, Liow JS, Wei M, Snow J, Page E, Jenko KJ, Morse CL, Zoghbi SS, Pike VW, Turner RS, Innis RB (2016) (11)C-PBR28 binding to translocator protein increases with progression of Alzheimers disease. Neurobiol Aging 44:53-61
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27318133?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4939713/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27318133
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4939713 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Suomen P, Gallagher E, Liow J, Mabins S, Henry K, Zoghbi SS, Gunn RN, Kreisl WC, Richards EM, Zanotti-Fregonara P, Morse CL, Hong J, Kowalski A, Pike VW, Innis RB, Fujita M (2017) Building a database for brain 18kDa translocator protein(TSPO) imaged using 11CPBR28 in healthy subjects. Journal of Cerebral Blood Flow and Metabolism, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">8.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Veronese M, Zanotti-Fregonara P, Rizzo G, Bertoldo A, Innis RB, Turkheimer FE (2016) Measuring specific receptor binding of a PET radioligand in human brain without pharmacological blockade: The genomic plot. Neuroimage 130:1-12
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26850512?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983715/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26850512
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4983715 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">9.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Zanotti-Fregonara P, Xu R, Zoghbi SS, Liow JS, Fujita M, Veronese M, Gladding RL, Rallis-Frutos D, Hong J, Pike VW, Innis RB (2016) The PET Radioligand 18F-FIMX Images and Quantifies Metabotropic Glutamate Receptor 1 in Proportion to the Regional Density of Its Gene Transcript in Human Brain. J Nucl Med 57:242-7
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26514176?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983720/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26514176
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4983720 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

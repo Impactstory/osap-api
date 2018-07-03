@@ -1,0 +1,654 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002863</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002863-13</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Multimodal Neuroimaging of Gene-Brain Relationships in Williams Syndrome
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Karen F Berman; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/karen-berman" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Integrative Neuroimaging, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Integrative Neuroimaging</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 21 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Jordan Christina Barone<br />
+
+
+
+
+Joann  Berkson; RN<br />
+
+
+
+
+Joseph Handel Callicott; MD<br />
+
+
+
+
+Danielle Leigh Currin<br />
+
+
+
+
+Jasmin Bettina Czarapata<br />
+
+
+
+
+Dwight  Dickinson; PhD<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=101239&onameset=Section on Integrative Neuroimaging&isajaxlink=Y&_UserReference=A84FBE7305BEC3D75B38D671','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 21</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Bhaskar S Kolachana; PhD  (Human Brain Collection Core)<br />
+
+
+
+Stefano  Marenco; MD  (Psychosis and Cognitive Studies Section)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Carolyn B Mervis
+<i>(University of Louisville)</i>
+<br />
+
+
+
+Colleen A Morris
+<i>(University of Nevada School of Medicine)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+7q11.23, Williams syndrome, copy number variation, social cognition, neuroimaging
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The Clinical and Translational Neuroscience Branch, combines multimodal neuroimaging methodologies (functional and structural magnetic resonance imaging (fMRI, sMRI)and positron emission tomography PET), genetics, and behavior to investigate Williams syndrome (WS), a rare disorder caused by a hemizygous deletion of approximately 25 genes on chromosome 7, typically by spontaneous mutation. The incidence is between one in 7500 and one in 20,000 live births. With its unique profile of striking behavioral features, such as hypersociability, combined with differential impact on cognitive functions, some only mildly affected while others, particularly visuospatial construction, severely impaired, WS is an intriguing experiment of nature that raises fundamental questions about the neurogenetic mechanisms of social behavior and of cognition, the modularity of mind, and brain plasticity in development. Because the genes involved in WS are known, the study of neural mechanisms in WS affords a privileged setting for investigating genetic influences on complex brain functions from the bottom-up. Studying this rare genetically-based neurodevelopmental disorder allows us to closely examine the genetic determinants of the function, structure, and organization of neural systems relevant to cognition and behavior, including, particularly, 1) the neural basis of genetically-determined visuospatial construction abilities and 2) the neural mechanisms by which genetic factors influence social behavior and cognition. Our studies compare high functioning groups of people with genetic abnormalities in the Williams syndrome region of chromosome 7 with healthy individuals matched for age, sex, and handedness, and with similar IQ. By thus controlling for IQ, we minimize the possibility that factors such as mental retardation or developmental level would influence interpretation of brain results. Working within this model human system extends and complements efforts to understand genetic mechanisms of behavior, and its pathologies, in the general population and in neuropsychiatric disorders where contributions of individual genes are small and phenotypes may be subtle and complex.<br />Our studies of the neurobiology of WS are a five-pronged effort:<br />1) We continue to refine our knowledge of the WS brain phenotype in adults with the full deletion. In this population, we aim to further explicate hippocampal, fronto-amygdalar, and dorsal visual stream abnormalities by employing multi-channel structural and diffusion tensor MRI methods as well as new visuospatial and social cognitive probes for fMRI.<br />2) We apply our multimodal imaging battery to individuals with smaller deletions to better associate components of the neurobiological phenotype with specific genes.<br />3) Using our knowledge of the adult WS brain phenotype as a template, we continue to explore the effects of single nucleotide polymorphisms (SNPs) in WS-related genes in the general population.<br />4) Lastly, to study the development of the genetically-driven anomalies of brain structure and function in WS, a major initiative is a longitudinal multimodal neuroimaging study of high functioning children with the full WS deletion, smaller deletions, and duplications (Dup7) of the WS critical region. Study of persons with smaller deletions lends invaluable insights into the contributions of specific genes to aspects of the WS phenotype.  Study of persons with Dup7, in which the WS critical region is duplicated (yielding  three gene copies) rather than deleted as in WS (wherein there is only a single copy of affected genes), along with the opposing phenotypes in Dup7, such as autistic traits and retained visuospatial functions offers opportunities to understand gene dosage effects. Our experience and success in defining the adult WS brain phenotype, together with the collaborative and in-house expertise in neurodevelopment, provide a unique opportunity to make major advances in this area.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The Clinical and Translational Neuroscience Branch continues to work toward discovery of novel genetic contributions to brain structure, function, and clinically relevant behavior and cognition, through a series of ongoing multimodal neuroimaging studies of individuals with copy number variation in the 7q11.23 Williams Syndrome (WS) genomic region (hemizygous microdeletion of a contiguous segment of DNA at this locus). These studies have been responsible for seminal advances in elaborating the neural underpinnings of both visuospatial and socio-emotional aspects of the 7q11.23 phenotype. Via multiple neuroimaging techniques, including voxel- and surface-based cortical morphometry, diffusion tensor imaging, and functional MRI, we have established that the visuospatial construction deficits in WS are linked to convergent intraparietal sulcus alterations. Specifically, in this brain region, we have shown that individuals with WS harbor disrupted neural integrity, altered activation during spatial judgments, gray matter volume and sulcal depth reductions, and associated neural fiber tract anomalies. Likewise, in pursuit of systems-level correlates of the hypersociability and non-social anxiety observed in WS, we have found decreased amygdala activation evoked by fearful face stimuli and conversely, increased amygdala response to non-social frightening stimuli, abnormalities that were linked to altered prefrontal regulation in structural equation models. We have also identified convergent alterations in anterior insula structure, function, and inter-regional connectivity, which predict the characteristic WS personality.  Efforts this year have focused on data collection of these same structural and functional measurements of visuospatial and socio-emotional systems integrity in a growing cohort of children with and without WS critical region copy number variation (i.e., individuals with one WS, two typically developing, or three Dup7 copies of affected genes in the WS critical region) as part of our longitudinal WS neurodevelopmental initiative. <br />In proof-of-concept work aimed at establishing neurostructural gene-dosage effects, we have studied microanatomical measures and found increasing overall brain size with increasing copy number (Dup7&gt;TD&gt;WS), but decreasing relative cerebellar size (WS&gt;TD&gt;Dup7) with copy number of affected genes. Interestingly, both of these Dup7 phenotypes (larger brain size and relatively smaller cerebellum) have been described in the autism literature, particularly in boys, although these findings are not without controversy.  Following this work, we are undertaking similar gene-dosage analyses of more localized morphometry throughout the brain, as well as local gyrification index and resting-state whole-brain connectivity, the latter using a recently-developed connectome-wide association study approach as well as independent component and dual-regression analyses. <br />In parallel, we continue to undertake studies of WS-associated DNA sequence variation in individuals without WS. This work has yielded remarkable interactions between genotype in the WS-associated GTF2I gene and a measure of trait neuroticism, harm avoidance, in predicting prefrontal response during an emotional face viewing task. Insofar as GTF2I sequence variation affects the neural correlates of anxiety-related behavior, this gene may be of particular relevance to the dichotomous social versus non-social anxiety phenotypes present in WS. To the extent that this finding was identified in individuals without WS, such work exemplifies the translational possibilities of WS-directed research in benefiting a broader scientific understanding of key neural processes in the human brain.<br />Preliminary data from our WS developmental cohort has already demonstrated parietal hypofunction during visuospatial challenge and altered social network activation during processing of socially salient stimuli, consistent with the hypothesis that both visuospatial and social neurobiological differences in WS are rooted in early life.  This project seeks not only to expand knowledge of the WS-related brain systems in childhood, but also to identify developmental trajectory (throughout childhood) and gene dose-response characteristics of neural abnormalities underlying visuospatial and socio-emotional alterations in this syndrome using a longitudinal, repeated measures design. Though data accrual will require years of careful and concerted effort to complete, the potential for these studies to shed unprecedented light on genetic contributions to brain development is enormous. <br /><br /><br />This work includes the following studies: NCT01132885, NCT00004571, NCT00001258<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101239&allpubs=Y&isajaxlink=Y&_UserReference=A84FBE7305BEC3D75B38D671','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Book chapters<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Eisenberg D, Prabhakan R, Berman KF (2016) Imaging genetics of Williams syndrome, in Neuroimaging Genetics, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Carrasco J, Nash T, Jabbi M, Eisenberg DP, Gregory MD, Roe K, Prabhakaran R, Sottile ME, Mikhaiel J, Ravindranath O, Insel CM, Kippenhan S, Kohn PD, Martin A, Mervis CB, Berman KF (2016) Neurodevelopmental Correlates of Abstract Social Atribution in Children With Williams Syndrome Biological Psychiatry 79:245S
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Gregory MD, Kippenhan JS, Eisenberg DP, Kohn PD, Dickinson D, Mattay VS, Chen Q, Weinberger DR, Saad ZS, Berman KF (2017) Neanderthal-Derived Genetic Variation Shapes Modern Human Cranium and Brain. Sci Rep 7:6308
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28740249?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5524936/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28740249
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5524936 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Hansen G, Nash T, Jabbi M, Eisenberg DP, Gregory MD, Roe K, Prabhakaran R, Kohn PD, Kippenhan S, Mervis CB, Berman KF (2016) Developmental Correlates of Sensory-limbic Representation of Pleasant and Unpleasant Gustatory Emotional Observation in Williams Syndrome Biological Psychiatry 79:108S
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Mikhaiel J, Nash T, Kohn PD, Prabhakaran R, Sottile ME, Insel CM, Yankowitz LD, Carrasco J, Ravindranath O, Kippenhan S, Eisenberg DP, Gregory MD, Masdeu J, masdeu J, Roe K, Berman KF (2016) Hypofunction of the Intraparietal Sulcus in Children with Williams Syndrome during a Tetris-like Visuospatial Task Biological Psychiatry 79:217S
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Ravindranath O, Nash T, Kippenhan S, Prabhakaran R, Yankowitz LD, Carrasco J, Mikhaiel J, Sottile ME, Roe K, Kohn PD, Eisenberg DP, Gregory MD, Mervis CB, Berman KF (2016) Alterations in Neural Substrates of Aversive Social and Non-Social Stimulus Processing in Children With Williams Syndrome Biological Psychiatry 79:254S
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

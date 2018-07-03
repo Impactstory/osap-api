@@ -1,0 +1,454 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002781</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002781-13</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">fMRI Studies Of Pediatric Mood And Anxiety Disorders
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Daniel  Pine; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/daniel-pine" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Development and Affective Neuroscience, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Development and Affective Neuroscience</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 13 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Madeline Joan Farber<br />
+
+
+
+
+Andrea Lillian Gold<br />
+
+
+
+
+Elizabeth Jean Ivie<br />
+
+
+
+
+Johanna Molly Jarcho; PhD<br />
+
+
+
+
+Anastasia Lara McGlade<br />
+
+
+
+
+Kalina Julia Michalska; PhD<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=86293&onameset=Section on Development and Affective Neuroscience&isajaxlink=Y&_UserReference=B6A428A2E3820E615B38D60A','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 13</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Ellen  Leibenluft; MD  (Section on Mood Dysregulation and Neuroscience)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+adolescence, depression, SSRI, fMRI, fluoxetine, therapeutics, emotion, pediatrics
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Through a series of three protocols, we are using functional magnetic resonance imaging (fMRI) to examine individual differences in neurocognitive function among pediatric anxiety disorders and major depressive disorder.  As a secondary goal of the project, we also are examining the degree to which these neurocognitive measures predict treatment outcome.  Thus, in one aspect of this project, we will test the hypothesis that children and adolescents with mood and anxiety disorders exhibit hyperactivity in the amygdala and ventral prefrontal cortex when confronted with emotionally evocative stimuli.  In a second aspect of this protocol, we will test the hypothesis that levels of hyperactivity before treatment predict a patient's response to treatment.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+This work is conducted under protocol 01-M-0192, NCT is 00018057.<br />Through a series of three protocols, we are using functional magnetic resonance imaging (fMRI) to examine neurocognitive correlates of pediatric anxiety disorders.  Through ongoing collaborative studies, we also have increasingly compared findings in these syndromes with findings in adult anxiety disorders as well as findings in other pediatric mental disorders.  Through collaborative work, we have a particularly strong interest in examining the similarities and differences between pediatric and adult mood and anxiety disorders.  From this vantage point, studies conducted at the NIH as part of this protocol focus most narrowly and deeply on pediatric anxiety disorders.  On the other hand, studies conducted with collaborators both within the NIH and at extramural sites focus most deeply on adult anxiety disorders and mood or other psychiatric disorders in children and adolescents.  Finally, as the neural correlates of anxiety have been defined increasingly precisely through work in this protocol, we have begun to focus more deeply on the manner in which effective treatment changes these neural correlates so that research on novel therapeutics might target such neural correlates.    <br /><br />The work performed under this protocol and with the many associated collaborators holds the potential to dramatically impact public health, for various reasons.  Mood and anxiety disorder dramatically alter the well-being of children and adolescents.  Nevertheless, relatively little work has been conducted on the underlying pathophysiology of these conditions, using methods that allow direct extensions to work in basic neuroscience.  fMRI research is vital for work in this area.  Such research assesses brain function in children using methods that are directly comparable to the techniques used to study brain function in animal models.  <br /><br />Work in this protocol holds the hope of generating insights on pathophysiology in a way that will lead to novel treatment discovery.  This hope has increased in recent years, with discovery of replicable perturbations that might be targeted by novel treatments.  This suggests that novel treatments have begun to  emerge through the confluence of findings in animal models and children.  As such, this protocol is beginning to generate treatments that will alter clinical practice.  In the past year, this work has continued to focuse very deeply on aspects of attention; two randomized controlled trials were published in this area through work with collaborators; a third randomized controlled trial is approximately half-way finished.  Moreover, this protocol can generate understandings of development.  This is because most adult mood and anxiety disorders also emerge from earlier disorders, manifest in childhood.  Therefore, not only might this protocol dramatically alter the well-being of youth, but it also holds the hope of improving the lives of adults.  Finally, we have increasingly incoroporated novel treatment approaches into the body of work implemented under this protocol.  This applies most directly to the a novel computer-based method for retraining attention in pediatric anxiety disorders.  This provides a novel means to achieve clinical benefits.  In fact, during the past three years, we completed two randomized controlled trials, and we are in the midst of a third trial designed to extend findings from this first two studies.  Moreover, through collaborative research, we have completed an additional three trials using similar methods.            <br /><br />The central focus of the protocol is on individual differences in neural circuitry function, as they relate to individual differences in behavior and clinical response to treatment.  Thus, in the most important aspect of the protocols, we are attempting to document deficits in brain systems mediating reward-related processes, attention bias, and emotional memory in pediatric mood and anxiety disorders.  Replicated findings from this project clearly implicate many such deficits in anxiety, moving research on developmental psychopathology into the domainof neuroscience.  This shows that individual differences in behavior firmly relate to individual differences in brainfunction.  In the past three years, our focus has been on extending attention-based and fear-conditioning work, in ways that most directly inform therapeutics.  As noted above, this has led us to implement novel therapies.  We have also just begin to return to questions on disorder specificity, with a particular focus on comparing fears that are elicited by social and non-social stimuli.  Thus, a particularly important goal in our current studies among individual groups of anxiety disorders.  <br /><br />Prior neuropsychological studies in children as well as in adults note that mood and anxiety disorders are associated with deficits in attention modulation and emotional memory.  We have found consistent evidence of such deficits in the current protocol.  Moreover, prior imaging studies in healthy adults note that tasks requiring attention modulation or emotional memory engage cortico-limbic brain regions previously implicated in adult mood and anxiety disorders.  These regions include the amygdala, ventral prefrontal cortex, cingulate gyrus, and hippocampus.  Once again, we also find such evidence in the current set of projects, with multiple, replicated reports of cortico-limbic dysfunction in both pediatric and adult anxiety disorders.  This shows that fMRI attention modulation and emotional memory paradigms differentially engage cortico-limbic brain regions in psychiatrically healthy and anxious, impaired subjects.  These studies are ongoing in more than 400 subjects.  For these subjects, each received neurocognitive examinations, and a subset received fMRI examinations.  Each received standardized assessments of response to treatment.  As part of our studies in healthy subjects, we also successfully developed each of the fMRI protocols that will be used in the current project.  As noted above, many of our initial hypotheses have been confirmed, and our studies are now moving forward to examine issues of specificity and to consider how our findings might be used to inform advances in treatment.  This involves a particularly deep focus on fear conditioning.    <br /><br />During the coming year, we will continue the process of analyzing the extensive data emerging from the fMRI studies performed as part of this protocol; we also will continue to analyze data from behavioral studies in patient groups.  Moreover, we also have finalized two randomized controlled trials and have published these findings.  Finally, we have analyzed data acquired with our new fMRI protocols, particularly attention-based and fear-conditioning paradigms; we also have submitted results from these analyses for publication, and we have initiated new studies that extend this recently-completed work.  Beyond these ongoing behavioral and fMRI studies, our group is also involved in various collaborations that have led to analyses of other data sets and reporting of research findings.  This also has led to a number of recently published papers and manuscripts that are under review.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86293&allpubs=Y&isajaxlink=Y&_UserReference=B6A428A2E3820E615B38D60A','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+No publications during this reporting period
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

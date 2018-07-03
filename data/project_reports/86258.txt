@@ -1,0 +1,838 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002800</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002800-12</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Identifying Neural Substrates of Behavior in Drosophila Melanogaster
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Benjamin H White; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/benjamin-white" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neural Function, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neural Function</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 8 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Fengqiu  Diao; PhD<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Feici  Diao; MD, PhD<br />
+
+
+
+
+Amicia Devin Elliott<br />
+
+
+
+
+Haojiang  Luan<br />
+
+
+
+
+Sarah Ann Naylor<br />
+
+
+
+
+Robert L Scott<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=86258&onameset=Section on Neural Function&isajaxlink=Y&_UserReference=2C37989EAAF2C3CE5B38D0CF','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 8</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Kevin Lawrence Briggman; PhD (NINDS) <br />
+
+
+
+Carson C Chow; BASc, PhD (NIDDK) <br />
+
+
+
+Chi-Hon  Lee; MD, MS, PhD (NICHD) <br />
+
+
+
+Vipul  Periwal; BS, MA, Ph D (NIDDK) <br />
+
+
+
+Mihaela  Serpe (NICHD) <br />
+
+
+
+Hari  Shroff; PhD (NIBIB) <br />
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 9 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+J  Ewer; PhD
+<i>(Centro de Neurociencia, Universidad de Valparaíso)</i>
+<br />
+
+
+
+G  Jefferis
+<i>(Medical Research Council, Cambridge)</i>
+<br />
+
+
+
+A  Keene; PhD
+<i>(Department of Biology, University of Nevada, Reno)</i>
+<br />
+
+
+
+J A Kiger; PhD
+<i>(Molecular and Cellular Biology, University of California, Davis)</i>
+<br />
+
+
+
+M  Landgraf
+<i>(Cambridge University)</i>
+<br />
+
+
+
+Christopher  Potter; PhD
+<i>(New York Structural Biology Center)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=86258&isajaxlink=Y&_UserReference=2C37989EAAF2C3CE5B38D0CF','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 9</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+bursicon, ecdysis, ecdysis triggering hormone, thermogenetics, behavior, circuitry, drosophila, neuromodulatory
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Understanding how neural circuits act, and interact, to generate behavior is a central issue in neuroscience. In addition, understanding how these circuits develop and change, in response to both genetic and environmental influences, is fundamental to understanding the origins of behavior. That these issues are germane to human mental health is clear from the observation that deficits in the initiation, termination, or organization of behavior characterize many mental disorders. Both new tools for probing the integrative functions of the nervous system and new insights into the mechanisms that underlie behavioral organization are likely to be required to achieve therapeutic advances.<br /> <br />The work of the Section on Neural Function has the principal goal of developing and applying tools for the identification and characterization of neuronal networks underlying behavior. The tools that are of greatest interest are those that permit the targeted manipulation of neuronal function in living, behaving organisms. Such tools naturally reveal the functions of neurons in a behavioral network and their application should allow us to acquire an integrated understanding of how such networks develop, interact, and adapt to organize behavior. Neuroscience's limited understanding of circuit development is, in part, owing to the difficulty of defining behavioral networks at the high resolution required to identify their developmental determinants.<br /> <br />The approach we take requires a genetic model organism that meets several criteria. The organism must combine an existing toolset for targeting manipulations of neuronal activity in vivo with the ability to serve as a &quot;technology incubator&quot; for rapidly testing and deploying new genetic techniques. In addition, it must have a rich behavioral repertoire with a nervous system of tractable size, and permit investigation of nervous system development at the cellular level. The fruit fly, Drosophila melanogaster, almost uniquely satisfies these criteria. It therefore serves as the focus of the work described here.<br />  <br />Consistent with the long-term goals of my research program, we are investigating a paradigm in which behavioral organization is a key feature and elucidation of the neural substrates underlying specific behaviors is possible. This paradigm centers on the innate behaviors that govern a class of developmentally important sequences known as ecdysis sequences. Ecdysis sequences are driven by hormonal and neuroendocrine factors, but are also typically responsive to environmental conditions. The mechanisms by which extrinsic and intrinsic factors act on neuronal networks to orchestrate a specific behavioral output are thus naturally open to investigation in this system. Because ecdysis sequences are innate, their circuitry also must be laid down during development. Identifying the developmental genes that specify this circuitry is a further long-term goal of our research.<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Ecdysis sequences are stereotyped motor programs that are used to cast off an insects exoskeleton at each molt and to expand a new exoskeleton to accommodate further growth. Survival and growth thus depend upon successful execution of ecdysis sequences, and each such sequence must be tailored to the animals particular developmental stage. The developmental stage that has been the focus of most of the research in my laboratory is that of the newly metamorphosed adult, where the ecdysis sequence includes an adaptive, environmentally-sensitive behavioral program that mediates the search for suitable surroundings, and a subsequent, hormonally-driven program that serves to expand the recently developed wings of the newly emerged fly. As summarized in an invited review published this year in the Annual Reviews of Entomology (White &amp; Ewer, 2014, Annu. Rev. Entomol. 59: 363-381), the first program is used to find a safe perch from which the immobile fly can expand its wings, and the second program initiates expansion. Because wing expansion must be undertaken within several hours of emergence, the need for safety must be balanced by the imperative to expand and each individual fly must decide when (and under what environmental circumstances) to expand. Wing expansion thus provides a behavioral paradigm for studying decision-making, the most fundamental aspect of behavioral integration, and for understanding how hormonal and environmental factors act, individually and in concert, to recruit motor patterns to assemble behavioral sequences. Such understanding should, in turn, shed light on the deficits in behavioral organization that lie at the root of many mental disorders, including obsessive-compulsive disorder, schizophrenia, and bipolar disorder. <br /><br />My laboratory's approach to understanding how the Drosophila nervous system produces behavioral sequences crucially depends on genetic techniques that allow specific subsets of brain cells to be turned off or on in freely behaving animals. This approach requires genetic tools for both suppressing and stimulating brain cell activity, as well as tools to target these manipulations to the desired subset of cells. Making such tools is another principal goal of our research. Two tools that have driven much of our recent research include a technique for acute neuronal activation using the mammalian cold-sensitive channel TRPM8, which we introduced in 2009 (Peabody et al., 2009, J Neurosci. 29:3343-53), and a technique for targeting transgene expression to neurons that express a specific gene of interest, which we introduced in 2012 (Diao &amp; White, 2012, Genetics 190:1139-44).<br /><br />The ability to acutely activate neurons using TRPM8 was central to a project carried out in collaboration with the laboratory of Dr. Moto Yoshihara in which the goal was to develop a general method for identifying core circuit components responsible for generating simple behaviors in the fly. A manuscript describing this method was published during the reporting period in the journal G3 (Flood et al., 2013, G3:Genes, Genomes, Genetics 3:1629-37, and one of the principal successes of applying the approach was described in an earlier publication in Nature, which characterized a pair of command neurons that controls feeding behavior in Drosophila (Flood et al. , 2013, Nature 499:83-7).  <br /><br />We have also used acute activation by TRPM8 to characterize the command neurons for wing expansion behavior, which we identified previously (Luan et al., 2012, J Neurosci 32: 880889). The recent work, published in the Journal of Experimental Biology (Peabody &amp; White, 2013, J. Exp. Biol. 216:4395-4402), shows that the command neurons become competent to drive the wing expansion program only after emergence from the pupal case. Prior to this time the wing expansion network is suppressed--likely downstream of the command neurons--and the act of emergence, or some process closely associated with it, lifts this suppression. Our results provide insight into how nervous systems use inhibitory mechanisms to assemble motor programs into correctly ordered behavioral sequences.<br /> <br />The T2A-Gal4 in-frame fusion technique couples the expression of transgenes to the expression of endogenous genes of interest using the ribosomal skipping mechanism of the viral T2A peptide. We had previously used this technique to make a fly line that co-expresses the Gal4 transcription factor in cells that express the receptor for bursicon, the hormone that governs wing expansion. In addition to using this line to characterize the functional roles of bursicon receptor-expressing neurons in the wing expansion, we also identified a novel set of cells in the fly gut that use bursicon signaling to regulate stem cell turnover. This work was carried out in collaboration with the laboratory of Dr. Marcos Vidal and was recently published in the journal Current Biology (Scopelliti et al., 2014, Curr. Biol. 24: 1199-1211). A second manuscript, in which the T2A technique was exploited to characterize the circuitry underlying color processing in the Drosophila brain, was the product of a collaboration with the laboratory of Dr. Chi-hon Lee and was published in the journal Neuron. (Karuppudurai et al., 2014, Neuron 81: 603-615).<br /><br />In addition to exploiting the T2A-Gal4 in-frame fusion technique to investigate specific biological questions, we have also spent considerable effort over the last two years further developing this technique. To extend its range of application, we have developed a broad &quot;toolkit&quot; of plasmids and fly lines that permits the technology to be easily used in conjunction with the MiMIC transposon-containing lines produced by the Drosophila Gene Disruption Project. Our &quot;MiMIC-T2A-mediated In-Frame Fusion&quot; method (i.e. MiMIC-TIFF) allows Gal4 and numerous other transgenes to be expressed in the same pattern as endogenous genes that contain MiMIC insertions. The method works for any MiMIC insertion that lies within the coding intron of a gene of interest and uses recombinase-mediated cassette exchange to replace the MiMIC insert with a T2A fusion construct preceded by a splice acceptor site. Currently, there are several thousand suitable MiMIC insertions available for use with this technique, and we have successfully tested the technique with T2A constructs that permit expression of not only Gal4, but also Gal80 and components  of the Split Gal4 system, which we introduced in 2006 (Luan et al., 2006, Neuron, 52:425-36). A manuscript describing this technique is expected to be submitted later this year. A second manuscript in preparation describes the application of the MiMIC-TIFF technique to characterize neurons that express the receptor of Ecdysis Triggering Hormone, which is the master regulator of ecdysis sequences in flies and other insects.<br /><br />In summary, we have made substantial progress during the last year in elucidating, or helping to elucidate, several behavioral circuits in the Drosophila nervous system, including the one that supports wing expansion. At the same time, we have continued to develop tools that will support not only our own circuit mapping efforts, but also those of other members of the Drosophila research community. As we use these tools to extend and refine our analysis of the wing expansion circuit andmore broadly, the circuit that underlies ecdysis sequences at all developmental stagesour work should provide insight into the principles used by all nervous systems to generate and organize behavior
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86258&allpubs=Y&isajaxlink=Y&_UserReference=2C37989EAAF2C3CE5B38D0CF','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Flood TF, Gorczyca M, White BH, Ito K, Yoshihara M (2013) A large-scale behavioral screen to identify neurons controlling motor programs in the Drosophila brain. G3 (Bethesda) 3:1629-37
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23934998?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3789788/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23934998
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3789788 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Karuppudurai T, Lin TY, Ting CY, Pursley R, Melnattur KV, Diao F, White BH, Macpherson LJ, Gallio M, Pohida T, Lee CH (2014) A Hard-Wired Glutamatergic Circuit Pools and Relays UV Signals to Mediate Spectral Preference in Drosophila. Neuron 81:603-15.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24507194?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3920195/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24507194
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3920195 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Peabody NC, White BH (2013) Eclosion gates progression of the adult ecdysis sequence of Drosophila. J Exp Biol 216:4395-402
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24031052?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3836289/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24031052
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3836289 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Scopelliti A, Cordero JB, Diao F, Strathdee K, White BH, Sansom OJ, Vidal M (2014) Local control of intestinal stem cell homeostasis by enteroendocrine cells in the adult Drosophila midgut. Curr Biol 24:1199-211
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24814146?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4046228/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24814146
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4046228 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">White BH, Ewer J (2014) Neural and hormonal control of postecdysial behaviors in insects. Annu Rev Entomol 59:363-81
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24160420?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5131643/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24160420
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5131643 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

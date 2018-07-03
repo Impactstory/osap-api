@@ -1,0 +1,594 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002717</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002717-21</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neuroimaging of Brain Circuits and Molecular Mechanisms in Normal Cognition
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Karen F Berman; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/karen-berman" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Integrative Neuroimaging, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Integrative Neuroimaging</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 30 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Karen  Bartholomew<br />
+
+
+
+
+Morgan Elaine Bartholomew<br />
+
+
+
+
+Joann  Berkson; RN<br />
+
+
+
+
+Jessica  Carrasco<br />
+
+
+
+
+Saumitra  Das; MS<br />
+
+
+
+
+Vincent Louis del Balzo<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=91045&onameset=Section on Integrative Neuroimaging&isajaxlink=Y&_UserReference=A9E6443B75DFEF475B38D59D','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 30</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Bruno B Averbeck  (Section on Cognitive Neurophysiology and Imaging)<br />
+
+
+
+Bhaskar S Kolachana; PhD  (Human Brain Collection Core)<br />
+
+
+
+Tuong Vi  Nguyen; MD  (Section on Behavioral Endocrinology)<br />
+
+
+
+Peter J Schmidt; MD  (Behavioral Endocrinology Branch)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborator
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Venkata  Mattay
+<i>(Lieber Institute for Brain Development)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+neuroimaging, dopamine, cognition, neurodevelopment, frontal cortex
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The Clinical and Translational Neuroscience Branch uses multimodal neuroimaging methods as a brain phenotyping tool, with the specific aim of defining brain circuits within which to characterize the impact of allelic variation. The overall objective of this work is to use multimodal neuroimaging and neuropsychological batteries to generate a mechanistic account of brain function, development and dysfunction in order to understand mechanisms that translate genetic effects into risk for mental illness. <br /><br />To date, our work on the neurobiology of molecular targets of interest to schizophrenia has concentrated on healthy control subjects, in whom we have tested for genotype effects on cortical-subcortical circuitry and on the relationship between subcortical dopamine stores and cortical function. This work will continue to build the sample sizes of our multimodal data sets in all neuroimaging domains, a necessity for examining gene-gene interactions. Furthermore, the initiation of a dedicated longitudinal study of children and adolescents will allow us to refine our knowledge of developmental trajectories and neural maturation by gene interaction effects on the defined circuitry. In collaboration with the Section on Behavioral Endocrinology, we will also be able to discern how these neurodevelopmental changes may be linked to precisely measured pubertal advancement.<br /><br />This work involves the following studies: NCT00942981, NCT00001258, NCT00024622, NCT00004571<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The Clinical and Translational Neuroscience Branch continues to make advances on several fronts in order to delineate the neurochemical, neurogenetic, and neuropsychological contributions to neural systems function and development relevant to mental illness. We have embarked on data collection for two unprecedented scientific resources: first, a unique multimodal neuroimaging dataset in adults that includes neuropsychological testing, extensive dopaminergic PET imaging as well as MR spectroscopy, functional and structural MRI; and, second, a longitudinal, neurodevelopmental dataset that incorporates structural and functional magnetic resonance-based brain imaging, and, in conjunction with the Section on Behavioral Endocrinology, precise, state-of-the-art endocrinological measurements of pubertal status. These comprehensive ongoing data acquisition efforts have resulted in a growing repository of integrated information about the brain, which will permit both novel analyses synthesizing disparate but interrelated indices of neurochemical (e.g., dopamine, GABA, and glutamate) functioning and discovery of critical genetic and endocrinological factors guiding neurodevelopment. <br /><br />This work has already begun to yield important insights into social neurocognitive processes, which inform models of abnormal processing of social cues in neuropsychiatric conditions such as schizophrenia, autism and Williams syndrome. In a series of multimodal experiments, we have taken advantage of magnetoencephalography, positron emission tomography and magnetic resonance imaging methods to first identify heretofore unappreciated links between midbrain dopamine stores and how social neural networks react to viewing emotional faces, then dissect how specific types of such brain activity modulate over time as expressions emerge on a viewed face, and most recently, discover genetic association between the Williams syndrome region gene, GTF2I, and relationships between trait neuroticism and social neural activity.  <br /><br />Other recent efforts have focused on defining the impact of gene variants associated with schizophrenia and general cognitive functioning and has begun to evaluate new hypotheses about how sequelae of common genetic variation intersects with the biology of mental illness. We have successfully tied the heritable intermediate phenotype first described by this group  prefrontal inefficiency during the working memory N-back task  to a promising schizophrenia risk variant in the SCN2A gene. Collaborative studies have now confirmed genetic associations between variation in the SCN2A gene and both cognitive ability and interregional brain connectivity in a large cohort of healthy individuals.  In parallel, work this year has uncovered links between a genetic locus previously associated with educational attainment and broad cognitive ability.  We also remain engaged in studies characterizing the genetic determinants of key neurochemical phenotypes (i.e., MRS- and PET-based signals) that have been linked with neuropsychiatric illness.<br /><br />Finally, ongoing work is aimed at understanding the underlying structure of our neural systems and cognitive-behavioral measurements.  For instance, in view of increasingly prominent views that dimensions of psychopathology are extremes of more typical dispositional variation, we have now undertaken analyses of characterological and personality disorder assays of a large cohort of healthy individuals unfettered by confounds inherent in clinical populations.  We have preliminarily identified several prominent dimensions  Negative Affect, Detached, and Egocentric  that complement leading personality theories and may lend insight into latent personality trait structure regardless of diagnostic thresholds.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91045&allpubs=Y&isajaxlink=Y&_UserReference=A9E6443B75DFEF475B38D59D','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Dickinson D, Straub RE, Trampush JW, Gao Y, Feng N, Xie B, Shin JH, Lim HK, Ursini G, Bigos KL, Kolachana B, Hashimoto R, Takeda M, Baum GL, Rujescu D, Callicott JH, Hyde TM, Berman KF, Kleinman JE, Weinberger DR (2014) Differential effects of common variants in SCN2A on general cognitive ability, brain physiology, and messenger RNA expression in schizophrenia cases and control individuals. JAMA Psychiatry 71:647-56
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24718902?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4160812/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24718902
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4160812 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

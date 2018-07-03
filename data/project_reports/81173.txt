@@ -1,0 +1,536 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002032</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002032-37</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neural Coding Of Visual Stimuli
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Barry J Richmond; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/barry-richmond" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neural Coding and Computation, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neural Coding and Computation</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 9 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Samarth  Chandra<br />
+
+
+
+
+Andrew M Clark<br />
+
+
+
+
+Mark Alexander Grainger Eldridge<br />
+
+
+
+
+Walter  Lerchner; PhD<br />
+
+
+
+
+Kaleb Alexander Lowe<br />
+
+
+
+
+Evan Charles Masseau<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=81173&onameset=Section on Neural Coding and Computation&isajaxlink=Y&_UserReference=8130AF6CAA4BAE6D5B38D153','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 9</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Lance Michael Optican; PhD (NEI) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+John  Hertz; PhD
+<i>(Nordita, Norse Institute for Theoretical Physics)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Katalin M Gothard; MD, PhD
+<i>(Dept of Physiology, Un of Arizona College of Medicine)</i>
+<br />
+
+
+
+Narihisa  Matsumoto; PhD
+<i>(Neurotechnology Group, AIST)</i>
+<br />
+
+
+
+Takafumi  Minamimoto; PhD
+<i>(Molecular Neuroimaging, Natl Inst Radiological Science)</i>
+<br />
+
+
+
+J-P  Nadal; PhD
+<i>(Laboratory of Statistical Physics, Ecole Normale Superieure)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+neural codes, cognition, perception, category formation, multiple neurons, single neurons, memory
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+One prominent feature of emotional disorders is the failure to interpret sensory stimuli in a consistent and realistic manner, for example, when depressed individuals find normally attractive scenes or items such as a favorite food, pet or family member uninteresting or even irritating. It would be helpful to know how normal perceptions arise to design strategies for ameliorating these negative feelings. To address this class of problems, we are studying how information about visual stimuli is coded and utilized. The fundamental elements for information processing in the brain, the neurons, process and carry information by working with a series of impulses, where different numbers of pulses represent different messages. No one neuron carries very much information so the information represented in the messages of different neurons must be integrated to give rise to mental events such as sensation, memory, and coordinated movements. To understand how these higher functions arise, for example, visual perception, it is important to identify the aspects of neuronal responses that carry information important for stimulus coding, and how that information is used for stimulus identification and recognition in cognitive processes. This requires learning what codes are used by individual neurons, how the information they represent is processed and transformed, and how the information is integrated across populations of connected neurons. Therefore, we combine studies of single neurons, multiple neurons and behavior, to learn how higher functions such as visual perception and memory arise.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+There is considerable evidence suggesting that temporal lobe brain areas TE and rhinal cortex of the inferior temporal cortex play important roles in recognizing visual stimuli, and by inference an important role in distinguishing among visual categories such as dogs and cats. Inactivation of rhinal cortex using pharmacological, cooling and ablation interferes with performance in delayed matching and nonmatching to sample (DMS and DNMS) tasks. Neurophysiological recordings identify correlates for recency and familiarity memory in neuronal activity in areas TE, perirhinal cortex and entorhinal cortex. We compared three monkeys in each of 3 groups, those with TE inactivations, those with rhinal  (perirhinal + entorhinal) inactivations and three controls on a serial recognition task that did not require simultaneous comparisons between stimuli. In each trial the monkey had to indicate whether the stimulus displayed was new or had been presented earlier within the session. Stimuli were repeated once within the session. The second presentation occurred after no more that 128 intervening stimuli (each of which might be a first or second). The stimulus set had 6000 images of animals in natural scenes. No stimulus was reused within a 30 day period. Control monkeys reliably differentiated between the first and second presentations of a stimulus only had difficulty when the images were separated by 64 or more intervening stimuli. With TE inactivations performance fell from a low level (considerably worse than controls) at short intervals (up to 8 intervening stimuli) to chance levels beyond that whereas rhinal performance was indistinguishable from that of controls. It appears there are some types of recognition memory in which rhinal cortex is not esssential.<br /><br />Visual perceptual categorization is the process through which we assign objects into categories based on some similarity in their appearance. We have shown that monkeys easily learn to discriminate between cats and dogs in a small sample set, and to generalize this ability to never-before-seen exemplars. The monkeys also do this categorization in a set of stimuli with varying degrees of feature ambiguity, where the ambiguity is created by combining or morphing cat-dog pairs with ratios of 100:0, 90:10, 80:20 ..... 0:100). The likelihood of a monkey assigning a cue to a particular category varies sigmoidally with the morph level of the cue. There is a small bias towards one category, presumably because in our testing procedure the rewards are asymmetrical, that is, only one category is rewarded. To investigate how this might happen we developed a reinforcement learning-based spiking neuron model. The model is a neural network with only input and output layers. The input layer neurons all have tuning curves of the same shape (eg. sigmoids, triangles, rectangles, etc.), each neuron with its own parameter values. Each input neuron represents one stimulus group on a continuum of stimuli, i.e., the centers of the turning curves are ordered. The spikes from the neurons of the input layer are summed with adjustable weights by the lone output layer neuron that uses a sigmoidal function to map the summed input into the probability of making the choice leading to reward. The network learns the weights of the inputs onto the single output through reinforcement learning with temporal discounting (in simulations we take temporal discounting over the last 5 trials). The predicted behavioral choices match the experimental findings in producing a sigmoidal performance curve, including the bias toward the rewarded category seen in the behavioral data. When we study the model analytically we can prove a reassuring universality property: the predicted behavioral results are independent of the shape of the neuronal tuning curves. Thus, it appears the form of the tuning curves for neurons for this simple type of reinforcement driven categorization do not play a critical role in learning simple perceptual categorization, providing confidence that the rather simple weighting from inputs to outputs is adequate to explain the results.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81173&allpubs=Y&isajaxlink=Y&_UserReference=8130AF6CAA4BAE6D5B38D153','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+No publications during this reporting period
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

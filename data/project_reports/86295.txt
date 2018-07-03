@@ -1,0 +1,1189 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002783</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002783-13</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Functional MRI Method Development
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Peter A Bandettini; BS, PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/peter-bandettini" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Functional Imaging Methods, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Functional Imaging Methods</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 15 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Katherine Lorraine Baldwin<br />
+
+
+
+
+Laura Cathleen Buchanan; BS<br />
+
+
+
+
+Philip  Dickinson<br />
+
+
+
+
+Jennifer Wai Evans; PhD<br />
+
+
+
+
+Javier  Gonzalez-Castillo; PhD<br />
+
+
+
+
+Benjamin Eoin Gutierrez; BS<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=86295&onameset=Section on Functional Imaging Methods&isajaxlink=Y&_UserReference=4B8AD08D371514965B38D5FE','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 15</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+<div id="moresamestaff">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffu">6 of a total of 11 other  members are shown. </div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Christopher Ian Baker; PhD  (Section on Learning and Plasticity)<br />
+
+
+
+Robert  Cox; PhD  (Division of Intramural Research Programs)<br />
+
+
+
+John Andrew Derbyshire; PhD  (Functional MRI Core)<br />
+
+
+
+Souheil J Inati; PhD  (Office of the Director)<br />
+
+
+
+Sean  Marrett; PhD  (National Institute of Mental Health)<br />
+
+
+
+Alex  Martin; PhD  (Section on Cognitive Neuropsychology)<br />
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaff','searchview.taf?_function=showmore&ios=S&ipid=86295&thisic=&isajaxlink=Y&_UserReference=4B8AD08D371514965B38D5FE','moresamestaffu');  return false;">
+
+
+<span class="morelist">Show all 11</span></a>.</form></div>
+
+
+
+</div>
+</div>
+
+
+</div>
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Jozef H Duyn; PhD (NINDS) <br />
+
+
+
+Silvina  Horovitz (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Jerzy  Bodurka; PhD
+<i>(University of Tulsa)</i>
+<br />
+
+
+
+Edward  Bullmore; MD
+<i>(Biostatistics & Computing, Institute of Psychiatry)</i>
+<br />
+
+
+
+Neil  Burgess; PhD
+<i>(University College London)</i>
+<br />
+
+
+
+Heidi  Johansen-Berg; PhD
+<i>(FMRIB Centre, Oxford University)</i>
+<br />
+
+
+
+Russel A Poldrack; PhD
+<i>(Dept. of Psychology, Stanford University)</i>
+<br />
+
+
+
+E  Wong; PhD, MD
+<i>(Radiology, University of California San Diego)</i>
+<br />
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+fMRI, MEG, BOLD contrast, hemoglobin, cerebral perfusion, brain activation, brain mapping, time series analysis, blood, connectivity, brain
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The goal of the Section on Functional Imaging Methods (SFIM) is to better understand and more efficiently extract and use meaningful signal from MR images and fMRI time series for neuroscience research and clinical use. Most of our work reflects this goal, as signal interpretation research and processing method development have constituted the bulk of the papers and abstracts produced by SFIM during this time period. In addition, we have increased our effort to more accurately measure and more fully understand the slow dynamics of brain changes using MRI methods that assess both anatomy and vascular physiology. <br /><br />When the Unit (now Section) on Functional Imaging Methods (SFIM) was established in March of 1999, we had four ongoing themes (or projects): Technology, Methods, Signal Interpretation, and Applications. Over time, these categories have become less accurate in describing our primary research focus which had shifted more to MRI signal interpretation and general methodology. Specifically we have recently been working towards obtaining a deeper understanding of the resting state and activation-based signal change characteristics, and designing better methods to extract neuronal information from noise and irrelevant signal. Lastly, we are extremely excited that in past years, with increased scanning and processing methodology, it has become more evident that fMRI can be used on the assessment and diagnosis of individual subjects rather than relying on group studies for statistical power. If fMRI could be used clinically for neurological and psychiatric disorders, it would be a breakthrough in medical imaging. We are working directly towards this extremely important goal.  <br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Protocol number 93-M-0170, NCT00001360<br /><br />The Section on Functional Imaging Methods (SFIM) has advanced functional MRI (fMRI) methodology through development of processing and acquisition methods and research on the underlying mechanisms behind the fMRI signal. The ultimate goals are to grain a deeper understanding of healthy human brain and to apply fMRI clinically on  an individual basis.<br /><br />Multi-echo fMRI to improve connectivity mapping<br /><br />This year's work on our novel and powerful method for separating noise from true fMRI signals (called ME-ICA) was directed towards applying it to better understand child development and principles of brain organization. We have two papers in the literature for this and have several more under review. In collaboration with Dr. Pine's group we delineated clear resting state network changes with development. Essentially, the methods reveal that children have many more independent networks than adults do. <br /><br />Simultaneous EEG and fMRI to detect ultra-slow brain changes.<br /><br />Following up on the above project, my post doc Jen Evans in collaboration with Silvina Horovitz (NINDS), acquired simultaneous EEG and multi-echo fMRI in conjunction with low frequency paradigms. EEG data gives us a direct neural measure of the low frequency task signal. We demonstrate that ME-ICA de-noised data better captures the neural components of the fMRI signal than conventional data. <br /><br />Contribution of non-conventional responses to wide-spread activations (7T study)<br /><br />Carried out by my staff scientist Javier Gonzalez-Castillo and post-bac IRTA Colin Hoy. This work constitutes an extension of our original observation of widespread BOLD activations to simple externally driven tasks. In our original study we showed how, when TSNR is sufficiently high and response models versatile enough, it is possible to detect BOLD signal changes correlated with task paradigm in the majority of the brain. In the present work, we show how these widespread activations are cognitive load dependent and are still present despite a significant increase (approximately six fold) in nominal spatial resolution.  <br /><br />Spatial distribution of resting state connectivity stability (3T study)<br /><br />Carried out by my staff scientist Javier Gonzalez-Castillo, post-bac IRTA Colin Hoy and post-bac IRTA Laura Buchanan. The dynamic behavior of BOLD fMRI connectivity at short temporal scales (tens of seconds) is gaining attention and very little is known about the origin. In this project we acquired fMRI data continuously for 60 minutes as subjects rested in the scanner. We found that the most stable connections correspond primarily to inter-hemispheric connections between left/right homologous ROIs. The most variable connections correspond primarily to inter-hemispheric, across-network connections between non-homologous regions in occipital and frontal cortex.<br /><br />Whole brain connectivity dynamics and its relationship to on-going cognition (7T study)<br /><br />Carried out by my staff scientist Javier Gonzalez-Castillo, and post-bac Colin Hoy. As mentioned above, BOLD connectivity is quite volatile at short temporal scales. Given the complex nature of BOLD signals, such variability could be driven by a combination of neuronal and non-neuronal factors. The present study evaluates the potential relationship between BOLD connectivity dynamics at the scale of seconds to minutes with on-going cognition. We acquired functional data continuously for approximately 25 minutes as subjects engage and transition in four different cognitive states, namely rest, mathematical computation, a working memory task and a visual attention task. Our results show that it is possible to group together epochs corresponding to the same cognitive state based on whole-brain connectivity matrices computed with epochs ranging in duration from 3 m to 15 s with high levels of accuracy.<br /><br />Change in Hippocampal Myelination with Aerobic Exercise<br /><br />This project has been carried out by Adam Thomas, who has been recently granted his PhD from Oxford University. In collaboration with Dr. Heidi Johansen-Berg (also at Oxford) we have demonstrated volume growth in the anterior hippocampus after just six weeks of aerobic exercise. Previous rodent studies have shown the hippocampus to be a site of neurogenesis, which is facilitated by exercise. Using advanced statistical methods designed by Dr. Thomas Nichols at the University of Warwick, we were able to demonstrate that the change is dominated by myelination and not by grey matter or vasculature as other groups have predicted. This work has recently been submitted for peer review at a high impact journal.<br /><br />Cerebral blood volume and physical fitness<br /><br />This project has also been carried out by Adam Thomas as part of his thesis work. It has been previously demonstrated that physical fitness is associated with improved cognitive function, especially executive function and working memory. However remains unclear what the mechanism for this relationship may be. In this project, we used contrast agent injections in a large sample of health adults to quantify brain volume throughout the brain. We also measured physical fitness and working memory. We show that physical fitness is positively correlated with total cerebral brain volume, which in turn was positively correlated with physical fitness. Further analyses suggest that greater blood volume in the brain may be one mechanism by which greater fitness leads to improved cognitive function, perhaps by increased oxygen delivery.<br /><br />Hippocampal Morphometry and Depression<br /><br />In a collaborative project between Adam Thomas in my lab and the lab of Carlos Zarate, we have explored the detailed structure of the human hippocampus using high resolution 7 Tesla imaging.  Previous studies have shown a tight link between hippocampal volume, neurogenesis, and depression symptoms. Using susceptibility-weighted scans that are sensitive to the myelinated pathway that parallels the dentate gyrus, a subfield of the hippocampus where neurogenesis occurs, we were able to reconstruct the complex curvature pattern of this structure and quantify its convolution using curvature metrics developed by Mark Jenkinson at Oxford University. We have shown that the degree of curvature shows a positive correlation with severity of depression.<br /><br />Functional laterality measured from Resting-state FMRI in human and monkey brain<br /><br />Carried out by my post doc Hang Joon Jo in collaboration with Dr. David Leopold and Dr. Alex Martin (both of NIMH). By resting-state FMRI analysis, we were able to extend the inter-hemispheric symmetry to the entire cerebrum. For this project, we developed novel methods for defining the anatomical and functional homologues between hemispheres. By those, we could study the laterality of RS-FMRI connectivity to identify functional laterality in human cortex, and also apply the methods and findings to individual subjects of non-human primates to provide more explicit interpretation for the cortical development and evolution in multiple species. For the monkey data, in the results, most cortical areas have the symmetric functional connections across two hemispheres, and this is highly relevant to the results of the same analysis in human brain. However, few areas in lateral frontal and parietal cortices showed different patterns in all subjects. We suggested that those regions might reflect the individual difference in functional lateralization.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86295&allpubs=Y&isajaxlink=Y&_UserReference=4B8AD08D371514965B38D5FE','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Book chapters<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Bandettini PA (2014) Functional MRI discovery and development, in Macmillan References Discoveries in Modern Science. Macmillan Reference (Farmington Hills, MI), in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Bandettini PA (2014) The Birth of FMRI at the Medical College of Wisconsin, in Functional MRI. Ugurbil K, Uludag K, eds., in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Bandettini PA, Wager T (2014) Interpretation and analysis of the fMRI signal: brief overview and leading research in the united states and Europe, in WTECNSF Neuroimaging in Europe, Asia, and Australia report.  WTEC., in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Bandettini PA, Wong E (2014) The Future of Functional MRI, in Functional MRI. Uludag K, Ugurbil K, eds., in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Bandettini P (2014) Neuronal or Hemodynamic? Grappling with the Functional MRI Signal. Brain Connect 4:487-98
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25093397?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4150394/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25093397
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4150394 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Devor A, Bandettini PA, Boas DA, Bower JM, Buxton RB, Cohen LB, Dale AM, Einevoll GT, Fox PT, Franceschini MA, Friston KJ, Fujimoto JG, Geyer MA, Greenberg JH, Halgren E, Hämäläinen MS, Helmchen F, Hyman BT, Jasanoff A, Jernigan TL, Judd LL, Kim SG, Kleinfeld D, Kopell NJ, Kutas M, et al. [25 more authors] (2013). The challenge of connecting the dots in the B.R.A.I.N. Neuron  80, 270-4.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24139032?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3864648/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24139032
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3864648 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Gonzalez-Castillo J, Handwerker DA, Robinson ME, Hoy CW, Buchanan LC, Saad ZS, Bandettini PA (2014) The spatial structure of resting state connectivity stability on the scale of minutes. Front Neurosci 8:138
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24999315?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4052097/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24999315
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4052097 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">8.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Gonzalez-Castillo PA, Hoy CW, Handwerker D, Roopchansingh V, Inati SJ, Saad ZS, Cox R, Bandettini PA (2014) Task Dependence, Tissue Specificity, and Spatial Distribution of Widespread Activations in Large Single-Subject Functional MRI Datasets at 7T. Cerebral Cortex Online Advance Acces:OnlineAdvanceAccess
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">9.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Jo HJ, Gotts SJ, Reynolds RC, Bandettini PA, Martin A, Cox RW, Saad ZS (2013) Effective Preprocessing Procedures Virtually Eliminate Distance-Dependent Motion Artifacts in Resting State FMRI. J Appl Math 2013.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24415902?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3886863/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24415902
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3886863 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">10.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kaplan R, Bush D, Bonnefond M, Bandettini PA, Barnes GR, Doeller CF, Burgess N (2014) Medial prefrontal theta phase coupling during spatial memory retrieval. Hippocampus 24:656-65
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24497013?dopt=Abstract" target="_blank">PubMed</a>
+
+
+           &nbsp;&nbsp;&nbsp;&nbsp;<i>Available in future as a Free Article</i> <!-- looks for PMC translations for in progress or embargoed -->
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24497013
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4028411 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">11.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kaplan R, Horner AJ, Bandettini PA, Doeller CF, Burgess N (2014) Human hippocampal processing of environmental novelty during spatial navigation. Hippocampus 24:740-50
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24550152?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4255751/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24550152
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4255751 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">12.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kenworthy L, Wallace GL, Birn R, Milleville SC, Case LK, Bandettini PA, Martin A (2013) Aberrant neural mediation of verbal fluency in autism spectrum disorders. Brain Cogn 83:218-26.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24056237?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3829693/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24056237
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3829693 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">13.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kundu P, Brenowitz ND, Voon V, Worbe Y, Vértes PE, Inati SJ, Saad ZS, Bandettini PA, Bullmore ET (2013). Integrated strategy for improving functional connectivity mapping using multiecho fMRI. Proc Natl Acad Sci U S A  110, 16187-92.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24038744?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3791700/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24038744
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3791700 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">14.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Yang Z, Chang C, Xu T, Jiang L, Handwerker DA, Castellanos FX, Milham MP, Bandettini PA, Zuo XN (2014) Connectivity trajectory across lifespan differentiates the precuneus from the default network. Neuroimage 89:45-56
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24287438?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3944140/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24287438
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3944140 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">15.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Yang Z, Huang Z, Gonzalez-Castillo J, Dai R, Northoff G, Bandettini P (2014) Using fMRI to decode true thoughts independent of intention to conceal. NeuroImage 99:80-92
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">16.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Yang Z, Xu Y, Xu T, Hoy CW, Handwerker DA, Chen G, Northoff G, Zuo XN, Bandettini PA (2014) Brain network informed subject community detection in early-onset schizophrenia. Sci Rep 4:5549
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24989351?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4929688/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24989351
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4929688 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

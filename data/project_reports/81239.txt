@@ -1,0 +1,880 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002894</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002894-07</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Magnetic Resonance Spectroscopy Core Facility
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Jun  Shen; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/jun-shen" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Magnetic Resonance Core, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Magnetic Resonance Core</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Shizhe Steve Li<br />
+
+
+
+
+Johan W Van Der Veen; PhD<br />
+
+
+
+
+Yan  Zhang<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Robert  Innis; MD  (Molecular Imaging Branch)<br />
+
+
+
+Stefano  Marenco; MD  (Clinical and Translational Neuroscience Branch)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Daniel S Reich (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+magnetic resonance spectroscopy, GABA, N-acetylaspartate, carbon-13, glutamate, glutamine, glutathione, metabolism, neurotransmitter cycling, spectroscopic imaging
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The goals of magnetic resonance spectroscopy (MRS) core are to support clinical and basic science investigators of the NIH community who use MRS as a research tool. MRS uses the same fundamental principles of magnetic resonance imaging. Unlike magnetic resonance imaging which relies on tissue water, MRS measures molecules other than water. It can provides vital biochemical information of the living brain noninvasively. As such, MRS is also known as the method for noninvasive biopsy.  It has been playing a critical role in the understanding of brain neurochemistry and function. The task of MRS core is twofold: it provides technical support on exisitng MRS protocols to ensure the highest data quality; it also tracks the technical advances in the field and implements appropriate techniques for NIH investigators to make the latest technology accessible to NIH MRS users. In addition, the MRS Core facility constantly invents new methods to suit the needs of various research applications and for NIH to lead the development of advanced MRS techniques for clinical and basic science studies.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+As a noninvasive method for measuring concentration and distribution of chemicals in the living brain MRS is an important tool for studying brain function and disorders. However, robust measurement of MRS signals requires highly sophisticated design, implementation and maintenance of various MRS techniques. MRS technology has been a very active research area, attracting major effort from top magnetic resonance research centers around the world. Clinical magnetic resonance imaging scanners optimized for performing structural and functional imaging studies also present daunting obstacles for MRS technical development. Most of the MRS protocols at NIH were developed and implemented by the MRS core under protocol no. 05-M-0144 (NCT# 00109174) and protocol no. 11-M-0045 (NCT# 01266577). <br /><br />1) Correction of baseline in short echo time proton MRS. To capture the entire metabolic profile of brain visible to proton MRS, data acquisition at short echo time is needed. At the same time the broad macromolecule baseline was also acquired. The macromolecule baselien contributes to Cremer Rao Lower Bound of the metabolite signals. To accurately quantify this effect in clinical short echo time MRS we have recently developed a method for determining the smoothness of baseline based on mean squared error of the baseline, leading to more reliable determinatin of signals of interest (Zhang et al, Magn Reson Med, under revision). <br /><br />2) Automatic correction of magnetic field inhomogeneity. It is essential to optimize the homogeneity of magnetic field for all MRS experiments because field inhomogeneity can easily destroy the critical separation of different chemicals. More importantly, an inhomogeneous field makes effective suppression of tissue water signal difficult, therefore making reliable detection of more dilute chemicals impossible. This is particularly the case for anatomical regions of interest to psychiatric research. We have refined and implemented an automatic shimming method called FASTMAP which is optimal for localized MRS studies. This method consistently out-performs the automatic shimming method provided by the manufacturer. It has already greatly improved the quality of proton glutamate editing and 13C MRS experiments. <br /><br />3) N-acetylaspartate mapping. The MRS core maintains a chemical shift imaging techique for mapping distribution of the neuronal marker N-acetylaspartate on 1.5 and 3 Tesla General Electric scanners. This method simultaneously generates images of N-acetylaspartate, creatine, and choline-containing compounds. Patient movements can cause artifacts in N-acetylaspartate imaging. The patient movements can be compensated for by using the signal of the partially suppressed water. Unsuppressed water would be too strong to be separated from the metabolite signals, so the N-acetylaspartate mapping sequence has been revised to use residual unsuppressed water as a navigator to track and correct for patient motion.<br /><br />4) Glutathione detection. Glutathione is a marker for oxidative stress. Many psychiatric and neurological disoders (such as schizophrenia, Alzheimer's disease and stroke) are associated with abnormal glutathione concentration. In collaboration with Steven Warach (NINDS) a glutathione editing method was developed on the Philip 3 Tesla scanner at Suburban Hospital for studying stroke patients. This method uses a selective editing pulse placed on the cysteinyl alpha proton of glutathione to remove the overlapping signals from creatine and GABA. Recently, we have succeeded in developing a single-shot methdo for measuring glutathione at 7 Tesla.<br /><br />5) Carbon-13 MRS. By using carbon-13 labeled glucose or the glial-specific substrate acetate, brain energetics and glutamate and glutamine cycling flux can be measured. Previously we invented a method for carbon-13 MRS by combining low power stochastic decoupling and intravenous infusion of glucose with a carbon-13 label at the C2 position. This strategy makes it possible to perform viable carbon-13 MRS within the hardware constraints at the NIH. Using this strategy, we have acquired high quality carbon-13 MRS data from both the occipital and frontal lobes of healthy subjects and showed that it is possible to simultaneously detect two labeling pathways. We are making progress in developing this method on the new 7 Tesla Siemens scanner. <br /><br />6) Proton glutamate editing. Previously we implmented a single-voxel glutamate editing method with correction of eddy current effects for measuring glutamate concentration at 3 Tesla. The method requires several dozen echo time averages, therefore making it incompatible with the robust conventional chemical shift imaging. We are developing a new glutamate editing method which needs a single echo time to isolate the glutamate H4 signal at both 3 and 7 Tesla field strengths. During 2012-2013, we have succeeded in developing a method for separating glutamate and glutamine in proton MRS at 7 Tesla.<br /><br />7) GABA editing. Previously we implemented and refined a method for measuring GABA. Similar to N-acetylaspartate imaging, patient movements can lead to difficulty in accurate determination of GABA. A navigator strategy based on residual water was used to track and correct for patient movement.  Special data processing software was also written to correct for phase changes because of patient motion. The improvements of the corrections have been quantified and applied to studies of human subjects.<br /><br />8) Simultaneous determination of glutamate and GABA. Traditionally, measuring glutamate and GABA require two separate scans. Because of the time constraints of MRS experiments it would be highly desirable to shorten the data acquisition proess, which also enhances data quality by minimizing patient discomfort and head movement. During 2012-2013 we discovered that glutamate can be reliably extracted from GABA edited spectra. We are currently refining this technology to make it robust for routine clinical studies.<br /><br />9) NAAG editing. We have successfully developed a MRS method for measuring the dipeptide neurotransmitter N-acetylaspartylglutamate (NAAG) which plays an important role in glutamate signaling. Our method uses regularized lineshape deconvolution based on the L-curve method combined with echo time averaging to separate NAAG from NAA. During 2012-2013 we have developed a method for measuring NAAG at 7 Tesla.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81239&allpubs=Y&isajaxlink=Y&_UserReference=A714927E5F1AFFE05B38D05F','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">An L, Dani KA, Shen J, Warach S, Natural History of Stroke Investigators (2012) Pilot results of in vivo brain glutathione measurements in stroke patients. J Cereb Blood Flow Metab 32:2118-21
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23010948?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3519413/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23010948
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3519413 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Dani KA, An L, Henning EC, Shen J, Warach S, National Institute of Neurological Disorders and Stroke Natural History of Stroke Investigators (2012) Multivoxel MR spectroscopy in acute ischemic stroke: comparison to the stroke protocol MRI. Stroke 43:2962-7
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23091121?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3936472/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23091121
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3936472 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Li S, Zhang Y, Ferraris Araneta M, Xiang Y, Johnson C, Innis RB, Shen J (2012) In vivo detection of (13)C isotopomer turnover in the human brain by sequential infusion of (13)C labeled substrates. J Magn Reson 218:16-21.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22578550?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3351698/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22578550
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3351698 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Preuss N, Salehi B, van der Veen JW, Shen J, Drevets WC, Hodgkinson C, Goldman D, Hasler G (2013) Associations between prefrontal -aminobutyric acid concentration and the tryptophan hydroxylase isoform 2 gene, a panic disorder risk allele in women. Int J Neuropsychopharmacol 16:1707-17
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23552096?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4025920/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23552096
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4025920 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Salehi B, Preuss N, van der Veen JW, Shen J, Neumeister A, Drevets WC, Hodgkinson C, Goldman D, Wendland JR, Singleton A, Gibbs JR, Cookson MR, Hasler G (2013) Age-modulated association between prefrontal NAA and the BDNF gene. Int J Neuropsychopharmacol 16:1185-93
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23253771?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4025926/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23253771
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4025926 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Salvadore G, van der Veen JW, Zhang Y, Marenco S, Machado-Vieira R, Baumann J, Ibrahim LA, Luckenbaugh DA, Shen J, Drevets WC, Zarate CA (2012) An investigation of amino-acid neurotransmitters as potential predictors of clinical improvement to ketamine in depression. Int J Neuropsychopharmacol 15:1063-72
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22040773?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3342437/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22040773
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3342437 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Veen JW, Shen J (2013) Regional difference in GABA levels between medial prefrontal and occipital cortices. J Magn Reson Imaging 38:745-50
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23349060?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3638064/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23349060
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3638064 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">8.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Zhang Y, Shen J (2013) Soft constraints in nonlinear spectral fitting with regularized lineshape deconvolution. Magn Reson Med 69:912-9
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22618964?dopt=Abstract" target="_blank">PubMed</a>
+
+
+           &nbsp;&nbsp;&nbsp;&nbsp;<i>Available in future as a Free Article</i> <!-- looks for PMC translations for in progress or embargoed -->
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22618964
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3432296 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

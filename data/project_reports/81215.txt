@@ -1,0 +1,690 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002838</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002838-10</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neurophysiology of Visual Perception
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+David A Leopold; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/david-leopold" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Cognitive Neurophysiology and Imaging, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Cognitive Neurophysiology and Imaging</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Kathryn A Smith<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Chunshan  Deng<br />
+
+
+
+
+Aidan Peter Murphy<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Mortimer  Mishkin; PhD  (Section on Cognitive Neuroscience)<br />
+
+
+
+Kadharbatcha Syed Saleem  (Laboratory of Neuropsychology)<br />
+
+
+
+Richard C Saunders; PhD  (Section on Cognitive Neuroscience)<br />
+
+
+
+Janita N Turchi; PhD  (Section on Cognitive Neuroscience)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Jozef H Duyn; PhD (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+James  Bourne
+<i>(Monash University)</i>
+<br />
+
+
+
+Ole  Jensen
+<i>(Donders Institute)</i>
+<br />
+
+
+
+Sang-Hun  Lee
+<i>(Seoul National University)</i>
+<br />
+
+
+
+Pieter  Roelfsema; PhD
+<i>(Netherlands Institute for Neuroscience)</i>
+<br />
+
+
+
+Peter Ulrich Tse; PhD
+<i>(Psychological and Brain Sciences, Dartmouth College)</i>
+<br />
+
+
+
+Andrew  Welchman
+<i>(Cambridge University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+multistable perception, neurophysiology, visual perception, blindsight, fMRI, visual psychophysics
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+An important challenge in human cognition is understanding how the brain is able to create the perception of a rich and dynamic three-dimensional world based upon fluctuating light patterns impinging on the two-dimensional retina. Researchers have elucidated many steps in this process: the retinal image is broken down into constituent features such as color and orientations, which are then assembled into more complicated internal representations. However, the essence of how such processes lead to our perception of scenes, objects, and people remains mysterious. It is clear that the brain adds and interprets its sensory visual input at every processing stage. One example the brains power to create its own reality is illustrated by the nightly experience of dreaming.  Understanding the principle by which retinal images are interpreted and perceived is critical for at least two reasons. First, vision serves as an important model for understanding human sensation in general, with vision being the primary sense used by humans in interacting with their environment. Second, the interpretive elements in vision and other senses can go awry, as in the case of certain psychiatric and neurological disorders. Disruptions in visual consciousness can affect peoples lives in many ways, from basic visual capacities to social perception.  Thus understanding the brain mechanisms underlying visual perception is of great value for both basic research and medicine. In the Section on Cognitive Neurophysiology and Imaging, we ask presently investigating using a range of methods to investigate how the activity of neurons gives rise to our subjective perception, with a focus on neural activity in the visual cortex and thalamus.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Nearly half of the cerebral cortex of primates, including humans, is devoted to visual perception. This large proportion reflects the fact that our visual acuity, and the use of vision in our daily life, surpasses that of all other mammals.  Why is so much of the brain required to interpret the images falling on the retina?  One answer to that question is that vision is, by its nature, an interpretive process  and a considerably more difficult problem than one might think.   Consider a few moments in the life of a human or any other primate.  As we walk or climb through our environment, we turn our heads and move our eyes.  We glance three times per second from object to object, in some cases trying to understand the expression on a face, and in others deciding how to shape our hand in order to establish a correct grip.  Our own movements cause our retinal image to flit about in a manner that would be impossible to understand if we were to see it on a computer monitor.  Nonetheless, our brain is able to interpret this seemlingly incomprehensible sequence of retinal images and integrate it into a stable visual world:  Indeed, the retina is only our visual sensor, controlled by the brain to sample data from our environment.  It makes no sense to take each snapshot at face value  instead the sequence of retinal images is, from the very beginning, interpreted within the context of the movements issued by the brain.  Likewise, the brain makes an educated guess on the identity and use of objects, the distance to locations within the scene, the emotions and intentions of people, and a countless number of other features of the world.  These qualities are not written into the visual signals themselves, but must be judged based on physical cues, experience, and intuition.  In some cases the judgments are unconscious and automatic, whereas in others they are at the fore of our thought processes. In the this we focus on aspects of visual perception that are so immediate and intuitive to us that it is not at all obvious that there is a problem to be solved.  <br /><br />In the past year, the laboratory has made headway on three studies related to visual perception. We have also published two studies and a major review in the Annual Review of Neuroscience entitled, Primary visual cortex, awareness and blindsight.<br /><br />In one study, we are investigating activity in a part of the thalamus called the pulvinar during spontaneous changes in visual perception.  This project draws upon a phenomenon known as bistable perception, where a given physical stimulus is inherently ambiguous.  The brain, seeing ambiguity as a dilemma, lapses into a sequence of spontaneous perceptual reversals.  Our study in the pulvinar asks to what extent do visual thalamic neurons respond according to the subjective perception of an observer, even in cases when the stimulus is unchanging? This work follows on a series of previous studies investigating activity throughout the cortex and thalamus during a type of bistable perception called binocular rivalry.  Those studies have shown that there is essentially a gradient of perception-related switching throughout the visual cortex, with early areas showing the weakest perceptual correlation and the later areas showing the strongest.  The pulvinar receives input from the entire visual cortex, and this input shows some degree of regional segregation.  Our aim is therefore to map the subregions of this nucleus during binocular rivalry, as well as other tasks, with the aim of understanding its functional organization with respect to visual perception.  During the last year, we have made strong headway on this project, and have collected our first data from the pulvinar.  Over the next year, we plan to continue this mapping process so that we will be able to understand the regional specificity of perceptual modulation.  The larger goal of this project is to gain insights into the thalamocortical relationship more generally.<br /><br />In the last year, we have also completed two studies related to the contribution of a particular brain area, known as V4, to visual perception.  In one project, we have asked investigated the basis of a visual illusion called subjective surface completion.  Surface completion is a means by which the brain, upon seeing an array incomplete stimulus elements aligned in just the right way, creates the subjective impression of a surface even though no such surface is physically present.  This process is thought to reflect automatic processes by which the brain routinely guesses what is present in a scene.  Such guessing is critical in normal vision because, under normal conditions, objects and surfaces are occluded by scene elements.  As an analogy, upon viewing a house whose middle portion is blocked by a large tree, the brain understands that the house is a complete and continuous structure that is partly obscured, rather than two half-houses.  When certain illusions are optimized, this sort of perceptual completion can be extreme, and it is possible to visually perceive the part of the obscured stimulus that is being completed.  This phenomenon raises the question: which neurons in the brain are responsible for this effect?  Based on previous work, we gathered that an area known as V4 might contribute to this phenomenon.  To address this, we implanted microelectrode arrays in area V4 in two trained monkeys who experienced this visual illusion.  We found that V4 neurons exhibited an enhanced, and sometimes rhythmic, response during the illusion compared to similar conditions in which no such illusion was observed.  We further discovered that, for a given neuron to participate in this enhancement, the spatial requirements were quite precise.  Only when a neurons highest visual sensitivity was directly over the illusory surface was such a modulation observed.  The results demonstrate that V4 neurons are directly involved in the interpolative processes involved in subjective surface completion. Moreover, they illustrate that this area, whose neurons normally cover a relatively broad range of visual space, is unexpectedly sensitive to the fine spatial details of the visual stimulus.<br /><br />In another V4 study, we have conducted a follow-up study to an earlier experiment related to the phenomenon of blindsight. We currently have a paper in submission in which we ask the question,  to what extent does area V4 respond to visual stimuli when V1 is injured or absent?  Under normal conditions, removal of area V1 leads to blindness, but is characterized by some residual, unconscious visual abilities known as blindsight.  Our recent findings that fMRI responses in V4 can be observed during blindsight suggest that neurons in this area retain some visual responsiveness.  Our present study demonstrates that not only do V4 neurons retain the ability to respond to visual stimuli, but that the residual responses are different in nature than the original responses. Specifically, although much weaker in amplitude, they are more movement sensitive, and to some degree more direction selective, than normal V4 responses.  Our findings are in line with the view of the primary visual cortex as the major driver for neural activity in higher cortical areas. At the same time, the presence of weak responses to visual stimulation in the scotoma region supports the notion of V1-bypassing thalamic projections systems as alternative relays for the transmission of information to visual association cortex.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81215&allpubs=Y&isajaxlink=Y&_UserReference=35745E405D8AE9855B38D508','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Leopold DA (2012) Primary visual cortex: awareness and blindsight. Annu Rev Neurosci 35:91-109.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22715879?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3476047/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22715879
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3476047 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Spaak E, Bonnefond M, Maier A, Leopold DA, Jensen O (2012) Layer-specific entrainment of gamma-band neural activity by the alpha rhythm in monkey visual cortex. Curr Biol 22:2313-8
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23159599?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3528834/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23159599
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3528834 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

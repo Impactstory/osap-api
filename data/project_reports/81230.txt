@@ -1,0 +1,614 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002882</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002882-07</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Characterization of miRNAs on neural development and plasticity
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Zheng  Li; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/zheng-li" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Synapse Development and Plasticity, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Synapse Development and Plasticity</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Kaizheng  Duan<br />
+
+
+
+
+Qinhua  Gu<br />
+
+
+
+
+Zhonghua  Hu<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Lee E Eiden; PhD  (Section on Molecular Neuroscience)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Jun  Zhu; PhD (NHLBI) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+M  Braga; PhD
+<i>(Psychiatry,  Uniformed Services University of the Health Sciences)</i>
+<br />
+
+
+
+Keshen  Li; PhD
+<i>(Department of Neurology, Guangdong Medical College)</i>
+<br />
+
+
+
+Ann M. Marini; PhD, MD
+<i>(Neurology, Uniformed Services University of the Health Sciences)</i>
+<br />
+
+
+
+Danni  Yu; PhD
+<i>(Department of Statistics, Purdue University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+miRNA, schizophrenia, neural development, synaptic plasticity, long-term synaptic depression, NMDA receptor, dendritic spine, synapse
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+microRNAs (miRNAs) are short, non-coding RNAs that bind to mRNAs to inhibit translation and/or promote mRNA degradation by imperfect base-pairing between the miRNA seed region (usually nucleotides 2-8 at the 5 end) and the miRNA binding site in the 3 untranslated region (3 UTR) of target mRNAs. Each miRNA can potentially target to hundreds of distinct mRNAs, and thousands of genes are regulated by miRNAs. miRNAs are increasingly recognized as key regulators of gene expression and have been found to play important roles in diverse cellular processes, such as the differentiation and development of cells. <br /><br />miRNAs are crucial for proper brain function. Of the &gt;1000 miRNAs identified in mammals, hundreds are expressed in the brain. miRNA loss in mice due to deficient expression of Dicer or DGCR8, two essential components of the miRNA biogenesis pathway, leads to alterations in synaptic protein expression, synaptic transmission, dendritic spines, learning, and memory. Several miRNAs, such as miR-134, miR-125, miR-138, miR-132, miR-29 and miR-188, regulate the morphogenesis of dendritic spines. miRNAs also implicated in mental disorders. For instance, mounting evidence suggests that mutations in miRNA genes and miRNA biogenesis machinery are associated with increased risk of schizophrenia (Beveridge et al., 2008). Despite the demonstrated importance of miRNAs, however, the function of the vast majority of miRNAs expressed in the brain have yet to be elucidated, due in part to the limited capacity of traditional experimental techniques and the large number of miRNAs and their target genes. The question of whether or not miRNAs play a role in spine remodeling associated with NMDAR-LTD also remains open. The goal of this project is to characterize the function of miRNAs in synapse development, synaptic plasticity and synaptic pathology associated with mental illness. The objective of this project during the current reporting period is to elucidate the role of miRNAs in the long-term maintenance of NMDAR-LTD.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+NMDAR-LTD is usually associated with spine shrinkage and loss. The changes in synaptic strength and dendritic spines during LTD can be maintained for prolonged periods of time. Long-lasting structural and functional modification of synapses is an essential cellular substrate for information storage in the brain (Hofer, Mrsic-Flogel et al. 2009, Fu, Yu et al. 2012). Not only is it central to normal brain development and function, it has also been shown to play an important role in the pathophysiology of brain disorders, including psychiatric disorders.	The mechanisms underlying the structural and functional plasticity in LTD overlap partially. For instance, they both require NMDA receptors, calcineurine and actin depolymerization, but AMPA receptor endocytosis and protein phosphatase 1 are only involved in synaptic depression. Despite intensive study of synaptic plasticity, however, the molecular mechanisms underlying spine remodeling associated with LTD, especially long-term maintenance of changes in spines, are still largely unclear. <br />During the current review period, we have systematically investigated the role of miRNAs in LTD and spine remodeling associated with it. We used next-generation deep sequencing to identify miRNAs differentially expressed in LTD, along with a bioinformatics tool (which we developed in-house) to reveal genes and cellular processes enriched by them. Remarkably, we found that LTD induction leads to a global change in miRNA transcriptomes with potentially pleiotropic effects on cellular processes, many of which modulate the properties and functions of synapses. <br />	To evaluate the physiological consequence of miRNA expression changes in LTD, we tested the effects of two differentially expressed miRNAs, miR-191 and miR-135, on synaptic and spine plasticity using electrophysiology in hippocampal slices and time-lapse imaging of live neurons in primary cultures. We found that both miRNAs are necessary for LTD induction, persistence of spine shrinkage and delayed spine elimination, but neither is required for induction of spine shrinkage. The roles of miR-191 and miR-135 in LTD maintenance, however, are unclear as LTD is not induced in cells when their expression is perturbed. Future studies characterizing other putative LTD miRNAs are needed to determine the role of miRNAs in LTD maintenance.<br />	While investigating the mechanisms by which miR-191 and miR-135 regulate spine remodeling, we found that their target genes tropomodulin 2 (for miR-191) and complexin-1 and -2 (for miR-135) mediate their functions in spine plasticity. Intriguingly, we found that: 1) translation is required for long-lasting spine shrinkage. This is a surprising finding given that smaller spines contain relatively fewer AMPA receptors and postsynaptic density proteins; 2) actin depolymerization is regulated in a sustained, protein synthesis-dependent manner to support prolonged spine plasticity. Actin depolymerization is a well-known mechanism to trigger cell remodeling. Our study, however, shows that actin cytoskeleton needs to be continuously modified beyond the initial phase of spine restructuring to maintain the morphological change of cells; 3) AMPA receptor exocytosis is reduced by LTD induction. AMPA receptor exocytosis is a predominant mechanism for LTP, and is not thought to be altered in LTD. However, our data show that AMPA receptor exocytosis is suppressed by LTD induction to support long-lasting spine remodeling. <br />	<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81230&allpubs=Y&isajaxlink=Y&_UserReference=1E28CA9DD5CF52015B38D081','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Hu Z, Yu D, Almeida-Suhett C, Tu K, Marini AM, Eiden L, Braga MF, Zhu J, Li Z (2012) Expression of miRNAs and Their Cooperative Regulation of the Pathophysiology in Traumatic Brain Injury. PLoS One 7:e39357.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22761770?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3382215/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22761770
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3382215 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,490 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002943</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002943-02</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">NIMH-NINDS Clinical Proteomics Unit
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lead Investigator</div></div>
+
+<div class="rowdiv">
+<div class="data">
+Jeffrey A Kowalak; PhD
+<br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any LIs -->
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<!-- display SoRs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Supervisor of Record</div></div>
+<div class="rowdiv">
+<div class="data">
+ <!-- faculty test -->
+Susan G Amara; PhD 
+ <!-- faculty test -->
+<br />
+
+</div>
+</div>
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Office of the Director, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Office of the Director</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Ronald W Finnegan<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Anthony  Gioio; MS (Laboratory of Molecular Biology)<br />
+
+
+
+Barry Bernard Kaplan; PhD (Laboratory of Molecular Biology)<br />
+
+
+
+Amar Nath  Kar (Section on Neurobiology)<br />
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+<div id="moresamestaffo">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffou">6 of a total of 10 other NIH members are shown.</div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Avindra  Nath; MD (NINDS) <br />
+
+
+
+Joseph Perry Steiner; PhD (NINDS) <br />
+
+
+
+Tongguang  Wang (NINDS) <br />
+
+
+
+Nasir  Malik; PhD (NIAMS) <br />
+
+
+
+Tory Patricia Johnson (NINDS) <br />
+
+
+
+Indu Suresh Ambudkar; PhD (NIDCR) <br />
+
+
+
+
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+quantitative proteomics, mass spectrometry, proteomics, mass spec-based bioinformatics, CSF
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The NIMH-NINDS Clinical Proteomics Unit provides advanced mass spectrometry-based proteomics services to clinical investigators in both IRPs. Our goal is to initiate discussions with collaborators as early as possible in order to provide guidance on aspects of experimental design that are critical to producing high quality analyses and statistically meaningful results. We utilize multi-dimensional liquid chromatography as a primary means of reducing sample complexity but also utilize affinity and electrophoretic techniques when indicated.<br /><br />A significant portion of our efforts focus on methods development. We are developing an automated workflow for cerebrospinal fluid (CSF). Analogous to blood plasma, the protein composition of CSF is dominated by a few highly abundant species, e.g., serum albumin and immunoglobulins. Our strategy is to use affinity chromatography to deplete albumin and IgGs from CSF prior to hydrolyzing the remaining proteins in an immobilized enzyme reactor and capture the resultant peptide mixture. Individual depleted CSF samples are labeled with an isobaric mass tags, pooled with several other samples and analyzed by tandem mass spectrometry. Bioinformatic analysis then affords both protein identification and relative quantitation. Application of this methodology is time consuming and low-throughput. However, the desired outcome of the method would be a list of candidate protein biomarkers that could be rapidly quantified in large numbers of clinical samples by Parallel Reaction Monitory (PRM), a high resolution form of Multiple Reaction Monitoring (MRM).<br /><br />Proteomic analysis of non-depleted CSF resulted in 887 protein IDs, while our method resulted in 630 proteins IDs of which 341 were unique to the depleted CSF dataset. Importantly, Gene Ontology analysis indicates a majority of the unique IDs were related to neuronal structure and function.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The NIMH-NINDS Clinical Proteomics Unit (CPU) was established on June 1, 2013, as part of the NINDS Translational Neuroscience Center. Our mission is to provide clinical investigators with access to state-of-the-art mass spectrometry instrumentation and evolving proteomics technologies. We are pursuing proteomic analysis of cerebrospinal fluid (CSF) as a source of potential biomarkers of neurological diseases.<br /><br />CPU maintains an active collaboration with Dr. Avindra Nath and his colleagues in the Section of Infections of the Nervous System, NINDS. For example, Dr. Tory Johnson sought to determine if an autoimmune process was contributing to the pathogenesis of Nodding Syndrome (NS), a distinctive epileptic disorder associated with brain atrophy of unknown etiology that occurs in epidemic form among children in East Africa. NS has a consistent epidemiological association with Onchocerca volvulus, the etiologic agent of onchocerciasis. Dr. Johnson found patients with NS had a 30,000 fold increase in antibodies to leiomodin-1 as compared to age- matched unaffected controls. Dr. Richa Tyagi demonstrated that autoantibodies to leiomodin-1 in the CSF of patients with NS were cross-reactive to O. volvulus. Screening of lysates prepared from adult male and female O. volvulus with pooled sera from patients with NS and control donors by Western blot analysis showed limited but differential immunoreactivity profiles. Bands to which patients with NS demonstrated increased immune reactivity were excised from the gel and identified by mass spectrometry. O. volvulus tropomyosin was one of the proteins identified. Tropomysosin proteins are known to play a role in neuronal structure and morphology, including dendritic and axonal branching and neurite outgrowth. Antibodies to leiomodin-1 from patients with NS cross react with O. volvulus tropomyosin and therefore suggest that O. volvulus infection and subsequent antibody production may result in the generation of leiomodin-1 reactive autoantibodies, establishing a putative mechanistic link between NS and O. volvulus. This work has been submitted for publication.<br /><br />In previous studies, Dr. Barry Kaplan and colleagues in the Molecular Neurobiology Section, NIMH, identified a putative 38-nucleotide stem-loop structure (zipcode) in the 3-untranslated region of the COXIV transcript that was necessary and sufficient for the axonal localization of COXIV mRNA in superior cervical ganglion (SCG) neurons. Little is known about the proteins that regulate the axonal trafficking and local translation of the COXIV transcript. To identify proteins involved in the axonal transport of the COXIV mRNA, Dr. Amar Kar used this 38-nucleotide COXIV RNA zip-code as bait for RNA protein binding studies. Gel-shift assays of the biotinylated COXIV-zipcode incubated with retinoic-acid differentiated SHSY5Y cell lysates showed that the zipcode binds endogenous proteins and forms ribonucleoprotein complexes. CPU performed a mass spectrometric analysis of proteins isolated by affinity purification using biotinlylated COXIV-zipcode oligomers. These studies lead to the identification of a number of RNA-binding and mitochondria-associated proteins such as fused in sarcoma/translated in liposarcoma (FUS/TLS) and Parkinson disease protein 7 (PARK7/DJ-1) respectively. FUS/TLS and PARK7/DJ-1 are genes that have been previously linked to inherited cases of neurodegenerative disorders such as Amyotrophic lateral sclerosis and Parkinsons disease respectively. Validation using western blotting analyses confirmed the presence of the candidate proteins in the COXIV-zipcode affinity purified complexes from SHSY5Y lysates. In addition, using immunohistochemical and western blotting analyses, we also established the presence of these candidate COXIV-zipcode binding proteins in SCG neurons. <br /><br />Using this RNA affinity pulldown approach with mass spectrometric analysis, Dr. Kaplan and colleagues have started to define the ribonucleoprotein complexes that regulate the trafficking and local expression of the COXIV mRNA in the axon. Future experiments are aimed at confirming the interaction of these candidate binding proteins with the endogenous COXIV mRNA in SCG neurons and assessing the in vivo significance of the candidate proteins in axonal transport and local translation of COXIV mRNA.<br /><br />In addition to performing core facility duties, CPU has produced promising results in development of an automated CSF workflow.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86362&allpubs=Y&isajaxlink=Y&_UserReference=5BC27DFCA65366B15B38CF60','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+No publications during this reporting period
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

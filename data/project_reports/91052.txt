@@ -1,0 +1,673 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002783</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002783-14</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Functional MRI Method Development
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Peter A Bandettini; BS, PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/peter-bandettini" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Functional Imaging Methods, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Functional Imaging Methods</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 15 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Kayla A Britt<br />
+
+
+
+
+Laura Cathleen Buchanan; BS<br />
+
+
+
+
+Jennifer Wai Evans; PhD<br />
+
+
+
+
+Bailey Grace Flanigan<br />
+
+
+
+
+Javier  Gonzalez-Castillo; PhD<br />
+
+
+
+
+Benjamin Eoin Gutierrez; BS<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=91052&onameset=Section on Functional Imaging Methods&isajaxlink=Y&_UserReference=3942EF77D98AD6585B38CFB6','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 15</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+<div id="moresamestaff">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffu">6 of a total of 11 other  members are shown. </div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Christopher Ian Baker; PhD  (Section on Learning and Plasticity)<br />
+
+
+
+Robert  Cox; PhD  (Division of Intramural Research Programs)<br />
+
+
+
+John Andrew Derbyshire; PhD  (Functional MRI Core)<br />
+
+
+
+Souheil J Inati; PhD  (Office of the Director)<br />
+
+
+
+Sean  Marrett; PhD  (National Institute of Mental Health)<br />
+
+
+
+Alex  Martin; PhD  (Section on Cognitive Neuropsychology)<br />
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaff','searchview.taf?_function=showmore&ios=S&ipid=91052&thisic=&isajaxlink=Y&_UserReference=3942EF77D98AD6585B38CFB6','moresamestaffu');  return false;">
+
+
+<span class="morelist">Show all 11</span></a>.</form></div>
+
+
+
+</div>
+</div>
+
+
+</div>
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Jozef H Duyn; PhD (NINDS) <br />
+
+
+
+Silvina  Horovitz (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+C  Caballero Gaudes; Ph.D.
+<i>(Basque Center for Brain, Cognition, and Language)</i>
+<br />
+
+
+
+Heidi  Johansen-Berg; PhD
+<i>(FMRIB Centre, Oxford University)</i>
+<br />
+
+
+
+Russel A Poldrack; PhD
+<i>(Dept. of Psychology, Stanford University)</i>
+<br />
+
+
+
+E  Wong; PhD, MD
+<i>(Radiology, University of California San Diego)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+fMRI, time series analysis, connectivity, MEG, BOLD contrast, hemoglobin, cerebral perfusion, brain activation, brain mapping, blood, brain, attention, 7 Tesla, cognition, parcellation
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The goal of the Section on Functional Imaging Methods (SFIM) is to better understand and more efficiently extract and use the signal from MR images and fMRI time series for neuroscience research and clinical use. Most of our work reflects this goal, as signal interpretation research and processing method development have constituted the bulk of the papers and abstracts produced by SFIM during this time period. <br /><br />Since its inception in 1999, SFIM has shifted in focus from a broadly distributed effort on four ongoing themes: fMRI Technology, Methods, Signal Interpretation, and Applications to a more focused effort on fMRI information extraction methodology and interpretation. We have been working towards obtaining a deeper understanding of the resting state and activation-based signal change characteristics, and designing better methods to robustly separate neuronal information from noise and irrelevant signal. We are excited that in past years, with increased scanning and processing methodology, it has become more evident that fMRI can be used on the assessment, classification, and diagnosis of individual subjects rather than being limited to group-wide analyses. If fMRI could be used clinically for neurological and psychiatric assessment, treatment planning, and classification, it would be a breakthrough in medical imaging. We are working directly towards this important goal.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Protocol number 93-M-0170, NCT00001360<br /><br />The Section on Functional Imaging Methods (SFIM) has advanced functional MRI (fMRI) methodology through development of processing and acquisition methods and research on the underlying mechanisms behind the fMRI signal. The ultimate goals are to gain a deeper understanding of the healthy human brain and to apply fMRI clinically on an individual basis.<br /><br />Moment-to-Moment Classification of Sustained Attention (David Jangraw)<br /><br />Towards developing approaches for fMRI of individuals, we have been developing a new project in which we study the sources and natural fluctuations of sustained attention, the act of focusing on a single task for an extended period of time. This area of study has implications for mental disorders in which sustained attention abilities are affected, such as depression, attention deficit disorder, and post-traumatic stress disorder. We have developed pilot studies in which we record behavioral, eye tracking, and other physiological data as subjects perform a reading task in the presence or absence of distracting stimuli. We use the data to build a machine learning classifier that can distinguish moments when a subject is maintaining attention on the task at hand from moments when their attention wanes. Future work will use the classifier output as an objective moment-to-moment readout of sustained attention in an fMRI scanner, facilitating clearer pictures of the neural processes involved and potentially developing real-time interventions to improve sustained attention in education.<br /><br />Correlations  Between EEG and fMRI Activity After ME-ICA Denoising (Jen nifer Evans)<br /><br />The technique of Multi-Echo ICA-based denoising (ME-ICA) has been used to reduce the influence of non-BOLD noise, including slow scanner drifts in the fMRI signal, enhancing the ability to study slow changes in neural activity that overlap with slow drifts, such as engagement and time-on-task effects. The contrast of a checkerboard was very slowly varied to create a slowly changing signal in both BOLD data and EEG evoked potential envelope. We separated the slow induced BOLD changes from slow non-BOLD drifts in the fMRI data using multi-echo fMRI and ME-ICA denoising. We then investigated the correspondence of the denoised data with the neural response. We found strong agreement between modalities, demonstrating the ability of ME-ICA denoising to reveal slow on the order of minutes - neural fluctuations while excluding the effects of scanner drift.<br /><br />Effect of Theta Burst TMS on Resting Connectivity Using Multi-Echo fMRI (Dan iel Handwerker, David Pitcher - LBC)<br /><br />We used multi-echo fMRI and ME-ICA denoising to examine the effect of theta burst transcranial magnetic stimulation (TBS) to the right superior temporal sulcus vs a control region, the right hand knob. When TBS was directed at the right parietal superior temporal sulcus (rpSTS), there was a decrease in connectivity between the rpSTS to the fusiform, middle occipital, and middle temporal gyri. These results show that TBS to the rpSTS selectively decreases functional connections to face-selective regions even without task-evoked responses. The preliminary results will be presented at the Society for Neuroscience Annual Meeting in October 2015.<br /><br />Quantitation of Gains in Contrast to Noise Ratio and Stability of ME-EPI (Ben Gutierrez, Dan Handwerker). <br /><br />We collected 103 five-minute multi-echo runs from two individuals while they performed a visuomotor task with a letter/number discrimination component and then characterized the improvement data quality and spatial reliability of activation maps by ME-EPI relative to standard approaches. We also demonstrated how that more gray matter voxels become reliably activated with considerably less data when using multi-echo EPI acquisition. These results were presented at the Organization for Human Brain Mapping Annual Meeting in June 2015.<br /><br />BOLD Connectivity Dynamics and its Relationship to Mental States (Javier Gonzalez-Castillo) <br /><br />In this study, we demonstrate a direct relationship between ongoing cognition and dynamic changes in whole-brain patterns of connectivity at the scale of tens of seconds. In a recent report we show how it is possible to accurately track on-going cognition (as imposed by task) at the individual level using BOLD connectivity patterns computed from data traces corresponding to time windows as short as 22.5 s econds. Tracking accuracy dropped markedly for subjects with the lowest task performance, confirming the relationship to ongoing cognition. Finally we also demonstrate that restricting connectivity patterns to a select group of ROIs decreases accuracy, emphasizing the distributed nature of cognitively meaning changes in dynamic connectivity.<br /><br />Evaluation of ME-ICA for Removal of T1 Baseline Shifts in Cardiac Gated fMRI (Javier Gonzalez-Castillo, Laura Buchanan)<br /><br />Imaging the brainstem with BOLD fMRI is difficult due to the pulsatile motion of blood flowing through large vasculature surrounding this neuronal structure. One solution is to trigger fMRI acquisitions in synchrony with the cardiac cycle, to ensure the brainstem is imaged always in the same position (cardiac-gated fMRI). Yet, the non-constant TR associated with cardiac-gated fMRI leads to artifactual baseline signal shifts (of a T1 origin) that need to be properly accounted for. ME-ICA has the potential to correct for T1 related artifacts (such as those present in cardiac-gated fMRI) in a completely data driven approach. In this study, we used an auditory block design paradigm to activate inferior colliculus (a small structure in the back of the brainstem part of the ascending auditory pathway). ME-ICA is able to reliably capture and remove signal baseline associated with variable TRs. Results also demonstrate improvements in detectability of BOLD activation in the inferior colliculus as compared with single-echo fMRI combined with model-driven removal. These results highlight the sensitivity of ME-ICA to T1-related artifacts of a different origin to those tested in other studies from our group, and demonstrate its feasibility for improving fMRI-BOLD studies focused in brainstem structures.<br /><br />Change in Hippocampal Myelination with Aerobic Exercise (Adam Thomas)<br /><br />In collaboration with Dr. Heidi Johansen-Berg at Oxford University, we have demonstrated volume growth in the anterior hippocampus after just six weeks of aerobic exercise. Previous rodent studies have shown the hippocampus to be a site of neurogenesis, which is facilitated by exercise. We went on to use nine different neuroimaging measures to characterize the change in anterior hippocampus. Using advanced statistical methods designed by Dr. Thomas Nichols at the University of Warwick, we were able to demonstrate that the change is dominated by myelination and not by grey matter or vasculature as other groups have predicted. This work has just received a favorable review at NeuroImage and will be published shortly.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91052&allpubs=Y&isajaxlink=Y&_UserReference=3942EF77D98AD6585B38CFB6','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Yang Z, Huang Z, Gonzalez-Castillo J, Dai R, Northoff G, Bandettini P (2014) Using fMRI to decode true thoughts independent of intention to conceal. Neuroimage 99:80-92
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24844742?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4179453/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24844742
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4179453 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

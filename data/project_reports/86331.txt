@@ -1,0 +1,718 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002897</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002897-08</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Molecular and Cellular Mechanisms of Experience-Dependent Cortical Processing
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Kuan Hong Wang; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/kuan-hong-wang" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Unit on Neural Circuits and Adaptive Behaviors, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Unit on Neural Circuits and Adaptive Behaviors</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 8 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Vania Y Cao<br />
+
+
+
+
+Matthew Charles Coon<br />
+
+
+
+
+Xinjian  Li<br />
+
+
+
+
+Qing  Liu<br />
+
+
+
+
+Surjeet S Mastwal<br />
+
+
+
+
+Ming  Ren; MD, PhD<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=86331&onameset=Unit on Neural Circuits and Adaptive Behaviors&isajaxlink=Y&_UserReference=1A6AD6E8561FCCC25B38D4B7','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 8</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Charles R Gerfen; PhD  (Laboratory of Systems Neuroscience)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Rui Manuel Costa; DVM, PhD (NIAAA) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Kimberly  Huber
+<i>(University of Texas Southwestern)</i>
+<br />
+
+
+
+Husseini K Manji; MD
+<i>(Global Therapeutic Area Head, Neuroscience, Johnson & Johnson Pharmaceutical Research & Development)</i>
+<br />
+
+
+
+Keri  Martinowich; PhD
+<i>(Lieber Institute)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+experience-dependent plasticity, mental illness mouse models, frontal circuit development, molecular and cellular biology, neural circuit structure and function
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+It is the objective of the Unit on Neural Circuits and Adaptive Behaviors group, as part of the Clinical and Translational Neuroscience Branch, to understand the logic and mechanisms of experience-dependent cortical information processing at the molecular, cellular, circuitry and behavioral levels.  An integrated approach including molecular genetics, epigenetics, multi-photon imaging, electrophysiology, optogenetics, and behavioral analyses are applied to investigate the ability of the brain to change in response to environmental challenges and social interactions across developmental stages.  Both normal mice and mice carrying genetic risk factors for psychiatric disorders such as schizophrenia, depression and drug addiction are the subjects of studies.<br /><br />To accomplish this goal, we are interested in engineering new tools and developing new approaches to monitor and modulate the cellular and molecular dynamics induced by neurobehavioral perturbations in mice.  Such tools will lead us to:<br />1) Identify and characterize the molecular and cellular changes in the developing and adult cerebral cortex that are regulated by internal drives, environmental exposures, and social interactions of an animal;<br />2) Examine the neurophysiological consequences of these molecular and cellular changes and investigate the mechanisms by which these changes are integrated in the cortical circuits to control behavioral decisions and action plans; and<br />3) Monitor the development of brain dysfunctions in real time in mouse models of mental disorders and evaluate the effects of pharmacological, electroceutical, and behavioral treatments.<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Our brain can be considered as a type of information processing system like a computer, where input signals need to be first detected and properly represented, then integrated for decision-making and output control.  A unique feature of the brain as an information processing system lies in its adaptability.  Namely, sensory experience-induced neural activities can trigger cascades of molecular and cellular changes in brain circuits, which subsequently alter brain functions and affect behavioral outputs.  In healthy individuals, this adaptive process can adjust the brain in response to the demands of the external physical and social environments, and ultimately benefit the survival of individuals.  Abnormalities in the adaptation to environmental and social stressors can contribute to the development of a variety of mental disorders, such as schizophrenia and depression.  In order to prevent maladaptations and develop pharmacological treatments for mental disorders, it is important to understand the cellular and molecular mechanisms of experience-dependent information processing in brain circuits.<br /><br />	We have chosen to use laboratory mice as a model organism to investigate the basic cellular and molecular mechanisms of experience-dependent cortical processing.  This organism offers several major advantages for this line of study.   First, mice and humans both have about 30,000 genes, and about 99 percent of them are shared.  Second, the cellular organization of mouse cerebral cortex is similar to human, and major cortical regions are also homologous.  Third, it is possible to perform precise molecular manipulations in specific types of cells in mouse brain, which is required to establish causal relationships between genes, cells, circuits and behaviors.  <br /><br />        Our lab investigates the mechanisms by which experience-induced molecular changes impact on cortical processing of information, with a particular focus on frontal cortical circuits.  Normal executive function in goal-directed behavior depends on the frontal cortex, and functional brain imaging studies have revealed altered frontal lobe activity in response to cognitive challenges in psychiatric patients.  However, the mechanisms by which behavioral experiences and specific genetic factors may influence the functional cellular architecture and the developmental trajectory of frontal cortical circuits remain largely unknown.   Our recent research progress on these topics is highlighted below. <br /><br />        Information about past experience is encoded in specific populations of neurons that communicate with one another by firing action potentials.  Persistent firing activity is thought to underlie fundamental brain functions, from holding items in working memory to consolidating acquired information in circuits.  To investigate how experience affects persistent firing of frontal cortical neurons, we used the promoter of the activity-regulated cytoskeletal protein (Arc) to drive GFP expression, thus labeling neurons that were activated when mice learned a skill.  We found that motor training increases Arc expression in subsets of excitatory neurons.  Those neurons exhibit persistent firing in contrast to Arc-negative neurons from the same mice or neurons from the untrained mice. Furthermore, in mice carrying genetic deletion of Arc, the frontal cortical circuitry is still in place to initiate experience-dependent gene expression, but the level of persistent firing thereafter is diminished.  Finally, our results showed that the emergence of persistent activity is associated with Arc-dependent changes in the function of NMDA-type glutamate receptors, rather than changes in AMPA-type receptors or membrane excitability. Our findings therefore reveal an Arc-dependent molecular pathway by which geneexperience interaction regulates the emergence of persistent firing patterns in specific neuronal populations.<br /><br />        Midbrain dopaminergic neurons affect numerous brain processes via different projections and firing patterns.  Neurons in the ventral tegmental area fire phasically in response to reward-associated or motivationally salient stimuli, and their projections to the frontal cortex are involved in the control of motivated behavior.  The development of the mesofrontal dopaminergic circuit continues into adolescence, and deficiencies in this circuit are associated with adolescent-onset psychiatric disorders in humans.  To investigate whether the structure and function of this circuit are modifiable by activity in dopaminergic neurons during adolescent development, we conducted optogenetic stimulation and in vivo two-photon imaging in mice.  We found that phasic, but not tonic, dopamine neuron activity induces the formation of dopaminergic axonal boutons in the adolescent frontal cortex.  In adult mice, the effect of phasic activity is diminished, but inhibition of dopamine D2-type receptors restores this plasticity.  Furthermore, phasic activation of dopamine neurons also induces greater changes in mesofrontal circuit activity and psychomotor response in adolescent mice than in adult mice. Together, our findings demonstrate that the structure and function of the mesofrontal circuit are modifiable by phasic activity in dopaminergic neurons during adolescence and suggest that the greater plasticity in adolescence may facilitate activity-dependent strengthening of dopaminergic input and improvement in behavioral control.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86331&allpubs=Y&isajaxlink=Y&_UserReference=1A6AD6E8561FCCC25B38D4B7','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by reference within the summary, then by publication type and author name.
+</p>
+
+
+
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div> <div style="margin: -1.6em 0px 5px 2em;">Mastwal S, Ye Y, Ren M, Jimenez DV, Martinowich K, Gerfen CR, Wang KH (2014) Phasic dopamine neuron activity elicits unique mesofrontal plasticity in adolescence. J Neurosci 34:9484-96
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25031392?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4099535/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 25031392
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4099535 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div> <div style="margin: -1.6em 0px 5px 2em;">Ren M, Cao V, Ye Y, Manji HK, Wang KH (2014) Arc regulates experience-dependent persistent firing patterns in frontal cortex. J Neurosci 34:6583-95
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24806683?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4012314/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 24806683
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4012314 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div> <div style="margin: -1.6em 0px 5px 2em;">Jakkamsetti V, Tsai NP, Gross C, Molinaro G, Collins KA, Nicoletti F, Wang KH, Osten P, Bassell GJ, Gibson JR, Huber KM (2013) Experience-induced Arc/Arg3.1 primes CA1 pyramidal neurons for metabotropic glutamate receptor-dependent long-term synaptic depression. Neuron 80:72-9
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24094104?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3801421/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 24094104
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3801421 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+ <!-- ends ordered rows -->
+
+
+
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

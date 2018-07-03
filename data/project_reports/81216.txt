@@ -1,0 +1,880 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002843</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002843-10</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Genetic Linkage and Association in Bipolar Disorder
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Francis Joseph McMahon; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/francis-mcmahon" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on the Genetic Basis of Mood and Anxiety Disorders, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on the Genetic Basis of Mood and Anxiety Disorders</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 9 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Nirmala  Akula<br />
+
+
+
+
+David T Chen; MD<br />
+
+
+
+
+Winston R Corona<br />
+
+
+
+
+Girma W Hawariat; MS, PhD<br />
+
+
+
+
+Layla  Kassem<br />
+
+
+
+
+Diane M Kazuba; BS<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=81216&onameset=Section on the Genetic Basis of Mood and Anxiety Disorders&isajaxlink=Y&_UserReference=517C251A6AD436A05B38D503','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 9</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Robert  Innis; MD  (Molecular Imaging Branch)<br />
+
+
+
+Joel  Kleinman; MD, PhD  (Section on Neuropathology)<br />
+
+
+
+Ellen  Leibenluft; MD  (Section on Mood Dysregulation and Neuroscience)<br />
+
+
+
+Barbara K Lipska; PhD  (Section on Neuropathology)<br />
+
+
+
+Kenneth  Towbin; BA, MD  (Section on Mood Dysregulation and Neuroscience)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Manfred  Boehm; MD (NHLBI) <br />
+
+
+
+Kory R Johnson (NINDS) <br />
+
+
+
+Peter Jonathan Munson; BA, MA, PhD (CIT) <br />
+
+
+
+Shurjo  Sen; PhD (NHGRI) <br />
+
+
+
+Ellen  Sidransky; MD (NHGRI) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 8 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Anil  Malhotra; MD
+<i>(Zucker Long Island Jewish Hospital)</i>
+<br />
+
+
+
+Shane  McCarthy
+
+<br />
+
+
+
+W. Richard McCombie; PhD
+<i>(Cold Spring Harbor Laboratory)</i>
+<br />
+
+
+
+J  Potash; MD
+<i>(Psychiatry, Johns Hopkins School of Medicine)</i>
+<br />
+
+
+
+Thomas  Schulze
+<i>(University of Goettingen)</i>
+<br />
+
+
+
+Jonathan  Sebat; PhD
+<i>(Department of Cellular and Molecular Medicine, University Of California, San Diego)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=81216&isajaxlink=Y&_UserReference=517C251A6AD436A05B38D503','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 8</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+bipolar depression, mood disorder, panic disorder, behavioral genetics, cell line, clinical research, comorbidity, family genetics, gene frequency, genetic marker, genetic registry /resource /referral center, genetic susceptibility, genotype, human genetic material tag, human subject, linkage mapping, lymphoblast, mental disorder diagnosis, phenotype, quantitative trait loci, relapse /recurrence 
+behavioral /social science research tag, sibling, iPSc
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Bipolar Disorder (BD) is a common, often severe mental illness. Worldwide, BD is one of the largest sources of death and disability. BD typically starts early in life, impairing social and occupational functioning over many years. BD is also a leading risk factor for suicide, a major cause of death in several age groups. <br /><br />Despite this large public health burden, relatively little is known about the causes or treatment of BD, aside from the strong contribution of genetic factors. In recent years, genome-wide association studies (GWAS) have identified a number of genes that appear to contribute to risk for BD, but little is known about how these genes act upon brain biology.<br /><br />The goal of this project is to understand how particular genes act biologically to influence risk for bipolar disorder and related conditions. We study tissues ranging from blood to skin to postmortem brain. Patterns of gene expression are compared between cases and healthy volunteers, in order to reveal gene networks and pathways that are dysregulated in BD. We also employ revolutionary cellular re-programming methods that produce induced pluripotent stem cells (iPSCs) that can be differentiated into brain cells (neurons and glia) that genetically match the donor cells, providing a cellular model system for observing the functional impact of risk variants and testing new treatments. In addition to genes implicated by GWAS, sequencing, or other studies, we also study structural variations in DNA, known as copy number variants (CNVs), that may strongly influence risk for BD in particular families.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+IRB 80-M-0083	NCT00001174<br /><br />This collaboration has developed a bipolar disorder family resource that has proven to be uniquely valuable in testing clinically-based hypotheses about the genetic heterogeneity of the illness.  We have ascertained and assessed about 150 nuclear families with a bipolar I proband and two or more siblings with a major affective disorder. One important goal is to derive and test genetically meaningful clinical subtypes.<br /> <br />We previously generated a database of clinical variables, The Bipolar Disorder Phenome Database, based in part on this sample. The database contains several hundred clinical variables, harmonized with those collected by the NIMH Genetics Initiative, describing the course, symptoms, and clinical picture of bipolar disorder. We have made the database available to the scientific community to support research into the genetics of bipolar disorder and related conditions. <br />In collaboration with scientists at Cold Spring Harbor Laboratory and UCSD, we have used cutting-edge genetic tools to search for relatively small structural variations in chromosomes, known as copy number variants (CNVs), that may play a role in bipolar disorder. Using a set of trios we collected with collaborators, we found evidence that some CNVs strongly over-represented among people with schizophrenia may also play a role in bipolar disorder, especially in an early-onset form. In the coming year, we plan to perform exome sequencing on the same set of trios in order to detect damaging insertions, deletions, and point mutations that arise de novo  and may contribute to the risk for bipolar disorder or modify its clinical presentation. <br /><br />In order to better interpret the impact of genetic variation on the brain biology of bipolar disorder, we are pursuing a variety of functional genomics studies, including brain imaging, microarray gene expression and RNA-seq in post-mortem brain tissue, and cellular phenotyping of neurons derived from induced pluripotent stem cells.<br /><br />Neuroimaging genetics work over the past year has focused on structural imaging as well as positron emission tomography (PET). We contributed data to the ENIGMA brain imaging consortium, which detected SNPs associated with hippocampal volume. This important endophenotype may shed light on the mechanisms whereby common genetic variants influence risk for psychiatric disorders. We also used magnetic resonance imaging (MRI) data from volunteers with major depressive or bipolar disorder, along with healthy volunteers, to assess the heritability of corpus callosum(CC) size and the genetic correlations among anatomical sub regions of the CC among individuals with and without mood disorders. Significant heritability was found for several sub-regions, with strong and significant genetic correlations among most sub-regions. Distinct genetic factors seem to be involved in caudal and rostral regions, consistent with the divergent functional specialization of the brain areas. In the coming year we plan to use genome-wide SNP data to assess heritability and genetic correlations of brain imaging phenotypes, exploiting new developments in genetic identity-by-state methods.<br /><br />We have also carried out the first study to use the new technique of RNA-seq to characterize the transcribed portion of the genome (transcriptome) in bipolar disorder. The resulting data were analyzed using several bioinformatics tools on high-performance computers at NIH. This study highlighted several genes and transcripts that were involved in dysregulation of neuroplasticity, circadian rhythms and second-messenger systems in bipolar disorder. In the coming year we will analyze the data for allele-specific expression, extended brain-specific 3 untranslated regions, (UTRs) novel, brain-expressed genes that may be involved in bipolar disorder.<br /><br />Over the past year we have also begun experiments aimed at modeling functional genomics of disease-related genes in cells derived from induced pluripotent stem cell (iPSC) lines.  This project, led by Staff Scientist Sevilla-Detera-Wadleigh, aims to explore the ways in which we can use iPSC technology to study the biological impact of genes and genetic mutations that we identify in our other ongoing studies.  Working with the NIH Center for Regenerative Medicine and the iPSC core of NHLBI we have so far successfully reprogrammed fibroblasts from 5 different individuals; we are also studying lines reprogrammed in collaborating labs. We are differentiating the cells into neurons and glia, and characterizing their morphology, action potential, gene expression profiles, and response to drugs and toxins. Careful analysis of these phenotypes could reveal differences between control and patient-derived cells, but we are also exploring ways to measure the functional impact of genetic mutations at the cellular level and to use genome editing tools such as TALENs to assess rescue phenotypes.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81216&allpubs=Y&isajaxlink=Y&_UserReference=517C251A6AD436A05B38D503','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Badner JA, Koller D, Foroud T, Edenberg H, Nurnberger JI, Zandi PP, Willour VL, McMahon FJ, Potash JB, Hamshere M, Grozeva D, Green E, Kirov G, Jones I, Jones L, Craddock N, Morris D, Segurado R, Gill M, Sadovnick D, Remick R, Keck P, Kelsoe J, Ayub M, Maclean A, et al. [8 more authors] (2012) Genome-wide linkage analysis of 972 bipolar pedigrees using single-nucleotide polymorphisms. Mol Psychiatry 17:818-26.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/21769101?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3204161/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 21769101
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3204161 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kreisl WC, Lyoo CH, McGwier M, Snow J, Jenko KJ, Kimura N, Corona W, Morse CL, Zoghbi SS, Pike VW, McMahon FJ, Turner RS, Innis RB, Biomarkers Consortium PET Radioligand Project Team (2013) In vivo radioligand binding to translocator protein correlates with severity of Alzheimers disease. Brain 136:2228-38
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23775979?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3692038/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23775979
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3692038 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Meier S, Mattheisen M, Vassos E, Strohmaier J, Treutlein J, Josef F, Breuer R, Degenhardt F, Mühleisen TW, Müller-Myhsok B, Steffens M, Schmael C, McMahon FJ, Bipolar Disorder Genome Study (BiGS) Consortium, Nöthen MM, Cichon S, Schulze TG, Rietschel M, Kelsoe JR, Greenwood TA, Nievergelt CM, Barrett TB, McKinney R, Shilling PD, Schork NJ, Smith EN, et al. [25 more authors] (2012). Genome-wide significant association between a negative mood delusions dimension in bipolar disorder and genetic variation on chromosome 3q26.1. Transl Psychiatry  2, e165.   https://doi.org/10.1038/tp.2012.81
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23010768?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3565205/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23010768
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3565205 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Moya PR, Wendland JR, Rubenstein LM, Timpano KR, Heiman GA, Tischfield JA, King RA, Andrews AM, Ramamoorthy S, McMahon FJ, Murphy DL (2013) Common and rare alleles of the serotonin transporter gene, SLC6A4, associated with Tourettes disorder. Mov Disord 28:1263-70
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23630162?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3766488/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23630162
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3766488 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Schulze TG, Akula N, Breuer R, Steele J, Nalls MA, Singleton AB, Degenhardt FA, Nöthen MM, Cichon S, Rietschel M, Bipolar Genome Study, McMahon FJ (2014). Molecular genetic overlap in bipolar disorder, schizophrenia, and major depressive disorder. World J Biol Psychiatry  15, 200-8.   https://doi.org/10.3109/15622975.2012.662282
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22404658?dopt=Abstract" target="_blank">PubMed</a>
+
+
+           &nbsp;&nbsp;&nbsp;&nbsp;<i>Available in future as a Free Article</i> <!-- looks for PMC translations for in progress or embargoed -->
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22404658
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3406228 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

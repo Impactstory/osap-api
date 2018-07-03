@@ -1,0 +1,1237 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002798</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002798-16</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">The Psychophysiology of Fear and Anxiety
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Christian  Grillon; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/christian-grillon" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neurobiology of Fear and Anxiety, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neurobiology of Fear and Anxiety</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 18 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Gabriella Maria Alvarez<br />
+
+
+
+
+Nicholas Lee Balderston<br />
+
+
+
+
+Monique  Ernst; MD, PhD<br />
+
+
+
+
+Bari Allison Fuchs<br />
+
+
+
+
+Tiffany R Gearhart<br />
+
+
+
+
+Madeline Elizabeth Goodwin<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=101203&onameset=Section on Neurobiology of Fear and Anxiety&isajaxlink=Y&_UserReference=19E407357D4E266F5B38D038','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 18</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Kathleen R Merikangas; PhD  (Genetic Epidemiology Branch)<br />
+
+
+
+Daniel  Pine; MD  (Emotion and Development Branch)<br />
+
+
+
+Carlos Alberto Zarate; MD  (Experimental Therapeutics and Pathophysiology Branch)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborator
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Neill  Epperson; MD
+<i>(Department of Psychiatry, University of Pennsylvania School of Medicine)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+anxiety disorders, fear, startle, executive function, classical conditioning, threat, psychophysiology
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The objective of the Section on the Neurobiology of Fear and Anxiety is to better understand anxiety to reduce human suffering. We study the causes and the consequences of anxiety. We try to understand when anxiety is beneficial and when it is detrimental to our daily activities. <br /><br />Anxiety disorders are a major public health problem. At an estimated cost of more than $50 billion per year, anxiety disorders are extremely common. More than 40 million American adults and 10 million teenagers and children suffer from an anxiety disorder each year. However, these statistics do not consider the large number of people who struggle with anxiety but are not diagnosed with a disorder, or do not seek help. Current treatments are good, but they are not good enough. They have side-effects and do not work for everyone. In addition, it may take time to find the appropriate treatment for a given person. We do not know why some treatments work in some people and not others. Obstacles to the development of better treatments include the lack of objective signs of the disorders, poor clinical efficacy of candidate anti-anxiety drugs discovered through basic research in animals, and unsatisfactory classification due to imprecise boundaries between anxiety subtypes and to comorbidity. We believe that research on psychological and brain mechanisms will help reduce suffering from anxiety disorders. Our approach is to first better understand the psychological and neurobiological underpinnings of normal anxiety, and then to build on this knowledge to identify malfunction in pathologic anxious states. <br /><br />Our research employs an experimental psychopathology approach using translational paradigms and the tools of psychophysiology, psychopharmacology, and neuroimaging. We believe that anxiety is not homogeneous. This is because anxiety is an adaptive response to threat and that different threats evoke different defensive responses appropriate to the situation. These different responses are mediated by distinct brain circuits and make differential contributions to anxiety disorders. We make a distinction between fear and anxiety. Fear is an emergency reaction to an imminent threat, and anxiety is a more persistent state of apprehension caused by anticipation of durable and uncertain threat. While fear is a fight or flight response, anxiety is a more complex phenomenon that involves subjective feelings (e.g., worry), physiological arousal, increased vigilance, and cautious behaviors. Our aims are to: 1) identify psychophysiological and neural correlates of anxiety and anxiety disorders, 2) understand how anxiety influences attentional and behavioral processes, 3) clarify how subtypes of anxiety disorders map onto the fear/anxiety distinction, and 4) develop tools to screen candidate anxiolytics and develop innovative treatments.<br /><br />Our research branches into 3 major projects. Project 1 examines underlying mechanisms of fear and anxiety. Project 2 focuses on the interaction between experimental anxiety and attention, feelings, and behaviors. Project 3 focuses on developing new treatments. We rely on several approaches: 1) psychophysiology, with an approach strongly inspired from animal research (NCT00026559; NCT00055224), 2) neuroimaging, to elucidate the neural underpinnings of responses to threat (NCT00047853; NCT00055224, NCT02423044), with a focus on the amygdala and on a neural circuit consisting of the bed nucleus of the stria terminalis, habenula, dorsal raphe nucleus, hippocampus, dorsomedial and ventromedial prefrontal cortex in the mediation and modulation of fear and anxiety. Functional brain imaging constitutes a first step toward brain-based diagnoses, endophenotypes and neurally-targeted interventions for the anxiety disorders by identifying brain correlates of these disorders; and 3) psychopharmacology, to investigate mechanisms of drug anxiolytic action and to develop paradigms that facilitate the drug discovery process (NCT02153944).
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+This project has identified core psychological and behavioral findings and their underlying neural mechanisms related to anxiety and anxiety disorders. Using a high-resolution 7 Tesla scanner, we have mapped the functional connectivity of small structures that are key nodes of the brain circuits underlying fear and anxiety, including the central nucleus of the amygdala (CeA), the bed nucleus of the stria terminalis (BNST), and the habenula. We have also characterized the effects of normal anxiety and pathological anxiety on neurocognitive and neurobehavioral processes. This work provides clues as to the boundary between normal and abnormal mechanisms. It also helps identify clinical biomarkers, i.e., processes that distinguish normal from abnormal anxiety. <br />Our approach is to elucidate normative psychological and neurobiological mechanisms of fear and anxiety in healthy subjects to identify perturbations of these mechanisms in anxious people (i.e., individuals with an anxiety disorder). Fear is an adaptive response to threat that enables organisms to efficiently confront an imminent threat via emergency flight or fight responses. Anxiety, which develops when the threat becomes more durable and uncertain, is a sustained state of apprehension. Anxiety is a state of worries, hypervigilance, and behavioral inhibition. Our Section studies anxiety as a normal emotion and as a pathological state (i.e., anxiety disorders). The normal state of emotion is induced by having subjects anticipating mildly unpleasant shock delivered on one wrist. Before the experiment begins, the subjects set the shock at a level that is uncomfortable but tolerable. <br />Although much progress has been made in understanding the mechanisms underlying fear and anxiety, both from animal and human literature, how these circuitries differ from one another, and, particularly how they are uniquely modulated, is still unclear, especially in humans. The advent of new powerful neuroimaging scanners has enabled us to gain better insights into small brain structures that mediate fear and anxiety, the CeA and the BNST. The main result is that the amygdala and the BNST are connected to many of the same structures that have been identified in animals, suggesting close anatomical conservation across mammalian species (Gorka et al., in press). However, we also found new connections with the BNST, especially in cortical regions, which have not been described in animals. These include the ventromedial, ventrolateral, and dorsolateral prefrontal cortex, and the precuneus, regions that are involved in cognition, emotion regulation, and cognitive control. Finally, we found that the amygdala is preferentially connected to structures processing the internal state of the body and sensory information and the BNST with cortical regions involved in threat appraisal and self-referential processing (Gorka et al., in press). This better understanding of the connectivity of the CeA and BNST will help gain insights into the functional role of these structures.<br /><br />In general, to make a diagnosis, clinicians rely on signs, which can be observed and quantified (e.g., thermometer to measure temperature), and symptoms, which are subjective information gathered via patients self-report and clinicians observation of patients. One of the main impediments to progress in anxiety research is that, unlike for many medical conditions, where a blood or urine test can help identify signs of disorders, there are no objective signs associated with anxiety disorders. The discovery of new treatments for anxiety disorders will depend on discovering objective signs of anxiety disorders. To this end, our Section attempts to identify objective signs of the attentional and behavioral symptoms of anxiety using cognitive tasks that probe basic mechanisms associated with anxiety such as hypervigilance and behavioral inhibition. Our findings show that normal anxiety facilitates the detection of environmental threat and novelty, and promotes a cautious behavioral stance combined with a better ability to stop prepotent (ongoing) responses. We have started to identify the brain circuits responsible for these adaptive behaviors. For example, threat detection is improved via increased connectivity between the dorsomedial prefrontal cortex and the amygdala, novelty detection by suppressing the normal feedback in a circuit that includes the auditory cortex, the superior temporal gyrus, and the inferior frontal gyrus, and the facilitation of response inhibition is associated with greater activation of a right-lateralized frontoparietal group of regions previously implicated in sustained attention and motor inhibition. The next step will be to establish whether anxiety disorders are associated with perturbation in these circuits.<br /><br />Critically, this work has the potential to dramatically change our approach to classification and treatment of anxiety disorders, and hopefully to improve the life of people suffering from anxiety.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101203&allpubs=Y&isajaxlink=Y&_UserReference=19E407357D4E266F5B38D038','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Balderston NL, Hale E, Hsiung A, Torrisi S, Holroyd T, Carver FW, Coppola R, Ernst M, Grillon C (2017) Threat of shock increases excitability and connectivity of the intraparietal sulcus. Elife 6DOI: 10.7554/eLife.23608
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28555565?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5478270/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28555565
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5478270 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Balderston NL, Hsiung A, Liu J, Ernst M, Grillon C (2017) Reducing State Anxiety Using Working Memory Maintenance. J Vis Exp DOI: 10.3791/55727
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28745646?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5612581/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28745646
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5612581 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Balderston NL, Mathur A, Adu-Brimpong J, Hale EA, Ernst M, Grillon C (2017) Effect of anxiety on behavioural pattern separation in humans. Cogn Emot 31:238-248
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26480349?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4993678/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26480349
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4993678 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Balderston NL, Vytal KE, O'Connell K, Torrisi S, Letkiewicz A, Ernst M, Grillon C (2017) Anxiety Patients Show Reduced Working Memory Related dlPFC Activation During Safety and Threat. Depress Anxiety 34:25-36
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27110997?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5079837/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27110997
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5079837 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Blair KS, Otero M, Teng C, Geraci M, Ernst M, Blair RJR, Pine DS, Grillon C (2017) Reduced optimism and a heightened neural response to everyday worries are specific to generalized anxiety disorder, and not seen in social anxiety. Psychol Med 47:1806-1815
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28290265?dopt=Abstract" target="_blank">PubMed</a>
+
+
+           &nbsp;&nbsp;&nbsp;&nbsp;<i>Available in future as a Free Article</i> <!-- looks for PMC translations for in progress or embargoed -->
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28290265
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5582689 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Blair KS, Otero M, Teng C, Geraci M, Lewis E, Hollon N, Blair RJ, Ernst M, Grillon C, Pine DS (2016) Learning from other people's fear: amygdala-based social reference learning in social anxiety disorder. Psychol Med 46:2943-2953
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27476529?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5063696/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27476529
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5063696 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Cornwell BR, Garrido MI, Overstreet C, Pine DS, Grillon C (2017) The Unpredictive Brain Under Threat: A Neurocomputational Account of Anxious Hypervigilance. Biol Psychiatry 82:447-454
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28838469?dopt=Abstract" target="_blank">PubMed</a>
+
+
+           &nbsp;&nbsp;&nbsp;&nbsp;<i>Available in future as a Free Article</i> <!-- looks for PMC translations for in progress or embargoed -->
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28838469
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5584579 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">8.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Gorka AX, Torrisi S, Shackman AJ, Grillon C, Ernst M (2018). Intrinsic functional connectivity of the central nucleus of the amygdala and bed nucleus of the stria terminalis. Neuroimage  168, 392-402.   https://doi.org/10.1016/j.neuroimage.2017.03.007
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28392491?dopt=Abstract" target="_blank">PubMed</a>
+
+
+           &nbsp;&nbsp;&nbsp;&nbsp;<i>Available in future as a Free Article</i> <!-- looks for PMC translations for in progress or embargoed -->
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28392491
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5630489 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">9.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Grillon C, Ernst M (2016) Gain in Translation: Is It Time for Thigmotaxis Studies in Humans? Biol Psychiatry 80:343-4
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27499012?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4993525/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27499012
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4993525 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">10.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Grillon C, Robinson OJ, Krimsky M, O'Connell K, Alvarez G, Ernst M (2017) Anxiety-mediated facilitation of behavioral inhibition: Threat processing and defensive reactivity during a go/no-go task. Emotion 17:259-266
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27642657?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5328922/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27642657
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5328922 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">11.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Jenewein J, Erni J, Moergeli H, Grillon C, Schumacher S, Mueller-Pfeiffer C, Hassanpour K, Seiler A, Wittmann L, Schnyder U, Hasler G (2016) Altered Pain Perception and Fear-Learning Deficits in Subjects With Posttraumatic Stress Disorder. J Pain 17:1325-1333
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27641312?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5580085/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27641312
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5580085 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">12.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Lago T, Davis A, Grillon C, Ernst M (2017) Striatum on the anxiety map: Small detours into adolescence. Brain Res 1654:177-184
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27276526?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5140771/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27276526
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5140771 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">13.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Patel N, Stoodley C, Pine DS, Grillon C, Ernst M (2017) Interaction of induced anxiety and verbal working memory: influence of trait anxiety. Learn Mem 24:407-413
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28814466?dopt=Abstract" target="_blank">PubMed</a>
+
+
+           &nbsp;&nbsp;&nbsp;&nbsp;<i>Available in future as a Free Article</i> <!-- looks for PMC translations for in progress or embargoed -->
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28814466
+    
+     <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">14.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Robinson OJ, Krimsky M, Lieberman L, Vytal K, Ernst M, Grillon C (2016) Anxiety-potentiated amygdala-medial frontal coupling and attentional control. Transl Psychiatry 6:e833
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27271859?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4931603/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27271859
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4931603 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">15.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Torrisi S, Nord CL, Balderston NL, Roiser JP, Grillon C, Ernst M (2017) Resting state connectivity of the human habenula at ultra-high field. Neuroimage 147:872-879
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27780778?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5303669/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27780778
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5303669 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

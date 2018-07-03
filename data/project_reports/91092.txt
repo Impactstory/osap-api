@@ -1,0 +1,693 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002914</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002914-08</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Treatment of Medical Conditions among Individuals with Autism Spectrum Disorders
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Susan Elizabeth Swedo; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/susan-swedo" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Behavioral Pediatrics, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Behavioral Pediatrics</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 14 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Ashura  Buckley<br />
+
+
+
+Audrey E Thurm; PhD<br />
+
+
+
+Cristan Ann Farmer; PhD<br />
+
+
+
+Precilla  D'Souza<br />
+
+
+
+Margaret J Pekar<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Jerry Judson French<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=91092&onameset=Section on Behavioral Pediatrics&isajaxlink=Y&_UserReference=6CA111F291BFD6925B38D52E','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 14</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Armin  Raznahan  (Child Psychiatry Branch)<br />
+
+
+
+Carlos Alberto Zarate; MD  (Experimental Therapeutics and Pathophysiology Branch)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+William D Gaillard; MD (NINDS) <br />
+
+
+
+Michael J Iadarola; PhD (NIDCR) <br />
+
+
+
+Sara K Inati; MD (NINDS) <br />
+
+
+
+Omar Iqbal Khan; MD (NINDS) <br />
+
+
+
+Avindra  Nath; MD (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 8 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Greg  Barnes; MD
+<i>(Vanderbilt University)</i>
+<br />
+
+
+
+Jay  Giedd; MD
+<i>(UCSD)</i>
+<br />
+
+
+
+Ellen E Grant; MD
+<i>(Boston Children's Hospital)</i>
+<br />
+
+
+
+Greg  Holmes; MD
+<i>(University of Vermont)</i>
+<br />
+
+
+
+Keith  Hyland
+<i>(Medical Neurogenetics)</i>
+<br />
+
+
+
+Alcibiades  Rodriguez; MD
+<i>(NYU)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=91092&isajaxlink=Y&_UserReference=6CA111F291BFD6925B38D52E','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 8</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+autism spectrum disorders, autism, sleep disorders, epilepsy, genetics
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The ultimate goal of the autism research conducted by the Pediatrics &amp; Developmental Neuroscience Branch (PDN) is to elucidate the causes of autism and related neurodevelopmental disorders, and to develop new treatments. Autism spectrum disorders (ASD) are reported to affect as many as 1 in 100 children, with lifelong disabilities affecting social, communication and psychological functioning. Effective treatments for the core symptoms are lacking, as are treatments for the co-occurring physical conditions that afflict individuals with autism (including, among others, epilepsy, gastrointestinal disturbances and sleep disorders).<br /><br />Identifying novel therapies to target the core symptoms of autism and these co-occurring conditions is a key component of the research of the Pediatrics and Developmental Neuroscience Branch. A variety of approaches are being taken. As an example, in an ongoing, longitudinal phenotyping study of autism, (Protocol 06-M-0102, NCT00298246), we discovered that many young children with autism show differences in sleep architecture, compared with their typically developing peers, including a marked reduction in the relative amount of rapid eye movement (REM) sleep. A small dose-finding study of donepezil demonstrated that 1.25mg was optimal for normalizing REM sleep. These results prompted a double-blind, placebo-controlled trial of donepezil (13-M-0164; NCT01887132) to assess its ability to enhance REM sleep and improve other aspects of dysregulated sleep in ASD, such as prolonged sleep onset and frequent night awakenings. Reducing or eliminating these disruptions would significantly improve the quality of life for children with autism and their families.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Autism spectrum disorder (ASD) is defined by deficits of social communication and the presence of restrictive and/or repetitive behaviors. Recent epidemiologic studies have documented an increase in the number of children identified with autistic symptoms, with some reports suggesting that as many as 1 in 68 children have ASD. The life-long impairments in communication and social function are often complicated by the presence of medical comorbidities, including epilepsy, gastrointestinal disturbances and sleep disorders. Little is known about the pathophysiology of these comorbid conditions and even less about their treatment in autistic individuals. A variety of traditional medical and alternative biomedical approaches have been tried and anecdotally reported to be useful for one or a few individuals, but none has proven efficacious when subjected to rigorous randomized, placebo-controlled investigation. Thus, identifying the etiology, pathophysiology and treatment of the medical comorbidities of autism is an important goal for research. When multiplied by the millions of children reported to be affected by ASD, the potential public health impact is tremendous. <br /><br />Sleep disorders in ASD are of particular interest to our research group and can be reliably investigated using polysomnography (PSG), a non-invasive recording of a variety of sleep parameters. Preliminary observations from another of our projects, &quot;Clinical and Behavioral Phenotyping of Autism and Related Disorders&quot;, (Protocol 06-M-0102, NCT00298246) revealed that children with autism spent an abnormally short time in the REM stage of sleep compared to total sleep time and had a prolonged latency to REM sleep. <br /><br />REM sleep is thought to play a key role in learning and memory and may be particularly important for the integration of emotional memories in learning and behavior. Although its relationship to human neurodevelopment is unknown, animal studies have shown that REM sleep increases after intensive learning sessions. These laboratory findings formed the basis for the hypothesis that REM sleep is important for the healthy development of the central nervous system and may also be a useful indicator of brain plasticity. <br /><br />A small open-label pilot study of donepezil, a reversible inhibitor of acetylcholinesterase, was undertaken to evaluate its ability to enhance REM sleep in 2- to 11-year-old children with autism and a relative REM deficiency (defined as below 2 standard deviations of observed normative data for age). The primary purpose of the study was to determine the minimum dosage of donepezil required to normalize the amount of REM sleep. The side-effects profile of donepezil was also of interest in this pilot study, as there has been little previous experience with pediatric administration of the drug. Results of this study showed that 2.5 mg per day of donepezil was sufficient to significantly increase REM sleep into the normal range, as a percentage of total sleep in children with autism. The drug was also shown to decrease REM latency. <br /><br />The pilot data provided support for a larger, placebo-controlled study to investigate the use of donepezil in the treatment of ASD, via normalizing REM with the goal of increasing the potential for learning and plasticity (Protocol 13-M-0164, NCT01887132). The study was terminated midway through the reporting period due to unacceptably slow accrual.  The lack of subject recruitment appears to have been related to the availability of donepezil in the community and parents' reluctance to accept a 50:50 chance of randomization to placebo.  Prior to the study's termination, four children participated in the open-label portion of the trial and their data are being analyzed for sleep macro and micro architecture as well as for  regional and cohort differences in connectivity that are thought to be sleep dependent. <br /><br />Our study regarding the methodology used for evaluating sleep architecture abnormalities in clinical populations was one of the first studies to examine night-to-night variation of sleep parameters among children with autism or other developmental disorders. Although polysomnography (PSG) exams are expensive and time consuming, they can yield valuable information regarding sleep physiology in special populations. We compared first and second PSG results in order to test the so-called first night effect among children with autism. The goal of the analysis was to examine sleep quality on the first and second nights that PSGs were obtained from 16 well-characterized children with ASD. Importantly, our results suggest that only a single night in laboratory is needed to detect abnormalities of REM sleep abnormalities in this population. Not only is this a potentially large cost savings, but it also improves the tolerability and feasibility of the sleep studies for children with autism.<br /><br />In addition, we recently published our findings evaluating the presence of periodic leg movements of sleep (PLMS), in relation to iron stores in children with ASD compared to typically developing children and children with unspecified developmental delay. PLMS can cause significant sleep disruption and in certain populations functional iron deficiency is thought to contribute to the disorder. Both low serum iron levels and increased sleep disorder rates have been reported in ASD. Our study found no evidence that serum ferritin is associated with polysomnogram measures of latency or sleep continuity or that young children with autism are at increased risk for PLMS. This negative finding has implications for the clinical approach to iron supplementation treatment for special populations with co-morbid sleep disorders.<br /><br />Finally, we are continuing to explore differences in the neurodevelopmental trajectory of children with autism by analyzing sleep neurophysiology in young children at risk for autism due to severe language delays. Through a natural history study of children ages 12 - 18 months (Protocol 11-M-0144, NCT01339767), we are able to explore longitudinally how very early differences in sleep rhythms and maintenance may relate to aberrant development and the onset of autistic symptoms.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91092&allpubs=Y&isajaxlink=Y&_UserReference=6CA111F291BFD6925B38D52E','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Hommer RE, Swedo SE (2015) Schizophrenia and autism-related disorders. Schizophr Bull 41:313-4
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25634913?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4332956/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25634913
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4332956 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kalra S, Burbelo PD, Bayat A, Ching KH, Thurm AE, Iadarola M, Swedo SE (2015) No evidence of antibodies against GAD65 and other specific antigens in children with autism. BBA Clinical, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

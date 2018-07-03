@@ -1,0 +1,989 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002793</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002793-15</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">PET Radiopharmaceutical Sciences
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2015 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Victor W Pike; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/victor-pike" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on PET Radiopharmaceutical Sciences, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on PET Radiopharmaceutical Sciences</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 20 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Stefano  Altomonte<br />
+
+
+
+
+Chad Peter Brouwer; PhD<br />
+
+
+
+
+Lisheng  Cai; PhD<br />
+
+
+
+
+Michelle Y Cortes; PhD<br />
+
+
+
+
+Sureshbabu  Dadiboyena; PhD<br />
+
+
+
+
+Riley Drew Davies<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=96256&onameset=Section on PET Radiopharmaceutical Sciences&isajaxlink=Y&_UserReference=C17614ACB7B316165B38D46B','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 20</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+<div id="moresamestaff">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffu">6 of a total of 7 other  members are shown. </div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+George Raphael Dold; MME, BSEE  (Section on Instrumentation)<br />
+
+
+
+Mark Alexander Grainger Eldridge  (Section on Neural Coding and Computation)<br />
+
+
+
+Masahiro  Fujita  (Section on PET Neuroimaging Sciences)<br />
+
+
+
+Robert  Innis; MD  (Section on PET Neuroimaging Sciences)<br />
+
+
+
+Jeih-San  Liow  (Section on PET Neuroimaging Sciences)<br />
+
+
+
+Barry J Richmond; MD  (Section on Neural Coding and Computation)<br />
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaff','searchview.taf?_function=showmore&ios=S&ipid=96256&thisic=&isajaxlink=Y&_UserReference=C17614ACB7B316165B38D46B','moresamestaffu');  return false;">
+
+
+<span class="morelist">Show all 7</span></a>.</form></div>
+
+
+
+</div>
+</div>
+
+
+</div>
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+John Allan Hanover; PhD (NIDDK) <br />
+
+
+
+Sung Won  Kim; PhD (NIAAA) <br />
+
+
+
+Yong Sok  Lee; PhD (CIT) <br />
+
+
+
+Nora D Volkow; MD (NIDA) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 13 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Franklin I Aigbirhio; PhD
+<i>(Cambridge University)</i>
+<br />
+
+
+
+Federico  Da Settimo; PhD
+<i>(University of Pisa)</i>
+<br />
+
+
+
+Ramon  Diaz-Arrastia; MD
+<i>(USUHS)</i>
+<br />
+
+
+
+Chad  Elmore; PhD
+<i>(AstraZeneca)</i>
+<br />
+
+
+
+Roger N Gunn; PhD
+<i>(Imanova)</i>
+<br />
+
+
+
+Mark  Gurney; PhD
+<i>(Tetra Discovery)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=96256&isajaxlink=Y&_UserReference=C17614ACB7B316165B38D46B','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 13</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+radiotracer, Brain imaging, PET, carbon-11, fluorine-18, medicinal chemistry, radiochemistry, radiopharmaceutical
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Our laboratory's overall aim is to develop new radiotracers for use in living human subjects with the imaging technique of positron emission tomography (PET) to provide biomolecular insights into mental disorders and their treatments. A major premise in modern psychiatry is that dysfunctions in brain proteins underlie many neuropsychiatric disorders. Each new radiotracer that we develop is designed to report on the status of a specific biochemical process or a specific protein target (e.g., enzyme, neurotransmitter receptor, transporter, or plaque) within the living human brain, and in some cases on how this protein may be affected by or acted upon by established or experimental drugs.<br /><br />The development of novel PET radiotracers is an ambitious and challenging field of research, requiring immense basic effort at the levels of medicinal chemistry, pharmacology, and rapid radiochemistry with very short-lived radioisotopes (i.e., carbon-11 and fluorine-18 that have half-lives of 20 and 110 min, respectively). These efforts are augmented with important contributions from other imaging sciences (e.g. physics, biomathematical modeling).  In our laboratory, the PET Radiopharmaceutical Sciences Section (PRSS) of the Molecular Imaging Branch (MIB), this effort is approached through research in organic and medicinal chemistry, radiochemistry, and radio-bioanalytical techniques. Our research program occurs through especially strong interaction with the Section on PET Neuroimaging Sciences in our branch for effective novel radiotracer evaluation in animals and human subjects. We also collaborate within NIMH and NIH, and with national and international academic centers, and with Pharma.  The new information to be gained on the living brain through these efforts on new radiotracer development is inaccessible by other means: the application of radiotracers with PET provides unique windows into specific aspects of the normal and dysfunctional molecular workings of the living human brain.<br /><br />The short half-lives of carbon-11 and fluorine-18 demand methodological advances for their efficient incorporation into new radiotracers at specific molecular sites. An important part of our laboratory's remit is therefore to develop and apply such methodology in order to provide a strong foundation for PET radiotracer development.  Moreover, the short half-lives of carbon-11 and fluorine-18 demand radiotracers to be produced rapidly for each PET imaging experiment performed in an animal or human subject. Our Section produces a wide range of such radiotracers on a regular basis. We are also engaged in studies of radiotracer metabolism to deepen our understanding of radiotracer behavior and to provide rigorous radiotracer evaluation. Such studies also facilitate new radiotracer design.<br /><br />Ultimately, developments in this field may impact on the understanding, diagnosis and treatment of a wide variety of disorders (e.g., anxiety, autism, depression, Fragile X syndrome, drug addiction, stroke, traumatic brain injury and dementia).
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The Molecular Imaging Branch (MIB) aims to exploit positron emission tomography (PET) as a radiotracer imaging technique for investigating neuropsychiatric disorders, such as autism, depression, addiction, schizophrenia, and Alzheimer's Disease (AD). Fundamental to this mission is the development of novel radioactive probes (radiotracers) that can be used with PET to measure changes in low level proteins in the brains of living human subjects where these proteins are suspected to have critically involvement in the progression of neuropsychiatric disorders.  Such proteins include some neuroreceptors, transporters, enzymes, and plaques.  PET is uniquely powerful and sensitive when coupled with the use of biochemically-specific PET radiotracers. The chemical development of new radiotracers is the key to exploiting the full potential of PET in neuropsychiatric research.  However, a successful PET radiotracer must satisfy a wide range of difficult-to-satisfy chemical, biochemical and pharmacological criteria.  Consequently, PET radiotracer development is highly challenging.  In fact, our research has some parallels with drug discovery in that it entails high effort and heavy risk, but can reap rich biomedical rewards.  Even now, the number of potentially interesting imaging targets (brain proteins) far exceeds the range of currently available and useful radiotracers.<br /><br />Within MIB, the PET Radiopharmaceutical Sciences Section (PRSS) places a concerted effort on all chemical and radiochemical aspects of PET radiotracer discovery. Our laboratories are equipped for medicinal chemistry and automated radiochemistry with positron-emitting carbon-11 (t1/2 = 20 min) and fluorine-18 (t1/2 = 110 min). These two very short-lived radioisotopes are available to us daily from the adjacent cyclotrons of the NIH Clinical Center (Chief: Dr. P. Herscovitch). Our section interacts seamlessly with the Section on PET Neuroimaging Sciences in our branch (Chief: Dr. R.B. Innis) for early evaluation of potential radiotracers in biological models and in animals. Subsequent PET research in human subjects is also performed in collaboration with the Imaging Section under Food and Drug Administration oversight through 'exploratory' or 'full' Investigational New Drug applications. <br /><br />In the period covered by this report, we worked on developing PET radiotracers for several targets. These include TSPO, glutamate receptors (NMDA, mGlu1, mGlu5), enzymes (COX-1, COX-2, PDE1 and PDE4 subtypes, cPLA2), and tau fibril deposits.<br />   <br />One radiotracer that we developed for TSPO imaging (C-11PBR28) has been applied to investigate brain inflammatory conditions in response to various neurological insults (e.g., stroke, epilepsy and neurodegeneration). An unexpected finding is that healthy human subjects, because of a genetic difference, carry either one or both of two distinct forms of TSPO and that these interact differently with C-11PBR28, complicating the analysis of PET studies.  Consequently, we sought to develop genetically-insensitive TSPO radiotracers. We explored new chemotypes with potential to provide superior PET radiotracers for TSPO.  One of our new radiotracers, C-11ER176, appeared promising for avoiding genotype sensitivity from study in animals and in human tissue in vitro. Although C-11ER176 does not show the expected genotype insensitivity in humans, it does turn out to be perhaps the highest performing TSPO radiotracer yet known.  In addition, we are developing radiotracers for other targets relevant to the study of neuroinflammation, such as the cyclooxygenase (COX) subtype 1 and subtype 2 enzymes. Very promising radiotracers have been identified, and two of these are to be advanced for evaluation in human subjects. These radiotracers may provide more biochemical and cellular specificity for investigation of neuroinflammation. In this regard, we have started to explore the development of radiotracers for other enzymes implicated in neuroinflammation, such as cPLA2.<br /><br />mGlu5 receptor radiotracers have interest for the study of addiction, as well as other disorders, notably Fragile X, an autistic condition, and schizophrenia. We reported our comparison of two new high-performing mGlu5 radiotracers (C-11SP203 and C-11FPEB) in human subjects and also our recently developed radiotracer (F-18FIMX) for a very related receptor target, namely mGlu1.  Studies in human show this radiotracer performs exceptionally well. NMDA is another protein acted upon by the important neurotransmitter, glutamate, for which we continue developing radiotracers <br /><br />In collaboration with Prof. Diaz-Arrastia and colleagues (Uniformed Services University of the Health Sciences), we have been developing radiotracers for imaging the accumulation of brain neurofibrillary tangles (tau protein), which may underlie the development of neurodegenerative disorders, such as AD and traumatic brain injury.  We have identified three distinct radiotracer binding sites on tau fibrils and have discovered several compounds that might serve as leads to PET radiotracers for tau imaging.  Ligand-based virtual screening has also been explored as a tool for PET radiotracer discovery. We have also been collaborating with academia (Prof. Suhara; NIRS, Japan) to evaluate their early radiotracer for this target in human subjects.<br />  <br />PET radiotracers can provide important quantitative information on experimental therapeutics for neuropsychiatric disorders, such as ability to cross the blood-brain-barrier and to engage with a target protein. In collaborations with academia and Pharma, we are developing several radiotracers for this purpose.  Some of these radiotracers are targeted at proteins that have not previously been imaged in living human brain, and that may have eventual clinical research utility, such as subtypes of phosphodiesterase (especially with regard to depression), and the enzyme OGA (especially with regard to dementia). <br /><br />We continue to advance our methodology for improved radiotracer development. Progress was made across several areas, including synthesis, radiolabeling methods, and the use of micro-reactors for radiochemistry research. Especially, we combined the use of microfluidics with new labeling strategies to expand our range of candidate F-18 labeled radiotracers. New labeling agents have been developed for C-11 chemistry. Sensitive mass spectrometry has been developed to measure radiotracer concentration in blood following intravenous administration, as is required to analyze PET experiments.  LC-MS/MS has the potential to avoid the demanding logistics associated with measuring fast-decaying radioactivity. <br /><br />Productive collaborations continue with external academic chemistry and medicinal chemistry laboratories, nationally and internationally, and also with pharmaceutical companies. Productive collaborations also exist with other centers working with PET and its associated radiochemistry and radiotracer development.  The laboratory is active in training new scientists for this field at graduate and postdoctoral level.<br /><br />We produce some useful radiotracers that have been developed elsewhere for PET investigations in animal or human subjects e.g., C-11rolipram (for PDE4 enzyme imaging), C-11UCB-J for imaging synapse density, and C-11clozapine for investigation of DREAAD technology.  Each PET experiment with any radiotracer requires a radiosynthesis of the radiotracer on the same day, and hence radiotracer production is a regular activity.  <br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2016 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=96256&allpubs=Y&isajaxlink=Y&_UserReference=C17614ACB7B316165B38D46B','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Gershen LD, Zanotti-Fregonara P, Dustin IH, Liow JS, Hirvonen J, Kreisl WC, Jenko KJ, Inati SK, Fujita M, Morse CL, Brouwer C, Hong JS, Pike VW, Zoghbi SS, Innis RB, Theodore WH (2015) Neuroinflammation in Temporal Lobe Epilepsy Measured Using Positron Emission Tomographic Imaging of Translocator Protein. JAMA Neurol 72:882-8
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26052981?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5234042/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26052981
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5234042 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Haskali MB, Telu S, Lee YS, Morse CL, Lu S, Pike VW (2016) An Investigation of (Diacetoxyiodo)arenes as Precursors for Preparing No-Carrier-Added [(18)F]Fluoroarenes from Cyclotron-Produced [(18)F]Fluoride Ion. J Org Chem 81:297-302
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26641128?dopt=Abstract" target="_blank">PubMed</a>
+
+
+           &nbsp;&nbsp;&nbsp;&nbsp;<i>Available in future as a Free Article</i> <!-- looks for PMC translations for in progress or embargoed -->
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26641128
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5573187 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Hong J, Lu S, Xu R, Liow JS, Woock AE, Jenko KJ, Gladding RL, Zoghbi SS, Innis RB, Pike VW (2015) [carbonyl-11C]4-Fluoro-N-methyl-N-(4-(6-(methylamino)pyrimidin-4-yl)thiazol-2-yl)benzamide ([11C]FIMX) is an effective radioligand for PET imaging of metabotropic glutamate receptor 1 (mGluR1) in monkey brain. Nucl Med Biol 42:967-74
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26320813?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4658304/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26320813
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4658304 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kreisl WC, Bhatia R, Morse CL, Woock AE, Zoghbi SS, Shetty HU, Pike VW, Innis RB (2015) Increased permeability-glycoprotein inhibition at the human blood-brain barrier can be safely achieved by performing PET during peak plasma concentrations of tariquidar. J Nucl Med 56:82-7
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25500831?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4495896/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25500831
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4495896 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Lyoo CH, Ikawa M, Liow JS, Zoghbi SS, Morse CL, Pike VW, Fujita M, Innis RB, Kreisl WC (2015) Cerebellum Can Serve As a Pseudo-Reference Region in Alzheimer Disease to Detect Neuroinflammation Measured with PET Radioligand Binding to Translocator Protein. J Nucl Med 56:701-6
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25766898?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4839390/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25766898
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4839390 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Naumiec GR, Jenko KJ, Zoghbi SS, Innis RB, Cai L, Pike VW (2015) N'-3-(Trifluoromethyl)phenyl Derivatives of N-Aryl-N'-methylguanidines as Prospective PET Radioligands for the Open Channel of the N-Methyl-d-aspartate (NMDA) Receptor: Synthesis and Structure-Affinity Relationships. J Med Chem 58:9722-30
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26588360?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4980657/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26588360
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4980657 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Weidner LD, Zoghbi SS, Lu S, Shukla S, Ambudkar SV, Pike VW, Mulder J, Gottesman MM, Innis RB, Hall MD (2015) The Inhibitor Ko143 Is Not Specific for ABCG2. J Pharmacol Exp Ther 354:384-93
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26148857?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4538874/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26148857
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4538874 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

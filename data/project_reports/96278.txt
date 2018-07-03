@@ -1,0 +1,1490 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002888</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002888-10</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Scientific and Statistical Computing Core
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2015 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lead Investigator</div></div>
+
+<div class="rowdiv">
+<div class="data">
+Robert  Cox; PhD
+<br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any LIs -->
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<!-- display SoRs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Supervisor of Record</div></div>
+<div class="rowdiv">
+<div class="data">
+ <!-- faculty test -->
+Susan G Amara; PhD 
+ <!-- faculty test -->
+<br />
+
+</div>
+</div>
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Scientific and Statistical Computing Core, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Scientific and Statistical Computing Core</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Gang  Chen; PhD<br />
+
+
+
+Richard C Reynolds; MS, MS<br />
+
+
+
+Daniel R Glen; BS<br />
+
+
+
+Brian  Pittman; BS<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Elaine M Raab<br />
+
+
+
+
+Paul Andrew Taylor; BS, PhD<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+<div id="moresamestaff">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffu">6 of a total of 14 other  members are shown. </div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Peter A Bandettini; BS, PhD  (Office of the Director)<br />
+
+
+
+Karen F Berman; MD  (Clinical and Translational Neuroscience Branch)<br />
+
+
+
+Robert James Richard Blair; PhD  (Section on Development and Affective Neuroscience)<br />
+
+
+
+Richard  Coppola; SB, DSc  (Magnetoencephalography Core)<br />
+
+
+
+Monique  Ernst; MD, PhD  (Section on Development and Affective Neuroscience)<br />
+
+
+
+Christian  Grillon; PhD  (Section on Neurobiology of Fear and Anxiety)<br />
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaff','searchview.taf?_function=showmore&ios=S&ipid=96278&thisic=&isajaxlink=Y&_UserReference=1B37A94A0C3A8C495B38CF75','moresamestaffu');  return false;">
+
+
+<span class="morelist">Show all 14</span></a>.</form></div>
+
+
+
+</div>
+</div>
+
+
+</div>
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+<div id="moresamestaffo">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffou">6 of a total of 9 other NIH members are shown.</div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Allen R Braun; MD (NIDCD) <br />
+
+
+
+John Anthony Butman; MD, PhD (CC) <br />
+
+
+
+Mark  Hallett; MD (NINDS) <br />
+
+
+
+Barry  Horwitz; PhD (NIDCD) <br />
+
+
+
+Alan Paul Koretsky; PhD (NINDS) <br />
+
+
+
+Daniel S Reich (NINDS) <br />
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaffo','searchview.taf?_function=showmore&ios=O&ipid=96278&isajaxlink=Y&_UserReference=1B37A94A0C3A8C495B38CF75','moresamestaffou');  return false;">
+
+
+<span class="morelist">Show all 9</span></a></form></div>
+
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Michael S Beauchamp; PhD
+<i>(Dept of Neurobiology and Anatomy, University of Texas Health Science Center at Houston)</i>
+<br />
+
+
+
+Stephen M LaConte; PhD
+<i>(Dept of Biomedical Engineering and Science, Virginia Tech)</i>
+<br />
+
+
+
+Helen S Mayberg; MD
+<i>(Psychiatry, Emory University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+3D image analysis, 3D image registration, 3D image visualization, AFNI, functional MRI data analysis, functional brain connectivity, linear mixed effects model, resting state fMRI, nonlinear image warping, time series analysis, fMRI, diffusion tensor imaging
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The primary goal of this Core facility is to help NIH intramural investigators carry out their analyses of brain functional MRI (fMRI) data, in order to extract regions and networks that are involved in specific human activities, and especially to detect which regions and networks differ between normal subjects and patients in various groups and conditions. A secondary goal is to facilitate analyses of similar types of imaging data (e.g., structural and diffusion tensor MRI data analysis), many of which are undertaken as adjuncts to brain functional studies -- this goal has assumed more importance in recent years. A tertiary goal is to provide some general statistical consulting to NIH intramural investigators (not necessarily limited to analysis of imaging datasets).<br /><br />fMRI data analysis is challenging, since the amount of data involved is huge (multiple gigabytes per subject, and 20-100 subjects per study), numerous complex processing steps are required to extract the small components of the data that are relevant to brain activity, and in most cases there is no generally agreed upon set of methods to apply. The state-of-the-art in both image technology and analysis methodology is in continual flux, there are no &quot;cut and dried&quot; or fully-automated solutions, and new fMRI-based projects often require new or modified types of statistical analysis. The Scientific and Statistical Computing Core educates users in the techniques of fMRI analyses, and consults with users about the details of their specific research projects and how to carry out their data analyses in various software tools, including AFNI, SPM, and FSL.<br /><br />The Core also develops new processing methods and implements them in software (the AFNI package), so intramural researchers will have access to the reliable and flexible tools they need. Many changes to the software are motivated by intramural researchers' specific requests and needs; other upgrades are based on the Core's vision of what will be useful in the future. The Core is very aggressive at fixing bugs in the software, usually within a few days. These open-source software tools are also made available to non-NIH researchers (https://afni.nimh.nih.gov and via GitHub), and are used at dozens of institutions around the world. Software support is provided by a very active Web-based message board, by teaching a multi-day course on how to analyze fMRI data with the Core's software, and by meetings with NIH intramural researchers to help them understand their data and the analysis options.<br /><br />The Core does not collect human or animal data for its own projects. All data handled by the Core comes from NIH investigators, typically in conjunction with questions about data quality and/or data analysis. Such consultations can range from minutes to hours, and are often prolonged over the course of a research study.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The principal mission of the Core is to help NIH researchers with analyses of their fMRI (brain activation mapping) data. Along the way, we also help non-NIH investigators, mostly in the USA but also some abroad. Several levels of help are provided, from short-term immediate aid to long-term development and planning.<br /><br />Consultations:<br />The shortest term help comprises in-person consultations with investigators about issues that arise in their research. The issues involved are quite varied, since there are many steps in carrying out fMRI data analyses and there are many different types of experiments. Common problems include:<br />- How to set up experimental design so that data can be analyzed effectively?<br />- Interpretation and correction of MRI imaging artifacts (a common one: subject head motion during scanning).<br />- How to set up time series analysis to extract brain activation effects of interest, and to suppress non-activation artifacts?<br />- Why don't AFNI results agree with SPM/FSL/something else?<br />- How to analyze data to reveal connections between brain regions during specific mental tasks, or at rest?<br />- How to recognize bad data?<br />- How to carry out reliable inter-patient (group) statistical analysis, especially when non-MRI data (e.g., genetic information, age, disease rating) needs to be incorporated?<br />- How to get good registration between the functional results and the anatomical reference images, and between the brain images from different subjects?<br />- What sequence of programs is &quot;best&quot; for analyzing a particular kind of data?<br />- Reports of real or imagined bugs in the AFNI software, as well as feature requests (small, large, and extravagant).<br />There are familiar themes in many of these consultations, but each meeting and each experiment raises unique questions and usually requires digging into the goals and details of the research project in order to ensure that nothing central is being overlooked. Complex statistical issues are often raised. Often, software needs to be developed or modified to help researchers answer their specific questions. Helping with the Methods sections of papers is often part of our duties, as well.<br /><br />Educational Efforts:<br />The Core developed (and updates) a 40-hour hands-on course on how to design and analyze fMRI data that was taught twice at the NIH during FY 2016 to over 200 students. All material for this continually evolving course (software, sample data, scripts, and PDF slides) are freely available on our Web site (https://afni.nimh.nih.gov). The course material includes several sample datasets that are used to illustrate the entire process, starting with images output by MRI scanners and continuing through to the collective statistical analysis of groups of subjects. By invitation, we also taught versions of this course at 5 non-NIH sites (expenses for these trips were sponsored by the hosts): Okazaki (Japan), Tulsa (Oklahoma), Hangzhou (China), Lincoln (Nebraska), and San Diego (California).  In addition, more than 1200 AFNI forum postings were made by Core members, mostly in answer to queries from users.<br /><br />Algorithm and Software Development:<br />The longest term support consists of developing new methods and software for fMRI data analysis, both to solve current problems and in anticipation of new needs. All of our software is incorporated into the AFNI package, which is Unix/Linux/Macintosh-based open-source and is available for download by anyone in source code or binary formats. New programs are created, and old programs modified, in response to specific user requests and in response to the Core's vision of what will be needed in the future. The Core also assists NIH labs in setting up computer systems for use with AFNI, and maintains an active Web site with a forum for questions (and answers) about fMRI data analysis.<br /><br />Notable developments during FY 2016 include:<br />- A significant controversy erupted over statistical accuracy in fMRI group studies, after a paper in PNAS was published calling into question over 40,000 papers in this field (that specific claim was later rescinded by the authors).  The Core expended significant effort to assess the magnitude of the issues raised in this paper and then fix the problems that we identified.  The main AFNI group analysis program was modified to be more stringent, and was demonstrated to control the rate of false detections at the desired 5% level.  These changes to prevent false &quot;positive&quot; results come at a cost of more false &quot;negative&quot; results (lost detections of significant changes between groups).  New ideas generated while working on this first set of algorithm changes are now being implemented in software.  We believe that this new combination of techniques will maintain proper statistical control of false positives while reducing the rate of false negative results.<br />- Development of new statistical methods for carrying out inter-subject analyses of fMRI data that comes from experiments with naturalistic stimuli, such as watching a movie.  Neither discrete-task nor resting-state analyses are appropriate for such studies, but the methods currently in use do not properly allow for the complex structure of this type of data.  The new methods have been implemented in software, validated for statistical power, and two papers have been accepted for publication (1).<br />- Development of tools for visualizing and analyzing data from Deep Brain Stimulation (DBS) studies; a paper was published about this software (4).<br />- Extended the 3D macaque brain atlas that is distributed with AFNI, including connectivity.<br />- Carried out analyses of AFNI software for visualizing and quantifying stroke lesions.<br /><br />Public Health Impact:<br />From Oct 2015 to Aug 2016, the principal AFNI publication has been cited in 389 papers (cf Scopus). Most of our work supports basic research into brain function, but some of our work is more closely tied to or applicable to specific diseases:<br />- We collaborate with Dr Alex Martin (NIMH) to apply our resting state analysis methods to autism spectrum disorder.<br />- We consult frequently with NIMH researchers (e.g., Drs Pine, Ernst, Grillon, Leibenluft) working in mood and anxiety disorders.<br />- We consult with Dr Elliot Stein (NIDA) in his research applying fMRI methods to drug abuse and addiction, and to Dr Momenan (NIAAA) in his studies of alcoholism.<br />- Our Gd-DTPA nonlinear analysis method is used in the NIH Clinical Center to analyze data from brain cancer patients.<br />- Our precise registration tools (for aligning fMRI scans to anatomical reference scans) are important for individual subject applications of brain mapping, such as pre-surgical fMRI planning.<br />- Our real-time fMRI software is being used for studies on brain mapping feedback in neurological disorders, is used daily for quality control at the NIH fMRI scanners, and is also used at a few extramural sites.<br />- Our statistical methods are being applied to epilepsy patients undergoing surgical planning with electro-corticography.<br /><br />Publications:<br />#1-18 are papers that include Core authors. The remaining publications are from NIMH authors, who cited the primary AFNI paper, as an indication of their use of the Core facility. Papers from NIH  but not NIMH authors are not included here, nor are papers from extramural researchers (due to limitations in the bibliography system).<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2016 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=96278&allpubs=Y&isajaxlink=Y&_UserReference=1B37A94A0C3A8C495B38CF75','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by reference within the summary, then by publication type and author name.
+</p>
+
+
+
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div> <div style="margin: -1.6em 0px 5px 2em;">Chen G, Saad ZS, Adleman NE, Leibenluft E, Cox RW (2015) Detecting the subtle shape differences in hemodynamic responses at the group level. Front Neurosci 9:375
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26578853?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4620161/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 26578853
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4620161 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div> <div style="margin: -1.6em 0px 5px 2em;">Taylor PA, Alhamud A, van der Kouwe A, Saleh MG, Laughton B, Meintjes E (2016) Assessing the performance of different DTI motion correction strategies in the presence of EPI distortion correction. Hum Brain Mapp 37:4405-4424
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27436169?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5118068/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 27436169
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5118068 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div> <div style="margin: -1.6em 0px 5px 2em;">Taylor PA, Jacobson SW, van der Kouwe A, Molteno CD, Chen G, Wintermark P, Alhamud A, Jacobson JL, Meintjes EM (2015) A DTI-based tractography study of effects on brain structure associated with prenatal alcohol exposure in newborns. Hum Brain Mapp 36:170-86
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25182535?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4311768/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 25182535
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4311768 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div> <div style="margin: -1.6em 0px 5px 2em;">Adleman NE, Chen G, Reynolds RC, Frackman A, Razdan V, Weissman DH, Pine DS, Leibenluft E (2016) Age-related differences in the neural correlates of trial-to-trial variations of reaction time. Dev Cogn Neurosci 19:248-57
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27239972?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5099497/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 27239972
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5099497 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div> <div style="margin: -1.6em 0px 5px 2em;">Alhamud A, Taylor PA, van der Kouwe AJ, Meintjes EM (2016) Real-time measurement and correction of both B0 changes and subject motion in diffusion tensor imaging using a double volumetric navigated (DvNav) sequence. Neuroimage 126:60-71
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26584865?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4733594/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 26584865
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4733594 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div> <div style="margin: -1.6em 0px 5px 2em;">Lauro PM, Vanegas-Arroyave N, Huang L, Taylor PA, Zaghloul KA, Lungu C, Saad ZS, Horovitz SG (2016) DBSproc: An open source process for DBS electrode localization and tractographic analysis. Hum Brain Mapp 37:422-33
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26523416?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5217472/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 26523416
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5217472 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div> <div style="margin: -1.6em 0px 5px 2em;">Wiggins JL, Adleman NE, Kim P, Oakes AH, Hsu D, Reynolds RC, Chen G, Pine DS, Brotman MA, Leibenluft E (2016) Developmental differences in the neural mechanisms of facial emotion labeling. Soc Cogn Affect Neurosci 11:172-81
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26245836?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4692325/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 26245836
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4692325 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">8.</div> <div style="margin: -1.6em 0px 5px 2em;">Pauli R, Bowring A, Reynolds R, Chen G, Nichols TE, Maumet C (2016) Exploring fMRI Results Space: 31 Variants of an fMRI Analysis in AFNI, FSL, and SPM. Front Neuroinform 10:24
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27458367?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4932120/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 27458367
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4932120 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">9.</div> <div style="margin: -1.6em 0px 5px 2em;">Alhamud A, Taylor PA, Laughton B, van der Kouwe AJ, Meintjes EM (2015) Motion artifact reduction in pediatric diffusion tensor imaging using fast prospective correction. J Magn Reson Imaging 41:1353-64
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24935904?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4269573/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 24935904
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4269573 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">10.</div> <div style="margin: -1.6em 0px 5px 2em;">Silson EH, Chan AW, Reynolds RC, Kravitz DJ, Baker CI (2015) A Retinotopic Basis for the Division of High-Level Scene Processing between Lateral and Ventral Human Occipitotemporal Cortex. J Neurosci 35:11921-35
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26311774?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4549403/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 26311774
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4549403 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">11.</div> <div style="margin: -1.6em 0px 5px 2em;">Meffert H, Hwang S, Nolan ZT, Chen G, Blair JR (2016) BOLD data representing activation and connectivity for rare no-go versus frequent go cues. Data Brief 7:66-70
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26955650?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4761693/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 26955650
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4761693 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">12.</div> <div style="margin: -1.6em 0px 5px 2em;">White LK, Britton JC, Sequeira S, Ronkin EG, Chen G, Bar-Haim Y, Shechner T, Ernst M, Fox NA, Leibenluft E, Pine DS (2016) Behavioral and neural stability of attention bias to threat in healthy adolescents. Neuroimage 136:84-93
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27129757?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5139370/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 27129757
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5139370 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+ <!-- ends ordered rows -->
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">13.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Alexander-Bloch A, Clasen L, Stockman M, Ronan L, Lalonde F, Giedd J, Raznahan A (2016) Subtle in-scanner motion biases automated measurement of brain anatomy from in vivo MRI. Hum Brain Mapp 37:2385-97
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27004471?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5110234/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27004471
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5110234 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">14.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Berman RA, Gotts SJ, McAdams HM, Greenstein D, Lalonde F, Clasen L, Watsky RE, Shora L, Ordonez AE, Raznahan A, Martin A, Gogtay N, Rapoport J (2016) Disrupted sensorimotor and social-cognitive networks underlie symptoms in childhood-onset schizophrenia. Brain 139:276-91
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26493637?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4719706/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26493637
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4719706 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">15.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Gonzalez-Castillo J, Panwar P, Buchanan LC, Caballero-Gaudes C, Handwerker DA, Jangraw DC, Zachariou V, Inati S, Roopchansingh V, Derbyshire JA, Bandettini PA (2016) Evaluation of multi-echo ICA denoising for task based fMRI studies: Block designs, rapid event-related designs, and cardiac-gated fMRI. Neuroimage 141:452-68
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27475290?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5026969/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27475290
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5026969 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">16.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Mellem MS, Jasmin KM, Peng C, Martin A (2016) Sentence processing in anterior superior temporal cortex shows a social-emotional bias. Neuropsychologia 89:217-224
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27329686?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5384858/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27329686
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5384858 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">17.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Stoddard JJ, Gotts S, Brotman MA, Lever SN, Hsu DE, Zarate CA, Ernst MK, Pine D, Leibenluft E (2016) Aberrant intrinsic functional connectivity within and between corticostriatal and temporal-parietal networks in adults and youth with bipolar disorder. Psychological Medicine, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">18.</div>
+<div style="margin: -1.6em 0px 5px 2em;">White SF, Tyler PM, Erway AK, Botkin ML, Kolli V, Meffert H, Pope K, Blair JR (2016) Dysfunctional representation of expected value is associated with reinforcement-based decision-making deficits in adolescents with conduct problems. J Child Psychol Psychiatry 57:938-46
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27062170?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4958524/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27062170
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4958524 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">19.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Zhang H, Japee S, Nolan R, Chu C, Liu N, Ungerleider LG (2016) Face-selective regions differ in their ability to classify facial expressions. Neuroimage 130:77-90
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26826513?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4808360/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26826513
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4808360 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

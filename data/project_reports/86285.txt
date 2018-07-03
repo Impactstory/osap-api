@@ -1,0 +1,929 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002712</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002712-20</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Characterization Of Neuropsychological Impairment In Schizophrenia
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Karen F Berman; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/karen-berman" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Clinical and Translational Neuroscience Branch, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Clinical and Translational Neuroscience Branch</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 17 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Brenda A Agunyego<br />
+
+
+
+
+Jose A Apud; MD, PhD<br />
+
+
+
+
+Karen  Bartholomew<br />
+
+
+
+
+Morgan Elaine Bartholomew<br />
+
+
+
+
+Graham Leigh Baum<br />
+
+
+
+
+Joann  Berkson; RN<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=86285&onameset=Clinical and Translational Neuroscience Branch&isajaxlink=Y&_UserReference=0A81B7DB180711385B38D3E4','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 17</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Richard  Coppola; SB, DSc  (Magnetoencephalography Core)<br />
+
+
+
+Barbara K Lipska; PhD  (Psychosis and Cognitive Studies Section)<br />
+
+
+
+Peter J Schmidt; MD  (Behavioral Endocrinology Branch)<br />
+
+
+
+Kuan Hong Wang; PhD  (Unit on Neural Circuits and Adaptive Behaviors)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 7 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+James  Gold; PhD
+<i>(MPRC, Maryland Psychiatric Research Center (MPRC))</i>
+<br />
+
+
+
+Terry  Goldberg; PhD
+<i>(Albert Einstein School of Medcine)</i>
+<br />
+
+
+
+Jesus  Gomar; PhD
+<i>(Albert Einstein School of Medicine)</i>
+<br />
+
+
+
+Ahmad  Hariri; PhD
+<i>(Duke University)</i>
+<br />
+
+
+
+Richard  Straub; PhD
+<i>(Lieber Institute for Brain Development)</i>
+<br />
+
+
+
+Joey  Trampush; PhD
+<i>(Cognitive Genomics, Zucker Hillside Hospital)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=86285&isajaxlink=Y&_UserReference=0A81B7DB180711385B38D3E4','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 7</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+psychosis, cognition, unaffected relatives, schizophrenia, illness heterogeneity, phenomics, illness subgroups, psychometrics, data reduction, quantitative analysis
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Schizophrenia and related psychotic disorders are characterized by abnormalities of information processing and behavior. Among the characteristic symptoms, cognitive impairment emerges early, is substantial and widespread by the time of the first episode, and is strongly associated with poor long-term outcome (e.g., Dickinson et al., 2013; Schaefer et al., 2013). Newer investigative methods from the cognitive and affective neurosciences are testing whether this broad impairment can be divided into quasi-independent component processes. However, the ultimate goal is to understand how various pieces work together to form more complex biological and cognitive mechanisms and how these mechanisms get derailed in illness. One challenge is to address the influence of development in models of cognitive impairment. Over decades, individual development builds densely interwoven cognitive and neural systems. Our understanding of the way that compromised development affects these systems is limited. Closely linked are considerations related to genetics. Since genes encode protein building blocks rather than integrated behaviors, their influence on cognition may well come through low-level and widely-acting mechanisms (e.g., affecting the migration of neurons during development or  the plasticity of connections among neurons). Such processes, functioning normally or abnormally, should be expected to contribute to the emergence and refinement of a broad range of cognitive abilities during development (Gold &amp; Dickinson, 2013). This combination of factors related to cognitive impairment in psychosis is highly complex and poorly understood. At its broadest level, this project seeks to advance the understanding of cognitive impairment in psychotic disorders like schizophrenia, and support the search for possible treatments.<br /><br />In connection with this project, the CBDB Neuropsychology group and collaborators conduct various studies of basic cognitive and behavioral mechanisms in psychosis -- and their relationship to biology -- taking advantage not only of clinical and behavioral data from the Branch and collaborators, but also of genetics and neuroimaging data streams. In recent years, work has followed two main paths. (1) A critical part of our work is what is sometimes referred to as &quot;phenomics&quot;: that is, research aimed at improving our understanding and use of cognitive and behavioral measurement data. This includes various analyses aimed at identifying the main dimensions of different categories of data (e.g., cognitive, symptom, or developmental data), data reduction strategies to reduce numerous overlapping individual variables to composite variables that reflect these dimensions, and refinement of these summary measures for wide use in group and Branch research. (2) Progress in phenomics and data reduction provides the foundation for another exciting line of work. Illness heterogeneity is a major challenge in schizophrenia research. One way of addressing this challenge is through statistical subgrouping analyses in large, diverse datasets. The ultimate goal is to identify robust, homogeneous psychosis subgroups based on clinical and behavioral characteristics and to use the subgroups to find associations with genetics, brain structure and function, and other biological markers within or between subgroups that are masked in analyses at the level of broad diagnosis. <br /><br />Apart from research work, the CBDB Neuropsychology group devotes substantial effort to the collection and management of cognitive, personality, and related data for the use of the whole Branch. Additionally, the Neuropsychology group designs and updates the cognitive and behavioral assessment batteries used in different Branch protocols, and performs these assessments and related quality control and data management.(Protocol: 95-M-0150, NCT00001486)
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Following are descriptions of our most significant work related to this project over the past year. Paragraphs 1-3 cover work that falls within the &quot;phenomics&quot; area described in our goals and objectives. Paragraphs 2 and 4 address heterogeneity reduction and subgrouping themes also described in the goals and objectives. Paragraphs 5-7 address other related research activities in connection with this project. <br /><br />(1) Earlier work by the group summarized the Branch's cognitive data using six cognitive domain composite variables (for verbal memory, visual memory, n-back working memory, processing speed, card sorting, and span working memory) and a higher order factor reflecting general cognitive ability, also called &quot;g&quot;. A recent application of these composite scores has been to explore genome-wide genetic associations in the CBDB samples. We identified an exciting and novel association between our general cognitive composite, g, and a genetic variant related to sodium channel biology that helps to explain the cognitive impairment in our sample of people with schizophrenia and in their unaffected siblings. This association would not have been detected without the cognitive data aggregation strategy and composite scores developed by the Neuropsychology group. The association is also supported by analyses of genotype effects in fMRI data and analyses of gene transcript expression in post-mortem brain tissue. These findings have been presented at genetics and psychiatry conferences and a comprehensive manuscript is under review at JAMA Psychiatry (Dickinson et al., 2014. <br /><br />(2)As noted in our goals and objectives, illness heterogeneity is a major challenge in schizophrenia research. Many kinds of studies are handicapped by a focus on broad, undifferentiated diagnosis. Using different strategies to identify robust, more homogeneous behavioral/clinical subgroups offers one means for disentangling illness heterogeneity. The large, comprehensively assessed Branch samples are well-suited for such analyses and the phenomics work already described helps create a foundation for subgrouping analyses. In Cole et al. (2012), we derived &quot;developmental trajectory&quot; subtypes based on academic and social adjustment during childhood and adolescence. With more detailed developmental data and a larger schizophrenia sample, we are conducting analyses to refine and extend the earlier analyses. Other current work addressing illness heterogeneity is seeking to extend these subgrouping strategies, simultaneously employing data from complementary data-streams (e.g., pre-onset development with post-onset symptoms and treatment response). The ultimate goal is to use robust subgrouping schemes to find genetic, brain structure, and other biological associations within or between subgroups that cannot be detected in analyses done at the level of broad diagnosis. <br /><br />(3) For example, there is considerable interest in the field in using cognitive variables to define psychosis subgroups (e.g., Dickinson, 2014).  One current project is combining information about current cognitive performance (i.e., current IQ) with indexes of cognitive performance prior to illness onset to define cognitive developmental trajectory subgroups.  Statistical clustering analyses have identified a three-subgroup scheme comprising an early impairment subgroup, an emerging cognitive impairment subgroup, and a preserved/limited impairment subgroup. Current analyses are focused on whether this subgrouping scheme provides leverage, through reduced heterogeneity, in analyses of genetics and neuroimaging data. <br /><br />(4) The group's work extends beyond cognition to other sorts of behavioral data. Earlier work (e.g., Wallwork et al., 2012) described our validation of a five-dimension structure that better reflects psychotic symptom data from the Positive and Negative Syndrome Scale (PANSS) than the three dimensions originally proposed for that scale. These analyses supported construction of new PANSS composite scores for positive, negative, agitated, concrete/disorganized symptoms, and general distress. These composites are now in use in CBDB neuroimaging and genetics studies. As a further example of efforts to address illness heterogeneity, ongoing analyses using are examining how the PANSS composites may be helpful in identifying illness subgroups (in particular, a high negative symptom/low distress or &quot;deficit syndrome&quot; subgroup). Other current work is examining how PANSS data relates to cognitive and brain structure data in our schizophrenia sample and in the unaffected siblings of these cases (some of the siblings show sub-clinical levels of symptomatology). <br />(5) Other lines of work are examining the dimensions that underlie typical and abnormal personality in the CBDB data. Leading theories of personality posit five dimensions (neuroticism, extraversion, openness to experience, conscientiousness, and agreeableness). Using this model as a starting point, we have elaborated and are refining new dimensional models for the Tri-dimensional Personality Questionnaire (TPQ) and for the SCID-II Personality Questionnaire (SCID-II). The TPQ targets personality in the non-clinical range. The SCID-II is used to assess disordered personality symptomatology. All of this work has been presented at scientific conferences and a paper on the SCID-II analyses is nearing completion<br />(6)Another part of our phenomics work seeks to estimate the degree to which different variables are heritable - that is, under genetic control.  Recent efforts have focused on a simple neuromotor index from our neurological examination of CTNB protocol participants, involving the sequencing of hand movements (complex motor sequencing or CMS).  CMS shows a clear association with schizophrenia and increased risk for schizophrenia, trait-like characteristics, substantial familiality/heritability (at a level similar to levels reported for individual cognitive measures), strong association with general cognitive ability, which is among the most widely-used behavioral intermediate phenotypes in schizophrenia genetics studies, directionally consistent association with the sodium channel genetic marker previously shown to associate with cognition in this sample (see (1)).  <br /><br />(7)We have recently completed an update of earlier quantitative reviews of cognitive impairment in schizophrenia, showing that the cognitive impairment seen in people with schizophrenia has been consistent in magnitude and pattern over the past 30 years, and across different geographic regions around the world (i.e., North America, Europe and Asia). This work has been presented at conferences, published as a chapter in an edited collection (Dickinson et al., 2013), and as a journal article (Schaefer et al., 2013)<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86285&allpubs=Y&isajaxlink=Y&_UserReference=0A81B7DB180711385B38D3E4','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Book chapters<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Dickinson D, Schaefer J, Weinberger DR (2013) The multifaceted "global" cognitive impairment profile in schizophrenia, in Cognitive Impairment in Schizophrenia. Harvey P, ed. Cambridge University Press (New York), pp. 24-49.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Dickinson D (2014) Zeroing in on early cognitive development in schizophrenia. Am J Psychiatry 171:9-12
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24399421?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4169199/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24399421
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4169199 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Dickinson D, Straub RE, Trampush JW, Gao Y, Feng N, Xie B, Shin JH, Lim HK, Ursini G, Bigos KL, Kolachana B, Hashimoto R, Takeda M, Baum GL, Rujescu D, Callicott JH, Hyde TM, Berman KF, Kleinman JE, Weinberger DR (2014) Differential effects of common variants in SCN2A on general cognitive ability, brain physiology, and messenger RNA expression in schizophrenia cases and control individuals. JAMA Psychiatry 71:647-56
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24718902?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4160812/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24718902
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4160812 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Gold JM, Dickinson D (2013) Generalized cognitive deficit in schizophrenia: overused or underappreciated? Schizophr Bull 39:263-5
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23211397?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3576177/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23211397
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3576177 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Gomar JJ, Gordon ML, Dickinson D, Kingsley PB, Uluğ AM, Keehlisen L, Huet S, Buthorn JJ, Koppel J, Christen E, Conejero-Goldberg C, Davies P, Goldberg TE (2013) APOE Genotype Modulates Proton Magnetic Resonance Spectroscopy Metabolites in the Aging Brain. Biol Psychiatry, in press (e-pub ahead of print)
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Hashimoto R, Ikeda M, Ohi K, Yasuda Y, Yamamori H, Fukumoto M, Umeda-Yano S, Dickinson D, Aleksic B, Iwase M, Kazui H, Ozaki N, Weinberger DR, Iwata N, Takeda M (2013) Genome-wide association study of cognitive decline in schizophrenia. Am J Psychiatry 170:683-4
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23732972?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4181719/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23732972
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4181719 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kunii Y, Hyde TM, Ye T, Li C, Kolachana B, Dickinson D, Weinberger DR, Kleinman JE, Lipska BK (2013) Revisiting DARPP-32 in postmortem human brain: changes in schizophrenia and bipolar disorder and genetic associations with t-DARPP-32 expression. Mol Psychiatry, in press (e-pub ahead of print)
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">8.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Morita Y, Callicott JH, Testa LR, Mighdoll MI, Dickinson D, Chen Q, Tao R, Lipska BK, Kolachana B, Law AJ, Ye T, Straub RE, Weinberger DR, Kleinman JE, Hyde TM (2014) Characteristics of the cation cotransporter NKCC1 in human brain: alternate transcripts, expression in development, and potential relationships to brain function and schizophrenia. J Neurosci 34:4929-40
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24695712?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3972720/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24695712
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3972720 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">9.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Schaefer J, Giangrande E, Weinberger DR, Dickinson D (2013) The global cognitive impairment in schizophrenia: Consistent over decades and around the world. Schizophr Res, in press (e-pub ahead of print)
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">10.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Tost H, Alam T, Geramita M, Rebsch C, Kolachana B, Dickinson D, Verchinski BA, Lemaitre H, Barnett AS, Trampush JW, Weinberger DR, Marenco S (2013) Effects of the BDNF valmet polymorphism on white matter microstructure in healthy adults. Neuropsychopharmacology 38:525-32
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23132269?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3547204/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23132269
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3547204 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

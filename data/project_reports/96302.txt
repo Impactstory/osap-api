@@ -1,0 +1,809 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002929</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002929-06</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Developing New Statisical Methods to Detect Common and Rare Variants Involved in Neuropsychiatric Disorders
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2000 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+ <!-- faculty test -->
+
+Yin Y Yao; PhD
+
+ <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Statistical Genomics and Data Analysis Core, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Statistical Genomics and Data Analysis Core</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Hongbao  Cao<br />
+
+
+
+
+Wei  Guo<br />
+
+
+
+
+Hai-De  Qin<br />
+
+
+
+
+Mckenzie L Ritter<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Kwangmi  Ahn; PhD  (Child Psychiatry Branch)<br />
+
+
+
+Francis Joseph McMahon; MD  (Emotion and Development Branch)<br />
+
+
+
+Kathleen R Merikangas; PhD  (Experimental Therapeutics and Pathophysiology Branch)<br />
+
+
+
+Judith L Rapoport; MD  (Child Psychiatry Branch)<br />
+
+
+
+Carlos Alberto Zarate; MD  (Experimental Therapeutics and Pathophysiology Branch)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 7 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+W  Jia; PhD
+<i>(Department of Experimental Science, Sun Yat-Sen University)</i>
+<br />
+
+
+
+T  Jorgensen; PhD
+<i>(Department of Radiation Medicine, Georgetown University Medical Center)</i>
+<br />
+
+
+
+B  Neal; PhD
+<i>(Department of Medicine, Massachusetts General Hospital)</i>
+<br />
+
+
+
+Gerald  Nestadt; MD
+<i>(Johns Hopkins Medical Institute)</i>
+<br />
+
+
+
+H  Qin; PhD
+<i>(Department of Experimental Science, Sun Yat-Sen University)</i>
+<br />
+
+
+
+Y  Wang; MS
+<i>(Department of Psychiatry and Behavior Sciences, Johns Hokins Medical School)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=96302&isajaxlink=Y&_UserReference=6714212969BCE6865B38D1B2','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 7</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Obsessive Compulssive Disorder, schizophrenia, bipolar disorder, Genetic Pathways, Non-linear dependence of two continuous variables, Modeling antidepressant onset
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+<br />Our short-term goal is to develop analytic tools that can bed used to identify genetic variation more efficiently and accurately than the existing methods and then test them in the datasets of psychiatric disorders or other complex human diseases. We has been actively collaborating with both intramural and extramural collaborations. A few examples related to MH002929-06 include 1)Using pathway-bases approaches to detect genetic domains underlying the pharmacotherapy options of serotonin reuptake inhibitors  effect in study subjects affected with obsessive compulsive disorder (OCD); 2) Establishing efficient pipelines for exome sequencing analyses in a Latino population (schizophrenia and bipolar); and 3) Developing an efficient test for nonlinear dependence of two continuous variables. This presents a new way of testing nonlinear dependence between two continuous variables.<br /><br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Our goal is to develop new analytic tools that can be used to identify genetic variation more efficiently and accurately than the existing methods and then test them in the datasets of psychiatric disorders or other complex human diseases. We have been actively working with both intramural and extramural collaborators. A few examples include 1) Using pathway-bases approaches to detect genetic domains underlying the pharmacotherapy options of serotonin reuptake inhibitors effect in study subjects affected with obsessive compulsive disorder (OCD); 2) Establishing efficient pipelines for exome sequencing analyses in a Latino population (schizophrenia and bipolar); and 3) Developing an efficient test for nonlinear dependence of two continuous variables. This presents a new way of testing nonlinear dependence between two continuous variables. There is a need to improve the current version of the software so that it can be used by individuals who use Linux-based computer or desktops to run their analysis.<br />Summary <br />We collaborated with extramural scientists and developed a new statistical method called CANOVA. Using this method, one can generalize the within category variance in traditional analysis of variance (ANOVA). Using extensive simulations, we extensively evaluated the performance of CANOVA. We then applied CANOVA to a real dataset and showed that the power of CANOVA performs better when the correlation is highly non-linear.<br /><br />In addition, we developed a novel mixture model to estimate the time to antidepressant effect onset and its association with covariates such as age, gender and baseline anxiety. We evaluated the model's overall utility and performance via extensive simulations. We demonstrated its use by application to a longitudinal dataset from the Sequenced treatment Alternatives to Relieve Depression (STAR*D) study. Our algorithm successfully identified age and anxiety status as significant factors in influencing the onset distribution of citalopram.<br /><br /><br />And we developed a pathway-based pipeline which can be used to link genome-wide association study signals to several important biological pathways. We used our own pipelines to analyze drug response on Obsessive Compulsive Disorder (OCD) GWAS data to select significant pathways. In a recent publication, we reported the suggestive roles of genes in the glutamatergic neurotransmission system and the serotonergic system. The results presented may provide new insights into genetic mechanisms underlying treatment response in OCD. More recently, we applied the same approach to seeking genetic variants underlying antidepressants such as ketamine. The potential findings will be reported in the future.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2016 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=96302&allpubs=Y&isajaxlink=Y&_UserReference=6714212969BCE6865B38D1B2','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Qin H, Samuels JF, Wang Y, Zhu Y, Grados MA, Riddle MA, Greenberg BD, Knowles JA, Fyer AJ, McCracken JT, Murphy DL, Rasmussen SA, Cullen BA, Piacentini J, Geller D, Stewart SE, Pauls D, Bienvenu OJ, Goes FS, Maher B, Pulver AE, Valle D, Lange C, Mattheisen M, McLaughlin NC, et al. [1 more author] (2016) Whole-genome association analysis of treatment response in obsessive-compulsive disorder. Mol Psychiatry 21:270-6
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25824302?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5027902/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25824302
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5027902 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Wang J, Cao H, Liao Y, Liu W, Tan L, Tang Y, Chen J, Xu X, Li H, Luo C, Liu C, Ries Merikangas K, Calhoun V, Tang J, Shugart YY, Chen X (2015) Three dysconnectivity patterns in treatment-resistant schizophrenia patients and their unaffected siblings. Neuroimage Clin 8:95-103
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26106532?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4473730/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26106532
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4473730 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Wang Y, Li Y, Cao H, Xiong M, Shugart YY, Jin L (2015) Efficient test for nonlinear dependence of two continuous variables. BMC Bioinformatics 16:260
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26283601?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4539721/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26283601
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4539721 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Zhang F, Xu Y, Cao H, Jin C, Cheng Z, Wang G, Shugart YY (2015) Mapsnp: an R package to plot a genomic map for single nucleotide polymorphisms. PLoS One 10:e0123609
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25853637?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4390227/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25853637
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4390227 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Zhang F, Xu Y, Shugart YY, Yue W, Qi G, Yuan G, Cheng Z, Yao J, Wang J, Wang G, Cao H, Guo W, Zhou Z, Wang Z, Tian L, Jin C, Yuan J, Liu C, Zhang D (2015) Converging evidence implicates the abnormal microRNA system in schizophrenia. Schizophr Bull 41:728-35
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25429046?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4393688/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25429046
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4393688 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,653 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002915</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002915-07</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neuroimmunologic Investigations of Autism Spectrum Disorders (ASD)
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Susan Elizabeth Swedo; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/susan-swedo" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Behavioral Pediatrics, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Behavioral Pediatrics</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Audrey E Thurm; PhD<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Cristan Ann Farmer; PhD<br />
+
+
+
+
+Rebecca  Hommer; MD<br />
+
+
+
+
+Simran  Kalra<br />
+
+
+
+
+Margaret J Pekar<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Jay  Giedd; MD  (Child Psychiatry Branch)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Michael J Iadarola; PhD (NIDCR) <br />
+
+
+
+Michael C Sneller; MD (NIAID) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborator
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Carlos A. Pardo; MD, PhD
+<i>(Department of Neurology, Div of Neurology & Infectious Disorders)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+autism, immunology, autism spectrum disorders, chemokines, cytokines, genetics
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The Neuroimmunologic Investigations of Autism Spectrum Disorders (ASD) Project is evaluating the hypothesis that some cases of autism include neuroimmunologic dysfunction.  A potential role for the immune system in ASD is suggested by a small number of reports showing chronic neuroinflammation among pathologic samples obtained from individuals with autism and pro-inflammatory changes in patterns of cytokines in the cerebrospinal fluid (CSF).  The neuroimmune hypothesis may be  particularly relevant for individuals with so-called &quot;regressive&quot; autism, a form of autism in which children lose previously developed social and communication skills.  As part of the larger phenotyping effort (Protocol 06-M-0102, NCT 00298246), serum and cerebrospinal fluid samples are being obtained from young children with autism (ages 1 - 5 years) and evaluated by collaborators to detect abnormalities in cerebrospinal fluid (CSF) and/or serum cytokines and chemokines and other markers of immune dysfunction (e.g. microbial translocation).  In addition, evidence of regional inflammation is being assessed with structural MRI scans, in comparison with scans obtained from typically developing children.  Longitudinal assessments are nearly complete for a cohort of 100 children with autism (up to 50 with a history of regression and 50 without) and results compared with those obtained from a sample of 50 typically developing children and 25 children with developmental delays.  Changes over time in the autism samples will be of as much interest as between-group differences.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Autism is defined by its behavioral manifestations: social-communication deficits and the presence of restricted or repetitive behaviors.  The cause of these abnormalities is unknown, but it is strongly suspected that autism spectrum disorders (ASD) result from a combination of genetic and environmental factors.  The rising prevalence rates of ASD and the life-long, often debilitating nature of the symptoms combine to make autism spectrum disorders a major public health problem.  Research that increases our understanding of the causes and nature of the symptoms, and studies that investigate the potential role for novel therapeutic interventions hold the promise of benefit for millions of American families.<br /><br />A growing literature supports a role for neuroimmune dysfunction in autism spectrum disorders (ASD), including observations of abnormal patterns of CSF cytokines and chemokines, and pathological reports of chronic neuroinflammatory changes among individuals with ASD.  Evidence thus far supports that neuroimmune dysfunction may play prominent role in certain cases of autism, including those with a history of significant regression.  If this hypothesis is correct, we would expect to find that at least some autistic children, particularly those with a history of regression, will have demonstrable abnormalities in immune function.   Thus, we are continuing to collect data on a cohort of young children with autism that have been well-characterized and studied longitudinally. We are exploring immune markers in the CNS as well as peripherally. <br /><br />Finding new and effective treatments for autism is one of PDN's highest research priorities. One potential target was provided by a paper from Johns Hopkins University (D. Vargas et al, 2005) reporting that autopsy material from individuals with autism showed evidence of chronic brain neuroinflammation, as exemplified by activation of microglia and astroglia.  The authors remarked that chronic microglia activation appeared to be responsible for a sustained neuroinflammatory response which could be producing neurotoxic factors.  (Alternatively, neuroglial activation could occur in response to the presence of neurotoxins and thus represent the result, rather than the cause, of the injury.)  The neuroinflammatory changes associated with neuroglial activation can be prevented by blocking nuclear translocation of the pro-inflammatory transcription factor NF-kappaB.  Having completed an open-label trial of minocycline, an agent shown to inhibit NF KappaB, wherein neither immune markers (e.g. CSF and serum cytokines and chemokines) nor behavioral status changed, we continue to explore targets for further pharmaceutical intervention. <br /><br />The phenotyping study (Protocol 06-M-0102, NCT 00298246) is also continuing efforts to identify individuals with evidence of ongoing neuroinflammation as a potential cohort for targeted therapeutic efforts.  Markers under investigation include those that relate to direct evidence of immune dysfunction in relation to core symptoms of autism, as well as in relation to associated features, such as gastro-intestinal problems in a subset of children.  Previously collected samples have also been used to demonstrate that, contrary to a highly publicized report, children with autism do not have circulating antibodies against Borrelia burgdorferi (as would be seen in Lyme Disease); nor was there any evidence of microbial translocation, which had been proposed as an etiologic factor in autism (the so-called &quot;leaky gut&quot; hypothesis).  In both studies, there were no discernable differences between samples obtained from typically developing children and those from children with autism.  More recently, serum samples have been obtained from mothers of children with autism or typical development in order to evaluate recent reports that maternal antibodies play a role in the etiology of autism.  Samples of children with autism are also being tested for a variety of autoreactive antibodies.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+<!-- do not show project link -->
+
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Burbelo PD, Swedo SE, Thurm A, Bayat A, Levin AE, Marques A, Iadarola MJ (2013) Lack of Serum Antibodies against Borrelia burgdorferi in Children with Autism. Clin Vaccine Immunol 20:1092-3
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23658391?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3697448/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23658391
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3697448 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Pardo CA, Buckley A, Thurm A, Lee LC, Azhagiri A, Neville DM, Swedo SE (2013) A pilot open-label trial of minocycline in patients with autism and regressive features. J Neurodev Disord 5:9
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23566357?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3663771/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23566357
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3663771 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,727 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002035</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002035-35</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Functional Anatomy Of Perceptual and Attentional Systems in the Primate Brain
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Leslie G Ungerleider; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/leslie-ungerleider" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neurocircuitry, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neurocircuitry</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Shruti A Japee; BS, MS, PhD<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Kelsey Anne Holiday<br />
+
+
+
+
+Zaid Nooruddin Safiullah<br />
+
+
+
+
+Valentinos  Zachariou<br />
+
+
+
+
+Xilin  Zhang<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborator
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Julien  Doyon; PhD
+<i>(Psychology, University of Montreal)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+attention, brain imaging, cerebral cortex, memory, motor learning, perception, visual cognition
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The long-term goal of this project is to understand the neural mechanisms underlying selective visual attention.  In particular, we aim to understand how behaviorally relevant visual information is processed in the brain and how distracting information is effectively filtered out. To do so, we will employ various experimental approaches in behaving subjects, including brain imaging in humans and monkeys as well as single-unit recordings in monkeys.  The behavioral paradigms we develop in normal, healthy humans are applied to human populations with attentional impairments, such as children suffering from attention deficit hyperactivity disorder (ADHD), a neurobehavioral disorder characterized by pervasive inattention and hyperactivity-impulsivity that often results in substantial functional impairment, both in and outside of the classroom. Prevalence estimates of ADHD in school-aged children are close to 10%, with more than half of those diagnosed reported to be taking medication for the disorder. Hence, a thorough understanding of the brain mechanisms underlying attention would have important public health implications.  This work was conducted under protocol 10-M-0047 (NCT01087281) and 93-m-0170 (NCT00001360).
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+      A typical scene contains many different objects that compete for neural representation due to the limited processing capacity of the visual system.  At the neural level, competition among multiple stimuli is evidenced by the mutual suppression of their visually evoked responses.  The competition among multiple objects can be biased by both bottom-up sensory-driven mechanisms (exogenous attention), such as stimulus salience, and top-down, goal-directed influences, such as selective (endogenous) attention. Although the competition among stimuli for representation is ultimately resolved within visual cortex, the source of top-down biasing signals likely derives from a distributed network of areas in frontal and parietal cortex. <br />      We previously reported that monkeys with lesions of prefrontal cortex (PFC) are impaired in their ability to switch top-down control.  We then asked whether monkeys with these lesions would have altered single-unit responses in visual cortex as a result of a deprived source of attentional feedback from PFC. To answer this question, we surgically removed the entire lateral PFC in one hemisphere and transected the corpus callosum and anterior commissure in two macaques. This deprived visual cortex of PFC input in one hemisphere while keeping the other hemisphere intact. In the absence of PFC, attentional effects on neuronal responses and synchrony in area V4 of visual cortex (the site of recordings) were substantially reduced and the remaining effects of attention were delayed in time, indicating a critical role for PFC. Conversely, distracters captured attention and influenced V4 responses. However, because PFC lesions did not eliminate the effects of attention in V4, other sources of top-down attentional control signals to visual cortex must exist outside of PFC.<br />      Another possible source of top-down attentional control is the posterior parietal cortex. (PPC).  Accordingly, we asked whether monkeys with PPC lesions would show similar or different behavioral effects as those with PFC lesions.  Our results showed that, unlike monkeys with PFC lesions, those with PPC lesions were not selectively impaired in their ability to switch top-down control. Rather, they had a selective impairment in spatially locating targets they are required to discriminate.  Thus, the PFC plays a critical role in the ability to switch attentional control on the basis of changing task demands, whereas the PPC plays a critical role in allocating attentional resources to behaviorally relevant spatial locations.  <br />Previous research has suggested that the right middle frontal gyrus (rMFG) may serve as a node of interaction between neural networks for top-down goal-directed endogenous attention and bottom-up, stimulus-driven exogenous attention.   We tested this hypothesis by comparing the performance on an orientation discrimination task of a patient with a rMFG resection (to remove a brain tumor) and healthy controls.  On endogenous attention trials, a valid central cue predicted with 90% accuracy the location of a peri-threshold Gabor patch.  On the 10% invalid trials, the Gabor patch appeared in the opposite location to the cue.  On exogenous attention trials, a cue appeared briefly at one of two peripheral locations, followed, after a variable inter-stimulus interval (ISI; range 0 to 700 ms), by a Gabor patch in either the same (valid) or opposite location (invalid).  Analysis of behavioral data showed that for both patient and controls, valid cues facilitated faster reaction times compared to invalid cues, on endogenous and short ISI exogenous trials. However, at longer ISI exogenous trials, the patient was unable to withhold his responses, resulting in reduced performance compared to controls.  This may be related to the patients inability to reorient attention in a top-down fashion after the effect of the exogenous cue has dissipated, and suggests a putative role of the rMFG in switching between exogenous and endogenous modes of attention.  Resting state fMRI data revealed that the right superior parietal lobule and right orbitofrontal cortex showed significantly higher correlations with a left MFG seed region (a region tightly coupled with the right MFG in controls) in the patient relative to controls. We hypothesize that this paradoxical increase in cortical coupling represents a compensatory mechanism in the patient to offset the loss of function of the resected tissue in right prefrontal cortex.<br />      Finally, we have undertaken behavioral studies in healthy participants to explore the normalization model of attention, which proposes that attention can affect performance by contrast or response gain changes, depending on the stimulus size and the relative size of the attention field. Here, the attention field was manipulated by affective valence, namely, positive versus negative faces, while the stimulus size fixed in a spatial cueing task. Emotional faces served as a cue to attract spatial attention, followed by a pair of gratings. Subjects performed an orientation discrimination task on one of two gratings; for each of five contrasts (the contrasts of both gratings were identical on any given trial and co-varied across trials in random order). A response-cue at stimuli offset indicated the target location, yielding valid cues (the emotional face matched response-cue) and invalid cues (mismatched) conditions. Comparing performance accuracy (d') for valid and invalid trials revealed the spatial cueing effect for each contrast. The measured psychometric function for each affective valence (positive and negative) and each trial condition (valid and invalid) was fit with the standard NakaRushton equation. Two parameters d'max (asymptotic performance at high contrast levels) and c50 (the contrast yielding half maximum performance) determined response gain and contrast gain, respectively. We observed a change in the spatial cueing effect consonant with a change in contrast gain for positive faces and a change in response gain for negative faces. Significantly, individual differences in self-reported emotional strength of positive and negative faces correlated with contrast and response gain changes, respectively. An ongoing functional magnetic resonance imaging experiment confirmed that subjects attention fields were wider for positive faces than that for negative faces. Together, these findings suggest that emotional attention shapes perception by means of the normalization framework.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91029&allpubs=Y&isajaxlink=Y&_UserReference=0F8904844C9FC2765B38D040','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Avidan G, Tanzer M, Hadj-Bouziane F, Liu N, Ungerleider LG, Behrmann M (2014) Selective Dissociation Between Core and Extended Regions of the Face Processing Network in Congenital Prosopagnosia. Cereb Cortex 24:1565-78
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23377287?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4064011/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23377287
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4064011 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Doty T, Japee SA, Ingvar M, Ungerleider LG (2014) The interaction between expectation and sensitivity to threatening stimuli in healthy adults: an fMRI study of inter-subject variability. Cognitive Affective and Behavioral Neuroscience, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Gattass R, Galkin TW, Desimone R, Ungerleider LG (2014) Subcortical connections of area V4 in the macaque. J Comp Neurol 522:1941-65
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24288173?dopt=Abstract" target="_blank">PubMed</a>
+
+
+           &nbsp;&nbsp;&nbsp;&nbsp;<i>Available in future as a Free Article</i> <!-- looks for PMC translations for in progress or embargoed -->
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24288173
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3984622 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Gregoriou GG, Rossi AF, Ungerleider LG, Desimone R (2014) Lesions of prefrontal cortex reduce attentional modulation of neuronal responses and synchrony in V4. Nat Neurosci 17:1003-11
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24929661?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4122755/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24929661
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4122755 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Morin EL, Hadj-Bouziane F, Stokes M, Ungerleider LG, Bell AH (2015) Hierarchical Encoding of Social Cues in Primate Inferior Temporal Cortex. Cereb Cortex 25:3036-45
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24836688?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4537444/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24836688
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4537444 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Yue X, Pourladian IS, Tootell RB, Ungerleider LG (2014) Curvature-processing network in macaque visual cortex. Proc Natl Acad Sci U S A 111:E3467-75
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25092328?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4143055/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25092328
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4143055 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

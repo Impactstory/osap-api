@@ -1,0 +1,539 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002039</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002039-33</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Pharmacology of Stimulus Memory and Habit Formation
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Mortimer  Mishkin; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/mortimer-mishkin" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Cognitive Neuroscience, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Cognitive Neuroscience</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 7 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Janita N Turchi; PhD<br />
+
+
+
+Richard C Saunders; PhD<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Brian Anthony Corgiat<br />
+
+
+
+
+Makalele Alegra Gorsich<br />
+
+
+
+
+Sebastian  Guderian<br />
+
+
+
+
+Danielle L Rickrode; BS<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=91030&onameset=Section on Cognitive Neuroscience&isajaxlink=Y&_UserReference=946D532BD7343C4A5B38D25D','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 7</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+proteomics, rhinal cortex, dopamine, muscarinic receptor, AMPA/kainate receptor, cholinergic deafferentation, monkeys, visual recognition
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The research focuses on the neurobiology of visual and auditory memory in monkeys, as well as in normal and brain-injured children.  Besides employing cross-species comparisons, our work is highly multidisciplinary, as it utilizes behavioral, neuroanatomical, electrophysiological, pharmacological, and metabolic methods, as well as structural and functional neuroimaging techniques. <br /><br />Many of the questions we have been addressing in the area of visual memory revolve around the issue of multiple cerebral memory systems or circuits, as illustrated by the following:  (i) Can delayed nonmatching-to-sample and other complex tasks be mastered independently in at least two different ways by different systems, i.e., both as a cognitive principle mediated by the visuo-limbic memory system and as a behavioral rule mediated by the visuo-striatal habit system?  (ii) Do the synaptic changes that occur during learning in these two very different systems depend disproportionately on two different neuromodulators, namely, acetylcholine in the case of the visuo-limbic pathways and dopamine in the visuo-striatal pathways?  (iii) Do the synaptic changes in the two systems have different temporal properties paralleling the differences between memories and habits, memories being formed all at once but readily forgotten, and habits being formed only gradually but hardly ever forgotten?  As memory impairments are a characteristic of many psychiatric neurologic illnesses (e.g. schizophrenia, Alzheimer's disease) and aging, understanding the different systems and their pharmacology may lead to new and important treatments.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The memory impairment associated with Alzheimers disease has long been associated with a loss in acetylcholine function and pathophysiology of the entorhinal/perirhinal, or rhinal cortex. In monkeys, lesions of this region as well as cholinergic deafferentation lead to sever memory deficits. We recently compared the effects of selective infusion of the (cholinergic receptor) m1 antagonist pirenzepine, and the m2 antagonist methoctramine directly into the rhinal cortex. Our findings suggest that m1 and m2 receptor subtypes in the perirhinal cortex have functionally dissociable roles, and that visual recognition memory is critically dependent on the m1 receptor subtype. To examine further the muscarinic modulation of visual mnemonic function in the rhinal cortex, we manipulated an m1-associated K+ channel whose actions could potentially enhance local network connections to support visual memory formation. We conducted local microinfusions of the selective Kv7 KCNQ channel blocker XE 991 in monkeys performing a visual recognition task and compared these scores to ones following local microinfusions of saline or pirenzepine. Monkeys were trained on a recognition memory task length that required stimulus memory for a period of 4 - 6 minutes while maintaining performance levels of  75-80%. As before, infusions of pirenzepine resulted in a visual recognition memory deficit. In contrast, infusions of the m1-associated K+ channel blocker XE 991 resulted in a dose-dependent improvement in recognition accuracy. Our findings provide support for the crucial role of muscarinic m1 receptor-associated pathways in perirhinal cortex for the successful formation of new visual object memories.<br /><br />To examine more about the m1 muscarinic-dependent intracellular signaling pathways that underlie critical synaptic changes important for memory we recently undertook a proteomics approach to uncover the molecular signaling pathways activated during memory formation in a region-specific manner using two techniques: laser capture microdissection and reverse phase protein microarrays. Sections of snap-frozen perirhinal tissue from Rhesus monkeys were prepared and stained for Nissl substance. Tissue subregions of perirhinal cortex (Layers III and V/VI), as well as hippocampus (cell body layers of CA1, CA3, and dentate gyrus and their corresponding dendritic fields), were isolated using laser capture microdissection. Lysed tissue samples were then printed onto reverse phase protein arrays (RPPA). These arrays were probed with antibodies against phosphorylated, as well as total, proteins involved in muscarinic signaling, synaptic transmission, and neuronal activity. We are now in the process of applying this methodology to elucidate which critical proteins have been activated in specific laminae of the perirhinal cortex during visual memory formation.<br /><br />It is clear that cholinergic function plays a major role in cortical cognitive function. Groups of large cholinergic and GABAergic neurons in the basal forebrain are known to project widely throughout the cerebral cortical mantle. This input is thought to modulate cortical excitability locally, thus influencing brain functions as diverse as stimulus processing, motivation, and learning. We measured changes to spontaneous fMRI fluctuations after reversibly inactivating components of the basal forebrain, including the nucleus basalis of Meynert. Unilateral inactivation of the basal forebrain had a strong impact on spontaneous activity in the injected hemisphere. These data demonstrate that resting state functional connectivity is, at least in part, shaped by long-range, common input projections arising from the basal forebrain. In a second series of experiments we examined the nature of spontaneous brain activity at rest using both fMRI and electrophysiology measurements with reversible inactivation. Initially we measured neural activity at several cortical sites while resting monkeys were scanned. The fMRI fluctuations, the neural fluctuations, and their temporal coupling, varied over time and were particularly influenced by the animal's apparent state of wakefulness. In a follow-up set of experiments, we unilaterally and reversibly inactivated the Nucleus Basalis of Meynert in the basal forebrain. Following inactivation, the level of spontaneous fMRI correlation in the injected hemisphere was consistently and significantly lower than in the uninjected hemisphere. Together, the results suggest that, in the resting brain, the shared spontaneous fMRI signals that serve as the basis of functional connectivity, are closely linked in neural fluctuations, are shaped by input from the basal forebrain, and are strongly influenced by spontaneous and induced changes in behavioral arousal.  Our results suggest that in addition to the important role of acetylcholine for recognition memory in the medial temporal lobe it plays a larger role in regulation of cortical activity.<br /><br />In contrast to the cognitive visual recognition memory dependent on the rhinal cortex, visual discrimination learning with long, even 24-h, inter-trial intervals (ITIs), a type of habit formation formed by trial-and-error or reward-prediction training, is mediated by a circuit connecting the ventral cortical visual stream with the ventrocaudal neostriatum. We have demonstrated this particular type of learning is dependent at least in part on the dopaminergic system. At the same time, because cholinergic cells are embedded in the neostriatum, and because dopamine receptors were shown recently to be functionally important in rhinal cortex, it is unclear just how selectively the cholinergic system serves recognition memory as compared with discrimination habit formation, and, conversely, how selectively the dopaminergic system might serve habit formation as compared with recognition memory. To test the possible interaction of the two systems in learning and memory we trained monkeys a short-ITI version of a concurrent visual-discrimination learning task. Stimulus pairs were repeated not only across daily sessions but also several times within each session (with roughly 4-min ITIs). Such within-session learning is served by concomitant recruitment of both a visuo-striatal circuit and an independent visuo-rhinal circuit. Baseline discrimination learning rates are significantly reduced in this short-ITI version, from 11 trials/pair to criterion on the 24-h ITI version of this task to 5 trials/pair on the 4-min ITI version. Reflecting the two distinct circuits involved, systemic injections of either the dopaminergic antagonist haloperidol or muscarinic receptor antagonist scopolamine impair this more rapid learning (16 trials/ pair and 12 trials/ pair, respectively). The haloperidol-induced impairment is accompanied, however, by profound increases in response latencies. To examine the cognitive effects of dopaminergic antagonism isolated from the extrapyramidal side effects, we compared the effects of separate and combined administration of haloperidol and the selective adenosine A2A antagonist SCH 58261. As previously noted, systemic administration of haloperidol alone dose-dependently increased response latencies as well as trials/pair to criterion. In contrast, co-administration of the selective A2A antagonist afforded dose-dependent attenuation of the haloperidol - induced increases in response latencies as well as relative number of trials to attain criterion. These findings corroborate other studies showing that selective A2A antagonism effectively counters hypoactivity induced by systemic dopaminergic blockade. Further, in the context of reports describing the complex regulation of D2 receptor profiles by adenosine, this study sets the stage for local examination of adenosine-dopamine interactions within the striatum and frontal cortices serving within-session learning.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91030&allpubs=Y&isajaxlink=Y&_UserReference=946D532BD7343C4A5B38D25D','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Costa VD, Tran VL, Turchi J, Averbeck BB (2014) Dopamine modulates novelty seeking behavior during decision making. Behav Neurosci 128:556-66
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24911320?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5861725/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24911320
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5861725 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Costa VD, Tran VL, Turchi J, Averbeck BB (2015) Reversal learning and dopamine: a bayesian perspective. J Neurosci 35:2407-16
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25673835?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4323525/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25673835
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4323525 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

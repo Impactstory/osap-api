@@ -1,0 +1,462 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH000478</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH000478-57</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neural Mechanisms of Learning and Memory in Vision
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Mortimer  Mishkin; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/mortimer-mishkin" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Cognitive Neuroscience, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Cognitive Neuroscience</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Richard C Saunders; PhD<br />
+
+
+
+Sebastian  Guderian<br />
+
+
+
+Janita N Turchi; PhD<br />
+
+
+
+Danielle L Rickrode; BS<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Emily Anne Riggall<br />
+
+
+
+
+Joshua Aaron Seideman<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+F.  Vargha-Khadem; PhD
+<i>(Institute of Child Health, University College London Medical School)</i>
+<br />
+
+
+
+
+D. G. Gadian; PhD
+<i>(Institute of Child Health, University College London Medical School)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+memory, recognition, Single case, developmental amnesia, hippocampus, monkeys, parahippocampal cortex, recall
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The research focuses on the neurobiology of Memory Systems in non-human primates, as well as in normal and brain-injured children.  The studies on children are being carried out in collaboration with a team headed by Professor F. Vargha-Khadem at the University College London (UCL), Institute of Child Health, (ICH) and Great Ormond Street Hospital for Children (GOSH).  Besides employing cross-species comparisons, our work is highly multidisciplinary, as it utilizes behavioral, neuroanatomical, electrophysiological, pharmacological, and metabolic methods, as well as structural and functional neuroimaging techniques. <br />	Many of the questions we have been addressing in the area of Visual Memory revolve around the issue of multiple cerebral memory systems or circuits.  During the past two decades we have identified two circuits, a visuo-limbic memory system important for cognitively mediated memories (e.g. episodic memory, stimulus recognition, associative recall) and a visuo-striatal circuit supporting habit learning.   More recent questions include: (i) Is the visuo-limbic memory system further divisible into a visuo-perirhinal object memory circuit and a visuo-posterior parahippocampal spatial memory circuit. (ii) Even more importantly, is the visuo-limbic memory system hierarchically organized into a lower-order visuo-parahippocampal system that encodes and stores context-poor factual knowledge that is retrieved through the process of familiarity-based 'knowing', and a higher-order visuo-parahippocampo-hippocampal system that encodes and stores context-rich events that are retrieved through the process of recollection-based 'remembering'. This last question is also being pursued in children with developmental amnesia (DA), a syndrome associated with early hippocampal pathology often due to perinatal hypoxic/ischemic episodes.  As memory impairments are a characteristic of many psychiatric and neurologic illnesses (e.g. schizophrenia, Alzheimers disease) and aging, understanding the role of the different neural systems and their pharmacology may lead to new and important treatments.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The essential circuit for both item and associative stimulus recognition in any given sensory modality consists of the relevant cortical sensory processing stream(s), the medial temporal periallocortex (i.e. posterior parahippocampal, perirhinal, and entorhinal cortices), the ventromedial prefrontal cortex, and the medial dorsal nucleus of the thalamus. Context-free recall, familiarity based recognition, or fact memory, seems to depend primarily on the above basic memory circuit. Associative recall, recollection-based recognition, or event memory, seems to depend in addition on a higher-order circuit superimposed on the basic one and consisting of the hippocampus, mammillary body, and anterior thalamic nuclei.  Several years ago we discovered that hypoxic ischemic events sustained within the first year of life may result in a form of amnesia.  This 'developmental amnesia' (DA) is characterized by markedly impaired episodic (or event) memory combined with relative preservation of both semantic (or fact) memory and familiarity-based recognition memory, and is associated with medial temporal pathology that seems to be restricted to the hippocampus.  More recently we assessed extra-hippocampal damage associated with hypoxic episodes. We measured volumes of seven subcortical structures in two groups of patients who sustained early hypoxia-ischaemia: (i) patients with DA, (ii) patients with mild memory impairment and/or mild hippocampal atrophy; and controls.  We found that the hippocampal damage in DA is accompanied by marked atrophy of the mammillary body as well as by a moderate degree of volume reduction of the thalamus. We conclude that episodes of hypoxia-ischaemia result in damage not only to the hippocampus but also to the thalamus and mammillary bodies and that these extra-hippocampal effects may contribute to the memory deficit observed in DA.  We also examined the integrity of white matter in DA subjects with an emphasis on the fornix, which carries the hippocampal output to the other components of the network such as the mammillary bodies and thalamus.  Using diffusion tensor imaging analyzed with tract-based spatial statistics we revealed reduced fractional anisotropy and increased mean diffusivity throughout cortical white matter, including frontal, temporal, and parietal cortices, corpus callosum, brainstem, and the fornix.<br />     The delayed memory deficit in DA patients appears to be a problem in the recollection of the source, i.e., the context in which the stimulus had been previously encountered. Although such observations raise the possibility that selective hippocampal injury impairs recollection, evidence for a correlative relationship between the severity of hippocampal injury and the severity of impairment in recollection has been missing. To address this issue we compared adolescent DA patients with varying degrees of memory impairment and age-matched controls on a memory paradigm that was designed to assess both item recognition and source memory.   Although the DA patients achieved item recognition performance equivalent to that of their age-matched controls, they showed a marked deficit in source memory. Importantly, we observed a significant positive correlation between hippocampal volumes and source memory performance across DA patients. In contrast, there was no correlation between hippocampal volume and item recognition performance. These data show for the first time that the extent of hippocampal volume reduction in patients with early hypoxic injury correlates with source memory performance and provide further evidence that the hippocampus is critical for the ability to recollect episodic information. <br />	There is a growing body of evidence in humans that supports the notion that recollection judgments are probabilistic in nature and items are only recognized if a threshold is exceeded, whereas familiarity judgments are based on a signal detection process, in that memory strength reflects a continuous scale with new and old items forming overlapping gaussian distributions. While a large body of evidence in humans supports the idea that recognition memory can be supported by both recollection and familiarity, it is so far unknown whether monkeys rely on similar mnemonic processes to perform recognition memory tasks.  Recently we completed a behavioral study of receiver operating characteristics (ROCs), which in recognition memory relate the proportion of correctly recognized repeated, or old, items to the proportion of incorrectly recognized novel distracters as a function of response bias. We trained monkeys on a visual running-recognition task with trial unique stimuli. We manipulated the monkeys bias to respond to old or new by manipulating the relative amount of reward that was obtainable for correct old and new responses. ROCs were curvilinear, suggesting that a threshold process alone is not able to account for the data. Furthermore, the zROCs were significantly U-shaped, suggesting that a signal detection process alone cannot account for the data. Instead, only a combination of a signal detection process and a threshold process could reliably characterize the empirical data. Thus, our results suggest that recognition memory in monkeys, as in humans, is supported by two processes.  We are now in the process of assessing the relative contribution of the medial temporal lobe structures (e.g. hippocampus vs. rhinal cortex) to the two processes important for recognition memory.  Mnemonic associations are most often formed between events that are separated in time. The neural mechanisms that underlie the formation of these associations are, however, not well understood. Using magnetoencephalography in humans, we identified such a mechanism, implicating short-term retrieval processes in the bridging of temporal gaps in associative encoding. We found that theta amplitude predicted whether the association between two temporally separated events, but not whether individual events, would later be remembered. Theta correlated with associative encoding either shortly before or after the second event, depending on whether the onset of the second event was temporally predictable or not. Furthermore, theta before the onset of the second event not only predicted associative memory formation, but also whether information about the first event could be simultaneously decoded from the neuromagnetic data. Together, the results demonstrate how events separated in time can be mnemonically linked by a theta-mediated, temporally flexible retrieval process.<br />As suggested above recognition consists of the relevant cortical sensory processing stream and the medial temporal cortex. Visual recognition memory is dependent upon the interaction of the visual association cortex of area TE and the adjacent perirhinal cortex. We recorded neural activity across all six layers simultaneously in the perirhinal and area TE while a subject was performing a running recognition memory task. Successful memory formation was accompanied by enhanced multi-unit activity in the upper-middle layers and deep layers of perirhinal cortex, but not in area TE. Current source densities revealed that successful memory formation was associated with enhanced high-gamma amplitude in superficial and deep layers of perirhinal cortex, but not in area TE. The laminar profile of recognition memory processes and their interaction within the perirhinal cortex may provide clues to better understand the network mechanisms that underlie perirhinal-dependent memory functions.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81169&allpubs=Y&isajaxlink=Y&_UserReference=9AEC47B6E884B8025B38D6FA','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+No publications during this reporting period
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

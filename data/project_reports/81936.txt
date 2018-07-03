@@ -1,0 +1,661 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002940</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002940-01</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Pathophysiological Mechanisms  in Major Depression and Bipolar Disorder
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+ <!-- faculty test -->
+
+Philip William Gold; MD
+
+ <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Office of the Director, NIMH
+
+</div>
+</div>
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Kathleen R Merikangas; PhD (Experimental Therapeutics and Pathophysiology Branch)<br />
+
+
+
+Carlos Alberto Zarate; MD (Experimental Therapeutics and Pathophysiology Branch)<br />
+
+
+
+Erica Martin Richards; MD, PhD (Section on Neurobiology and Treatment of Mood Disorders)<br />
+
+
+
+David A Luckenbaugh; BA, MA (Experimental Therapeutics and Pathophysiology Branch)<br />
+
+
+
+Pedro E Martinez; MD (Section on Behavioral Endocrinology)<br />
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+<div id="moresamestaffo">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffou">6 of a total of 10 other NIH members are shown.</div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Alan T Remaley; MD, PhD (CC) <br />
+
+
+
+George P Chrousos; MD (NICHD) <br />
+
+
+
+James C Reynolds; MD (CC) <br />
+
+
+
+Maria  Pavlatou (NICHD) <br />
+
+
+
+Tomoyuki  Kino (NINDS) <br />
+
+
+
+Rene A Costello; MT (CC) <br />
+
+
+
+
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Paul  Carlson
+<i>(University of Utah School of Medicine)</i>
+<br />
+
+
+
+Wayne  Drevets; MD
+<i>(Neuroscience, Laureate Neuroscience Institute)</i>
+<br />
+
+
+
+Mitchel  Kling; MD
+<i>(University of Pennsylvania, School of Medicine)</i>
+<br />
+
+
+
+Julio  Licinio; MD
+<i>(Psychiatry, University of Miami School of Medicine)</i>
+<br />
+
+
+
+Ma-Li  Wong; MD
+<i>(Psychiatry, University of Miami School of Medicine)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+atypical depression, melancholic depression, klotho, endoplasmic reticulum stress, parainflammation, immunoglobulin A, acute phase proteins
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Aim 1:To Document a Pathophysiological Network in Patients with Major Depression Consisting of Highly Interrelated Abnormalties in Inflammation, Glucose Metabolism, Hemostasis,  Sympathetic Nervous System Dysfunction, Bone Mineral Density, Calcium Metabolism, and  Sympathomedullary Function<br /><br />Aim #2 To Document Differential Abnormalities in this Network in Melancholic vs. Atypical Depression<br /><br />Aim #3 To Explore the Role of Parainflammation and Endoplasmc Reticulum Stress in Major Depression via via investigation of  the CNS Insulin, the PPARg  and Klotho System<br /><br />Aim #4 To Examine Pathologic Inflammation in Patients with Major Depression and Bipolar Disorder<br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Aim 1: To Document a Pathophysiological Network in Patients with Major Depression Consisting of Highly Interrelated Abnormalities in Inflammation, Glucose Metabolism,Hemostasis,Sympathetic Nervous System Dysfunction, Bone Mineral Density, Calcium Metabolism and  Sympathomedullary Function<br /><br />	We are collaborating with Dr. Wayne Drevets on a group of 60 medication free patients with major depression and bipolar disorder and 60 BMI matched controls. We also examined a group  of 25 medication free remitted patients with major depression. We took multiple samples every hour from, 2000h to 0900h.<br />We replicated our previous findings of elevated plasma norepinephrine and DHPG levels in patients with major depression.  In recovered unmediated patients with major depression, we found a significant elevation in CSF calcium and a significant decrease in plasma calcium levels, both measured by mass spectrometry. These data suggest that there is a defect in the transport of calcium across the blood brain barrier. Klotho (please see aim #3)has been identified as the factor that is responsible for the transfer of calcium from plasma to CSF. We are currently in the last stages of validating an assay for plasma klotho. The increased CSF calcium levels are of great interest in the light of data that the glutamate system is hyperactive in depressive disorders. Two recent studies have implicated abnormalities for genes  encoding calcium channels. We also found decreased plasma vitamin  D and increased vitamin D binding protein in patients with major depression. These defects are likely to be responsible for the low vitamin plasma vitamin D in patients with major depression.<br /><br />Aim #2 To Document Differential Abnormalities in this Network in Melancholic vs. Atypical Depression<br /><br />	W have pioneered in documenting that there are differential pathophysiological mechanisms in patients with melancholic and atypical depression.We first demonstrated this phenomenon in patients with seasonal affective disorder in the depressed phase, showing that they had pathological suppression of the HPA axis compared to controls and to patients with melancholic depression. We next documented this phenomenon in women with atypical depression with post-partum depression. We subsequently demonstrated this phenomenon in two separate groups with atypical depression. For this reason, I was invited to write the editorial for a paper with similar findings authored by Penninx, et al. In the editorial we worked out the pathophysiological mechanisms by which this HPA axis suppression occurs in patients with atypical depression. These findings have the major implication that patients with melancholic and atypical depression should be stratified in future studies.<br /><br />Aim #3 To Explore the Role of Parainflammation and Endoplasmc Reticulum Stress in Major Depression via investigation of  the CNS Insulin, the PPARg  and Klotho System<br /><br />	We recently published a review in Molecular Psychiatry entitled Pathological Parainflammation and  Endoplasmic Reticulum Stress in Depression: PotentialTranslational Rargets Through the CNS Insulin, Klotho, and Par Systems. The basis for this is a s follows:Major depression and bipolar disorder are heterogeneous conditions in which there can be dysregulation of (1) the stress system response, (2) its capacity for counterregulation after danger has passed and (3) the phase in which damaging molecules generated by the stress response are effectively neutralized. The response to stress and depressed mood share common circuitries and mediators, and each sets into motion not only similar affective and cognitive changes, but also similar systemic manifestations. We focus here on two highly interrelated processes, parainflammation and endoplasmic reticulum (ER) stress, each of which can potentially interfere with all phases of a normal stress response in affective illness, including adaptive neuroplastic changes and the ability to generate neural stem cells. Parainflammation is an adaptive response of the innate immune system that occurs in the context of stressors to which we were not exposed during our early evolution, including overfeeding, underactivity, aging, artificial lighting and novel foodstuffs and drugs. We postulate that humans were not exposed through evolution to the current level of acute or chronic social stressors, and hence, that major depressive illness is associated with a parainflammatory state. ER stress refers to a complex program set into motion when the ER is challenged by the production or persistence of more proteins than it can effectively fold. If the ER response is overwhelmed, substantial amounts of calcium are released into the cytoplasm, leading to apoptosis. Parainflammation and ER stress generally occur simultaneously. We discuss three highly interrelated mediators that can effectively decrease parainflammation and ER stress, namely the central insulin, klotho and peroxisome proliferator-activated receptor-&amp;#947; (PPAR-&amp;#947;) systems and propose that these systems may represent conceptually novel therapeutic targets for the amelioration of the affective, cognitive and systemic manifestations of major depressive disorder. We are in the process of measuring CSF and plasma Klotho and Insulin and are planning to collaborate in exploring the potential presence of parainflammation and endoplasmic reticulum stress in animal models of depression.<br /><br /><br /><br /> Aim #4 To Examine Pathologic Inflammation in Patients with Major Depression and Bipolar Disorder<br /><br />	Patents with major depression have evidence of a proinflammatory state with consistent elevations in acute phase proteins and in the levels of inflammatory mediators such as interleukin-6 and tumor necrosis factor-&amp;#945;. We conducted a study of the serum levels of immunoglobulin A (IgA) in medication-free patients with major depression in the remitted state (ruMDD). Selective IgA deficiency is the most common form of immunoglobulin abnormality, and is often associated with a higher than expected incidence of proinflammatory and autoimmune phenomena. Medication-free patients with major depression in the remitted state have a significant reduction in serum IgA levels measured on multiple occasions. In the light of the fact that IgA serves many immunomodulatory, anti-inflammatory roles, this finding supports the concept that major depressive illness represents a proinflammatory state.<br /><br />	We also found that multiple acute phase proteins are elevated in patients with major depression. We have previously reported that medication free patients with major depression have elevations of CRP and SAA on multiple occasions. We have subsequently found that patients with major depression have significant increases in complement 3c, fibrinogen, ceruloplasmin, and transferrin.<br /><br />	In our paper on cortisol-associated signature of glucocorticoid-related gene expression in subcutaneous fatof obese subjects, we found that glucocorticoids appear to influence intermediary metabolism, energy balance, inflammation, and local circadian rythmicity in subcutaneous fat. Our results may also explain in part the development of metabolic abnormality and obesity in subjects under stress or patients.<br /><br /><br /><br /><br /><br /><br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81936&allpubs=Y&isajaxlink=Y&_UserReference=43196FFD455827D65B38D61B','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Chrousos GP, Licinio J, Gold PW (2012) In memoriam: Wylie Walker Vale, Jr. Mol Psychiatry 17:1052-3
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23096955?dopt=Abstract" target="_blank">PubMed</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23096955
+    
+     <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Cizza G, Mistry S, Nguyen VT, Eskandari F, Martinez P, Torvik S, Reynolds JC, Gold PW, Sinai N, Csako G, POWER Study Group (2012) Do premenopausal women with major depression have low bone mineral density? A 36-month prospective study. PLoS One 7:e40894
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22848407?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3407177/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22848407
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3407177 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Cizza G, Ronsaville DS, Kleitz H, Eskandari F, Mistry S, Torvik S, Sonbolian N, Reynolds JC, Blackman MR, Gold PW, Martinez PE, POWER (Premenopausal, OsteopeniaOsteoporosis, Women, Alendronate, Depression) Study Group (2012) Clinical subtypes of depression are associated with specific metabolic parameters and circadian endocrine profiles in women: the power study. PLoS One 7:e28912
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22235252?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3250402/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22235252
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3250402 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

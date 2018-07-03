@@ -1,0 +1,551 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH001090</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH001090-37</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Studies Of Central Nervous System Functional Anatomy
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Miles  Herkenham; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/miles-herkenham" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Functional Neroanatomy, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Functional Neroanatomy</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Michael L Lehmann; PhD<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Hannah Abigail Cooper<br />
+
+
+
+
+Matthew Evan Dean<br />
+
+
+
+
+Samuel J Listwak; PhD<br />
+
+
+
+
+Rachel Brooke Scheinert; PhD<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Lee E Eiden; PhD  (Section on Molecular Neuroscience)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Rachel R Caspi; PhD (NEI) <br />
+
+
+
+Abdel G Elkahloun; PhD (NHGRI) <br />
+
+
+
+Kory R Johnson (NINDS) <br />
+
+
+
+Heather R Kalish; PhD (NIBIB) <br />
+
+
+
+Dragan  Maric; PhD (NINDS) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborator
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Eric J Nestler; MD, PhD
+<i>(Neuroscience, Mt. Sinai Medical Center)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+neuroimmunology, psychosocial stress, hippocampal neurogenesis, depression, anxiety, blood-brain barrier, cytokine, environmental enrichment, limbic, neuroanatomy, social behavior
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Susceptibility to mental disorders is affected by adverse life events and by physiological challenges from drugs, toxicants, and infections.  Both psychological and physiological challenges, especially when present chronically, affect the brain directly and also indirectly via interactions with the endocrine and immune systems.  Consequent changes in brain structure and chemistry, occurring in specific cell types in discrete brain regions, underlie mood changes.  The interactions between key brain areas and the endocrine and immune systems occur bidirectionally.  Much of the research in our lab focuses on neuroimmune interactions in ethologically relevant rodent models.  Our goal is to define the anatomical circuits and key cellular and molecular elements that are engaged when the brain responds to psychosocial stress and to physiological changes brought about by chronic stress and infections.  Our laboratory uses behavioral, histochemical, biochemical, and molecular tools to reveal these changes.  Changes at the behavioral, structural, and molecular levels are measured and causally related to an animals affective susceptibility or resilience to the adverse challenges.  Understanding the pathways involved in such responses may help guide development of interventions aimed at treating mental disorders, notably depression, anxiety, and post-traumatic stress, that arise as a consequence of psychosocial, pathophysiological, and immunological challenges.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Part of our neuroimmune work is focused on the study in mice of neurobiological and immune system factors that contribute to depressive-like states induced by psychosocial stress, and we study the amelioration or prevention of these states by environmental enrichment coupled with voluntary wheel running exercise.  Chronic stress has been implicated in the etiology and progression of various psychiatric disorders including depression and post-traumatic stress disorder (PTSD).  In mice, we are exploring the effects of social conflict stress in a paradigm involving repeated daily exposure to social defeat by a dominant mouse living in a dyadic relationship with the subordinate experimental mouse that develops depressive-like behaviors and enduring neurochemical alterations in identified neuronal pathways.  Specifically, adult hippocampal neurogenesis is a target of these manipulations, and we showed that the survival of newborn hippocampal neurons is reduced by repeated social defeat and increased by environmental enrichment.  The defeat-induced depressive-like behaviors and reduced neurogenesis can be reversed by a period of environmental enrichment that includes access to a running wheel.  Animals exposed to environmental enrichment prior to social defeat develop resilience to the aggressor mouse and do not go on to develop depressive-like behaviors.  The stress-induced reduction in neurogenesis is reversed as well.  Stress hormones are known to affect neurogenesis, so we examined the role of the adrenal hormone corticosterone in affecting behavior and new cell survival.  Transgenic GFAP-HSV-tk mice, when given the drug gancyclovir, lack adult neurogenesis, and these animals are not able to regain normal behavior after being subjected to the social defeat followed by environmental enrichment.  The mice have been used to test the role of hippocampal neurogenesis in supporting the effects of corticosterone on behavior.  In these studies, mice were adrenalectomized and corticosterone-replaced to eliminate the hormone surges that occur following stressful events.  We were thus able to investigate causal roles of glucocorticoids and neurogenesis in induction of depressive-like behavior and its amelioration by environmental enrichment.  The data demonstrated that glucocorticoid-dependent declines in neurogenesis drive changes in mood following social defeat and that glucocorticoids secreted during enrichment promote neurogenesis and restore normal behavior after defeat.  These data provide evidence for direct involvement of neurogenesis in the etiology of depression, suggesting that treatments promoting neurogenesis can enhance stress resilience.<br /><br />The adverse consequences of social defeat can be experimentally validated by administering behavioral tests that assess helplessness in forced swim, anxiety in the light/dark box, affiliation in the social interaction task, and hedonic drive in the urine scent marking task.  The urine scent marking (USM) test is a test we developed to assess the consequences of social defeat stress, and it has proved to be highly sensitive, rapid, and reliable.  In this test, male mice with various prior experiences (defeated, enriched, or homecage control) scent mark to varying degrees in the vicinity of a spot of female urine placed in an open field, and the marks can be imaged and quantified for determination of hedonic status.<br /><br />A major focus of the lab is aimed at exploring the role of microglia in the response to psychosocial stress.  Microglia are the primary source of brain-derived cytokines that are elevated by acute and chronic psychosocial stress.  Microglia can be activated to an M1-like state to secrete pro-inflammatory cytokines, or they might adopt an alternative M2-like state to secrete anti-inflammatory molecules.  Such differential activation states can affect neuronal function in the vicinity of the activation.  We have preliminary data showing differential effects of acute and chronic stress on activation of microglia in the prefrontal cortex.  We will document this phenomenon in extensive experiments and show the role played by the brains immune cells in contributing to neuronal function and affective behavior.<br /><br />We are beginning experiments aimed at addressing the role of the adaptive immune system in controlling affective states.  Surprisingly, adaptive immune cells, i.e., lymphocytes, exert effects on affective behavior and hippocampal neurogenesis as demonstrated in lymphocyte depletion studies and studies in which lymphocyte phenotype has been altered experimentally.  We are beginning studies aimed at demonstrating the conditions by which the dialog between the brain and the immune system during chronic stress results in changes in the adaptive immune system that alter neurogenesis and affective behavior.  Our work will further examine the molecular and cellular determinants of the interaction and the anatomical and humoral pathways by which the immune system affects brain function and structure.  Such studies may lead to insights into new targets for therapeutic interventions in psychiatric disorders.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86266&allpubs=Y&isajaxlink=Y&_UserReference=82566B3CB87C5D135B38D309','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+No publications during this reporting period
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,480 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002882</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002882-10</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Characterizing the Function of miRNAs in Neural Development, Synaptic Plasticity and Schizophrenia.
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2015 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Zheng  Li; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/zheng-li" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Synapse Development and Plasticity, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Synapse Development and Plasticity</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Qinhua  Gu<br />
+
+
+
+
+Jacob  Nordman<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Jun  Zhu; PhD (NHLBI) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Joel  Kleinman
+<i>(Lieber Institute for Brain Development)</i>
+<br />
+
+
+
+Keshen  Li; PhD
+<i>(Department of Neurology, Guangdong Medical College)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+miRNA, schizophrenia, development, dorsal lateral prefrontal cortex, next-generation sequencing
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Brain development is profoundly influenced by gene expression, which is dynamically regulated across the lifespan. The temporal dynamics of gene expression is conferred by extensive transcriptional and posttranscriptional regulation. It is increasingly recognized that microRNAs (miRNAs) play important roles in the posttranscriptional regulation of gene expression during brain development. miRNAs are small non-coding RNAs that primarily repress gene expression by destabilizing mRNAs or inhibiting translation. miRNAs function in differentiation, development and plasticity of neurons. miRNA expression in the brain is developmentally regulated and correlates with cortical maturation. Dysregulation of miRNA expression is detrimental to the brain. For instance, miRNA deficiency in mice causes aberrant synaptic protein expression, synaptic transmission, dendritic spines, learning and memory. miRNAs have been implicated in schizophrenia. Mutations in genes encoding miRNAs or components in the miRNA biogenesis machinery are associated with increased risk for schizophrenia. miRNA expression is altered in the brains of schizophrenia patients. The goal of this project is to delineate the function of miRNAs in synaptic plasticity and in schizophrenia. The objective of this project during the current reporting period is to delineate the temporal dynamics of miRNA expression in postmortem human brains and to identify miRNAs differentially expressed in the brains of schizophrenia patients.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+1. Gene expression in the brain is dynamically regulated across the lifespan. The temporal dynamics of gene expression is conferred by transcriptional and posttranscriptional regulation. microRNAs (miRNAs) play important roles in the posttranscriptional regulation of gene expression during brain development. miRNAs are small (16-25 nt) non-coding RNAs that bind to the 3 UTR of their target mRNAs through imperfect complementarity to destabilize mRNAs or inhibit translation. miRNA expression in the brain is developmentally regulated and correlates with cortical maturation. However, the temporal dynamics of miRNA expression in human brains has not been delineated and it remains largely unclear whether miRNAs regulate the temporal dynamics of mRNAs. <br />In this study, we delineated the temporal dynamics of miRNAs expressed in the human DLPFC across the majority of the lifespan. Our analyses show that in normal brains, miRNAs and mRNAs have different temporal dynamics and that most miRNAs are preferentially expressed in one specific developmental period. In the DLPFC of schizophrenia patients, miRNAs exhibiting expression changes are over-represented by those preferentially expressed in infancy, and miRNAs normally enriched in infancy or adulthood change in directions opposite to their normal developmental trajectories. <br />2. miRNAs have been implicated in schizophrenia. Mutations in genes encoding miRNAs or components in the miRNA biogenesis machinery are associated with increased risk for schizophrenia. It is hypothesized that miRNA expression is aberrant in schizophrenia patients. Using microarray and quantitative PCR, several groups have examined miRNA expression in postmortem brains of schizophrenia patients, and consistently detected miRNA expression change. However, the findings in the patients brains have been inconsistent. Here, we employed the next-generation sequencing technology to identify miRNAs that are differentially expressed in schizophrenic brains. We also analyzed the effect of psychiatric medications and tobacco smoking on miRNA expression. Using bioinformatics, we found that the targets of miRNAs differentially expressed in schizophrenia patients are enriched for synaptic genes, which are known to be dysregulated in schizophrenia patients. Hence, miRNAs may contribute to the synaptopathology of schizophrenia. This possibility is further supported by our finding that most miRNAs altered in schizophrenia cases are expressed predominantly in one specific developmental period in unaffected people when synaptic connections are formed and refined. Moreover, the targets of miRNAs altered in schizophrenia are enriched for genes with de novo single nucleotide variants (SNVs) associated with schizophrenia. These findings reveal a tight temporal control of miRNA expression in human DLPFC, suggest connections among dysregulated miRNA expression, disturbed brain development and synaptic function in schizophrenia, and identify infancy as a potential critical period in the development of schizophrenia.   <br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2016 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=96274&allpubs=Y&isajaxlink=Y&_UserReference=62531B691AB03F905B38CF80','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+No publications during this reporting period
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

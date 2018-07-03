@@ -1,0 +1,535 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH000478</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH000478-61</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neural Mechanisms of Learning and Memory in Vision
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Mortimer  Mishkin; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/mortimer-mishkin" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Cognitive Neuroscience, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Cognitive Neuroscience</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Richard C Saunders; PhD<br />
+
+
+
+Sebastian  Guderian<br />
+
+
+
+Danielle L Rickrode; BS<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Marley Andrea Rossa<br />
+
+
+
+
+Bernardus Martinus  Steemers; BSC<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+F.  Vargha-Khadem; PhD
+<i>(Institute of Child Health, University College London Medical School)</i>
+<br />
+
+
+
+
+D. G. Gadian; PhD
+<i>(Institute of Child Health, University College London Medical School)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+recognition, recall, developmental amnesia, monkeys, object-place association, parahippocampal cortex, hippocampus, navigational memory
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The research focuses on the neurobiology of memory systems in non-human primates, as well as in control children and children with brain injuries.  The studies with children are being carried out in collaboration with a team headed by Professor F. Vargha-Khadem at the University College London (UCL), Institute of Child Health, (ICH) and Great Ormond Street Hospital for Children (GOSH).  Aside from employing cross-species comparisons, our work is highly multidisciplinary, as it utilizes behavioral, neuroanatomical, electrophysiological, pharmacological, and metabolic methods, as well as structural and functional neuroimaging techniques. <br /><br />Many of the questions we have been addressing in the area of visual memory revolve around the issue of multiple cerebral memory systems or circuits.  During the past two decades we have identified two circuits, a visuo-limbic memory system important for cognitively mediated memories (e.g. episodic memory, stimulus recognition, associative recall) and a visuo-striatal circuit supporting habit learning.   More recent questions include: (i) Is the visuo-limbic memory system further divisible into a visuo-perirhinal object memory circuit and a visuo-posterior parahippocampal spatial memory circuit. (ii) Even more importantly, is the visuo-limbic memory system hierarchically organized into a lower-order visuo-parahippocampal system that encodes and stores context-poor factual knowledge that is retrieved through the process of familiarity-based 'knowing', and a higher-order visuo-parahippocampo-hippocampal system that encodes and stores context-rich events that are retrieved through the process of recollection-based 'remembering'. This last question is also being pursued in children with developmental amnesia (DA), a syndrome associated with early hippocampal pathology often due to perinatal hypoxic/ischemic episodes.  As memory impairments are a characteristic of many psychiatric and neurologic illnesses (e.g., schizophrenia, Alzheimer's disease) and aging, understanding the role of the different neural systems and their pharmacology may lead to new and important treatments.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The essential circuit for both item and associative stimulus recognition in any given sensory modality consists of the relevant cortical sensory processing stream(s), the medial temporal rhinal cortex, the ventromedial prefrontal cortex, and the medial dorsal nucleus of the thalamus. Context-free recall, familiarity based recognition, or fact memory, seems to depend primarily on the above basic memory circuit. Associative recall, recollection-based recognition, or event memory, seems to depend in addition on a higher-order circuit superimposed on the basic one and consisting of the hippocampus, mammillary body, and anterior thalamic nuclei. Several years ago we discovered that hypoxic/ischemic events sustained within the first year of life may result in a form of amnesia. This 'developmental amnesia' (DA) is characterized by markedly impaired episodic (or event) memory combined with relative preservation of both semantic (or fact) memory and familiarity-based recognition memory, and is associated with medial temporal pathology restricted to the hippocampus. Transposition of the great arteries (TGA) is the second most common chronic heart disease in early infancy. As a result, infants often suffer significant cyanosis at birth and are at risk of HI damage prior to and during corrective surgery. The hippocampus is particularly sensitive to HI insults during development, therefore we studied the effects of early HI on hippocampal structure and function in infants with TGA. We examined neonates who had surgery for TGA shortly after birth and a group of normally developing controls. Age corrected mean hippocampal volumes were shown to be significantly smaller in the TGA group compared to normal controls. Controls demonstrated a significant novelty preference in contrast to infants with TGA who did not. Larger mean hippocampal volumes were associated with stronger novelty preference across all subjects, albeit, this association was particularly strong in the TGA cohort. This study provides important new information giving us insight into the cascade of events that lead to a profile of compromised hippocampal volumes and memory impairments in middle childhood in patients with TGA.  In addition, it provides support to the idea that the hippocampus contributes to the detection of novelty from an early age. In DA subjects despite the systemic impact of HI, the resulting brain damage is largely limited to the hippocampus. However, the thalamus and the mammillary bodies are parts of the hippocampal-diencephalic network and are therefore also at risk of injury following HI events. We therefore conducted a neuroimaging investigation of diencephalic damage in a group of 18 patients with DA (age range 11-35 years), and an equal number of controls. Importantly, we uncovered a marked degree of atrophy in the mammillary bodies in two thirds of our patients. In addition, as a group, patients had mildly reduced thalamic volumes. The size of the anterior-mid thalamic segment was correlated with patients' visual memory performance. Thus, in addition to the hippocampus, diencephalic structures also appear to play a role in the patients' memory deficit.<br />Recollection involves bringing back to mind a prior event, including the sights and sounds associated<br />with that experience. Patients with DA show a deficit in recollection such that they are not able to recall unique experiences, yet are able to generalise across multiple similar events. It is possible that some contextual information is retrieved in DA at a level which is insufficient to support recall, but sufficient for a decontextualized representation of the event. To test this hypothesis, we investigated context reinstatement in patients with DA. On each encoding trial, a word was overlaid on an image and presented on the left, center, or right side of the visual field. The background images were rural,<br />urban and scrambled scenes. Two memory tasks were conducted during fMRI. In the Background<br />task, participants were instructed to remember the image that accompanied each word, whereas in<br />the Location task, they had to remember the location in which each word was presented. Behaviorally, all controls performed above chance, whereas patients performed at chance levels.  fMRI data in the controls showed the typical pattern of scene reinstatement, such that words that were previously paired with scenes were associated with greater activity in the parahippocampal and retrosplenial cortices than words paired with scrambled scenes. Interestingly, patients also showed scene reinstatement effects, but these were localized in the visual cortex, and not the regions that are typically associated with scene memory. For both groups, scene reinstatement effects were present in the Background Task, but not in the Location Task, suggesting that reinstatement is dependent on the retrieval goal. A functional localizer indicated that scene processing engaged the same regions in both groups. These data indicate that DA patients are able to reinstate aspects of their prior experience (i.e. visual context) in a strategically-directed way, but that this reinstatement is qualitatively different from that of controls and is insufficient to support context-dependent memory responses. We conclude that limited sub-threshold context memory processes occur in DA, despite the profound impairment in recollection.<br />Across species, perhaps the most well-established contribution of the hippocampus to memory is not to episodic or recollection memory but to allocentric spatial memory. We investigated the effect of hippocampal lesions on allocentric spatial navigational memory in monkeys using a virtual environment. The task, a variant of the Morris Water Maze, which has been used extensively to test navigational spatial memory in rodents, required monkeys to use a joystick to navigate to a rewarded location within a circular arena. This circular arena resided in a larger hexagonal room, with six unique images at the walls of the room providing cues for orientation. The orientation cues, as well as the rewarded location within the arena, were different on each testing day, thus providing a different allocentric spatial memory problem in each session. In each trial, monkeys started navigating from a random location within the circular arena. Performance was assessed as the ratio between the distance traveled and the optimal distance, given each trial's starting location. To our surprise, neither learning rate nor ceiling performance was significantly reduced after bilateral lesions of the hippocampus. The results thus suggest that the integrity of the hippocampus in rhesus monkeys may not be critical for memory-based allocentric spatial navigation in this virtual reality environment.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101204&allpubs=Y&isajaxlink=Y&_UserReference=21AA4F284B83788C5B38D001','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Geva S, Cooper JM, Gadian DG, Mishkin M, Vargha-Khadem F (2016) Impairment on a self-ordered working memory task in patients with early-acquired hippocampal atrophy. Dev Cogn Neurosci 20:12-22
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27288821?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4973808/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27288821
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4973808 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

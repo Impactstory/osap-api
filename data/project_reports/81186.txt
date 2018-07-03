@@ -1,0 +1,832 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002588</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002588-23</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">The Neural Foundations for Memory  and Social Cognition In The Human Brain
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Alex  Martin; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/alex-martin" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Cognitive Neuropsychology, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Cognitive Neuropsychology</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 9 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Stephen  Gotts; PhD<br />
+
+
+
+Avniel S Ghuman; PhD<br />
+
+
+
+William K Simmons; PhD<br />
+
+
+
+Shawn C Milleville; BA<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Kevin Michael Anderson<br />
+
+
+
+
+Kelly Anne Barnes; PhD<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=81186&onameset=Section on Cognitive Neuropsychology&isajaxlink=Y&_UserReference=F821CC67B71293A35B38D269','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 9</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Robert James Richard Blair; PhD  (Unit on Affective Cognitive Neuroscience)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Allen R Braun; MD (NIDCD) <br />
+
+
+
+
+
+
+
+
+
+
+
+
+Carson C Chow; BASc, PhD (NIDDK) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Larry  Barsalou; PhD
+<i>(Department  of Psychology, Emory University)</i>
+<br />
+
+
+
+Kevin  Lebar; PhD
+<i>(Department of Psychology and Neuroscience, Duke University)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+functional magnetic imaging, semantic memory, social cognition, priming, human brain, implicit memory, object recognition
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Neuropsychiatric disorders involve impairments in representing and manipulating information about self and others. The goal of our research is to elucidate the neural circuits that underpin these abilities in the normal human brain. Specifically, we seek to identify the neural structures that allow us to quickly and efficiently distinguish self and other animate entities from inanimate objects, and that support our ability to understand complex social interactions. Because these abilities are wholly dependent on prior knowledge (memory), we also seek to identify the neural structures associated with the acquisition, storage, and retrieval processes associated with different types of memory. To accomplish these goals we use functional magnetic resonance imaging (fMRI) and magnetoencephalography (MEG) to measure changes in neural activity as subjects perform different types of tasks. This work was supported by NIH protocol 93-M-0170; NCT00001360.<br /><br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+This past year we have continued to focus on a major part of long-term memory, termed semantic memory, that is composed of general information, such as facts, ideas, and the meaning of objects and words. We are particularly interested in characterizing the neural substrate mediating object and word meaning and its role in object perception. We are also interested in understanding how abstract knowledge, such as information about social interactions, is represented. Our studies have shown that information about salient properties of an object - such as what it looks like, how it moves, and how it is used - is stored in the sensory and motor systems active when that information was acquired. As a result, objects belonging to different categories such as animate entities (people, animals) and manmade manipulable objects (tools, utensils) are represented in partially distinct neural circuits. These distributed circuits also underpin our ability to understand more abstract events such as social and mechanical interactions. <br /><br />A major unresolved question is whether these distributed circuits for knowing about social and mechanical interactions are created anew, on-the-fly, in the service of performing specific social or mechanical tasks, or are they fundamental, intrinsic properties of brain organization.  To address this core issue, we took advantage of a new method of fMRI analysis that uses resting-state data to reveal neural circuitry.  This procedure relies on the fact that the brain produces very slowly fluctuating neural activity that can be measured using MRI when subjects are simply lying in the scanner, not performing a specific task.  Under these conditions, spatially distant regions of the brain can show similar patterns of fluctuating neural activity. The strength of similarity, or correlation, between the fluctuations in different brain regions can be used as a measure of the strength of the connections between them.  Our study showed that the circuits underpinning our ability to understand social and mechanical interactions are maintained even when subjects are not engaged in performing tasks that rely on social and mechanical knowledge, and so constitute intrinsic, domain-specific neural networks.  We have also applied this resting-state correlation analysis to evaluate the strength of cross-hemispheric functional connectivity using fMRI data, and to explore similarities between task-free (rest) and task-dependent data recorded from sensory processing brain regions using magnetoencephalography (MEG), a recording technique that provides information on a much finer temporal time-scale (on the order of milliseconds) than provided by fMRI. <br /><br />Although considerable progress has been made in understanding the neural circuits involved in representing concepts associated with concrete objects like animals and tools, little is known about how abstract concepts are represented in the brain. In collaboration with our colleagues at Emory University, we used fMRI to evaluate the neural representation of the abstract concepts 'convince' and 'arithmetic' using a newly developed concept-scene matching task that employed pictures of individuals in different situations to ground each concept in its typical context.  Using this method we were able to show that brain regions known to be associated with understanding social interactions were active when subjects represented the abstract concept 'convince', whereas brain regions associated with understanding numbers were active when subjects represented 'arithmetic'.  These results suggest that, like concrete entities, the meanings of abstract concepts arise from distributed neural systems that represent concept-specific content.<br /><br />In collaboration with our colleagues at Duke University, we have also engaged in a series of studies on the neural systems associated with acquisition of object-associated fear.  Previous studies have documented changes in neural activity in the amygdala and sensory cortices when subjects learn to associate fear with a simple stimulus like a shape or color. However, real-world fears typically involve complex stimuli represented at the category level.  As a result, an aversive experience with a particular object may lead one to infer that related instances, or exemplars, of that object category also pose a threat, despite variations in physical form (e.g., generalizing the fear associated with a specific dog, to all dogs).  Using fMRI, we examined the effect of category-level representations of threat on human brain activity using the categories of animals and tools as conditioned stimuli. We found that activity in the amygdala and other category-responsive brain regions was modulated by the reinforcement contingency, leading to widespread fear of different exemplars from the reinforced category.  Learning to fear animate objects was additionally characterized by enhanced functional coupling between the amygdala and fusiform gyrus. These findings provide novel evidence that aversive learning can modulate category-level representations of object concepts, thereby enabling individuals to express fear to a range of related stimuli.<br /><br />In marked contrast to a negative emotion like fear, other objects are typically associated with pleasurable experiences.  A prime example here is food.  Food advertisements often promote choices that are driven by inferences about the pleasures of eating a particular food. Given the individual and public health consequences of obesity, it is critical to address unanswered questions about the specific neural systems underlying these pleasurable inferences. To address this issue, we used fMRI to measure neural activity when subjects made item-by-item ratings of how pleasant it would be to eat particular food depicted in a photograph.  Consistent with previous studies, we found that activity in the orbitofrontal cortex was directly modulated by the subjects pleasantness ratings.  In addition, we found that a subcortical brain region, the ventral pallidum, was also strongly modulated by the pleasantness ratings.  This finding was particularly important because it demonstrated for the first time that a brain region known to be associated with reward in rodents, plays a central role in the moment-to-moment inferences of pleasure that influence our food-related preferences and decisions.<br /><br />We have also continued to study a more basic form of learning known as repetition priming; the improved ability to identify objects with repeated encounters with that object. On the neural level, our studies, as well as studies from many other laboratories, have shown that the repeated presentation of an object results in a decrease in the magnitude of the neural response - a phenomenon known as repetition suppression.  This leads to a major puzzle.  How does reduced neural activity result in better performance?   To address this vexing question, we have proposed that although the magnitude of the response of individual neurons to a stimulus is reduced  with repetition, their firing patterns become more organized or synchronized, thereby leading to more efficient processing.  In two recent publications, we described this proposal in detail and reviewed the evidence from a variety of neural recording techniques that are consistent with our model for this ubiquitous, powerful, but poorly understood form of learning.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81186&allpubs=Y&isajaxlink=Y&_UserReference=F821CC67B71293A35B38D269','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by reference within the summary, then by publication type and author name.
+</p>
+
+
+
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div> <div style="margin: -1.6em 0px 5px 2em;">Martin A, Barnes KA, Stevens WD (2012) Spontaneous neural activity predicts individual differences in performance. Proc Natl Acad Sci U S A 109:3201-2.
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22343289?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3295279/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 22343289
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3295279 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div> <div style="margin: -1.6em 0px 5px 2em;">Simmons WK, Martin A (2012) Spontaneous resting-state bold fluctuations map domain-specific neurocircuitry. Social Cognitive and Affective Neuroscience 7:467-475
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div> <div style="margin: -1.6em 0px 5px 2em;">Jo HJ, Saad ZS, Gotts SJ, Martin A, Cox RW (2012) Quantifying agreement between anatomical and functional interhemispheric correspondences in the resting brain. PLoS One 7:e48847
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23144995?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3493608/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 23144995
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3493608 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div> <div style="margin: -1.6em 0px 5px 2em;">Dunsmoor JE, Martin A, LaBar KS (2012) Role of conceptual knowledge in learning and retention of conditioned fear. Biol Psychol 89:300-5.
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22118937?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3269535/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 22118937
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3269535 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div> <div style="margin: -1.6em 0px 5px 2em;">Yang J, Bellgowan PS, Martin A (2012) Threat, domain-specificity and the human amygdala. Neuropsychologia 50:2566-72
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22820342?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3432172/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 22820342
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3432172 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div> <div style="margin: -1.6em 0px 5px 2em;">Gotts SJ, Chow CC, Martin A (2012) Repetition Priming and Repetition Suppression: A Case for Enhanced Efficiency Through Neural Synchronization. Cogn Neurosci 3:227-237.
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23144664?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3491809/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 23144664
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3491809 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div> <div style="margin: -1.6em 0px 5px 2em;">Gotts Sj, Chow CC, Martin A (2012) Repetition priming and repetition suppression: Multiple mechanisms in need of testing. Cognitive Neuroscience 3:250-259
+
+
+
+</div>
+</div>
+ <!-- ends ordered rows -->
+
+
+
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

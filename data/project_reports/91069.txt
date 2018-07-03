@@ -1,0 +1,644 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002865</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002865-10</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Reproductive Endocrine Related Mood Disorders-Differential Sensitivity
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Peter J Schmidt; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/peter-schmidt" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Behavioral Endocrinology, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Behavioral Endocrinology</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 15 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Rivka Rivi Ben Dor<br />
+
+
+
+
+Merry A Danaceau<br />
+
+
+
+
+Alejandra Mia Garcia-Meza<br />
+
+
+
+
+Gioia Mia Guerrieri; DO<br />
+
+
+
+
+Nazli  Haq<br />
+
+
+
+
+Jessica Frances Hoffman<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=91069&onameset=Section on Behavioral Endocrinology&isajaxlink=Y&_UserReference=0F28918C5F07200C5B38D129','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 15</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Karen F Berman; MD  (Section on Integrative Neuroimaging)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+David  Goldman; MD (NIAAA) <br />
+
+
+
+Lynnette K Nieman; MD (NICHD) <br />
+
+
+
+Steven John Soldin; PhD (CC) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 7 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Rima  Kaddurah-Daouk
+<i>(Duke University)</i>
+<br />
+
+
+
+Christine  Marx; MD
+<i>(Psychiatry, Duke University)</i>
+<br />
+
+
+
+Bruce  McEwen; PhD
+<i>(Laboratory of Neuroendocrinology, Rockefeller University)</i>
+<br />
+
+
+
+A Leslie Morrow; PhD
+<i>(Department of Psychiatry and Pharmacology, University of North Carolina School of Medicine)</i>
+<br />
+
+
+
+David R Rubinow; MD
+<i>(Department of Psychiatry, University of North Carolina at Chapel Hill)</i>
+<br />
+
+
+
+Patrick  Sullivan; MD, PhD
+<i>(University of North Carolina)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=91069&isajaxlink=Y&_UserReference=0F28918C5F07200C5B38D129','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 7</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+depression, gonadal steroids, menstrual cycle, postpartum depression, HPA axis
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Reproductive endocrine-related mood disorders (i.e., premenstrual-, perinatal-, and perimenopausal-related depressions) affect a considerable number of women and are associated with significant disease-related disability; yet little is known about both the role of ovarian steroids in the pathophysiology of, and the substrates of risk for these conditions.  There are several additional rationales that justify the investigation of these disorders.  First, despite the considerable basic neuroscience literature that documents the pleiotropic actions of gonadal steroids on brain and behavior in lower animals, few studies have systematically investigated the effects of gonadal steroids on affective adaptation and the regulation of mood in humans.  Second, these disorders are prevalent and accompanied by considerable morbidity but are remarkably understudied.  For example, although postpartum depression occurs after approximately 15% of deliveries (and, therefore, approximately 300,000 to 500,000 US women are at risk for developing PPD each year), there are only four double-blind, controlled trials of antidepressants in the PPD literature  only one of which was placebo-controlled.  Moreover, the recent publication of the 2010 Global Burden of Disease report ranks premenstrual syndrome and major depression as the 17th and 19th (respectively) most prevalent sequelae (i.e., adverse health outcomes) of diseases or injuries worldwide.  Third, in addition to the well-documented morbidity related to an episode of depression, depression is accompanied by an increased risk for several medical illnesses including gestational diabetes.  Finally, there is considerable overlap between reproductive endocrine-related mood disorders and traditional affective disorders including symptom presentation and shared co-morbidities; nonetheless, reproductive-related mood disorders are distinguished by several characteristics including the linkage of the symptomatic state to a hormone transition and treatment response characteristics (i.e., efficacy of hormonal therapies, selective response to SSRIs versus other classes of antidepressants).  These mood disorders represent the convergent effects of the reproductive trigger and a susceptibility to experience affective dysregulation, since the same biological trigger is without effect on mood in women lacking the susceptibility.  Thus the susceptibility to a hormone-induced mood destabilization must involve differential processing of the hormone signal that leads to an abnormal affective state.  As such, these disorders provide an unparalleled opportunity to uncover the biological and environmental underpinnings of susceptibility to affective dysregulation.<br />Our long-range goals will be to identify the mechanisms and the relevant neurocircuitry underlying the differential mood and behavioral response to gonadal steroids.  Additionally, we wish to identify the cellular basis for the risk of developing these disorders.  We also expect to identify new treatments and phenotypic factors that predict treatment response. <br /><br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+This report includes work arising from the following clinical protocols: NCT00005011, NCT00056901, NCT00059228, NCT00082043, NCT00100360, NCT00001177, NCT00001259, and NCT00001481<br />Overlapping co-morbidities between premenstrual dysphoric disorder (PMDD) and postpartum depression (PPD) indicate that these disorders could represent a continuum of vulnerability with shared pathophysiology.  Indeed, the results of some studies suggest that women with PMDD are at increased risk for developing PPD.  These observations have important implications for both the clinical management of women with PMDD (specifically regarding risk counseling) and for research directions. Nonetheless, comorbidity does not necessarily indicate similar pathophysiology, and the comorbidity shared between PMDD and PPD could be uninformative about pathophysiology, analogous to the comorbidity shared between PMDD and non-reproductive depression. We examined the past histories of PPD in a clinic-based sample of women meeting criteria for PMDD. Two hundred and fifteen women who attended the NIMH mood disorders clinic seeking treatment for PMDD and in whom we confirmed the diagnosis of PMDD, were administered the Structured Clinical Interview for DSM.  The frequency of PPD (major or minor) was established in the subgroup of women (n=137) who had delivered at least one child. Ninety-three women (43.3%) had a past history of a mood disorder (i.e. either major (MDE) or minor depression). Of these women only 16 (i.e., 11.7%) of the 137 childbearing women with prospectively confirmed PMDD met criteria for a past PPD, not substantially different from the reported incidence of PPD in the general population of women. Our data demonstrate that PMDD and PPD do not frequently co-occur, and do not suggest that PMDD and PPD share similar pathophysiology beyond both being ovarian-steroid triggered mood disorders. <br />In our studies we have developed experimental models for the triggering of symptoms in PMDD and PPD that we employ in our efforts to identify the underlying biology of these conditions. In our gonadotropin releasing hormone (GnRH) agonist-induced ovarian suppression studies (henceforth referred to as the Lupron paradigm) we have demonstrated that the change in ovarian steroid level  not the absolute level itself  is the trigger for affective destabilization in these women. In addition to our studies on the behavioral effects of changes in ovarian steroids, we employ methodologies to investigate the underlying biological mechanisms of these conditions including neuroimaging studies, as well as both metabolomics platforms for evaluating neurosteroid synthesis, and functional genomics studies examining the effects of a change in ovarian steroid on cellular function.  First, our neuroimaging studies have identified both a neural substrate of risk in PMDD as well as a brain-region specific response that could underlie the differential behavioral response to ovarian steroids in this condition.  In a previous study, we observed that women with PMDD show abnormal prefrontal recruitment, specifically greater activation than controls throughout the dorsolateral prefrontal cortex (DLPFC) bilaterally.  DLPFC activations in PMDD were independent of hormone condition, and correlated negatively with measures of PMDD functional impairment, age of onset of PMDD, and pre-treatment symptom severity measures.  These findings suggest an enduring, trait-like predisposition to this hormonally-triggered disorder.  In a second completed study, in women with PMDD and controls who underwent resting state PET studies during each of the three hormone conditions in the Lupron paradigm, we observed differences in resting rCBF in women with PMDD compared with controls in the subgenual cingulate (BA25), and medial orbital frontal cortex (mOFC).  Higher resting state rCBF in PMDD was present during hypogonadism (when PMDD symptoms are in remission) compared with estradiol or progesterone replacement (when PMDD symptoms are at risk of recurring), whereas no hormone-related changes were observed in controls in either brain region.  These data demonstrate for the first time a differential pattern of rCBF within neuroanatomical loci implicated in the process of affective adaptation.  Additionally, the fact that the changes in rCBF correspond in time to the hormone state-related changes in symptoms raises the possibility that the changes in rCBF may reflect the altered mood state rather than a direct effect of ovarian steroid hormonal exposure.<br />One possible trigger for the abnormal ovarian steroid-triggered mood state in PMDD is an altered profile of neurosteroid metabolites during exposure to estradiol or progesterone. This possibility is also suggested by our demonstration of the therapeutic efficacy of dutasteride to mitigate symptoms of PMDD since dutasteride inhibits the rate limiting enzymatic step in neurosteroid synthesis. Thus, we next examined the profile of steroid and neurosteroid metabolites in women with PMDD using a metabolomics platform.  Metabolomic studies (employing liquid chromatography-tandem mass spectroscopy) are performed in women with PMDD who respond to Lupron with elimination of symptoms and who experience return of symptoms during progesterone or estradiol replacement, as well as controls who experience no change in mood during the identical experimental paradigm. Preliminary data suggest that women with PMDD exhibit differences from control women in a key enzyme involved with steroid (both estrogen and androgen) metabolism, steroid sulphatase.  However, in this sample of women, we observed no differences in progesterone-derived neurosteroid levels in plasma. Thus, we plan to expand this study in a larger group of women with PMDD and controls to permit confirmation that no differences in neurosteroid levels exist between women with PMDD and controls (consistent with previous naturalistic studies across the menstrual cycle), and to allow us to examine steroid metabolic pathways in more detail. Our metabolomic and neuroimaging studies are complemented by functional genomic studies, performed in collaboration with David Goldman's laboratory, in which we employ lymphoblastoid and induced pluripotent cells obtained from women with PMDD and controls who participate in our Lupron studies.  These experiments allow us to explore the nature of the differential behavioral response by examining gene expression and changes in cellular behaviors associated with the exposure to physiologic levels of either estradiol or progesterone across the two different behavioral phenotypes (i.e., women with PMDD and controls).  Results show that women with PMDD express more estrogen receptor (ER) alpha (but not beta) compared with controls.  Additionally, RNA sequencing studies show statistically significant, quantitative differences in the PMDD transcriptome compared to control women.  We identified significant differences in the expression of the chromatin modifying ESC/E(Z) complex genes, which is of particular interest as a potential candidate since it is regulated by ovarian steroids and leads to genomic regions of transcriptional repression.  The mechanism by which these pathways converge and possibly alter CNS function sufficient to manifest in PMDD will be the focus of our future studies in induced neuronal and glial cells.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91069&allpubs=Y&isajaxlink=Y&_UserReference=0F28918C5F07200C5B38D129','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Schiller CE, Johnson SL, Abate AC, Schmidt P, Rubinow DR (2015) Reproductive steroid regulation of mood and behavior. Comprehensive Physiology, in press.
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Schiller CE, Schmidt P, Rubinow DR (2014) Allopregnanolone as a mediator of affective switching in reproductive mood disorders. Psychopharmacology 17:3557-3567
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

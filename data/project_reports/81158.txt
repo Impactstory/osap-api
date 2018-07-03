@@ -1,0 +1,859 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002828</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002828-11</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Efficacy of an Antiglutamatergic Agents in Treatment-Resistant Depression
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2013 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2012 -  September 30, 2013</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Carlos Alberto Zarate; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/carlos-zarate" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neurobiology and Treatment of Mood Disorders, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neurobiology and Treatment of Mood Disorders</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 10 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Rezvan  Ameli<br />
+
+
+
+
+Nancy E Brutsche<br />
+
+
+
+
+Sara Johanna Guevara<br />
+
+
+
+
+Dawn Lynn Ionescu; MD<br />
+
+
+
+
+David A Luckenbaugh; BA, MA<br />
+
+
+
+
+Rodrigo  Machado-Vieira<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=81158&onameset=Section on Neurobiology and Treatment of Mood Disorders&isajaxlink=Y&_UserReference=6E0ABA7CC26416615B38D5C0','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 10</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Irving William Wainer; PhD (NIA) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+antidepressant, riluzole, treatment-resistant, bipolar depression, genetics, randomized, metabolites, ketamine, rapid antidepressant, neuropsychological testing
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Only about one-third of patients response to existing treatments. Thus, many are left with incomplete response despite adequate treatment trials, such patients are referred to as having treatment-resistant depression. There is a considerable lack of several weeks until the antidepressant effects happen. Ketamine, an NMDA antagonist, delivers rapid antidepressant effects within a few hours what usually takes weeks with current treatments. We have shown that ketamine produces this rapid antidepressant effect. We now seek to find strategies to maintain this rapid effect. There are only a few controlled studies examining novel treatments for the acute unipolar and bipolar depression with treatment-resistant depression. Thus, there is a clear need to develop novel treatments for major depression. <br /><br />There are three studies in treatment-resistant depression:<br />a) in bipolar depression<br />b) in major depressive disorder <br />c) maintain the rapid antidepressant effects obtained with ketamine by riluzole treatment<br />d) for a, b, and c: determine what are predictors of treatment response (clinical, genetics, family history, etc).<br /><br />Specific Aims:<br />a) To assess the efficacy of acute riluzole monotherapy compared with placebo in patients with bipolar disorder, current episode depressed, in the hopes of improving overall depressive symptoms. This will be measured by the mean change in the Montgomery Asberg Depression Rating Scale (MADRS) total score from baseline score to the score at the end of 8 weeks of therapy. <br /><br />b) To assess the efficacy of riluzole (100-200 mg/day) compared with placebo in promoting and maintaining symptomatic response among patients with treatment-resistant major depression who received a single intravenous dose of an NMDA antagonist (ketamine 0.5 mg/kg over 40 minutes). Response will be measured by changes in MADRS total scores during 4 weeks of therapy.<br /><br />Hypotheses: <br /><br />a) Subjects with bipolar depression and treatment-resistant unipolar depression randomized to acute therapy with riluzole will have a superior response rate acutely compared to subjects randomized to placebo. <br /><br />In our preliminary open-label study, we found that riluzole (an inhibitor of glutamate release) was efficacious and safe in the acute treatment of bipolar depression. The next phase of the study which is currently being conducted is to evaluate the efficacy of riluzole in a controlled study.<br /><br />b) Subjects with treatment-resistant major depression who receive a single dose of an NMDA antagonist (ketamine) when randomized to riluzole 100-200 mg/day will have less depression compared to subjects randomized to placebo. <br /><br />c) Identify biomarkers that predict who will respond to ketamine.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Novel targets for developing new treatments for treatment-resistant major depression are urgently needed. The glutamatergic system stands as an important to target to pursue in the developing improved treatments for mood disorders. In previous work, we found that the glutamate modulating agent riluzole (inhibitor of glutamate release, and enhancer of AMPA trafficking and glutamate reuptake) was effective in treatment-resistant unipolar and bipolar depression. These data suggest that the glutamatergic system might have a key role in the pathophysiology and treatment of depression, and that agents which modulate this neurotransmitter system, may represent a novel class of antidepressants. <br />We studied 42 subjects (18-65) with TRD and a MADRS score of 22 received a single intravenous infusion of ketamine (0.5 mg/kg). Four to six hours post-infusion, subjects were randomized to double-blind treatment with either riluzole (100-200 mg/day; n=21) or placebo (n=21) for 4 weeks. Depressive symptoms were rated daily. A significant improvement (P&lt;0.001) in MADRS scores from baseline was found. The effect size of improvement with ketamine was initially large and remained moderate throughout the 28-day trial. Overall, 27% of ketamine responders had not relapsed by 4 weeks following a single ketamine infusion. The average time to relapse was 13.2 days. However, the difference between the riluzole and placebo treatment groups was not significant, suggesting that the combination of riluzole with ketamine treatment did not significantly alter the course of antidepressant response to ketamine alone. We have continued to enroll subjects in the search of biomarkers of treatment response. Preliminary data indicates that subjects with a) family history of alcohol use disorders have a better antidepressant response to ketamine than subjects without a family history of alcohol use disorders, and b) subjects with anxious depression have a better antidepressant response to ketamine than subjects without anxious depression. Studies are examining genetics, ketamine metabolites, and other biomarkers that might be associated with treatment response. Identifying biomarkers of response would ultimately facilitate drug discovery and development and to individualize or personalize treatment interventions.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2013 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=81158&allpubs=Y&isajaxlink=Y&_UserReference=6E0ABA7CC26416615B38D5C0','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Duncan WC, Sarasso S, Ferrarelli F, Selter J, Riedner BA, Hejazi NS, Yuan P, Brutsche N, Manji HK, Tononi G, Zarate CA (2013) Concomitant BDNF and sleep slow wave changes indicate ketamine-induced plasticity in major depressive disorder. Int J Neuropsychopharmacol 16:301-11
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22676966?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3510337/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22676966
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3510337 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Duncan WC, Selter J, Brutsche N, Sarasso S, Zarate CA (2013) Baseline delta sleep ratio predicts acute ketamine mood response in major depressive disorder. J Affect Disord 145:115-9
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22871531?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3494813/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22871531
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3494813 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Ibrahim L, Diazgranados N, Franco-Chaves J, Brutsche N, Henter ID, Kronstein P, Moaddel R, Wainer I, Luckenbaugh DA, Manji HK, Zarate CA (2012) Course of improvement in depressive symptoms to a single intravenous infusion of ketamine vs add-on riluzole: results from a 4-week, double-blind, placebo-controlled study. Neuropsychopharmacology 37:1526-33.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22298121?dopt=Abstract" target="_blank">PubMed</a>
+
+
+           &nbsp;&nbsp;&nbsp;&nbsp;<i>Available in future as a Free Article</i> <!-- looks for PMC translations for in progress or embargoed -->
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22298121
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3327857 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Ibrahim L, Diazgranados N, Jolkovsky L, Brutsche N, Luckenbaugh DA, Herring WJ, Potter WZ, Zarate CA (2012) A Randomized, Placebo-Controlled, Crossover Pilot Trial of the Oral Selective NR2B Antagonist MK-0657 in Patients With Treatment-Resistant Major Depressive Disorder. J Clin Psychopharmacol 32:551-7.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22722512?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3438886/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22722512
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3438886 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Ionescu DF, Niciu MJ, Henter ID, Zarate CA (2013) Defining anxious depression: a review of the literature. CNS Spectr 18:252-60
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23507190?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3773528/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23507190
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3773528 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kaddurah-Daouk R, Yuan P, Boyle SH, Matson W, Wang Z, Zeng ZB, Zhu H, Dougherty GG, Yao JK, Chen G, Guitart X, Carlson PJ, Neumeister A, Zarate C, Krishnan RR, Manji HK, Drevets W (2012) Cerebrospinal fluid metabolome in mood disorders-remission state has a unique metabolic profile. Sci Rep 2:667
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22993692?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3446657/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22993692
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3446657 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">7.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Zarate C, Duman RS, Liu G, Sartori S, Quiroz J, Murck H (2013) New paradigms for treatment-resistant depression. Ann N Y Acad Sci 1292:21-31
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23876043?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3936783/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23876043
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3936783 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">8.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Zhao X, Venkata SL, Moaddel R, Luckenbaugh DA, Brutsche NE, Ibrahim L, Zarate CA, Mager DE, Wainer IW (2012) Simultaneous population pharmacokinetic modelling of ketamine and three major metabolites in patients with treatment-resistant bipolar depression. Br J Clin Pharmacol 74:304-14.
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22295895?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3630750/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 22295895
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3630750 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

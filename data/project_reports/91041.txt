@@ -1,0 +1,670 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002652</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002652-23</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Imaging of Neuropsychiatric Disorders with Developmental and Genetic Mechanisms
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2015 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2014 -  September 30, 2015</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Karen F Berman; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/karen-berman" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Integrative Neuroimaging, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Integrative Neuroimaging</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 27 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Jose A Apud; MD, PhD<br />
+
+
+
+
+Karen  Bartholomew<br />
+
+
+
+
+Morgan Elaine Bartholomew<br />
+
+
+
+
+Joann  Berkson; RN<br />
+
+
+
+
+Joseph Handel Callicott; MD<br />
+
+
+
+
+Jessica  Carrasco<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=91041&onameset=Section on Integrative Neuroimaging&isajaxlink=Y&_UserReference=438598B608DBF9865B38D5A6','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 27</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Bhaskar S Kolachana; PhD  (Psychosis and Cognitive Studies Section)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Ellen  Sidransky; MD (NHGRI) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborator
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Venkata  Mattay
+<i>(Lieber Institute for Brain Development)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Neuroimaging, Schizophrenia, dopamine, Parkinson's Disease, antipsychotic medication
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The Section on Integrative Neuroimaging, in the Clinical and Translational Neuroscience Branch, is working to more clearly define the neurobiology of schizophrenia at the systems level, characterizing abnormalities in implicated neural circuits serving cognitive functions disrupted in schizophrenia and their neurochemical underpinnings. In particular, we examine pathophysiology in the frontotemporal system and in systems based on the relationship between subcortical dopamine neurons and cortical activity. This work brings together measurements of regional cerebral blood flow (rCBF) with oxygen-15 water PET, neural activation with functional magnetic resonance imaging (fMRI), and comprehensive pre- and post-synaptic dopaminergic function with F-18-fluorodopa (18FDOPA), C-11-NNC112 (NNC112), and F-18-fallypride (fallypride) PET. This multifaceted approach has the potential to uncover distinctive systems-level phenotypes that may be helpful in the search for susceptibility genes for schizophrenia and other neuropsychiatric disorders, which may ultimately help guide the development of desperately needed new treatments. <br /><br />Because the neural circuits and neurochemical indices that are tested depend upon dopamine and other neurotransmitters that can be affected by neuroleptic medications, patients are studied with these multiple imaging modalities while they are medication-free. The Clinical and Translational Neuroscience Branch inpatient ward and the drug withdrawal protocol in which many of our inpatients participate are critically important to understanding the pathophysiology, particularly neurochemical features, without the contaminant of ongoing neuroleptic treatment. The NIMH Intramural Research Program (IRP) is one of the few remaining clinical research facilities where work of this nature can be carried out. Similarly, this special setting allows for close integration with candidate risk gene discovery efforts from other investigators, permitting this work to provide an active database with which to test the neurobiological repercussions of newly identified schizophrenia susceptibility genes. <br /><br />Specifically, our current work in medication-free patients aims to describe dysfunction of basal-, reward- and executive cognition-related neural activity via fMRI and rCBF studies in relation to clinical indices, candidate risk genotypes, and correlative measurement of presynaptic dopamine stores using 18FDOPA PET scanning. In addition, we are assembling a comparison cohort of patients with early Parkinson's disease who can tolerate these same neuroimaging procedures while briefly withdrawn from their medications to examine the sequelae of a mechanistically different disorder of dopamine regulation. We further seek to refine our understanding of cortical dopamine economy in schizophrenia by incorporating into our research program the radioligands NNC112 and fallypride, which permit measurement of D1 and D2/3 receptors in the cortex, respectively. This allows us to directly test the theories that cortical dopaminergic tone plays a role in maintaining task appropriate network activity and that the ratio between D1 and D2/3 receptors influences cortical signal-to-noise ratios. These methods for testing the reciprocal prefrontal cortex-subcortical interactions that are strongly implicated in schizophrenia hold great promise for identifying the mechanisms that underlie this and other devastating neuropsychiatric illnesses.<br /><br />Finally, we are also executing studies aimed at modulating these same networks via novel, personalized therapeutics.  This includes clinical trials employing tolcapone and modafinil, two agents that target this implicated neurochemistry and may therefore ameliorate signatures of prefrontal executive dysfunction in a genetically-defined subgroup of people with schizophrenia.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The core aim of this project is to elucidate the nature, molecular foundations, underlying neurochemistry, and clinical correlates of neural systems-level dysfunction in schizophrenia.  Toward that end, this year, the Section on Integrative Neuroimaging has successfully executed comprehensive, multimodal positron emission and magnetic resonance based studies of  a unique and steadily growing cohort of individuals with schizophrenia who have agreed to be studied under placebo (medication-free) conditions as well as matched healthy individuals.  Though this work is necessarily challenging to conduct, we have made substantial progress in data collection, which now includes characterization of dopamine-dependent mnemonic and reward-related neural responses, striatal presynaptic dopamine synthetic capacity, and both D1 and D2/3 receptor availability.   <br /><br />Modern antipsychotic treatments have heterogeneous effects across individuals and often leave many symptoms (e.g., cognitive) untreated, though the biological mechanisms underlying these clinical problems remain largely mysterious.  Our most recent work has been particularly focused on advancing evolving knowledge of antipsychotic medication response, yielding novel insights into the neurochemical predictors of neuroleptic-driven changes in brain activity and symptom burden.  Specifically, we have taken advantage of the ability to study people with schizophrenia in the medicated and medication-free state and sought to quantify the impact of antipsychotic treatment on striatal regional cerebral blood flow, as measured by PET.  In preliminary studies, medication induces robust increases in striatal blood flow.  We are now completing follow-up investigations evaluating the degree to which this increase predicts the amount of medication-related therapeutic improvement, suggesting that this response may be an important biomarker.  We are also employing concurrent 18FDOPA PET studies to test the hypothesis that variability in this physiological response might be due in part to trait differences in dopaminergic tone. <br /><br />We have additionally found that antipsychotic medications increase the amount of GABA in the anterior cingulate cortex.  Although GABA levels do not appear to be predictive of symptom change, preliminary data suggest that glutamate levels in the same region might be moderately negatively associated with antipsychotic response, indicating that patients with high glutamate might derive lesser benefit from currently available drugs with a dopaminergic mechanism.  <br /><br />The observation that complex, multi-receptor systems are at play in the mechanisms underlying medication response are echoed by collaborative work identifying interactions between genes for the dopamine D2 and serotonin 5-HT2A receptors that affect clinical response to antipsychotic treatment.  <br /><br />Finally, we are completing two personalized-medicine drug trials examining interactions between genotype for COMT, an enzyme important for maintaining cortical dopamine, and effects of dopamine-modulating medication on cognitive function in schizophrenia.  In sum, these integrative, multimodal clinical data bridge an important gap between pharmacotherapeutics, neurophysiology and neurochemistry, creating a foundation for progress in better understanding key elements of antipsychotic action and failure.  <br /><br />This work involves the following studies: NCT00942981, NCT00001258, NCT00024622, NCT00004571, NCT00001247, NCT00044083, NCT00057707
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2015 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=91041&allpubs=Y&isajaxlink=Y&_UserReference=438598B608DBF9865B38D5A6','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Dickinson D, Straub RE, Trampush JW, Gao Y, Feng N, Xie B, Shin JH, Lim HK, Ursini G, Bigos KL, Kolachana B, Hashimoto R, Takeda M, Baum GL, Rujescu D, Callicott JH, Hyde TM, Berman KF, Kleinman JE, Weinberger DR (2014) Differential effects of common variants in SCN2A on general cognitive ability, brain physiology, and messenger RNA expression in schizophrenia cases and control individuals. JAMA Psychiatry 71:647-56
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24718902?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4160812/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24718902
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4160812 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Eisenberg DP, Berman KF (2014) Catechol-O-methyltransferase and genetic variation under hemizygosity. Biol Psychiatry 75:346-7
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/24507568?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4205935/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 24507568
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4205935 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

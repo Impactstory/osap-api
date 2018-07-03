@@ -1,0 +1,594 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002886</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002886-11</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neural mechanisms of reward processing and emotion
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Elisabeth Adams Murray; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/elisabeth-murray" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neurobiology of Learning and Memory, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neurobiology of Learning and Memory</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 8 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Ping-Yu  Chen<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Aaron Moyer Dean<br />
+
+
+
+
+Jaewon  Hwang<br />
+
+
+
+
+Peter Matthew Kaskan; PhD<br />
+
+
+
+
+Marvin Lionel Leathers<br />
+
+
+
+
+Mark Andrew Nicholas<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=101246&onameset=Section on Neurobiology of Learning and Memory&isajaxlink=Y&_UserReference=5A43267BA69493B15B38D021','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 8</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Vincent Daniel Costa  (Section on Learning and Decision Making)<br />
+
+
+
+David A Leopold; PhD  (Section on Cognitive Neurophysiology and Imaging)<br />
+
+
+
+Andrew Rattin Mitz; PhD  (Section on Neurophysiology)<br />
+
+
+
+Leslie G Ungerleider; PhD  (Laboratory of Brain and Cognition)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Decision making, Emotion, Neurophysiology, Orbitofrontal Cortex, Prefrontal cortex, Sensory Modalities, Amygdala
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Dysfunction of the orbitofrontal cortex (OFC), medial frontal cortex (MFC) and the amygdala have been consistently implicated in several mental health disorders, including mood and anxiety disorders, panic attack syndrome, obsessive-compulsive disorder (OCD), and major depressive disorder (MDD). Current theory holds that these parts of the brain process the feedback that results from decisions, and that the brain uses this feedback to improve future decisions. The OFC, MFC and amygdala also play a key role in emotional and autonomic responses and in the recognition of emotions in other people. Accordingly, to achieve the goal of understanding mental health disorders at the level of brain mechanisms, we seek to understand how the OFC, MFC and amygdala process feedback, produce decisions, and generate both autonomic and emotional responses. Achievement of this overarching goal requires a combination of neurophysiological and neuropsychological methods. The specific objectives of this project are therefore: (1) to delineate how neurons in the OFC and MFC signal changes in expected feedback; (2) to study the neurophysiological interaction between the amygdala and both the OFC and MFC as subjects make decisions based on predicted feedback; (3) to examine the role of the amygdala, OFC and MFC in producing emotional responses in anticipation of and in reaction to feedback. <br />
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+The amygdala, OFC and MFC contribute to learning, in part, by evaluating feedback. In an effort to extend our understanding of the physiological mechanisms underlying affective processing, we developed an fMRI paradigm to reveal blood-oxygen-level dependent (BOLD) responses to visual images that signal reward. Each week, subjects learned to associate images of novel objects with a high or low probability of water reward. Areas responding to the value of recently learned reward-predictive images included MFC area 10m/32, ventrolateral prefrontal cortex area 12, and inferior temporal visual cortex (IT). The amygdala and OFC, each thought to be involved in value encoding, showed little such effect. Instead, these two areas primarily responded to visual stimulation and reward receipt, respectively. Our findings demonstrate the importance of ventrolateral prefrontal cortex, MFC, and IT in representing the values of recently learned visual images. <br /><br />Tastes and their associated values drive food consumption and influence choice behavior. To understand the neural mechanisms underlying reward-guided decision making and value learning, we characterized the gustatory system in subjects with fMRI while measuring licking to control for oral movements, and to assess preferences. To identify taste-responsive cortex, we delivered small quantities of sucrose, citric acid, or distilled water in random order without any predictive cues (e.g., visual stimuli) to subjects while using event-related fMRI. In addition, we used an MRI-compatible lick sensor to measure subjects licking during the scans. fMRI signals associated with licking in the absence of fluid delivery were used to mask responses to fluid delivery/receipt and associated licking. Licking in the absence of fluid delivery and fluid receipt times for each tastant were incorporated into a general linear model to analyze fMRI data. By contrasting BOLD responses to sweet and sour tastes with those from distilled water, we identified taste responses in primary gustatory cortex area G, an adjacent portion of the anterior granular and dysgranular insular cortex, and area 12o. Choice tests run outside the scanner revealed that all three monkeys strongly preferred sucrose over citric acid or water. BOLD responses in the ventral striatum and amygdala reflected monkeys preferences, with greater BOLD responses to sucrose than citric acid. Finally, we examined the influence of hydration level by contrasting BOLD responses to receipt of fluids when monkeys were thirsty and after ad libitum water consumption. BOLD responses in area G and area 12o in the left hemisphere were greater following full hydration. By contrast, BOLD responses in portions of medial frontal cortex were reduced after ad libitum water consumption. These findings highlight brain regions involved in representing taste, taste preference and the motivational aspects of tastes.  <br /><br />Increasingly, changes in pupil size are being used as an index of affective state. Under appropriate conditions, pupil size can be correlated with behavioral events with good temporal resolution, making it a useful measure of learning. To probe the contribution of OFC to learning, we trained intact animals and those with OFC lesions on Pavlovian trace conditioning of stimulus-reward associations. The visually presented conditioned stimulus (CS+) was followed by a fluid reward delivered 500 ms after the stimulus was turned off. The CS was followed by an unfilled interval and no reward was delivered. Pupil size was measured with an eye-tracking device. Controls exhibited an increased pupil size to the CS+, compared to the response to the CS-, within a couple of training sessions (mean = 2) and continued to show the conditioned pupil response in anticipation of reward across at least 4 consecutive sessions. By contrast, animals with OFC lesions required more sessions (mean = 14 sessions) to acquire the conditioned autonomic response and three out of four failed to sustain it for 4 consecutive sessions even with an extended period of training (48 sessions on average). We conclude that the OFC is necessary for learning Pavlovian autonomic responses to cues that predict positive events.<br /><br />An earlier study showed that amygdala inputs made a significant contribution to the stimulus-outcome coding of neurons in OFC. In that study, subjects learned a small set of stimulus-reward associations. When these associations were well learned, and highly familiar, neuronal activity was recorded in OFC. In a follow up study, we recorded from OFC neurons while subjects were engaged in learning of stimulus-outcome associations. As before, subjects performed a task that required them to evaluate two stimuli and then choose one to receive the reward associated with that option. Four main findings emerged. First, amygdala lesions slowed the acquisition and use of stimulus-reward associations. Further analyses indicated that this impairment was due, at least in part, to ineffective use of negative feedback to guide subsequent decisions. Second, the activity of neurons in OFC and MFC rapidly evolved to encode the amount of reward associated with each stimulus. Third, amygdala removal reduced the encoding of stimulus-reward associations during the evaluation of different stimuli. Reward encoding of anticipated and received reward after choices were made was not altered. Fourth, amygdala lesions led to an increase in the proportion of neurons in MFC, but not OFC, that encoded the instrumental response that monkeys made on each trial. These correlated changes in behavior and neural activity following amygdala lesions strongly suggest that the amygdala contributes to the ability to rapidly learn stimulus-reward associations through shaping encoding within OFC and MFC.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101246&allpubs=Y&isajaxlink=Y&_UserReference=5A43267BA69493B15B38D021','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Mitz AR, Chacko RV, Putnam PT, Rudebeck PH, Murray EA (2017) Using pupil size and heart rate to infer affective states during behavioral neurophysiology and neuropsychology experiments. J Neurosci Methods 279:1-12
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28089759?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5346348/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28089759
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5346348 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Rudebeck PH, Ripple JA, Mitz AR, Averbeck BB, Murray EA (2017) Amygdala Contributions to Stimulus-Reward Encoding in the Macaque Medial and Orbital Frontal Cortex during Learning. J Neurosci 37:2186-2202
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28123082?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5338760/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 28123082
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5338760 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,718 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002899</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002899-08</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neurophysiology Imaging Facility Core:  Functional and Structural MRI
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2014 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2013 -  September 30, 2014</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+David A Leopold; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/david-leopold" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Neurophysiology Imaging Core, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Neurophysiology Imaging Core</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Jeffrey Alexander Clark<br />
+
+
+
+
+Frank Qing Ye; PhD<br />
+
+
+
+
+David  Yu<br />
+
+
+
+
+Charles  Zhu<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Andrew Rattin Mitz; PhD  (Section on Neurophysiology)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Peter Joel Basser; PhD (NICHD) <br />
+
+
+
+Jozef H Duyn; PhD (NINDS) <br />
+
+
+
+Alan Paul Koretsky; PhD (NINDS) <br />
+
+
+
+Hellmut  Merkle; MS, PHD (NINDS) <br />
+
+
+
+Carlo  Pierpaoli; MD, PhD (NICHD) <br />
+
+
+
+Afonso C Silva; PhD (NINDS) <br />
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborator
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Kendall  Lee; MD, PhD
+<i>(Neurologic Surgery, Mayo Clinic)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+BOLD, fMRI, functional imaging, neurophysiology
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Magnetic resonance imaging (MRI) has revolutionized medicine. Its functional counterpart (fMRI) has fundamentally changed our understanding of the workings of the human brain.  These methods have also transformed the publics awareness of the brain: colorful pictures of brain activity have become a societal icon for how humans think.  Pointing to the brains activity as the basis of thoughts and decisions may be an important step in combating misperceptions and stigmas surrounding mental dysfunction. The Neurophysiology Imaging Facility (NIF) is a core group that supports the thriving NIH nonhuman primate community.  Through anatomical scanning, the core helps electrophysiological researchers conduct their studies in a more efficient and targeted way.  The focus of the NIF core, however, is fMRI, and research in the facility attempts to combine functional imaging of the entire brain with invasive procedures, impossible in humans, that shed light on fundamental aspects of brain function. The NIF facility was established in 2004 and is a shared intramural resource contributed to by three institutes (NIMH, NINDS, and NEI).
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+At the NIH, the Neurophysiology Imaging Facility is a core facility dedicated to the MRI scanning of nonhuman primates.  The NIF, which was founded in 2004,  offers services to a wide range of investigators in each of the three sponsoring institutes (NIMH, NINDS, and NEI). These services assist in the research effort of many investigators in the thriving NIH nonhuman primate community.  <br /><br />Anatomical scans allow for the identification and verification of brain structures in vivo.  Scientists needing to localize a neural circuit of interest or investigating the distribution of a new drug in the brain are able to quickly and easily scan their animals in the facility.   Functional scans (fMRI), conducted in animals performing a host of behavioral tasks, allow for the assessment of brain activity, thus providing a bridge to the wealth of human fMRI studies. Both structural and functional imaging in the NIF exploit the latest cutting-edge MRI imaging technology, allowing users to combine imaging with other invasive techniques, such as microelectrode recordings, pharmacological inactivation, or anatomical tract tracing.  The facility develops, designs, builds, and maintains radio frequency (RF) coils for a range of imaging needs. Testing animals inside a strong magnetic field has required the development of a wide array of MRI-compatible equipment, including animal chairs, restraint devices, reward delivery apparatus, eye position tracking cameras, and manual response keys. Users are set up with RF coils and these other devices, allowing them to initiate their studies with minimal development on their part. <br /><br />Structural scans: Using the standard setup, the facility staff assists with scans that aid in MRI-targeting of electrophysiological sites, identification of microelectrode positions, evaluation of experimental precision, and, importantly, the direct comparison of electrical recording sites with foci of fMRI responses in the context of a cognitive task. We are further able to combine these techniques with (1) reversible inactivation of electrical neural activity using pharmacological agents, (2) the identification of anatomical pathways using transported, MRI-visible chemicals such as manganese chloride, and (3) electrical microstimulation, where small local currents activate neurons that project to regions that can be detected using the fMRI signal. Surgical targeting is another relies upon particularly high-quality, distortion-free 3-D images of the brain. We have recently implemented algorithms that measure and compensate for small geometric distortions in the images that might hamper surgical precision. The facility also offers a frameless stereotaxy protocol to assist the surgeon with implantation. This method permits a visualization of the high-resolution scan during surgery, with a real-time depiction of the surgical instruments relative to the scanned brain structures. We have used this approach routinely to aid in the accurate implantation of electrode bundles and chronic cannulae, targeted ablations, and the placement of recording chambers. <br /><br />Functional MRI scans: The most unique aspect of the facility is the capacity to conduct fMRI simultaneous with other measurements and perturbations.  The Intramural Research Program at the NIH is one of the very few sites around the world in which monkeys can routinely participate in both fMRI and electrophysiological studies. The fMRI studies go beyond mapping functional specialization in the brain. Experiments within the facility typically combine fMRI with other, invasive procedures, such as microelectrode recordings or pharmacological inactivation.  In the last year, neuroscience have combined fMRI with cortical ablation, pharmacological inactivation, electrocorticogram recordings, electrical microstimulation, and recordings from chronic microwire arrays. The fMRI experiments produce large data files that must be processed to evaluate the functional activity patterns across the brain.  The facility provides storage of these data, as well as help in the initial processing steps.<br /><br />Ex-vivo MRI scans for diffusion MRI:  The core facility also carries out some diffusion weighted (DTI) scanning of, both in vivo and ex vivo.  Recently, Dr. Ye in the facility has led an investigation exploring the possibilities of DTI, and the associated tractography methods.  To do this, multiple macaque and marmoset brains were scanned ex vivo, each for up to 72 hours continuously.  This approach allowed for sufficient signal to noise and angular resolution that might foreshadow in vivo human data acquisition in the future. These very high quality brain samples were analyzed in multiple ways, with one publication nearing publication Thomas et al, (2014), and a second one nearing submission.  These studies aim to clarify the promise and inherent limits of diffusion tractography in the human brain , now and in the near future. <br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2014 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=86333&allpubs=Y&isajaxlink=Y&_UserReference=55E7F8DA342E025A5B38D4BF','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Daye PM, Monosov I, Hikosaka O, Leopold DA, Optican LM (2013) pyElectrode: an open-source tool using structural MRI for electrode positioning and neuron mapping. J Neurosci Methods 213:123-31
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23261658?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3570753/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23261658
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3570753 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Liu JV, Hirano Y, Nascimento GC, Stefanovic B, Leopold DA, Silva AC (2013) fMRI in the awake marmoset: somatosensory-evoked responses, functional connectivity, and comparison with propofol anesthesia. Neuroimage 78:186-95
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23571417?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3778909/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23571417
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 3778909 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Scholvinck ML, Leopold DA, Brookes MJ, Khader PH (2013) The contribution of electrophysiology to functional connectivity mapping. Neuroimage 80:297-306
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23587686?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4206447/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 23587686
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4206447 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

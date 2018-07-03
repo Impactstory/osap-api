@@ -1,0 +1,621 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002881</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002881-11</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Molecular Mechanisms of Synapse Development and Plasticity
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Zheng  Li; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/zheng-li" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Synapse Development and Plasticity, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Synapse Development and Plasticity</i></div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Kaizheng  Duan<br />
+
+
+
+
+Hongmei  Shen<br />
+
+
+
+
+Ma  Xiaoyu<br />
+
+
+
+
+Jun  Zhao<br />
+
+
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+</div>
+</div>
+
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Lee E Eiden; PhD  (Section on Molecular Neuroscience)<br />
+
+
+
+Mario Alexander Penzo  (Unit on the Neurobiology of Affective Memory)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Alexxai Vladimir Kravitz (NIDDK) <br />
+
+
+
+Jun  Zhu; PhD (NHLBI) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+M  Braga; PhD
+<i>(Psychiatry,  Uniformed Services University of the Health Sciences)</i>
+<br />
+
+
+
+He  Li; MD, PhD
+<i>(Department of Psychiatry, Uniformed Services University of the Health Sciences)</i>
+<br />
+
+
+
+Ann M. Marini; PhD, MD
+<i>(Neurology, Uniformed Services University of the Health Sciences)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+synapse, AMPA receptor, autophagy, synaptic vesicle, long-term synaptic depression, synaptic plasticity, dendritic spine, in vivo imaging
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+Synapses are specialized contact sites between neurons where information is transmitted. Synapses are assembled between presynaptic and postsynaptic neurons during early brain development. They are rearranged to optimize the connectivity of neural circuits during brain maturation, and are modulated in strength, size and number by experience during cognitive, emotional and behavioral processes. The ability of a synapse to change its structure and function is called synaptic plasticity, which is critical for proper brain development and function. Many mental disorders, including schizophrenia, autism, depression, and anxiety disorders are believed to stem from abnormal synaptic function as a consequence of aberrant development and/or adverse experience that influence synapses. The goal of this project is to identify the molecular and cellular mechanisms underlying synaptic plasticity and synapse development, to gain insights into the mechanisms of synaptic pathology associated with mental disorders, and to facilitate the development of new preventive and therapeutic strategies for mental illness. The objective of this project during the current reporting period is to delineate the mechanisms responsible for long-term synaptic depression and synaptopathology associated with schizophrenia.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Synapses can change their efficacy through synaptic plasticity. Long-lasting forms of synaptic plasticity (such as long-term potentiation and long-term depression of synaptic transmission) are important cellular mechanisms underlying information storage in the brain and the establishment of proper neural circuits during development. In this project, we investigated the mechanism underlying long-term depression of synaptic transmission. Our study shows that macroautophagy (autophagy hereinafter) plays an important role in LTD. Autophagy is a cellular process by which cytoplasmic components and organelles are delivered to lysosomes for degradation. Autophagy removes misfolded or aggregated proteins and defective organelles. Dysfunctional autophagy has been associated with neurological disorders. Autophagy is also essential for the development and function of synapses. It enables developmental pruning of dendritic spines (subcellular structures accommodating postsynaptic components), regulates presynaptic structure and dopamine release, and regulates degradation of postsynaptic receptors.<br />Autophay is initiated by the formation of a phagophore (the isolation membrane). The phagophore expands into autophagosomes (a double membrane structure) to sequester the cargo, and then fuses with lysosomes to become an autolysosome where the cargo is degraded. These processes are orchestrated by more than 30 autophagy-related (Atg) proteins and multiple signaling pathways. Mechanistic target of rapamycin complex 1 (mTORC1) is the best-characterized regulator of autophagy induction in mammalian cells. It inhibits autophagy initiation by phosphorylating ULK1/2 (Unc-51-like kinase) and Atg13. <br />Using mTOR inhibitors and knockout mice with deficient autophagy, we found that autophagic fluxis changed during LTD and this in turn leads toAMPA receptor endocytosis. During this reporting period, we investigated the mechanism by which autophagy is regulated in LTD and how autophagy contributes to LTD. We also examined the behavior of mice in which autophagic flux is altered. <br />2. The mechanism by which the schizophrenia risk gene dysbindin contributes to synaptopathology in schizophrenia. Dysbindin is a coiled-coil domain containing protein, initially discovered as a dystrophin-binding protein and later found to be one of eight subunits of biogenesis of lysosome-related organelles complex 1 (BLOC-1). Single-nucleotide polymorphisms of the dysbindin gene (Dtnbp1) have been associated with higher risk for schizophrenia, and the postmortem brains of schizophrenia patients consistently exhibit low levels of dysbindin proteins and mRNAs. Our earlier work shows that dysbindin contributes to the establishment of neuronal connectivity by regulating the development of dendritic protrusions, including dendritic spines (tiny dendritic protrusions where excitatory synapses are formed) and filopodia (long, thin protrusions that predominant in young neurons). Dysbindin, therefore, may confer the risk for schizophrenia by regulating the development of dendritic spines. <br />Psychiatric disease is commonly precipitated by psychological stress. It is largely unclear how stress interacts with genetic risk factors in the etiology of schizophrenia. In this project, we investigated the effect of stress on the behavior of dysbindin null mutant mice. We found that mild stress that does not significantly affect the behavior of wild-type mice induces behaviors that are related to the symptom of schizophrenia in mutant mice. We recorded in the brain slices of stressed mice and found that stress alters synaptic physiology in mutant but not in wild-type mice. During this reporting period, we examined the effect of stress on synaptic physiology in sdy mice. We also set up a two-photon microscopy system to take images of dendritic spines in awake, behaving mice. We will use this system to investigate whether and how stress affects the number, morphology and dynamics of dendritic spines in the brain.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101243&allpubs=Y&isajaxlink=Y&_UserReference=A5A4EBD98942C6335B38D016','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Shen H, Li Z (2016) miRNAs in NMDA receptor-dependent synaptic plasticity and psychiatric disorders. Clin Sci (Lond) 130:1137-46
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27252401?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5582542/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27252401
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5582542 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

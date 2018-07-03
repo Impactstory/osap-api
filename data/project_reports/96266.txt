@@ -1,0 +1,742 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002852</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002852-12</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Clinical Evaluation of PET Radiotracers
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2015 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Robert  Innis; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/robert-innis" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on PET Neuroimaging Sciences, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on PET Neuroimaging Sciences</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 14 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Elizabeth C Alzona<br />
+
+
+
+
+Emily Rose Fennell<br />
+
+
+
+
+Maria D Ferraris Araneta; RN<br />
+
+
+
+
+Masahiro  Fujita<br />
+
+
+
+
+Holly A Giesen<br />
+
+
+
+
+Robert  Gladding<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=96266&onameset=Section on PET Neuroimaging Sciences&isajaxlink=Y&_UserReference=91E98A0AB11D17225B38D1D4','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 14</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Peter  Herscovitch; MD (CC) <br />
+
+
+
+William Harold Theodore; MD (NINDS) <br />
+
+
+
+Nora D Volkow; MD (NIDA) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Roger N Gunn; PhD
+<i>(Imanova)</i>
+<br />
+
+
+
+Tetsuya  Suhara; MD, PhD
+<i>(Natl Institute Radiological Sciences)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+positron emission tomography, radiochemistry, radiotracer, depression
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The goal of this laboratory is to develop, evaluate, and implement new probes to examine the chemistry of the living brain with PET. With this technique, miniscule doses of a radioactively labeled drug are administered to a subject. The drug travels to the brain and binds to specific target sites, called receptors. The distribution and density of these targets in the brain can be measured with a PET camera. Although some of the PET radiolabeled drugs might be used for diagnostic purposes, the major use of these agents is to study the pathophysiology of disease.  <br /><br />The following protocols were open in the prior year but have not accrued adequate subjects to report firm conclusions:  NCT01547780, NCT02181582, NCT00407693, NCT01386476, NCT01793532, NCT01851356, NCT01896843, NCT02147392, and NCT02211820.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+1. We found that to measure translocator protein (TSPO) density in Alzheimers Disease (AD) and control subjects, a simple ratio method (standardized uptake value ratio, SUVR) can substitute for, and may even be more sensitive than, absolute quantitation. We also found that TSPO binding increases with progression of AD but not in healthy aging, suggesting that inflammation increases in proportion to worsening of disease in AD. This work was performed under NCT00613119 and NCT00955422. <br /><br />11C-PBR28 PET imaging was performed in 21 healthy controls, 11 individuals with mild cognitive impairment (MCI), and 25 AD patients. Group differences in 11C-PBR28 binding were compared using two methods: the gold standard method of calculating distribution volume (VT), using the two-tissue compartmental model with the arterial input function corrected for plasma free fraction of radiotracer and a ratio of brain uptake in target regions to that in cerebellum: SUVR. Using absolute quantitation, we confirmed that TSPO binding: 1) was greater in AD patients than healthy controls in expected temporo-parietal regions, and 2) was not significantly different among the three groups in cerebellum. Using the cerebellum as a pseudo-reference region, the SUVR method detected greater binding in AD patients than controls in the same regions as absolute quantification and in one additional region, suggesting that SUVR may have greater sensitivity. <br /><br />The results indicate that, to measure TSPO density in AD and control subjects, a simple ratio method (SUVR) can substitute for, and may even be more sensitive than, absolute quantitation. This method is expected to improve subject tolerability by allowing shorter scan time and not requiring arterial catheterization. It may also allow smaller sample sizes for comparable statistical significance because of the relatively low variability of the ratio values. <br /><br />We then sought to determine if TSPO binding increases with progression of AD and in healthy aging. Eleven patients with either AD or MCI and eight cognitively normal age-matched controls underwent 11C-PBR28 PET at baseline and after median follow-up of 2.7 years. Cerebellar gray matter was used as a pseudo-reference region. TSPO binding in temporo-parietal regions increased 4-6% per annum in patients, but did not increase in controls. Of great importance, the change in TSPO binding correlated with cognitive worsening on Clinical Dementia Rating scale  Sum of Boxes and with reduced cortical volume. The annual rate of increased TSPO binding in temporo-parietal regions was about five-fold higher in patients with clinical progression (n = 9) compared to those who did not progress (n = 5). Taken together, these results suggest that TSPO may serve as a biomarker of Alzheimers progression and response to anti-inflammatory therapies.<br /><br />We extended this work in another study to determine whether patients with posterior cortical atrophy (PCA) demonstrate a pattern of binding to TSPO that is distinct from that in patients with amnestic AD. Towards that end, 11 PCA patients, 11 amnestic AD patients, and 15 age-matched controls underwent PET with 11C-PBR28 to measure TSPO and with 11C-Pittsburgh Compound B to measure fibrillar amyloid burden. PCA patients also underwent imaging with 18F-fluorodexoxyglucose (FDG) to measure cerebral glucose metabolism, and these results were compared to those from 15 age-matched historical controls. <br />We found that PCA patients showed greater 11C-PBR28 binding than controls in occipital, posterior parietal, and temporal regions. In contrast, amnestic AD patients showed greater 11C-PBR28 binding in inferior and medial temporal cortex. Increased 11C-PBR28 binding overlapped with reduced cortical volume for both PCA and amnestic AD patients and with areas of reduced glucose metabolism in PCA patients. While both patient groups showed diffuse amyloid binding, PCA patients showed greater binding than amnestic AD patients in bilateral occipital cortex. Taken together, the results indicate that PCA and typical amnestic AD patients have distinct patterns of increased TSPO binding that mirrors cortical thickness loss and glucose hypometabolism. These results suggest that microglial activation is closely associated with neurodegeneration across different subtypes of AD.<br /><br /><br />2. Using 11C-(R)-rolipram, a phosphodiesterase type IV (PDE4) inhibitor, we found that two months of treatment with an SSRI increased (normalized) PDE4 binding in individuals with major depressive disorder (MDD). Work was performed under NCT00369798.<br /><br />PDE4 is an important component of the cyclic adenosine monophosphate (cAMP) cascade, and studies suggest that it mediates the effects of several antidepressants. We previously confirmed in animals that increased 11C(R)-rolipram binding reflects the phosphorylated/active state of PDE4. Using this radioligand, we found that PDE4 binding was decreased in unmedicated patients with MDD, consistent with the cAMP theory of depression. To quantify the binding of 11C-(R)-rolipram as an indirect measure of this enzyme's activity in the brain of individuals with MDD, we performed 11C-(R)-rolipram brain PET scans in 28 moderately depressed MDD subjects and 25 age- and gender-matched healthy controls; roughly half of the patients were treatment-naive. We found that PDE4 levels were decreased in unmedicated individuals with MDD in vivo.<br /><br />In collaboration with Dr. Zarate (NIMH), we investigated cAMP cascade activity by using 11C-(R)-rolipram to image PDE4 in unmedicated MDD patients and after approximately eight weeks of treatment with a selective serotonin reuptake inhibitor (SSRI; mostly citalopram). 11C-(R)-rolipram PET scans were performed in 44 unmedicated patients during a major depressive episode and 35 healthy controls. Twenty-three of the 44 patients had a follow-up 11C-(R)-rolipram PET scan approximately eight weeks after treatment with an SSRI. Patients were moderately depressed (Montgomery-sberg Depression Rating Scale (MADRS) score=306) and about half were treatment-nave. 11C-(R)-Rolipram binding was measured using arterial sampling to correct for individual differences in radioligand metabolism. We found widespread, 20% reductions in 11C-(R)-rolipram binding in unmedicated MDD patients compared to controls across 10 large brain regions (p=0.001). SSRI treatment significantly increased rolipram binding (12%, P&lt;0.001) with significantly greater increases observed in older patients (P&lt;0.001). In contrast, 11 healthy controls who had a repeat scan without SSRI showed only small changes on repeat scans. Rolipram binding did not correlate with severity of baseline symptoms, and increased rolipram binding during treatment did not correlate with symptom improvement. <br /><br />Taken together, the results indicate that, consistent with the results of basic studies, PDE4 is decreased in unmedicated MDD patients and increased after SSRI treatment. Thus, the results suggest that the cAMP cascade, as indirectly measured with PDE4 binding, is downregulated in unmedicated patients with MDD, and that antidepressant treatment normalizes this 11C-(R)-rolipram downregulation.The lack of correlation between PDE4 binding and depressive symptoms could reflect the heterogeneity of the disease and/or the heterogeneity of the target, given that PDE4 has four subtypes. These results suggest that PDE4 inhibitors, which increase cAMP cascade activity, may have antidepressant effects.<br /><br /><br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2016 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=96266&allpubs=Y&isajaxlink=Y&_UserReference=91E98A0AB11D17225B38D1D4','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Gershen LD, Zanotti-Fregonara P, Dustin IH, Liow JS, Hirvonen J, Kreisl WC, Jenko KJ, Inati SK, Fujita M, Morse CL, Brouwer C, Hong JS, Pike VW, Zoghbi SS, Innis RB, Theodore WH (2015) Neuroinflammation in Temporal Lobe Epilepsy Measured Using Positron Emission Tomographic Imaging of Translocator Protein. JAMA Neurol 72:882-8
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26052981?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5234042/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26052981
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5234042 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Kreisl WC, Bhatia R, Morse CL, Woock AE, Zoghbi SS, Shetty HU, Pike VW, Innis RB (2015) Increased permeability-glycoprotein inhibition at the human blood-brain barrier can be safely achieved by performing PET during peak plasma concentrations of tariquidar. J Nucl Med 56:82-7
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25500831?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4495896/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25500831
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4495896 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Liow JS, Zoghbi SS, Hu S, Hall MD, Hines CS, Shetty HU, Araneta MD, Page EM, Pike VW, Kreisl WC, Herscovitch P, Gottesman MM, Theodore WH, Innis RB (2016) (18)F-FCWAY, a serotonin 1A receptor radioligand, is a substrate for efflux transport at the human blood-brain barrier. Neuroimage 138:134-40
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27211474?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4928098/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 27211474
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4928098 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Lyoo CH, Ikawa M, Liow JS, Zoghbi SS, Morse CL, Pike VW, Fujita M, Innis RB, Kreisl WC (2015) Cerebellum Can Serve As a Pseudo-Reference Region in Alzheimer Disease to Detect Neuroinflammation Measured with PET Radioligand Binding to Translocator Protein. J Nucl Med 56:701-6
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25766898?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4839390/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25766898
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4839390 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,759 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002918</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002918-09</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Functional Anatomy of Face Processing in the Primate Brain
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2017 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2016 -  September 30, 2017</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Leslie G Ungerleider; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/leslie-ungerleider" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neurocircuitry, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neurocircuitry</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 11 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Adam  Messinger; PhD<br />
+
+
+
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Sara  Ahmed<br />
+
+
+
+
+Molly Renee Flessert<br />
+
+
+
+
+Shruti A Japee; BS, MS, PhD<br />
+
+
+
+
+Savannah Brittany Lokey<br />
+
+
+
+
+Nicole Patricia Mlynaryk<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=101265&onameset=Section on Neurocircuitry&isajaxlink=Y&_UserReference=D55782FE190A092A5B38D3D3','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 11</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Bruno B Averbeck  (Laboratory of Neuropsychology)<br />
+
+
+
+Elisabeth Adams Murray; PhD  (Section on Neurobiology of Learning and Memory)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Galia  Avidan; PhD
+<i>(Ben-Gurion University of the Negev)</i>
+<br />
+
+
+
+Marlene  Behrmann; PhD
+<i>(Carnegie Mellon University)</i>
+<br />
+
+
+
+Andrew H Bell; PhD
+<i>(Oxford University)</i>
+<br />
+
+
+
+Fadila  Hadj-Bouziane
+
+<br />
+
+
+
+Alumit  Ishai
+<i>(National Science Foundation)</i>
+<br />
+
+
+
+David  Pitcher; Ph.D.
+<i>(Department of Psychology, University of York)</i>
+<br />
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+face processing, brain imaging, cerebral cortex, emotion, inferior temporal cortex, perception, visual cognition, oxytocin
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The ability of primates, both human and non-human, to effortlessly recognize faces, sometimes many years after a single encounter, has been attributed to the existence of specialized neural machinery for face perception. The long-term goal of this project is to understand the functional architecture of face processing in the primate brain using a variety of neurobiological techniques, including functional brain imaging, single-cell recording, de-activation (both acute and chronic), microstimulation, pharmacological manipulation, and tract tracing with MRI-visible compounds. Whenever possible, results from humans are compared to those from monkeys, so that cross-species comparisons are possible. Because recognizing faces and facial expressions is crucial for appropriate social interactions, a better understanding of the neural mechanisms for face processing should have a major impact on the treatment of disorders of social cognition, such as autism, schizophrenia, and anxiety. This work was conducted under protocol 93-M-0170 (NCT00001360) and 12-M-0128 (NCT01617408).
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+Lesions of inferior temporal (IT) cortex in humans can result in the syndrome termed prosopagnosia, an inability to recognize familiar faces. Single-cell recordings from IT cortex of monkeys have revealed the existence of neurons that are selectively activated by visual images of faces. Additionally, functional magnetic resonance imaging (fMRI) of both human and monkey brains has demonstrated face-selective regions, in which the fMRI signal evoked by faces is greater compared to that evoked by non-face objects. Together, these studies point to specialized neural machinery in the primate brain for processing faces. Thus far, our group and others have shown that the neural circuitry for face processing consists of a network of brain regions in the temporal and prefrontal cortex as well as in the amygdala.<br /><br />During the past year, we have made a number of important discoveries regarding the neural mechanisms mediating face processing:<br />   1. Electrical stimulation of the amygdala led to stronger fMRI activation in face- than object-selective regions in the monkey temporal lobe, indicating that cortical face processing is strongly modulated by feedback from the amygdala, which likely conveys the emotion signaled by anothers expression and focuses the viewers attention on diagnostic facial features.<br />   2. Multi-voxel pattern analysis of fMRI signals together with machine learning methods revealed that the classification of emotional facial expression and facial identity occurs in different neural substrates of the human brain: the amygdala and posterior superior temporal sulcus (STS) for the former and the fusiform face area and anterior inferior temporal cortex for the latter.<br />   3. Thetaburst transcranial magnetic stimulation (TBS), which temporarily disrupts neural activity, delivered over the posterior STS reduced the neural response to dynamic faces (but not to bodies or objects) in the posterior STS, anterior STS and amygdala, compared to TBS delivered over the vertex, indicating a cortico-amygdala pathway via the STS for dynamic face perception in humans.<br />   4. Intranasal administration of oxytocin, a neuropeptide and potential treatment for autism, selectively altered fMRI responses to emotional expressions in monkeys, significantly reducing responses to both fearful and aggressive faces in face-responsive regions while leaving responses to appeasing and neutral faces unchanged, thereby explaining the beneficial effects of oxytocin on social cognition.<br />   5. Pharmacological inactivation combined with fMRI in monkeys demonstrated that the functional network among the face-processing regions is hierarchically organized: activation of the amygdala by faces depends on inputs from the anterior temporal lobe face regions, whereas activation of these anterior regions depends on inputs from more posterior temporal lobe face regions.<br />   6. Detection of configural face differences by humans led to stronger activation relative to featural face differences in the posterior parietal cortex (PPC), and transcranial magnetic stimulation centered on PPC impaired their performance on configural but not featural difference detections, indicating that spatial mechanisms within the PPC are necessary for configural face processing and, more broadly, for veridical face perception.<br />   7. Patients with Moebius syndrome, a rare genetic neurological disorder characterized by facial paralysis, showed an impairment in their ability to recognize emotional expressions in others, indicating that the perception of emotional expressions depends on the ability to produce those expressions oneself.<br />   8. The pattern of eye movements in monkeys reveals that, like humans, they experience face pareidolia, the experience of perceiving faces on inanimate objects, indicating that this illusion is driven by a broadly-tuned face detection mechanism that we share with other species.
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2017 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=101265&allpubs=Y&isajaxlink=Y&_UserReference=D55782FE190A092A5B38D3D3','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by reference within the summary, then by publication type and author name.
+</p>
+
+
+
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div> <div style="margin: -1.6em 0px 5px 2em;">Bell AH, Summerfield C, Morin EL, Malecek NJ, Ungerleider LG (2016) Encoding of stimulus probability in macaque inferior temporal cortex. Curr Biol 26:2280-90
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/27524483?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5021632/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 27524483
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5021632 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div> <div style="margin: -1.6em 0px 5px 2em;">Zhang H, Japee S, Nolan R, Chu C, Liu N, Ungerleider LG (2016) Face-selective regions differ in their ability to classify facial expressions. Neuroimage 130:77-90
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26826513?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4808360/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 26826513
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4808360 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div> <div style="margin: -1.6em 0px 5px 2em;">Pitcher D, Japee S, Rauth L, Ungerleider LG (2017) The superior temporal sulcus is causally connected to the amygdala: a combined TBS-fMRI study. J Neurosci 37:1156-1161
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28011742?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5296794/?report=classic" target="_blank">Free Article</a>
+
+
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 28011742
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5296794 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">4.</div> <div style="margin: -1.6em 0px 5px 2em;">Tomeo OB, Ungerleider LG, Liu N (2017) Preference for averageness in faces does not generalize to non-human primates. Frontiers in Behavioral Neuroscience 11:129
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">5.</div> <div style="margin: -1.6em 0px 5px 2em;">Seidlitz J, Sponheim C, Glen D, Ye FQ, Saleem KS, Leopold DA, Ungerleider LG, Messinger A (2018). A population MRI brain template and analysis tools for the macaque. Neuroimage  170, 121-131.   https://doi.org/10.1016/j.neuroimage.2017.04.063
+<div class="showlink">
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/28461058?dopt=Abstract" target="_blank">PubMed</a>
+
+
+	 [Available in future as a Free Article] <!-- looks for PMC translations for in progress or embargoed -->
+ <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+<br /><div class="nolink">PubMed ID 28461058
+ &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 5660669 <!-- looks for PMC ID -->
+ <!-- looks for PubMed ID -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">6.</div> <div style="margin: -1.6em 0px 5px 2em;">Taubert JA, Wardle SG, Flessert MR, Leopold DA, Ungerleider LG (2017) Face pareidolia in the rhesus monkey. Current Biology, in press.
+
+
+
+</div>
+</div>
+ <!-- ends ordered rows -->
+
+
+
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

@@ -1,0 +1,797 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002619</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002619-25</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Neural Mechanisms of Motivation and Reward
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2015 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Barry J Richmond; MD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/barry-richmond" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Neural Coding and Computation, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Neural Coding and Computation</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 12 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+Walter  Lerchner; PhD<br />
+
+
+
+Mark Alexander Grainger Eldridge<br />
+
+
+
+Samarth  Chandra<br />
+
+
+
+Rossella  Falcone<br />
+
+
+
+Tsuyoshi  Setogawa<br />
+
+
+
+Richard C Saunders; PhD<br />
+
+
+
+ <!-- step through any ordered staff -->
+
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=96243&onameset=Section on Neural Coding and Computation&isajaxlink=Y&_UserReference=CD77D2EFFAC0A6485B38D642','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 12</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+<div id="moresamestaff">
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+<div class="morelist">
+<form id="moresamestaffu">6 of a total of 8 other  members are shown. </div>
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Elisabeth Adams Murray; PhD (Section on Neurobiology of Learning and Memory)<br />
+
+
+
+
+
+
+
+
+
+
+
+
+Bruno B Averbeck  (Laboratory of Neuropsychology)<br />
+
+
+
+Gang  Chen; PhD  (Scientific and Statistical Computing Core)<br />
+
+
+
+Vincent Daniel Costa  (Laboratory of Neuropsychology)<br />
+
+
+
+Robert  Innis; MD  (Molecular Imaging Branch)<br />
+
+
+
+Victor W Pike; PhD  (Section on PET Radiopharmaceutical Sciences)<br />
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('moresamestaff','searchview.taf?_function=showmore&ios=S&ipid=96243&thisic=&isajaxlink=Y&_UserReference=CD77D2EFFAC0A6485B38D642','moresamestaffu');  return false;">
+
+
+<span class="morelist">Show all 8</span></a>.</form></div>
+
+
+
+</div>
+</div>
+
+
+</div>
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+Alan Paul Koretsky; PhD (NINDS) <br />
+
+
+
+Martin J Lizak; PhD (NINDS) <br />
+
+
+
+
+
+
+
+
+
+
+
+
+Xiaoyuan  Chen; PhD (NIBIB) <br />
+
+
+
+Dale Oscar Kiesewetter; BS, PhD (NIBIB) <br />
+
+
+
+John H Wittig; PhD (NINDS) <br />
+
+
+
+Kareem Amir Zaghloul; MD, PhD (NINDS) <br />
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+S  Bouret; Ph.D.
+<i>(Institut du Cerveau et de la Moelle epiniere)</i>
+<br />
+
+
+
+Narihisa  Matsumoto; PhD
+<i>(Neurotechnology Group, AIST)</i>
+<br />
+
+
+
+Takafumi  Minamimoto; PhD
+<i>(Molecular Neuroimaging, Natl Inst Radiological Science)</i>
+<br />
+
+
+
+Munetaka  Shidara; PhD
+<i>(Neuroscience Research Institute, AIST)</i>
+<br />
+
+
+
+Y  Sugase-Miyamoto; PhD
+<i>(Neuroscience Research Institute, AIST)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+orbitofrontal cortex, rhinal cortex, reinforcement, motivation, basal ganglia, learning, DREADDs
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The desire to act, that is, motivation, arises from the interactions of external factors, e.g., size and timing of reward, and internal factors, e.g., hunger or thirst. Motivation is directly related to the subjective value of reward, and is moderated, or even completely dissipated, if the perceived effort or discomfort seems too great. The normal balance between reward and work is disturbed in many psychiatric disorders, such as depression where feelings of hopelessness make rewards seem not worth pursuing and the work to obtain them too burdensome, or drug abuse where the drug of abuse is so valuable it will be sought even at great danger or cost, both personal and social. We are studying how the value of behavior is modified by the balance between reward value and burden to obtain reward in monkeys. The monkeys naturally vary their performance while we manipulate the reward size and the amount of work needed to obtain reward. We carry out theoretical studies trying to describe the exact balance among these factors, behavioral studies with both normal monkeys and monkeys with selective ablations, single neuron recordings to learn what signals related to these factors are present in different brain regions of the reward system, and genetically-based receptor manipulations to determine what the underlying molecular mechanisms for this behavior are.
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+When we choose one item from several alternatives, we consider their values from amount of reward and the amount of work needed to obtain them. To study the neuronal mechanism of such a decision-making, we developed a decision-making schedule task and recorded single unit activity from monkey orbitofrontal cortex (OFC), a cortical region that the neurons carry information about rewards and their values.<br /><br />Two monkeys were initially trained to perform a reward schedule task. In this task, the monkey had to complete the schedule composed of 1, 2 or 4 trials of visual discriminations to earn 1, 2 or 4 drops of liquid reward. After the monkey learned this task, the decision-making schedule task was introduced. The decision-making schedule task had a decision-making part and a reward schedule part. In the decision-making part, two choice targets were presented sequentially at the center of a computer monitor. Brightness and length of the choice targets were proportional to the amount of liquid reward (1, 2, or 4 drops) and the number of the visual-discrimination trials (1, 2, or 4 trials) needed, respectively. After both first and second choice targets had been presented, the same two choice targets simultaneously reappeared side by side of the fixation point. The monkey was required to choose one of the two targets by touching the corresponding bar in the chair. Then, the chosen reward schedule task was presented.<br /><br />We recorded 256 neurons in the monkey OFC during the decision-making schedule task (137 and 119 neurons from each monkey). The choice target values were estimated from the monkey's choice behavior using a standard exponential discounting model of reward value. Applying a generalized linear model to the data, showed 26.6% (68/256) of the neurons had a significant correlation between the neuronal firing and the first and the second choice target values, that is, they encoded information about the first choice target, 14.8% (38/256) of recorded neurons coded currently presented choice target values, that is, they encoded information about the stimulus currently being presented, 31/68 neurons had coefficients with the same signs, that is, they encoded information about the total possible value of the trial, and 37/68 neurons had different signs for the coefficients of 2 choice target terms, that is, they encoded information about which target was most valuable. This latter group of neurons can be interpreted as carrying information for how to choose the most valuable target. <br /><br />To determine whether the information might be used for making a choice, we injected muscimol into the recording sites bilaterally to silence the local neuronal population. Following injection, choice accuracy and speed were degraded in value dependent manner. Thus, OFC not only encodes information about reward value and the best choice, but seems to be necessary for normal choices to occur.<br /><br />One strong output of the orbitofrontal goes into the ventral striatum. Single unit recording and behavioral studies have implicated the ventral striatum in reward valuation and processing. We investigated whether muscimol-induced unilateral inactivation of ventral striatum would alter delay and/or reward size valuation, and then assessed whether the observed effects could be replicated through neuronal silencing with an inhibitory chemogenetic system.<br /><br />The monkey performed a stimulus-reward association task in which stimuli concurrently representing reward size and delay-to-reward were presented. In each trial, the monkey either accepted or rejected the offer presented; accepting the offer resulted in delivery of the reward predicted by the stimulus after the proposed wait time, refusing the offer allowed the monkey to begin a new trial with the potential for a new stimulus and different outcome. In the first phase of the study, muscimol was used to inactivate the right ventral striatum unilaterally. In muscimol treatment sessions, the monkey received a unilateral injection of muscimol into the ventral striatum. In control sessions, the same volume of vehicle was infused. In both muscimol treatment and control sessions, we observed similar accept rate patterns; the monkey was more likely to accept offers with higher reward values and shorter delays-to-reward. On muscimol treatment days, the monkey aborted significantly more trials.<br /><br />In the second phase of the study, an inhibitory chemogenetic receptor - hM4Di DREADD (Designer Receptor Exclusively Activated by Designer Drug), activated by exogenous ligand CNO - was targeted to the right ventral striatum. Systemic CNO injection (10 mg/kg) was used to induce temporary silencing. On CNO treatment days, the monkey aborted significantly more trials, similar to what happened with muscimol. <br /><br />In summary, although unilateral inactivation of ventral striatum appears insufficient to alter reward evaluation, it consistently produces an elevated rate of spontaneous early responding. Thus it seems as if even unilateral inactivation of this tissue impairs response inhibition, leading to the increase of inappropriate early responses.<br /><br />In the striatum, tonically active neurons (TANs) are cholinergic inter-neurons. These TANs are thought to play a role in reward-related and motivational processes. In primates these neurons are frequently described as having a pattern of responses with a period of inhibition followed by excitation that is related to whether a reward is delivered. We hypothesized that these neurons might encode the value of the predicted outcome. We recorded neuronal responses from 63 TANs in two monkeys while they performed a task in which 9 combinations of reward were offered by mixing 3 sizes (2, 4 or 6 drops of water) and 3 delays (1, 5 or 10s). A visual cue predicting the combination being offered was presented throughout the trial. The monkeys were required to indicate whether to accept the offered reward or skip to the next trial hoping for a larger offer. The monkeys accepted more valuable rewards more often than less valuable rewards, a pattern of behavior modeled by the same exponential discounting model used above.<br /><br />We found that for basically all of the TANs the cue-elicited responses were related to the two factors, reward size and delay-to-reward through the spike count and/or the pattern of their responses over time. The TANs could be divided in two sets of 27 and 36 cells respectively, characterized by a large (R2 = 0.82) and small (R2 = 0.11) correlation between the response pattern as measured using principal components and the spike count.  Thus, there appear to be two groups of TANs, the first for which the modulation is represented by the number of spikes as is the common type of neural coding throughout the brain, and the second for which the modulation can only be represented as a temporal modulation of the response; the response strength does not change. This is a striking example of pure temporal coding where the spike count over the response period does not carry any information. There are few, if any, such clear examples of stimulus-related purely temporal coding in the nervous system.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2016 Reporting Period<br />	
+
+<span class="showlinknospace"><span style="font-weight: normal;font-size:0.8em;">
+
+		
+
+
+
+<a href="#" onclick="runthis('publications','searchview.taf?_function=bibs&ipid=96243&allpubs=Y&isajaxlink=Y&_UserReference=CD77D2EFFAC0A6485B38D642','publicationsu');  return false;">
+
+
+See Project Bibliography</a></span></span>
+		
+	
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 0.8em; font-style: italic;">
+Ordered by publication type and then author name.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr />Journal articles<hr />
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">1.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Abitbol R, Lebreton M, Hollard G, Richmond BJ, Bouret S, Pessiglione M (2015) Neural mechanisms underlying contextual dependency of subjective values: converging evidence from monkeys and humans. J Neurosci 35:2308-20
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25653384?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4315847/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25653384
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4315847 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">2.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Bouret S, Richmond BJ (2015) Sensitivity of locus ceruleus neurons to reward value for goal-directed actions. J Neurosci 35:4005-14
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/25740528?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4348193/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 25740528
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4348193 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+
+
+
+
+<div style="margin: 0px 0px 10px 0px;">
+<div style="margin: 0px 0px 5px 0px;">3.</div>
+<div style="margin: -1.6em 0px 5px 2em;">Eldridge MA, Lerchner W, Saunders RC, Kaneko H, Krausz KW, Gonzalez FJ, Ji B, Higuchi M, Minamimoto T, Richmond BJ (2016) Chemogenetic disconnection of monkey orbitofrontal and rhinal cortex reversibly disrupts reward value. Nat Neurosci 19:37-9
+
+<div class="showlink">
+
+    
+
+
+
+
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/26656645?dopt=Abstract" target="_blank">PubMed</a>
+
+
+        
+ &nbsp;&nbsp;&nbsp;&nbsp;<!-- if linktext is empty then just the basic link is provided. Otherwise, with link text, the link is fully qualified. Opens in new page if newtab is Y. -->
+
+
+
+
+
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4866611/?report=classic" target="_blank">Free Article</a>
+
+
+         <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div> <!-- show link -->
+<br />
+<div class="nolink">
+PubMed ID 26656645
+     &nbsp;&nbsp;&nbsp;&nbsp;Pubmed Central ID 4866611 <!-- looks for PMC ID -->
+     <!-- looks for PubMed ID -->
+</div><!-- no print link div -->
+
+</div> <!-- pubstring + links -->
+</div><!-- pub surround div -->
+
+
+ <!-- ends unordered rows -->
+ <!-- test for any unordered pubs -->
+
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>

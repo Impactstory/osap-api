@@ -1,0 +1,574 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NIH Annual Report MH002954</title>
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'> -->
+
+
+<link rel="icon" type="image/x-icon" href="../reportviews/styles/favicons/sci_search.ico" />	<link rel="stylesheet" type="text/css" media="screen" href="../reportviews/styles/searchview.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../reportviews/styles/printreports.css" />
+
+	
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+
+<script type="text/javascript" src="../scripts/scriptaculous.js"></script>
+<script type="text/javascript" src="../scripts/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+</head>
+<body><br/><br />
+
+
+<div style="font-weight: bold; text-align: center;">NIH Annual Intramural Research Report
+</div>
+
+
+
+<div id="container">
+	<div id="content">
+	<div class="contentlabel">MH002954-01</div>
+	<div class="datacontainer">
+
+<div class="rowdiv">
+<div class="headings">
+Report Title</div>
+</div><div class="rowdiv">
+<div class="data">Motor Activity Research Consortium for Health (mMarch)
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">2016 Fiscal Year</div></div>
+
+<div class="rowdiv">
+<div class="data"> October 01, 2015 -  September 30, 2016</div></div>
+
+
+<style>
+
+a  {
+    text-decoration: none;
+}
+</style>
+
+<!-- set up arrays -->
+
+
+
+
+
+
+ <!-- ends test for any LIs -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Principal Investigator  </div></div>
+
+<div class="rowdiv">
+<div class="data">
+<div class="topdiv">
+
+<div style="float: left; width: 50%;"> <!-- faculty test -->
+
+Kathleen R Merikangas; PhD
+
+</div>
+
+ <a href="https://irp.nih.gov/pi/kathleen-merikangas" target="_blank"><span class="irpbutton">
+IRP Faculty Profile</a></span>
+                        <div class="clearfix"></div> <!-- faculty test -->
+</div><br />
+
+</div>
+
+</div>
+
+
+ <!-- ends test for any pis -->
+
+
+ <!-- test for any PIs or LIs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">Research Organization</div>
+ </div>
+ <div class="rowdiv">
+<div class="data">
+
+
+Section on Developmental Genetic Epidemiology, NIMH
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="morelabstaff">
+
+
+<!-- display description li -->
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Lab Staff and Collaborators within the <i>Section on Developmental Genetic Epidemiology</i></div>
+
+
+<div class="morelist">
+<form id="morelabstaffu">6 of a total of 12 Lab Staff members are shown. </div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+ <!-- step through any ordered staff -->
+
+
+
+
+
+
+Lara Michelle Baez; BA<br />
+
+
+
+
+Lihong  Cui; MS<br />
+
+
+
+
+John David Eun; BA<br />
+
+
+
+
+Jaclyn Marie Franco; BA<br />
+
+
+
+
+Jennifer  Glaus; PhD<br />
+
+
+
+
+Jordan Taylor Johns; MS<br />
+
+ <!-- step through any unordered staff -->
+ <!-- test for 6 or more ordered labstaff -->
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('morelabstaff','searchview.taf?_function=showmore&ios=L&ipid=96916&onameset=Section on Developmental Genetic Epidemiology&isajaxlink=Y&_UserReference=3D56119B90545D7A5B38D417','morelabstaffu');  return false;">
+
+
+<span class="morelist">Show all 12</span></a></form></div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- test for display off all staff versus max of six -->
+ <!-- test for any labstaff -->
+
+
+
+
+	
+
+
+
+<!-- display collaborators from the same IC -->
+
+
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIMH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Carlos Alberto Zarate; MD  (Experimental Therapeutics and Pathophysiology Branch)<br />
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<!-- display collaborators from other ICs -->
+
+
+
+
+
+
+
+
+<div class="rowdiv">
+<div class="headings">
+Collaborators from other NIH organizations</div>
+
+
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Phillip  Shaw (NHGRI) <br />
+
+
+
+Nora D Volkow; MD (NIDA) <br />
+
+
+
+Gene-Jack  Wang; MD, MPH (NIAAA) <br />
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- display description li -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="exmembers">
+<div class="rowdiv">
+<div class="headings">
+Extramural Collaborators
+ </div>
+ 
+<div class="morelist">
+<form id="exmembersu">6 of a total of 42 collaborators are shown.
+</div>
+
+<div class="rowdiv">
+<div class="data">
+
+
+
+
+
+
+
+
+
+
+
+Frank  Bellivier; MD, PhD
+<i>(French Institute of Health and Medical Research)</i>
+<br />
+
+
+
+Ruth  Benca; MD, PhD
+<i>(University of California, Irvine School of Medicine)</i>
+<br />
+
+
+
+Ole  Bernt Fasmer; MD, PhD
+<i>(University of Bergen, Norway)</i>
+<br />
+
+
+
+Maja  Bucan; PhD
+<i>(University of Pennsylvania)</i>
+<br />
+
+
+
+Ciprian  Crainiceanu; PhD
+<i>(Johns Hopkins Bloomberg School of Public Health)</i>
+<br />
+
+
+
+Steven  Dilsaver; MD
+<i>(University of California, San Diego School of Medicine)</i>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" onclick="runthis('exmembers','searchview.taf?_function=showmore&ios=E&ipid=96916&isajaxlink=Y&_UserReference=3D56119B90545D7A5B38D417','exmembersu');  return false;">
+
+
+<span class="morelist">Show all 42</span></a></form></div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!-- if showmore or just first 6 -->
+
+ <!-- if any ex -->
+	
+
+
+
+<!-- display description li -->
+<div class="rowdiv">
+<div class="headings">
+Keywords
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+consortium, motor activity, circadian rhythm, eating, emotion, EMA, mood, network, sleep, bipolar
+
+</div>
+</div>
+
+
+<!-- goals -->
+
+
+<div class="rowdiv">
+<div class="headings">
+Goals and Objectives
+ </div></div>
+ <div class="rowdiv">
+<div class="data">
+The salience of motor activity as a core feature of bipolar disorder (BPD) has led us to devote substantial effort to the development of standardized procedures for its assessment, as well as to gain understanding of its biologic correlates and relationship with other core domains associated with mood and other disorders, and with human health in general.<br /><br />In collaboration with experts in analytic methods for actigraphy in the S.M.A.R.T. (Statistical Methods and Applications for Research in Technology) group in the Department of Biostatistics at the Johns Hopkins University Bloomberg School of Public Health, the Section on Developmental Genetic Epidemiology at the National Institute of Mental Health (NIMH) has established a collaborative activity network of 5 sites entitled Motor Activity Research Consortium for Health (mMARCH).  Core sites involved include: 1) the PsyCoLaus Study in Lausanne, Switzerland (Martin Preisig, MD, MPH; Peter Vollenweider, MD); 2) the Netherlands Study of Depression and Anxiety (NESDA) at VUmc in Amsterdam, Netherlands (Brenda Penninx, PhD; Femke Lamers, PhD); 3) the Youth Mental Health Clinic at the Brain &amp; Mind Research Institute (BMRI) in Campbelltown, Sydney, Australia (Ian Hickie, MD); 4) the Brisbane Adolescent Twin Project in Brisbane, Australia (Nick Martin, PhD; Margie Wright, PhD); and 5) the NIMH Family Study in Bethesda, MD (Kathleen Merikangas, PhD).  The core group selected the GENEActiv Device (Activinsights Ltd., geneactiv.org) to measure actigraphy, and most sites also include ecological momentary assessment (EMA). The overarching goal is to standardize methods and analytic approaches to investigate associations between motor activity, mood, and related disorders. The specific aims are to: 1) develop standard procedures for study administration, data management, and analyses of actigraphy data; 2) conduct cross-site and meta/mega analyses in order to increase power and cross validate common study questions; 3) develop and pilot collection of supplementary information using electronic or paper and pencil diary data; and 4) facilitate joint analyses of data to address topics defined by thematic subgroups (mood disorders, substance abuse, attention-deficit hyperactivity disorder (ADHD), genetic risk factors, sleep, physical health conditions, circadian rhythms, development, and inter-relationships of sleep, activity, eating, emotion, etc.).
+</div>
+</div>
+ <!-- allows for earlier years when this data was not collected -->
+ <!-- do not even try to display before 2006 -->
+
+<!-- summary -->
+<div class="rowdiv">
+<div class="headings">
+Summary
+ </div></div>
+ 
+ <div class="rowdiv">
+<div class="data">
+There is growing interest in studying the environmental, biologic and genetic correlates of the components of motor activity as well as the relationships between motor activity with sleep, exercise, mood, and cognitive functioning. Aggregation of the findings across these studies is complicated by the substantial differences in both the study goals, procedures and statistical methods. There is a need for greater coordination across studies in the procedures and analytic methods that can take into account advances in analysis of functional data.<br /><br />We have begun to present our preliminary data at scientific meetings and thus have received an increasing number of requests from multiple investigators collecting actigraphy data to join the mMARCH initiative. Although the study was originally centralized by the use of the GENEActiv device, subsequent work suggests that estimates from different devices can be adjusted for common analyses. We are currently comparing several devices and are developing empirical algorithms for calibrating measures across devices. Therefore, we have extended our collaboration to include more than 15 additional sites that are using alternative actigraphy devices, or are studying topics other than mood disorders (e.g., insomnia, ADHD, substance abuse, and cardiovascular disease). We are also including prospective studies of population samples of adults and children in the U.S., Switzerland and Australia that will use these devices to track activity over time. This expansion has led us to establish thematic subgroups that will focus on developing procedures, ancillary data collection and analyses of a range of relevant physical and mental health topics. A subgroup that focuses on genetics was also recently established.<br /><br />Public Health Impact:<br />The formation of the mMarch initiative will enable groups to efficiently share and combine data to learn more about how activity affects different disorders and diseases across many populations, including mood disorders, sleep patterns, circadian rhythms, genetic studies, emotion, eating, etc. This work will also define targets for prevention and intervention studies.<br /><br />Future Plans:<br />We propose to devote substantial effort to implement the goals and progress begun in the mMARCH initiative to address the aims described above. This administrative effort is balanced by the scientific opportunity to sample more than 5,000 people with actigraphy data and up to 1,000 with BPD without greater burden than those associated with our original collaborative network on actigraphy and mood disorders at 5 core sites. Establishing a larger network will also increase our ability to examine clinical and biologic subgroups of people with BPD, examine developmental patterns cross-sectionally across diverse age groups, and prospectively track patterns of activity and clinical correlates over time. The most important goal of the next year will be to develop standard measures of core domains assessed across the sites to facilitate common analyses of the data. We plan to have future publications of mega-analyses and to form topical work groups for mood disorders, sleep patterns, circadian rhythms, developmental trajectories, and genetic studies.  <br /><br />One of the most important activities of the mMARCH initiative will be the development of an international team of biostatisticians and mathematicians directed by Drs. Vadim Zipunnikov and Haochang Shou who will identify and develop methods for analyses of the complex data from actigraphy. The joint application of actigraphy and EMA provides powerful measures that track multiple systems simultaneously, but the analytic issues of these multilevel data are quite complex. Therefore, the Analytic Work Group of mMARCH will develop methods that address diverse research questions in the network by reviewing available analytic approaches. This comprehensive approach will simultaneously characterize multiple landmarks in circadian rhythms and will model inter- and intra-day interactions and dynamics in rest/activity and sleep patterns, thereby augmenting the available information and will empower the analytical framework uniformly applied across mMARCH sites.<br />
+</div>
+</div>
+<div id="publications">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- display pubs -->
+<form></form>
+<form id="publicationsu">
+<div class="rowdiv">
+<div class="headings">
+
+
+
+Publications Generated during the 2016 Reporting Period<br />	
+<!-- do not show project link -->
+
+
+<div id="publicationsloading" style="display: none;" class="loadingstyle">Loading Bibliography <img src="../NIDBstyles/images/ajaxgifs/blue_bar.gif" alt="Processing ..." width="43" height="11" hspace="5" vspace="0" border="0" align="bottom"></div>
+</div></div>
+
+<div class="rowdiv">
+
+<div class="data">
+
+There were no publications associated with this project
+ <!-- ends test for any pubs -->
+
+</div>
+
+</div>
+</form> <!-- ends form id publicationsu -->
+ <!-- show nothing if a non-bib type of project --></div></div>
+<div class="showlink">
+<hr /><div style="text-align: center; font-weight: bold;"><a href="../search/index.taf">Return to Intramural Search page?</a></div>
+</div>
+</body></html>
