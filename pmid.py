@@ -62,7 +62,9 @@ class Pmid(db.Model):
             return True
         if self.score_oa == 0:
             return False
-        return None
+
+        # embargo.  for now return True, maybe later return None, display differently in UI?
+        return True
 
 
     def update_score_code(self):
