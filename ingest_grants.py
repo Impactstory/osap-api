@@ -24,7 +24,6 @@ for report_year_file in report_year_files:
 ipids = list(set(ipids))
 print len(ipids)
 
-pmids = []
 i = 0
 for ipid in ipids:
     i += 1
@@ -97,12 +96,10 @@ for ipid in ipids:
                     new_pmid_obj = Pmid(id=pmid)
                     db.session.add(new_pmid_obj)
                 new_pmid_obj.pi_id = my_person.id
-                pmids += [pmid]
                 safe_commit(db)
 
         safe_commit(db)
 
-print pmids
 
 
 
