@@ -56,10 +56,8 @@ for ipid in ipids:
         print i, pi_name, ipid
         lookup = db.session.query(Person).filter(Person.normalized_name==normalize(pi_name)).all()
         if lookup:
-            print "found an old one"
             my_person = lookup[0]
         else:
-            print "making a new one"
             my_person = Person()
             my_person.raw_name = pi_name
             my_person.set_normalized_name()
@@ -98,7 +96,7 @@ for ipid in ipids:
                 else:
                     new_pmid_obj = Pmid(id=pmid)
                     db.session.add(new_pmid_obj)
-                my_person.pmids.append(new_pmid_obj)
+                new_pmid_obj.pi_id = my_person.id
                 pmids += [pmid]
                 safe_commit(db)
 
