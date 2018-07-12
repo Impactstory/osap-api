@@ -7,6 +7,7 @@ from app import db
 from app import logger
 from sqlalchemy import orm
 from util import normalize
+import datetime
 
 class Pmid(db.Model):
     id = db.Column(db.Text, primary_key=True)
@@ -48,6 +49,21 @@ class Pmid(db.Model):
         self.score_oa = 0
         if self.derived_pmcid:
             self.score_oa = 1
+        elif self.europepmc_api_raw:
+            published_date = self.europepmc_api_raw["firstPublicationDate"]
+            # if it is less than a year old it is under embargo
+            if published_date > (datetime.datetime.now() - datetime.timedelta(days=365)).isoformat():
+                print "under embargo", self.id
+                self.score_oa = None
+
+    @property
+    def display_score_oa(self):
+        if self.score_oa == 1:
+            return True
+        if self.score_oa == 0:
+            return False
+        return None
+
 
     def update_score_code(self):
         self.score_code = 0
@@ -92,7 +108,7 @@ class Pmid(db.Model):
                 "year": self.year,
             },
             "is_open": {
-                "paper": True if self.score_oa  else False,
+                "paper": self.display_score_oa,
                 "code": True if self.score_code  else False,
                 "data": True if self.score_data  else False
             }
