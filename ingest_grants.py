@@ -24,7 +24,6 @@ for report_year_file in report_year_files:
 ipids = list(set(ipids))
 print len(ipids)
 
-people = []
 pmids = []
 new_pmids = []
 i = 0
@@ -57,13 +56,14 @@ for ipid in ipids:
         print i, pi_name, ipid
         lookup = db.session.query(Person).filter(Person.normalized_name==normalize(pi_name)).all()
         if lookup:
+            print "found an old one"
             my_person = lookup[0]
         else:
+            print "making a new one"
             my_person = Person()
             my_person.raw_name = pi_name
             my_person.set_normalized_name()
             db.session.add(my_person)
-        safe_commit(db)
 
         try:
             my_person.nih_id = re.findall(ur'https://irp.nih.gov/pi/(.*?)"', text)[0]
@@ -92,17 +92,16 @@ for ipid in ipids:
 
         for pmid in list(set(new_pmids)):
             if pmid:
-                lookup = db.session.query(Pmid).filter(id==pmid).all()
+                lookup = db.session.query(Pmid).filter(Pmid.id==pmid).all()
                 if lookup:
                     new_pmid_obj = lookup[0]
                 else:
                     new_pmid_obj = Pmid(id=pmid)
-                new_pmid_obj.pi_id = my_person.id
-                db.session.merge(new_pmid_obj)
+                    db.session.add(new_pmid_obj)
+                my_person.pmids.append(new_pmid_obj)
                 pmids += [pmid]
+                safe_commit(db)
 
-        people.append(my_person)
-        db.session.merge(my_person)
         safe_commit(db)
 
 print pmids
