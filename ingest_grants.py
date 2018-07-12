@@ -25,10 +25,10 @@ ipids = list(set(ipids))
 print len(ipids)
 
 pmids = []
-new_pmids = []
 i = 0
 for ipid in ipids:
     i += 1
+    pmids_for_this_ipid = []
     # print ipid
     url = "https://intramural.nih.gov/search/searchview.taf?ipid={}".format(ipid)
 
@@ -81,14 +81,14 @@ for ipid in ipids:
                     pmids = data["esearchresult"]["idlist"]
                     pmid = pmids[0]
                     print "found pmid", pmid, len(pmids)
-                    new_pmids += [pmid]
+                    pmids_for_this_ipid += [pmid]
         except IndexError:
             print "didn't find pmid"
             pass
 
-        new_pmids += re.findall(u'https://www.ncbi.nlm.nih.gov/pubmed/(\d+)', text)
+        pmids_for_this_ipid += re.findall(u'https://www.ncbi.nlm.nih.gov/pubmed/(\d+)', text)
 
-        for pmid in list(set(new_pmids)):
+        for pmid in list(set(pmids_for_this_ipid)):
             if pmid:
                 lookup = db.session.query(Pmid).filter(Pmid.id==pmid).all()
                 if lookup:
