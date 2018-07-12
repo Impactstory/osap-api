@@ -25,7 +25,7 @@ class Pmid(db.Model):
     def init_on_load(self):
         pass
 
-    def call_europepmc(self, filter=None):
+    def call_europepmc(self, filter=""):
         url_template = u'https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(EXT_ID:"{id}"{filter})&resulttype=core&format=json&email=team@impactstory.org'
         url = url_template.format(id=self.id, filter=filter)
         r = requests.get(url)
