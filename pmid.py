@@ -130,7 +130,7 @@ class Pmid(db.Model):
                 "journal": "Nature"
             },
             "is_open": {
-                "paper": True if self.score_oa  else False,
+                "paper": self.display_score_oa,
                 "code": True if self.score_code  else False,
                 "data": True if self.score_data  else False
             }

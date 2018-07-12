@@ -77,7 +77,7 @@ class Person(db.Model):
 
         num = 0.0
         for pmid_pub in self.pmids:
-            if pmid_pub.score_oa:
+            if pmid_pub.display_score_oa:
                 num += 1.0
         return num/self.num_pubs
 
