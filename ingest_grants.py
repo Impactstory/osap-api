@@ -26,21 +26,35 @@ print len(ipids)
 
 people = []
 pmids = []
+new_pmids = []
+i = 0
 for ipid in ipids:
+    i += 1
+    # print ipid
     url = "https://intramural.nih.gov/search/searchview.taf?ipid={}".format(ipid)
-    print url
-    r = requests.get(url)
-    with open(os.path.join("data", "{}.txt".format(ipid)), 'w') as f:
-        f.write(r.content)
+
+    # commenting out for now because we have them all
+    # print url
+    # r = requests.get(url)
+    # with open(os.path.join("data/project_reports", "{}.txt".format(ipid)), 'w') as f:
+    #     f.write(r.content)
+    # text = r.text
+
+    with open(os.path.join("data/project_reports", "{}.txt".format(ipid)), 'r') as f:
+        text = f.read()
 
     pi_name = None
     try:
-        pi_name = re.findall(ur'<!-- faculty test -->\s*\n(.*)\n\s*<', r.text)[0]
-        print "pi_name", pi_name
+        pi_name = re.findall(ur'Lead Investigator.*?([A-Z].*?)\n', text, re.MULTILINE | re.DOTALL)[0]
     except IndexError:
-        print "no PI found for {}".format(url)
+        # print "no lead investigator found for {}".format(url)
+        try:
+            pi_name = re.findall(ur'<!-- faculty test -->\s*\n(.*)\n\s*', text)[0]
+        except IndexError:
+            print "no PI found for {}".format(url)
 
     if pi_name:
+        print i, pi_name, ipid
         lookup = db.session.query(Person).filter(Person.normalized_name==normalize(pi_name)).all()
         if lookup:
             my_person = lookup[0]
@@ -52,16 +66,37 @@ for ipid in ipids:
         safe_commit(db)
 
         try:
-            my_person.nih_id = re.findall(ur'https://irp.nih.gov/pi/(.*?)"', r.text)[0]
+            my_person.nih_id = re.findall(ur'https://irp.nih.gov/pi/(.*?)"', text)[0]
         except IndexError:
             pass
 
-        new_pmids = re.findall(u'https://www.ncbi.nlm.nih.gov/pubmed/(\d+)', r.text)
-        new_pmid_objects = []
+        try:
+            in_press_articles = re.findall(u'^.*?\)\s*(.*?), in press', text, re.MULTILINE)
+            for in_press_article in in_press_articles:
+                title = in_press_article.rsplit(". ", 1)[0]
+                if len(title) < 200:
+                    # print title
+                    url_pattern = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&term=({})&field=title&email=team@impactstory.org"
+                    url = url_pattern.format(title)
+                    r = requests.get(url)
+                    data = r.json()
+                    pmids = data["esearchresult"]["idlist"]
+                    pmid = pmids[0]
+                    print "found pmid", pmid, len(pmids)
+                    new_pmids += [pmid]
+        except IndexError:
+            print "didn't find pmid"
+            pass
+
+        new_pmids += re.findall(u'https://www.ncbi.nlm.nih.gov/pubmed/(\d+)', text)
+
         for pmid in list(set(new_pmids)):
-            if pmid and not Pmid.query.filter(id==pmid).all():
-                new_pmid_obj = Pmid(id=pmid)
-                new_pmid_objects.append(new_pmid_obj)
+            if pmid:
+                lookup = db.session.query(Pmid).filter(id==pmid).all()
+                if lookup:
+                    new_pmid_obj = lookup[0]
+                else:
+                    new_pmid_obj = Pmid(id=pmid)
                 new_pmid_obj.pi_id = my_person.id
                 db.session.merge(new_pmid_obj)
                 pmids += [pmid]
