@@ -52,9 +52,11 @@ class Pmid(db.Model):
         elif self.europepmc_api_raw:
             published_date = self.europepmc_api_raw["firstPublicationDate"]
             # if it is less than a year old it is under embargo
-            if published_date > (datetime.datetime.now() - datetime.timedelta(days=365)).isoformat():
+            if published_date > (datetime.datetime.now() - datetime.timedelta(days=365)).isoformat() or \
+                    (hasattr(self.europepmc_api_raw, "embargoDate") and self.europepmc_api_raw["embargoDate"] > datetime.datetime.now().isoformat()):
                 print "under embargo", self.id
                 self.score_oa = None
+
 
     @property
     def display_score_oa(self):
