@@ -87,7 +87,7 @@ class Pmid(db.Model):
             self.open_status_code = "open"
 
     def update_open_status_data(self):
-        self.open_status_code = "closed"
+        self.open_status_data = "closed"
         filter = "+and+(dryad+or+figshare+or+dataverse+or+openneuro.org+or+ndar)"
         response = self.call_europepmc(filter)
         if response:
