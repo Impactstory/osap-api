@@ -72,13 +72,13 @@ class Person(db.Model):
         return len(self.pmids)
 
     @property
-    def score_oa(self):
+    def score_paper(self):
         if self.num_pubs == 0:
             return 0
 
         num = 0.0
         for pmid_pub in self.pmids:
-            if pmid_pub.open_status_paper != "closed":
+            if pmid_pub.has_open_paper:
                 num += 1.0
         return num/self.num_pubs
 
@@ -89,7 +89,7 @@ class Person(db.Model):
 
         num = 0.0
         for pmid_pub in self.pmids:
-            if pmid_pub.open_status_code != "closed":
+            if pmid_pub.has_open_code:
                 num += 1.0
         return num/self.num_pubs
 
@@ -100,13 +100,13 @@ class Person(db.Model):
 
         num = 0.0
         for pmid_pub in self.pmids:
-            if pmid_pub.open_status_data != "closed":
+            if pmid_pub.has_open_data:
                 num += 1.0
         return num/self.num_pubs
 
     @property
     def score_total(self):
-        return round((0.0+ self.score_oa + self.score_code + self.score_data) / 3, 3)
+        return round((0.0 + self.score_paper + self.score_code + self.score_data) / 3, 3)
 
     def to_dict_detailed(self):
         response = self.to_dict_summary()
@@ -121,7 +121,7 @@ class Person(db.Model):
             "nih_webpage": self.nih_webpage,
             "num_papers": self.num_pubs,
             "scores": {
-                "paper": self.score_oa,
+                "paper": self.score_paper,
                 "code": self.score_code,
                 "data": self.score_data,
                 "total": self.score_total
