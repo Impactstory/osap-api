@@ -78,7 +78,7 @@ class Person(db.Model):
 
         num = 0.0
         for pmid_pub in self.pmids:
-            if pmid_pub.display_score_oa:
+            if pmid_pub.open_status_paper != "closed":
                 num += 1.0
         return num/self.num_pubs
 
@@ -89,7 +89,7 @@ class Person(db.Model):
 
         num = 0.0
         for pmid_pub in self.pmids:
-            if pmid_pub.score_code:
+            if pmid_pub.open_status_code != "closed":
                 num += 1.0
         return num/self.num_pubs
 
@@ -100,7 +100,7 @@ class Person(db.Model):
 
         num = 0.0
         for pmid_pub in self.pmids:
-            if pmid_pub.score_data:
+            if pmid_pub.open_status_data != "closed":
                 num += 1.0
         return num/self.num_pubs
 

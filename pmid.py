@@ -14,9 +14,9 @@ class Pmid(db.Model):
     pmcid = db.Column(db.Text)
     pi_id = db.Column(db.Text, db.ForeignKey('person.id'))
     europepmc_api_raw = db.Column(JSONB)
-    score_oa = db.Column(db.Numeric)
-    score_code = db.Column(db.Numeric)
-    score_data = db.Column(db.Numeric)
+    open_status_paper = db.Column(db.Text)
+    open_status_code = db.Column(db.Text)
+    open_status_data = db.Column(db.Text)
 
     def __init__(self, **kwargs):
         super(self.__class__, self).__init__(**kwargs)
@@ -45,48 +45,54 @@ class Pmid(db.Model):
             return None
         return self.europepmc_api_raw[field]
 
-    def update_score_oa(self):
-        self.score_oa = 0
+    @property
+    def has_open_data(self):
+        if self.open_status_data in ["open"]:
+            return True
+        return False
+
+    @property
+    def has_open_code(self):
+        if self.open_status_code in ["open"]:
+            return True
+        return False
+
+    @property
+    def has_open_paper(self):
+        if self.open_status_paper in ["open", "embargo"]:
+            return True
+        return False
+
+    def update_open_status_paper(self):
+        self.open_status_paper = "closed"
         if self.derived_pmcid:
-            self.score_oa = 1
+            self.open_status_paper = "open"
         elif self.europepmc_api_raw:
             published_date = self.europepmc_api_raw["firstPublicationDate"]
             # if it has an embargo date it is under embargo
             if "embargoDate" in self.europepmc_api_raw and self.europepmc_api_raw["embargoDate"] > datetime.datetime.now().isoformat():
                 print "under embargo", self.id
-                self.score_oa = None
+                self.open_status_paper = "embargo"
             # or if it is less than a year old it is under embargo
             elif published_date > (datetime.datetime.now() - datetime.timedelta(days=365)).isoformat():
                 print "under embargo", self.id
-                self.score_oa = None
+                self.open_status_paper = "embargo"
 
-
-    @property
-    def display_score_oa(self):
-        if self.score_oa == 1:
-            return True
-        if self.score_oa == 0:
-            return False
-
-        # embargo.  for now return True, maybe later return None, display differently in UI?
-        return True
-
-
-    def update_score_code(self):
-        self.score_code = 0
+    def update_open_status_code(self):
+        self.open_status_code = "closed"
         filter = "+and+github"
         response = self.call_europepmc(filter)
         if response:
             print "found open code!"
-            self.score_code = 1
+            self.open_status_code = "open"
 
-    def update_score_data(self):
-        # self.score_data = 0
+    def update_open_status_data(self):
+        self.open_status_code = "closed"
         filter = "+and+(dryad+or+figshare+or+dataverse+or+openneuro.org+or+ndar)"
         response = self.call_europepmc(filter)
         if response:
             print "found open data!"
-            self.score_data = 1
+            self.open_status_data = "open"
 
     @property
     def derived_pmcid(self):
@@ -115,9 +121,14 @@ class Pmid(db.Model):
                 "year": self.year,
             },
             "is_open": {
-                "paper": self.display_score_oa,
-                "code": True if self.score_code  else False,
-                "data": True if self.score_data  else False
+                "paper": self.has_open_paper,
+                "code": self.has_open_code,
+                "data": self.has_open_data
+            },
+            "open_status": {
+                "paper": self.open_status_paper,
+                "code": self.open_status_code,
+                "data": self.open_status_data,
             }
         }
         return response
@@ -131,13 +142,17 @@ class Pmid(db.Model):
                 "doi": self.doi,
                 "title": self.title,
                 "year": self.year,
-                "authors": self.authors,
-                "journal": "Nature"
+                "authors": self.authors
             },
             "is_open": {
-                "paper": self.display_score_oa,
-                "code": True if self.score_code  else False,
-                "data": True if self.score_data  else False
+                "paper": self.has_open_paper,
+                "code": self.has_open_code,
+                "data": self.has_open_data
+            },
+            "open_status": {
+                "paper": self.open_status_paper,
+                "code": self.open_status_code,
+                "data": self.open_status_data,
             }
         }
         return response
