@@ -44,14 +44,7 @@ class Person(db.Model):
 
     @property
     def parsed_name(self):
-        name_no_semicolons = self.raw_name.replace(";", ",")
-
-        # hack because this is causing problems on "Peter A Bandettini, BS PhD")
-        name_no_semicolons = name_no_semicolons.replace(", BSEE", "")
-        name_no_semicolons = name_no_semicolons.replace(", BS", "")
-        name_no_semicolons = name_no_semicolons.replace(", SB", "")
-        name_no_semicolons = name_no_semicolons.replace(", MSSE", "")
-
+        name_no_semicolons = self.raw_name.split(";")[0]
         return HumanName(name_no_semicolons)
 
     @property
