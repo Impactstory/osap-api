@@ -54,13 +54,11 @@ class Pmid(db.Model):
 
     @property
     def overrides_newest_first(self):
-        pass
+        return sorted(self.overrides, key=lambda x: x.created, reverse=True)
 
-    @property
     def has_override(self, key):
-        return [key in override.key for override in self.overrides]
+        return [key in override.key for override in self.overrides if override.key]
 
-    @property
     def override(self, key):
         for override in self.overrides_newest_first:
             if override.key == key:
