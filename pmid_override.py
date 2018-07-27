@@ -13,8 +13,8 @@ import datetime
 from util import safe_commit
 
 
-def add_pmid_override(pmid, **kwargs):
-    my_pmid_override = PmidOverride(**kwargs)
+def add_pmid_override(pmid, genre, **kwargs):
+    my_pmid_override = PmidOverride(pmid=pmid, genre=genre, **kwargs)
     db.session.add(my_pmid_override)
     safe_commit(db)
 

@@ -86,12 +86,13 @@ def get_paper(pmid):
     my_paper = Pmid.query.get(pmid)
     return jsonify(my_paper.to_dict())
 
+# curl -d '{"is_na":true}' -H "Content-Type: application/json" -X POST http://localhost:5002/paper/26654786/open_status/code
+# curl -d '{"link":"http://cnn.com"}' -H "Content-Type: application/json" -X POST http://localhost:5002/paper/26654786/open_status/data
+
+
 @app.route('/paper/<pmid>/open_status/<genre>', methods=["POST"])
 def open_status_post(pmid, genre):
-    link = request.json.get("link", None)
-    comment = request.json.get("comment", None)
-    is_na = request.json.get("is_na", None)
-    add_pmid_override(pmid, genre, link, comment, is_na)
+    add_pmid_override(pmid, genre, **request.json)
     my_paper = Pmid.query.get(pmid)
     return jsonify(my_paper.to_dict())
 

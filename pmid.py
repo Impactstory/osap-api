@@ -194,7 +194,7 @@ class Pmid(db.Model):
                 "doi": self.doi,
                 "title": self.title,
                 "year": self.year,
-                "authors": self.authors
+                "authors": self.authors,
             },
             "is_open": {
                 "paper": self.has_open_paper,
