@@ -67,25 +67,19 @@ class Pmid(db.Model):
 
     @property
     def has_open_data(self):
-        if self.has_override("data"):
-            return self.override("data")
-        if self.open_status_data in ["open"]:
+        if self.open_status_data_with_overrides and self.open_status_data_with_overrides not in ["closed"]:
             return True
         return False
 
     @property
     def has_open_code(self):
-        if self.has_override("code"):
-            return self.override("code")
-        if self.open_status_code in ["open"]:
+        if self.open_status_code_with_overrides and self.open_status_code_with_overrides not in ["closed"]:
             return True
         return False
 
     @property
     def has_open_paper(self):
-        if self.has_override("paper"):
-            return self.override("paper")
-        if self.open_status_paper in ["open", "embargo"]:
+        if self.open_status_paper_with_overrides and self.open_status_paper_with_overrides not in ["closed"]:
             return True
         return False
 
@@ -121,6 +115,26 @@ class Pmid(db.Model):
             self.open_status_data = "open"
 
     @property
+    def open_status_paper_with_overrides(self):
+        if self.has_override("paper"):
+            return self.override("paper")
+        return self.open_status_paper
+
+
+    @property
+    def open_status_code_with_overrides(self):
+        if self.has_override("code"):
+            return self.override("code")
+        return self.open_status_code
+
+
+    @property
+    def open_status_data_with_overrides(self):
+        if self.has_override("data"):
+            return self.override("data")
+        return self.open_status_data
+
+    @property
     def derived_pmcid(self):
         return self.get_from_europepmc_api_raw("pmcid")
 
@@ -152,9 +166,9 @@ class Pmid(db.Model):
                 "data": self.has_open_data
             },
             "open_status": {
-                "paper": self.open_status_paper,
-                "code": self.open_status_code,
-                "data": self.open_status_data,
+                "paper": self.open_status_paper_with_overrides,
+                "code": self.open_status_code_with_overrides,
+                "data": self.open_status_data_with_overrides,
             }
         }
         return response
