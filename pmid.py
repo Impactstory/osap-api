@@ -146,11 +146,11 @@ class Pmid(db.Model):
             "metadata": {
                 "year": self.year,
             },
-            # "is_open": {
-            #     "paper": self.has_open_paper,
-            #     "code": self.has_open_code,
-            #     "data": self.has_open_data
-            # },
+            "is_open": {
+                "paper": self.has_open_paper,
+                "code": self.has_open_code,
+                "data": self.has_open_data
+            },
             "open_status": {
                 "paper": self.open_status_paper,
                 "code": self.open_status_code,
@@ -170,11 +170,11 @@ class Pmid(db.Model):
                 "year": self.year,
                 "authors": self.authors
             },
-            # "is_open": {
-            #     "paper": self.has_open_paper,
-            #     "code": self.has_open_code,
-            #     "data": self.has_open_data
-            # },
+            "is_open": {
+                "paper": self.has_open_paper,
+                "code": self.has_open_code,
+                "data": self.has_open_data
+            },
             "open_status": {
                 "paper": self.open_status_paper,
                 "code": self.open_status_code,
