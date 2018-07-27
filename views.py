@@ -9,11 +9,11 @@ import os
 import sys
 import shortuuid
 
-from person import Person
-from pmid import Pmid
-
 from app import app
 from app import db
+from person import Person
+from pmid import Pmid
+from pmid_override import add_pmid_override
 
 
 def abort_json(status_code, msg):
@@ -79,6 +79,13 @@ def get_persons():
 def get_papers():
     responses = [p.to_dict_sparkline() for p in Pmid.query.all()]
     return jsonify({"results": responses})
+
+@app.route('/paper/<pmid>', methods=["POST"])
+def post_update(pmid):
+    update_key = request.json["key"]  # could be paper/data/code
+    update_value = request.json["value"]
+    add_pmid_override(pmid, update_key, update_value)
+    return jsonify({"response": "success"})
 
 
 if __name__ == "__main__":

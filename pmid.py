@@ -11,12 +11,19 @@ import datetime
 
 class Pmid(db.Model):
     id = db.Column(db.Text, primary_key=True)
-    pmcid = db.Column(db.Text)
     pi_id = db.Column(db.Text, db.ForeignKey('person.id'))
     europepmc_api_raw = db.Column(JSONB)
     open_status_paper = db.Column(db.Text)
     open_status_code = db.Column(db.Text)
     open_status_data = db.Column(db.Text)
+
+    overrides = db.relationship(
+        'PmidOverride',
+        lazy='subquery',
+        cascade="all, delete-orphan",
+        backref=db.backref("pmid_override", lazy="subquery"),
+        foreign_keys="PmidOverride.pmid"
+    )
 
     def __init__(self, **kwargs):
         super(self.__class__, self).__init__(**kwargs)
@@ -46,19 +53,40 @@ class Pmid(db.Model):
         return self.europepmc_api_raw[field]
 
     @property
+    def overrides_newest_first(self):
+        pass
+
+    @property
+    def has_override(self, key):
+        return [key in override.key for override in self.overrides]
+
+    @property
+    def override(self, key):
+        for override in self.overrides_newest_first:
+            if override.key == key:
+                return override.value
+        return None
+
+    @property
     def has_open_data(self):
+        if self.has_override("data"):
+            return self.override("data")
         if self.open_status_data in ["open"]:
             return True
         return False
 
     @property
     def has_open_code(self):
+        if self.has_override("code"):
+            return self.override("code")
         if self.open_status_code in ["open"]:
             return True
         return False
 
     @property
     def has_open_paper(self):
+        if self.has_override("paper"):
+            return self.override("paper")
         if self.open_status_paper in ["open", "embargo"]:
             return True
         return False
@@ -120,11 +148,11 @@ class Pmid(db.Model):
             "metadata": {
                 "year": self.year,
             },
-            "is_open": {
-                "paper": self.has_open_paper,
-                "code": self.has_open_code,
-                "data": self.has_open_data
-            },
+            # "is_open": {
+            #     "paper": self.has_open_paper,
+            #     "code": self.has_open_code,
+            #     "data": self.has_open_data
+            # },
             "open_status": {
                 "paper": self.open_status_paper,
                 "code": self.open_status_code,
@@ -144,11 +172,11 @@ class Pmid(db.Model):
                 "year": self.year,
                 "authors": self.authors
             },
-            "is_open": {
-                "paper": self.has_open_paper,
-                "code": self.has_open_code,
-                "data": self.has_open_data
-            },
+            # "is_open": {
+            #     "paper": self.has_open_paper,
+            #     "code": self.has_open_code,
+            #     "data": self.has_open_data
+            # },
             "open_status": {
                 "paper": self.open_status_paper,
                 "code": self.open_status_code,
@@ -158,6 +186,6 @@ class Pmid(db.Model):
         return response
 
     def __repr__(self):
-        return u"<Pmid ({}, {})>".format(self.id, self.pmcid)
+        return u"<Pmid ({}, {})>".format(self.id, self.derived_pmcid)
 
 
