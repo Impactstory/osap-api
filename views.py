@@ -75,17 +75,25 @@ def get_persons():
     sorted_responses = sorted(responses, key=lambda k: k["scores"]["total"], reverse=True)
     return jsonify({"results": sorted_responses})
 
+
 @app.route('/papers', methods=["GET"])
 def get_papers():
     responses = [p.to_dict_sparkline() for p in Pmid.query.all()]
     return jsonify({"results": responses})
 
-@app.route('/paper/<pmid>', methods=["POST"])
-def post_update(pmid):
-    update_key = request.json["key"]  # could be paper/data/code
-    update_value = request.json["value"]
-    add_pmid_override(pmid, update_key, update_value)
-    return jsonify({"response": "success"})
+@app.route('/paper/<pmid>', methods=["GET"])
+def get_paper(pmid):
+    my_paper = Pmid.query.get(pmid)
+    return jsonify(my_paper.to_dict())
+
+@app.route('/paper/<pmid>/open_status/<genre>', methods=["POST"])
+def open_status_post(pmid, genre):
+    link = request.json.get("link", None)
+    comment = request.json.get("comment", None)
+    is_na = request.json.get("is_na", None)
+    add_pmid_override(pmid, genre, link, comment, is_na)
+    my_paper = Pmid.query.get(pmid)
+    return jsonify(my_paper.to_dict())
 
 
 if __name__ == "__main__":

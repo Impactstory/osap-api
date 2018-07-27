@@ -13,9 +13,8 @@ import datetime
 from util import safe_commit
 
 
-def add_pmid_override(pmid, key, value):
-    print pmid, key, value
-    my_pmid_override = PmidOverride(pmid=pmid, key=key, value=value)
+def add_pmid_override(pmid, **kwargs):
+    my_pmid_override = PmidOverride(**kwargs)
     db.session.add(my_pmid_override)
     safe_commit(db)
 
@@ -23,8 +22,10 @@ class PmidOverride(db.Model):
     id = db.Column(db.Text, primary_key=True)
     created = db.Column(db.DateTime)
     pmid = db.Column(db.Text, db.ForeignKey('pmid.id'))
-    key = db.Column(db.Text)
-    value = db.Column(db.Text)
+    genre = db.Column(db.Text)
+    link = db.Column(db.Text)
+    comment = db.Column(db.Text)
+    is_na = db.Column(db.Boolean)
 
     def __init__(self, **kwargs):
         self.id = shortuuid.uuid()[0:10]
@@ -32,6 +33,6 @@ class PmidOverride(db.Model):
         super(self.__class__, self).__init__(**kwargs)
 
     def __repr__(self):
-        return u"<PmidOverride ({}) {} {}={}>".format(self.id, self.pmid, self.key, self.value)
+        return u"<PmidOverride ({}) {}>".format(self.id, self.pmid, self.genre)
 
 

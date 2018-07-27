@@ -56,13 +56,13 @@ class Pmid(db.Model):
     def overrides_newest_first(self):
         return sorted(self.overrides, key=lambda x: x.created, reverse=True)
 
-    def has_override(self, key):
-        return [key in override.key for override in self.overrides if override.key]
+    def has_override(self, genre):
+        return [genre in override.genre for override in self.overrides if override.genre]
 
-    def override(self, key):
+    def override(self, genre):
         for override in self.overrides_newest_first:
-            if override.key == key:
-                return override.value
+            if override.genre == genre:
+                return override
         return None
 
     @property
@@ -116,22 +116,34 @@ class Pmid(db.Model):
 
     @property
     def open_status_paper_with_overrides(self):
-        if self.has_override("paper"):
-            return self.override("paper")
+        override = self.override("paper")
+        if override:
+            if override.is_na:
+                return "na"
+            elif override.link:
+                return "open"
         return self.open_status_paper
 
 
     @property
     def open_status_code_with_overrides(self):
-        if self.has_override("code"):
-            return self.override("code")
+        override = self.override("code")
+        if override:
+            if override.is_na:
+                return "na"
+            elif override.link:
+                return "open"
         return self.open_status_code
 
 
     @property
     def open_status_data_with_overrides(self):
-        if self.has_override("data"):
-            return self.override("data")
+        override = self.override("data")
+        if override:
+            if override.is_na:
+                return "na"
+            elif override.link:
+                return "open"
         return self.open_status_data
 
     @property
@@ -190,9 +202,9 @@ class Pmid(db.Model):
                 "data": self.has_open_data
             },
             "open_status": {
-                "paper": self.open_status_paper,
-                "code": self.open_status_code,
-                "data": self.open_status_data,
+                "paper": self.open_status_paper_with_overrides,
+                "code": self.open_status_code_with_overrides,
+                "data": self.open_status_data_with_overrides,
             }
         }
         return response
