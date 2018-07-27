@@ -159,6 +159,14 @@ class Pmid(db.Model):
         return self.get_from_europepmc_api_raw("title")
 
     @property
+    def journal(self):
+        return self.get_from_europepmc_api_raw("journalInfo")["journal"]["title"]
+
+    @property
+    def abstract(self):
+        return self.get_from_europepmc_api_raw("abstractText")
+
+    @property
     def year(self):
         return self.get_from_europepmc_api_raw("pubYear")
 
@@ -195,6 +203,8 @@ class Pmid(db.Model):
                 "title": self.title,
                 "year": self.year,
                 "authors": self.authors,
+                "journal": self.journal,
+                "abstract": self.abstract
             },
             "is_open": {
                 "paper": self.has_open_paper,
