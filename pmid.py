@@ -117,33 +117,24 @@ class Pmid(db.Model):
     @property
     def open_status_paper_with_overrides(self):
         override = self.override("paper")
-        if override:
-            if override.is_na:
-                return "na"
-            elif override.link:
-                return "open"
+        if override and override.open_status:
+            return override.open_status
         return self.open_status_paper
 
 
     @property
     def open_status_code_with_overrides(self):
         override = self.override("code")
-        if override:
-            if override.is_na:
-                return "na"
-            elif override.link:
-                return "open"
+        if override and override.open_status:
+            return override.open_status
         return self.open_status_code
 
 
     @property
     def open_status_data_with_overrides(self):
         override = self.override("data")
-        if override:
-            if override.is_na:
-                return "na"
-            elif override.link:
-                return "open"
+        if override and override.open_status:
+            return override.open_status
         return self.open_status_data
 
     @property
@@ -180,11 +171,6 @@ class Pmid(db.Model):
             "metadata": {
                 "year": self.year,
             },
-            "is_open": {
-                "paper": self.has_open_paper,
-                "code": self.has_open_code,
-                "data": self.has_open_data
-            },
             "open_status": {
                 "paper": self.open_status_paper_with_overrides,
                 "code": self.open_status_code_with_overrides,
@@ -205,11 +191,6 @@ class Pmid(db.Model):
                 "authors": self.authors,
                 "journal": self.journal,
                 "abstract": self.abstract
-            },
-            "is_open": {
-                "paper": self.has_open_paper,
-                "code": self.has_open_code,
-                "data": self.has_open_data
             },
             "open_status": {
                 "paper": self.open_status_paper_with_overrides,

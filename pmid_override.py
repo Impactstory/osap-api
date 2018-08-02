@@ -25,7 +25,7 @@ class PmidOverride(db.Model):
     genre = db.Column(db.Text)
     link = db.Column(db.Text)
     comment = db.Column(db.Text)
-    is_na = db.Column(db.Boolean)
+    open_status = db.Column(db.Text)
 
     def __init__(self, **kwargs):
         self.id = shortuuid.uuid()[0:10]
@@ -33,6 +33,6 @@ class PmidOverride(db.Model):
         super(self.__class__, self).__init__(**kwargs)
 
     def __repr__(self):
-        return u"<PmidOverride ({}) {}>".format(self.id, self.pmid, self.genre)
+        return u"<PmidOverride ({}) {} {}>".format(self.id, self.pmid, self.genre, self.open_status)
 
 
