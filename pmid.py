@@ -8,6 +8,7 @@ from app import logger
 from sqlalchemy import orm
 from util import normalize
 import datetime
+from pmid_override import PmidOverride
 
 class Pmid(db.Model):
     id = db.Column(db.Text, primary_key=True)

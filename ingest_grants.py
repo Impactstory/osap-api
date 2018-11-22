@@ -13,7 +13,9 @@ from util import normalize
 requests_cache.install_cache('my_requests_cache', expire_after=60*60*24*30, ignored_parameters=["ts"])
 
 # just last 5 years for now
-report_year_files = "nimh2013.htm nimh2014.htm nimh2015.htm nimh2016.htm nimh2017.htm".split()
+# from https://intramural.nih.gov/search/allreports.taf?_function=search
+# report_year_files = "nimh2013.htm nimh2014.htm nimh2015.htm nimh2016.htm nimh2017 nimh2018.htm".split()
+report_year_files = "nimh2018.htm".split()
 ipids = []
 for report_year_file in report_year_files:
     with open(os.path.join("data", report_year_file), 'r') as f:
@@ -32,14 +34,14 @@ for ipid in ipids:
     url = "https://intramural.nih.gov/search/searchview.taf?ipid={}".format(ipid)
 
     # commenting out for now because we have them all
-    # print url
-    # r = requests.get(url)
-    # with open(os.path.join("data/project_reports", "{}.txt".format(ipid)), 'w') as f:
-    #     f.write(r.content)
-    # text = r.text
+    print url
+    r = requests.get(url)
+    with open(os.path.join("data/project_reports", "{}.txt".format(ipid)), 'w') as f:
+        f.write(r.content)
+    text = r.text
 
-    with open(os.path.join("data/project_reports", "{}.txt".format(ipid)), 'r') as f:
-        text = f.read()
+    # with open(os.path.join("data/project_reports", "{}.txt".format(ipid)), 'r') as f:
+    #     text = f.read()
 
     pi_name = None
     try:
@@ -73,7 +75,7 @@ for ipid in ipids:
                 title = in_press_article.rsplit(". ", 1)[0]
                 if len(title) < 200:
                     # print title
-                    url_pattern = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&term=({})&field=title&email=team@impactstory.org"
+                    url_pattern = u"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&term=({})&field=title&email=team@impactstory.org"
                     url = url_pattern.format(title)
                     r = requests.get(url)
                     data = r.json()
