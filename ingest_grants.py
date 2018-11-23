@@ -14,17 +14,19 @@ requests_cache.install_cache('my_requests_cache', expire_after=60*60*24*30, igno
 
 # just last 5 years for now
 # from https://intramural.nih.gov/search/allreports.taf?_function=search
-# report_year_files = "nimh2013.htm nimh2014.htm nimh2015.htm nimh2016.htm nimh2017 nimh2018.htm".split()
-report_year_files = "nimh2018.htm".split()
-ipids = []
-for report_year_file in report_year_files:
-    with open(os.path.join("data", report_year_file), 'r') as f:
-        file_contents = f.read()
-    new_ipids = re.findall("ipid=(\d+)", file_contents)
-    print len(list(set(new_ipids)))
-    ipids += new_ipids
-ipids = list(set(ipids))
-print len(ipids)
+
+have_already_downloaded_everything=True  # hack for now to save time when debugging
+if not have_already_downloaded_everything:
+    report_year_files = "nimh2013.htm nimh2014.htm nimh2015.htm nimh2016.htm nimh2017 nimh2018.htm".split()
+    ipids = []
+    for report_year_file in report_year_files:
+        with open(os.path.join("data", report_year_file), 'r') as f:
+            file_contents = f.read()
+        new_ipids = re.findall("ipid=(\d+)", file_contents)
+        print len(list(set(new_ipids)))
+        ipids += new_ipids
+    ipids = list(set(ipids))
+    print len(ipids)
 
 i = 0
 for ipid in ipids:
