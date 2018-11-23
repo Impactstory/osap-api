@@ -46,9 +46,9 @@ class Person(db.Model):
     def parsed_name(self):
         name_no_semicolons = self.raw_name.split(";")[0]
         raw_human_name = HumanName(name_no_semicolons)
-        if raw_human_name["given"] == u"De Maw Chuang":
-            raw_human_name["given"] = "De Maw"
-            raw_human_name["family"] = "Chuang"
+        if raw_human_name["first"] == u"De Maw Chuang":
+            raw_human_name["first"] = "De Maw"
+            raw_human_name["last"] = "Chuang"
         return raw_human_name
 
     @property
